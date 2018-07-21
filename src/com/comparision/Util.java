@@ -29,12 +29,12 @@ public class Util {
      static List<String> ontologyFiles = new ArrayList<>();
 
 
-     static final String bowFolder = "BAG_OF_WORDS/";
-     static final String ontFolder = "DATASET_ONTOLOGY/";
-     static final String gdprTagFolder = "GDPR_TAGS/";
-     static final String bowTagsFolder = "PROPERTY_TERMS/";
-     static final String ONTOLOGY_PATH = "PHASE2_OUTPUT/gdpr-ethics.rdf";
-     static final Path REPORT_PATH = Paths.get("PHASE1_OUTPUT/report.txt");
+     static final String bowFolder = "Temp/BAG_OF_WORDS/";
+     static final String ontFolder = "Temp/DATASET_ONTOLOGY/";
+     static final String gdprTagFolder = "Temp/GDPR_TAGS/";
+     static final String bowTagsFolder = "Temp/PROPERTY_TERMS/";
+     static final String ONTOLOGY_PATH = "Temp/PHASE2_OUTPUT/gdpr-ethics.rdf";
+     static final Path REPORT_PATH = Paths.get("Temp/PHASE1_OUTPUT/report.txt");
 
 
 
