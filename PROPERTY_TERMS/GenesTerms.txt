@@ -1,0 +1,10 @@
+uniprot:Mutagenesis_Annotation
+biotop:Gene
+sio:SIO_010084
+sio:SIO_001076
+sio:SIO_010086
+sio:SIO_001348
+biopax:DnaReference
+biopax:Entity
+biopax:Gene
+biopax:GeneticInteraction

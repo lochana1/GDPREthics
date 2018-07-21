@@ -1,0 +1,5 @@
+dbpedia-owl:Embryology
+pext:EmbryoBodyPart
+biotop:EmbryonicStructure
+biotop:EmbryonicOrganism
+biotop:EmbryonicValueRegion

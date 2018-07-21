@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:void="http://rdfs.org/ns/void#"
+	xmlns:ns4="http://bio2rdf.org/bio2rdf_vocabulary:" >
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet_vocabulary:Clinical-Sign-And-Frequency">
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+    <rdfs:label xml:lang="en">Clinical Sign and Frequency [orphanet_vocabulary:Clinical-Sign-And-Frequency]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Sign and Frequency [orphanet_vocabulary:Clinical-Sign-And-Frequency]</rdfs:label>
+    <dcterms:title xml:lang="en">Clinical Sign and Frequency</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary:Clinical-Sign-And-Frequency</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical-Sign-And-Frequency</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet_vocabulary:Clinical-Sign-And-Frequency</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet_vocabulary:Resource">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet resource [orphanet_vocabulary:Resource]</rdfs:label>
+    <rdfs:label>orphanet resource [orphanet_vocabulary:Resource]</rdfs:label>
+    <rdfs:label>orphanet_resource resource [orphanet_vocabulary:Resource]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary resource [orphanet_vocabulary:Resource]</rdfs:label>
+    <rdfs:label>orphanet_vocabulary resource [orphanet_vocabulary:Resource]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_resource resource [orphanet_vocabulary:Resource]</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet_vocabulary:frequency">
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">frequency [orphanet_vocabulary:frequency]</rdfs:label>
+    <rdfs:label xml:lang="en">frequency [orphanet_vocabulary:frequency]</rdfs:label>
+    <dcterms:title xml:lang="en">frequency</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary:frequency</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">frequency</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet_vocabulary:frequency</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet_vocabulary:sign">
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sign [orphanet_vocabulary:sign]</rdfs:label>
+    <rdfs:label xml:lang="en">sign [orphanet_vocabulary:sign]</rdfs:label>
+    <dcterms:title xml:lang="en">sign</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary:sign</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sign</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet_vocabulary:sign</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet_vocabulary:sign-freq">
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label xml:lang="en">sign freq [orphanet_vocabulary:sign-freq]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sign freq [orphanet_vocabulary:sign-freq]</rdfs:label>
+    <dcterms:title xml:lang="en">sign freq</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary:sign-freq</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sign-freq</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet_vocabulary:sign-freq</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet_vocabulary:Disorder">
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+    <rdfs:label xml:lang="en">Disorder [orphanet_vocabulary:Disorder]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disorder [orphanet_vocabulary:Disorder]</rdfs:label>
+    <dcterms:title xml:lang="en">Disorder</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary:Disorder</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disorder</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet_vocabulary:Disorder</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet_vocabulary:disorder-flag">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disorder flag [orphanet_vocabulary:disorder-flag]</rdfs:label>
+    <rdfs:label xml:lang="en">disorder flag [orphanet_vocabulary:disorder-flag]</rdfs:label>
+    <dcterms:title xml:lang="en">disorder flag</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary:disorder-flag</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disorder-flag</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet_vocabulary:disorder-flag</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet_vocabulary:expert-link-url">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">expert link url [orphanet_vocabulary:expert-link-url]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">expert link url [orphanet_vocabulary:expert-link-url]</rdfs:label>
+    <dcterms:title xml:lang="en">expert link url</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary:expert-link-url</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">expert-link-url</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet_vocabulary:expert-link-url</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet_vocabulary:internal-id">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">internal id [orphanet_vocabulary:internal-id]</rdfs:label>
+    <rdfs:label xml:lang="en">internal id [orphanet_vocabulary:internal-id]</rdfs:label>
+    <dcterms:title xml:lang="en">internal id</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary:internal-id</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">internal-id</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet_vocabulary:internal-id</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet_vocabulary:synonym">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synonym [orphanet_vocabulary:synonym]</rdfs:label>
+    <rdfs:label xml:lang="en">synonym [orphanet_vocabulary:synonym]</rdfs:label>
+    <dcterms:title xml:lang="en">synonym</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary:synonym</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synonym</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet_vocabulary:synonym</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet_vocabulary:x-icd10">
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label xml:lang="en">x icd10 [orphanet_vocabulary:x-icd10]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x icd10 [orphanet_vocabulary:x-icd10]</rdfs:label>
+    <dcterms:title xml:lang="en">x icd10</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary:x-icd10</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-icd10</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet_vocabulary:x-icd10</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet_vocabulary:x-meddra">
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x meddra [orphanet_vocabulary:x-meddra]</rdfs:label>
+    <rdfs:label xml:lang="en">x meddra [orphanet_vocabulary:x-meddra]</rdfs:label>
+    <dcterms:title xml:lang="en">x meddra</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary:x-meddra</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-meddra</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet_vocabulary:x-meddra</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet_vocabulary:x-mesh">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">x mesh [orphanet_vocabulary:x-mesh]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x mesh [orphanet_vocabulary:x-mesh]</rdfs:label>
+    <dcterms:title xml:lang="en">x mesh</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary:x-mesh</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-mesh</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet_vocabulary:x-mesh</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet_vocabulary:x-obi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x obi [orphanet_vocabulary:x-obi]</rdfs:label>
+    <rdfs:label xml:lang="en">x obi [orphanet_vocabulary:x-obi]</rdfs:label>
+    <dcterms:title xml:lang="en">x obi</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary:x-obi</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-obi</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet_vocabulary:x-obi</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet_vocabulary:x-omim">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x omim [orphanet_vocabulary:x-omim]</rdfs:label>
+    <rdfs:label xml:lang="en">x omim [orphanet_vocabulary:x-omim]</rdfs:label>
+    <dcterms:title xml:lang="en">x omim</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary:x-omim</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-omim</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet_vocabulary:x-omim</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet_vocabulary:x-snomedct">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">x snomedct [orphanet_vocabulary:x-snomedct]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x snomedct [orphanet_vocabulary:x-snomedct]</rdfs:label>
+    <dcterms:title xml:lang="en">x snomedct</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary:x-snomedct</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-snomedct</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet_vocabulary:x-snomedct</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet_vocabulary:x-umls">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">x umls [orphanet_vocabulary:x-umls]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x umls [orphanet_vocabulary:x-umls]</rdfs:label>
+    <dcterms:title xml:lang="en">x umls</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary:x-umls</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-umls</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet_vocabulary:x-umls</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet_vocabulary:lower-bound">
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+    <rdfs:label xml:lang="en">lower bound [orphanet_vocabulary:lower-bound]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lower bound [orphanet_vocabulary:lower-bound]</rdfs:label>
+    <dcterms:title xml:lang="en">lower bound</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary:lower-bound</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lower-bound</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet_vocabulary:lower-bound</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet_vocabulary:prevalence">
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prevalence [orphanet_vocabulary:prevalence]</rdfs:label>
+    <rdfs:label xml:lang="en">prevalence [orphanet_vocabulary:prevalence]</rdfs:label>
+    <dcterms:title xml:lang="en">prevalence</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary:prevalence</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prevalence</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet_vocabulary:prevalence</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet_vocabulary:type-of-inheritance">
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type of inheritance [orphanet_vocabulary:type-of-inheritance]</rdfs:label>
+    <rdfs:label xml:lang="en">type of inheritance [orphanet_vocabulary:type-of-inheritance]</rdfs:label>
+    <dcterms:title xml:lang="en">type of inheritance</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary:type-of-inheritance</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type-of-inheritance</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet_vocabulary:type-of-inheritance</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet_vocabulary:upper-bound">
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+    <rdfs:label xml:lang="en">upper bound [orphanet_vocabulary:upper-bound]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">upper bound [orphanet_vocabulary:upper-bound]</rdfs:label>
+    <dcterms:title xml:lang="en">upper bound</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary:upper-bound</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">upper-bound</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet_vocabulary:upper-bound</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet:17949">
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+    <rdfs:label xml:lang="en">Disease-causing germline mutation(s) in [orphanet:17949]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease-causing germline mutation(s) in [orphanet:17949]</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Disorder-Gene-Association" />
+    <dcterms:title xml:lang="en">Disease-causing germline mutation(s) in</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet:17949</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17949</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet:17949</ns4:uri>
+    <!--
+    <p: xmlns:p="http://bio2rdf.org/bio2rdf_vocabulary:x-identifiers.org" rdf:resource="http://identifiers.org/orphanet/17949" />
+    -->
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet:17955">
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease-causing somatic mutation(s) in [orphanet:17955]</rdfs:label>
+    <rdfs:label xml:lang="en">Disease-causing somatic mutation(s) in [orphanet:17955]</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Disorder-Gene-Association" />
+    <dcterms:title xml:lang="en">Disease-causing somatic mutation(s) in</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet:17955</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17955</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet:17955</ns4:uri>
+    <!--
+    <p: xmlns:p="http://bio2rdf.org/bio2rdf_vocabulary:x-identifiers.org" rdf:resource="http://identifiers.org/orphanet/17955" />
+    -->
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet:17961">
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Major susceptibility factor in [orphanet:17961]</rdfs:label>
+    <rdfs:label xml:lang="en">Major susceptibility factor in [orphanet:17961]</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Disorder-Gene-Association" />
+    <dcterms:title xml:lang="en">Major susceptibility factor in</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet:17961</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17961</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet:17961</ns4:uri>
+    <!--
+    <p: xmlns:p="http://bio2rdf.org/bio2rdf_vocabulary:x-identifiers.org" rdf:resource="http://identifiers.org/orphanet/17961" />
+    -->
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet:17967">
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+    <rdfs:label xml:lang="en">Modifying germline mutation in [orphanet:17967]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modifying germline mutation in [orphanet:17967]</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Disorder-Gene-Association" />
+    <dcterms:title xml:lang="en">Modifying germline mutation in</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet:17967</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17967</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet:17967</ns4:uri>
+    <!--
+    <p: xmlns:p="http://bio2rdf.org/bio2rdf_vocabulary:x-identifiers.org" rdf:resource="http://identifiers.org/orphanet/17967" />
+    -->
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet:17973">
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+    <rdfs:label xml:lang="en">Modifying somatic mutation in [orphanet:17973]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modifying somatic mutation in [orphanet:17973]</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Disorder-Gene-Association" />
+    <dcterms:title xml:lang="en">Modifying somatic mutation in</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet:17973</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17973</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet:17973</ns4:uri>
+    <!--
+    <p: xmlns:p="http://bio2rdf.org/bio2rdf_vocabulary:x-identifiers.org" rdf:resource="http://identifiers.org/orphanet/17973" />
+    -->
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet:17979">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">Part of a fusion gene in [orphanet:17979]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Part of a fusion gene in [orphanet:17979]</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Disorder-Gene-Association" />
+    <dcterms:title xml:lang="en">Part of a fusion gene in</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet:17979</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17979</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet:17979</ns4:uri>
+    <!--
+    <p: xmlns:p="http://bio2rdf.org/bio2rdf_vocabulary:x-identifiers.org" rdf:resource="http://identifiers.org/orphanet/17979" />
+    -->
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet:17985">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role in the phenotype of [orphanet:17985]</rdfs:label>
+    <rdfs:label xml:lang="en">Role in the phenotype of [orphanet:17985]</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Disorder-Gene-Association" />
+    <dcterms:title xml:lang="en">Role in the phenotype of</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet:17985</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17985</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet:17985</ns4:uri>
+    <!--
+    <p: xmlns:p="http://bio2rdf.org/bio2rdf_vocabulary:x-identifiers.org" rdf:resource="http://identifiers.org/orphanet/17985" />
+    -->
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet:18273">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">Candidate gene tested in [orphanet:18273]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Candidate gene tested in [orphanet:18273]</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Disorder-Gene-Association" />
+    <dcterms:title xml:lang="en">Candidate gene tested in</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet:18273</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18273</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet:18273</ns4:uri>
+    <!--
+    <p: xmlns:p="http://bio2rdf.org/bio2rdf_vocabulary:x-identifiers.org" rdf:resource="http://identifiers.org/orphanet/18273" />
+    -->
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet_vocabulary:Gene">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">orphanet gene [orphanet_vocabulary:Gene]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet gene [orphanet_vocabulary:Gene]</rdfs:label>
+    <dcterms:title xml:lang="en">orphanet gene</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary:Gene</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gene</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet_vocabulary:Gene</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet_vocabulary:disorder">
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disorder [orphanet_vocabulary:disorder]</rdfs:label>
+    <rdfs:label xml:lang="en">disorder [orphanet_vocabulary:disorder]</rdfs:label>
+    <dcterms:title xml:lang="en">disorder</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary:disorder</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disorder</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet_vocabulary:disorder</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet_vocabulary:gene">
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene [orphanet_vocabulary:gene]</rdfs:label>
+    <rdfs:label xml:lang="en">gene [orphanet_vocabulary:gene]</rdfs:label>
+    <dcterms:title xml:lang="en">gene</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary:gene</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet_vocabulary:gene</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet_vocabulary:status">
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label xml:lang="en">status [orphanet_vocabulary:status]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">status [orphanet_vocabulary:status]</rdfs:label>
+    <dcterms:title xml:lang="en">status</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary:status</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">status</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet_vocabulary:status</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet_vocabulary:symbol">
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+    <rdfs:label xml:lang="en">symbol [orphanet_vocabulary:symbol]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symbol [orphanet_vocabulary:symbol]</rdfs:label>
+    <dcterms:title xml:lang="en">symbol</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary:symbol</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symbol</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet_vocabulary:symbol</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet_vocabulary:x-ensembl">
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x ensembl [orphanet_vocabulary:x-ensembl]</rdfs:label>
+    <rdfs:label xml:lang="en">x ensembl [orphanet_vocabulary:x-ensembl]</rdfs:label>
+    <dcterms:title xml:lang="en">x ensembl</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary:x-ensembl</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-ensembl</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet_vocabulary:x-ensembl</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet_vocabulary:x-genatlas">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">x genatlas [orphanet_vocabulary:x-genatlas]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x genatlas [orphanet_vocabulary:x-genatlas]</rdfs:label>
+    <dcterms:title xml:lang="en">x genatlas</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary:x-genatlas</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-genatlas</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet_vocabulary:x-genatlas</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet_vocabulary:x-hgnc">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">x hgnc [orphanet_vocabulary:x-hgnc]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x hgnc [orphanet_vocabulary:x-hgnc]</rdfs:label>
+    <dcterms:title xml:lang="en">x hgnc</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary:x-hgnc</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-hgnc</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet_vocabulary:x-hgnc</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet_vocabulary:x-iuphar">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">x iuphar [orphanet_vocabulary:x-iuphar]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x iuphar [orphanet_vocabulary:x-iuphar]</rdfs:label>
+    <dcterms:title xml:lang="en">x iuphar</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary:x-iuphar</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-iuphar</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet_vocabulary:x-iuphar</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet_vocabulary:x-reactome">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">x reactome [orphanet_vocabulary:x-reactome]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x reactome [orphanet_vocabulary:x-reactome]</rdfs:label>
+    <dcterms:title xml:lang="en">x reactome</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary:x-reactome</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-reactome</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet_vocabulary:x-reactome</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/orphanet_vocabulary:x-uniprot">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/orphanet_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">x uniprot [orphanet_vocabulary:x-uniprot]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x uniprot [orphanet_vocabulary:x-uniprot]</rdfs:label>
+    <dcterms:title xml:lang="en">x uniprot</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary:x-uniprot</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/orphanet_resource:bio2rdf.dataset.orphanet.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-uniprot</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orphanet_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/orphanet_vocabulary:x-uniprot</ns4:uri>
+  </rdf:Description>
+</rdf:RDF>
