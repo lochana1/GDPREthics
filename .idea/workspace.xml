@@ -1,84 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f864219-8d53-4880-b2f7-c4939f177884" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BAG_OF_WORDS/Vocab_Biology.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BAG_OF_WORDS/Vocab_Environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BAG_OF_WORDS/Vocab_Geography.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BAG_OF_WORDS/Vocab_Government.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BAG_OF_WORDS/Vocab_Health.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BAG_OF_WORDS/Vocab_Industry.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BAG_OF_WORDS/Vocab_IoT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BAG_OF_WORDS/Vocab_Metadata.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BAG_OF_WORDS/Vocab_Methods.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BAG_OF_WORDS/Vocab_People.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BAG_OF_WORDS/Vocab_Quality.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BAG_OF_WORDS/Vocab_RDF.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BAG_OF_WORDS/Vocab_Security.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BAG_OF_WORDS/Vocab_Services.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BAG_OF_WORDS/Vocab_Society.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BAG_OF_WORDS/Vocab_Time.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BAG_OF_WORDS/Vocab_Vocabularies.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATASET_ONTOLOGY/disgenet_void.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATASET_ONTOLOGY/omim.schema.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATASET_ONTOLOGY/orphanet.schema.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DetectEthicalConcerns.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GDPR_TAGS/Vocab_Biology_Areas.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GDPR_TAGS/Vocab_Environment_Areas.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GDPR_TAGS/Vocab_Geography_Areas.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GDPR_TAGS/Vocab_Government_Areas.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GDPR_TAGS/Vocab_Health_Areas.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GDPR_TAGS/Vocab_Industry_Areas.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GDPR_TAGS/Vocab_IoT_Areas.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GDPR_TAGS/Vocab_Metadata_Areas.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GDPR_TAGS/Vocab_Methods_Areas.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GDPR_TAGS/Vocab_People_Areas.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GDPR_TAGS/Vocab_Quality_Areas.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GDPR_TAGS/Vocab_RDF_Areas.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GDPR_TAGS/Vocab_Security_Areas.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GDPR_TAGS/Vocab_Services_Areas.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GDPR_TAGS/Vocab_Society_Areas.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GDPR_TAGS/Vocab_Time_Areas.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GDPR_TAGS/Vocab_Vocabularies_Areas.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROPERTY_TERMS/AcademyTags.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROPERTY_TERMS/AgentsTags.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROPERTY_TERMS/BiologyTags.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROPERTY_TERMS/CatalogsTags.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROPERTY_TERMS/ContractsTags.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROPERTY_TERMS/Details.text" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROPERTY_TERMS/EmbryoDetails.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROPERTY_TERMS/EmbryoTerms.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROPERTY_TERMS/EnvironmentTags.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROPERTY_TERMS/GenesTerms.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROPERTY_TERMS/GeographyTags.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROPERTY_TERMS/GovernmentTags.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROPERTY_TERMS/HealthTags.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROPERTY_TERMS/IOT_Tags.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROPERTY_TERMS/IndustryTags.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROPERTY_TERMS/MetaDataTags.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROPERTY_TERMS/MethodsTags.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROPERTY_TERMS/MultimediaTags.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROPERTY_TERMS/PeopleTags.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROPERTY_TERMS/PersonalTags.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROPERTY_TERMS/PersonalTerms.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROPERTY_TERMS/QualityTags.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROPERTY_TERMS/RDF_Tags.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROPERTY_TERMS/SecurityTags.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROPERTY_TERMS/ServicesTags.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROPERTY_TERMS/SocietyTags.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROPERTY_TERMS/TimeTags.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROPERTY_TERMS/VocabulariesTags.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROPERTY_TERMS/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/CompareDocs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/comparision/CompareDocs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ontology/CreateOntology.java" afterDir="false" />
-    </list>
+    <list default="true" id="3f864219-8d53-4880-b2f7-c4939f177884" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -393,12 +316,12 @@
       <workItem from="1531343913200" duration="14000" />
       <workItem from="1531481729058" duration="3630000" />
       <workItem from="1531911206127" duration="2414000" />
-      <workItem from="1532165278216" duration="881000" />
+      <workItem from="1532165278216" duration="1143000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35203000" />
+    <option name="totallyTimeSpent" value="35465000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
