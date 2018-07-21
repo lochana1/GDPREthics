@@ -22,9 +22,9 @@ public class SetGDPRPropertyList {
         Util.AllGDPRProperty.put("Security of Personal Data", Util.hasSecurityofPersonalDataactivity);
         Util.AllGDPRProperty.put("Demonstrating Consent", Util.hasDemonstratingConsentactivity);
         Util.AllGDPRProperty.put("Report Data Breach", Util.hasReportDataBreachactivity);
-        Util.AllGDPRProperty.put("Pseudo-anonymous data", Util.has_Pseudo_anonymous_data);
-        Util.AllGDPRProperty.put("Personal Data", Util.has_Personal_data);
-        Util.AllGDPRProperty.put("Anonymous Data", Util.has_Anonymous_data);
+        Util.AllGDPRProperty.put("Pseudo-anonymous data", Util.hasPseudoAnonymousData);
+        Util.AllGDPRProperty.put("Personal Data", Util.hasPersonalData);
+        Util.AllGDPRProperty.put("Anonymous Data", Util.hasAnonymousData);
 
 
 

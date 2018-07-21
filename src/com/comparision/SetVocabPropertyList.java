@@ -28,15 +28,7 @@ public class SetVocabPropertyList {
         Util.AllVocabsProperty.put("Vocab_Vocabularies",Util.hasVocabularyRelatedVocab);
        
     }
-//    public static void main(String[] args){
-//        setVocabPropertyList();
-//        for(Map.Entry entry: Util.AllVocabsProperty.entrySet() ){
-//            System.out.println(entry);
-//        }
-//
-//    }
-    
-    
+
     
 }
 

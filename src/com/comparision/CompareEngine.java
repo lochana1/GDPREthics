@@ -5,9 +5,9 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
 
-public class CompareDocs {
+public class CompareEngine {
 
-    public static void main(String [] args) throws IOException {
+    public static void compareEngine() throws IOException {
 //        inputs: bag of words documents & Ontology document
 //        store the bag of words - TERMS in a hashMap <Term, BowName>
 //        store the bag of words - VOCABS in a hashMap <vocab, BowName>

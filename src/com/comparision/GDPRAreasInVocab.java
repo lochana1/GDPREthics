@@ -21,10 +21,10 @@ public class GDPRAreasInVocab {
             List<String> gdprTags = Files.readAllLines(Paths.get(Util.gdprTagFolder+s));
             gdprVocabTagName = s.substring(0,s.length()-10);
             Util.GdprInVocab.put(gdprVocabTagName, gdprTags);
-
         }
-
     }
+
+
 
 
     static List<String> getGdprAreasInVocabs(String vocabAreaName){   // Tested

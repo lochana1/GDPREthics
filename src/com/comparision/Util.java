@@ -31,7 +31,7 @@ public class Util {
      static final String ontFolder = "DATASET_ONTOLOGY/";
      static final String gdprTagFolder = "GDPR_TAGS/";
      static final String bowTagsFolder = "PROPERTY_TERMS/";
-
+     static final String ONTOLOGY_PATH = "PHASE2_OUTPUT/gdpr-ethics.rdf";
 
 
     static Map<String,DatatypeProperty> AllVocabsProperty = new HashMap<>();
@@ -56,9 +56,9 @@ public class Util {
     static DatatypeProperty hasSecurityofPersonalDataactivity;
     static DatatypeProperty hasDemonstratingConsentactivity;
     static DatatypeProperty hasReportDataBreachactivity;
-    static DatatypeProperty has_Pseudo_anonymous_data;
-    static DatatypeProperty has_Personal_data;
-    static DatatypeProperty has_Anonymous_data;
+    static DatatypeProperty hasPseudoAnonymousData;
+    static DatatypeProperty hasPersonalData;
+    static DatatypeProperty hasAnonymousData;
 
     static DatatypeProperty hasBiologyRelatedVocab;
     static DatatypeProperty hasEnvironmentalVocab;

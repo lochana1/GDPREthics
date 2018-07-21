@@ -15,8 +15,6 @@ public class SearchingDatasetOntology {
 
         for (Map.Entry<String, String> bw: Util.BOW_Vocabs.entrySet()  ) {
 
-//            for(Map.Entry<String, List<String>> on: Onts.entrySet()){
-
             for(String ln : Util.Onts.get(ontologyName)){
                 String searchTerm = bw.getKey()+":";
                 if(ln.indexOf(searchTerm)>0 && !foundVocabs.contains(bw.getValue())) {
@@ -42,8 +40,6 @@ public class SearchingDatasetOntology {
         Util.OntTagsVocabs.put(ontologyName, allTermsTags);
 
         for (Map.Entry<String, String> bw: Util.BOW_Terms.entrySet()  ) {
-
-//            for(Map.Entry<String, List<String>> on: Onts.entrySet()){
 
             for(String ln : Util.Onts.get(ontologyName)){
                 String searchTerm = ":" + bw.getKey();

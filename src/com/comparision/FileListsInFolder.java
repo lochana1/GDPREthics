@@ -6,19 +6,10 @@ import java.util.List;
 
 public class FileListsInFolder {
 
-    private File fodername;
-//    FileListsInFolder(File fodername){
-//
-//        this.fodername = fodername;
-//
-//    }
-
-    static List<String> listFilesForFolder(File fodername) {
+    static List<String> listFilesForFolder(File foldername) {
         List<String> fls = new ArrayList<>();
-        for (final File fileEntry : fodername.listFiles()) {
+        for (final File fileEntry : foldername.listFiles()) {
             fls.add(fileEntry.getName());
-//                System.out.println(fileEntry.getName());
-
         }
         return fls;
     }
