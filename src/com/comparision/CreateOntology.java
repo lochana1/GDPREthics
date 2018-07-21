@@ -10,6 +10,9 @@ import org.apache.jena.vocabulary.XSD;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 public class CreateOntology {
 
@@ -259,29 +262,60 @@ public class CreateOntology {
         System.out.println("\n\n\nWriting to the Ontology......");
 
         for (ReportDatasetOntology r: Util.report) {
+        /*************************** Adding Values classes & Subclasses  ***************************/
+        Individual OntDataset;
+        OntDataset = GdprAreas.createIndividual(NAMESPACE + r.getOntologyName());
+
+            // TODO: 21/07/18 set this Individual to the correct subclasses
+
+
+
+
 
         /*************************** Adding Values to GDPR Area properties  ***************************/
 
-            Individual anArea;
-            anArea = GdprAreas.createIndividual();
+//            Individual anArea;
+//            anArea = GdprAreas.createIndividual();
             SetGDPRPropertyList.setGDPRPropertyList();
+            boolean gp=false,ga=false,gd=false;
+
 
             for (String g : r.getFoundGdprAreas()) {
 
-                if (Util.AllGDPRProperty.containsKey(g)) {
-
-                    anArea.addLiteral(Util.AllGDPRProperty.get(g), true);
-                    anArea.addLiteral(containsVocab, true);
-
+                if (Util.GdprPrinciple.containsKey(g)) {
+                    OntDataset.addLiteral(Util.GdprPrinciple.get(g), true);
+                    OntDataset.addLiteral(containsGdprPrinciples, true);
+                    gp = true;
                 }
+
+                if (Util.GdprActivity.containsKey(g)) {
+                    OntDataset.addLiteral(Util.GdprActivity.get(g), true);
+                    OntDataset.addLiteral(containsGDPRactivities, true);
+                    ga = true;
+                }
+
+                if (Util.GdprData.containsKey(g)) {
+                    OntDataset.addLiteral(Util.GdprData.get(g), true);
+                    OntDataset.addLiteral(containsGDPRData, true);
+                    gd = true;
+                }
+
+
+                if(gp)
+                    OntDataset.addOntClass(GdprPrinciple);
+                if(ga)
+                    OntDataset.addOntClass(GdprActivity);
+                if(gd)
+                    OntDataset.addOntClass(GdprData);
+
 
             }
 
 
         /*************************** Adding Values to Vocab properties  ***************************/
 
-            Individual aVocab;
-            aVocab = Vocabs.createIndividual();
+//            Individual aVocab;
+//            aVocab = Vocabs.createIndividual();
             SetVocabPropertyList.setVocabPropertyList();
 
             for (String v : r.getFoundVocabs()) {
@@ -289,8 +323,8 @@ public class CreateOntology {
 
                 if (Util.AllVocabsProperty.containsKey(v)) {
 
-                    aVocab.addLiteral(Util.AllVocabsProperty.get(v), true);
-                    aVocab.addLiteral(containsVocab, true);
+                    OntDataset.addLiteral(Util.AllVocabsProperty.get(v), true);
+                    OntDataset.addLiteral(containsVocab, true);
 
                 }
 

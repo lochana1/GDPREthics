@@ -39,7 +39,9 @@ public class Util {
 
 
     static Map<String,DatatypeProperty> AllVocabsProperty = new HashMap<>();
-    static Map<String,DatatypeProperty> AllGDPRProperty = new HashMap<>();
+    static Map<String,DatatypeProperty> GdprPrinciple = new HashMap<>();
+    static Map<String,DatatypeProperty> GdprActivity = new HashMap<>();
+    static Map<String,DatatypeProperty> GdprData = new HashMap<>();
 
     static List<ReportDatasetOntology> report = new ArrayList<>();
 
