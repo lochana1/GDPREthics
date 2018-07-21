@@ -41,5 +41,11 @@ public class ReportDatasetOntology {
         this.foundGdprAreas = foundGdprAreas;
     }
 
-
+    @Override
+    public String toString() {
+        return  "\nOntologyName='" + ontologyName + '\'' +
+                ", \nFoundVocabs=" + foundVocabs +
+                ", \nFoundGdprAreas=" + foundGdprAreas +
+                "}\n\n";
+    }
 }

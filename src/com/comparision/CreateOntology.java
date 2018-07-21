@@ -256,6 +256,8 @@ public class CreateOntology {
 
         /*************************** Adding Data to the Newly created Ontology  ***************************/
 
+        System.out.println("\n\n\nWriting to the Ontology......");
+
         for (ReportDatasetOntology r: Util.report) {
 
         /*************************** Adding Values to GDPR Area properties  ***************************/
@@ -294,9 +296,12 @@ public class CreateOntology {
 
 
             }
+//            System.out.println(ontModel);
             writeToFile(ontModel);
 
         }
+
+        System.out.println("\n\n\nOntology has been created now. Please check PHASE2_OUTPUT folder for the gdpr-ethics.rdf file");
     }
 
 

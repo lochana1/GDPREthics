@@ -6,7 +6,8 @@ public class Main {
 
     public static void main(String[] args ) throws IOException {
         CompareEngine.compareEngine();
-        CreateOntology.createOntology();
+        PreparePHASE1Report.preparePHASE1Report();
+//        CreateOntology.createOntology();
 
     }
 

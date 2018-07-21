@@ -28,8 +28,7 @@ public class GDPRAreasInVocab {
 
 
     static List<String> getGdprAreasInVocabs(String vocabAreaName){   // Tested
-        List<String> areas = new ArrayList<>();
-        areas = Util.GdprInVocab.get(vocabAreaName);
+        List<String> areas = Util.GdprInVocab.get(vocabAreaName);
         return areas;
     }
 }

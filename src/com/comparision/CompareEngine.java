@@ -8,19 +8,9 @@ import java.util.*;
 public class CompareEngine {
 
     public static void compareEngine() throws IOException {
-//        inputs: bag of words documents & Ontology document
-//        store the bag of words - TERMS in a hashMap <Term, BowName>
-//        store the bag of words - VOCABS in a hashMap <vocab, BowName>
 
+        System.out.println("Starting Tool Engine....\n Process will take a few seconds....");
 
-//        Input Ontology hashMap(Ontology, <ArrayList<String>>)
-//        Input Ontology parse every line and then check for BOW_Vocabs terms IndexOf(Ontology strings)
-
-//        Output : 1. List of VOCABS Matched  2. List of Terms Matched 3.Ontology Name
-
-//        file read & write
-
-//        Gets the list of all BOW_Vocabs Files from the Bag of words Folder
         Util.bowFiles = FileListsInFolder.listFilesForFolder(new File(Util.bowFolder));
         Util.ontologyFiles = FileListsInFolder.listFilesForFolder(new File(Util.ontFolder));
         Util.bowTagsFiles = FileListsInFolder.listFilesForFolder(new File(Util.bowTagsFolder));
@@ -62,7 +52,7 @@ public class CompareEngine {
 
 
 
-// ******************** Preparing Report Object ************************************
+/******************** Preparing Report Object ************************************/
             ReportDatasetOntology rep = new ReportDatasetOntology();
 
             //            Adding Dataset ontology name
@@ -75,26 +65,13 @@ public class CompareEngine {
 
         }
 
+/****************** Printing Report Object ************************************/
 
-        int i = 1, j=1;
-
-//        Just printing the terms & vocabularies
-//        for(Map.Entry<String,String> mp : BOW_Vocabs.entrySet()){
-//            System.out.println(i+" "+ mp.getKey()+" :"+ mp.getValue());
-//            i++;
-//        }
-
-//        Just printing the lines in Ontologies
-        for(Map.Entry<String,List<String>> en: Util.Onts.entrySet() ){
-//            System.out.println(en.getKey());
-            for(String ln: en.getValue()) {
-//                System.out.println(i + ":"+j+ " - :" + en.getKey() + " " + ln);
-                j++;
-            }
-            i++;
+        for(ReportDatasetOntology r: Util.report){
+            System.out.println(r.toString());
         }
 
-//        System.out.println(getAllTermsAndVocabsInOntology("disgenet_void"));
+
 
 
 

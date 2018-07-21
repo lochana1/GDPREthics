@@ -2,6 +2,8 @@ package com.comparision;
 
 import org.apache.jena.ontology.DatatypeProperty;
 
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -32,6 +34,8 @@ public class Util {
      static final String gdprTagFolder = "GDPR_TAGS/";
      static final String bowTagsFolder = "PROPERTY_TERMS/";
      static final String ONTOLOGY_PATH = "PHASE2_OUTPUT/gdpr-ethics.rdf";
+     static final Path REPORT_PATH = Paths.get("PHASE1_OUTPUT/report.txt");
+
 
 
     static Map<String,DatatypeProperty> AllVocabsProperty = new HashMap<>();

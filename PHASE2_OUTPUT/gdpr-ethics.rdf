@@ -204,35 +204,49 @@
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     <rdfs:domain rdf:resource="http://www.gdpr-ethics/linked-datasets#Vocab"/>
   </owl:DatatypeProperty>
+  <base:GDPR_Areas/>
+  <base:Vocab>
+    <base:containsVocabularies rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</base:containsVocabularies>
+    <base:hasMetaDataRelatedVocab rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</base:hasMetaDataRelatedVocab>
+  </base:Vocab>
+  <base:Vocab>
+    <base:containsVocabularies rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</base:containsVocabularies>
+    <base:hasMetaDataRelatedVocab rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</base:hasMetaDataRelatedVocab>
+  </base:Vocab>
+  <base:GDPR_Areas/>
   <base:GDPR_Areas>
     <base:hasPurposeLimitationprinciple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</base:hasPurposeLimitationprinciple>
-    <base:hasIdentificationofDataSubjectactivity rdf:datatype=
-    "http://www.w3.org/2001/XMLSchema#boolean">true</base:hasIdentificationofDataSubjectactivity>
+    <base:hasProcessingactivity rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</base:hasProcessingactivity>
+    <base:hasAccountabilityprinciple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</base:hasAccountabilityprinciple>
+    <j.1:Confidentialityprinciple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</j.1:Confidentialityprinciple>
+    <base:hasAccuracyprinciple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</base:hasAccuracyprinciple>
+    <base:hasImpactAssessmentactivity rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</base:hasImpactAssessmentactivity>
     <base:hasConsentactivity rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</base:hasConsentactivity>
     <base:hasMarketingactivity rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</base:hasMarketingactivity>
-    <base:hasProcessingactivity rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</base:hasProcessingactivity>
-    <j.2:Transparencyprinciple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</j.2:Transparencyprinciple>
-    <base:hasSecurityofPersonalDataactivity rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</base:hasSecurityofPersonalDataactivity>
-    <base:hasDataActivityactivity rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</base:hasDataActivityactivity>
     <base:hasPersonalData rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</base:hasPersonalData>
-    <base:hasAccuracyprinciple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</base:hasAccuracyprinciple>
-    <j.1:Confidentialityprinciple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</j.1:Confidentialityprinciple>
-    <base:hasAccountabilityprinciple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</base:hasAccountabilityprinciple>
+    <base:hasDataActivityactivity rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</base:hasDataActivityactivity>
+    <base:hasSecurityofPersonalDataactivity rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</base:hasSecurityofPersonalDataactivity>
     <base:containsVocabularies rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</base:containsVocabularies>
-    <base:hasImpactAssessmentactivity rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</base:hasImpactAssessmentactivity>
+    <base:hasIdentificationofDataSubjectactivity rdf:datatype=
+    "http://www.w3.org/2001/XMLSchema#boolean">true</base:hasIdentificationofDataSubjectactivity>
+    <j.2:Transparencyprinciple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</j.2:Transparencyprinciple>
   </base:GDPR_Areas>
   <base:Vocab>
     <base:hasHealthRelatedVocab rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -250,18 +264,4 @@
     <base:hasQualityRelatedVocab rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</base:hasQualityRelatedVocab>
   </base:Vocab>
-  <base:Vocab>
-    <base:containsVocabularies rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</base:containsVocabularies>
-    <base:hasMetaDataRelatedVocab rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</base:hasMetaDataRelatedVocab>
-  </base:Vocab>
-  <base:GDPR_Areas/>
-  <base:Vocab>
-    <base:containsVocabularies rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</base:containsVocabularies>
-    <base:hasMetaDataRelatedVocab rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</base:hasMetaDataRelatedVocab>
-  </base:Vocab>
-  <base:GDPR_Areas/>
 </rdf:RDF>
