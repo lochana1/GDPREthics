@@ -12,7 +12,10 @@ public class Util {
      static Map<String, String> BOW_Vocabs = new HashMap<>();
      static Map<String, String> BOW_Terms = new HashMap<>();
      static Map<String, List<String>> Onts = new HashMap<>();
+
+    //Contains a map of DatasetOntology Name and List of vocabs present in the Ontology
      static Map<String, List<String>> OntRep = new HashMap<>();
+
      static Map<String, List<String>> OntTagsVocabs = new HashMap<>();
      static Map<String, List<String>> GdprInVocab = new HashMap<>();
 
@@ -33,6 +36,8 @@ public class Util {
 
     static Map<String,DatatypeProperty> AllVocabsProperty = new HashMap<>();
     static Map<String,DatatypeProperty> AllGDPRProperty = new HashMap<>();
+
+    static List<ReportDatasetOntology> report = new ArrayList<>();
 
     static DatatypeProperty hasLFTprinciple;
     static DatatypeProperty hasAccuracyprinciple;

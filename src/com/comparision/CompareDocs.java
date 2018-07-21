@@ -57,6 +57,22 @@ public class CompareDocs {
             s = s==1 ? 0 :s;
             System.out.println("Number of GDPR Terms: "+ s);
             System.out.println("\n\n");
+
+
+
+
+
+// ******************** Preparing Report Object ************************************
+            ReportDatasetOntology rep = new ReportDatasetOntology();
+
+            //            Adding Dataset ontology name
+            rep.setOntologyName(on.getKey());
+            //            Adding the found vocabularies
+            rep.setFoundVocabs(on.getValue());
+            //              Adding the corresponding GDPR Areas
+            rep.setFoundGdprAreas(DataFromDatasetOntology.getGdprAreasInOntology(on.getKey()));
+            Util.report.add(rep);
+
         }
 
 
