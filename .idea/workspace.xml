@@ -155,7 +155,6 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1282" />
     <option name="width" value="1278" />
     <option name="height" value="1440" />
   </component>
@@ -316,12 +315,12 @@
       <workItem from="1531343913200" duration="14000" />
       <workItem from="1531481729058" duration="3630000" />
       <workItem from="1531911206127" duration="2414000" />
-      <workItem from="1532165278216" duration="1143000" />
+      <workItem from="1532165278216" duration="1965000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35465000" />
+    <option name="totallyTimeSpent" value="36287000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -333,7 +332,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1282" y="0" width="1278" height="1440" extended-state="0" />
+    <frame x="0" y="0" width="1411" height="1440" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.13466334" />
@@ -349,7 +348,7 @@
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32935917" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18770227" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16946676" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -677,7 +676,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
