@@ -2,90 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f864219-8d53-4880-b2f7-c4939f177884" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/comparision/SetPrefixesAndVocabBow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetectEthicalConcerns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DetectEthicalConcerns.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Biology.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Geography.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Government.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Health.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Industry.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_IoT.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Methods.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_People.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Quality.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_RDF.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Security.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Services.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Society.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Time.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Vocabularies.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/disgenet_void.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/omim.schema.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/orphanet.schema.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Biology_Areas.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Environment_Areas.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Geography_Areas.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Government_Areas.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Health_Areas.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Industry_Areas.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_IoT_Areas.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Metadata_Areas.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Methods_Areas.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_People_Areas.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Quality_Areas.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_RDF_Areas.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Security_Areas.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Services_Areas.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Society_Areas.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Time_Areas.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Vocabularies_Areas.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/PROPERTY_TERMS/AcademyTags.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/PROPERTY_TERMS/AgentsTags.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/PROPERTY_TERMS/BiologyTags.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/PROPERTY_TERMS/CatalogsTags.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/PROPERTY_TERMS/ContractsTags.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/PROPERTY_TERMS/Details.text" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/PROPERTY_TERMS/EmbryoDetails.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/PROPERTY_TERMS/EmbryoTerms.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/PROPERTY_TERMS/EnvironmentTags.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/PROPERTY_TERMS/GenesTerms.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/PROPERTY_TERMS/GeographyTags.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/PROPERTY_TERMS/GovernmentTags.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/PROPERTY_TERMS/HealthTags.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/PROPERTY_TERMS/IOT_Tags.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/PROPERTY_TERMS/IndustryTags.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/PROPERTY_TERMS/MetaDataTags.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/PROPERTY_TERMS/MethodsTags.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/PROPERTY_TERMS/MultimediaTags.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/PROPERTY_TERMS/PeopleTags.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/PROPERTY_TERMS/PersonalTags.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/PROPERTY_TERMS/PersonalTerms.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/PROPERTY_TERMS/QualityTags.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/PROPERTY_TERMS/RDF_Tags.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/PROPERTY_TERMS/SecurityTags.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/PROPERTY_TERMS/ServicesTags.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/PROPERTY_TERMS/SocietyTags.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/PROPERTY_TERMS/TimeTags.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/PROPERTY_TERMS/VocabulariesTags.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/PROPERTY_TERMS/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/CompareEngine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/CreateOntology.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/CreateOntology.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/PreparePHASE1Report.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/PreparePHASE1Report.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/ReportDatasetOntology.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/comparision/CreateOntology.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/CreateOntology.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/comparision/DatasetLabelURIOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/DatasetLabelURIOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/comparision/DatasetOntologyOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/DatasetOntologyOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/comparision/FetchVocabDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/FetchVocabDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/comparision/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/comparision/PreparePHASE1Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/PreparePHASE1Report.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/comparision/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/Report.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/comparision/ReportDataset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/ReportDataset.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/comparision/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllGDPRProperties" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -126,8 +45,8 @@
           <file leaf-file-name="SetPrefixesAndVocabBow.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/comparision/SetPrefixesAndVocabBow.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="480">
-                  <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+                <state relative-caret-position="315">
+                  <caret line="21" selection-start-line="21" selection-end-line="21" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -169,6 +88,15 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="405">
+                  <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="ReportDataset.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/comparision/ReportDataset.java">
               <provider selected="true" editor-type-id="text-editor">
@@ -184,7 +112,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="DatasetOntologyOperations.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="DatasetOntologyOperations.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/comparision/DatasetOntologyOperations.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="397">
@@ -325,7 +253,6 @@
         <option value="$PROJECT_DIR$/AllGDPRProperties" />
         <option value="$PROJECT_DIR$/PHASE1_OUTPUT/report.txt" />
         <option value="$PROJECT_DIR$/src/com/comparision/GDPRAreasInVocab.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/com/comparision/SetGDPRPropertyList.java" />
         <option value="$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/omim.schema.txt" />
         <option value="$PROJECT_DIR$/Temp/Evaluation/AllVocabs" />
@@ -338,12 +265,13 @@
         <option value="$PROJECT_DIR$/src/com/comparision/FetchVocabDetails.java" />
         <option value="$PROJECT_DIR$/src/com/comparision/PreparePHASE1Report.java" />
         <option value="$PROJECT_DIR$/src/com/comparision/Util.java" />
-        <option value="$PROJECT_DIR$/src/com/comparision/SetPrefixesAndVocabBow.java" />
         <option value="$PROJECT_DIR$/src/com/comparision/Main.java" />
         <option value="$PROJECT_DIR$/src/com/comparision/Report.java" />
         <option value="$PROJECT_DIR$/src/com/comparision/ReportDataset.java" />
         <option value="$PROJECT_DIR$/src/com/comparision/DatasetLabelURIOperations.java" />
         <option value="$PROJECT_DIR$/src/com/comparision/DatasetOntologyOperations.java" />
+        <option value="$PROJECT_DIR$/src/com/comparision/SetPrefixesAndVocabBow.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -418,17 +346,17 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/GDPR_TAGS" />
-      <recent name="$PROJECT_DIR$/DATASET_ONTOLOGY" />
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Temp" />
       <recent name="$PROJECT_DIR$/src/com/ontology" />
       <recent name="$PROJECT_DIR$/EXTRA" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/GDPR_TAGS" />
+      <recent name="$PROJECT_DIR$/DATASET_ONTOLOGY" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -558,12 +486,12 @@
       <workItem from="1532165278216" duration="21276000" />
       <workItem from="1532190375185" duration="586000" />
       <workItem from="1532191089318" duration="19460000" />
-      <workItem from="1532267896024" duration="6317000" />
+      <workItem from="1532267896024" duration="6567000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81961000" />
+    <option name="totallyTimeSpent" value="82211000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -588,11 +516,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32935917" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.22056632" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.21833085" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" weight="0.22056632" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.21833085" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17156473" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17156473" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -703,7 +631,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/comparision/AddReportToOntology.java" />
-    <entry file="file://$PROJECT_DIR$/AllGDPRProperties">
+    <entry file="file://$PROJECT_DIR$/Temp/AllGDPRProperties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
@@ -749,13 +677,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DetectEthicalConcerns.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Temp/Evaluation/AllVocabs">
       <provider selected="true" editor-type-id="text-editor">
@@ -897,23 +818,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/PHASE1_OUTPUT/report.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/SetPrefixesAndVocabBow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/comparision/ReportDataset.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
@@ -947,6 +851,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparision/SetPrefixesAndVocabBow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/comparision/DatasetOntologyOperations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
@@ -954,6 +868,20 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/PHASE1_OUTPUT/report.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
         </state>
       </provider>
     </entry>
