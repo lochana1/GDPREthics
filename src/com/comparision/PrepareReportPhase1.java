@@ -3,15 +3,15 @@ package com.comparision;
 import java.nio.file.Files;
 
 /*
- * Creates the report from the ReportDataset class object
+ * Creates the report from the ReportPhase1 class object
  */
 
-public class PreparePHASE1Report {
+public class PrepareReportPhase1 {
 
     public static void preparePHASE1Report() {
         StringBuilder rep = new  StringBuilder();
         rep.append("Report \n\n");
-        for(ReportDataset r: Util.report){
+        for(ReportPhase1 r: Util.report){
 
         rep.append(r.toString());
         rep.append("\n");

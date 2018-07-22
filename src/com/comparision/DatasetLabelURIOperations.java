@@ -8,7 +8,7 @@ import java.nio.file.Paths;
 import java.util.*;
 
 /*
- * Performs the Matching Operations involving the Bag of Words, Vocabulary prefixes and GDPR Areas.
+ * Performs the Matching Operations involving the Bag of Words, Vocabulary prefixes and GDPR Areas on Dataset Labels
  */
 
 
@@ -160,7 +160,7 @@ public class DatasetLabelURIOperations {
     static void prepareReport() {
 
         for (Map.Entry<String, List<String>> on : Util.GDPRAreasInDatasetLabel.entrySet()) {
-            ReportDataset rep2 = new ReportDataset();
+            ReportPhase1 rep2 = new ReportPhase1();
 
             //      Adding Dataset Label
             rep2.setName(on.getKey());

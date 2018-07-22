@@ -6,16 +6,16 @@ import java.util.List;
  * Blueprint for creating the report
  */
 
-public class ReportDataset implements Report{
+public class ReportPhase1 implements Report{
 
     private String Name;
     private String Desc;
     private List<String> foundVocabs;
     private List<String> foundGdprAreas;
 
-    public ReportDataset(){}
+    public ReportPhase1(){}
 
-    public ReportDataset(String Name, String Desc, List<String> foundVocabs, List<String> foundGdprAreas ){
+    public ReportPhase1(String Name, String Desc, List<String> foundVocabs, List<String> foundGdprAreas ){
         this.Name = Name;
         this.Desc = Desc;
         this.foundVocabs = foundVocabs;

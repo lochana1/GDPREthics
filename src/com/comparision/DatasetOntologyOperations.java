@@ -1,9 +1,12 @@
 package com.comparision;
-import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
+
+/*
+ * Performs the Matching Operations involving the Bag of Words, Vocabulary prefixes and GDPR Areas on Dataset Ontologies
+ */
 
 public class DatasetOntologyOperations {
 
@@ -44,7 +47,7 @@ public class DatasetOntologyOperations {
 
 
 /******************** Preparing Report Object ************************************/
-            ReportDataset rep = new ReportDataset();
+            ReportPhase1 rep = new ReportPhase1();
 
             rep.setDesc("**This is a Dataset Ontology**");
 
@@ -60,7 +63,7 @@ public class DatasetOntologyOperations {
 
 /****************** Printing Report Object ************************************/
 
-//        for(ReportDataset r: Util.report){
+//        for(ReportPhase1 r: Util.report){
 //            System.out.println(r.toString());
 //        }
 

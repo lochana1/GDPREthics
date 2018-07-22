@@ -3,7 +3,7 @@ package com.comparision;
 import java.util.*;
 
 /*
- *
+ * Match operations in the Dataset Ontology
  */
 
 public class SearchingDatasetOntology {

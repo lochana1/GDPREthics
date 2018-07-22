@@ -263,7 +263,7 @@ public class CreateOntology {
 
         System.out.println("\n\n\nWriting to the Ontology......");
 
-        for (ReportDataset r: Util.report) {
+        for (ReportPhase1 r: Util.report) {
 
 
         /*************************** Adding Values classes & Subclasses  ***************************/

@@ -47,7 +47,7 @@ public class Util {
     static Map<String,DatatypeProperty> GdprActivity = new HashMap<>();
     static Map<String,DatatypeProperty> GdprData = new HashMap<>();
 
-    static List<ReportDataset> report = new ArrayList<>();
+    static List<ReportPhase1> report = new ArrayList<>();
 
     static DatatypeProperty hasLFTprinciple;
     static DatatypeProperty hasAccuracyprinciple;

@@ -7,7 +7,9 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-
+/*
+ * Gets the Vocabulary details from the LOV API
+ */
 
  public class FetchVocabDetails {
 
