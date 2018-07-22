@@ -2,12 +2,10 @@ package com.comparision;
 
 import org.apache.jena.ontology.DatatypeProperty;
 
+import java.io.File;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Util {
 
@@ -18,15 +16,21 @@ public class Util {
     //Contains a map of DatasetOntology Name and List of vocabs present in the Ontology
      static Map<String, List<String>> OntRep = new HashMap<>();
 
+     static Map<String, String> PrefixesAndVocabBow = new HashMap<>();
      static Map<String, List<String>> OntTagsVocabs = new HashMap<>();
      static Map<String, List<String>> GdprInVocab = new HashMap<>();
+     static Map<String, Set<String>> VocabInDatasetLabel = new HashMap<>();
+     static Map<String, Set<String>> VocabAreasInDatasetLabel = new HashMap<>();
+     static Map<String, List<String>> GDPRAreasInDatasetLabel = new HashMap<>();
 
 
      static List<String> OntLines = new ArrayList<>();
-     static List<String> vocabs = new ArrayList<>();
-     static List<String> bowFiles = new ArrayList<>();
-     static List<String> bowTagsFiles = new ArrayList<>();
-     static List<String> ontologyFiles = new ArrayList<>();
+     static Set<String> BOWVocabs = new HashSet<>();
+     static List<String> bowFiles = FileListsInFolder.listFilesForFolder(new File(Util.bowFolder));
+     static List<String> bowTagsFiles = FileListsInFolder.listFilesForFolder(new File(Util.bowTagsFolder));
+     static List<String> ontologyFiles = FileListsInFolder.listFilesForFolder(new File(Util.ontFolder));
+     static List<String> DatasetLabelURIList = new ArrayList<>();
+
 
 
      static final String bowFolder = "Temp/BAG_OF_WORDS/";
@@ -34,7 +38,10 @@ public class Util {
      static final String gdprTagFolder = "Temp/GDPR_TAGS/";
      static final String bowTagsFolder = "Temp/PROPERTY_TERMS/";
      static final String ONTOLOGY_PATH = "Temp/PHASE2_OUTPUT/gdpr-ethics.rdf";
+     static final String VOCAB_DETAILS_LOV = "Temp/VOCAB_DETAILS_LOV/";
      static final Path REPORT_PATH = Paths.get("Temp/PHASE1_OUTPUT/report.txt");
+     static final String VOCAB_DETAILS_FROM_LOV = "https://lov.linkeddata.es/dataset/lov/api/v2/vocabulary/info?vocab=";
+     static final String DatasetLabelURIFile = "Temp/DATASET_LABELS/";
 
 
 
@@ -43,7 +50,7 @@ public class Util {
     static Map<String,DatatypeProperty> GdprActivity = new HashMap<>();
     static Map<String,DatatypeProperty> GdprData = new HashMap<>();
 
-    static List<ReportDatasetOntology> report = new ArrayList<>();
+    static List<ReportDataset> report = new ArrayList<>();
 
     static DatatypeProperty hasLFTprinciple;
     static DatatypeProperty hasAccuracyprinciple;

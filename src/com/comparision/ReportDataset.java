@@ -6,17 +6,27 @@ public class ReportDataset implements Report{
     
 //    OntologyName
     private String Name;
+    private String Desc;
     private List<String> foundVocabs;
     private List<String> foundGdprAreas;
 
 
     public ReportDataset(){}
 
-    public ReportDataset(String Name, List<String> foundVocabs, List<String> foundGdprAreas ){
+    public ReportDataset(String Name, String Desc, List<String> foundVocabs, List<String> foundGdprAreas ){
         this.Name = Name;
+        this.Desc = Desc;
         this.foundVocabs = foundVocabs;
         this.foundGdprAreas = foundGdprAreas;
 
+    }
+
+    public String getDesc() {
+        return Desc;
+    }
+
+    public void setDesc(String desc) {
+        Desc = desc;
     }
 
     public String getName() {
@@ -45,9 +55,10 @@ public class ReportDataset implements Report{
 
     @Override
     public String toString() {
-        return  "\nName='" + Name + '\'' +
-                ", \nFoundVocabs=" + foundVocabs +
-                ", \nFoundGdprAreas=" + foundGdprAreas +
+        return   "Name='" + Name + '\'' +
+                ", \nDesc='" + Desc + '\'' +
+                ", \nfoundVocabs=" + foundVocabs +
+                ", \nfoundGdprAreas=" + foundGdprAreas +
                 "}\n\n";
     }
 }

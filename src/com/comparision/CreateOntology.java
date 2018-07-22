@@ -10,9 +10,6 @@ import org.apache.jena.vocabulary.XSD;
 
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
 
 public class CreateOntology {
 
@@ -261,10 +258,10 @@ public class CreateOntology {
 
         System.out.println("\n\n\nWriting to the Ontology......");
 
-        for (ReportDatasetOntology r: Util.report) {
+        for (ReportDataset r: Util.report) {
         /*************************** Adding Values classes & Subclasses  ***************************/
         Individual OntDataset;
-        OntDataset = GdprAreas.createIndividual(NAMESPACE + r.getOntologyName());
+        OntDataset = GdprAreas.createIndividual(NAMESPACE + r.getName());
 
             // TODO: 21/07/18 set this Individual to the correct subclasses
 

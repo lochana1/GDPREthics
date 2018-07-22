@@ -5,15 +5,12 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
 
-public class CompareEngine {
+public class DatasetOntologyOperations {
 
-    public static void compareEngine() throws IOException {
+    public static void datasetOntologyOperations() throws IOException {
 
         System.out.println("Starting Tool Engine....\n Process will take a few seconds....");
 
-        Util.bowFiles = FileListsInFolder.listFilesForFolder(new File(Util.bowFolder));
-        Util.ontologyFiles = FileListsInFolder.listFilesForFolder(new File(Util.ontFolder));
-        Util.bowTagsFiles = FileListsInFolder.listFilesForFolder(new File(Util.bowTagsFolder));
 
 
         for (String v : Util.bowFiles) {
@@ -41,12 +38,12 @@ public class CompareEngine {
         GDPRAreasInVocab.setGdprAreasInVocabs();
         for(Map.Entry<String, List<String>> on : Util.OntRep.entrySet()){
             System.out.println(on.getKey()+" : "+ on.getValue());
-            System.out.println("Found Matching Vocab Terms: "+ on.getValue().size());
-            System.out.println("Found Corresponding GDPR Terms: "+ DataFromDatasetOntology.getGdprAreasInOntology(on.getKey()));
+//            System.out.println("Found Matching Vocab Terms: "+ on.getValue().size());
+//            System.out.println("Found Corresponding GDPR Terms: "+ DataFromDatasetOntology.getGdprAreasInOntology(on.getKey()));
             int s = DataFromDatasetOntology.getGdprAreasInOntology(on.getKey()).size();
             s = s==1 ? 0 :s;
-            System.out.println("Number of GDPR Terms: "+ s);
-            System.out.println("\n\n");
+//            System.out.println("Number of GDPR Terms: "+ s);
+//            System.out.println("\n\n");
 
 
 
@@ -54,6 +51,8 @@ public class CompareEngine {
 
 /******************** Preparing Report Object ************************************/
             ReportDataset rep = new ReportDataset();
+
+            rep.setDesc("**This is a Dataset Ontology**");
 
             //            Adding Dataset ontology name
             rep.setName(on.getKey());
@@ -67,13 +66,9 @@ public class CompareEngine {
 
 /****************** Printing Report Object ************************************/
 
-        for(ReportDataset r: Util.report){
-            System.out.println(r.toString());
-        }
-
-
-
-
+//        for(ReportDataset r: Util.report){
+//            System.out.println(r.toString());
+//        }
 
     }
 

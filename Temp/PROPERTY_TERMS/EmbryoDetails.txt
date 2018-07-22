@@ -1,9 +1,0 @@
-Embryology
-development of the embryo. This class denotes different, composing substances/elements of the embryo and
-Embryo Body Part
-EmbryoBodyPart
-EmbryonicStructure
-An embryo or any structure derived from it. There, may be structures derived from an embryo that are
-EmbryonicOrganism
-. E.g. a 3 days old mouse embryo has a quality
-EmbryonicValueRegion
