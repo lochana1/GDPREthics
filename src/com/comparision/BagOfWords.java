@@ -5,6 +5,10 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
 
+/*
+ * This class extracts the items from the vocabularies in the Bag of words
+ */
+
 public class BagOfWords {
 
     static void bagOfWordsTerms(String folderName, String vocabPath)

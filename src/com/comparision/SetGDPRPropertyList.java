@@ -1,7 +1,10 @@
 package com.comparision;
 
-public class SetGDPRPropertyList {
+/*
+ * Initialises the Ontology dataproperty
+ */
 
+public class SetGDPRPropertyList {
 
     static void setGDPRPropertyList(){
 
@@ -12,7 +15,6 @@ public class SetGDPRPropertyList {
         Util.GdprPrinciple.put("Principle of Storage Limitation", Util.hasStorageLimitationprinciple);
         Util.GdprPrinciple.put("Principle of Accountability", Util.hasAccountabilityprinciple);
         Util.GdprPrinciple.put("Principle of Purpose Limitation", Util.hasPurposeLimitationprinciple);
-
 
         Util.GdprActivity.put("Processing", Util.hasProcessingactivity);
         Util.GdprActivity.put("Marketing", Util.hasMarketingactivity);
@@ -25,14 +27,10 @@ public class SetGDPRPropertyList {
         Util.GdprActivity.put("Demonstrating Consent", Util.hasDemonstratingConsentactivity);
         Util.GdprActivity.put("Report Data Breach", Util.hasReportDataBreachactivity);
 
-
         Util.GdprData.put("Pseudo-anonymous data", Util.hasPseudoAnonymousData);
         Util.GdprData.put("Personal Data", Util.hasPersonalData);
         Util.GdprData.put("Anonymous Data", Util.hasAnonymousData);
-
-
-
-    }
+   }
 }
 
 

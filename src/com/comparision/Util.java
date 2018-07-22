@@ -9,40 +9,37 @@ import java.util.*;
 
 public class Util {
 
-     static Map<String, String> BOW_Vocabs = new HashMap<>();
-     static Map<String, String> BOW_Terms = new HashMap<>();
-     static Map<String, List<String>> Onts = new HashMap<>();
+    static Map<String, String> BOW_Vocabs = new HashMap<>();
+    static Map<String, String> BOW_Terms = new HashMap<>();
+    static Map<String, List<String>> Onts = new HashMap<>();
 
     //Contains a map of DatasetOntology Name and List of vocabs present in the Ontology
-     static Map<String, List<String>> OntRep = new HashMap<>();
+    static Map<String, List<String>> OntRep = new HashMap<>();
 
-     static Map<String, String> PrefixesAndVocabBow = new HashMap<>();
-     static Map<String, List<String>> OntTagsVocabs = new HashMap<>();
-     static Map<String, List<String>> GdprInVocab = new HashMap<>();
-     static Map<String, Set<String>> VocabInDatasetLabel = new HashMap<>();
-     static Map<String, Set<String>> VocabAreasInDatasetLabel = new HashMap<>();
-     static Map<String, List<String>> GDPRAreasInDatasetLabel = new HashMap<>();
-
-
-     static List<String> OntLines = new ArrayList<>();
-     static Set<String> BOWVocabs = new HashSet<>();
-     static List<String> bowFiles = FileListsInFolder.listFilesForFolder(new File(Util.bowFolder));
-     static List<String> bowTagsFiles = FileListsInFolder.listFilesForFolder(new File(Util.bowTagsFolder));
-     static List<String> ontologyFiles = FileListsInFolder.listFilesForFolder(new File(Util.ontFolder));
-     static List<String> DatasetLabelURIList = new ArrayList<>();
+    static Map<String, String> PrefixesAndVocabBow = new HashMap<>();
+    static Map<String, List<String>> OntTagsVocabs = new HashMap<>();
+    static Map<String, List<String>> GdprInVocab = new HashMap<>();
+    static Map<String, Set<String>> VocabInDatasetLabel = new HashMap<>();
+    static Map<String, Set<String>> VocabAreasInDatasetLabel = new HashMap<>();
+    static Map<String, List<String>> GDPRAreasInDatasetLabel = new HashMap<>();
 
 
+    static Set<String> BOWVocabs = new HashSet<>();
+    static List<String> bowFiles = FileListsInFolder.listFilesForFolder(new File(Util.bowFolder));
+    static List<String> bowTagsFiles = FileListsInFolder.listFilesForFolder(new File(Util.bowTagsFolder));
+    static List<String> ontologyFiles = FileListsInFolder.listFilesForFolder(new File(Util.ontFolder));
+    static List<String> DatasetLabelURIList = new ArrayList<>();
 
-     static final String bowFolder = "Temp/BAG_OF_WORDS/";
-     static final String ontFolder = "Temp/DATASET_ONTOLOGY/";
-     static final String gdprTagFolder = "Temp/GDPR_TAGS/";
-     static final String bowTagsFolder = "Temp/PROPERTY_TERMS/";
-     static final String ONTOLOGY_PATH = "Temp/PHASE2_OUTPUT/gdpr-ethics.rdf";
-     static final String VOCAB_DETAILS_LOV = "Temp/VOCAB_DETAILS_LOV/";
-     static final Path REPORT_PATH = Paths.get("Temp/PHASE1_OUTPUT/report.txt");
-     static final String VOCAB_DETAILS_FROM_LOV = "https://lov.linkeddata.es/dataset/lov/api/v2/vocabulary/info?vocab=";
-     static final String DatasetLabelURIFile = "Temp/DATASET_LABELS/";
 
+    static final String bowFolder = "Temp/BAG_OF_WORDS/";
+    static final String ontFolder = "Temp/DATASET_ONTOLOGY/";
+    static final String gdprTagFolder = "Temp/GDPR_TAGS/";
+    static final String bowTagsFolder = "Temp/PROPERTY_TERMS/";
+    static final String ONTOLOGY_PATH = "Temp/PHASE2_OUTPUT/gdpr-ethics.rdf";
+    static final String VOCAB_DETAILS_LOV = "Temp/VOCAB_DETAILS_LOV/";
+    static final Path REPORT_PATH = Paths.get("Temp/PHASE1_OUTPUT/report.txt");
+    static final String VOCAB_DETAILS_FROM_LOV = "https://lov.linkeddata.es/dataset/lov/api/v2/vocabulary/info?vocab=";
+    static final String DatasetLabelURIFile = "Temp/DATASET_LABELS/";
 
 
     static Map<String,DatatypeProperty> AllVocabsProperty = new HashMap<>();
@@ -90,12 +87,5 @@ public class Util {
     static DatatypeProperty hasSocietyRelatedVocab;
     static DatatypeProperty hasTimeRelatedVocab;
     static DatatypeProperty hasVocabularyRelatedVocab;
-
-
-
-
-
-
-
 
 }

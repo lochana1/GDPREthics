@@ -3,6 +3,9 @@ package com.comparision;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+/*
+Returns the list of files in the Folder
+*/
 
 public class FileListsInFolder {
 

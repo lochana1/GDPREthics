@@ -4,16 +4,18 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.ArrayList;
 import java.util.List;
+
+/*
+1. Reads from File to set the GDPR Areas to the Vocabulary Areas. This File has been prepared consulting an SME
+2. Returns the List of GDPR Areas for a vocabulary area (BOW)
+*/
 
 public class GDPRAreasInVocab {
 
 
-    static void setGdprAreasInVocabs() throws IOException {   //Tested
+    static void setGdprAreasInVocabs() throws IOException {
 
-//        list of the vocab name areas
-//        run thru this list and add vocab name and the list as the doc content
 
         List<String> VocabgdprFiles = FileListsInFolder.listFilesForFolder(new File(Util.gdprTagFolder));
         String gdprVocabTagName = "";

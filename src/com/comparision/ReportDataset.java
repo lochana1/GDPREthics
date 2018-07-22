@@ -2,14 +2,16 @@ package com.comparision;
 
 import java.util.List;
 
+/*
+ * Blueprint for creating the report
+ */
+
 public class ReportDataset implements Report{
-    
-//    OntologyName
+
     private String Name;
     private String Desc;
     private List<String> foundVocabs;
     private List<String> foundGdprAreas;
-
 
     public ReportDataset(){}
 
@@ -18,17 +20,14 @@ public class ReportDataset implements Report{
         this.Desc = Desc;
         this.foundVocabs = foundVocabs;
         this.foundGdprAreas = foundGdprAreas;
-
     }
 
     public String getDesc() {
         return Desc;
     }
-
     public void setDesc(String desc) {
         Desc = desc;
     }
-
     public String getName() {
         return Name;
     }

@@ -2,6 +2,10 @@ package com.comparision;
 
 import java.nio.file.Files;
 
+/*
+ * Creates the report from the ReportDataset class object
+ */
+
 public class PreparePHASE1Report {
 
     public static void preparePHASE1Report() {

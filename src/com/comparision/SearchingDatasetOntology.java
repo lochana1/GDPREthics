@@ -2,9 +2,9 @@ package com.comparision;
 
 import java.util.*;
 
-
-
-// Looping thru the dataset Ontology and checking if vocab is present or not
+/*
+ *
+ */
 
 public class SearchingDatasetOntology {
 
@@ -20,13 +20,10 @@ public class SearchingDatasetOntology {
                 if(ln.indexOf(searchTerm)>0 && !foundVocabs.contains(bw.getValue())) {
                     foundVocabsTerms.add(bw.getValue() + ":" + bw.getKey());
                     foundVocabs.add(bw.getValue());
-
-
                 }
-
             }
-
         }
+
         Set<String> fb = new HashSet<>(foundVocabs);
         Set<String> ft = new HashSet<>(foundVocabsTerms);
 
@@ -46,14 +43,10 @@ public class SearchingDatasetOntology {
                 if(ln.indexOf(searchTerm)>0 && !foundVocabs.contains(bw.getValue())) {
                     foundVocabsTerms.add(bw.getValue() + ":" + bw.getKey());
                 }
-
             }
-
         }
 
         ft.addAll(foundVocabsTerms);
         allTermsTags.addAll(ft);
-
-
     }
 }

@@ -11,6 +11,11 @@ import org.apache.jena.vocabulary.XSD;
 import java.io.FileWriter;
 import java.io.IOException;
 
+
+/*
+ * This class creates the Ontology based on the Phase1 report output.
+ */
+
 public class CreateOntology {
 
     private final static String BASE_URI = "http://www.gdpr-ethics/linked-datasets";
@@ -259,20 +264,18 @@ public class CreateOntology {
         System.out.println("\n\n\nWriting to the Ontology......");
 
         for (ReportDataset r: Util.report) {
+
+
         /*************************** Adding Values classes & Subclasses  ***************************/
         Individual OntDataset;
         OntDataset = GdprAreas.createIndividual(NAMESPACE + r.getName());
-
-            // TODO: 21/07/18 set this Individual to the correct subclasses
-
-
 
 
 
         /*************************** Adding Values to GDPR Area properties  ***************************/
 
-//            Individual anArea;
-//            anArea = GdprAreas.createIndividual();
+        //            Individual anArea;
+        //            anArea = GdprAreas.createIndividual();
             SetGDPRPropertyList.setGDPRPropertyList();
             boolean gp=false,ga=false,gd=false;
 
@@ -305,36 +308,28 @@ public class CreateOntology {
                 if(gd)
                     OntDataset.addOntClass(GdprData);
 
-
             }
 
 
         /*************************** Adding Values to Vocab properties  ***************************/
 
-//            Individual aVocab;
-//            aVocab = Vocabs.createIndividual();
+        //            Individual aVocab;
+        //            aVocab = Vocabs.createIndividual();
             SetVocabPropertyList.setVocabPropertyList();
 
             for (String v : r.getFoundVocabs()) {
 
-
                 if (Util.AllVocabsProperty.containsKey(v)) {
-
                     OntDataset.addLiteral(Util.AllVocabsProperty.get(v), true);
                     OntDataset.addLiteral(containsVocab, true);
-
                 }
-
-
             }
-//            System.out.println(ontModel);
+        //            System.out.println(ontModel);
             writeToFile(ontModel);
 
         }
-
         System.out.println("\n\n\nOntology has been created now. Please check PHASE2_OUTPUT folder for the gdpr-ethics.rdf file");
     }
-
 
 
     public static void writeToFile(OntModel ontModel) {

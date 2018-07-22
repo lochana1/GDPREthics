@@ -9,10 +9,7 @@ public class DatasetOntologyOperations {
 
     public static void datasetOntologyOperations() throws IOException {
 
-        System.out.println("Starting Tool Engine....\n Process will take a few seconds....");
-
-
-
+        System.out.println("Starting Tool Engine....\n\nProcess will take a few seconds....");
         for (String v : Util.bowFiles) {
             BagOfWords.bagOfWordsVocab(Util.bowFolder, v);
         }
@@ -22,12 +19,9 @@ public class DatasetOntologyOperations {
         }
 
         for (String oFile : Util.ontologyFiles) {
-
             List<String> ontLines = Files.readAllLines(Paths.get((Util.ontFolder+oFile)));
-
             String oFileName = oFile.substring(0,oFile.length()-4);
             Util.Onts.put(oFileName,ontLines);
-
         }
 
         for(Map.Entry<String, List<String>> on : Util.Onts.entrySet()){

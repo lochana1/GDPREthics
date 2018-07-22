@@ -1,13 +1,9 @@
 package com.comparision;
 
-import org.apache.jena.ontology.DatatypeProperty;
-
-import java.util.Map;
-
+/*
+ * Sets the ontology data property for vocabularies
+ */
 public class SetVocabPropertyList {
-
-
-
     static void setVocabPropertyList(){
         Util.AllVocabsProperty.put("Vocab_Biology", Util.hasBiologyRelatedVocab);
         Util.AllVocabsProperty.put("Vocab_Environment", Util.hasEnvironmentalVocab);
@@ -26,9 +22,6 @@ public class SetVocabPropertyList {
         Util.AllVocabsProperty.put("Vocab_Society",Util.hasSocietyRelatedVocab);
         Util.AllVocabsProperty.put("Vocab_Time",Util.hasTimeRelatedVocab);
         Util.AllVocabsProperty.put("Vocab_Vocabularies",Util.hasVocabularyRelatedVocab);
-       
     }
-
-    
 }
 

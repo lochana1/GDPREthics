@@ -11,7 +11,6 @@ import java.nio.file.Paths;
 
  public class FetchVocabDetails {
 
-
      public static void getLOVVocabDetails(String vocab){
          String uri = Util.VOCAB_DETAILS_FROM_LOV + vocab;
          URI u = URI.create(uri);
@@ -19,13 +18,10 @@ import java.nio.file.Paths;
          Path path = Paths.get(file);
          try(InputStream in= u.toURL().openStream()){
              Files.copy(in,path);
-
-
          }
          catch(Exception e){
              e.printStackTrace();
          }
-
      }
 
 }

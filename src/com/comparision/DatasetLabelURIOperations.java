@@ -7,7 +7,10 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
 
-import static com.comparision.Util.bowFolder;
+/*
+ * Performs the Matching Operations involving the Bag of Words, Vocabulary prefixes and GDPR Areas.
+ */
+
 
 public class DatasetLabelURIOperations {
 
@@ -38,10 +41,10 @@ public class DatasetLabelURIOperations {
 
     //    Get the list of all vocab prefixes in all
     static void getAllVocabPrefixesFromBagOfWords() throws IOException {
-        Path path = Paths.get(bowFolder);
-        List<String> vocabAreas = FileListsInFolder.listFilesForFolder(new File(bowFolder));
+        Path path = Paths.get(Util.bowFolder);
+        List<String> vocabAreas = FileListsInFolder.listFilesForFolder(new File(Util.bowFolder));
         for (String BOW_file : vocabAreas) {
-            path = Paths.get(bowFolder + BOW_file);
+            path = Paths.get(Util.bowFolder + BOW_file);
             Util.BOWVocabs.addAll(Files.readAllLines(path));
         }
 

@@ -5,6 +5,11 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
 
+/*
+ * 1. Sets a map with key value as vocabulary prefix an Vocabulary Area(BOW)
+ * 2. Returns the Vocabulary Area(BOW) for a particular vocabulary prefix
+ */
+
 public class SetPrefixesAndVocabBow {
 
     static void setVocabBowAndPrefixes() throws IOException {
@@ -16,10 +21,7 @@ public class SetPrefixesAndVocabBow {
                     Util.PrefixesAndVocabBow.put(prefix,bowFile);
                 }
             }
-
-
         }
-
     }
 
     static String getVocabBowAndPrefixes(String prefix){
