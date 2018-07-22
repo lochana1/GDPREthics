@@ -53,10 +53,10 @@ public class CompareEngine {
 
 
 /******************** Preparing Report Object ************************************/
-            ReportDatasetOntology rep = new ReportDatasetOntology();
+            ReportDataset rep = new ReportDataset();
 
             //            Adding Dataset ontology name
-            rep.setOntologyName(on.getKey());
+            rep.setName(on.getKey());
             //            Adding the found vocabularies
             rep.setFoundVocabs(on.getValue());
             //              Adding the corresponding GDPR Areas
@@ -67,7 +67,7 @@ public class CompareEngine {
 
 /****************** Printing Report Object ************************************/
 
-        for(ReportDatasetOntology r: Util.report){
+        for(ReportDataset r: Util.report){
             System.out.println(r.toString());
         }
 

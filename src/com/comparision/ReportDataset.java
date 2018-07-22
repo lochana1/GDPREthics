@@ -2,27 +2,29 @@ package com.comparision;
 
 import java.util.List;
 
-public class ReportDatasetOntology {
-    private String ontologyName;
+public class ReportDataset implements Report{
+    
+//    OntologyName
+    private String Name;
     private List<String> foundVocabs;
     private List<String> foundGdprAreas;
 
 
-    public ReportDatasetOntology(){}
+    public ReportDataset(){}
 
-    public ReportDatasetOntology(String ontologyName, List<String> foundVocabs, List<String> foundGdprAreas ){
-        this.ontologyName = ontologyName;
+    public ReportDataset(String Name, List<String> foundVocabs, List<String> foundGdprAreas ){
+        this.Name = Name;
         this.foundVocabs = foundVocabs;
         this.foundGdprAreas = foundGdprAreas;
 
     }
 
-    public String getOntologyName() {
-        return ontologyName;
+    public String getName() {
+        return Name;
     }
 
-    public void setOntologyName(String ontologyName) {
-        this.ontologyName = ontologyName;
+    public void setName(String Name) {
+        this.Name = Name;
     }
 
     public List<String> getFoundVocabs() {
@@ -43,7 +45,7 @@ public class ReportDatasetOntology {
 
     @Override
     public String toString() {
-        return  "\nOntologyName='" + ontologyName + '\'' +
+        return  "\nName='" + Name + '\'' +
                 ", \nFoundVocabs=" + foundVocabs +
                 ", \nFoundGdprAreas=" + foundGdprAreas +
                 "}\n\n";
