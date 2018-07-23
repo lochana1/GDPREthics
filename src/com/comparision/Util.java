@@ -9,7 +9,7 @@ import java.util.*;
 
 public class Util {
 
-    //Contains a map of vocab prefix and associated Vocab Area todo same as PrefixesAndVocabBow
+    //Contains a map of vocab prefix and associated Vocab Area
     static Map<String, String> BOW_Vocabs = new HashMap<>();
 
     //Contains a map of a term prefix and corresponding Topic tags...dogont:FailureStateValue=IOT_Tags
@@ -24,7 +24,7 @@ public class Util {
   //Contains a map of DatasetOntology Name and List of vocabs prefixes present in the Ontology
     static Map<String, List<String>> OntVocabPrefixes = new HashMap<>();
 
-    //Contains a map of vocab prefix and associated Vocab Area
+    //Contains a map of vocab prefix and associated Vocab Area todo same as BOW_Vocabs
     static Map<String, String> PrefixesAndVocabBow = new HashMap<>();
 
     //Contains a map of DatasetOntology Name and List of VocabArea and Vocabs ([Vocab_People:foaf....)

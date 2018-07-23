@@ -12,6 +12,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 
+import static com.comparision.Util.*;
+
+
 /*
  * This class creates the Ontology based on the Phase1 report output.
  */
@@ -51,6 +54,7 @@ public class CreateOntology {
         RDFList list = ontModel.createList(new RDFNode[]{GdprPrinciple, GdprActivity, GdprData});
 
 
+
         OntClass GdprAreas = ontModel.createUnionClass(NAMESPACE + "GDPR_Areas", list);
 //        OntClass GdprAreas = ontModel.createClass(NAMESPACE + "GDPR_Areas");
         GdprAreas.addLabel("GDPRAreas", null);
@@ -61,8 +65,8 @@ public class CreateOntology {
         GdprData.addSuperClass(GdprAreas);
 
         GdprPrinciple.addRDFType(GdprAreas);
-        GdprActivity.addRDFType(GdprData);
-        GdprData.addRDFType(GdprData);
+        GdprActivity.addRDFType(GdprAreas);
+        GdprData.addRDFType(GdprAreas);
 
 
 
@@ -70,15 +74,17 @@ public class CreateOntology {
         Vocabs.addLabel("Vocabs", null);
         Vocabs.addComment("Contains the information of relevant Linked Open Vocabs", null);
 
+        RDFList list2 = ontModel.createList(new RDFNode[]{Vocabs, GdprAreas});
 
-        OntClass Dataset = ontModel.createClass(NAMESPACE + "Dataset");
+
+        OntClass Dataset = ontModel.createUnionClass(NAMESPACE + "Dataset", list2);
         Dataset.addLabel("Dataset", null);
         Dataset.addComment("Dataset in Consideration", null);
 
         GdprAreas.addSuperClass(Dataset);
         Vocabs.addSuperClass(Dataset);
+//        Vocabs.addRDFType(Dataset);
 
-        Vocabs.addRDFType(Dataset);
 
 
 
@@ -86,198 +92,237 @@ public class CreateOntology {
 
         /*************************** GDPRArea Principles  ***************************/
 
-        Util.hasLFTprinciple = ontModel.createDatatypeProperty(NAMESPACE + "hasLawfulnessFairness&Transparencyprinciple");
-        Util.hasLFTprinciple.setDomain(GdprPrinciple);
-        Util.hasLFTprinciple.setRange(XSD.xboolean);
-
-        Util.hasAccuracyprinciple = ontModel.createDatatypeProperty(NAMESPACE + "hasAccuracyprinciple");
-        Util.hasAccuracyprinciple.setDomain(GdprPrinciple);
-        Util.hasAccuracyprinciple.setRange(XSD.xboolean);
-
-
-        Util.hasICprinciple = ontModel.createDatatypeProperty(NAMESPACE + "hasIntegrity&Confidentialityprinciple");
-        Util.hasICprinciple.setDomain(GdprPrinciple);
-        Util.hasICprinciple.setRange(XSD.xboolean);
-
-
-        Util.hasDataMinimizationprinciple = ontModel.createDatatypeProperty(NAMESPACE + "hasDataMinimizationprinciple");
-        Util.hasDataMinimizationprinciple.setDomain(GdprPrinciple);
-        Util.hasDataMinimizationprinciple.setRange(XSD.xboolean);
-
-
-        Util.hasStorageLimitationprinciple = ontModel.createDatatypeProperty(NAMESPACE + "hasStorageLimitationprinciple");
-        Util.hasStorageLimitationprinciple.setDomain(GdprPrinciple);
-        Util.hasStorageLimitationprinciple.setRange(XSD.xboolean);
-
-
-        Util.hasAccountabilityprinciple = ontModel.createDatatypeProperty(NAMESPACE + "hasAccountabilityprinciple");
-        Util.hasAccountabilityprinciple.setDomain(GdprPrinciple);
-        Util.hasAccountabilityprinciple.setRange(XSD.xboolean);
-
-
-        Util.hasPurposeLimitationprinciple = ontModel.createDatatypeProperty(NAMESPACE + "hasPurposeLimitationprinciple");
-        Util.hasPurposeLimitationprinciple.setDomain(GdprPrinciple);
-        Util.hasPurposeLimitationprinciple.setRange(XSD.xboolean);
-
-        DatatypeProperty containsGdprPrinciples = ontModel.createDatatypeProperty(NAMESPACE + "containsGdprPrinciples");
+        DatatypeProperty containsGdprPrinciples = ontModel.createDatatypeProperty(NAMESPACE + "containsGDPRPrinciples");
         containsGdprPrinciples.setDomain(GdprPrinciple);
         containsGdprPrinciples.setRange(XSD.xboolean);
 
+        hasLFTprinciple = ontModel.createDatatypeProperty(NAMESPACE + "hasLawfulnessFairness&Transparencyprinciple");
+        hasLFTprinciple.setDomain(GdprPrinciple);
+        hasLFTprinciple.setRange(XSD.xboolean);
+        hasLFTprinciple.addSuperProperty(containsGdprPrinciples);
+
+        hasAccuracyprinciple = ontModel.createDatatypeProperty(NAMESPACE + "hasAccuracyprinciple");
+        hasAccuracyprinciple.setDomain(GdprPrinciple);
+        hasAccuracyprinciple.setRange(XSD.xboolean);
+        hasAccuracyprinciple.addSuperProperty(containsGdprPrinciples);
+
+        hasICprinciple = ontModel.createDatatypeProperty(NAMESPACE + "hasIntegrity&Confidentialityprinciple");
+        hasICprinciple.setDomain(GdprPrinciple);
+        hasICprinciple.setRange(XSD.xboolean);
+        hasICprinciple.addSuperProperty(containsGdprPrinciples);
+
+        hasDataMinimizationprinciple = ontModel.createDatatypeProperty(NAMESPACE + "hasDataMinimizationprinciple");
+        hasDataMinimizationprinciple.setDomain(GdprPrinciple);
+        hasDataMinimizationprinciple.setRange(XSD.xboolean);
+        hasDataMinimizationprinciple.addSuperProperty(containsGdprPrinciples);
+
+        hasStorageLimitationprinciple = ontModel.createDatatypeProperty(NAMESPACE + "hasStorageLimitationprinciple");
+        hasStorageLimitationprinciple.setDomain(GdprPrinciple);
+        hasStorageLimitationprinciple.setRange(XSD.xboolean);
+        hasStorageLimitationprinciple.addSuperProperty(containsGdprPrinciples);
+
+
+        hasAccountabilityprinciple = ontModel.createDatatypeProperty(NAMESPACE + "hasAccountabilityprinciple");
+        hasAccountabilityprinciple.setDomain(GdprPrinciple);
+        hasAccountabilityprinciple.setRange(XSD.xboolean);
+        hasAccountabilityprinciple.addSuperProperty(containsGdprPrinciples);
+
+
+        hasPurposeLimitationprinciple = ontModel.createDatatypeProperty(NAMESPACE + "hasPurposeLimitationprinciple");
+        hasPurposeLimitationprinciple.setDomain(GdprPrinciple);
+        hasPurposeLimitationprinciple.setRange(XSD.xboolean);
+        hasPurposeLimitationprinciple.addSuperProperty(containsGdprPrinciples);
+
+
+
 
         /*************************** GDPRArea Activities  ***************************/
-
-        Util.hasProcessingactivity = ontModel.createDatatypeProperty(NAMESPACE + "hasProcessingactivity");
-        Util.hasProcessingactivity.setDomain(GdprActivity);
-        Util.hasProcessingactivity.setRange(XSD.xboolean);
-
-
-        Util.hasMarketingactivity = ontModel.createDatatypeProperty(NAMESPACE + "hasMarketingactivity");
-        Util.hasMarketingactivity.setDomain(GdprActivity);
-        Util.hasMarketingactivity.setRange(XSD.xboolean);
-
-
-        Util.hasDataActivityactivity = ontModel.createDatatypeProperty(NAMESPACE + "hasDataActivityactivity");
-        Util.hasDataActivityactivity.setDomain(GdprActivity);
-        Util.hasDataActivityactivity.setRange(XSD.xboolean);
-
-
-        Util.hasConsentactivity = ontModel.createDatatypeProperty(NAMESPACE + "hasConsentactivity");
-        Util.hasConsentactivity.setDomain(GdprActivity);
-        Util.hasConsentactivity.setRange(XSD.xboolean);
-
-
-        Util.hasExerciserightsactivity = ontModel.createDatatypeProperty(NAMESPACE + "hasExerciserightsactivity");
-        Util.hasExerciserightsactivity.setDomain(GdprActivity);
-        Util.hasExerciserightsactivity.setRange(XSD.xboolean);
-
-
-        Util.hasImpactAssessmentactivity = ontModel.createDatatypeProperty(NAMESPACE + "hasImpactAssessmentactivity");
-        Util.hasImpactAssessmentactivity.setDomain(GdprActivity);
-        Util.hasImpactAssessmentactivity.setRange(XSD.xboolean);
-
-
-        Util.hasIdentificationofDataSubjectactivity = ontModel.createDatatypeProperty(NAMESPACE + "hasIdentificationofDataSubjectactivity");
-        Util.hasIdentificationofDataSubjectactivity.setDomain(GdprActivity);
-        Util.hasIdentificationofDataSubjectactivity.setRange(XSD.xboolean);
-
-
-        Util.hasSecurityofPersonalDataactivity = ontModel.createDatatypeProperty(NAMESPACE + "hasSecurityofPersonalDataactivity");
-        Util.hasSecurityofPersonalDataactivity.setDomain(GdprActivity);
-        Util.hasSecurityofPersonalDataactivity.setRange(XSD.xboolean);
-
-
-        Util.hasDemonstratingConsentactivity = ontModel.createDatatypeProperty(NAMESPACE + "hasDemonstratingConsentactivity");
-        Util.hasDemonstratingConsentactivity.setDomain(GdprActivity);
-        Util.hasDemonstratingConsentactivity.setRange(XSD.xboolean);
-
-
-        Util.hasReportDataBreachactivity = ontModel.createDatatypeProperty(NAMESPACE + "hasReportDataBreachactivity");
-        Util.hasReportDataBreachactivity.setDomain(GdprActivity);
-        Util.hasReportDataBreachactivity.setRange(XSD.xboolean);
 
         DatatypeProperty containsGDPRactivities = ontModel.createDatatypeProperty(NAMESPACE + "containsGDPRactivities");
         containsGDPRactivities.setDomain(GdprActivity);
         containsGDPRactivities.setRange(XSD.xboolean);
 
+        hasProcessingactivity = ontModel.createDatatypeProperty(NAMESPACE + "hasProcessingactivity");
+        hasProcessingactivity.setDomain(GdprActivity);
+        hasProcessingactivity.setRange(XSD.xboolean);
+        hasProcessingactivity.addSuperProperty(containsGDPRactivities);
+
+
+        hasMarketingactivity = ontModel.createDatatypeProperty(NAMESPACE + "hasMarketingactivity");
+        hasMarketingactivity.setDomain(GdprActivity);
+        hasMarketingactivity.setRange(XSD.xboolean);
+        hasMarketingactivity.addSuperProperty(containsGDPRactivities);
+
+
+        hasDataActivityactivity = ontModel.createDatatypeProperty(NAMESPACE + "hasDataActivityactivity");
+        hasDataActivityactivity.setDomain(GdprActivity);
+        hasDataActivityactivity.setRange(XSD.xboolean);
+        hasDataActivityactivity.addSuperProperty(containsGDPRactivities);
+
+
+        hasConsentactivity = ontModel.createDatatypeProperty(NAMESPACE + "hasConsentactivity");
+        hasConsentactivity.setDomain(GdprActivity);
+        hasConsentactivity.setRange(XSD.xboolean);
+        hasConsentactivity.addSuperProperty(containsGDPRactivities);
+
+
+        hasExerciserightsactivity = ontModel.createDatatypeProperty(NAMESPACE + "hasExerciserightsactivity");
+        hasExerciserightsactivity.setDomain(GdprActivity);
+        hasExerciserightsactivity.setRange(XSD.xboolean);
+        hasExerciserightsactivity.addSuperProperty(containsGDPRactivities);
+
+
+        hasImpactAssessmentactivity = ontModel.createDatatypeProperty(NAMESPACE + "hasImpactAssessmentactivity");
+        hasImpactAssessmentactivity.setDomain(GdprActivity);
+        hasImpactAssessmentactivity.setRange(XSD.xboolean);
+        hasImpactAssessmentactivity.addSuperProperty(containsGDPRactivities);
+
+
+        hasIdentificationofDataSubjectactivity = ontModel.createDatatypeProperty(NAMESPACE + "hasIdentificationofDataSubjectactivity");
+        hasIdentificationofDataSubjectactivity.setDomain(GdprActivity);
+        hasIdentificationofDataSubjectactivity.setRange(XSD.xboolean);
+        hasIdentificationofDataSubjectactivity.addSuperProperty(containsGDPRactivities);
+
+
+        hasSecurityofPersonalDataactivity = ontModel.createDatatypeProperty(NAMESPACE + "hasSecurityofPersonalDataactivity");
+        hasSecurityofPersonalDataactivity.setDomain(GdprActivity);
+        hasSecurityofPersonalDataactivity.setRange(XSD.xboolean);
+        hasSecurityofPersonalDataactivity.addSuperProperty(containsGDPRactivities);
+
+
+        hasDemonstratingConsentactivity = ontModel.createDatatypeProperty(NAMESPACE + "hasDemonstratingConsentactivity");
+        hasDemonstratingConsentactivity.setDomain(GdprActivity);
+        hasDemonstratingConsentactivity.setRange(XSD.xboolean);
+        hasDemonstratingConsentactivity.addSuperProperty(containsGDPRactivities);
+
+
+        hasReportDataBreachactivity = ontModel.createDatatypeProperty(NAMESPACE + "hasReportDataBreachactivity");
+        hasReportDataBreachactivity.setDomain(GdprActivity);
+        hasReportDataBreachactivity.setRange(XSD.xboolean);
+        hasReportDataBreachactivity.addSuperProperty(containsGDPRactivities);
+
+
+
+
 
         /*************************** GDPRArea Data  ***************************/
-
-
-        Util.hasPseudoAnonymousData = ontModel.createDatatypeProperty(NAMESPACE + "hasPseudoAnonymousData");
-        Util.hasPseudoAnonymousData.setDomain(GdprData);
-        Util.hasPseudoAnonymousData.setRange(XSD.xboolean);
-
-
-        Util.hasPersonalData = ontModel.createDatatypeProperty(NAMESPACE + "hasPersonalData");
-        Util.hasPersonalData.setDomain(GdprData);
-        Util.hasPersonalData.setRange(XSD.xboolean);
-
-
-        Util.hasAnonymousData = ontModel.createDatatypeProperty(NAMESPACE + "hasAnonymousData");
-        Util.hasAnonymousData.setDomain(GdprData);
-        Util.hasAnonymousData.setRange(XSD.xboolean);
-
 
         DatatypeProperty containsGDPRData = ontModel.createDatatypeProperty(NAMESPACE + "containsGDPRData");
         containsGDPRData.setDomain(GdprData);
         containsGDPRData.setRange(XSD.xboolean);
 
 
+        hasPseudoAnonymousData = ontModel.createDatatypeProperty(NAMESPACE + "hasPseudoAnonymousData");
+        hasPseudoAnonymousData.setDomain(GdprData);
+        hasPseudoAnonymousData.setRange(XSD.xboolean);
+        hasPseudoAnonymousData.addSuperProperty(containsGDPRData);
+
+
+        hasPersonalData = ontModel.createDatatypeProperty(NAMESPACE + "hasPersonalData");
+        hasPersonalData.setDomain(GdprData);
+        hasPersonalData.setRange(XSD.xboolean);
+        hasPersonalData.addSuperProperty(containsGDPRData);
+
+
+        hasAnonymousData = ontModel.createDatatypeProperty(NAMESPACE + "hasAnonymousData");
+        hasAnonymousData.setDomain(GdprData);
+        hasAnonymousData.setRange(XSD.xboolean);
+        hasAnonymousData.addSuperProperty(containsGDPRData);
+
+
         /*************************** Vocabs Class  ***************************/
-
-
-
-        Util.hasBiologyRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasBiologyRelatedVocab");
-        Util.hasBiologyRelatedVocab.setDomain(Vocabs);
-        Util.hasBiologyRelatedVocab.setRange(XSD.xboolean);
-
-        Util.hasEnvironmentalVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasEnvironmentalVocab");
-        Util.hasEnvironmentalVocab.setDomain(Vocabs);
-        Util.hasEnvironmentalVocab.setRange(XSD.xboolean);
-
-        Util.hasGeographicalVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasGeographicalVocab");
-        Util.hasGeographicalVocab.setDomain(Vocabs);
-        Util.hasGeographicalVocab.setRange(XSD.xboolean);
-
-        Util.hasGovernmentRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasGovernmentRelatedVocab");
-        Util.hasGovernmentRelatedVocab.setDomain(Vocabs);
-        Util.hasGovernmentRelatedVocab.setRange(XSD.xboolean);
-
-        Util.hasHealthRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasHealthRelatedVocab");
-        Util.hasHealthRelatedVocab.setDomain(Vocabs);
-        Util.hasHealthRelatedVocab.setRange(XSD.xboolean);
-
-        Util.hasIndustrialRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasIndustrialRelatedVocab");
-        Util.hasIndustrialRelatedVocab.setDomain(Vocabs);
-        Util.hasIndustrialRelatedVocab.setRange(XSD.xboolean);
-
-        Util.hasIoTRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasIoTRelatedVocab");
-        Util.hasIoTRelatedVocab.setDomain(Vocabs);
-        Util.hasIoTRelatedVocab.setRange(XSD.xboolean);
-
-        Util.hasMetaDataRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasMetaDataRelatedVocab");
-        Util.hasMetaDataRelatedVocab.setDomain(Vocabs);
-        Util.hasMetaDataRelatedVocab.setRange(XSD.xboolean);
-
-        Util.hasMethodsRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasMethodsRelatedVocab");
-        Util.hasMethodsRelatedVocab.setDomain(Vocabs);
-        Util.hasMethodsRelatedVocab.setRange(XSD.xboolean);
-
-        Util.hasPeopleRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasPeopleRelatedVocab");
-        Util.hasPeopleRelatedVocab.setDomain(Vocabs);
-        Util.hasPeopleRelatedVocab.setRange(XSD.xboolean);
-
-        Util.hasQualityRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasQualityRelatedVocab");
-        Util.hasQualityRelatedVocab.setDomain(Vocabs);
-        Util.hasQualityRelatedVocab.setRange(XSD.xboolean);
-
-        Util.hasRDFRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasRDFRelatedVocab");
-        Util.hasRDFRelatedVocab.setDomain(Vocabs);
-        Util.hasRDFRelatedVocab.setRange(XSD.xboolean);
-
-        Util.hasSecurityRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasSecurityRelatedVocab");
-        Util.hasSecurityRelatedVocab.setDomain(Vocabs);
-        Util.hasSecurityRelatedVocab.setRange(XSD.xboolean);
-
-        Util.hasServicesRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasServicesRelatedVocab");
-        Util.hasServicesRelatedVocab.setDomain(Vocabs);
-        Util.hasServicesRelatedVocab.setRange(XSD.xboolean);
-
-        Util.hasSocietyRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasSocietyRelatedVocab");
-        Util.hasSocietyRelatedVocab.setDomain(Vocabs);
-        Util.hasSocietyRelatedVocab.setRange(XSD.xboolean);
-
-        Util.hasTimeRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasTimeRelatedVocab");
-        Util.hasTimeRelatedVocab.setDomain(Vocabs);
-        Util.hasTimeRelatedVocab.setRange(XSD.xboolean);
-
-        Util.hasVocabularyRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasVocabularyRelatedVocab");
-        Util.hasVocabularyRelatedVocab.setDomain(Vocabs);
-        Util.hasVocabularyRelatedVocab.setRange(XSD.xboolean);
 
         DatatypeProperty containsVocab = ontModel.createDatatypeProperty(NAMESPACE + "containsVocabularies");
         containsVocab.setDomain(Vocabs);
         containsVocab.setRange(XSD.xboolean);
+
+
+        hasBiologyRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasBiologyRelatedVocab");
+        hasBiologyRelatedVocab.setDomain(Vocabs);
+        hasBiologyRelatedVocab.setRange(XSD.xboolean);
+        hasBiologyRelatedVocab.addSuperProperty(containsVocab);
+
+        hasEnvironmentalVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasEnvironmentalVocab");
+        hasEnvironmentalVocab.setDomain(Vocabs);
+        hasEnvironmentalVocab.setRange(XSD.xboolean);
+        hasEnvironmentalVocab.addSuperProperty(containsVocab);
+
+        hasGeographicalVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasGeographicalVocab");
+        hasGeographicalVocab.setDomain(Vocabs);
+        hasGeographicalVocab.setRange(XSD.xboolean);
+        hasGeographicalVocab.addSuperProperty(containsVocab);
+
+        hasGovernmentRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasGovernmentRelatedVocab");
+        hasGovernmentRelatedVocab.setDomain(Vocabs);
+        hasGovernmentRelatedVocab.setRange(XSD.xboolean);
+        hasGovernmentRelatedVocab.addSuperProperty(containsVocab);
+
+        hasHealthRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasHealthRelatedVocab");
+        hasHealthRelatedVocab.setDomain(Vocabs);
+        hasHealthRelatedVocab.setRange(XSD.xboolean);
+        hasHealthRelatedVocab.addSuperProperty(containsVocab);
+
+        hasIndustrialRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasIndustrialRelatedVocab");
+        hasIndustrialRelatedVocab.setDomain(Vocabs);
+        hasIndustrialRelatedVocab.setRange(XSD.xboolean);
+        hasIndustrialRelatedVocab.addSuperProperty(containsVocab);
+
+        hasIoTRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasIoTRelatedVocab");
+        hasIoTRelatedVocab.setDomain(Vocabs);
+        hasIoTRelatedVocab.setRange(XSD.xboolean);
+        hasIoTRelatedVocab.addSuperProperty(containsVocab);
+
+        hasMetaDataRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasMetaDataRelatedVocab");
+        hasMetaDataRelatedVocab.setDomain(Vocabs);
+        hasMetaDataRelatedVocab.setRange(XSD.xboolean);
+        hasMetaDataRelatedVocab.addSuperProperty(containsVocab);
+
+        hasMethodsRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasMethodsRelatedVocab");
+        hasMethodsRelatedVocab.setDomain(Vocabs);
+        hasMethodsRelatedVocab.setRange(XSD.xboolean);
+        hasMethodsRelatedVocab.addSuperProperty(containsVocab);
+
+        hasPeopleRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasPeopleRelatedVocab");
+        hasPeopleRelatedVocab.setDomain(Vocabs);
+        hasPeopleRelatedVocab.setRange(XSD.xboolean);
+        hasPeopleRelatedVocab.addSuperProperty(containsVocab);
+
+        hasQualityRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasQualityRelatedVocab");
+        hasQualityRelatedVocab.setDomain(Vocabs);
+        hasQualityRelatedVocab.setRange(XSD.xboolean);
+        hasQualityRelatedVocab.addSuperProperty(containsVocab);
+
+        hasRDFRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasRDFRelatedVocab");
+        hasRDFRelatedVocab.setDomain(Vocabs);
+        hasRDFRelatedVocab.setRange(XSD.xboolean);
+        hasRDFRelatedVocab.addSuperProperty(containsVocab);
+
+        hasSecurityRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasSecurityRelatedVocab");
+        hasSecurityRelatedVocab.setDomain(Vocabs);
+        hasSecurityRelatedVocab.setRange(XSD.xboolean);
+        hasSecurityRelatedVocab.addSuperProperty(containsVocab);
+
+        hasServicesRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasServicesRelatedVocab");
+        hasServicesRelatedVocab.setDomain(Vocabs);
+        hasServicesRelatedVocab.setRange(XSD.xboolean);
+        hasServicesRelatedVocab.addSuperProperty(containsVocab);
+
+        hasSocietyRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasSocietyRelatedVocab");
+        hasSocietyRelatedVocab.setDomain(Vocabs);
+        hasSocietyRelatedVocab.setRange(XSD.xboolean);
+        hasSocietyRelatedVocab.addSuperProperty(containsVocab);
+
+        hasTimeRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasTimeRelatedVocab");
+        hasTimeRelatedVocab.setDomain(Vocabs);
+        hasTimeRelatedVocab.setRange(XSD.xboolean);
+        hasTimeRelatedVocab.addSuperProperty(containsVocab);
+
+        hasVocabularyRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasVocabularyRelatedVocab");
+        hasVocabularyRelatedVocab.setDomain(Vocabs);
+        hasVocabularyRelatedVocab.setRange(XSD.xboolean);
+        hasVocabularyRelatedVocab.addSuperProperty(containsVocab);
+
+
 
 
 
@@ -285,12 +330,12 @@ public class CreateOntology {
 
         System.out.println("\n\n\nWriting to the Knowledge Base......");
 
-        for (ReportPhase1 r: Util.report) {
+        for (ReportPhase1 r: report) {
 
 
         /*************************** Adding Values classes & Subclasses  ***************************/
         Individual OntDataset;
-        OntDataset = GdprAreas.createIndividual(NAMESPACE + r.getName());
+        OntDataset = Dataset.createIndividual(NAMESPACE + r.getName());
 
 
 
@@ -338,11 +383,14 @@ public class CreateOntology {
         //            Individual aVocab;
         //            aVocab = Vocabs.createIndividual();
             SetVocabPropertyList.setVocabPropertyList();
+            System.out.println("VOCAB BUILDING: " +r.getFoundVocabsAreas());
+            System.out.println("AllVocabsProperty " + AllVocabsProperty);
+            for (String v : r.getFoundVocabsAreas()) {
 
-            for (String v : r.getFoundVocabs()) {
 
-                if (Util.AllVocabsProperty.containsKey(v)) {
-                    OntDataset.addLiteral(Util.AllVocabsProperty.get(v), true);
+
+                if (AllVocabsProperty.containsKey(v)) {
+                    OntDataset.addLiteral(AllVocabsProperty.get(v), true);
                     OntDataset.addLiteral(containsVocab, true);
                 }
             }
@@ -356,7 +404,7 @@ public class CreateOntology {
 
     public static void writeToFile(OntModel ontModel) {
         try {
-            ontModel.write(new FileWriter(Util.ONTOLOGY_PATH), "RDF/XML");
+            ontModel.write(new FileWriter(ONTOLOGY_PATH), "RDF/XML");
         } catch (Exception e) {
             e.printStackTrace();
         }

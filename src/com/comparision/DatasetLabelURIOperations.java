@@ -149,8 +149,12 @@ public class DatasetLabelURIOperations {
 
 
     static List<String> getVocabsAreasPresentInDatasetLabelURI(String DatasetLabel) {
-        System.out.println("\n\ngetVocabsAreasPresentInDatasetLabelURI  "+ Util.OntRep);
-        return Util.OntRep.get(DatasetLabel);
+//        System.out.println("\n\ngetVocabsAreasPresentInDatasetLabelURI  "+ Util.OntRep);
+        Set<String> temp = new HashSet<>();
+        temp.addAll(Util.OntRep.get(DatasetLabel));
+        List<String> temp2 = new ArrayList<>();
+        temp2.addAll(temp);
+        return temp2;
     }
 
     static List<String> getVocabsPresentInDatasetLabelURI(String DatasetLabel) {
