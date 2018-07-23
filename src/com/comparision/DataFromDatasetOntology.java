@@ -14,7 +14,7 @@ import java.util.Set;
 
 public class DataFromDatasetOntology {
 
-    static List<String> getVocabListInOntology(String ontName){  //Tested
+    static List<String> getVocabAreaListInOntology(String ontName){  //Tested
         List<String> VocabListInOnt = Util.OntRep.get(ontName);
         return VocabListInOnt;
     }
@@ -34,7 +34,7 @@ public class DataFromDatasetOntology {
 
         List<String> gdprAreas = new ArrayList<>();
         List<String> vocabList;
-        List<String> VocabListInOnt = getVocabListInOntology(OntName);
+        List<String> VocabListInOnt = getVocabAreaListInOntology(OntName);
         for(String vocabFile : VocabListInOnt){
             vocabList = GDPRAreasInVocab.getGdprAreasInVocabs(vocabFile);
             gdprAreas.addAll(vocabList);

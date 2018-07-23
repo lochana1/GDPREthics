@@ -10,6 +10,7 @@ public interface Report {
      String Name = null;
      String Desc = null;
      List<String> foundVocabs = null;
+     List<String> foundVocabsAreas = null;
      List<String> foundGdprAreas = null;
 
 

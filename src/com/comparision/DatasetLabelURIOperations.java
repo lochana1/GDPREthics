@@ -123,14 +123,17 @@ public class DatasetLabelURIOperations {
     //  Prepares a map of Datasets and GDPRAreas present in them
     static void setGDPRAreasInDatasetLabelURI() {
         List<String> gdprinDatasetLabelVocabs = new ArrayList<>();
+        List<String> vocabAreasinOntLabel = new ArrayList<>();
         for (String ds : Util.DatasetLabelURIList) {
             for (String v : Util.VocabInDatasetLabel.get(ds)) {
                 String BowVocab = SetPrefixesAndVocabBow.getVocabBowAndPrefixes(v);
 
                 BowVocab = BowVocab.substring(0,BowVocab.length()-4);
                 gdprinDatasetLabelVocabs = GDPRAreasInVocab.getGdprAreasInVocabs(BowVocab);
+                vocabAreasinOntLabel.add(BowVocab);
 
             }
+            Util.OntRep.put(ds,vocabAreasinOntLabel );
             if (gdprinDatasetLabelVocabs != null)
                 Util.GDPRAreasInDatasetLabel.put(ds, gdprinDatasetLabelVocabs);
         }
@@ -145,15 +148,20 @@ public class DatasetLabelURIOperations {
     }
 
 
-    static Set<String> getVocabsPresentInDatasetLabelURI(String DatasetLabel) {
-        return Util.VocabInDatasetLabel.get(DatasetLabel);
+    static List<String> getVocabsAreasPresentInDatasetLabelURI(String DatasetLabel) {
+        System.out.println("\n\ngetVocabsAreasPresentInDatasetLabelURI  "+ Util.OntRep);
+        return Util.OntRep.get(DatasetLabel);
     }
 
-    static List<String> getVocabsAreasPresentInDatasetLabelURI(String DatasetLabel) {
+    static List<String> getVocabsPresentInDatasetLabelURI(String DatasetLabel) {
 
         List<String> temp = new ArrayList<>();
         temp.addAll(Util.VocabInDatasetLabel.get(DatasetLabel));
+
+//        System.out.println("\n\ngetVocabsAreasPresentInDatasetLabelURI  "+ Util.VocabInDatasetLabel);
         return (temp);
+
+
     }
 
 
@@ -169,7 +177,12 @@ public class DatasetLabelURIOperations {
             rep2.setDesc("**This is a Dataset Label**");
 
             //      Adding the found vocabularies
-            rep2.setFoundVocabs((List<String>) getVocabsAreasPresentInDatasetLabelURI(on.getKey()));
+            rep2.setFoundVocabs(getVocabsPresentInDatasetLabelURI(on.getKey()));
+
+            //      Adding the found vocabularies Areas
+            rep2.setFoundVocabsAreas(getVocabsAreasPresentInDatasetLabelURI(on.getKey()));
+
+
 
             //       Adding the corresponding GDPR Areas
             rep2.setFoundGdprAreas(getGDPRAreasInDatasetLabelURI(on.getKey()));

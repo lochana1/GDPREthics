@@ -34,8 +34,15 @@ public class DatasetOntologyOperations {
 
         GDPRAreasInVocab.setGdprAreasInVocabs();
         for(Map.Entry<String, List<String>> on : Util.OntRep.entrySet()){
-            System.out.println(on.getKey()+" : "+ on.getValue());
+            System.out.println(on.getKey()+" : "+ on.getValue() + Util.OntTagsVocabs.get(on.getKey()));
+
 //            System.out.println("Found Matching Vocab Terms: "+ on.getValue().size());
+//            System.out.println("\n\nBow Terms:  "+ Util.BOW_Terms);
+//            System.out.println("\n\nGdprInVocab:  "+ Util.GdprInVocab);
+//            System.out.println("\n\nONT REP:  "+ Util.OntRep);
+//            System.out.println("\n\nBOW_VOCABS:  "+ Util.BOW_Vocabs);
+//            System.out.println("\n\nONT Vocab prefixes:  "+ Util.OntVocabPrefixes);
+
 //            System.out.println("Found Corresponding GDPR Terms: "+ DataFromDatasetOntology.getGdprAreasInOntology(on.getKey()));
             int s = DataFromDatasetOntology.getGdprAreasInOntology(on.getKey()).size();
             s = s==1 ? 0 :s;
@@ -53,8 +60,13 @@ public class DatasetOntologyOperations {
 
             //            Adding Dataset ontology name
             rep.setName(on.getKey());
+
             //            Adding the found vocabularies
-            rep.setFoundVocabs(on.getValue());
+            rep.setFoundVocabs(Util.OntVocabPrefixes.get(on.getKey()));
+
+            //            Adding the found Vocabularies Areas
+            rep.setFoundVocabsAreas(on.getValue());
+
             //              Adding the corresponding GDPR Areas
             rep.setFoundGdprAreas(DataFromDatasetOntology.getGdprAreasInOntology(on.getKey()));
             Util.report.add(rep);

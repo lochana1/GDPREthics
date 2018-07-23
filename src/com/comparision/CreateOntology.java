@@ -44,20 +44,45 @@ public class CreateOntology {
         OntClass GdprActivity = ontModel.createClass(NAMESPACE + "GDPR_Activity");
         OntClass GdprData = ontModel.createClass(NAMESPACE + "GDPR_Data");
 
-        GdprPrinciple.addLabel("GDPR Principles", null);
-        GdprActivity.addLabel("GDPR Activity", null);
-        GdprData.addLabel("GDPR Data", null);
+        GdprPrinciple.addLabel("GDPRPrinciples", null);
+        GdprActivity.addLabel("GDPRActivity", null);
+        GdprData.addLabel("GDPRData", null);
 
         RDFList list = ontModel.createList(new RDFNode[]{GdprPrinciple, GdprActivity, GdprData});
 
 
         OntClass GdprAreas = ontModel.createUnionClass(NAMESPACE + "GDPR_Areas", list);
-        GdprAreas.addLabel("GDPR Areas", null);
+//        OntClass GdprAreas = ontModel.createClass(NAMESPACE + "GDPR_Areas");
+        GdprAreas.addLabel("GDPRAreas", null);
         GdprAreas.addComment("Contains List of affected GDPR Areas", null);
 
         GdprPrinciple.addSuperClass(GdprAreas);
         GdprActivity.addSuperClass(GdprAreas);
         GdprData.addSuperClass(GdprAreas);
+
+        GdprPrinciple.addRDFType(GdprAreas);
+        GdprActivity.addRDFType(GdprData);
+        GdprData.addRDFType(GdprData);
+
+
+
+        OntClass Vocabs = ontModel.createUnionClass(NAMESPACE + "Vocab", null);
+        Vocabs.addLabel("Vocabs", null);
+        Vocabs.addComment("Contains the information of relevant Linked Open Vocabs", null);
+
+
+        OntClass Dataset = ontModel.createClass(NAMESPACE + "Dataset");
+        Dataset.addLabel("Dataset", null);
+        Dataset.addComment("Dataset in Consideration", null);
+
+        GdprAreas.addSuperClass(Dataset);
+        Vocabs.addSuperClass(Dataset);
+
+        Vocabs.addRDFType(Dataset);
+
+
+
+
 
         /*************************** GDPRArea Principles  ***************************/
 
@@ -180,9 +205,6 @@ public class CreateOntology {
 
         /*************************** Vocabs Class  ***************************/
 
-        OntClass Vocabs = ontModel.createUnionClass(NAMESPACE + "Vocab", null);
-        Vocabs.addLabel("Vocabs", null);
-        Vocabs.addComment("Contains the information of relevant Linked Open Vocabs", null);
 
 
         Util.hasBiologyRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasBiologyRelatedVocab");
@@ -261,7 +283,7 @@ public class CreateOntology {
 
         /*************************** Adding Data to the Newly created Ontology  ***************************/
 
-        System.out.println("\n\n\nWriting to the Ontology......");
+        System.out.println("\n\n\nWriting to the Knowledge Base......");
 
         for (ReportPhase1 r: Util.report) {
 

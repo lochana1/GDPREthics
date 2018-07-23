@@ -11,14 +11,16 @@ public class ReportPhase1 implements Report{
     private String Name;
     private String Desc;
     private List<String> foundVocabs;
+    private List<String> foundVocabsAreas;
     private List<String> foundGdprAreas;
 
     public ReportPhase1(){}
 
-    public ReportPhase1(String Name, String Desc, List<String> foundVocabs, List<String> foundGdprAreas ){
+    public ReportPhase1(String Name, String Desc, List<String> foundVocabs, List<String> foundVocabsAreas, List<String> foundGdprAreas ){
         this.Name = Name;
         this.Desc = Desc;
         this.foundVocabs = foundVocabs;
+        this.foundVocabsAreas = foundVocabsAreas;
         this.foundGdprAreas = foundGdprAreas;
     }
 
@@ -44,6 +46,14 @@ public class ReportPhase1 implements Report{
         this.foundVocabs = foundVocabs;
     }
 
+    public List<String> getFoundVocabsAreas() {
+        return foundVocabsAreas;
+    }
+
+    public void setFoundVocabsAreas(List<String> foundVocabsAreas) {
+        this.foundVocabsAreas = foundVocabsAreas;
+    }
+
     public List<String> getFoundGdprAreas() {
         return foundGdprAreas;
     }
@@ -54,10 +64,11 @@ public class ReportPhase1 implements Report{
 
     @Override
     public String toString() {
-        return   "Name='" + Name + '\'' +
+        return  "Name='" + Name + '\'' +
                 ", \nDesc='" + Desc + '\'' +
-                ", \nfoundVocabs=" + foundVocabs +
-                ", \nfoundGdprAreas=" + foundGdprAreas +
+                ", \nVocab Prefixes Found: " + foundVocabs +
+                ", \nVocab Areas Found: " + foundVocabsAreas +
+                ", \nGDPR Areas Found=" + foundGdprAreas +
                 "}\n\n";
     }
 }

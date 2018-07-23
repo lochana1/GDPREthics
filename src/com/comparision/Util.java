@@ -9,16 +9,30 @@ import java.util.*;
 
 public class Util {
 
+    //Contains a map of vocab prefix and associated Vocab Area todo same as PrefixesAndVocabBow
     static Map<String, String> BOW_Vocabs = new HashMap<>();
+
+    //Contains a map of a term prefix and corresponding Topic tags...dogont:FailureStateValue=IOT_Tags
     static Map<String, String> BOW_Terms = new HashMap<>();
+
+    //Contains a map of DatasetOntology Name and List on lines present in ontology file
     static Map<String, List<String>> Onts = new HashMap<>();
 
-    //Contains a map of DatasetOntology Name and List of vocabs present in the Ontology
+    //Contains a map of DatasetOntology Name and List of vocabs Areas present in the Ontology
     static Map<String, List<String>> OntRep = new HashMap<>();
 
+  //Contains a map of DatasetOntology Name and List of vocabs prefixes present in the Ontology
+    static Map<String, List<String>> OntVocabPrefixes = new HashMap<>();
+
+    //Contains a map of vocab prefix and associated Vocab Area
     static Map<String, String> PrefixesAndVocabBow = new HashMap<>();
+
+    //Contains a map of DatasetOntology Name and List of VocabArea and Vocabs ([Vocab_People:foaf....)
     static Map<String, List<String>> OntTagsVocabs = new HashMap<>();
+
+    //Contains a map of Vocab Area and associated list of GDPR Areas
     static Map<String, List<String>> GdprInVocab = new HashMap<>();
+
     static Map<String, Set<String>> VocabInDatasetLabel = new HashMap<>();
     static Map<String, Set<String>> VocabAreasInDatasetLabel = new HashMap<>();
     static Map<String, List<String>> GDPRAreasInDatasetLabel = new HashMap<>();
@@ -28,6 +42,8 @@ public class Util {
     static List<String> bowFiles = FileListsInFolder.listFilesForFolder(new File(Util.bowFolder));
     static List<String> bowTagsFiles = FileListsInFolder.listFilesForFolder(new File(Util.bowTagsFolder));
     static List<String> ontologyFiles = FileListsInFolder.listFilesForFolder(new File(Util.ontFolder));
+
+    //Contains the list of the Dataset Label read from the file
     static List<String> DatasetLabelURIList = new ArrayList<>();
 
 
