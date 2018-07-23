@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f864219-8d53-4880-b2f7-c4939f177884" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/comparision/CreateOntology.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/CreateOntology.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/comparision/DatasetLabelURIOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/DatasetLabelURIOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/comparision/DatasetOntologyOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/DatasetOntologyOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/comparision/FetchVocabDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/FetchVocabDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/questions/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/questions/2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sparqls/s1.sparql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sparqls/s2.sparql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/comparision/QueryHub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/comparision/QueryWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/CreateOntology.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/CreateOntology.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/PreparePHASE1Report.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/Util.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/comparision/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/comparision/PreparePHASE1Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/PrepareReportPhase1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/comparision/ReportDataset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/ReportPhase1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/comparision/SearchingDatasetOntology.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/SearchingDatasetOntology.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/comparision/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/Util.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,17 +30,87 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/comparision/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+            <state relative-caret-position="255">
+              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatasetLabelURIOperations.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/comparision/DatasetLabelURIOperations.java">
+      <file leaf-file-name="QueryWindow.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/comparision/QueryWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="11" column="3" lean-forward="true" selection-start-line="9" selection-end-line="11" selection-end-column="3" />
+            <state relative-caret-position="1082">
+              <caret line="92" column="32" lean-forward="true" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
+                <element signature="e#1191#1192#0" expanded="true" />
+                <element signature="e#1235#1236#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JList.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/javax/swing/JList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="454" selection-start-line="454" selection-end-line="454" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/questions/1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/questions/2.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="s1.sparql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/sparqls/s1.sparql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="s2.sparql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/sparqls/s2.sparql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueryHub.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/comparision/QueryHub.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,95 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FetchVocabDetails.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/comparision/FetchVocabDetails.java">
+      <file leaf-file-name="CompoundEnumeration.class" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/CompoundEnumeration.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrepareReportPhase1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/comparision/PrepareReportPhase1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateOntology.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/comparision/CreateOntology.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BagOfWords.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/comparision/BagOfWords.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatasetOntologyOperations.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/comparision/DatasetOntologyOperations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="120" selection-start-line="7" selection-start-column="120" selection-end-line="7" selection-end-column="120" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileListsInFolder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/comparision/FileListsInFolder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataFromDatasetOntology.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/comparision/DataFromDatasetOntology.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GDPRAreasInVocab.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/comparision/GDPRAreasInVocab.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="420">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -198,14 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/GDPR_TAGS/Vocab_Time_Areas.txt" />
-        <option value="$PROJECT_DIR$/GDPR_TAGS/Vocab_Society_Areas.txt" />
-        <option value="$PROJECT_DIR$/GDPR_TAGS/Vocab_Biology_Areas.txt" />
-        <option value="$PROJECT_DIR$/GDPR_TAGS/Vocab_Metadata_Areas.txt" />
-        <option value="$PROJECT_DIR$/GDPR_TAGS/Vocab_Methods_Areas.txt" />
-        <option value="$PROJECT_DIR$/GDPR_TAGS/Vocab_Quality_Areas.txt" />
-        <option value="$PROJECT_DIR$/GDPR_TAGS/Vocab_RDF_Areas.txt" />
-        <option value="$PROJECT_DIR$/GDPR_TAGS/Vocab_Security_Areas.txt" />
         <option value="$PROJECT_DIR$/GDPR_TAGS/Vocab_Services_Areas.txt" />
         <option value="$PROJECT_DIR$/GDPR_TAGS/Vocab_Vocabularies_Areas.txt" />
         <option value="$PROJECT_DIR$/src/CompareDocs.java" />
@@ -230,11 +213,8 @@
         <option value="$PROJECT_DIR$/src/com/comparision/CompareEngine.java" />
         <option value="$PROJECT_DIR$/Temp/DATASET_LABELS" />
         <option value="$PROJECT_DIR$/src/com/comparision/VocabBowAndPrefixes.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/com/comparision/FileListsInFolder.java" />
         <option value="$PROJECT_DIR$/src/com/comparision/GDPRAreasInVocab.java" />
-        <option value="$PROJECT_DIR$/src/com/comparision/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/comparision/Util.java" />
         <option value="$PROJECT_DIR$/src/com/comparision/SetGDPRPropertyList.java" />
         <option value="$PROJECT_DIR$/src/com/comparision/SetPrefixesAndVocabBow.java" />
         <option value="$PROJECT_DIR$/src/com/comparision/SetVocabPropertyList.java" />
@@ -249,6 +229,17 @@
         <option value="$PROJECT_DIR$/src/com/comparision/FetchVocabDetails.java" />
         <option value="$PROJECT_DIR$/src/com/comparision/DatasetLabelURIOperations.java" />
         <option value="$PROJECT_DIR$/src/com/comparision/DatasetOntologyOperations.java" />
+        <option value="$PROJECT_DIR$/src/com/comparision/Util.java" />
+        <option value="$PROJECT_DIR$/src/com/comparision/Main.java" />
+        <option value="$PROJECT_DIR$/resources/questions" />
+        <option value="$PROJECT_DIR$/resources/sparqls" />
+        <option value="$PROJECT_DIR$/resources/questions/1" />
+        <option value="$PROJECT_DIR$/resources/questions/2" />
+        <option value="$PROJECT_DIR$/resources/sparqls/s1.sparql" />
+        <option value="$PROJECT_DIR$/resources/sparqls/s2.sparql" />
+        <option value="$PROJECT_DIR$/src/com/comparision/QueryHub.java" />
+        <option value="$PROJECT_DIR$/src/com/comparision/QueryWindow.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -288,12 +279,6 @@
             <path>
               <item name="DetectEthicalConcerns" type="b2602c69:ProjectViewProjectNode" />
               <item name="DetectEthicalConcerns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="comparision" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DetectEthicalConcerns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DetectEthicalConcerns" type="462c0819:PsiDirectoryNode" />
               <item name="Temp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -323,17 +308,19 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Temp" />
-      <recent name="$PROJECT_DIR$/src/com/ontology" />
-      <recent name="$PROJECT_DIR$/EXTRA" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/sparqls" />
+      <recent name="$PROJECT_DIR$/resources/questions" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/GDPR_TAGS" />
       <recent name="$PROJECT_DIR$/DATASET_ONTOLOGY" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/resources" />
+      <recent name="$PROJECT_DIR$/Temp" />
+      <recent name="$PROJECT_DIR$/src/com/ontology" />
+      <recent name="$PROJECT_DIR$/EXTRA" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -464,12 +451,12 @@
       <workItem from="1532190375185" duration="586000" />
       <workItem from="1532191089318" duration="19460000" />
       <workItem from="1532267896024" duration="6908000" />
-      <workItem from="1532289569215" duration="2274000" />
+      <workItem from="1532289569215" duration="5275000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84826000" />
+    <option name="totallyTimeSpent" value="87827000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -481,7 +468,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1700" height="1440" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -493,15 +480,15 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50039715" side_tool="true" weight="0.39865872" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" weight="0.21945137" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" weight="0.21907601" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32935917" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.20573565" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.12295082" />
       <window_info anchor="bottom" id="Dependency Viewer" weight="0.5798005" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3111588" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2623643" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32668328" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32668328" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -530,64 +517,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_RDF_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Services_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="48" selection-start-column="48" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Society_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Time_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Vocabularies_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/BagOfWordsVocab.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/SetGDPRAreasInVocab.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/HashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="88" column="13" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Geography_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Government_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="49" selection-start-column="49" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Health_Areas.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -692,23 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="87" lean-forward="true" selection-start-line="15" selection-start-column="87" selection-end-line="15" selection-end-column="87" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/comparision/SetVocabPropertyList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -786,13 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/comparision/GDPRAreasInVocab.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -816,7 +721,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/comparision/FetchVocabDetails.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -826,7 +731,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/comparision/DatasetLabelURIOperations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="9" selection-end-line="11" selection-end-column="3" />
+          <caret line="11" column="3" selection-start-line="9" selection-end-line="11" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -853,23 +758,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/CreateOntology.java">
+    <entry file="file://$PROJECT_DIR$/src/com/comparision/BagOfWords.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="465">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/BagOfWords.java">
+    <entry file="file://$PROJECT_DIR$/src/com/comparision/CreateOntology.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state>
+          <caret selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparision/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/questions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sparqls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/javax/swing/JList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="454" selection-start-line="454" selection-end-line="454" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sparqls/s1.sparql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sparqls/s2.sparql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/questions/2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/questions/1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparision/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/CompoundEnumeration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparision/QueryHub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparision/QueryWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1082">
+          <caret line="92" column="32" lean-forward="true" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#1191#1192#0" expanded="true" />
+            <element signature="e#1235#1236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
         </state>
       </provider>
     </entry>

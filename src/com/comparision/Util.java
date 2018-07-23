@@ -40,6 +40,7 @@ public class Util {
     static final Path REPORT_PATH = Paths.get("Temp/PHASE1_OUTPUT/report.txt");
     static final String VOCAB_DETAILS_FROM_LOV = "https://lov.linkeddata.es/dataset/lov/api/v2/vocabulary/info?vocab=";
     static final String DatasetLabelURIFile = "Temp/DATASET_LABELS/";
+    static final String resource = "Temp/";
 
 
     static Map<String,DatatypeProperty> AllVocabsProperty = new HashMap<>();
