@@ -312,10 +312,58 @@ public class CreateOntology {
         hasSocietyRelatedVocab.setRange(XSD.xboolean);
         hasSocietyRelatedVocab.addSuperProperty(containsVocab);
 
-        hasTimeRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasTimeRelatedVocab");
+        hasTimeRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasCellsRelatedVocab");
         hasTimeRelatedVocab.setDomain(Vocabs);
         hasTimeRelatedVocab.setRange(XSD.xboolean);
         hasTimeRelatedVocab.addSuperProperty(containsVocab);
+
+
+        hasAgeRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasAgeRelatedVocab");
+        hasAgeRelatedVocab.setDomain(Vocabs);
+        hasAgeRelatedVocab.setRange(XSD.xboolean);
+        hasAgeRelatedVocab.addSuperProperty(containsVocab);
+
+
+        hasCellsRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasCellsRelatedVocab");
+        hasCellsRelatedVocab.setDomain(Vocabs);
+        hasCellsRelatedVocab.setRange(XSD.xboolean);
+        hasCellsRelatedVocab.addSuperProperty(containsVocab);
+
+
+        hasChildRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasChildRelatedVocab");
+        hasChildRelatedVocab.setDomain(Vocabs);
+        hasChildRelatedVocab.setRange(XSD.xboolean);
+        hasChildRelatedVocab.addSuperProperty(containsVocab);
+
+
+        hasDrugsRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasDrugsRelatedVocab");
+        hasDrugsRelatedVocab.setDomain(Vocabs);
+        hasDrugsRelatedVocab.setRange(XSD.xboolean);
+        hasDrugsRelatedVocab.addSuperProperty(containsVocab);
+
+
+        hasEmbryoRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasEmbryoRelatedVocab");
+        hasEmbryoRelatedVocab.setDomain(Vocabs);
+        hasEmbryoRelatedVocab.setRange(XSD.xboolean);
+        hasEmbryoRelatedVocab.addSuperProperty(containsVocab);
+
+
+        hasGeneRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasGeneRelatedVocab");
+        hasGeneRelatedVocab.setDomain(Vocabs);
+        hasGeneRelatedVocab.setRange(XSD.xboolean);
+        hasGeneRelatedVocab.addSuperProperty(containsVocab);
+
+
+        hasTissueRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasTissueRelatedVocab");
+        hasTissueRelatedVocab.setDomain(Vocabs);
+        hasTissueRelatedVocab.setRange(XSD.xboolean);
+        hasTissueRelatedVocab.addSuperProperty(containsVocab);
+
+
+        hasSexualRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasSexualRelatedVocab");
+        hasSexualRelatedVocab.setDomain(Vocabs);
+        hasSexualRelatedVocab.setRange(XSD.xboolean);
+        hasSexualRelatedVocab.addSuperProperty(containsVocab);
 
         hasVocabularyRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasVocabularyRelatedVocab");
         hasVocabularyRelatedVocab.setDomain(Vocabs);
@@ -329,6 +377,7 @@ public class CreateOntology {
         /*************************** Adding Data to the Newly created Ontology  ***************************/
 
         System.out.println("\n\n\nWriting to the Knowledge Base......");
+        long start = System.currentTimeMillis();
 
         for (ReportPhase1 r: report) {
 
@@ -383,8 +432,8 @@ public class CreateOntology {
         //            Individual aVocab;
         //            aVocab = Vocabs.createIndividual();
             SetVocabPropertyList.setVocabPropertyList();
-            System.out.println("VOCAB BUILDING: " +r.getFoundVocabsAreas());
-            System.out.println("AllVocabsProperty " + AllVocabsProperty);
+//            System.out.println("VOCAB BUILDING: " +r.getFoundVocabsAreas());
+//            System.out.println("AllVocabsProperty " + AllVocabsProperty);
             for (String v : r.getFoundVocabsAreas()) {
 
 
@@ -399,6 +448,7 @@ public class CreateOntology {
 
         }
         System.out.println("\n\n\nOntology has been created now. Please check PHASE2_OUTPUT folder for the gdpr-ethics.rdf file");
+        System.out.println("Time Taken: "+(System.currentTimeMillis()- start)+"ms");
     }
 
 

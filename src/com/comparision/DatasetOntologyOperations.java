@@ -1,5 +1,6 @@
 package com.comparision;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
@@ -12,7 +13,10 @@ public class DatasetOntologyOperations {
 
     public static void datasetOntologyOperations() throws IOException {
 
-        System.out.println("Starting Tool Engine....\n\nProcess will take a few seconds....");
+        System.out.println("Starting Tool Engine....\nProcess will take a Several seconds....");
+        System.out.println("Input Data Preparation Started....");
+
+        long start =System.currentTimeMillis();
         for (String v : Util.bowFiles) {
             BagOfWords.bagOfWordsVocab(Util.bowFolder, v);
         }
@@ -21,8 +25,10 @@ public class DatasetOntologyOperations {
             BagOfWords.bagOfWordsTerms(Util.bowTagsFolder, v);
         }
 
+//        System.out.println("List of Files: "+Util.ontologyFiles );
         for (String oFile : Util.ontologyFiles) {
-            List<String> ontLines = Files.readAllLines(Paths.get((Util.ontFolder+oFile)));
+            List<String> ontLines = Files.readAllLines(Paths.get(Util.ontFolder+oFile),StandardCharsets.UTF_8);
+//            List<String> ontLines = FileListsInFolder.listFilesForFolder(Util.ontFolder+)
             String oFileName = oFile.substring(0,oFile.length()-4);
             Util.Onts.put(oFileName,ontLines);
         }
@@ -33,8 +39,11 @@ public class DatasetOntologyOperations {
 
 
         GDPRAreasInVocab.setGdprAreasInVocabs();
+
+        System.out.println("Input data Preparation Completed in: "+ (System.currentTimeMillis() - start)+ "ms");
         for(Map.Entry<String, List<String>> on : Util.OntRep.entrySet()){
-            System.out.println(on.getKey()+" : "+ on.getValue() + Util.OntTagsVocabs.get(on.getKey()));
+            start = System.currentTimeMillis();
+//            System.out.println(on.getKey()+" : "+ on.getValue() + Util.OntTagsVocabs.get(on.getKey()));
 
 //            System.out.println("Found Matching Vocab Terms: "+ on.getValue().size());
 //            System.out.println("\n\nBow Terms:  "+ Util.BOW_Terms);
@@ -70,6 +79,10 @@ public class DatasetOntologyOperations {
             //              Adding the corresponding GDPR Areas
             rep.setFoundGdprAreas(DataFromDatasetOntology.getGdprAreasInOntology(on.getKey()));
             Util.report.add(rep);
+
+            System.out.println("\n\nReport Object Created for : "+ rep.getName());
+            System.out.println("Time Taken: "+ (System.currentTimeMillis() - start)+"ms");
+
 
         }
 

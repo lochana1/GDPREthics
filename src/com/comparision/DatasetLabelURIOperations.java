@@ -19,8 +19,8 @@ public class DatasetLabelURIOperations {
         getAllVocabPrefixesFromBagOfWords();
         SetPrefixesAndVocabBow.setVocabBowAndPrefixes();
         prepareDatasetLabelURIList();
-        GDPRAreasInVocab.setGdprAreasInVocabs();
-        getAllVocabPrefixesFromBagOfWords();
+//        GDPRAreasInVocab.setGdprAreasInVocabs(); Already called in Ontology Operations
+//        getAllVocabPrefixesFromBagOfWords();
 //        The below mentioned function needs to be called only once
 //            getAllvocabDetails();
 
@@ -41,7 +41,7 @@ public class DatasetLabelURIOperations {
 
     //    Get the list of all vocab prefixes in all
     static void getAllVocabPrefixesFromBagOfWords() throws IOException {
-        Path path = Paths.get(Util.bowFolder);
+        Path path;
         List<String> vocabAreas = FileListsInFolder.listFilesForFolder(new File(Util.bowFolder));
         for (String BOW_file : vocabAreas) {
             path = Paths.get(Util.bowFolder + BOW_file);
@@ -60,6 +60,11 @@ public class DatasetLabelURIOperations {
     static boolean checkDatasetlabelInVocabDetails(String DatasetLabel, String vocabPrefix) throws IOException {
 
         List<String> lines;
+        //check if the vocab is present in vocab_Details_lov
+        //It will not be present if an entire term is used.
+        List<String> vocabInLOVDetails = FileListsInFolder.listFilesForFolder(new File(Util.VOCAB_DETAILS_LOV));
+        if(!vocabInLOVDetails.contains(vocabPrefix))
+            return false;
         Path path = Paths.get(Util.VOCAB_DETAILS_LOV + vocabPrefix);
         lines = Files.readAllLines(path);
         for (String ln : lines) {
@@ -101,7 +106,7 @@ public class DatasetLabelURIOperations {
 
 
 
-    //    Prepares a map of Datasets and vocabs Areasd (BOW) present in them
+    //    Prepares a map of Datasets and vocabs Areas (BOW) present in them
     static void setVocabsAreasPresentInDatasetLabelURI() throws IOException {
 
         setVocabsPresentInDatasetLabelURI();

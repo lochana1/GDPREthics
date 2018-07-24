@@ -85,7 +85,7 @@ public class QueryWindow extends JFrame {
             }
         });
 
-        this.setTitle("**Tool Name: Execute Queries**");
+        this.setTitle("**G-DIEP : Execute Queries**");
         this.getContentPane().setLayout(null);
         this.setBounds(100, 100, windowWidth, windowHeight);
         this.setResizable(false);

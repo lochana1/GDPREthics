@@ -103,6 +103,14 @@ public class Util {
     static DatatypeProperty hasServicesRelatedVocab;
     static DatatypeProperty hasSocietyRelatedVocab;
     static DatatypeProperty hasTimeRelatedVocab;
+    static DatatypeProperty hasAgeRelatedVocab;
+    static DatatypeProperty hasCellsRelatedVocab;
+    static DatatypeProperty hasChildRelatedVocab;
+    static DatatypeProperty hasDrugsRelatedVocab;
+    static DatatypeProperty hasEmbryoRelatedVocab;
+    static DatatypeProperty hasGeneRelatedVocab;
+    static DatatypeProperty hasTissueRelatedVocab;
+    static DatatypeProperty hasSexualRelatedVocab;
     static DatatypeProperty hasVocabularyRelatedVocab;
 
 }

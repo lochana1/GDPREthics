@@ -21,6 +21,14 @@ public class SetVocabPropertyList {
         Util.AllVocabsProperty.put("Vocab_Services",Util.hasServicesRelatedVocab);
         Util.AllVocabsProperty.put("Vocab_Society",Util.hasSocietyRelatedVocab);
         Util.AllVocabsProperty.put("Vocab_Time",Util.hasTimeRelatedVocab);
+        Util.AllVocabsProperty.put("Vocab_Age",Util.hasAgeRelatedVocab);
+        Util.AllVocabsProperty.put("Vocab_Cells",Util.hasCellsRelatedVocab);
+        Util.AllVocabsProperty.put("Vocab_Child",Util.hasChildRelatedVocab);
+        Util.AllVocabsProperty.put("Vocab_Drugs",Util.hasDrugsRelatedVocab);
+        Util.AllVocabsProperty.put("Vocab_Embryo",Util.hasEmbryoRelatedVocab);
+        Util.AllVocabsProperty.put("Vocab_Gene",Util.hasGeneRelatedVocab);
+        Util.AllVocabsProperty.put("Vocab_Tissue",Util.hasTissueRelatedVocab);
+        Util.AllVocabsProperty.put("Vocab_Sexual",Util.hasSexualRelatedVocab);
         Util.AllVocabsProperty.put("Vocab_Vocabularies",Util.hasVocabularyRelatedVocab);
     }
 }
