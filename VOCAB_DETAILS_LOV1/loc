@@ -1,0 +1,165 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-05-23T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fac",
+      "name": "CTIC Foundation"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Este vocabulario se utiliza para modelar las localizaciones físicas de lugares públicos.  \t\t\tUtiliza elementos de Geonames para identificar las distintas características geográficas.",
+      "lang": "es",
+      "_id": "555a773e30f688c94e8201e8"
+    },
+    {
+      "value": "This vocabulary is used to describe the physical location of public places.",
+      "lang": "en",
+      "_id": "555a773e30f688c94e8201e7"
+    }
+  ],
+  "issuedAt": "2010-09-30T00:00:00.000Z",
+  "lastDeref": "2014-05-25T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-05-18T00:00:00.000Z",
+  "nsp": "http://purl.org/ctic/infraestructuras/localizacion#",
+  "prefix": "loc",
+  "reviews": [
+    {
+      "body": "Annual checking done!",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2014-05-25T00:00:00.000Z",
+      "_id": "555a773e30f688c94e8201eb"
+    },
+    {
+      "body": "Spanish specification of administrative divisions, roads and buildings, based on Geonames.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2013-05-23T00:00:00.000Z",
+      "_id": "555a773e30f688c94e8201ea"
+    },
+    {
+      "body": "Annual review. Fixed version history",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-05-19T00:00:00.000Z",
+      "_id": "555a773e30f688c94e8201e9"
+    }
+  ],
+  "tags": [
+    "Geography"
+  ],
+  "titles": [
+    {
+      "value": "Vocabulario de Localizaciones",
+      "lang": "es",
+      "_id": "555a773e30f688c94e8201e6"
+    },
+    {
+      "value": "Location Vocabulary",
+      "lang": "en",
+      "_id": "555a773e30f688c94e8201e5"
+    }
+  ],
+  "uri": "http://purl.org/ctic/infraestructuras/localizacion",
+  "versions": [
+    {
+      "name": "v2011-11-05",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/loc/versions/2011-11-05.n3",
+      "issued": "2011-11-05T00:00:00.000Z",
+      "classNumber": "10",
+      "propertyNumber": "6",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.geonames.org/ontology#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2006/vcard/ns#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2010-10-01",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/loc/versions/2010-10-01.n3",
+      "issued": "2010-09-30T23:00:00.000Z",
+      "classNumber": "6",
+      "propertyNumber": "6",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.geonames.org/ontology#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2006/vcard/ns#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://web.resource.org/cc/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "__v": 2,
+  "contributorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f3c",
+      "name": "Stian Soiland-Reyes"
+    }
+  ],
+  "createdInLOVAt": "2013-08-30T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be018433ca9ccf1c0e51",
+      "name": "Herbert Van de Sompel"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0e61",
+      "name": "Robert Sanderson"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f0b",
+      "name": "Paolo Ciccarese"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The Open Annotation Core Data Model specifies an interoperable framework for creating associations between related resources, annotations, using a methodology that conforms to the Architecture of the World Wide Web.  This ontology is a non-normative OWL formalization of the textual OA specification at http://www.openannotation.org/spec/core/20130208/index.html",
+      "lang": "en",
+      "_id": "5788c3738c6f955d29bf2257"
+    }
+  ],
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-02-28T16:23:33.401Z",
+  "nsp": "http://www.w3.org/ns/oa#",
+  "prefix": "oa",
+  "publisherIds": [
+    {
+      "_id": "5788c3368c6f955d29bf223c",
+      "name": "Web Annotation Working Group"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "The ontology is provided in RDF/XML and Turtle formats.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-08-31T00:00:00.000Z",
+      "_id": "5788c3738c6f955d29bf225b"
+    },
+    {
+      "body": "Fixed version history",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-09T00:00:00.000Z",
+      "_id": "5788c3738c6f955d29bf225a"
+    },
+    {
+      "body": "Annual review OK. The ontology is now provided also in JSON-LD.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2015-07-19T00:00:00.000Z",
+      "_id": "5788c3738c6f955d29bf2259"
+    },
+    {
+      "body": "New version added as it is CR at W3C. See http://www.w3.org/TR/annotation-vocab/",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-07-15T00:00:00.000Z",
+      "_id": "5788c3738c6f955d29bf2258"
+    }
+  ],
+  "tags": [
+    "Quality"
+  ],
+  "titles": [
+    {
+      "value": "Open Annotation Data Model",
+      "lang": "en",
+      "_id": "5788c3738c6f955d29bf2256"
+    }
+  ],
+  "uri": "http://www.w3.org/ns/oa#",
+  "versions": [
+    {
+      "name": "v2014-06-10",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/oa/versions/2014-06-10.n3",
+      "issued": "2014-06-09T23:00:00.000Z",
+      "classNumber": "19",
+      "propertyNumber": "23",
+      "instanceNumber": "12",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core",
+        "http://www.w3.org/ns/prov#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.9",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/oa/versions/2013-02-22.n3",
+      "issued": "2013-02-22T00:00:00.000Z",
+      "classNumber": "19",
+      "propertyNumber": "23",
+      "instanceNumber": "12",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core",
+        "http://www.w3.org/ns/prov#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2016-06-03",
+      "issued": "2016-06-03T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "17",
+      "propertyNumber": "29",
+      "classNumber": "25",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/oa/versions/2016-06-03.n3",
+      "_id": "5788c2b88c6f955d29bf221b",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core",
+        "http://www.w3.org/ns/activitystreams#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    },
+    {
+      "name": "W3C Recommendation",
+      "issued": "2016-11-12T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "15",
+      "propertyNumber": "29",
+      "classNumber": "21",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/oa/versions/2016-11-12.n3",
+      "_id": "58b5a40513ee07c333fe5f9f",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core",
+        "http://www.w3.org/ns/activitystreams#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/ns/prov#"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

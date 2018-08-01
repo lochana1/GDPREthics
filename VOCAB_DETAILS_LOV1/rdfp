@@ -1,0 +1,92 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-10-24T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54ff72862e3e52df4a3cc076",
+      "name": "Maxime Lefrançois"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "## RDF Presentation and RDF Presentation Negotiation\n\nAn RDF graph can be presented in several ways, using different media types. Examples of RDF media types include `application/rdf+xml`, `text/turtle`, `application/json+ld`.\n\nToday, most of the content consumed/produced/published, on the Web is not presented in RDF. \n\nIn the Web of Things, HTTP servers and clients would rather exchange lightweight documents, potentially binary. \nCurrently, most existing RDF Presentations generically apply to any RDF graph, at the cost of being heavy text-based documents.\nYet, lightweight HTTP servers/clients could be better satisfied with consuming/producing/publishing lightweight documents, may its structure be application-specific.",
+      "lang": "en",
+      "_id": "580e19837ada88436788895e"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2016-08-31T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-10-24T14:24:25.166Z",
+  "nsp": "https://w3id.org/rdfp/",
+  "prefix": "rdfp",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "The RDFP vocabulary can be used to describe RDF Presentations and the range of RDF graphs they apply to. It can be accessed at this URI: https://w3id.org/rdfp/ using content negotiation (i.e., set HTTP Header field `Accept` to one of the RDF syntaxes media types, or access it directly in [turtle](index.ttl), or in [RDF/XML](index.rdf).",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-10-24T00:00:00.000Z",
+      "_id": "580e19837ada88436788895d"
+    }
+  ],
+  "tags": [
+    "API",
+    "RDF"
+  ],
+  "titles": [
+    {
+      "value": "The RDF Presentation ontology",
+      "lang": "en",
+      "_id": "580e19837ada88436788895f"
+    }
+  ],
+  "uri": "https://w3id.org/rdfp/",
+  "versions": [
+    {
+      "name": "v2016-08-31",
+      "issued": "2016-08-31T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "9",
+      "classNumber": "10",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/rdfp/versions/2016-08-31.n3",
+      "_id": "580e19877ada884367888963",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

@@ -2,18 +2,401 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f864219-8d53-4880-b2f7-c4939f177884" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/SAN" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/agls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/agr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/agrelon" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/airs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/akt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/algo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/aml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/aos" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/api" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/apps4X" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/arp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/atd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/atts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/aws" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/bag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/basic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/bbcprov" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/bci" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/bio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/biol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/biopax" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/biotop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/bot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/botany" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/bperson" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/br" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/brk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/brt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/bto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/cal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/cart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/cbo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/cbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/cci" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/cco" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/ccp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/ccr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/ccsla" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/cdm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/ceo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/cert" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/cff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/cfp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/cgov" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/cis" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/cnt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/co" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/cogs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/comm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/con" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/conversion" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/coo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/coun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/cpa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/csp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/csvw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/ct" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/ctorg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/ctxdesc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/cwrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/d2rq" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/dady" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/daq" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/dataid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/date" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/datex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/dave" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/dbm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/dbowl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/dbug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/dce" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/dcndl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/dcterms" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/demlab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/dicom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/dio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/disco" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/dita" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/dk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/dm2e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/dnbt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/doap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/docso" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/dogont" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/donto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/dpn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/dprov" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/dq" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/dqc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/dqm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/dqv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/dsn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/dtype" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/duv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/earl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/earth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/eccrev" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/ecpo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/eepsa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/elec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/emotion" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/emp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/eqp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/essglobal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/faldo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/fea" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/fiesta-iot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/foaf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/frappe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/fresnel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/g50k" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/gc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/gci" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/gd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/gen" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/geod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/geof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/geofla" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/geop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/geosp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/gf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/gn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/gold" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/gov" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/grddl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/gts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/gvp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/h2o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/ha" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/hifm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/hosp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/hto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/hw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/hydra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/ic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/idemo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/identity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/igeo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/ignf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/incident" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/inno" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/interval" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/iot-lite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/ioto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/ipo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/irw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/is" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/isbd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/iso-thes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/iso37120" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/isoadr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/ispra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/itsmo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/jup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/juso" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/juso.kr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/kdo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/kees" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/km4c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/label" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/ldvm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/lemon" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/lexinfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/lgdo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/lifecycle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/limo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/limoo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/lingvo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/llont" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/lmm1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/lmm2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/loc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/locn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/lom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/lsc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/lslife" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/lsq" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/lsweb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/lswmo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/lvont" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/m3lite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/mads" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/maso" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/medred" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/mexalgo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/mexcore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/mexperf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/mil" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/mls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/moac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/mrel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/msr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/mtlo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/mv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/ncal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/nif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/nrv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/oa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/oae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/oan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/obo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/obsm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/obws" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/ocd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/odapps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/odrl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/odrs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/odv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/oecc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/of" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/ofrd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/oh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/olca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/om" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/oml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/omn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/omnfed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/onc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/ont" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/ontopic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/ontosec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/oo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/op" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/open311" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/opmo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/opmv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/opmw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/opo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/orca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/orges" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/osadm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/oslo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/osp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/osr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/ostop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/p-plan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/parl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/part" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/pat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/pav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/pdo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/pep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/person" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/place" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/plink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/pmlp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/poder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/postcode" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/poste" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/pr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/prv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/prvt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/pubsub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/qb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/qu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/qudt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/r4r" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/radion" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/rami" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/rdag1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/rdag2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/rdag3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/rdarel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/rdarel2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/rdfa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/rdfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/rdfp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/rec54" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/reco" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/reegle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/rel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/ro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/rooms" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/rov" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/rr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/rsctx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/ru" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/ruto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/s4ee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/sam" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/samfl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/sao" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/saref" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/scovo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/sdmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/sdmx-code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/sdmx-dimension" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/seas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/seas-eval" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/seas-op" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/seas-qudt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/seas-stats" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/seas-sys" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/seasb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/seasbo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/seasd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/seasfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/seast" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/seasto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/security" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/semio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/semsur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/service" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/shoah" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/shw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/sio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/sioc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/smg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/sor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/sosa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/sp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/spin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/spt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/spvqa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/sro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/ssn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/ssno" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/ssso" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/st" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/stac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/step" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/sto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/swc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/swp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/swpo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/swrl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/tao" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/taxon" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/te" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/thors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/ti" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/time" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/tl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/tm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/tmo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/topo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/traffic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/trao" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/tsioc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/tsn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/tsnc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/tvc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/tzont" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/uneskos" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/uniprot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/va" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/vaem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/vann" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/vcard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/vdpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/veo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/voaf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/voag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/vocals" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/void" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/voidwh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/vrank" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/vs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/vsearch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/vvo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/w3c-ssn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/wai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/wf-invoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/wfm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/whois" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/wi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/wlo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/wo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/wot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/xbrll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/xkos" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VOCAB_DETAILS_LOV1/zbwext" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/CreateOntology.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/CreateOntology.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/SetVocabPropertyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/SetVocabPropertyList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/questions/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/questions/1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/questions/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/questions/2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sparqls/s1.sparql" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sparqls/s1.sparql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sparqls/s2.sparql" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sparqls/s2.sparql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/comparision/CreateOntology.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/CreateOntology.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/comparision/DatasetLabelURIOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/DatasetLabelURIOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/comparision/DatasetOntologyOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/DatasetOntologyOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/comparision/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/comparision/QueryWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/QueryWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/comparision/SetVocabPropertyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/SetVocabPropertyList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/comparision/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/Util.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,160 +408,98 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.8164166">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="report.txt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Temp/PHASE1_OUTPUT/report.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-520">
-                  <caret line="41" column="68" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="68" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="QueryWindow.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/com/comparision/QueryWindow.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="318">
-                  <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DatasetLabelURIOperations.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/comparision/DatasetLabelURIOperations.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="63">
-                  <caret line="92" column="16" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="16" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="GDPRAreasInVocab.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/comparision/GDPRAreasInVocab.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="117">
-                  <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SetPrefixesAndVocabBow.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/comparision/SetPrefixesAndVocabBow.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="3.txt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/questions/3.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="2" selection-start-column="2" selection-end-column="2" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="4.txt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/questions/4.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="5.txt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/questions/5.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="2" selection-start-column="2" selection-end-column="2" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="s4.sparql" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/sparqls/s4.sparql">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="s5.sparql" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/sparqls/s5.sparql">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="SetVocabPropertyList.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/comparision/SetVocabPropertyList.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="227">
-                  <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Util.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/comparision/Util.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="205">
-                  <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DATASET_LABELS" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Temp/DATASET_LABELS">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" column="55" selection-end-line="5" selection-end-column="55" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="CreateOntology.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/comparision/CreateOntology.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="171">
-                  <caret line="162" column="26" selection-start-line="162" selection-start-column="8" selection-end-line="162" selection-end-column="26" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="9.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/questions/9.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueryWindow.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/comparision/QueryWindow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1083">
+              <caret line="97" column="29" lean-forward="true" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="10.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/questions/10.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="11.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/questions/11.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="12.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/questions/12.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="13.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/questions/13.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="14.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/questions/14.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="6.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/questions/6.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="7.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/questions/7.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="8.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/questions/8.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -190,9 +511,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>containsv</find>
-      <find>omim</find>
-      <find>AllVocabsProperty</find>
       <find>Associated</find>
       <find>Indivi</find>
       <find>meta</find>
@@ -202,7 +520,6 @@
       <find>ontologyName</find>
       <find>checkDatasetlabelInBOWVocabArea</find>
       <find>VocabAreasInDatasetLabel</find>
-      <find>VocabInDatasetLabel</find>
       <find>PrefixesAndVocabBow</find>
       <find>GDPRAreasInDatasetLabel</find>
       <find>class</find>
@@ -220,6 +537,10 @@
       <find>Breast</find>
       <find>conse</find>
       <find>gene</find>
+      <find>VocabInDatasetLabel</find>
+      <find>vocabinDatasetLabel</find>
+      <find>embryo</find>
+      <find>geo</find>
     </findStrings>
     <replaceStrings>
       <replace>Vocabs</replace>
@@ -240,6 +561,7 @@
       <replace>Tissue</replace>
       <replace>Sexual</replace>
       <replace>hasCellsRelatedVocab</replace>
+      <replace>vocabinDatasetLabelSet</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -248,56 +570,56 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/comparision/BagOfWordsTerms.java" />
-        <option value="$PROJECT_DIR$/src/com/comparision/FromDatasetOntology.java" />
-        <option value="$PROJECT_DIR$/src/com/comparision/CheckInDatasetOntology.java" />
-        <option value="$PROJECT_DIR$/src/com/comparision/SetVocabList.java" />
-        <option value="$PROJECT_DIR$/src/com/comparision/CompareDocs.java" />
-        <option value="$PROJECT_DIR$/src/com/comparision/AddReportToOntology.java" />
-        <option value="$PROJECT_DIR$/AllGDPRProperties" />
-        <option value="$PROJECT_DIR$/PHASE1_OUTPUT/report.txt" />
-        <option value="$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/omim.schema.txt" />
-        <option value="$PROJECT_DIR$/Temp/Evaluation/AllVocabs" />
-        <option value="$PROJECT_DIR$/src/com/comparision/ReportDatasetLabelURI.java" />
-        <option value="$PROJECT_DIR$/src/com/comparision/ReportDatasetOntology.java" />
-        <option value="$PROJECT_DIR$/src/com/comparision/CompareEngine.java" />
-        <option value="$PROJECT_DIR$/src/com/comparision/VocabBowAndPrefixes.java" />
-        <option value="$PROJECT_DIR$/src/com/comparision/FileListsInFolder.java" />
-        <option value="$PROJECT_DIR$/src/com/comparision/GDPRAreasInVocab.java" />
-        <option value="$PROJECT_DIR$/src/com/comparision/SetGDPRPropertyList.java" />
-        <option value="$PROJECT_DIR$/src/com/comparision/SetPrefixesAndVocabBow.java" />
-        <option value="$PROJECT_DIR$/src/com/comparision/ReportDataset.java" />
-        <option value="$PROJECT_DIR$/src/com/comparision/PreparePHASE1Report.java" />
-        <option value="$PROJECT_DIR$/src/com/comparision/BagOfWords.java" />
-        <option value="$PROJECT_DIR$/src/com/comparision/FetchVocabDetails.java" />
-        <option value="$PROJECT_DIR$/resources/questions" />
-        <option value="$PROJECT_DIR$/resources/sparqls" />
-        <option value="$PROJECT_DIR$/resources/questions/1" />
-        <option value="$PROJECT_DIR$/resources/questions/2" />
-        <option value="$PROJECT_DIR$/src/com/comparision/QueryHub.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/resources/questions/1.txt" />
-        <option value="$PROJECT_DIR$/resources/questions/2.txt" />
-        <option value="$PROJECT_DIR$/resources/sparqls/s1.sparql" />
-        <option value="$PROJECT_DIR$/src/com/comparision/Report.java" />
-        <option value="$PROJECT_DIR$/src/com/comparision/DataFromDatasetOntology.java" />
-        <option value="$PROJECT_DIR$/src/com/comparision/SearchingDatasetOntology.java" />
-        <option value="$PROJECT_DIR$/src/com/comparision/ReportPhase1.java" />
-        <option value="$PROJECT_DIR$/Temp/PHASE1_OUTPUT/report.txt" />
-        <option value="$PROJECT_DIR$/src/com/comparision/DatasetOntologyOperations.java" />
-        <option value="$PROJECT_DIR$/src/com/comparision/Util.java" />
-        <option value="$PROJECT_DIR$/src/com/comparision/SetVocabPropertyList.java" />
-        <option value="$PROJECT_DIR$/src/com/comparision/CreateOntology.java" />
+        <option value="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Embryo.txt" />
+        <option value="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Environment.txt" />
+        <option value="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Gene.txt" />
+        <option value="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Geography.txt" />
+        <option value="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Government.txt" />
+        <option value="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Health.txt" />
+        <option value="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Industry.txt" />
+        <option value="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_IoT.txt" />
+        <option value="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Metadata.txt" />
+        <option value="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Methods.txt" />
+        <option value="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_People.txt" />
+        <option value="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Quality.txt" />
+        <option value="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_RDF.txt" />
+        <option value="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Security.txt" />
+        <option value="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Services.txt" />
+        <option value="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Sexual.txt" />
+        <option value="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Society.txt" />
+        <option value="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Time.txt" />
+        <option value="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Tissue.txt" />
+        <option value="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Vocabularies.txt" />
         <option value="$PROJECT_DIR$/src/com/comparision/Main.java" />
-        <option value="$PROJECT_DIR$/Temp/DATASET_LABELS" />
+        <option value="$PROJECT_DIR$/src/com/comparision/CreateOntology.java" />
+        <option value="$PROJECT_DIR$/resources/sparqls/s1.sparql" />
         <option value="$PROJECT_DIR$/resources/sparqls/s2.sparql" />
-        <option value="$PROJECT_DIR$/resources/questions/4.txt" />
         <option value="$PROJECT_DIR$/resources/sparqls/s3.sparql" />
         <option value="$PROJECT_DIR$/resources/sparqls/s4.sparql" />
         <option value="$PROJECT_DIR$/resources/sparqls/s5.sparql" />
+        <option value="$PROJECT_DIR$/resources/sparqls/s6.sparql" />
+        <option value="$PROJECT_DIR$/resources/sparqls/s7.sparql" />
+        <option value="$PROJECT_DIR$/resources/sparqls/s8.sparql" />
+        <option value="$PROJECT_DIR$/resources/sparqls/s9.sparql" />
+        <option value="$PROJECT_DIR$/resources/sparqls/s10.sparql" />
+        <option value="$PROJECT_DIR$/resources/sparqls/s11.sparql" />
+        <option value="$PROJECT_DIR$/resources/sparqls/s12.sparql" />
+        <option value="$PROJECT_DIR$/resources/sparqls/s13.sparql" />
+        <option value="$PROJECT_DIR$/resources/sparqls/s14.sparql" />
+        <option value="$PROJECT_DIR$/resources/questions/1.txt" />
+        <option value="$PROJECT_DIR$/resources/questions/2.txt" />
         <option value="$PROJECT_DIR$/resources/questions/3.txt" />
+        <option value="$PROJECT_DIR$/resources/questions/4.txt" />
         <option value="$PROJECT_DIR$/resources/questions/5.txt" />
-        <option value="$PROJECT_DIR$/src/com/comparision/DatasetLabelURIOperations.java" />
+        <option value="$PROJECT_DIR$/resources/questions/6.txt" />
+        <option value="$PROJECT_DIR$/resources/questions/7.txt" />
+        <option value="$PROJECT_DIR$/resources/questions/8.txt" />
+        <option value="$PROJECT_DIR$/resources/questions/10.txt" />
+        <option value="$PROJECT_DIR$/resources/questions/11.txt" />
+        <option value="$PROJECT_DIR$/resources/questions/12.txt" />
+        <option value="$PROJECT_DIR$/resources/questions/13.txt" />
+        <option value="$PROJECT_DIR$/resources/questions/14.txt" />
+        <option value="$PROJECT_DIR$/resources/questions/9.txt" />
         <option value="$PROJECT_DIR$/src/com/comparision/QueryWindow.java" />
       </list>
     </option>
@@ -312,8 +634,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="width" value="2560" />
+    <option name="height" value="1440" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -324,8 +646,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -337,18 +657,6 @@
               <item name="DetectEthicalConcerns" type="b2602c69:ProjectViewProjectNode" />
               <item name="DetectEthicalConcerns" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DetectEthicalConcerns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DetectEthicalConcerns" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="questions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DetectEthicalConcerns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DetectEthicalConcerns" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="sparqls" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DetectEthicalConcerns" type="b2602c69:ProjectViewProjectNode" />
@@ -370,6 +678,12 @@
               <item name="DetectEthicalConcerns" type="b2602c69:ProjectViewProjectNode" />
               <item name="DetectEthicalConcerns" type="462c0819:PsiDirectoryNode" />
               <item name="Temp" type="462c0819:PsiDirectoryNode" />
+              <item name="DATASET_ONTOLOGY" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DetectEthicalConcerns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DetectEthicalConcerns" type="462c0819:PsiDirectoryNode" />
+              <item name="Temp" type="462c0819:PsiDirectoryNode" />
               <item name="PHASE1_OUTPUT" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -382,6 +696,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -396,19 +712,19 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/sparqls" />
+      <recent name="$PROJECT_DIR$/resources/questions" />
+      <recent name="$PROJECT_DIR$/Temp/VOCAB_DETAILS_LOV" />
+      <recent name="$PROJECT_DIR$/Temp/BAG_OF_WORDS" />
+      <recent name="$PROJECT_DIR$/Temp/DATASET_ONTOLOGY" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/VOCAB_DETAILS_LOV1" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/resources" />
       <recent name="$PROJECT_DIR$/Temp" />
       <recent name="$PROJECT_DIR$/src/com/ontology" />
-      <recent name="$PROJECT_DIR$/EXTRA" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/sparqls" />
-      <recent name="$PROJECT_DIR$/resources/questions" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/GDPR_TAGS" />
-      <recent name="$PROJECT_DIR$/DATASET_ONTOLOGY" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -541,12 +857,13 @@
       <workItem from="1532267896024" duration="6908000" />
       <workItem from="1532289569215" duration="8849000" />
       <workItem from="1532345714298" duration="14397000" />
-      <workItem from="1532447225125" duration="6796000" />
+      <workItem from="1532447225125" duration="16866000" />
+      <workItem from="1532697251571" duration="7771000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112594000" />
+    <option name="totallyTimeSpent" value="130435000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -558,8 +875,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1298" height="1440" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.13412817" />
@@ -571,18 +887,18 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32935917" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" weight="0.3990025" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.319202" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" weight="0.304769" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.18952619" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18955651" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26910827" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960285" weight="0.23248883" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960285" weight="0.366617" />
       <window_info anchor="bottom" id="Dependency Viewer" order="8" weight="0.5798005" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -600,366 +916,384 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/comparision/DatasetLabelURIOperations.java</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="18" />
+      <option name="time" value="24" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Gene.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Geography.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Government.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Health.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Industry.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_IoT.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Metadata.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Methods.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_People.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/omim.schema.txt" />
-    <entry file="file://$PROJECT_DIR$/Temp/foafDetails.txt" />
-    <entry file="file://$PROJECT_DIR$/Temp/VOCAB_DETAILS_LOV/foaf.txt" />
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/ReportDatasetLabelURI.java" />
-    <entry file="file://$PROJECT_DIR$/Temp/VOCAB_DETAILS_LOV/vvo.txt" />
-    <entry file="file://$PROJECT_DIR$/resources/questions">
+    <entry file="file://$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Quality.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sparqls">
+    <entry file="file://$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_RDF.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/CompoundEnumeration.class">
+    <entry file="file://$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Security.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/javax/swing/JList.java">
+    <entry file="file://$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Services.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="454" selection-start-line="454" selection-end-line="454" />
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Sexual.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/SetGDPRPropertyList.java">
+    <entry file="file://$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Society.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/Report.java">
+    <entry file="file://$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Time.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/FetchVocabDetails.java">
+    <entry file="file://$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Tissue.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Vocabularies.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparision/DatasetLabelURIOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/BagOfWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="33" column="27" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="576" selection-start-line="576" selection-end-line="576" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/DataFromDatasetOntology.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/PrepareReportPhase1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/SearchingDatasetOntology.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="42" column="29" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/PHASE2_OUTPUT/gdpr-ethics.rdf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/nio/file/Files.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="3241" selection-start-line="3241" selection-end-line="3241" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/ReportPhase1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
-          <folding>
-            <element signature="e#1159#1160#0" expanded="true" />
-            <element signature="e#1198#1199#0" expanded="true" />
-            <element signature="e#1268#1269#0" expanded="true" />
-            <element signature="e#1324#1325#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/FileListsInFolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Vocabularies_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Time_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/comparision/DatasetOntologyOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        <state relative-caret-position="285">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/SetVocabPropertyList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Jars/apache-jena-3.7.0/lib/jena-core-3.7.0.jar!/org/apache/jena/ontology/impl/OntModelImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="790" selection-start-line="790" selection-end-line="790" />
-          <folding>
-            <element signature="e#37731#37732#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/QueryHub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/1_biopax-level3.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Gene.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="3" selection-start-line="6" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/comparision/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="22" column="82" selection-start-line="22" selection-start-column="82" selection-end-line="22" selection-end-column="82" />
+        <state relative-caret-position="105">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparision/CreateOntology.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="249" column="28" selection-start-line="249" selection-start-column="8" selection-end-line="249" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sparqls/s1.sparql">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" selection-end-column="66" />
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sparqls/s2.sparql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/questions/6.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/questions/1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/questions/2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="49" />
+          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sparqls/s3.sparql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sparqls/s4.sparql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sparqls/s5.sparql">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="72" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sparqls/s6.sparql">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/CreateOntology.java">
+    <entry file="file://$PROJECT_DIR$/resources/sparqls/s7.sparql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="162" column="26" selection-start-line="162" selection-start-column="8" selection-end-line="162" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/SetPrefixesAndVocabBow.java">
+    <entry file="file://$PROJECT_DIR$/resources/sparqls/s8.sparql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sparqls/s9.sparql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sparqls/s10.sparql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sparqls/s11.sparql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sparqls/s12.sparql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="69" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sparqls/s13.sparql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sparqls/s14.sparql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/questions/1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/questions/2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/questions/3.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/questions/4.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/questions/5.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/Util.java">
+    <entry file="file://$PROJECT_DIR$/resources/questions/6.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/DATASET_LABELS">
+    <entry file="file://$PROJECT_DIR$/resources/questions/7.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="55" selection-end-line="5" selection-end-column="55" />
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/GDPRAreasInVocab.java">
+    <entry file="file://$PROJECT_DIR$/resources/questions/8.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/DatasetLabelURIOperations.java">
+    <entry file="file://$PROJECT_DIR$/resources/questions/10.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="92" column="16" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/PHASE1_OUTPUT/report.txt">
+    <entry file="file://$PROJECT_DIR$/resources/questions/11.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-520">
-          <caret line="41" column="68" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="68" />
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/questions/12.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/questions/13.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/questions/14.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/questions/9.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/comparision/QueryWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1083">
+          <caret line="97" column="29" lean-forward="true" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
         </state>
       </provider>
     </entry>

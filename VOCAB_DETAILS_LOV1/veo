@@ -1,0 +1,100 @@
+{
+  "__v": 0,
+  "contributorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0ef4",
+      "name": "Milos Jovanovik"
+    }
+  ],
+  "createdInLOVAt": "2016-09-09T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "57c3f81ba3a9d3a63d7aa332",
+      "name": "Bojan Najdenov"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "An ontology for describing vehicles and their emissions.",
+      "lang": "en",
+      "_id": "57d28866a3a9d3a63d7e6aec"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2014-09-01T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-09-09T10:01:25.493Z",
+  "nsp": "http://linkeddata.finki.ukim.mk/lod/ontology/veo#",
+  "prefix": "veo",
+  "publisherIds": [
+    {
+      "_id": "57c3f7d7a3a9d3a63d7aa310",
+      "name": "FINKI"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "The first ontology in LOV for describing vehicles and their emissions.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-09-09T00:00:00.000Z",
+      "_id": "57d28866a3a9d3a63d7e6aeb"
+    }
+  ],
+  "tags": [
+    "Environment",
+    "Industry"
+  ],
+  "titles": [
+    {
+      "value": "Vehicle Emissions Ontology",
+      "lang": "en",
+      "_id": "57d28866a3a9d3a63d7e6aed"
+    }
+  ],
+  "uri": "http://linkeddata.finki.ukim.mk/lod/ontology/veo#",
+  "versions": [
+    {
+      "name": "v2014-09-01",
+      "issued": "2014-09-01T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "18",
+      "classNumber": "1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/veo/versions/2014-09-01.n3",
+      "_id": "57d28868a3a9d3a63d7e6aef",
+      "relSpecializes": [
+        "http://purl.org/vso/ns",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/vso/ns",
+        "http://purl.org/vvo/ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

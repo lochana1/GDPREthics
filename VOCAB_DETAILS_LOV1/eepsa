@@ -1,0 +1,121 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2018-02-25T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "5a92c26e67d9427a394ca2c2",
+      "name": "Iker Esanola-Gonzalez"
+    },
+    {
+      "_id": "5a92c2a567d9427a394ca2d4",
+      "name": "Jesús Bermúdez"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "Information about changes compared to version 1.2\n*********************************************************\n•\tThe classes and properties related to the building modelling (imported from bim4EEPSA) are now described using the BOT Ontology.\n•\tThe f4EEPSA (Forecasting for EEPSA) module is now imported.",
+      "lang": "en",
+      "_id": "5a92c32167d9427a394ca304"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2017-07-21T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2018-02-25T14:07:33.758Z",
+  "nsp": "https://w3id.org/eepsa#",
+  "prefix": "eepsa",
+  "publisherIds": [
+    {
+      "_id": "5a92c2b567d9427a394ca2d9",
+      "name": "IK4-TEKNIKER"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Added to LOV",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2018-02-25T00:00:00.000Z",
+      "_id": "5a92c32167d9427a394ca303"
+    }
+  ],
+  "tags": [
+    "Environment"
+  ],
+  "titles": [
+    {
+      "value": "EEPSA (Energy Efficiency Prediction Semantic Assistant) Ontology",
+      "lang": "en",
+      "_id": "5a92c32167d9427a394ca305"
+    }
+  ],
+  "uri": "https://w3id.org/eepsa",
+  "versions": [
+    {
+      "name": "v2018-02-25",
+      "issued": "2018-02-25T14:07:32.029Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "17",
+      "classNumber": "38",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/eepsa/versions/2018-02-25.n3",
+      "_id": "5a92c32567d9427a394ca307",
+      "relSpecializes": [
+        "http://purl.org/iot/vocab/m3-lite#",
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/sosa/",
+        "http://www.w3.org/ns/ssn/",
+        "https://w3id.org/bim4eepsa#",
+        "https://w3id.org/bot"
+      ],
+      "relImports": [
+        "http://www.w3.org/2006/",
+        "http://www.w3.org/ns/ssn/",
+        "https://w3id.org/"
+      ],
+      "relGeneralizes": [
+        "http://purl.org/iot/vocab/m3-lite#",
+        "https://w3id.org/measurements4eepsa#"
+      ],
+      "relExtends": [
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/ns/ssn/",
+        "https://w3id.org/bot"
+      ],
+      "relEquivalent": [
+        "http://purl.org/iot/vocab/m3-lite#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/ontology/bibo/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

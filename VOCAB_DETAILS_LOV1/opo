@@ -1,0 +1,118 @@
+{
+  "__v": 1,
+  "commentDeref": "Problem while dereferencing or parsing the vocabulary",
+  "contributorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e72",
+      "name": "Alexandre Passant"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f47",
+      "name": "Jelena Jovanovic"
+    }
+  ],
+  "createdInLOVAt": "2013-06-10T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f08",
+      "name": "Milan Stankovic"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Ontology for representing Online Presence",
+      "lang": "en",
+      "_id": "56065a158f7ad2ce3438d5a6"
+    }
+  ],
+  "homepage": "http://online-presence.net/opo/spec/",
+  "lastDeref": "2014-06-08T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-09-26T00:00:00.000Z",
+  "nsp": "http://online-presence.net/opo/ns#",
+  "prefix": "opo",
+  "reviews": [
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-09T00:00:00.000Z",
+      "_id": "56065a158f7ad2ce3438d5a9"
+    },
+    {
+      "body": "No content negotiation implemented for HTML.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-06-11T00:00:00.000Z",
+      "_id": "56065a158f7ad2ce3438d5a8"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-09-26T00:00:00.000Z",
+      "_id": "56065a158f7ad2ce3438d5a7"
+    }
+  ],
+  "tags": [
+    "People"
+  ],
+  "titles": [
+    {
+      "value": "Online Presence Ontology",
+      "lang": "en",
+      "_id": "56065a158f7ad2ce3438d5a5"
+    }
+  ],
+  "uri": "http://online-presence.net/opo/ns#",
+  "versions": [
+    {
+      "name": "v0.52",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/opo/versions/2010-07-01.n3",
+      "issued": "2010-06-30T23:00:00.000Z",
+      "classNumber": "14",
+      "propertyNumber": "27",
+      "instanceNumber": "14",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/NET/c4dm/event.owl#",
+        "http://rdfs.org/sioc/ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://data.semanticweb.org/ns/swc/ontology",
+        "http://rdfs.org/sioc/ns#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

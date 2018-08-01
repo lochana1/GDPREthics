@@ -1,0 +1,156 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-08-28T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f7d",
+      "name": "Josh Hansen"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "A simple RDF vocabulary containing terms to facilitate the linking of genealogical data.",
+      "lang": "en",
+      "_id": "55d73681e4ac2b1c4c5a52c3"
+    }
+  ],
+  "homepage": "https://github.com/joshhansen/vocab-gen",
+  "isDefinedBy": "https://raw.githubusercontent.com/joshhansen/vocab-gen/master/releases/gen01.rdf",
+  "issuedAt": "2012-01-26T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:52:11.518Z",
+  "lastModifiedInLOVAt": "2015-08-21T00:00:00.000Z",
+  "nsp": "http://purl.org/gen/0.1#",
+  "prefix": "gen",
+  "reviews": [
+    {
+      "body": "The namespace URI is 404.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-13T00:00:00.000Z",
+      "_id": "55d73681e4ac2b1c4c5a52c6"
+    },
+    {
+      "body": "There is a bit more information about the ontology in GitHub (https://github.com/joshhansen/vocab-gen) but it does not seem to be updated.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-08-29T00:00:00.000Z",
+      "_id": "55d73681e4ac2b1c4c5a52c5"
+    },
+    {
+      "body": "The URI dereferences to a personal blog at https://joshhansen.net/#",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-08-21T00:00:00.000Z",
+      "_id": "55d73681e4ac2b1c4c5a52c4"
+    }
+  ],
+  "tags": [
+    "People"
+  ],
+  "titles": [
+    {
+      "value": "Vocabulary for Linked Genealogical Data",
+      "lang": "en",
+      "_id": "55d73681e4ac2b1c4c5a52c2"
+    }
+  ],
+  "uri": "http://purl.org/gen/0.1#",
+  "versions": [
+    {
+      "name": "v0.1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/gen/versions/2012-01-26.n3",
+      "issued": "2012-01-26T00:00:00.000Z",
+      "classNumber": "12",
+      "propertyNumber": "21",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/ontology/bibo/",
+        "http://purl.org/vocab/bio/0.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "http://www.w3.org/2006/time#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/vocab/bio/0.1/",
+        "http://www.w3.org/2002/07/owl#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2015-01-11",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/gen/versions/2015-01-11.n3",
+      "issued": "2015-01-11T20:52:11.518Z",
+      "classNumber": "12",
+      "propertyNumber": "21",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/ontology/bibo/",
+        "http://purl.org/vocab/bio/0.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos",
+        "http://www.w3.org/2006/time",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/vocab/bio/0.1/",
+        "http://www.w3.org/2002/07/owl",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-12-09T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54ff72862e3e52df4a3cc076",
+      "name": "Maxime Lefrançois"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "This ontology defines proposed alignemnts with the QUDT ontology.",
+      "lang": "en",
+      "_id": "584ad4f58a0d14e34d5efc76"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2016-09-19T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-12-09T16:00:28.903Z",
+  "nsp": "https://w3id.org/seas/",
+  "prefix": "seas-qudt",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "Alignment of SEAS with QUDT in a different vocabulary",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-12-09T00:00:00.000Z",
+      "_id": "584ad4f58a0d14e34d5efc75"
+    }
+  ],
+  "tags": [
+    "Industry"
+  ],
+  "titles": [
+    {
+      "value": "QUDT Alignment.",
+      "lang": "en",
+      "_id": "584ad4f58a0d14e34d5efc77"
+    }
+  ],
+  "uri": "https://w3id.org/seas/QUDTAlignment",
+  "versions": [
+    {
+      "_id": "584ad4f88a0d14e34d5efc78",
+      "classNumber": "2",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/seas-qudt/versions/2016-09-19.n3",
+      "instanceNumber": "0",
+      "issued": "2016-09-19T00:00:00.000Z",
+      "name": "v1.0",
+      "propertyNumber": "2",
+      "relSpecializes": [],
+      "relImports": [
+        "https://w3id.org/seas/SystemOntology"
+      ],
+      "relGeneralizes": [
+        "http://qudt.org/1.1/schema/qudt#"
+      ],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

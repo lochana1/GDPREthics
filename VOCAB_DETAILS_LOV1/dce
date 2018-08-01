@@ -1,0 +1,1236 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-06-16T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fd8",
+      "name": "Dublin Core Metadata Initiative"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/wikipedia3",
+      "label": "Wikipedia 3",
+      "occurrences": "12973137"
+    },
+    {
+      "uri": "http://datahub.io/dataset/camera-deputati-linked-data.178.rdf",
+      "label": "camera-deputati-linked-data.178.rdf",
+      "occurrences": "2899704"
+    },
+    {
+      "uri": "http://datahub.io/dataset/yovisto.ttl",
+      "label": "yovisto.ttl",
+      "occurrences": "1149580"
+    },
+    {
+      "uri": "http://datahub.io/dataset/sweto-dblp.rdf",
+      "label": "sweto-dblp.rdf",
+      "occurrences": "1025972"
+    },
+    {
+      "uri": "http://datahub.io/dataset/europeana-lod.22.nt",
+      "label": "europeana-lod.22.nt",
+      "occurrences": "1014371"
+    },
+    {
+      "uri": "http://datahub.io/dataset/b3kat.241.rdf",
+      "label": "b3kat.241.rdf",
+      "occurrences": "902877"
+    },
+    {
+      "uri": "http://datahub.io/dataset/europeana-lod.18.nt",
+      "label": "europeana-lod.18.nt",
+      "occurrences": "745606"
+    },
+    {
+      "uri": "http://datahub.io/dataset/b3kat.249.rdf",
+      "label": "b3kat.249.rdf",
+      "occurrences": "672022"
+    },
+    {
+      "uri": "http://datahub.io/dataset/camera-deputati-linked-data.17.rdf",
+      "label": "camera-deputati-linked-data.17.rdf",
+      "occurrences": "379634"
+    },
+    {
+      "uri": "http://datahub.io/dataset/europeana-lod.3.nt",
+      "label": "europeana-lod.3.nt",
+      "occurrences": "277369"
+    },
+    {
+      "uri": "http://datahub.io/dataset/europeana-lod.8.nt",
+      "label": "europeana-lod.8.nt",
+      "occurrences": "269825"
+    },
+    {
+      "uri": "http://datahub.io/dataset/camera-deputati-linked-data.1.rdf",
+      "label": "camera-deputati-linked-data.1.rdf",
+      "occurrences": "234839"
+    },
+    {
+      "uri": "http://datahub.io/dataset/europeana-lod.2.nt",
+      "label": "europeana-lod.2.nt",
+      "occurrences": "202596"
+    },
+    {
+      "uri": "http://datahub.io/dataset/sec-rdfabout.ttl",
+      "label": "sec-rdfabout.ttl",
+      "occurrences": "184045"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-eprints.ttl",
+      "label": "southampton-ac-uk-eprints.ttl",
+      "occurrences": "182806"
+    },
+    {
+      "uri": "http://datahub.io/dataset/euscreen.64.nt",
+      "label": "euscreen.64.nt",
+      "occurrences": "124865"
+    },
+    {
+      "uri": "http://datahub.io/dataset/hedatuz.16.rdf",
+      "label": "hedatuz.16.rdf",
+      "occurrences": "117101"
+    },
+    {
+      "uri": "http://datahub.io/dataset/hellenic-fire-brigade.24.nt",
+      "label": "hellenic-fire-brigade.24.nt",
+      "occurrences": "102381"
+    },
+    {
+      "uri": "http://datahub.io/dataset/hellenic-fire-brigade.rdf",
+      "label": "hellenic-fire-brigade.rdf",
+      "occurrences": "102381"
+    },
+    {
+      "uri": "http://datahub.io/dataset/jiscopenbib-bl",
+      "label": "jiscopenbib-bl",
+      "occurrences": "96552"
+    },
+    {
+      "uri": "http://datahub.io/dataset/europeana-lod.1.nt",
+      "label": "europeana-lod.1.nt",
+      "occurrences": "50474"
+    },
+    {
+      "uri": "http://datahub.io/dataset/camera-deputati-linked-data.3.rdf",
+      "label": "camera-deputati-linked-data.3.rdf",
+      "occurrences": "36069"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-eprints-ecs.ttl",
+      "label": "southampton-ac-uk-eprints-ecs.ttl",
+      "occurrences": "33509"
+    },
+    {
+      "uri": "http://datahub.io/dataset/camera-deputati-linked-data.0.rdf",
+      "label": "camera-deputati-linked-data.0.rdf",
+      "occurrences": "31808"
+    },
+    {
+      "uri": "http://datahub.io/dataset/greek-legal-entities.45.rdf",
+      "label": "greek-legal-entities.45.rdf",
+      "occurrences": "28291"
+    },
+    {
+      "uri": "http://datahub.io/dataset/greek-legal-entities.48.rdf",
+      "label": "greek-legal-entities.48.rdf",
+      "occurrences": "28291"
+    },
+    {
+      "uri": "http://datahub.io/dataset/dbtune-john-peel-sessions.rdf",
+      "label": "dbtune-john-peel-sessions.rdf",
+      "occurrences": "19214"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-webconf.2.rdf",
+      "label": "rkb-explorer-webconf.2.rdf",
+      "occurrences": "15449"
+    },
+    {
+      "uri": "http://datahub.io/dataset/psh-subject-headings.0.rdf",
+      "label": "psh-subject-headings.0.rdf",
+      "occurrences": "13927"
+    },
+    {
+      "uri": "http://datahub.io/dataset/jrc-names.7.ttl",
+      "label": "jrc-names.7.ttl",
+      "occurrences": "11698"
+    },
+    {
+      "uri": "http://datahub.io/dataset/bibliographica-org-bnb-export.133.nq",
+      "label": "bibliographica-org-bnb-export.133.nq",
+      "occurrences": "9582"
+    },
+    {
+      "uri": "http://datahub.io/dataset/bibliographica-org-bnb-export.131.nq",
+      "label": "bibliographica-org-bnb-export.131.nq",
+      "occurrences": "9529"
+    },
+    {
+      "uri": "http://datahub.io/dataset/zaragoza-turismo.rdf",
+      "label": "zaragoza-turismo.rdf",
+      "occurrences": "9430"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-edshare.ttl",
+      "label": "southampton-ac-uk-edshare.ttl",
+      "occurrences": "8016"
+    },
+    {
+      "uri": "http://datahub.io/dataset/iris2",
+      "label": "The IRIS2",
+      "occurrences": "6817"
+    },
+    {
+      "uri": "http://datahub.io/dataset/nytimes-linked-open-data.14.rdf",
+      "label": "nytimes-linked-open-data.14.rdf",
+      "occurrences": "4979"
+    },
+    {
+      "uri": "http://datahub.io/dataset/muninn-world-war-i.",
+      "label": "muninn-world-war-i.",
+      "occurrences": "3654"
+    },
+    {
+      "uri": "http://datahub.io/dataset/osm-semantic-network.10.rdf",
+      "label": "osm-semantic-network.10.rdf",
+      "occurrences": "3648"
+    },
+    {
+      "uri": "http://datahub.io/dataset/chronicling-america.0.rdf",
+      "label": "chronicling-america.0.rdf",
+      "occurrences": "3048"
+    },
+    {
+      "uri": "http://datahub.io/dataset/bibliographica-org-bnb-export.100.nq",
+      "label": "bibliographica-org-bnb-export.100.nq",
+      "occurrences": "2547"
+    },
+    {
+      "uri": "http://datahub.io/dataset/iserve.1.nt",
+      "label": "iserve.1.nt",
+      "occurrences": "2231"
+    },
+    {
+      "uri": "http://datahub.io/dataset/ontos-news-portal.rdf",
+      "label": "ontos-news-portal.rdf",
+      "occurrences": "2052"
+    },
+    {
+      "uri": "http://datahub.io/dataset/nuts-geovocab.7.ttl",
+      "label": "nuts-geovocab.7.ttl",
+      "occurrences": "1927"
+    },
+    {
+      "uri": "http://datahub.io/dataset/lobi.ttl",
+      "label": "lobi.ttl",
+      "occurrences": "1913"
+    },
+    {
+      "uri": "http://datahub.io/dataset/europeana-lod.0.nt",
+      "label": "europeana-lod.0.nt",
+      "occurrences": "1827"
+    },
+    {
+      "uri": "http://datahub.io/dataset/ysa.rdf",
+      "label": "ysa.rdf",
+      "occurrences": "1407"
+    },
+    {
+      "uri": "http://datahub.io/dataset/asn-us.15.rdf",
+      "label": "asn-us.15.rdf",
+      "occurrences": "1155"
+    },
+    {
+      "uri": "http://datahub.io/dataset/toxcast-toxrefdb.0.",
+      "label": "toxcast-toxrefdb.0.",
+      "occurrences": "854"
+    },
+    {
+      "uri": "http://datahub.io/dataset/a-draft-version-of-the-linked-human-imprintome.0.rdf",
+      "label": "a-draft-version-of-the-linked-human-imprintome.0.rdf",
+      "occurrences": "575"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-nsf.79.rdf",
+      "label": "rkb-explorer-nsf.79.rdf",
+      "occurrences": "558"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-nsf.rdf",
+      "label": "rkb-explorer-nsf.rdf",
+      "occurrences": "558"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-edshare-video.ttl",
+      "label": "southampton-ac-uk-edshare-video.ttl",
+      "occurrences": "404"
+    },
+    {
+      "uri": "http://datahub.io/dataset/de-budget.ttl",
+      "label": "de-budget.ttl",
+      "occurrences": "352"
+    },
+    {
+      "uri": "http://datahub.io/dataset/linked-open-camera.rdf",
+      "label": "linked-open-camera.rdf",
+      "occurrences": "345"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eagle-i-ccny-cuny.ttl",
+      "label": "eagle-i-ccny-cuny.ttl",
+      "occurrences": "330"
+    },
+    {
+      "uri": "http://datahub.io/dataset/parole-simple-ont.15.ttl",
+      "label": "parole-simple-ont.15.ttl",
+      "occurrences": "311"
+    },
+    {
+      "uri": "http://datahub.io/dataset/parole-simple-ont.30.rdf",
+      "label": "parole-simple-ont.30.rdf",
+      "occurrences": "311"
+    },
+    {
+      "uri": "http://datahub.io/dataset/datos-bne-es.117.nt",
+      "label": "datos-bne-es.117.nt",
+      "occurrences": "302"
+    },
+    {
+      "uri": "http://datahub.io/dataset/linked-edgar.rdf",
+      "label": "linked-edgar.rdf",
+      "occurrences": "203"
+    },
+    {
+      "uri": "http://datahub.io/dataset/geospecies",
+      "label": "GeoSpecies Knowledge Base",
+      "occurrences": "200"
+    },
+    {
+      "uri": "http://datahub.io/dataset/parole-simple-ont.15.rdf",
+      "label": "parole-simple-ont.15.rdf",
+      "occurrences": "166"
+    },
+    {
+      "uri": "http://datahub.io/dataset/parole-simple-ont.7.ttl",
+      "label": "parole-simple-ont.7.ttl",
+      "occurrences": "166"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-irit.1.rdf",
+      "label": "rkb-explorer-irit.1.rdf",
+      "occurrences": "144"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-risks.1.rdf",
+      "label": "rkb-explorer-risks.1.rdf",
+      "occurrences": "140"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-risks.rdf",
+      "label": "rkb-explorer-risks.rdf",
+      "occurrences": "140"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-laas.0.rdf",
+      "label": "rkb-explorer-laas.0.rdf",
+      "occurrences": "88"
+    },
+    {
+      "uri": "http://datahub.io/dataset/dimitros-net",
+      "label": "dimitros.net",
+      "occurrences": "86"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-pisa.0.rdf",
+      "label": "rkb-explorer-pisa.0.rdf",
+      "occurrences": "80"
+    },
+    {
+      "uri": "http://datahub.io/dataset/nvs.rdf",
+      "label": "nvs.rdf",
+      "occurrences": "73"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-ibm.0.rdf",
+      "label": "rkb-explorer-ibm.0.rdf",
+      "occurrences": "68"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-ibm.rdf",
+      "label": "rkb-explorer-ibm.rdf",
+      "occurrences": "68"
+    },
+    {
+      "uri": "http://datahub.io/dataset/jita.rdf",
+      "label": "jita.rdf",
+      "occurrences": "60"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-budapest.0.rdf",
+      "label": "rkb-explorer-budapest.0.rdf",
+      "occurrences": "60"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-jisc.0.rdf",
+      "label": "rkb-explorer-jisc.0.rdf",
+      "occurrences": "57"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-jisc.rdf",
+      "label": "rkb-explorer-jisc.rdf",
+      "occurrences": "57"
+    },
+    {
+      "uri": "http://datahub.io/dataset/hellenic-police.nt",
+      "label": "hellenic-police.nt",
+      "occurrences": "56"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-acm.82.rdf",
+      "label": "rkb-explorer-acm.82.rdf",
+      "occurrences": "45"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-acm.rdf",
+      "label": "rkb-explorer-acm.rdf",
+      "occurrences": "45"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-rae2001.20.rdf",
+      "label": "rkb-explorer-rae2001.20.rdf",
+      "occurrences": "45"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-rae2001.rdf",
+      "label": "rkb-explorer-rae2001.rdf",
+      "occurrences": "45"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-newcastle.0.rdf",
+      "label": "rkb-explorer-newcastle.0.rdf",
+      "occurrences": "36"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-deepblue.0.rdf",
+      "label": "rkb-explorer-deepblue.0.rdf",
+      "occurrences": "32"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-roma.0.rdf",
+      "label": "rkb-explorer-roma.0.rdf",
+      "occurrences": "32"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-ulm.rdf",
+      "label": "rkb-explorer-ulm.rdf",
+      "occurrences": "32"
+    },
+    {
+      "uri": "http://datahub.io/dataset/libver.rdf",
+      "label": "libver.rdf",
+      "occurrences": "31"
+    },
+    {
+      "uri": "http://datahub.io/dataset/bbc-music.0.rdf",
+      "label": "bbc-music.0.rdf",
+      "occurrences": "29"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-ft.0.rdf",
+      "label": "rkb-explorer-ft.0.rdf",
+      "occurrences": "28"
+    },
+    {
+      "uri": "http://datahub.io/dataset/nvs.0.rdf",
+      "label": "nvs.0.rdf",
+      "occurrences": "27"
+    },
+    {
+      "uri": "http://datahub.io/dataset/thesesfr.0.rdf",
+      "label": "thesesfr.0.rdf",
+      "occurrences": "26"
+    },
+    {
+      "uri": "http://datahub.io/dataset/camera-deputati-linked-data.rdf",
+      "label": "camera-deputati-linked-data.rdf",
+      "occurrences": "25"
+    },
+    {
+      "uri": "http://datahub.io/dataset/isidore.rdf",
+      "label": "isidore.rdf",
+      "occurrences": "25"
+    },
+    {
+      "uri": "http://datahub.io/dataset/npg-catalogs.0.rdf",
+      "label": "npg-catalogs.0.rdf",
+      "occurrences": "25"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-epsrc.1.rdf",
+      "label": "rkb-explorer-epsrc.1.rdf",
+      "occurrences": "25"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-italy.0.rdf",
+      "label": "rkb-explorer-italy.0.rdf",
+      "occurrences": "24"
+    },
+    {
+      "uri": "http://datahub.io/dataset/ndaa2011",
+      "label": "Defense: FY2011 Authorization and Appropriations",
+      "occurrences": "20"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-deploy.0.rdf",
+      "label": "rkb-explorer-deploy.0.rdf",
+      "occurrences": "18"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-deploy.rdf",
+      "label": "rkb-explorer-deploy.rdf",
+      "occurrences": "18"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-unlocode.1.rdf",
+      "label": "rkb-explorer-unlocode.1.rdf",
+      "occurrences": "18"
+    },
+    {
+      "uri": "http://datahub.io/dataset/bibsonomy.0.",
+      "label": "bibsonomy.0.",
+      "occurrences": "16"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-era.1.rdf",
+      "label": "rkb-explorer-era.1.rdf",
+      "occurrences": "16"
+    },
+    {
+      "uri": "http://datahub.io/dataset/farmbio-chembl.rdf",
+      "label": "farmbio-chembl.rdf",
+      "occurrences": "15"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-ieee.0.rdf",
+      "label": "rkb-explorer-ieee.0.rdf",
+      "occurrences": "15"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-southampton.0.rdf",
+      "label": "rkb-explorer-southampton.0.rdf",
+      "occurrences": "15"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-southampton.rdf",
+      "label": "rkb-explorer-southampton.rdf",
+      "occurrences": "15"
+    },
+    {
+      "uri": "http://datahub.io/dataset/gold.rdf",
+      "label": "gold.rdf",
+      "occurrences": "14"
+    },
+    {
+      "uri": "http://datahub.io/dataset/education-data-gov-uk.0.rdf",
+      "label": "education-data-gov-uk.0.rdf",
+      "occurrences": "13"
+    },
+    {
+      "uri": "http://datahub.io/dataset/hedatuz.0.rdf",
+      "label": "hedatuz.0.rdf",
+      "occurrences": "13"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-lisbon.0.rdf",
+      "label": "rkb-explorer-lisbon.0.rdf",
+      "occurrences": "12"
+    },
+    {
+      "uri": "http://datahub.io/dataset/unesco6",
+      "label": "UNESCO Nomenclature for fields of science and technology",
+      "occurrences": "12"
+    },
+    {
+      "uri": "http://datahub.io/dataset/asn-us.rdf",
+      "label": "asn-us.rdf",
+      "occurrences": "11"
+    },
+    {
+      "uri": "http://datahub.io/dataset/educationalprograms",
+      "label": "educationalprograms",
+      "occurrences": "10"
+    },
+    {
+      "uri": "http://datahub.io/dataset/jisc-cetis-directory.rdf",
+      "label": "jisc-cetis-directory.rdf",
+      "occurrences": "10"
+    },
+    {
+      "uri": "http://datahub.io/dataset/npg-publications.rdf",
+      "label": "npg-publications.rdf",
+      "occurrences": "10"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-darmstadt.0.rdf",
+      "label": "rkb-explorer-darmstadt.0.rdf",
+      "occurrences": "10"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-darmstadt.rdf",
+      "label": "rkb-explorer-darmstadt.rdf",
+      "occurrences": "10"
+    },
+    {
+      "uri": "http://datahub.io/dataset/sudocfr.rdf",
+      "label": "sudocfr.rdf",
+      "occurrences": "10"
+    },
+    {
+      "uri": "http://datahub.io/dataset/istat-immigration.639.rdf",
+      "label": "istat-immigration.639.rdf",
+      "occurrences": "9"
+    },
+    {
+      "uri": "http://datahub.io/dataset/morelab.rdf",
+      "label": "morelab.rdf",
+      "occurrences": "9"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-eurecom.0.rdf",
+      "label": "rkb-explorer-eurecom.0.rdf",
+      "occurrences": "9"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-digitaleconomy.0.rdf",
+      "label": "rkb-explorer-digitaleconomy.0.rdf",
+      "occurrences": "8"
+    },
+    {
+      "uri": "http://datahub.io/dataset/environment-data-gov-uk.0.ttl",
+      "label": "environment-data-gov-uk.0.ttl",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/hellenic-police.0.rdf",
+      "label": "hellenic-police.0.rdf",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/lak-dataset.rdf",
+      "label": "lak-dataset.rdf",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/libver.0.rdf",
+      "label": "libver.0.rdf",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/npg-techniques.rdf",
+      "label": "npg-techniques.rdf",
+      "occurrences": "5"
+    },
+    {
+      "uri": "http://datahub.io/dataset/open-library.rdf",
+      "label": "open-library.rdf",
+      "occurrences": "5"
+    },
+    {
+      "uri": "http://datahub.io/dataset/productontology.0.rdf",
+      "label": "productontology.0.rdf",
+      "occurrences": "5"
+    },
+    {
+      "uri": "http://datahub.io/dataset/allie-abbreviation-and-long-form-database-in-life-science.n3",
+      "label": "allie-abbreviation-and-long-form-database-in-life-science.n3",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/deutsche-nationalbibliografie-dnb.0.",
+      "label": "deutsche-nationalbibliografie-dnb.0.",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/finnish-municipalities.0.ttl",
+      "label": "finnish-municipalities.0.ttl",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-courseware.0.rdf",
+      "label": "rkb-explorer-courseware.0.rdf",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/vivo-university-of-florida.rdf",
+      "label": "vivo-university-of-florida.rdf",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-bolton.rdf",
+      "label": "aspire-bolton.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-bournemouth.rdf",
+      "label": "aspire-bournemouth.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-brunel.rdf",
+      "label": "aspire-brunel.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-derby.rdf",
+      "label": "aspire-derby.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-harper-adams.rdf",
+      "label": "aspire-harper-adams.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-hope.rdf",
+      "label": "aspire-hope.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-keele.rdf",
+      "label": "aspire-keele.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-manchester.rdf",
+      "label": "aspire-manchester.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-mmu.rdf",
+      "label": "aspire-mmu.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-ntu.rdf",
+      "label": "aspire-ntu.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-plymouth.rdf",
+      "label": "aspire-plymouth.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-portsmouth.rdf",
+      "label": "aspire-portsmouth.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-qmul.rdf",
+      "label": "aspire-qmul.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-roehampton.rdf",
+      "label": "aspire-roehampton.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-st-andrews.rdf",
+      "label": "aspire-st-andrews.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-sussex.rdf",
+      "label": "aspire-sussex.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-ucl.rdf",
+      "label": "aspire-ucl.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-uclan.rdf",
+      "label": "aspire-uclan.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/bfs-linked-data.rdf",
+      "label": "bfs-linked-data.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/brazilian-politicians.rdf",
+      "label": "brazilian-politicians.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/ecb-linked-data.rdf",
+      "label": "ecb-linked-data.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/euscreen.0.rdf",
+      "label": "euscreen.0.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/fao-linked-data.rdf",
+      "label": "fao-linked-data.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/oecd-linked-data.rdf",
+      "label": "oecd-linked-data.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-ecs.0.rdf",
+      "label": "rkb-explorer-ecs.0.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/transparency-linked-data.rdf",
+      "label": "transparency-linked-data.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/asn-us.0.rdf",
+      "label": "asn-us.0.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/asn-us.0.ttl",
+      "label": "asn-us.0.ttl",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/chronicling-america.rdf",
+      "label": "chronicling-america.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/cpv-2008.rdf",
+      "label": "cpv-2008.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/deutsche-nationalbibliografie-dnb.",
+      "label": "deutsche-nationalbibliografie-dnb.",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/ifpri-linked-open-data-global-hunger-index.2.rdf",
+      "label": "ifpri-linked-open-data-global-hunger-index.2.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/kdata.rdf",
+      "label": "kdata.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/meducator.rdf",
+      "label": "meducator.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/msc.5.rdf",
+      "label": "msc.5.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/my-family-lineage.0.rdf",
+      "label": "my-family-lineage.0.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-cordis.rdf",
+      "label": "rkb-explorer-cordis.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/un-hazardous-numbers.0.rdf",
+      "label": "un-hazardous-numbers.0.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/un-hazardous-numbers.rdf",
+      "label": "un-hazardous-numbers.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/clean-energy-data-reegle.rdf",
+      "label": "clean-energy-data-reegle.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/cpv-2003.rdf",
+      "label": "cpv-2003.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/geospecies.8.rdf",
+      "label": "geospecies.8.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/loius.rdf",
+      "label": "loius.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-webconf.rdf",
+      "label": "rkb-explorer-webconf.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/semanticquran.0.ttl",
+      "label": "semanticquran.0.ttl",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/sweto-dblp.0.rdf",
+      "label": "sweto-dblp.0.rdf",
+      "occurrences": "1"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The Dublin Core Metadata Element Set is a vocabulary of fifteen properties for use in resource description. The name \"Dublin\" is due to its origin at a 1995 invitational workshop in Dublin, Ohio; \"core\" because its elements are broad and generic, usable for describing a wide range of resources.",
+      "lang": "en",
+      "_id": "55a0d33657613119099c1010"
+    }
+  ],
+  "homepage": "http://dublincore.org/documents/dces",
+  "issuedAt": "2012-06-14T00:00:00.000Z",
+  "lastDeref": "2014-06-12T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-07-11T00:00:00.000Z",
+  "nsp": "http://purl.org/dc/elements/1.1/",
+  "prefix": "dce",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fd8",
+      "name": "Dublin Core Metadata Initiative"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Although \"dc\" is often used as the prefix for this vocabulary, it's also sometimes used for DC terms, so we preferred to use the less ambiguous \"dce\" and \"dcterms\" in LOV. See usage at http://prefix.cc/dc, http://prefix.cc/dce, http://prefix.cc/dcterms, and more discussion at http://bit.ly/uPuUTT.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-06-17T00:00:00.000Z",
+      "_id": "55a0d33657613119099c1013"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-13T00:00:00.000Z",
+      "_id": "55a0d33657613119099c1012"
+    },
+    {
+      "body": "Annual review done! Added the first issue date in this review.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-11T00:00:00.000Z",
+      "_id": "55a0d33657613119099c1011"
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "Dublin Core Metadata Element Set",
+      "lang": "en",
+      "_id": "55a0d33657613119099c100f"
+    }
+  ],
+  "uri": "http://purl.org/dc/elements/1.1/",
+  "versions": [
+    {
+      "name": "v2012-06-14",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/dce/versions/2012-06-14.n3",
+      "issued": "2012-06-13T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "15",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2010-10-11",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/dce/versions/2010-10-11.n3",
+      "issued": "2010-10-10T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "15",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2008-01-14",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/dce/versions/2008-01-14.n3",
+      "issued": "2008-01-14T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "15",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2006-12-18",
+      "issued": "2006-12-18T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": false
+    },
+    {
+      "name": "v2006-08-28",
+      "issued": "2006-08-27T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": false
+    },
+    {
+      "name": "v2005-06-13",
+      "issued": "2005-06-12T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": false
+    },
+    {
+      "name": "v2005-01-10",
+      "issued": "2005-01-10T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": false
+    },
+    {
+      "name": "v2004-12-20",
+      "issued": "2004-12-20T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": false
+    },
+    {
+      "name": "v2004-09-20",
+      "issued": "2004-09-19T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": false
+    },
+    {
+      "name": "v2004-06-14",
+      "issued": "2004-06-13T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": false
+    },
+    {
+      "name": "v2003-11-19",
+      "issued": "2003-11-19T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": false
+    },
+    {
+      "name": "v2003-03-04",
+      "issued": "2003-03-04T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": false
+    },
+    {
+      "name": "v2003-02-12",
+      "issued": "2003-02-12T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": false
+    }
+  ]
+}

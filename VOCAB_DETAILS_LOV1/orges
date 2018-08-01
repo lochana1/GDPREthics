@@ -1,0 +1,165 @@
+{
+  "__v": 2,
+  "contributorIds": [
+    {
+      "_id": "55dd6bf58b5f9f281f4c653b",
+      "name": "Antonio Ibañez"
+    },
+    {
+      "_id": "55dd6c1b8b5f9f281f4c653d",
+      "name": "María Jesús Fernández"
+    },
+    {
+      "_id": "55dd6c338b5f9f281f4c653f",
+      "name": "David Rey Jordán"
+    },
+    {
+      "_id": "55dd6c488b5f9f281f4c6540",
+      "name": "Martin Alvarez Espinar"
+    },
+    {
+      "_id": "55dd6c628b5f9f281f4c6543",
+      "name": "Carlos Jimenez"
+    },
+    {
+      "_id": "55dd6c868b5f9f281f4c6544",
+      "name": "Jose M. Subero"
+    },
+    {
+      "_id": "55dd6ca68b5f9f281f4c6547",
+      "name": "Imanol Argüeso"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f5d",
+      "name": "Oscar Corcho"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0ef1",
+      "name": "Asunción Gómez-Pérez"
+    },
+    {
+      "_id": "55efdd70a71142386b78ff32",
+      "name": "María Dolores Hernandez Maroto"
+    },
+    {
+      "_id": "55efdd90a71142386b78ff35",
+      "name": "Antonio Velasco Lerma"
+    }
+  ],
+  "createdInLOVAt": "2015-08-26T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "55efddada71142386b78ff38",
+      "name": "Ministerio de Hacienda y Administraciones Públicas"
+    },
+    {
+      "_id": "55efddc9a71142386b78ff3c",
+      "name": "Ministerio de Industria, Energí­a y Turismo"
+    },
+    {
+      "_id": "55efdde2a71142386b78ff3e",
+      "name": "Red.es"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "Extensión de la ontología de Organizaciones para adecuarla al Directorio Común de entidades públicas en España.",
+      "lang": "es",
+      "_id": "55efdde5a71142386b78ff43"
+    },
+    {
+      "value": "Extension of the Org ontology to make it suitable for the Spanish common registry of public entities.",
+      "lang": "en",
+      "_id": "55efdde5a71142386b78ff42"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "isDefinedBy": "http://datos.gob.es/sites/default/files/OntologiaDIR3/orges.owl",
+  "issuedAt": "2015-02-19T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-09-09T00:00:00.000Z",
+  "nsp": "http://datos.gob.es/def/sector-publico/organizacion#",
+  "prefix": "orges",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "Extension vocabulary to comply with Spanish Public Organizations",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2015-08-26T00:00:00.000Z",
+      "_id": "55efdde5a71142386b78ff44"
+    }
+  ],
+  "tags": [
+    "Government"
+  ],
+  "titles": [
+    {
+      "value": "Ontology about Spanish public organizations",
+      "lang": "en",
+      "_id": "55efdde5a71142386b78ff41"
+    },
+    {
+      "value": "Ontología sobre organizaciones públicas en España",
+      "lang": "es",
+      "_id": "55efdde5a71142386b78ff40"
+    }
+  ],
+  "uri": "http://datos.gob.es/def/sector-publico/organizacion#",
+  "versions": [
+    {
+      "_id": "55dd7ec854ef107a6346445b",
+      "classNumber": "4",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/orges/versions/2015-02-19.n3",
+      "instanceNumber": "0",
+      "issued": "2015-02-19T00:00:00.000Z",
+      "name": "v1.0.0",
+      "propertyNumber": "12",
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/org#"
+      ],
+      "relImports": [
+        "http://purl.org/vocab/vann/",
+        "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/",
+        "http://www.w3.org/2004/02/skos/",
+        "http://www.w3.org/ns/org#"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/ns/org#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

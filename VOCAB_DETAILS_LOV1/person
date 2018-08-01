@@ -1,0 +1,206 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-11-18T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f14",
+      "name": "Phil Archer"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f2b",
+      "name": "Andrea Perego"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The Person Core Vocabulary provides a minimum set of classes and properties for describing a natural person",
+      "lang": "en",
+      "_id": "59dcdeb12febc4a21c31668c"
+    }
+  ],
+  "issuedAt": "2012-05-07T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-10-10T00:00:00.000Z",
+  "nsp": "http://www.w3.org/ns/person#",
+  "prefix": "person",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c1004",
+      "name": "Joinup"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Fixed version history",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-12T00:00:00.000Z",
+      "_id": "59dcdeb12febc4a21c316690"
+    },
+    {
+      "body": "A small set of terms describing a person as individual, without any role in the society or relations, developed by Joinup Research and publish under the W3C domain.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2013-11-18T00:00:00.000Z",
+      "_id": "59dcdeb12febc4a21c31668f"
+    },
+    {
+      "body": "Annual review OK!",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-11T00:00:00.000Z",
+      "_id": "59dcdeb12febc4a21c31668e"
+    },
+    {
+      "body": "Annual review OK!",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-10-10T00:00:00.000Z",
+      "_id": "59dcdeb12febc4a21c31668d"
+    }
+  ],
+  "tags": [
+    "People"
+  ],
+  "titles": [
+    {
+      "value": "ISA Programme Person Core Vocabulary",
+      "lang": "en",
+      "_id": "59dcdeb12febc4a21c31668b"
+    }
+  ],
+  "uri": "http://www.w3.org/ns/person",
+  "versions": [
+    {
+      "name": "v2014-06-19",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/person/versions/2014-06-19.n3",
+      "issued": "2014-06-18T23:00:00.000Z",
+      "classNumber": "1",
+      "propertyNumber": "8",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://schema.org/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/dc/terms/",
+        "http://schema.org/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2007/05/powder-s",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2013-12-21",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/person/versions/2013-12-21.n3",
+      "issued": "2013-12-21T00:00:00.000Z",
+      "classNumber": "1",
+      "propertyNumber": "8",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://schema.org/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/dc/terms/",
+        "http://schema.org/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2007/05/powder-s",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2013.1116",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/person/versions/2013-11-16.n3",
+      "issued": "2013-11-16T00:00:00.000Z",
+      "classNumber": "1",
+      "propertyNumber": "8",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://schema.org/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/dc/terms/",
+        "http://schema.org/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2007/05/powder-s",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

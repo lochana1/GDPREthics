@@ -1,0 +1,109 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2015-07-30T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "55ba5bde7459b3975b63b9bf",
+      "name": "Jesper Zedlitz"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The Genealogisches Orts-Verzeichnis (GOV) contains information about current and historical political, ecclesiastical and legal administrative affiliations of settlements and administrative units. In addition several time-dependent values (such as names, population numbers, postal codes etc.) are given.",
+      "lang": "en",
+      "_id": "55ba5d037459b3975b63b9ca"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2013-10-15T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-07-30T17:22:58.019Z",
+  "nsp": "http://gov.genealogy.net/ontology.owl#",
+  "prefix": "gov",
+  "publisherIds": [
+    {
+      "_id": "55ba5ca47459b3975b63b9c7",
+      "name": "Verein für Computergenealogie e. V."
+    }
+  ],
+  "reviews": [
+    {
+      "body": "A small and useful ontology for modeling historic administrative information.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-30T00:00:00.000Z",
+      "_id": "55ba5d037459b3975b63b9c9"
+    }
+  ],
+  "tags": [
+    "Society",
+    "Time"
+  ],
+  "titles": [
+    {
+      "value": "Ontology for modelling historic administrative information.",
+      "lang": "en",
+      "_id": "55ba5d037459b3975b63b9cc"
+    },
+    {
+      "value": "Ontologie zur Modellierung historischer Verwaltungsinformationen.",
+      "lang": "de",
+      "_id": "55ba5d037459b3975b63b9cb"
+    }
+  ],
+  "uri": "http://gov.genealogy.net/ontology.owl",
+  "versions": [
+    {
+      "name": "v2015-07-29",
+      "issued": "2015-07-29T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "39",
+      "classNumber": "14",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/gov/versions/2015-07-29.n3",
+      "_id": "55ba5d067459b3975b63b9cd",
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

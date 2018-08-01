@@ -1,0 +1,217 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-06-16T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e57",
+      "name": "Libby Miller"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0e6a",
+      "name": "Yan Wang"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0e6b",
+      "name": "Yi Zeng"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0e6c",
+      "name": "Zhisheng Huang"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0e78",
+      "name": "Dan Brickley"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0e85",
+      "name": "John Breslin"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0ec9",
+      "name": "Toby Inkster"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f06",
+      "name": "Danica Damljanovic"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f34",
+      "name": "Bob Ferris"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f6a",
+      "name": "Sheila Kinsella"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The Cognitive Characteristics Ontology specification provides a vocabulary for describing cognitive pattern within contexts, their temporal dynamics and their origins, on/ for the Semantic Web.",
+      "lang": "en",
+      "_id": "55a0fbaa57613119099c1152"
+    }
+  ],
+  "issuedAt": "2010-09-16T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:43:38.962Z",
+  "lastModifiedInLOVAt": "2015-07-11T11:19:30.271Z",
+  "nsp": "http://purl.org/ontology/cco/core#",
+  "prefix": "cco",
+  "reviews": [
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-13T00:00:00.000Z",
+      "_id": "55a0fbaa57613119099c1155"
+    },
+    {
+      "body": "Vocabulary available both in OWL and N3 formats. Provides human-readable documentation including change log.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-06-17T00:00:00.000Z",
+      "_id": "55a0fbaa57613119099c1154"
+    },
+    {
+      "body": "Annual review - OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-11T00:00:00.000Z",
+      "_id": "55a0fbaa57613119099c1153"
+    }
+  ],
+  "tags": [
+    "People"
+  ],
+  "titles": [
+    {
+      "value": "Cognitive Characteristics Ontology",
+      "lang": "en",
+      "_id": "55a0fbaa57613119099c1151"
+    }
+  ],
+  "uri": "http://purl.org/ontology/cco/core#",
+  "versions": [
+    {
+      "name": "v0.2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/cco/versions/2010-09-26.n3",
+      "issued": "2010-09-25T23:00:00.000Z",
+      "classNumber": "2",
+      "propertyNumber": "21",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/NET/c4dm/event.owl",
+        "http://purl.org/NET/scovo#",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/ontology/ao/core#",
+        "http://purl.org/ontology/wo/core#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://purl.org/NET/c4dm/",
+        "http://purl.org/NET/",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/ontology/ao/",
+        "http://purl.org/ontology/wo/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/2003/06/sw-vocab-status/",
+        "http://www.w3.org/2006/",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/NET/scovo#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2006/time#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/cco/versions/2010-09-16.n3",
+      "issued": "2010-09-15T23:00:00.000Z",
+      "classNumber": "2",
+      "propertyNumber": "20",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/NET/c4dm/event.owl",
+        "http://purl.org/NET/scovo#",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/ontology/ao/core#",
+        "http://purl.org/ontology/wo/core#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://purl.org/NET/c4dm/",
+        "http://purl.org/NET/",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/ontology/ao/",
+        "http://purl.org/ontology/wo/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/2003/06/sw-vocab-status/",
+        "http://www.w3.org/2006/",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/NET/scovo#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2006/time#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

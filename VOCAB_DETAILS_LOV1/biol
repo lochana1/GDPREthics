@@ -1,0 +1,147 @@
+{
+  "__v": 2,
+  "commentDeref": "Problem while dereferencing or parsing the vocabulary",
+  "createdInLOVAt": "2013-06-02T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0ec9",
+      "name": "Toby Inkster"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "An RDF vocabulary for the taxonomy of all forms of life",
+      "lang": "en",
+      "_id": "5adda40767b67f5811d01cad"
+    }
+  ],
+  "issuedAt": "2008-05-07T00:00:00.000Z",
+  "lastDeref": "2014-06-03T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2018-04-23T00:00:00.000Z",
+  "nsp": "http://purl.org/NET/biol/ns#",
+  "prefix": "biol",
+  "reviews": [
+    {
+      "body": "Does not seem likely to evolve beyond this version. Referenced by equivalences of properties in more recent and richer TaxonConcept ontology.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-06-02T00:00:00.000Z",
+      "_id": "5adda40767b67f5811d01cb1"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-03T00:00:00.000Z",
+      "_id": "5adda40767b67f5811d01cb0"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-06-15T00:00:00.000Z",
+      "_id": "5adda40767b67f5811d01caf"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2018-04-23T00:00:00.000Z",
+      "_id": "5adda40767b67f5811d01cae"
+    }
+  ],
+  "tags": [
+    "Biology"
+  ],
+  "titles": [
+    {
+      "value": "Biological Taxonomy Vocabulary 0.2 (Core)",
+      "lang": "en",
+      "_id": "5adda40767b67f5811d01cac"
+    }
+  ],
+  "uri": "http://purl.org/NET/biol/ns#",
+  "versions": [
+    {
+      "name": "v0.2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/biol/versions/2008-10-06.n3",
+      "issued": "2008-10-05T23:00:00.000Z",
+      "classNumber": "3",
+      "propertyNumber": "16",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "urn:lsid:ubio.org:predicates:"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/1999/xhtml/vocab#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v0.1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/biol/versions/2008-05-13.n3",
+      "issued": "2008-05-12T23:00:00.000Z",
+      "classNumber": "3",
+      "propertyNumber": "15",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://web.resource.org/cc/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/1999/xhtml/vocab#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

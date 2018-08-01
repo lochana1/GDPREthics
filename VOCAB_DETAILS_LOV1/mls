@@ -1,0 +1,91 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-10-19T00:00:00.000Z",
+  "creatorIds": [],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "ML-Schema is a collaborative, community effort with a mission to develop, maintain, and promote standard schemas for data mining and machine learning algorithms, datasets, and experiments",
+      "lang": "en",
+      "_id": "580761863e5586c53d87b4e2"
+    }
+  ],
+  "homepage": "http://ml-schema.github.io/documentation/",
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2016-10-17T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-10-19T12:06:34.058Z",
+  "nsp": "http://www.w3.org/ns/mls#",
+  "prefix": "mls",
+  "publisherIds": [
+    {
+      "_id": "580761403e5586c53d87b4a1",
+      "name": "W3C Machine Learning Schema Community Group"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "The schema also defines a relationship between machine learning algorithms and their single executions and experiments and studies encompassing them.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-10-19T00:00:00.000Z",
+      "_id": "580761863e5586c53d87b4e1"
+    }
+  ],
+  "tags": [
+    "Support",
+    "Methods"
+  ],
+  "titles": [
+    {
+      "value": "Machine Learning Schema",
+      "lang": "en",
+      "_id": "580761863e5586c53d87b4e3"
+    }
+  ],
+  "uri": "http://www.w3.org/ns/mls",
+  "versions": [
+    {
+      "_id": "580761893e5586c53d87b4e7",
+      "classNumber": "25",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/mls/versions/2016-10-17.n3",
+      "instanceNumber": "0",
+      "issued": "2016-10-17T00:00:00.000Z",
+      "name": "v1.0",
+      "propertyNumber": "13",
+      "relSpecializes": [
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://protege.stanford.edu/plugins/owl/protege#",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

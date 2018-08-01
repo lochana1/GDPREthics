@@ -1,0 +1,200 @@
+{
+  "__v": 3,
+  "contributorIds": [],
+  "createdInLOVAt": "2015-04-21T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "553614f0ce2c7c7468a478d6",
+      "name": "Matheus Dimas de Morais"
+    },
+    {
+      "_id": "553614abce2c7c7468a478d4",
+      "name": "Mark Douglas de Azevedo Jacyntho"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "Vocabulary for describing issues (or problems) and corresponding symptoms and solutions to a broad variety of contexts. It is intended to provide a generic, reusable core ontology that can be extended or specialized for use in domain-specific situations, aimed at supporting linked data publishing. The solutions are represented by procedures, which are possible workflows for solving corresponding issues.",
+      "lang": "en",
+      "_id": "55e412bca71142386b779a16"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2014-11-21T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-08-31T00:00:00.000Z",
+  "nsp": "http://purl.org/ipo/core#",
+  "prefix": "ipo",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "This general vocabulary certainly deserves to be extended to specific research or industrial domains.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-04-21T00:00:00.000Z",
+      "_id": "55e412bca71142386b779a18"
+    },
+    {
+      "body": "Now in version 1.2.0",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2015-08-31T00:00:00.000Z",
+      "_id": "55e412bca71142386b779a17"
+    }
+  ],
+  "tags": [
+    "Methods"
+  ],
+  "titles": [
+    {
+      "value": "IPO - Issue Procedure Ontology",
+      "lang": "en",
+      "_id": "55e412bca71142386b779a15"
+    }
+  ],
+  "uri": "http://purl.org/ipo/core",
+  "versions": [
+    {
+      "name": "v2014-11-21",
+      "issued": "2014-11-21T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "2",
+      "propertyNumber": "36",
+      "classNumber": "16",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ipo/versions/2014-11-21.n3",
+      "_id": "55361774ce2c7c7468a478ec",
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "relEquivalent": [
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v1.1.0",
+      "issued": "2015-06-26T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "2",
+      "propertyNumber": "48",
+      "classNumber": "16",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ipo/versions/2015-06-26.n3",
+      "_id": "55917b3c1d5237e823d60f52",
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "relEquivalent": [
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v1.2.0",
+      "issued": "2015-07-30T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "2",
+      "propertyNumber": "50",
+      "classNumber": "16",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ipo/versions/2015-07-30.n3",
+      "_id": "55e41293a71142386b779a12",
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "relEquivalent": [
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

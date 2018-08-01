@@ -1,0 +1,164 @@
+{
+  "__v": 2,
+  "contributorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f39",
+      "name": "Amélie Gyrard"
+    }
+  ],
+  "createdInLOVAt": "2013-05-02T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0f9f",
+      "name": "Anya Kim"
+    },
+    {
+      "_id": "54b2be048433ca9ccf1c0fa0",
+      "name": "Jim Luo"
+    },
+    {
+      "_id": "54b2be048433ca9ccf1c0fa1",
+      "name": "Myong Kang"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "A security ontology to annotate resources with security-related information",
+      "lang": "en",
+      "_id": "57ad8aefb00b4b1452a88a9b"
+    }
+  ],
+  "issuedAt": "2005-08-30T00:00:00.000Z",
+  "lastDeref": "2014-04-13T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-08-12T08:39:36.889Z",
+  "nsp": "http://securitytoolbox.appspot.com/securityMain#",
+  "prefix": "security",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0ff7",
+      "name": "Naval Research Laboratory"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "This vocabulary is a work on progress trying to reuse as much as possible other vocabularies on security that are most often *not* online.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2013-05-02T00:00:00.000Z",
+      "_id": "57ad8aefb00b4b1452a88a9f"
+    },
+    {
+      "body": "Borderline vocabulary regarding LOV recommended practices. No metadata, no labels or comments in natural language.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-04-13T00:00:00.000Z",
+      "_id": "57ad8aefb00b4b1452a88a9e"
+    },
+    {
+      "body": "Annual review. No improvements regarding metadata.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-03-27T00:00:00.000Z",
+      "_id": "57ad8aefb00b4b1452a88a9d"
+    },
+    {
+      "body": "The vocabulary contains more metadata for better discovery",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-08-12T00:00:00.000Z",
+      "_id": "57ad8aefb00b4b1452a88a9c"
+    }
+  ],
+  "tags": [
+    "Security"
+  ],
+  "titles": [
+    {
+      "value": "Security Ontology",
+      "lang": "en",
+      "_id": "57ad8aefb00b4b1452a88a9a"
+    }
+  ],
+  "uri": "http://securitytoolbox.appspot.com/securityMain",
+  "versions": [
+    {
+      "name": "v2013.0503",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/security/versions/2013-05-03.n3",
+      "issued": "2013-05-02T23:00:00.000Z",
+      "classNumber": "16",
+      "propertyNumber": "6",
+      "instanceNumber": "35",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://securitytoolbox.appspot.com/securityAlgorithms#",
+        "http://www.kim.com/NRLOntologyFiles/credentials.owl#",
+        "http://www.kim.com/NRLOntologyFiles/securityAssurance.owl#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": null,
+      "isReviewed": false
+    },
+    {
+      "name": "v0.2",
+      "issued": "2015-03-27T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "35",
+      "propertyNumber": "6",
+      "classNumber": "16",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/security/versions/2015-03-27.n3",
+      "_id": "57ad8b48b00b4b1452a88aba",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://securitytoolbox.appspot.com/securityAlgorithms#",
+        "http://www.kim.com/NRLOntologyFiles/credentials.owl#",
+        "http://www.kim.com/NRLOntologyFiles/securityAssurance.owl#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

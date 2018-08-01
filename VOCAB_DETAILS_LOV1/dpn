@@ -1,0 +1,107 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-04-28T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f68",
+      "name": "Jonathan Yu"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "This ontology is being developed by CSIRO under the eReefs project for describing data provider nodes, web services available and datasets that are hosted by them. This ontology features a module for describing Datasets. It does not however describe geospatial, temporal, organisational or domain concepts as these are intended to be included from other ontologies via the imports statement. Other modules complementary to the DPN ontology are     http://purl.org/dpn/dataset and http://purl.org/dpn/services. This version aligns DCAT and DC terms and imports DPN services.",
+      "lang": "en",
+      "_id": "57223579b5cce30e4a33f4cc"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "lastModifiedInLOVAt": "2016-04-28T16:09:19.362Z",
+  "nsp": "http://purl.org/dpn#",
+  "prefix": "dpn",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0feb",
+      "name": "CSIRO"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "A vocabulary implemented within the eReefs project for describing data provider nodes, web services available and datasets that are hosted by them.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-04-28T00:00:00.000Z",
+      "_id": "57223579b5cce30e4a33f4cb"
+    }
+  ],
+  "tags": [
+    "Services",
+    "Support"
+  ],
+  "titles": [
+    {
+      "value": "Data Provider Node ontology",
+      "lang": "en",
+      "_id": "57223579b5cce30e4a33f4cd"
+    }
+  ],
+  "uri": "http://purl.org/dpn",
+  "versions": [
+    {
+      "_id": "5722357cb5cce30e4a33f4cf",
+      "classNumber": "13",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/dpn/versions/2015-08-05.n3",
+      "instanceNumber": "0",
+      "issued": "2015-08-05T00:00:00.000Z",
+      "name": "v0.6.1",
+      "propertyNumber": "17",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/ns/dcat",
+        "http://www.wsmo.org/ns/wsmo-lite#"
+      ],
+      "relImports": [
+        "http://purl.org/dpn/",
+        "http://www.w3.org/2006/vcard/",
+        "http://www.w3.org/ns/",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relGeneralizes": [
+        "http://purl.org/dpn/dataset#"
+      ],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2006/vcard/ns",
+        "http://www.w3.org/ns/org#"
+      ],
+      "relEquivalent": [
+        "http://www.w3.org/ns/dcat"
+      ],
+      "relDisjunc": [
+        "http://www.w3.org/ns/org#"
+      ],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

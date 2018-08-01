@@ -1,0 +1,109 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2015-10-07T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f8d",
+      "name": "James G. Kim"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "South Korea Extension to Juso Ontology is a Web vocabulary that extends Juso Ontology to describe geographical addresses and features in South Korea.",
+      "lang": "en",
+      "_id": "5614e3a342fc695f7e657bce"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2015-10-02T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-10-07T09:19:59.522Z",
+  "nsp": "http://rdfs.co/juso/kr/",
+  "prefix": "juso.kr",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "Political geographic vocabulary extension of Juso for South Korea",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2015-10-07T00:00:00.000Z",
+      "_id": "5614e3a342fc695f7e657bcd"
+    }
+  ],
+  "tags": [
+    "Geometry",
+    "Geography"
+  ],
+  "titles": [
+    {
+      "value": "South Korea Extension to Juso Ontology",
+      "lang": "en",
+      "_id": "5614e3a342fc695f7e657bd0"
+    },
+    {
+      "value": "대한민국 주소 온톨로지",
+      "lang": "ko",
+      "_id": "5614e3a342fc695f7e657bcf"
+    }
+  ],
+  "uri": "http://rdfs.co/juso/kr/",
+  "versions": [
+    {
+      "_id": "5614e3a642fc695f7e657bd6",
+      "classNumber": "29",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/juso.kr/versions/2015-10-07.n3",
+      "instanceNumber": "0",
+      "issued": "2015-10-07T00:00:00.000Z",
+      "name": "v0.1",
+      "propertyNumber": "18",
+      "relSpecializes": [
+        "http://rdfs.co/juso/",
+        "http://www.geonames.org/ontology",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns",
+        "http://www.w3.org/2004/02/skos/core",
+        "http://www.w3.org/ns/adms"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/kor",
+          "label": "Korean",
+          "iso639P3PCode": "kor"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

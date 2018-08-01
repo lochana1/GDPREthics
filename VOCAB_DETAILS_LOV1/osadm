@@ -1,0 +1,148 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-06-02T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fe3",
+      "name": "Ordnance Survey"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/statistics-data-gov-uk.1.nt",
+      "label": "statistics-data-gov-uk.1.nt",
+      "occurrences": "19693"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "An ontology describing the administrative and voting area geography of Great Britain",
+      "lang": "en",
+      "_id": "557f458e1d5237e823d24e1e"
+    }
+  ],
+  "isDefinedBy": "http://www.ordnancesurvey.co.uk/ontology/admingeo.owl",
+  "issuedAt": "2010-03-31T00:00:00.000Z",
+  "lastDeref": "2014-06-03T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-06-15T00:00:00.000Z",
+  "nsp": "http://data.ordnancesurvey.co.uk/ontology/admingeo/",
+  "prefix": "osadm",
+  "reviews": [
+    {
+      "body": "One of the main vocabularies supporting the Ordnance Survey linked data publication.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-06-02T00:00:00.000Z",
+      "_id": "557f458e1d5237e823d24e21"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-03T00:00:00.000Z",
+      "_id": "557f458e1d5237e823d24e20"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-06-15T00:00:00.000Z",
+      "_id": "557f458e1d5237e823d24e1f"
+    }
+  ],
+  "tags": [
+    "Geography"
+  ],
+  "titles": [
+    {
+      "value": "The administrative geography and civil voting area ontology",
+      "lang": "en",
+      "_id": "557f458e1d5237e823d24e1d"
+    }
+  ],
+  "uri": "http://data.ordnancesurvey.co.uk/ontology/admingeo/",
+  "versions": [
+    {
+      "name": "v2013-09-04",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/osadm/versions/2013-09-04.n3",
+      "issued": "2013-09-03T23:00:00.000Z",
+      "classNumber": "26",
+      "propertyNumber": "17",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://data.ordnancesurvey.co.uk/ontology/spatialrelations/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [
+        "http://data.ordnancesurvey.co.uk/ontology/geometry/",
+        "http://data.ordnancesurvey.co.uk/ontology/spatialrelations/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2010-04-01",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/osadm/versions/2010-04-01.n3",
+      "issued": "2010-03-31T23:00:00.000Z",
+      "classNumber": "26",
+      "propertyNumber": "15",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://data.ordnancesurvey.co.uk/ontology/spatialrelations/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [
+        "http://data.ordnancesurvey.co.uk/ontology/geometry/",
+        "http://data.ordnancesurvey.co.uk/ontology/spatialrelations/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

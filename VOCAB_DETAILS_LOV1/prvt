@@ -1,0 +1,145 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-06-30T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e55",
+      "name": "Jun Zhao"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0e5e",
+      "name": "Olaf Hartig"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/statistics-data-gov-uk.1.nt",
+      "label": "statistics-data-gov-uk.1.nt",
+      "occurrences": "38"
+    },
+    {
+      "uri": "http://datahub.io/dataset/agris.0.rdf",
+      "label": "agris.0.rdf",
+      "occurrences": "5"
+    },
+    {
+      "uri": "http://datahub.io/dataset/agrovoc-skos.0.rdf",
+      "label": "agrovoc-skos.0.rdf",
+      "occurrences": "5"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Extends the Provenance Vocabulary by defining subclasses of the types of provenance elements introduced in the core ontology.",
+      "lang": "en",
+      "_id": "560653378f7ad2ce3438d436"
+    }
+  ],
+  "issuedAt": "2009-11-07T00:00:00.000Z",
+  "lastDeref": "2014-07-20T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-09-26T00:00:00.000Z",
+  "nsp": "http://purl.org/net/provenance/types#",
+  "prefix": "prvt",
+  "reviews": [
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-07-21T00:00:00.000Z",
+      "_id": "560653378f7ad2ce3438d439"
+    },
+    {
+      "body": "Yet another vocabulary on provenance. Might provide some specific concepts not defined in the W3C PROV recommendation.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-07-01T00:00:00.000Z",
+      "_id": "560653378f7ad2ce3438d438"
+    },
+    {
+      "body": "Fixed version number.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-09-26T00:00:00.000Z",
+      "_id": "560653378f7ad2ce3438d437"
+    }
+  ],
+  "tags": [
+    "Quality"
+  ],
+  "titles": [
+    {
+      "value": "Provenance Vocabulary types",
+      "lang": "en",
+      "_id": "560653378f7ad2ce3438d435"
+    }
+  ],
+  "uri": "http://purl.org/net/provenance/types#",
+  "versions": [
+    {
+      "classNumber": "15",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/prvt/versions/2012-03-14.n3",
+      "instanceNumber": "0",
+      "issued": "2012-03-14T00:00:00.000Z",
+      "name": "v2012.0314",
+      "propertyNumber": "1",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/net/provenance/ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/prov#"
+      ],
+      "relImports": [
+        "http://purl.org/net/provenance/ns#"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/net/provenance/ns#",
+        "http://www.w3.org/2006/http#"
+      ],
+      "relEquivalent": [
+        "http://www.ontologydesignpatterns.org/ont/web/irw.owl#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2009-11-07",
+      "issued": "2009-11-07T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": false
+    }
+  ]
+}

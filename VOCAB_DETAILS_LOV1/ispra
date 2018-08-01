@@ -1,0 +1,131 @@
+{
+  "__v": 1,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-04-29T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "5511cde13d2602017b0eb4d0",
+      "name": "Regesta"
+    },
+    {
+      "_id": "57236d30b5cce30e4a34889e",
+      "name": "ISPRA"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "L'ontologia ISPRA nasce dall'esigenza di pubblicazione dei dataset LOD ed è finalizzata alla descrizione dei processi e delle attività dell'Istituto negli ambiti circoscritti dai primi dataset pubblicati. Al momento sono descritte in modo analitico le classi e le proprietà che insistono sul dominio specifico della rete ondametrica nazionale, della rete mareografica, del consumo del suolo e degli interventi di dissesto idrogeologico, ma l'obiettivo è di estenderla parallelamente alla pubblicazione di nuovi dataset.",
+      "lang": "it",
+      "_id": "572ddb95b5cce30e4a39ab2a"
+    },
+    {
+      "value": "ISPRA ontology aims at the description of the processes and activities of the Institute in the areas circumscribed by the first published datasets.",
+      "lang": "en",
+      "_id": "572ddb95b5cce30e4a39ab29"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "isDefinedBy": "http://dati.isprambiente.it/ontology/core/ispra-core.0.1.rdf",
+  "issuedAt": "2015-12-14T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-05-07T00:00:00.000Z",
+  "nsp": "http://dati.isprambiente.it/ontology/core#",
+  "prefix": "ispra",
+  "publisherIds": [
+    {
+      "_id": "57236d30b5cce30e4a34889e",
+      "name": "ISPRA"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "A vocabulary from the ISPRA agency in Italy.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-04-29T00:00:00.000Z",
+      "_id": "572ddb95b5cce30e4a39ab2c"
+    },
+    {
+      "body": "Added ISPRA organization as creator of the vocab",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-05-07T00:00:00.000Z",
+      "_id": "572ddb95b5cce30e4a39ab2b"
+    }
+  ],
+  "tags": [
+    "Catalogs",
+    "Environment"
+  ],
+  "titles": [
+    {
+      "value": "Ispra Ontology",
+      "lang": "en",
+      "_id": "572ddb95b5cce30e4a39ab28"
+    }
+  ],
+  "uri": "http://dati.isprambiente.it/ontology/core#",
+  "versions": [
+    {
+      "_id": "57236d5eb5cce30e4a3488a7",
+      "classNumber": "37",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ispra/versions/2015-12-14.n3",
+      "instanceNumber": "0",
+      "issued": "2015-12-14T00:00:00.000Z",
+      "name": "v0.1.0",
+      "propertyNumber": "57",
+      "relSpecializes": [
+        "http://purl.org/procurement/public-contracts",
+        "http://www.geonames.org/ontology",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/dc/dcmitype/",
+        "http://purl.org/goodrelations/v1",
+        "http://purl.org/procurement/public-contracts",
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2004/02/skos/core",
+        "http://www.w3.org/ns/org#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

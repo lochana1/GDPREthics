@@ -1,0 +1,187 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-04-16T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f57",
+      "name": "Masahide Kanzaki"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/radatana.nt",
+      "label": "radatana.nt",
+      "occurrences": "66962"
+    },
+    {
+      "uri": "http://datahub.io/dataset/radatana.0.rdf",
+      "label": "radatana.0.rdf",
+      "occurrences": "2"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "A vocabulary to describe a person's profile and history",
+      "lang": "en",
+      "_id": "57ad888bb00b4b1452a888dc"
+    }
+  ],
+  "issuedAt": "2003-07-07T00:00:00.000Z",
+  "lastDeref": "2014-04-10T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-08-12T00:00:00.000Z",
+  "nsp": "http://www.kanzaki.com/ns/whois#",
+  "prefix": "whois",
+  "reviews": [
+    {
+      "body": "Uses a version of ical (http://www.w3.org/2002/12/cal/icaltzd#) which is unfortunately invalid RDF. See https://lov.linkeddata.es/dataset/lov/details/vocabulary_ical.html for details.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-04-16T00:00:00.000Z",
+      "_id": "57ad888bb00b4b1452a888e0"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-04-10T00:00:00.000Z",
+      "_id": "57ad888bb00b4b1452a888df"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-03-27T00:00:00.000Z",
+      "_id": "57ad888bb00b4b1452a888de"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-08-12T00:00:00.000Z",
+      "_id": "57ad888bb00b4b1452a888dd"
+    }
+  ],
+  "tags": [
+    "People"
+  ],
+  "titles": [
+    {
+      "value": "Who's who description vocabulary",
+      "lang": "en",
+      "_id": "57ad888bb00b4b1452a888db"
+    }
+  ],
+  "uri": "http://www.kanzaki.com/ns/whois",
+  "versions": [
+    {
+      "name": "v0.54",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/whois/versions/2012-09-16.n3",
+      "issued": "2012-09-15T23:00:00.000Z",
+      "classNumber": "4",
+      "propertyNumber": "16",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/12/cal/icaltzd#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [
+        "http://www.kanzaki.com/ns/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/net/ns/ontology-annot",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e1b",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/jpn",
+          "label": "Japanese",
+          "iso639P3PCode": "jpn"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.53",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/whois/versions/2007-10-13.n3",
+      "issued": "2007-10-12T23:00:00.000Z",
+      "classNumber": "4",
+      "propertyNumber": "15",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/12/cal/icaltzd#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [
+        "http://www.kanzaki.com/ns/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/net/ns/ontology-annot",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e1b",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/jpn",
+          "label": "Japanese",
+          "iso639P3PCode": "jpn"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.1",
+      "issued": "2003-07-07T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": false
+    }
+  ]
+}

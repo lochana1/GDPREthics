@@ -1,0 +1,138 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-08-23T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e62",
+      "name": "Ryan Lee"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0e98",
+      "name": "Stefano Mazzocchi"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0ebd",
+      "name": "Emmanuel Pietriga"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f11",
+      "name": "Chris Bizer"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "OWL Full vocabulary for defining lenses and formats on RDF models.",
+      "lang": "en",
+      "_id": "561c02da42fc695f7e67253e"
+    }
+  ],
+  "issuedAt": "2005-03-11T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:52:11.057Z",
+  "lastModifiedInLOVAt": "2015-10-12T00:00:00.000Z",
+  "nsp": "http://www.w3.org/2004/09/fresnel#",
+  "prefix": "fresnel",
+  "reviews": [
+    {
+      "body": "Fresnel is one of the first vocabularies to deal with how to define terms in RDF for facets and widgets in RDF.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2013-08-24T00:00:00.000Z",
+      "_id": "561c02da42fc695f7e672541"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-09-11T00:00:00.000Z",
+      "_id": "561c02da42fc695f7e672540"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-10-12T00:00:00.000Z",
+      "_id": "561c02da42fc695f7e67253f"
+    }
+  ],
+  "tags": [
+    "RDF"
+  ],
+  "titles": [
+    {
+      "value": "Fresnel Lens and Format Core Vocabulary",
+      "lang": "en",
+      "_id": "561c02da42fc695f7e67253d"
+    }
+  ],
+  "uri": "http://www.w3.org/2004/09/fresnel",
+  "versions": [
+    {
+      "name": "v1.2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/fresnel/versions/2005-07-25.n3",
+      "issued": "2005-07-24T23:00:00.000Z",
+      "classNumber": "16",
+      "propertyNumber": "29",
+      "instanceNumber": "10",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v2015-01-11",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/fresnel/versions/2015-01-11.n3",
+      "issued": "2015-01-11T20:52:11.057Z",
+      "classNumber": "16",
+      "propertyNumber": "29",
+      "instanceNumber": "10",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

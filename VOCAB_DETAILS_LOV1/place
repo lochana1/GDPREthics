@@ -1,0 +1,155 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2012-03-06T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0ec1",
+      "name": "Michael Smethurst"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f30",
+      "name": "Tom Scott"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f7f",
+      "name": "Rob Styles"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The Places Ontology is a simple lightweight ontology for describing places of geographic interest.",
+      "lang": "en",
+      "_id": "568a5ac74ee7f7176ff10eeb"
+    }
+  ],
+  "issuedAt": "2010-11-27T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-01-04T00:00:00.000Z",
+  "nsp": "http://purl.org/ontology/places#",
+  "prefix": "place",
+  "reviews": [
+    {
+      "body": "A very lightweight ontology describing features and topological relations for some points of interest.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2013-10-29T00:00:00.000Z",
+      "_id": "568a5ac74ee7f7176ff10ef0"
+    },
+    {
+      "body": "Many equivalences to geonames codes, linkedgeodata ... to add to Geonames Mappings.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2012-03-06T00:00:00.000Z",
+      "_id": "568a5ac74ee7f7176ff10eef"
+    },
+    {
+      "body": "Annual review OK!",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2014-11-05T00:00:00.000Z",
+      "_id": "568a5ac74ee7f7176ff10eee"
+    },
+    {
+      "body": "New equivalences with dbpedia and the use of the vocab for describing creative commons.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2012-10-03T00:00:00.000Z",
+      "_id": "568a5ac74ee7f7176ff10eed"
+    },
+    {
+      "body": "As of today, it's 404. I've contacted one of the creator of the vocabulary.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-04T00:00:00.000Z",
+      "_id": "568a5ac74ee7f7176ff10eec"
+    }
+  ],
+  "tags": [
+    "Geography"
+  ],
+  "titles": [
+    {
+      "value": "The Places Ontology",
+      "lang": "en",
+      "_id": "568a5ac74ee7f7176ff10eea"
+    }
+  ],
+  "uri": "http://purl.org/ontology/places",
+  "versions": [
+    {
+      "name": "v2010-11-27",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/place/versions/2010-11-27.n3",
+      "issued": "2010-11-27T00:00:00.000Z",
+      "classNumber": "48",
+      "propertyNumber": "4",
+      "instanceNumber": "0",
+      "datatypeNumber": "1",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [
+        "http://dbpedia.org/ontology/",
+        "http://www.telegraphis.net/ontology/geography/geography#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://web.resource.org/cc/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e36",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/zho",
+          "label": "Chinese",
+          "iso639P3PCode": "zho"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

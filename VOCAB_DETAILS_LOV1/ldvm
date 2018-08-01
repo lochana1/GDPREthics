@@ -1,0 +1,94 @@
+{
+  "__v": 1,
+  "contributorIds": [],
+  "createdInLOVAt": "2015-04-02T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54ff28832e3e52df4a3cbf37",
+      "name": "Jiri Helmich"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0e83",
+      "name": "Jakub Klímek"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "Vocabulary for Linked Data Visualization Model (LDVM) serves for description and configuration of components and pipelines according to LDVM",
+      "lang": "en"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2015-02-15T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-04-02T00:00:00.000Z",
+  "nsp": "http://linked.opendata.cz/ontology/ldvm/",
+  "prefix": "ldvm",
+  "publisherIds": [
+    {
+      "_id": "551d15ac2d54c2cc35ee3490",
+      "name": "Open Data in Czech Republic"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Vocabulary included into the ecosystem. No link to other vocabularies.",
+      "createdAt": "2015-04-02T00:00:00.000Z",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      }
+    }
+  ],
+  "tags": [
+    "Methods"
+  ],
+  "titles": [
+    {
+      "value": "Vocabulary for Linked Data Visualization Model",
+      "lang": "en"
+    }
+  ],
+  "uri": "http://linked.opendata.cz/ontology/ldvm/",
+  "versions": [
+    {
+      "name": "v2015-04-02",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ldvm/versions/2015-04-02.n3",
+      "issued": "2015-04-02T10:18:10.871Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": true,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

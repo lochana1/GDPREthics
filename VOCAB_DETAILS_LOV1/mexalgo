@@ -1,0 +1,151 @@
+{
+  "__v": 4,
+  "contributorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f64",
+      "name": "Jens Lehmann"
+    },
+    {
+      "_id": "555a6a0030f688c94e820167",
+      "name": "Diego Moussallem"
+    },
+    {
+      "_id": "555a69cb30f688c94e820165",
+      "name": "Ricardo Usbeck"
+    },
+    {
+      "_id": "555a6a2930f688c94e820169",
+      "name": "Markus Ackermann"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f87",
+      "name": "Sebastian Hellmann"
+    },
+    {
+      "_id": "555a6a8c30f688c94e82016e",
+      "name": "Maria Claudia Cavalcanti Reis"
+    },
+    {
+      "_id": "555a6ab830f688c94e820170",
+      "name": "Julio Cesar Duarte"
+    }
+  ],
+  "createdInLOVAt": "2015-05-17T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "555a694930f688c94e820160",
+      "name": "Diego Esteves"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "MEX is an RDF vocabulary designed to facilitate interoperability between published machine learning experiments results on the Web. The mex-algo layer represents the algorithm information existing into a basic machine learning experiment.",
+      "lang": "en",
+      "_id": "598ae0f188adb933350f5e27"
+    },
+    {
+      "value": "MEX e um vocabulario modelado para facilitar a interoperabilidade entre resultados de experimentos de aprendizado de maquinas publicados na Web. A camada mex-algo representa informacaos de algoritmos existentes em um experimento de aprendizado de maquina.",
+      "lang": "pt",
+      "_id": "598ae0f188adb933350f5e26"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2014-02-02T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-08-09T00:00:00.000Z",
+  "nsp": "http://mex.aksw.org/mex-algo#",
+  "prefix": "mexalgo",
+  "publisherIds": [
+    {
+      "_id": "5558f84d30f688c94e81f958",
+      "name": "AKSW Research Group - Leipzig University"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "First ontology to help publishing interoperable machine learning experiments on the Web. TODO: We need to add the URIs for the creators and the contributors of this ontology.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-05-17T00:00:00.000Z",
+      "_id": "598ae0f188adb933350f5e29"
+    },
+    {
+      "body": "Review ok.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2017-08-09T00:00:00.000Z",
+      "_id": "598ae0f188adb933350f5e28"
+    }
+  ],
+  "tags": [
+    "Methods"
+  ],
+  "titles": [
+    {
+      "value": "MEX Algorithm Ontology",
+      "lang": "en",
+      "_id": "598ae0f188adb933350f5e25"
+    }
+  ],
+  "uri": "http://mex.aksw.org/mex-algo",
+  "versions": [
+    {
+      "_id": "5558fc2030f688c94e81f96f",
+      "classNumber": "139",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/mexalgo/versions/2014-04-05.n3",
+      "instanceNumber": "75",
+      "issued": "2014-04-05T00:00:00.000Z",
+      "name": "v1.0.0",
+      "propertyNumber": "13",
+      "relSpecializes": [
+        "http://usefulinc.com/ns/doap#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/prov#"
+      ],
+      "relImports": [
+        "http://usefulinc.com/ns/doap#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/prov#"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e27",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/por",
+          "label": "Portuguese",
+          "iso639P3PCode": "por"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

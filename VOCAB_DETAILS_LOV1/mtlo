@@ -1,0 +1,185 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2014-07-27T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0ecd",
+      "name": "Pavlos Fafalios"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0ece",
+      "name": "Yannis Marketakis"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0ed0",
+      "name": "Yannis Tzitzikas"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "MarineTLO is a top-level ontology for the marine domain (also applicable to the terrestrial domain).",
+      "lang": "en",
+      "_id": "568e25144ee7f7176ff21a70"
+    }
+  ],
+  "homepage": "http://www.ics.forth.gr/isl/MarineTLO/",
+  "issuedAt": "2013-10-15T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-01-07T00:00:00.000Z",
+  "nsp": "http://www.ics.forth.gr/isl/MarineTLO/v4/marinetlo.owl#",
+  "prefix": "mtlo",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0ff2",
+      "name": "FORTH-ICS"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Namespace is changed with each new version. Versions before v3 with a different publication packaging are available from the homepage.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-07-28T00:00:00.000Z",
+      "_id": "568e25144ee7f7176ff21a73"
+    },
+    {
+      "body": "TODO: Carlo Alloca suggests to change the contact from tzitzik@ics.forth.gr to marketak@ics.forth.gr (on August, 4th 2014)",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2014-08-10T00:00:00.000Z",
+      "_id": "568e25144ee7f7176ff21a72"
+    },
+    {
+      "body": "Annual review OK.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2016-01-07T00:00:00.000Z",
+      "_id": "568e25144ee7f7176ff21a71"
+    }
+  ],
+  "tags": [
+    "Biology"
+  ],
+  "titles": [
+    {
+      "value": "MarineTLO Ontology",
+      "lang": "en",
+      "_id": "568e25144ee7f7176ff21a6f"
+    }
+  ],
+  "uri": "http://www.ics.forth.gr/isl/MarineTLO/v4/marinetlo.owl",
+  "versions": [
+    {
+      "name": "v2014-08-02",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/mtlo/versions/2014-08-02.n3",
+      "issued": "2014-08-01T23:00:00.000Z",
+      "classNumber": "98",
+      "propertyNumber": "82",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v4.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/mtlo/versions/2014-04-24.n3",
+      "issued": "2014-04-23T23:00:00.000Z",
+      "classNumber": "98",
+      "propertyNumber": "82",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v3.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/mtlo/versions/2014-04-22.n3",
+      "issued": "2014-04-21T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

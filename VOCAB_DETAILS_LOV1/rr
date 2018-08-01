@@ -1,0 +1,174 @@
+{
+  "__v": 2,
+  "contributorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e80",
+      "name": "Ivan Herman"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f44",
+      "name": "Boris Villazón Terrazas"
+    }
+  ],
+  "createdInLOVAt": "2013-05-30T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e96",
+      "name": "Richard Cyganiak"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "A vocabulary which can be used to specify a mapping of relational data to RDF.",
+      "lang": "en",
+      "_id": "556dc6f9a866afd621a1ca61"
+    }
+  ],
+  "homepage": "http://www.w3.org/TR/r2rml/",
+  "issuedAt": "2012-01-24T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-06-02T00:00:00.000Z",
+  "nsp": "http://www.w3.org/ns/r2rml#",
+  "prefix": "rr",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c1003",
+      "name": "W3C"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2014-06-01T00:00:00.000Z",
+      "_id": "556dc6faa866afd621a1ca64"
+    },
+    {
+      "body": "R2RML(RDB to RDF Mapping Language) is a W3C Recommendation as of September 27th, 2012",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2013-05-30T00:00:00.000Z",
+      "_id": "556dc6faa866afd621a1ca63"
+    },
+    {
+      "body": "Annual review. Fixed version history.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-06-02T00:00:00.000Z",
+      "_id": "556dc6f9a866afd621a1ca62"
+    }
+  ],
+  "tags": [
+    "RDF"
+  ],
+  "titles": [
+    {
+      "value": "RDB to RDF Mapping Language Schema",
+      "lang": "en",
+      "_id": "556dc6f9a866afd621a1ca60"
+    }
+  ],
+  "uri": "http://www.w3.org/ns/r2rml#",
+  "versions": [
+    {
+      "name": "v2012-07-16",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/rr/versions/2012-07-16.n3",
+      "issued": "2012-07-15T23:00:00.000Z",
+      "classNumber": "15",
+      "propertyNumber": "25",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2012-07-03",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/rr/versions/2012-07-03.n3",
+      "issued": "2012-07-02T23:00:00.000Z",
+      "classNumber": "14",
+      "propertyNumber": "26",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2012-01-24",
+      "issued": "2012-01-24T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": true
+    }
+  ]
+}

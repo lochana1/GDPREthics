@@ -1,0 +1,93 @@
+{
+  "__v": 2,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-01-20T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "553e9c91581958526a68e5d2",
+      "name": "Monika Solanki"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The scope of the DIO is the domain of design intent or design rationale that needs to be documented while undertaking the design of any artifact",
+      "lang": "en",
+      "_id": "569fcc8fff8848f96bd2385b"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2016-01-04T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-01-20T00:00:00.000Z",
+  "nsp": "https://w3id.org/dio#",
+  "prefix": "dio",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "This vocabulary exploits a modularized version of PROV-O.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-20T00:00:00.000Z",
+      "_id": "569fcc8fff8848f96bd2385c"
+    }
+  ],
+  "tags": [
+    "Methods",
+    "Services"
+  ],
+  "titles": [
+    {
+      "value": "The Design Intent Ontology",
+      "lang": "en",
+      "_id": "569fcc8fff8848f96bd2385a"
+    }
+  ],
+  "uri": "https://w3id.org/dio",
+  "versions": [
+    {
+      "name": "v1.1",
+      "issued": "2016-01-04T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "4",
+      "propertyNumber": "24",
+      "classNumber": "20",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/dio/versions/2016-01-04.n3",
+      "_id": "569fc0a6ff8848f96bd22e71",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relImports": [
+        "http://aligned.cs.ox.ac.uk/ontologies/",
+        "http://protege.stanford.edu/plugins/owl/dc/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "__v": 1,
+  "contributorIds": [],
+  "createdInLOVAt": "2015-04-15T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "552d4247e1c83cc50c4cd271",
+      "name": "Mark S. Fox"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "Global City Indicator Foundation Ontology developed by the Information Engineering Group, Mechanical & Industrial Engineering, University of Toronto. Contains the foundation ontologies required to represent ISO 37120 city indicators, including Placenames, Time, Measurement, Provenance, Statistics, Validity and Trust. See: Fox, M.S., (2013), \"A Foundation Ontology for Global City Indicators\", Global City Institute Working Paper, Vol. 1, No.4, pp. 1-45. Global Cities Institute, University of Toronto. Updated 24 June 2014: http://www.eil. Based on the Global City Indicators Facility, University of Toronto: http://www.cityindicators.org/Deliverables/Core%20and%20Supporting%20Indicators%20Table%20SEPTEMBER%202011.pdf.\n\nContact: Mark S. Fox, msf@eil.utoronto.ca",
+      "lang": "en",
+      "_id": "552fa52bd945656b497885fd"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2015-04-14T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-04-16T00:00:00.000Z",
+  "nsp": "http://ontology.eil.utoronto.ca/GCI/Foundation/GCI-Foundation.owl#",
+  "prefix": "gci",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "An ontology with application in the domain of Smart cities to capture global indicators. Few metadata are expected in the vocabulary to improve its discovery and maintenance, as well as the submission of external ontologies reused by the current version of the vocabulary.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-04-15T00:00:00.000Z",
+      "_id": "552fa52bd945656b497885fe"
+    }
+  ],
+  "tags": [
+    "Society"
+  ],
+  "titles": [
+    {
+      "value": "Global City Indicator Foundation Ontology",
+      "lang": "en",
+      "_id": "552fa52bd945656b497885fc"
+    }
+  ],
+  "uri": "http://ontology.eil.utoronto.ca/GCI/Foundation/GCI-Foundation.owl",
+  "versions": [
+    {
+      "name": "v2015.0415",
+      "issued": "2015-04-15T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "0",
+      "classNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/gci/versions/2015-04-15.n3",
+      "_id": "552e1d65818b7b39516fe8c5",
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-05-23T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fdc",
+      "name": "SDMX"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/odc-population-2005.0.ttl",
+      "label": "odc-population-2005.0.ttl",
+      "occurrences": "68756"
+    },
+    {
+      "uri": "http://datahub.io/dataset/english-index-of-multiple-deprivation-ranking-2010",
+      "label": "English Index of Multiple Deprivation Ranking 2010",
+      "occurrences": "64964"
+    },
+    {
+      "uri": "http://datahub.io/dataset/english-index-of-multiple-deprivation-score-2010.0.ttl",
+      "label": "english-index-of-multiple-deprivation-score-2010.0.ttl",
+      "occurrences": "64964"
+    },
+    {
+      "uri": "http://datahub.io/dataset/odc-imd-rank-2007.0.ttl",
+      "label": "odc-imd-rank-2007.0.ttl",
+      "occurrences": "64964"
+    },
+    {
+      "uri": "http://datahub.io/dataset/scotland-pupil-numbers-and-exam-results-2008",
+      "label": "Scotland pupil numbers and exam results 2008",
+      "occurrences": "22230"
+    },
+    {
+      "uri": "http://datahub.io/dataset/transparency-linked-data.9.nt",
+      "label": "transparency-linked-data.9.nt",
+      "occurrences": "7856"
+    },
+    {
+      "uri": "http://datahub.io/dataset/the-eurostat-linked-data.1.rdf",
+      "label": "the-eurostat-linked-data.1.rdf",
+      "occurrences": "5336"
+    },
+    {
+      "uri": "http://datahub.io/dataset/the-eurostat-linked-data.rdf",
+      "label": "the-eurostat-linked-data.rdf",
+      "occurrences": "26"
+    },
+    {
+      "uri": "http://datahub.io/dataset/english-index-of-multiple-deprivation-score-2010.ttl",
+      "label": "english-index-of-multiple-deprivation-score-2010.ttl",
+      "occurrences": "2"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Defines dimensions for the statistical \"cubes\" defined by SDMX",
+      "lang": "en",
+      "_id": "5783c1ed0183b1e80fc8804d"
+    }
+  ],
+  "lastDeref": "2014-05-25T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-07-11T00:00:00.000Z",
+  "nsp": "http://purl.org/linked-data/sdmx/2009/dimension#",
+  "prefix": "sdmx-dimension",
+  "reviews": [
+    {
+      "body": "A widely used part of the SDMX family of vocabularies.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-05-23T00:00:00.000Z",
+      "_id": "5783c1ed0183b1e80fc88051"
+    },
+    {
+      "body": "Annual checking done!",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2014-05-25T00:00:00.000Z",
+      "_id": "5783c1ed0183b1e80fc88050"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-05-06T00:00:00.000Z",
+      "_id": "5783c1ed0183b1e80fc8804f"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-07-11T00:00:00.000Z",
+      "_id": "5783c1ed0183b1e80fc8804e"
+    }
+  ],
+  "tags": [
+    "Methods"
+  ],
+  "titles": [
+    {
+      "value": "SDMX Dimension",
+      "lang": "en",
+      "_id": "5783c1ed0183b1e80fc8804c"
+    }
+  ],
+  "uri": "http://purl.org/linked-data/sdmx/2009/dimension",
+  "versions": [
+    {
+      "name": "v2010-07-22",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/sdmx-dimension/versions/2010-07-22.n3",
+      "issued": "2010-07-21T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "10",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/linked-data/sdmx/2009/code",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/linked-data/cube",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2014-01-31T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0eff",
+      "name": "Bruce Simons"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f07",
+      "name": "Simon Cox"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f68",
+      "name": "Jonathan Yu"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "A general purpose ontology for observable properties. The ontology supports description of both qualitative and quantitative properties. The allowed scale or units of measure may be specified. A property may be linked to substances-or-taxa and to features or realms, if they play a role in the definition.",
+      "lang": "en",
+      "_id": "57d2d09ea3a9d3a63d7e8c29"
+    }
+  ],
+  "issuedAt": "2013-12-03T00:00:00.000Z",
+  "lastDeref": "2014-05-15T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-09-09T00:00:00.000Z",
+  "nsp": "http://environment.data.gov.au/def/op#",
+  "prefix": "op",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0feb",
+      "name": "CSIRO"
+    },
+    {
+      "_id": "54b2be048433ca9ccf1c0fee",
+      "name": "AGIMO"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Part of a series of vocabularies developed by the Australian Government Information Management Office (AGIMO) and Commonwealth Scientific and Industrial Research Organisation (CISMO) to represent scientific observations in various fields.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-01-31T00:00:00.000Z",
+      "_id": "57d2d09ea3a9d3a63d7e8c2d"
+    },
+    {
+      "body": "Imports http://qudt.org/1.1/vocab/quantity which is not included in LOV because it's a value vocabulary (instances of classes defined in the qudt vocabulary)",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-02-05T00:00:00.000Z",
+      "_id": "57d2d09ea3a9d3a63d7e8c2c"
+    },
+    {
+      "body": "Still lacks time metadata and versioning information. Latest version change might be a false positive.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-03-11T00:00:00.000Z",
+      "_id": "57d2d09ea3a9d3a63d7e8c2b"
+    },
+    {
+      "body": "Added new version",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-09-09T00:00:00.000Z",
+      "_id": "57d2d09ea3a9d3a63d7e8c2a"
+    }
+  ],
+  "tags": [
+    "Methods"
+  ],
+  "titles": [
+    {
+      "value": "Observable properties",
+      "lang": "en",
+      "_id": "57d2d09ea3a9d3a63d7e8c28"
+    }
+  ],
+  "uri": "http://environment.data.gov.au/def/op",
+  "versions": [
+    {
+      "name": "v2014-05-16",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/op/versions/2014-05-16.n3",
+      "issued": "2014-05-15T23:00:00.000Z",
+      "classNumber": "7",
+      "propertyNumber": "9",
+      "instanceNumber": "0",
+      "datatypeNumber": "1",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation",
+        "http://qudt.org/schema/qudt#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "relImports": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/vocab/vann/",
+        "http://purl.org/vocommons/",
+        "http://qudt.org/schema/",
+        "http://rdfs.org/ns/",
+        "http://www.w3.org/2004/02/skos/"
+      ],
+      "relGeneralizes": [
+        "http://qudt.org/schema/qudt#"
+      ],
+      "relExtends": [],
+      "relEquivalent": [
+        "http://qudt.org/schema/qudt#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://purl.org/vocommons/voaf#",
+        "http://rdfs.org/ns/void#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2014-02-05",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/op/versions/2014-02-05.n3",
+      "issued": "2014-02-05T00:00:00.000Z",
+      "classNumber": "4",
+      "propertyNumber": "8",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation",
+        "http://qudt.org/schema/qudt#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "relImports": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/vocab/vann/",
+        "http://purl.org/vocommons/",
+        "http://qudt.org/1.1/vocab/",
+        "http://rdfs.org/ns/",
+        "http://www.w3.org/2003/06/sw-vocab-status/",
+        "http://www.w3.org/2004/02/skos/",
+        "http://www.w3.org/ns/",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relGeneralizes": [
+        "http://qudt.org/schema/qudt#"
+      ],
+      "relExtends": [],
+      "relEquivalent": [
+        "http://qudt.org/schema/qudt#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://purl.org/vocommons/voaf#",
+        "http://rdfs.org/ns/void#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2013-12-03",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/op/versions/2013-12-03.n3",
+      "issued": "2013-12-03T00:00:00.000Z",
+      "classNumber": "4",
+      "propertyNumber": "8",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation",
+        "http://qudt.org/schema/qudt#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "relImports": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/vocab/vann/",
+        "http://purl.org/vocommons/",
+        "http://qudt.org/1.1/vocab/",
+        "http://rdfs.org/ns/",
+        "http://www.w3.org/2003/06/sw-vocab-status/",
+        "http://www.w3.org/2004/02/skos/",
+        "http://www.w3.org/ns/",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relGeneralizes": [
+        "http://qudt.org/schema/qudt#"
+      ],
+      "relExtends": [],
+      "relEquivalent": [
+        "http://qudt.org/schema/qudt#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://purl.org/vocommons/voaf#",
+        "http://rdfs.org/ns/void#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v4.0",
+      "issued": "2016-02-28T00:00:00.000Z",
+      "datatypeNumber": "1",
+      "instanceNumber": "0",
+      "propertyNumber": "12",
+      "classNumber": "7",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/op/versions/2016-02-28.n3",
+      "_id": "57d2d087a3a9d3a63d7e8c19",
+      "relSpecializes": [
+        "http://qudt.org/schema/qudt",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "relImports": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/vocab/vann/",
+        "http://purl.org/vocommons/",
+        "http://qudt.org/1.1/schema/"
+      ],
+      "relGeneralizes": [
+        "http://qudt.org/schema/qudt"
+      ],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [
+        "http://qudt.org/schema/qudt"
+      ],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://purl.org/vocommons/voaf",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

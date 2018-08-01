@@ -1,0 +1,171 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2014-01-07T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be018433ca9ccf1c0e39",
+      "name": "Patrick Westphal"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0e79",
+      "name": "Dimitris Kontokosta"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0ef6",
+      "name": "Sören Auer"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f64",
+      "name": "Jens Lehmann"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f67",
+      "name": "Roland Cornelissen"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f87",
+      "name": "Sebastian Hellmann"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The Databugger ontology describes concepts used in Databugger, a test driven data-debugging framework that can run automatically generated (based on a schema) and manually generated test cases against an endpoint.",
+      "lang": "en",
+      "_id": "56a5176937d8a8044b25d9da"
+    }
+  ],
+  "homepage": "http://aksw.org/Projects/RDFUnit.html",
+  "isDefinedBy": "http://rdfunit.aksw.org/ns/core.ttl",
+  "issuedAt": "2013-10-01T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:52:23.536Z",
+  "lastModifiedInLOVAt": "2016-01-24T00:00:00.000Z",
+  "nsp": "http://rdfunit.aksw.org/ns/core#",
+  "prefix": "ruto",
+  "reviews": [
+    {
+      "body": "Added links to rlog",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-09-04T00:00:00.000Z",
+      "_id": "56a5176937d8a8044b25d9de"
+    },
+    {
+      "body": "This vocabulary describes concepts used in a test driven data-debugging framework. For more details, explore the github of the project at https://github.com/AKSW/Databugger.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2014-01-07T00:00:00.000Z",
+      "_id": "56a5176937d8a8044b25d9dd"
+    },
+    {
+      "body": "This vocabulary is now published under http://rdfunit.aksw.org/ns/core#, the former namespace \thttp://databugger.aksw.org/ns/core# dereferences to an obsolete version.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-11T00:00:00.000Z",
+      "_id": "56a5176937d8a8044b25d9dc"
+    },
+    {
+      "body": "Fixed version history.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-24T00:00:00.000Z",
+      "_id": "56a5176937d8a8044b25d9db"
+    }
+  ],
+  "tags": [
+    "Quality"
+  ],
+  "titles": [
+    {
+      "value": "Test-Driven Data Debugging Ontology",
+      "lang": "en",
+      "_id": "56a5176937d8a8044b25d9d9"
+    }
+  ],
+  "uri": "http://rdfunit.aksw.org/ns/core#",
+  "versions": [
+    {
+      "classNumber": "21",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ruto/versions/2014-01-10.n3",
+      "instanceNumber": "15",
+      "issued": "2014-01-10T00:00:00.000Z",
+      "name": "v0.4.1",
+      "propertyNumber": "37",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/rlog#",
+        "http://purl.org/dc/terms/",
+        "http://spinrdf.org/spin#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/prov#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/rlog#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2013-12-14",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ruto/versions/2013-12-14.n3",
+      "issued": "2013-12-14T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

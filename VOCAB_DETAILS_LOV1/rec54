@@ -1,0 +1,84 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2014-06-22T23:00:00.000Z",
+  "descriptions": [
+    {
+      "value": "This is (the start of) an event-based model of the W3C process; e.g. RECdd is the class of Recommendation Director's Decisions; \ti.e. messages to w3c-ac-members announcing a new W3C Recommendation.",
+      "lang": "en",
+      "_id": "55e05b85419d00687563ad9d"
+    }
+  ],
+  "issuedAt": "2003-09-14T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-08-28T00:00:00.000Z",
+  "nsp": "http://www.w3.org/2001/02pd/rec54#",
+  "prefix": "rec54",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c1003",
+      "name": "W3C"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Yet another vocabulary in W3C namespace with not-so-good publication practice. No use of owl:Ontology to support metadata, classes and properties not declared explicitly must be inferred from RDFS semantics (presence of rdfs:subClassOf or rdfs:domain predicates)",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-23T00:00:00.000Z",
+      "_id": "55e05b85419d00687563ad9f"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-08-28T00:00:00.000Z",
+      "_id": "55e05b85419d00687563ad9e"
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "Model of the W3C Process",
+      "lang": "en",
+      "_id": "55e05b85419d00687563ad9c"
+    }
+  ],
+  "uri": "http://www.w3.org/2001/02pd/rec54#",
+  "versions": [
+    {
+      "name": "v1.20",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/rec54/versions/2014-06-12.n3",
+      "issued": "2014-06-11T23:00:00.000Z",
+      "classNumber": "31",
+      "propertyNumber": "12",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2000/10/swap/pim/doc"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/10/swap/pim/doc"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

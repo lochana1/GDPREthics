@@ -1,0 +1,127 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-07-12T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0eda",
+      "name": "Michael Brunnbauer"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Ontology for healthcare metadata - especially metadata found in DICOM files (Digital Imaging and Communications in Medicine, see http://dicom.nema.org/). Author: Michael Brunnbauer, Bonubase GmbH (www.bonubase.com). The author's email address is brunni@netestate.de. See http://purl.org/healthcarevocab/v1help for explanations.",
+      "lang": "en",
+      "_id": "567e6cb64ee7f7176fea7b60"
+    }
+  ],
+  "isDefinedBy": "http://purl.org/healthcarevocab/v1",
+  "issuedAt": "2013-04-29T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:52:05.254Z",
+  "lastModifiedInLOVAt": "2015-12-26T00:00:00.000Z",
+  "nsp": "http://purl.org/healthcarevocab/v1#",
+  "prefix": "dicom",
+  "reviews": [
+    {
+      "body": "By far the largest vocabulary in LOV, actually a candidate to be removed given this very size.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-07-28T00:00:00.000Z",
+      "_id": "567e6cb64ee7f7176fea7b63"
+    },
+    {
+      "body": "This vocabulary is a starter for DICOM experts. It has many long names and special conventions for naming classes/properties. It could have been great to have more comments and more use of external taxonomies.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2013-07-13T00:00:00.000Z",
+      "_id": "567e6cb64ee7f7176fea7b62"
+    },
+    {
+      "body": "Annual review OK. This page http://purl.org/healthcarevocab/v1help  explains the concepts of the vocabulary.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-12-26T00:00:00.000Z",
+      "_id": "567e6cb64ee7f7176fea7b61"
+    }
+  ],
+  "tags": [
+    "Health"
+  ],
+  "titles": [
+    {
+      "value": "Healthcare metadata - DICOM ontology",
+      "lang": "en",
+      "_id": "567e6cb64ee7f7176fea7b5f"
+    }
+  ],
+  "uri": "http://purl.org/healthcarevocab/v1",
+  "versions": [
+    {
+      "name": "v1.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/dicom/versions/2013-07-13.n3",
+      "issued": "2013-07-12T23:00:00.000Z",
+      "classNumber": "1592",
+      "propertyNumber": "7033",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/co",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v2015-01-11",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/dicom/versions/2015-01-11.n3",
+      "issued": "2015-01-11T20:52:05.254Z",
+      "classNumber": "1592",
+      "propertyNumber": "7033",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/co",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

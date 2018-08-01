@@ -1,0 +1,118 @@
+{
+  "__v": 1,
+  "contributorIds": [],
+  "createdInLOVAt": "2015-03-10T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54ff2ea32e3e52df4a3cbf7c",
+      "name": "Mo McRoberts"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0e9d",
+      "name": "Victor Rodriguez"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The Open Digital Rights Language (ODRL) provides flexible and interoperable mechanisms to support transparent and innovative use of digital content in publishing, distribution, and consumption of of digital media across all sectors and communities. The ODRL Policy model is broad enough to support traditional rights expressions for commercial transaction, open access expressions for publicly distributed content, and privacy expressions for social media.",
+      "lang": "en",
+      "_id": "56c597642ba77c902f475593"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2015-01-18T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-02-18T00:00:00.000Z",
+  "nsp": "http://www.w3.org/ns/odrl/2/",
+  "prefix": "odrl",
+  "publisherIds": [
+    {
+      "_id": "54ff2ec92e3e52df4a3cbf7d",
+      "name": "ODRL Community Group"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Final draft specification for the ODRL community Group.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2015-03-10T00:00:00.000Z",
+      "_id": "56c597642ba77c902f475595"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-02-18T00:00:00.000Z",
+      "_id": "56c597642ba77c902f475594"
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "The Open Digital Rights Language (ODRL) Ontology",
+      "lang": "en",
+      "_id": "56c597642ba77c902f475592"
+    }
+  ],
+  "uri": "http://www.w3.org/ns/odrl/2/",
+  "versions": [
+    {
+      "name": "v2.1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/odrl/versions/2015-01-18.n3",
+      "issued": "2015-01-18T00:00:00.000Z",
+      "classNumber": "24",
+      "propertyNumber": "56",
+      "instanceNumber": "78",
+      "datatypeNumber": "0",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/net/ns/ontology-annot",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns",
+        "http://www.w3.org/2004/02/skos/core",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "__v": 7,
+  "contributorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f7b",
+      "name": "Raphaël Troncy"
+    }
+  ],
+  "createdInLOVAt": "2014-07-29T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e7e",
+      "name": "Ghislain Atemezing"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0ec5",
+      "name": "Nathalie Abadie"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Codes for describing coordinates reference systems consistently with ISO TC/211. French translations of terms and definitions are mainly taken from the multilingual glossary of ISO/TC 211 available online: http://www.isotc211.org/Terminology.htm",
+      "lang": "en",
+      "_id": "5783c1bd0183b1e80fc88034"
+    },
+    {
+      "value": "Codes pour la description de systèmes de coordonnées de référence conforme ISO TC/211. Les traductions françaises des termes et leurs définitions sont pour la plupart issues du glossaire multilingue ISO/TC 211 disponible ici: http://www.isotc211.org/Terminology.htm",
+      "lang": "fr",
+      "_id": "5783c1bd0183b1e80fc88033"
+    }
+  ],
+  "isDefinedBy": "http://data.ign.fr/def/ignf",
+  "issuedAt": "2014-04-09T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:52:15.178Z",
+  "lastModifiedInLOVAt": "2016-07-11T00:00:00.000Z",
+  "nsp": "http://data.ign.fr/def/ignf#",
+  "prefix": "ignf",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fcb",
+      "name": "Institut National de l'Information Géographique et Forestière"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "A vocabulary for coordinate reference systems published by IGN-France, one of the output of the Datalift Project.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2014-07-30T00:00:00.000Z",
+      "_id": "5783c1bd0183b1e80fc88037"
+    },
+    {
+      "body": "New version released on 2015-05-05, with a nice versioning documentation. Now better coverage of the labels translation.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-06T00:00:00.000Z",
+      "_id": "5783c1bd0183b1e80fc88036"
+    },
+    {
+      "body": "Added new version with updates of the vocabulary.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-07-11T00:00:00.000Z",
+      "_id": "5783c1bd0183b1e80fc88035"
+    }
+  ],
+  "tags": [
+    "Geography"
+  ],
+  "titles": [
+    {
+      "value": "Ontologie des systèmes de coordonnées de référence",
+      "lang": "fr",
+      "_id": "5783c1bd0183b1e80fc88032"
+    },
+    {
+      "value": "Ontology of coordinates reference systems",
+      "lang": "en",
+      "_id": "5783c1bd0183b1e80fc88031"
+    }
+  ],
+  "uri": "http://data.ign.fr/def/ignf",
+  "versions": [
+    {
+      "classNumber": "25",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ignf/versions/2014-07-31.n3",
+      "instanceNumber": "0",
+      "issued": "2014-07-31T00:00:00.000Z",
+      "name": "v1.2",
+      "propertyNumber": "39",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v1.1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ignf/versions/2014-07-30.n3",
+      "issued": "2014-07-29T23:00:00.000Z",
+      "classNumber": "25",
+      "propertyNumber": "39",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2.0",
+      "issued": "2015-05-05T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "39",
+      "classNumber": "25",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ignf/versions/2015-05-05.n3",
+      "_id": "559add171928827f4b013b6c",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v3.0",
+      "issued": "2016-06-28T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "39",
+      "classNumber": "27",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ignf/versions/2016-06-28.n3",
+      "_id": "5783c19e0183b1e80fc88020",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

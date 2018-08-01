@@ -1,0 +1,120 @@
+{
+  "__v": 3,
+  "contributorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e7e",
+      "name": "Ghislain Atemezing"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f7b",
+      "name": "Raphaël Troncy"
+    }
+  ],
+  "createdInLOVAt": "2014-06-15T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e95",
+      "name": "Pieter Colpaert"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f27",
+      "name": "Anastasia Dimou"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "odapps is an RDF vocabulary defined to facilitate the description of Open-Data-based ideas and applications published on the Web.",
+      "lang": "en",
+      "_id": "5a418dd7b201efd03d3b783a"
+    }
+  ],
+  "issuedAt": "2013-05-09T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:52:19.471Z",
+  "lastModifiedInLOVAt": "2017-12-25T00:00:00.000Z",
+  "nsp": "http://semweb.mmlab.be/ns/odapps#",
+  "prefix": "odapps",
+  "reviews": [
+    {
+      "body": "A small vocabulary for describing open-data-based ideas and applications, part of the Apps for Europe project at http://appsforeurope.eu.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2014-06-15T00:00:00.000Z",
+      "_id": "5a418dd7b201efd03d3b783d"
+    },
+    {
+      "body": "Annual report OK.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-05-20T00:00:00.000Z",
+      "_id": "5a418dd7b201efd03d3b783c"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-12-26T00:00:00.000Z",
+      "_id": "5a418dd7b201efd03d3b783b"
+    }
+  ],
+  "tags": [
+    "RDF"
+  ],
+  "titles": [
+    {
+      "value": "The vocabulary for (L)OD ideas and applications",
+      "lang": "en",
+      "_id": "5a418dd7b201efd03d3b7839"
+    }
+  ],
+  "uri": "http://semweb.mmlab.be/ns/odapps",
+  "versions": [
+    {
+      "name": "v1.1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/odapps/versions/2014-06-16.n3",
+      "issued": "2014-06-15T23:00:00.000Z",
+      "classNumber": "6",
+      "propertyNumber": "15",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/vocab/frbr/core",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [
+        "http://purl.org/ontology/dvia"
+      ],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/ns/dcat#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

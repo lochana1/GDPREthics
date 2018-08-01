@@ -1,0 +1,95 @@
+{
+  "__v": 4,
+  "createdInLOVAt": "2014-05-12T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f93",
+      "name": "Mario Kofler"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Smart home ontology for weather phenomena and exterior conditions",
+      "lang": "en",
+      "_id": "5809c7653e5586c53d897056"
+    }
+  ],
+  "homepage": "https://www.auto.tuwien.ac.at/projectsites/thinkhome/ontologies.html",
+  "issuedAt": "2011-01-01T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-10-21T00:00:00.000Z",
+  "nsp": "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/WeatherOntology.owl",
+  "prefix": "hw",
+  "reviews": [
+    {
+      "body": "More 40 rules related to wind speed, temperature, air quality and humidity are decribed as owl:Restriction in this ontology.",
+      "agentId": {
+        "_id": "54b2be038433ca9ccf1c0f39",
+        "name": "Amélie Gyrard"
+      },
+      "createdAt": "2014-05-12T00:00:00.000Z",
+      "_id": "5809c7653e5586c53d897058"
+    },
+    {
+      "body": "Changed title, and prefix to simpler \"hw\". Checked version history.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-04-13T00:00:00.000Z",
+      "_id": "5809c7653e5586c53d897057"
+    }
+  ],
+  "tags": [
+    "Environment",
+    "IoT"
+  ],
+  "titles": [
+    {
+      "value": "Home Weather",
+      "lang": "en",
+      "_id": "5809c7653e5586c53d897055"
+    }
+  ],
+  "uri": "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/WeatherOntology.owl",
+  "versions": [
+    {
+      "name": "v1.03",
+      "issued": "2014-05-12T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "11",
+      "propertyNumber": "33",
+      "classNumber": "106",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/hw/versions/2014-05-12.n3",
+      "_id": "552b9d89364f04dc7b137965",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relImports": [
+        "http://www.w3.org/2006/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2006/time"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

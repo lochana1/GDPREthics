@@ -1,0 +1,330 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-07-25T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e72",
+      "name": "Alexandre Passant"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0eb3",
+      "name": "Myriam Leggieri"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f09",
+      "name": "Michael Hausenblas"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "TheSPITFIRE Ontology (spt) is based on the alignment among Dolce+DnS Ultralite(dul), the W3C Semantic Sensor Network ontology (ssn) and the Event Model-F ontology (event).",
+      "lang": "en",
+      "_id": "5809c57c3e5586c53d896e65"
+    }
+  ],
+  "homepage": "http://spitfire-project.eu/incontextsensing/ontology.php",
+  "isDefinedBy": "http://spitfire-project.eu/ontology.owl",
+  "issuedAt": "2012-04-30T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-10-21T00:00:00.000Z",
+  "nsp": "http://spitfire-project.eu/ontology/ns/",
+  "prefix": "spt",
+  "reviews": [
+    {
+      "body": "This ontology describes sensors, observations, and related concepts.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-07-26T00:00:00.000Z",
+      "_id": "5809c57c3e5586c53d896e6a"
+    },
+    {
+      "body": "Versions detected by the LOV-Bot look like false positive. The vocabulary documentation says last modification is 2012-04-30.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-11-26T00:00:00.000Z",
+      "_id": "5809c57c3e5586c53d896e69"
+    },
+    {
+      "body": "Annual review. Need better metadata to figure if the recorded version history is OK.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-11-26T00:00:00.000Z",
+      "_id": "5809c57c3e5586c53d896e68"
+    },
+    {
+      "body": "When looking up its URI (http://spitfire-project.eu/ontology/ns/) an error 404 occurs. The OWL file is available at http://spitfire-project.eu/ontology.owl.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-07-26T00:00:00.000Z",
+      "_id": "5809c57c3e5586c53d896e67"
+    },
+    {
+      "body": "This vocabulary is still 404, and the homepage of the project shows a \"Hello World\" page.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-24T00:00:00.000Z",
+      "_id": "5809c57c3e5586c53d896e66"
+    }
+  ],
+  "tags": [
+    "Methods",
+    "IoT"
+  ],
+  "titles": [
+    {
+      "value": "SPITFIRE Ontology",
+      "lang": "en",
+      "_id": "5809c57c3e5586c53d896e64"
+    }
+  ],
+  "uri": "http://spitfire-project.eu/ontology/ns",
+  "versions": [
+    {
+      "name": "v2014-01-14",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/spt/versions/2014-01-14.n3",
+      "issued": "2014-01-14T00:00:00.000Z",
+      "classNumber": "53",
+      "propertyNumber": "80",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.oclc.org/NET/muo/muo#",
+        "http://purl.oclc.org/NET/ssnx/ssn#",
+        "http://purl.org/ontology/ao/core#",
+        "http://qudt.org/schema/qudt",
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/ns/prov#",
+        "http://xmlns.com/foaf/0.1/",
+        "https://linked-data-api.googlecode.com/svn/trunk/vocab/api.ttl#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.oclc.org/NET/ssnx/ssn#",
+        "http://qudt.org/schema/qudt",
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.oclc.org/NET/ssnx/ssn#",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2013-11-06",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/spt/versions/2013-11-06.n3",
+      "issued": "2013-11-06T00:00:00.000Z",
+      "classNumber": "52",
+      "propertyNumber": "75",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.oclc.org/NET/muo/muo#",
+        "http://purl.oclc.org/NET/ssnx/ssn#",
+        "http://purl.org/ontology/ao/core#",
+        "http://qudt.org/schema/qudt",
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/ns/prov#",
+        "http://xmlns.com/foaf/0.1/",
+        "https://linked-data-api.googlecode.com/svn/trunk/vocab/api.ttl#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.oclc.org/NET/ssnx/ssn#",
+        "http://qudt.org/schema/qudt",
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.oclc.org/NET/ssnx/ssn#",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2013-03-01",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/spt/versions/2013-03-01.n3",
+      "issued": "2013-03-01T00:00:00.000Z",
+      "classNumber": "38",
+      "propertyNumber": "61",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.oclc.org/NET/ssnx/ssn#",
+        "http://purl.org/ontology/ao/core#",
+        "http://qudt.org/schema/qudt",
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/ns/prov#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://qudt.org/schema/qudt",
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.oclc.org/NET/ssnx/ssn#",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2012-10-18",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/spt/versions/2012-10-18.n3",
+      "issued": "2012-10-17T23:00:00.000Z",
+      "classNumber": "38",
+      "propertyNumber": "61",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.oclc.org/NET/ssnx/ssn#",
+        "http://purl.org/ontology/ao/core#",
+        "http://qudt.org/schema/qudt",
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/ns/prov#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://qudt.org/schema/qudt",
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.oclc.org/NET/ssnx/ssn#",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2012-04-30",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/spt/versions/2012-04-30.n3",
+      "issued": "2012-04-29T23:00:00.000Z",
+      "classNumber": "35",
+      "propertyNumber": "50",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.oclc.org/NET/ssnx/ssn#",
+        "http://purl.org/ontology/ao/associationontology.html#",
+        "http://qudt.org/1.1/schema/qudt#",
+        "http://www.loa-cnr.it/ontologies/DUL.owl#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/prov#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://qudt.org/1.1/schema/qudt#",
+        "http://www.loa-cnr.it/ontologies/DUL.owl#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.oclc.org/NET/ssnx/ssn#",
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/Consortium/Legal/2002/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

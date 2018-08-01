@@ -1,0 +1,130 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-05-22T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fd4",
+      "name": "The NEPOMUK Project"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The NEPOMUK Calendaring Ontology intends to provide vocabulary for describing calendaring data (events, tasks, journal entries) which is an important part of the body of information usually stored on a desktop. It is an adaptation of the ICALTZD ontology created by the W3C RDF Calendar Task Force of the Semantic Web Interest Group in the Semantic Web Activity.",
+      "lang": "en",
+      "_id": "55473ccb24d03b315d46a46d"
+    }
+  ],
+  "homepage": "http://www.semanticdesktop.org/ontologies/2007/04/02/ncal/",
+  "issuedAt": "2007-04-01T00:00:00.000Z",
+  "lastDeref": "2014-05-21T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-05-04T00:00:00.000Z",
+  "nsp": "http://www.semanticdesktop.org/ontologies/2007/04/02/ncal#",
+  "prefix": "ncal",
+  "reviews": [
+    {
+      "body": "The documentation page makes an exhaustive analysis and criticism of W3C calendar ontologies ical and icaltzd. This vocabulary is presented as a serious alternative, but does not seem to have been much adopted outside the NEPOMUK project.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-05-22T00:00:00.000Z",
+      "_id": "55473ccb24d03b315d46a470"
+    },
+    {
+      "body": "Version history updated.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-05-21T00:00:00.000Z",
+      "_id": "55473ccb24d03b315d46a46f"
+    },
+    {
+      "body": "Annual review. Added link to the documentation page.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-05-04T00:00:00.000Z",
+      "_id": "55473ccb24d03b315d46a46e"
+    }
+  ],
+  "tags": [
+    "Time"
+  ],
+  "titles": [
+    {
+      "value": "NEPOMUK Calendar Ontology",
+      "lang": "en",
+      "_id": "55473ccb24d03b315d46a46c"
+    }
+  ],
+  "uri": "http://www.semanticdesktop.org/ontologies/2007/04/02/ncal",
+  "versions": [
+    {
+      "name": "v1.1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ncal/versions/2011-06-27.n3",
+      "issued": "2011-06-27T00:00:00.000Z",
+      "classNumber": "51",
+      "propertyNumber": "107",
+      "instanceNumber": "60",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.semanticdesktop.org/ontologies/2007/01/19/nie",
+        "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.semanticdesktop.org/ontologies/2007/03/22/nco",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.semanticdesktop.org/ontologies/2007/08/15/nrl#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    },
+    {
+      "name": "v1.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ncal/versions/2007-04-02.n3",
+      "issued": "2007-04-01T23:00:00.000Z",
+      "classNumber": "51",
+      "propertyNumber": "107",
+      "instanceNumber": "60",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.semanticdesktop.org/ontologies/2007/01/19/nie",
+        "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.semanticdesktop.org/ontologies/2007/03/22/nco",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "__v": 2,
+  "contributorIds": [],
+  "createdInLOVAt": "2018-04-20T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0ea8",
+      "name": "Christoph Lange"
+    },
+    {
+      "_id": "5ad9e3a92e909b214fc35a27",
+      "name": "Sahar Vahdati"
+    },
+    {
+      "_id": "5abbae790d8ceb4e0149a9cb",
+      "name": "Said Fathalla"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0ef6",
+      "name": "Sören Auer"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "SemSur, the Semantic Survey Ontology, is a core ontology for describing individual research problems, approaches, implementations and evaluations in a structured, comparable way.",
+      "lang": "en",
+      "_id": "5ad9f3ae2e909b214fc361a2"
+    }
+  ],
+  "homepage": "http://sda.tech/SemSur/Documentation/Semsur.html",
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2017-04-01T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2018-04-20T00:00:00.000Z",
+  "nsp": "http://purl.org/SemSur/",
+  "prefix": "semsur",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "As of today, the vocabulary imported http://www.hozo.jp/owl/EXPOApr19.xml/ seems to be unavailable. We need to add also all the imported vocabularies not yet in LOV.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2018-04-20T00:00:00.000Z",
+      "_id": "5ad9f3ae2e909b214fc361a3"
+    }
+  ],
+  "tags": [
+    "Methods"
+  ],
+  "titles": [
+    {
+      "value": "The Semantic Survey Ontology (semsur)",
+      "lang": "en",
+      "_id": "5ad9f3ae2e909b214fc361a1"
+    }
+  ],
+  "uri": "http://purl.org/SemSur/",
+  "versions": [
+    {
+      "_id": "5ad9e5892e909b214fc35abc",
+      "classNumber": "0",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/semsur/versions/2018-04-20.n3",
+      "instanceNumber": "0",
+      "issued": "2018-04-20T00:00:00.000Z",
+      "name": "v2",
+      "propertyNumber": "26",
+      "relSpecializes": [],
+      "relImports": [
+        "http://purl.org/spar/",
+        "http://purl.org/spar/doco/2015-07-03",
+        "http://purl.org/spar/fabio/2017-05-29",
+        "http://swrc.ontoware.org/",
+        "http://swrl.stanford.edu/ontologies/3.3/",
+        "http://www.hozo.jp/owl/EXPOApr19.xml/",
+        "http://www.w3.org/2003/11/swrl",
+        "http://www.w3.org/2004/02/skos/",
+        "http://www.w3.org/2016/03/mls#"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/semsur/",
+        "http://purl.org/spar/deo",
+        "http://salt.semanticauthoring.org/ontologies/sro"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://swrc.ontoware.org/ontology-07",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

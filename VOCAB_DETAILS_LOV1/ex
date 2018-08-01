@@ -1,0 +1,120 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-05-27T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f57",
+      "name": "Masahide Kanzaki"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "スキーマにサンプルコードを埋め込むための語彙。XSLTを使って、XHTMLの中で例を表示させることができる。",
+      "lang": "ja",
+      "_id": "555d0c6430f688c94e82365b"
+    },
+    {
+      "value": "Vocabulary to include sample codes in a schema. Can work with XSLT (http://purl.org/net/ns/ns-schema.xsl) to present schema as XHTML list with examples.",
+      "lang": "en",
+      "_id": "555d0c6430f688c94e82365a"
+    }
+  ],
+  "issuedAt": "2003-07-03T00:00:00.000Z",
+  "lastDeref": "2014-05-27T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-05-20T00:00:00.000Z",
+  "nsp": "http://purl.org/net/ns/ex#",
+  "prefix": "ex",
+  "reviews": [
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-05-27T00:00:00.000Z",
+      "_id": "555d0c6430f688c94e82365e"
+    },
+    {
+      "body": "This vocabulary is reused only by other vocabularies by the same author.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-05-27T00:00:00.000Z",
+      "_id": "555d0c6430f688c94e82365d"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-05-21T00:00:00.000Z",
+      "_id": "555d0c6430f688c94e82365c"
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "Example vocabulary",
+      "lang": "en",
+      "_id": "555d0c6430f688c94e823659"
+    }
+  ],
+  "uri": "http://purl.org/net/ns/ex",
+  "versions": [
+    {
+      "name": "v0.35",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ex/versions/2007-12-13.n3",
+      "issued": "2007-12-13T00:00:00.000Z",
+      "classNumber": "1",
+      "propertyNumber": "6",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [
+        "http://www.kanzaki.com/ns/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/net/ns/ontology-annot#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e1b",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/jpn",
+          "label": "Japanese",
+          "iso639P3PCode": "jpn"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v0.1",
+      "issued": "2003-07-03T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": true
+    }
+  ]
+}

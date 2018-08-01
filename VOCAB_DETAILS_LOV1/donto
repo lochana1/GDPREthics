@@ -1,0 +1,138 @@
+{
+  "__v": 0,
+  "contributorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f07",
+      "name": "Simon Cox"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f1f",
+      "name": "Armin Haller"
+    },
+    {
+      "_id": "5a41445eb201efd03d3af739",
+      "name": "Nicholas Car"
+    },
+    {
+      "_id": "5ad8adaf2e909b214fc2d1f3",
+      "name": "David Lowe"
+    }
+  ],
+  "createdInLOVAt": "2018-04-19T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "5a4147f8b201efd03d3afcfc",
+      "name": "Australian Government Linked Data Working Group"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The data.gov.au Dataset Ontology is an OWL ontology designed to describe the characteristics of datasets published on data.gov.au.\n\nThe ontology contains elements which describe the publication, update, origin, governance, spatial and temporal coverage and other contextual information about the dataset. The ontology also covers aspects of organisational custodianship and governance.\n \nBy using this ontology to describe datasets on data.gov.au publishers increase discoverability and enable the consumption of this information in other applications/systems as Linked Data. It further enables decentralised publishing of catalogs and facilitates federated dataset search across sites, e.g. in datasets that are published by the States.\n \nOther publishers of Linked Data may make assertions about data published using this ontology, e.g. they may publish information about the use of the dataset in other applications.",
+      "lang": "en",
+      "_id": "5ad8adf22e909b214fc2d205"
+    }
+  ],
+  "homepage": "https://github.com/AGLDWG/dataset-ont",
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2015-06-19T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2018-04-19T14:56:31.512Z",
+  "nsp": "http://reference.data.gov.au/def/ont/dataset#",
+  "prefix": "donto",
+  "publisherIds": [
+    {
+      "_id": "5a4147f8b201efd03d3afcfc",
+      "name": "Australian Government Linked Data Working Group"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "The data.gov.au Dataset Ontology is an OWL ontology designed to describe the characteristics of datasets published on data.gov.au",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2018-04-19T00:00:00.000Z",
+      "_id": "5ad8adf22e909b214fc2d204"
+    }
+  ],
+  "tags": [
+    "Metadata",
+    "Government"
+  ],
+  "titles": [
+    {
+      "value": "Dataset Ontology",
+      "lang": "en",
+      "_id": "5ad8adf22e909b214fc2d206"
+    }
+  ],
+  "uri": "http://reference.data.gov.au/def/ont/dataset",
+  "versions": [
+    {
+      "_id": "5ad8adf72e909b214fc2d207",
+      "classNumber": "25",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/donto/versions/2015-06-19.n3",
+      "instanceNumber": "0",
+      "issued": "2015-06-19T00:00:00.000Z",
+      "name": "v1",
+      "propertyNumber": "34",
+      "relSpecializes": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.opengis.net/ont/geosparql",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core",
+        "http://www.w3.org/2006/time",
+        "http://www.w3.org/ns/dcat",
+        "http://www.w3.org/ns/prov#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [
+        "http://www.opengis.net/ont/",
+        "http://www.w3.org/2006/",
+        "http://www.w3.org/2006/vcard/",
+        "http://www.w3.org/ns/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/dc/dcmitype/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2006/vcard/ns",
+        "http://www.w3.org/ns/prov#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [
+        "http://www.w3.org/ns/dcat",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "__v": 2,
+  "contributorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f93",
+      "name": "Mario Kofler"
+    }
+  ],
+  "createdInLOVAt": "2014-01-02T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0ebe",
+      "name": "Paul Staroch"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "An ontology defining weather-related concepts and properties being relevant to smart home systems that provide predictive control.",
+      "lang": "en",
+      "_id": "5809c78f3e5586c53d897084"
+    }
+  ],
+  "homepage": "https://paul.staroch.name/thesis/thesis.pdf",
+  "issuedAt": "2013-08-29T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-10-21T00:00:00.000Z",
+  "nsp": "http://paul.staroch.name/thesis/SmartHomeWeather.owl#",
+  "prefix": "shw",
+  "publisherIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0ebe",
+      "name": "Paul Staroch"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "OWL constructions are used to describe numerous rules related to atmospheric pressure, cloud cover, humidity, precipitation, solar radiation, sun position, temperature, wind direction and wind speed",
+      "agentId": {
+        "_id": "54b2be038433ca9ccf1c0f39",
+        "name": "Amélie Gyrard"
+      },
+      "createdAt": "2014-05-13T00:00:00.000Z",
+      "_id": "5809c78f3e5586c53d897088"
+    },
+    {
+      "body": "Fixed version history.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-07-29T00:00:00.000Z",
+      "_id": "5809c78f3e5586c53d897087"
+    },
+    {
+      "body": "Developed in the framework of a Master's Thesis, the vocabulary is published in a personal namespace. Makes an extensive use of advanced OWL constructions.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-01-02T00:00:00.000Z",
+      "_id": "5809c78f3e5586c53d897086"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-23T00:00:00.000Z",
+      "_id": "5809c78f3e5586c53d897085"
+    }
+  ],
+  "tags": [
+    "Environment",
+    "IoT"
+  ],
+  "titles": [
+    {
+      "value": "Smart Home Weather",
+      "lang": "en",
+      "_id": "5809c78f3e5586c53d897083"
+    }
+  ],
+  "uri": "http://paul.staroch.name/thesis/SmartHomeWeather.owl#",
+  "versions": [
+    {
+      "name": "v1.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/shw/versions/2014-03-23.n3",
+      "issued": "2014-03-23T00:00:00.000Z",
+      "classNumber": "109",
+      "propertyNumber": "26",
+      "instanceNumber": "9",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.oclc.org/NET/muo/muo#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2006/time#"
+      ],
+      "relImports": [
+        "http://purl.oclc.org/NET/muo/ucum/",
+        "http://www.w3.org/2006/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.oclc.org/NET/muo/muo#",
+        "http://purl.oclc.org/NET/muo/ucum/",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v1.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/shw/versions/2014-01-14.n3",
+      "issued": "2014-01-14T00:00:00.000Z",
+      "classNumber": "109",
+      "propertyNumber": "26",
+      "instanceNumber": "9",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.oclc.org/NET/muo/muo#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2006/time#"
+      ],
+      "relImports": [
+        "http://purl.oclc.org/NET/muo/ucum/",
+        "http://www.w3.org/2006/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.oclc.org/NET/muo/muo#",
+        "http://purl.oclc.org/NET/muo/ucum/",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v1.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/shw/versions/2013-12-18.n3",
+      "issued": "2013-12-18T00:00:00.000Z",
+      "classNumber": "109",
+      "propertyNumber": "26",
+      "instanceNumber": "9",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.oclc.org/NET/muo/muo#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2006/time#"
+      ],
+      "relImports": [
+        "http://purl.oclc.org/NET/muo/ucum/",
+        "http://www.w3.org/2006/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.oclc.org/NET/muo/muo#",
+        "http://purl.oclc.org/NET/muo/ucum/",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

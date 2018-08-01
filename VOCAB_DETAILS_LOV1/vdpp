@@ -1,0 +1,94 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-06-04T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0ef5",
+      "name": "François Scharffe"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The Vocabulary of Dataset Publication Projects (VDPP) allows to represent the status of a dataset publication project. It is mainly based on the Provenance Vocabulary (PRV), the Dataset Provenance Vocabulary (VOIDP), the Vocabulary of Interlinked Datasets (VoID), and the Description of a Project (DOAP) vocabulary.",
+      "lang": "en",
+      "_id": "557f47ef1d5237e823d24ef7"
+    }
+  ],
+  "homepage": "http://data.lirmm.fr/ontologies/vdpp.html",
+  "issuedAt": "2011-03-27T00:00:00.000Z",
+  "lastDeref": "2014-06-04T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-06-15T00:00:00.000Z",
+  "nsp": "http://data.lirmm.fr/ontologies/vdpp#",
+  "prefix": "vdpp",
+  "reviews": [
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-04T00:00:00.000Z",
+      "_id": "557f47ef1d5237e823d24efa"
+    },
+    {
+      "body": "A simple extension developed in the framework of the DataLift project.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-06-04T00:00:00.000Z",
+      "_id": "557f47ef1d5237e823d24ef9"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-06-15T00:00:00.000Z",
+      "_id": "557f47ef1d5237e823d24ef8"
+    }
+  ],
+  "tags": [
+    "Quality"
+  ],
+  "titles": [
+    {
+      "value": "Vocabulary for Dataset Publication Projects",
+      "lang": "en",
+      "_id": "557f47ef1d5237e823d24ef6"
+    }
+  ],
+  "uri": "http://data.lirmm.fr/ontologies/vdpp",
+  "versions": [
+    {
+      "name": "v2011-03-27",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/vdpp/versions/2011-03-27.n3",
+      "issued": "2011-03-27T00:00:00.000Z",
+      "classNumber": "5",
+      "propertyNumber": "1",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/adms#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

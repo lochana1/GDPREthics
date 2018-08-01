@@ -1,0 +1,102 @@
+{
+  "__v": 1,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-08-23T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "56e69313aacd7f0864390f88",
+      "name": "Sebastian Tramp"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The eccenca Publish-Subscribe Vocabulary defines concepts and relations to create statements about publishers, subscribers and their subscriptions in a Publish-Subscribe environment based on the PubSubHubbub Core 0.4 specification.",
+      "lang": "en",
+      "_id": "57bc7a19a3a9d3a63d77d61e"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2016-07-12T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-08-23T00:00:00.000Z",
+  "nsp": "https://vocab.eccenca.com/pubsub/",
+  "prefix": "pubsub",
+  "publisherIds": [
+    {
+      "_id": "56e6939caacd7f0864390f90",
+      "name": "eccenca GmbH"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "A vocabulary in RDF created by a company for Publish-Subscribe environment.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-08-23T00:00:00.000Z",
+      "_id": "57bc7a19a3a9d3a63d77d61f"
+    }
+  ],
+  "tags": [
+    "API",
+    "Services"
+  ],
+  "titles": [
+    {
+      "value": "Eccenca Publish-Subscribe Vocabulary",
+      "lang": "en",
+      "_id": "57bc7a19a3a9d3a63d77d61d"
+    }
+  ],
+  "uri": "https://vocab.eccenca.com/pubsub/",
+  "versions": [
+    {
+      "name": "v2016-07-12",
+      "issued": "2016-07-12T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "8",
+      "propertyNumber": "7",
+      "classNumber": "7",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/pubsub/versions/2016-07-12.n3",
+      "_id": "57bc79c6a3a9d3a63d77d5e7",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://vocab.deri.ie/void",
+        "http://usefulinc.com/ns/doap#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

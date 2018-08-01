@@ -1,0 +1,108 @@
+{
+  "__v": 0,
+  "contributorIds": [
+    {
+      "_id": "59898ea188adb933350c4f15",
+      "name": "Guido Governatori"
+    }
+  ],
+  "createdInLOVAt": "2017-08-08T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f65",
+      "name": "Fabien Gandon"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "An OWL vocabulary for describing normative requirements.",
+      "lang": "en",
+      "_id": "5989902a88adb933350c517a"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2017-07-26T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-08-08T10:19:25.095Z",
+  "nsp": "http://ns.inria.fr/nrv#",
+  "prefix": "nrv",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fc0",
+      "name": "INRIA"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "A vocabulary to represent normative requirements under development. The vocabulary reuses terms from the legal rule metamodel not yet available as vocabulary",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-08-08T00:00:00.000Z",
+      "_id": "5989902a88adb933350c5179"
+    }
+  ],
+  "tags": [
+    "Security",
+    "Methods"
+  ],
+  "titles": [
+    {
+      "value": "Normative Requirements Vocabulary",
+      "lang": "en",
+      "_id": "5989902a88adb933350c517b"
+    }
+  ],
+  "uri": "http://ns.inria.fr/nrv",
+  "versions": [
+    {
+      "name": "v2017-08-08",
+      "issued": "2017-08-08T10:19:23.489Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "3",
+      "classNumber": "20",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/nrv/versions/2017-08-08.n3",
+      "_id": "5989902d88adb933350c5182",
+      "relSpecializes": [
+        "http://docs.oasis-open.org/legalruleml/ns/v1.0/metamodel#",
+        "http://docs.oasis-open.org/legalruleml/ns/v1.0/rule-metamodel#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [
+        "http://docs.oasis-open.org/legalruleml/ns/v1.0/metamodel#"
+      ],
+      "relExtends": [
+        "http://docs.oasis-open.org/legalruleml/ns/v1.0/metamodel#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://purl.org/vocommons/voaf",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

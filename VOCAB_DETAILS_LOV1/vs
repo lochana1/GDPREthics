@@ -1,0 +1,190 @@
+{
+  "__v": 1,
+  "contributorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e94",
+      "name": "Pierre-Yves Vandenbussche"
+    }
+  ],
+  "createdInLOVAt": "2013-06-24T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e57",
+      "name": "Libby Miller"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0e78",
+      "name": "Dan Brickley"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f71",
+      "name": "Leigh Dodds"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/taxonconcept.0.rdf",
+      "label": "taxonconcept.0.rdf",
+      "occurrences": "252"
+    },
+    {
+      "uri": "http://datahub.io/dataset/bbc-music.0.rdf",
+      "label": "bbc-music.0.rdf",
+      "occurrences": "219"
+    },
+    {
+      "uri": "http://datahub.io/dataset/vivo-university-of-florida.rdf",
+      "label": "vivo-university-of-florida.rdf",
+      "occurrences": "88"
+    },
+    {
+      "uri": "http://datahub.io/dataset/vivo-cu-boulder.rdf",
+      "label": "vivo-cu-boulder.rdf",
+      "occurrences": "85"
+    },
+    {
+      "uri": "http://datahub.io/dataset/my-family-lineage.0.rdf",
+      "label": "my-family-lineage.0.rdf",
+      "occurrences": "75"
+    },
+    {
+      "uri": "http://datahub.io/dataset/meducator.rdf",
+      "label": "meducator.rdf",
+      "occurrences": "50"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-jargon.rdf",
+      "label": "southampton-ac-uk-jargon.rdf",
+      "occurrences": "13"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aksworg.rdf",
+      "label": "aksworg.rdf",
+      "occurrences": "10"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aksworg.ttl",
+      "label": "aksworg.ttl",
+      "occurrences": "10"
+    },
+    {
+      "uri": "http://datahub.io/dataset/sparql-endpoint-status.rdf",
+      "label": "sparql-endpoint-status.rdf",
+      "occurrences": "5"
+    },
+    {
+      "uri": "http://datahub.io/dataset/educationalprograms",
+      "label": "educationalprograms",
+      "occurrences": "3"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "An RDF vocabulary for relating SW vocabulary terms to their status.",
+      "lang": "en",
+      "_id": "55d72d4ce4ac2b1c4c5a513d"
+    }
+  ],
+  "issuedAt": "2003-06-01T00:00:00.000Z",
+  "lastDeref": "2014-06-23T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-08-21T00:00:00.000Z",
+  "nsp": "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+  "prefix": "vs",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c1003",
+      "name": "W3C"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-24T00:00:00.000Z",
+      "_id": "55d72d4ce4ac2b1c4c5a5140"
+    },
+    {
+      "body": "This very small but popular metadata vocabulary fills a blank in Dublin Core which does not define any \"status\" property.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-06-25T00:00:00.000Z",
+      "_id": "55d72d4ce4ac2b1c4c5a513f"
+    },
+    {
+      "body": "Annual review - OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-08-21T00:00:00.000Z",
+      "_id": "55d72d4ce4ac2b1c4c5a513e"
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "SemWeb Vocab Status ontology",
+      "lang": "en",
+      "_id": "55d72d4ce4ac2b1c4c5a513c"
+    }
+  ],
+  "uri": "http://www.w3.org/2003/06/sw-vocab-status/ns",
+  "versions": [
+    {
+      "name": "v2011-12-12",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/vs/versions/2011-12-12.n3",
+      "issued": "2011-12-12T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "3",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2003-06-01",
+      "issued": "2003-05-31T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": false
+    }
+  ]
+}

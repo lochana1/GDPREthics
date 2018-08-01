@@ -1,0 +1,104 @@
+{
+  "__v": 0,
+  "contributorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f90",
+      "name": "Michel Dumontier"
+    },
+    {
+      "_id": "576967db4a73263716312e20",
+      "name": "Luis Garnica"
+    }
+  ],
+  "createdInLOVAt": "2016-06-21T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "561b8c5942fc695f7e6722b2",
+      "name": "Natalia Villanueva-Rosales"
+    },
+    {
+      "_id": "561e30ab42fc695f7e6767be",
+      "name": "ELSEWeb Team"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "Primitive ontology for database to Semantic Web mapping which subsumes classes that represent mappings to explicit OWL constructs, such as OWL class, object property, data property, etc. Classes in this ontology are populated by individuals representing components of the database schema being mapped.",
+      "lang": "en",
+      "_id": "576968874a73263716312e2c"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "isDefinedBy": "http://ontology.cybershare.utep.edu/dbowl/relational-to-ontology-mapping-primitive.owl",
+  "issuedAt": "2016-03-01T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-06-21T16:18:27.159Z",
+  "nsp": "http://ontology.cybershare.utep.edu/dbowl/relational-to-ontology-mapping-primitive.owl#",
+  "prefix": "dbowl",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "It is missing a documentation of this vocabulary",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-06-21T00:00:00.000Z",
+      "_id": "576968874a73263716312e2b"
+    }
+  ],
+  "tags": [
+    "Methods"
+  ],
+  "titles": [
+    {
+      "value": "Relational to Ontology Mapping Primitive",
+      "lang": "en",
+      "_id": "576968874a73263716312e2d"
+    }
+  ],
+  "uri": "http://ontology.cybershare.utep.edu/dbowl",
+  "versions": [
+    {
+      "_id": "5769688a4a73263716312e2e",
+      "classNumber": "0",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/dbowl/versions/2016-03-01.n3",
+      "instanceNumber": "0",
+      "issued": "2016-03-01T00:00:00.000Z",
+      "name": "v2.0",
+      "propertyNumber": "0",
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://protege.stanford.edu/plugins/owl/protege#",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

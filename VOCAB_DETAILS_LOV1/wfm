@@ -1,0 +1,130 @@
+{
+  "__v": 1,
+  "contributorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f54",
+      "name": "Carole Goble"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f5d",
+      "name": "Oscar Corcho"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f5f",
+      "name": "Yolanda Gil"
+    }
+  ],
+  "createdInLOVAt": "2013-07-01T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f41",
+      "name": "Khalid Belhajjame"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f5e",
+      "name": "Daniel Garijo"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f6d",
+      "name": "Pinar Alper"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Ontology for describing Workflow Motifs. Workflow Motifs outline the kinds of data-intensive activities that are observed in workflows (data-operation motifs) and the different manners in which activities are implemented within workflows (workflow-oriented motifs).",
+      "lang": "en",
+      "_id": "5696a478ff8848f96bd11d59"
+    }
+  ],
+  "homepage": "http://vocab.linkeddata.es/motifs/",
+  "issuedAt": "2013-03-15T00:00:00.000Z",
+  "lastDeref": "2014-07-29T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-01-13T00:00:00.000Z",
+  "nsp": "http://purl.org/net/wf-motifs#",
+  "prefix": "wfm",
+  "reviews": [
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-07-30T00:00:00.000Z",
+      "_id": "5696a478ff8848f96bd11d5d"
+    },
+    {
+      "body": "OWL file is dated 2013-03-15, but HTML documentation is dated 2013-06-14",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-08-05T00:00:00.000Z",
+      "_id": "5696a478ff8848f96bd11d5c"
+    },
+    {
+      "body": "Vocabulary inserted temporarily under Science->Methods. It could be included under a new category for scientific workflows and protocols.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-07-02T00:00:00.000Z",
+      "_id": "5696a478ff8848f96bd11d5b"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2016-01-13T00:00:00.000Z",
+      "_id": "5696a478ff8848f96bd11d5a"
+    }
+  ],
+  "tags": [
+    "Methods"
+  ],
+  "titles": [
+    {
+      "value": "The Workflow Motif Ontology",
+      "lang": "en",
+      "_id": "5696a478ff8848f96bd11d58"
+    }
+  ],
+  "uri": "http://purl.org/net/wf-motifs",
+  "versions": [
+    {
+      "name": "v1.02",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/wfm/versions/2013-03-15.n3",
+      "issued": "2013-03-15T00:00:00.000Z",
+      "classNumber": "27",
+      "propertyNumber": "3",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

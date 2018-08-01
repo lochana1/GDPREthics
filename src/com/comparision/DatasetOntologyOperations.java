@@ -13,7 +13,7 @@ public class DatasetOntologyOperations {
 
     public static void datasetOntologyOperations() throws IOException {
 
-        System.out.println("Starting Tool Engine....\nProcess will take a Several seconds....");
+        System.out.println("Starting Tool Engine....\nProcess will take Several seconds....");
         System.out.println("Input Data Preparation Started....");
 
         long start =System.currentTimeMillis();

@@ -1,0 +1,111 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-02-01T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "561b8c5942fc695f7e6722b2",
+      "name": "Natalia Villanueva-Rosales"
+    },
+    {
+      "_id": "561b8ea942fc695f7e6722bd",
+      "name": "Nicholas del Rio"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The ELSEWeb Lifemapper ontology provides classes for describing biodiversity modelling services provided by Lifemapper. This project provides  support for the ELSEWeb project(http://elseweb.cybershare.utep.edu/).\nwebsite: http://elseweb.cybershare.utep.edu/ontologies\nemail: nvillanuevarosales@utep.edu",
+      "lang": "en",
+      "_id": "56af78b098f0192c57ea948b"
+    }
+  ],
+  "homepage": "http://elseweb.cybershare.utep.edu/ontologies",
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2014-05-01T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-02-01T15:25:21.112Z",
+  "nsp": "http://ontology.cybershare.utep.edu/ELSEWeb/elseweb-lifemapper.owl#",
+  "prefix": "lslife",
+  "publisherIds": [
+    {
+      "_id": "561e30ab42fc695f7e6767be",
+      "name": "ELSEWeb Team"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Yet another vocabulary from the ELSEWeb project.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-02-01T00:00:00.000Z",
+      "_id": "56af78b098f0192c57ea948a"
+    }
+  ],
+  "tags": [
+    "Services",
+    "Support"
+  ],
+  "titles": [
+    {
+      "value": "ELSEWeb Lifemapper Ontology",
+      "lang": "en",
+      "_id": "56af78b098f0192c57ea948c"
+    }
+  ],
+  "uri": "http://ontology.cybershare.utep.edu/ELSEWeb/elseweb-lifemapper.owl",
+  "versions": [
+    {
+      "_id": "56af78b398f0192c57ea948f",
+      "classNumber": "27",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lslife/versions/2015-09-24.n3",
+      "instanceNumber": "0",
+      "issued": "2015-09-24T00:00:00.000Z",
+      "name": "v1.2",
+      "propertyNumber": "35",
+      "relSpecializes": [
+        "http://ontology.cybershare.utep.edu/ELSEWeb/elseweb-data.owl",
+        "http://ontology.cybershare.utep.edu/ELSEWeb/elseweb-modelling.owl",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://ontology.cybershare.utep.edu/ELSEWeb/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://protege.stanford.edu/plugins/owl/protege#",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://semanticscience.org/ontology/sio.owl",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "__v": 1,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-04-15T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "56dff1b5aacd7f0864354b8d",
+      "name": "Nicolas Seydoux"
+    },
+    {
+      "_id": "571117da31bafaef0e78a48a",
+      "name": "Mahdi Ben Alaya"
+    },
+    {
+      "_id": "571117f231bafaef0e78a495",
+      "name": "Nathalie Hernandez"
+    },
+    {
+      "_id": "5711181231bafaef0e78a4a1",
+      "name": "Thierry Monteil"
+    },
+    {
+      "_id": "5711183131bafaef0e78a4af",
+      "name": "Khalil Drira"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "This ontology is intended to describe Semantic Actuator Networks, as a counterpoint to SSN definition of Semantic Sensor Networks. An actuator is a physical device having an effect on the world (see Actuator for more information).\n\nIt is worth noticing that some concepts are imported from SSN, but not SSN as a whole. This is a design choice intended to separate as much as possible the definition on actuator from the definition of sensor, which are completely different concept that can be used independantly from each other.\n\nThis ontology is used as a ontological module in IoT-O ontology.",
+      "lang": "en",
+      "_id": "5809c5dd3e5586c53d896ed7"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2015-02-20T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-10-21T00:00:00.000Z",
+  "nsp": "http://www.irit.fr/recherches/MELODI/ontologies/SAN#",
+  "prefix": "SAN",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "An ontology used as a ontological module in IoT-O ontology from the MELODY project.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-04-15T00:00:00.000Z",
+      "_id": "5809c5dd3e5586c53d896ed8"
+    }
+  ],
+  "tags": [
+    "Support",
+    "IoT"
+  ],
+  "titles": [
+    {
+      "value": "SAN (Semantic Actuator Network)",
+      "lang": "en",
+      "_id": "5809c5dd3e5586c53d896ed6"
+    }
+  ],
+  "uri": "http://www.irit.fr/recherches/MELODI/ontologies/SAN",
+  "versions": [
+    {
+      "_id": "5711193a31bafaef0e78a526",
+      "classNumber": "12",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/SAN/versions/2016-02-26.n3",
+      "instanceNumber": "0",
+      "issued": "2016-02-26T00:00:00.000Z",
+      "name": "v2.0",
+      "propertyNumber": "15",
+      "relSpecializes": [
+        "http://delicias.dia.fi.upm.es/ontologies/ObjectWithStates.owl#",
+        "http://www.w3.org/2005/Incubator/ssn/ssnx/ssn",
+        "http://qudt.org/schema/qudt",
+        "http://www.linkedmodel.org/schema/vaem",
+        "http://www.loa-cnr.it/ontologies/DUL.owl#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://delicias.dia.fi.upm.es/ontologies/",
+        "http://www.loa-cnr.it/ontologies/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2005/Incubator/ssn/ssnx/ssn",
+        "http://www.loa-cnr.it/ontologies/DUL.owl#",
+        "http://www.w3.org/2006/time"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://purl.org/vocommons/voaf",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

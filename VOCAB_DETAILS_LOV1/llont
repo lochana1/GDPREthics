@@ -1,0 +1,95 @@
+{
+  "__v": 1,
+  "contributorIds": [],
+  "createdInLOVAt": "2015-03-25T00:00:00.000Z",
+  "creatorIds": [],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "LinkLion - the Link Discovery Portal",
+      "lang": "en",
+      "_id": "57d2cfa9a3a9d3a63d7e8bc3"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "lastModifiedInLOVAt": "2016-09-09T00:00:00.000Z",
+  "nsp": "http://www.linklion.org/ontology#",
+  "prefix": "llont",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "Small vocabulary for discovering links in a portal. However, there are missing some crucial metadata information on the vocabulary for better reuse and discovery.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-03-25T00:00:00.000Z",
+      "_id": "57d2cfa9a3a9d3a63d7e8bc5"
+    },
+    {
+      "body": "Annual review - OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-09-09T00:00:00.000Z",
+      "_id": "57d2cfa9a3a9d3a63d7e8bc4"
+    }
+  ],
+  "tags": [
+    "Services"
+  ],
+  "titles": [
+    {
+      "value": "LinkLion - the Link Discovery Portal",
+      "lang": "en",
+      "_id": "57d2cfa9a3a9d3a63d7e8bc2"
+    }
+  ],
+  "uri": "http://www.linklion.org/ontology",
+  "versions": [
+    {
+      "name": "v2015-03-25",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/llont/versions/2015-03-25.n3",
+      "issued": "2015-03-25T11:31:05.987Z",
+      "classNumber": "5",
+      "propertyNumber": "4",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://usefulinc.com/ns/doap#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/prov#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://vocab.deri.ie/void",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

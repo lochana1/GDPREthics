@@ -1,0 +1,100 @@
+{
+  "__v": 1,
+  "contributorIds": [],
+  "createdInLOVAt": "2018-05-23T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "5b058eee453b589b0c9f97f0",
+      "name": "Manuel Parra-Royon"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "Simple and direct pricing ontology for Cloud Computing Services. This ontology allows to define model of prices used in large cloud computing providers such as Amazon, Azure, etc., including options for regions, type of instances, prices specification, etc.",
+      "lang": "en",
+      "_id": "5b05922d453b589b0c9f9875"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2018-04-20T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2018-05-23T00:00:00.000Z",
+  "nsp": "http://cookingbigdata.com/linkeddata/ccpricing#",
+  "prefix": "ccp",
+  "publisherIds": [
+    {
+      "_id": "5b058f1e453b589b0c9f97fb",
+      "name": "CookingBigData"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Simple and direct pricing ontology for Cloud Computing Services. We expect to find datasets consuming this ontology.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2018-05-23T00:00:00.000Z",
+      "_id": "5b05922d453b589b0c9f9876"
+    }
+  ],
+  "tags": [
+    "Industry",
+    "Support"
+  ],
+  "titles": [
+    {
+      "value": "Vocabulary for prices options in Cloud Computing Services",
+      "lang": "en",
+      "_id": "5b05922d453b589b0c9f9874"
+    }
+  ],
+  "uri": "http://cookingbigdata.com/linkeddata/ccpricing",
+  "versions": [
+    {
+      "_id": "5b05920e453b589b0c9f986f",
+      "classNumber": "3",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ccp/versions/2018-05-23.n3",
+      "instanceNumber": "0",
+      "issued": "2018-05-23T00:00:00.000Z",
+      "name": "v1.0",
+      "propertyNumber": "10",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://cookingbigdata.com/linkeddata/ccinstances#",
+        "http://cookingbigdata.com/linkeddata/ccregions#",
+        "http://purl.org/goodrelations/",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-06-16T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "55ae8258cff711cc3f2b1887",
+      "name": "Ralph Hodgson"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The ontology 'dtype' provides a specification of simple data types such as enumerations. These are needed in support of the conversion of XML Schemas and UML Models to OWL. Codelists are also defined in 'dtype'.",
+      "lang": "en",
+      "_id": "55ae826dcff711cc3f2b1899"
+    }
+  ],
+  "issuedAt": "2011-05-29T00:00:00.000Z",
+  "lastDeref": "2014-07-14T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-07-21T00:00:00.000Z",
+  "nsp": "http://www.linkedmodel.org/schema/dtype#",
+  "prefix": "dtype",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fde",
+      "name": "TopQuadrant"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "A part of the QUTD catalog of vocabularies",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-06-17T00:00:00.000Z",
+      "_id": "55ae826dcff711cc3f2b189c"
+    },
+    {
+      "body": "Reviewed version history",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-07-15T00:00:00.000Z",
+      "_id": "55ae826dcff711cc3f2b189b"
+    },
+    {
+      "body": "In this review, added the author of the vocabulary",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-21T00:00:00.000Z",
+      "_id": "55ae826dcff711cc3f2b189a"
+    }
+  ],
+  "tags": [
+    "RDF"
+  ],
+  "titles": [
+    {
+      "value": "Datatype Ontology",
+      "lang": "en",
+      "_id": "55ae826dcff711cc3f2b1898"
+    }
+  ],
+  "uri": "http://www.linkedmodel.org/schema/dtype",
+  "versions": [
+    {
+      "name": "v1.1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/dtype/versions/2014-06-28.n3",
+      "issued": "2014-06-27T23:00:00.000Z",
+      "classNumber": "8",
+      "propertyNumber": "13",
+      "instanceNumber": "0",
+      "datatypeNumber": "1",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [
+        "http://www.linkedmodel.org/schema/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.linkedmodel.org/schema/vaem#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v1.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/dtype/versions/2011-05-29.n3",
+      "issued": "2011-05-28T23:00:00.000Z",
+      "classNumber": "7",
+      "propertyNumber": "11",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [
+        "http://www.linkedmodel.org/schema/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://voag.linkedmodel.org/schema/voag#",
+        "http://www.linkedmodel.org/schema/vaem#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

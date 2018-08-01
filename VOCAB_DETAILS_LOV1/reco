@@ -1,0 +1,97 @@
+{
+  "__v": 1,
+  "contributorIds": [],
+  "createdInLOVAt": "2015-04-03T00:00:00.000Z",
+  "creatorIds": [],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The RECO ontology defines the vocabulary for representing preferences-as-constraints and preferences-as-ratings as RDF graphs. This lightweight vocabulary provides domain-independent means to describe user profiles in a coherent and context-aware way. RECO has been designed as an extension of both Friend-Of-A-Friend (FOAF) and Who Am I! (WAI) ontologies.",
+      "lang": "en",
+      "_id": "57d2ce7aa3a9d3a63d7e8b25"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2011-08-01T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-09-09T00:00:00.000Z",
+  "nsp": "http://purl.org/reco#",
+  "prefix": "reco",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "This vocabulary is a good starting point for modeling user profiles. However, it needs better metadata to be fully LOV compliant.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-04-03T00:00:00.000Z",
+      "_id": "57d2ce7aa3a9d3a63d7e8b27"
+    },
+    {
+      "body": "Annual review - ok",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-09-09T00:00:00.000Z",
+      "_id": "57d2ce7aa3a9d3a63d7e8b26"
+    }
+  ],
+  "tags": [
+    "RDF",
+    "Methods"
+  ],
+  "titles": [
+    {
+      "value": "RECommendations Ontology",
+      "lang": "en",
+      "_id": "57d2ce7aa3a9d3a63d7e8b24"
+    }
+  ],
+  "uri": "http://purl.org/reco#",
+  "versions": [
+    {
+      "name": "v2011-08",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/reco/versions/2011-08-01.n3",
+      "issued": "2011-08-01T00:00:00.000Z",
+      "classNumber": "6",
+      "propertyNumber": "12",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

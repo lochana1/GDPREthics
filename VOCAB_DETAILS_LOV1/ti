@@ -1,0 +1,186 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-08-29T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f01",
+      "name": "Valentina Presutti"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "This pattern is extracted from DOLCE-UltraLite by partial clone of elements and expansion. Two datatype properties have been added which allow to express the boundaries of the time interval.",
+      "lang": "en",
+      "_id": "569ccffeff8848f96bd16d18"
+    }
+  ],
+  "lastDeref": "2015-01-11T20:52:30.064Z",
+  "lastModifiedInLOVAt": "2016-01-18T00:00:00.000Z",
+  "nsp": "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#",
+  "prefix": "ti",
+  "reviews": [
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-10-09T00:00:00.000Z",
+      "_id": "569ccffeff8848f96bd16d1b"
+    },
+    {
+      "body": "Linked to other patterns in the same namespace, all extracted from DOLCE.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-08-30T00:00:00.000Z",
+      "_id": "569ccffeff8848f96bd16d1a"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-18T00:00:00.000Z",
+      "_id": "569ccffeff8848f96bd16d19"
+    }
+  ],
+  "tags": [
+    "Time"
+  ],
+  "titles": [
+    {
+      "value": "The Time Interval Pattern",
+      "lang": "en",
+      "_id": "569ccffeff8848f96bd16d17"
+    }
+  ],
+  "uri": "http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl",
+  "versions": [
+    {
+      "name": "v1.1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ti/versions/2011-01-30.n3",
+      "issued": "2011-01-30T00:00:00.000Z",
+      "classNumber": "1",
+      "propertyNumber": "3",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://www.ontologydesignpatterns.org/schemas/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v1.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ti/versions/2009-07-07.n3",
+      "issued": "2009-07-06T23:00:00.000Z",
+      "classNumber": "1",
+      "propertyNumber": "3",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://www.ontologydesignpatterns.org/schemas/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2015-01-11",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ti/versions/2015-01-11.n3",
+      "issued": "2015-01-11T20:52:30.064Z",
+      "classNumber": "1",
+      "propertyNumber": "3",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://www.ontologydesignpatterns.org/schemas/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

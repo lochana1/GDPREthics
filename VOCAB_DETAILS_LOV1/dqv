@@ -1,0 +1,136 @@
+{
+  "__v": 1,
+  "contributorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f6e",
+      "name": "Jeremy Debattista"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f38",
+      "name": "Makx Dekkers"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f23",
+      "name": "Deirdre Lee"
+    },
+    {
+      "_id": "587e49d97e341093493c3add",
+      "name": "Amrapali Zaveri"
+    },
+    {
+      "_id": "587e4a2b7e341093493c3aef",
+      "name": "Christophe Guéret"
+    },
+    {
+      "_id": "587e4a827e341093493c3b10",
+      "name": "Nandana Mihindukulasooriya"
+    }
+  ],
+  "createdInLOVAt": "2017-01-17T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e73",
+      "name": "Antoine Isaac"
+    },
+    {
+      "_id": "587e4f0b7e341093493c3b8d",
+      "name": "Riccardo Albertoni"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The Data Quality Vocabulary (DQV) is seen as an extension to DCAT to cover the quality of the data, how frequently is it updated, whether it accepts user corrections, persistence commitments etc. When used by publishers, this vocabulary will foster trust in the data amongst developers.",
+      "lang": "en",
+      "_id": "587e4f137e341093493c3b8f"
+    }
+  ],
+  "homepage": "https://www.w3.org/TR/vocab-dqv/",
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2015-12-17T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-01-17T00:00:00.000Z",
+  "nsp": "http://www.w3.org/ns/dqv#",
+  "prefix": "dqv",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c1003",
+      "name": "W3C"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "A new reference vocabulary for data quality published by the W3C Data on the Web Best Practice group.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-01-17T00:00:00.000Z",
+      "_id": "587e4f137e341093493c3b90"
+    }
+  ],
+  "tags": [
+    "Quality"
+  ],
+  "titles": [
+    {
+      "value": "Data Quality Vocabulary",
+      "lang": "en",
+      "_id": "587e4f137e341093493c3b8e"
+    }
+  ],
+  "uri": "http://www.w3.org/ns/dqv",
+  "versions": [
+    {
+      "name": "v2016-08-26",
+      "issued": "2016-08-26T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "1",
+      "propertyNumber": "9",
+      "classNumber": "10",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/dqv/versions/2016-08-26.n3",
+      "_id": "587e4c967e341093493c3b54",
+      "relSpecializes": [
+        "http://purl.org/linked-data/cube",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core",
+        "http://www.w3.org/2004/03/trix/rdfg-1/",
+        "http://www.w3.org/ns/duv",
+        "http://www.w3.org/ns/oa#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/eis/vocab/daq#",
+        "http://purl.org/linked-data/cube",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [
+        "http://purl.org/eis/vocab/daq#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

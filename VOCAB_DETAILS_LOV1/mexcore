@@ -1,0 +1,149 @@
+{
+  "__v": 5,
+  "contributorIds": [
+    {
+      "_id": "555a6a8c30f688c94e82016e",
+      "name": "Maria Claudia Cavalcanti Reis"
+    },
+    {
+      "_id": "555a6a2930f688c94e820169",
+      "name": "Markus Ackermann"
+    },
+    {
+      "_id": "555a6ab830f688c94e820170",
+      "name": "Julio Cesar Duarte"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f87",
+      "name": "Sebastian Hellmann"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f64",
+      "name": "Jens Lehmann"
+    },
+    {
+      "_id": "555a69cb30f688c94e820165",
+      "name": "Ricardo Usbeck"
+    },
+    {
+      "_id": "555a6a0030f688c94e820167",
+      "name": "Diego Moussallem"
+    }
+  ],
+  "createdInLOVAt": "2015-05-18T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "555a694930f688c94e820160",
+      "name": "Diego Esteves"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "MEX e um vocabulario modelado para facilitar a interoperabilidade entre resultados de experimentos de aprendizado de maquinas publicados na Web. A camada mex-core representa a principal informacao obtida de um experimento de aprendizado de maquina.",
+      "lang": "pt",
+      "_id": "555a6cbd30f688c94e820195"
+    },
+    {
+      "value": "MEX is an RDF vocabulary designed to facilitate interoperability between published machine learning experiments results on the Web. The mex-core layer represents the core information gathered from a basic machine learning experiment design.",
+      "lang": "en",
+      "_id": "555a6cbd30f688c94e820194"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2014-02-02T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-05-18T00:00:00.000Z",
+  "nsp": "http://mex.aksw.org/mex-core#",
+  "prefix": "mexcore",
+  "publisherIds": [
+    {
+      "_id": "5558f84d30f688c94e81f958",
+      "name": "AKSW Research Group - Leipzig University"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Vocabulary added. The core component of MEX vocabularies.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-05-19T00:00:00.000Z",
+      "_id": "555a6cbd30f688c94e820196"
+    }
+  ],
+  "tags": [
+    "Methods"
+  ],
+  "titles": [
+    {
+      "value": "MEX Core Vocabulary",
+      "lang": "en",
+      "_id": "555a6cbd30f688c94e820193"
+    },
+    {
+      "value": "Vocabulario MEX (mex-core)",
+      "lang": "pt",
+      "_id": "555a6cbd30f688c94e820192"
+    }
+  ],
+  "uri": "http://mex.aksw.org/mex-core",
+  "versions": [
+    {
+      "_id": "555a676430f688c94e820145",
+      "classNumber": "55",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/mexcore/versions/2014-04-05.n3",
+      "instanceNumber": "0",
+      "issued": "2014-04-05T00:00:00.000Z",
+      "name": "v1.0.0",
+      "propertyNumber": "21",
+      "relSpecializes": [
+        "http://usefulinc.com/ns/doap#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/prov#"
+      ],
+      "relImports": [
+        "http://usefulinc.com/ns/doap#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/prov#"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e27",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/por",
+          "label": "Portuguese",
+          "iso639P3PCode": "por"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

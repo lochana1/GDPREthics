@@ -1,0 +1,209 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-06-21T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e74",
+      "name": "Bernard Vatant"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "A vocabulary to describe signs in a semiotic approach",
+      "lang": "en",
+      "_id": "58f9d5536961d74e135adc88"
+    }
+  ],
+  "issuedAt": "2008-07-15T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:52:23.811Z",
+  "lastModifiedInLOVAt": "2017-04-21T00:00:00.000Z",
+  "nsp": "http://www.lingvoj.org/semio#",
+  "prefix": "semio",
+  "reviews": [
+    {
+      "body": "This is a very preliminary draft for SEMIO Ontology.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2013-06-22T00:00:00.000Z",
+      "_id": "58f9d5536961d74e135adc8c"
+    },
+    {
+      "body": "Annual review - no change. Consider with caution, this is highly experimental.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-18T00:00:00.000Z",
+      "_id": "58f9d5536961d74e135adc8b"
+    },
+    {
+      "body": "Annual review - OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-08-21T00:00:00.000Z",
+      "_id": "58f9d5536961d74e135adc8a"
+    },
+    {
+      "body": "Annual review - OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-04-21T00:00:00.000Z",
+      "_id": "58f9d5536961d74e135adc89"
+    }
+  ],
+  "tags": [
+    "Vocabularies"
+  ],
+  "titles": [
+    {
+      "value": "Semio, an ontology of signs",
+      "lang": "en",
+      "_id": "58f9d5536961d74e135adc87"
+    }
+  ],
+  "uri": "http://www.lingvoj.org/semio.rdf",
+  "versions": [
+    {
+      "name": "v1.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/semio/versions/2012-02-20.n3",
+      "issued": "2012-02-20T00:00:00.000Z",
+      "classNumber": "11",
+      "propertyNumber": "9",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.11",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/semio/versions/2008-07-16.n3",
+      "issued": "2008-07-15T23:00:00.000Z",
+      "classNumber": "10",
+      "propertyNumber": "9",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.lingvoj.org/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/semio/versions/2008-07-15.n3",
+      "issued": "2008-07-14T23:00:00.000Z",
+      "classNumber": "1",
+      "propertyNumber": "7",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.lingvoj.org/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2015-01-11",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/semio/versions/2015-01-11.n3",
+      "issued": "2015-01-11T20:52:23.811Z",
+      "classNumber": "11",
+      "propertyNumber": "9",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

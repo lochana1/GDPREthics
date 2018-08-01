@@ -1,0 +1,130 @@
+{
+  "__v": 2,
+  "contributorIds": [],
+  "createdInLOVAt": "2015-03-23T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0ec9",
+      "name": "Toby Inkster"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "An extension of DOAP for the description of bugs",
+      "lang": "en",
+      "_id": "5788bca38c6f955d29bf1fc6"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2010-01-08T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-07-15T00:00:00.000Z",
+  "nsp": "http://ontologi.es/doap-bugs#",
+  "prefix": "dbug",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "Record creation. Tags to be fixed.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-03-24T00:00:00.000Z",
+      "_id": "5788bca38c6f955d29bf1fc8"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-07-15T00:00:00.000Z",
+      "_id": "5788bca38c6f955d29bf1fc7"
+    }
+  ],
+  "tags": [
+    "Methods"
+  ],
+  "titles": [
+    {
+      "value": "DOAP Bugs",
+      "lang": "en",
+      "_id": "5788bca38c6f955d29bf1fc5"
+    }
+  ],
+  "uri": "http://ontologi.es/doap-bugs#",
+  "versions": [
+    {
+      "name": "v2011-02-15",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/dbug/versions/2011-02-15.n3",
+      "issued": "2011-02-15T00:00:00.000Z",
+      "classNumber": "6",
+      "propertyNumber": "12",
+      "instanceNumber": "12",
+      "datatypeNumber": "0",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://www.ifi.uzh.ch/ddis/evoont/2008/11/bom#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core",
+        "http://www.w3.org/2005/01/wf/flow#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://rdfs.org/sioc/ns#",
+        "http://usefulinc.com/ns/doap#",
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2004/02/skos/core",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2010-01-08",
+      "issued": "2010-01-08T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": true,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

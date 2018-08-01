@@ -13,14 +13,13 @@ public class Main {
 
     public static void main(String[] args ) throws IOException {
         long start = System.currentTimeMillis();
-        DatasetOntologyOperations.datasetOntologyOperations();
-        DatasetLabelURIOperations.datasetLabelURIOperations();
-        PrepareReportPhase1.preparePHASE1Report();
-        CreateOntology.createOntology();
+//        DatasetOntologyOperations.datasetOntologyOperations();
+//        DatasetLabelURIOperations.datasetLabelURIOperations();
+//        PrepareReportPhase1.preparePHASE1Report();
+//        CreateOntology.createOntology();
 
         QueryWindow window = new QueryWindow();
         window.launch();
         System.out.println("Total Run Time: "+(System.currentTimeMillis()-start));
     }
-
 }

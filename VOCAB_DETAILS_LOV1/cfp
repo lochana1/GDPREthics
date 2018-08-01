@@ -1,0 +1,96 @@
+{
+  "__v": 2,
+  "contributorIds": [],
+  "createdInLOVAt": "2015-04-03T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "551e51770a9573f871db155e",
+      "name": "W3C Semantic Sensor Network Incubator Group"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "This is an ontology representation of the climatic data variables defined by Climate and Forecast (CF) standard names vocabulary (http://cf-pcmdi.llnl.gov/documents/cf-standard-names/), maintained by the Program for Climate Model Diagnosis and Intercomparison (http://cf-pcmdi.llnl.gov/ ) which is intended for use with climate and forecast data, in the  atmosphere, surface and ocean domains.",
+      "lang": "en",
+      "_id": "586a49437e341093492b89e9"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2010-10-05T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-01-02T00:00:00.000Z",
+  "nsp": "http://purl.oclc.org/NET/ssnx/cf/cf-property#",
+  "prefix": "cfp",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "A deliverable of the W3C Semantic Sensor Network Incubator Group in 2010-2011, should be stable. Relies on several purl namespaces which do not resolve.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-04-03T00:00:00.000Z",
+      "_id": "586a49437e341093492b89eb"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-01-02T00:00:00.000Z",
+      "_id": "586a49437e341093492b89ea"
+    }
+  ],
+  "tags": [
+    "Environment",
+    "IoT"
+  ],
+  "titles": [
+    {
+      "value": "Climate and Forecast (CF) standard names parameter vocabulary",
+      "lang": "en",
+      "_id": "586a49437e341093492b89e8"
+    }
+  ],
+  "uri": "http://purl.oclc.org/NET/ssnx/cf/cf-property",
+  "versions": [
+    {
+      "name": "v2011-06-20",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/cfp/versions/2011-06-20.n3",
+      "issued": "2011-06-20T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": true,
+      "relSpecializes": [],
+      "relImports": [
+        "http://purl.oclc.org/NET/ssnx/cf/",
+        "http://purl.oclc.org/NET/ssnx/qu/",
+        "http://purl.oclc.org/NET/ssnx/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.oclc.org/NET/ssnx/qu/qu",
+        "http://www.w3.org/2005/Incubator/ssn/ssnx/ssn",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

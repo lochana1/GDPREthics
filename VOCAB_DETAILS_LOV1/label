@@ -1,0 +1,136 @@
+{
+  "__v": 1,
+  "commentDeref": "Problem while dereferencing or parsing the vocabulary",
+  "createdInLOVAt": "2013-05-21T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e90",
+      "name": "Morten Høybye Frederiksen"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/aksworg.rdf",
+      "label": "aksworg.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aksworg.ttl",
+      "label": "aksworg.ttl",
+      "occurrences": "2"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Term definitions for singular and plural label properties",
+      "lang": "en",
+      "_id": "55a8dfaa57613119099c4a7c"
+    }
+  ],
+  "issuedAt": "2004-03-28T00:00:00.000Z",
+  "lastDeref": "2014-07-15T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-07-17T00:00:00.000Z",
+  "nsp": "http://purl.org/net/vocab/2004/03/label#",
+  "prefix": "label",
+  "reviews": [
+    {
+      "body": "Annual review : the vocabulary is temporary offline, this should be fixed any time according to the publisher.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-06T00:00:00.000Z",
+      "_id": "55a8dfaa57613119099c4a80"
+    },
+    {
+      "body": "A small, quite old vocabulary. Relies on a rather vague notion of \"RDF term\". Certainly made obsolete by more recent and more expressive ways to handle the terminological information, such as lvont or skosxl.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-05-22T00:00:00.000Z",
+      "_id": "55a8dfaa57613119099c4a7f"
+    },
+    {
+      "body": "Like a few early RDF vocabularies, this one is explicitly importing RDFS and OWL. This is not considered a good practice anymore.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-07-16T00:00:00.000Z",
+      "_id": "55a8dfaa57613119099c4a7e"
+    },
+    {
+      "body": "Annual review OK. The vocabulary is 503 as of today.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-17T00:00:00.000Z",
+      "_id": "55a8dfaa57613119099c4a7d"
+    }
+  ],
+  "tags": [
+    "Vocabularies"
+  ],
+  "titles": [
+    {
+      "value": "label",
+      "lang": "en",
+      "_id": "55a8dfaa57613119099c4a7b"
+    }
+  ],
+  "uri": "http://purl.org/net/vocab/2004/03/label",
+  "versions": [
+    {
+      "name": "v2004-03-28",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/label/versions/2004-03-28.n3",
+      "issued": "2004-03-28T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "4",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://www.w3.org/2000/01/",
+        "http://www.w3.org/2002/07/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://web.resource.org/cc/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e09",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/dan",
+          "label": "Danish",
+          "iso639P3PCode": "dan"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

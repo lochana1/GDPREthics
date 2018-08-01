@@ -1,0 +1,114 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2017-12-25T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "5a41445eb201efd03d3af739",
+      "name": "Nicholas Car"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "This ontology is a version of the ISO TC211, Group for Ontology Management (GOM)'s OWL ontology interpretation of the ISO19160-1:2015 \"Addressing -- Part 1: Conceptual model\" standard (see https://www.iso.org/standard/61710.html) taken from that ontology's source code, published at https://github.com/ISO-TC211/GOM/tree/master/isotc211_GOM_harmonizedOntology/19160-1/2015.",
+      "lang": "en",
+      "_id": "5a414a9fb201efd03d3b0078"
+    }
+  ],
+  "homepage": "http://pid.data.gov.au/websrv/reference/def/ont/iso19160-1-address/ont.ttl",
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2017-11-27T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-12-25T19:00:27.413Z",
+  "nsp": "http://reference.data.gov.au/def/ont/iso19160-1-address#",
+  "prefix": "isoadr",
+  "publisherIds": [
+    {
+      "_id": "5a4147f8b201efd03d3afcfc",
+      "name": "Australian Government Linked Data Working Group"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "This version uses different URIs for the ontology so that they can be made to resolve through the Australian Government Linked Data Working Groups redirect services where the original ontology's URIs do not resolve.\nThis version adds some metadata, such as this explanation, some further annotation properties to better display elements of the ontology and includes a human-readable (HTML) version of the ontology generated from the RDF version.",
+      "agentId": {
+        "_id": "59a58c6f7845e44d19becccc",
+        "name": "Gabriel Kepeklian"
+      },
+      "createdAt": "2017-12-25T00:00:00.000Z",
+      "_id": "5a414a9fb201efd03d3b0077"
+    }
+  ],
+  "tags": [
+    "Vocabularies",
+    "Quality",
+    "Geography",
+    "Tag"
+  ],
+  "titles": [
+    {
+      "value": "ISO19160-1:2015 Address ontology",
+      "lang": "en",
+      "_id": "5a414a9fb201efd03d3b0079"
+    }
+  ],
+  "uri": "http://reference.data.gov.au/def/ont/iso19160-1-address",
+  "versions": [
+    {
+      "name": "v2017-11-27",
+      "issued": "2017-11-27T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "67",
+      "classNumber": "23",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/isoadr/versions/2017-11-27.n3",
+      "_id": "5a414aa5b201efd03d3b007f",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "relImports": [
+        "http://def.isotc211.org/iso19150/-2/2012/",
+        "http://def.isotc211.org/iso19160/-1/2015/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://def.isotc211.org/iso19103/2015/AnyType#",
+        "http://def.isotc211.org/iso19107/2003/GeometryRoot#",
+        "http://def.isotc211.org/iso19115/-1/2014/CitationAndResponsiblePartyInformation#",
+        "http://def.isotc211.org/iso19115/-1/2014/LineageInformation#",
+        "http://def.isotc211.org/iso19135/-1/2015/ExtendedModel#",
+        "http://def.isotc211.org/iso19135/2005/ProceduresForItemRegistration#",
+        "http://def.isotc211.org/iso19152/2012/SpecialClasses#",
+        "http://def.isotc211.org/iso19160/-1/2015/ExternalClasses#",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://def.isotc211.org/iso19150/-2/2012/base#",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

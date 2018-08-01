@@ -1,0 +1,301 @@
+{
+  "__v": 4,
+  "contributorIds": [
+    {
+      "_id": "5abb58870d8ceb4e01493263",
+      "name": "Erwin Folmer"
+    }
+  ],
+  "createdInLOVAt": "2014-09-09T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "5abcb819c7ef5ec931501141",
+      "name": "Kadaster Data Platform"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Basisregistraties Adressen en Gebouwen (BAG) vocabulaire",
+      "lang": "nl",
+      "_id": "5abcb8dfc7ef5ec931501223"
+    },
+    {
+      "value": "Vocabulary for the Dutch key register of buildings and addresses (BAG)",
+      "lang": "en",
+      "_id": "5abcb8dfc7ef5ec931501222"
+    }
+  ],
+  "issuedAt": "2013-11-05T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:43:35.789Z",
+  "lastModifiedInLOVAt": "2018-06-28T13:05:53.757Z",
+  "nsp": "http://bag.basisregistraties.overheid.nl/def/bag#",
+  "prefix": "bag",
+  "publisherIds": [
+    {
+      "_id": "5abb58a10d8ceb4e0149326b",
+      "name": "Basisregistraties Adressen en Gebouwen (BAG)"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Updated metadata",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-09-29T00:00:00.000Z",
+      "_id": "5abcb8dfc7ef5ec931501227"
+    },
+    {
+      "body": "A vocabulary used to publish the Dutch national database of buildings and addresses. This vocabulary is also a nice example of a multilingual vocabulary in Dutch and English!",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2014-09-10T00:00:00.000Z",
+      "_id": "5abcb8dfc7ef5ec931501226"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2016-01-13T00:00:00.000Z",
+      "_id": "5abcb8dfc7ef5ec931501225"
+    },
+    {
+      "body": "The official vocabulary has now changed its URI from http://lod.geodan.nl/vocab/bag to http://bag.basisregistraties.overheid.nl/def/bag\nThe vocabulary is hosted and published by Basisregistraties Adressen en Gebouwen (BAG)",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2018-03-28T00:00:00.000Z",
+      "_id": "5abcb8dfc7ef5ec931501224"
+    }
+  ],
+  "tags": [
+    "Geography"
+  ],
+  "titles": [
+    {
+      "value": "Vocabulary for the Dutch base registration of buildings and addresses (BAG)",
+      "lang": "en",
+      "_id": "5abcb8dfc7ef5ec931501221"
+    }
+  ],
+  "uri": "http://bag.basisregistraties.overheid.nl/def/bag",
+  "versions": [
+    {
+      "name": "v2014-09-19",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/bag/versions/2014-09-19.n3",
+      "issued": "2014-09-18T23:00:00.000Z",
+      "classNumber": "18",
+      "propertyNumber": "34",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://www.opengis.net/ont/geosparql#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/locn#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.opengis.net/ont/geosparql#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://qudt.org/1.1/vocab/unit#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2014.0910",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/bag/versions/2014-09-10.n3",
+      "issued": "2014-09-09T23:00:00.000Z",
+      "classNumber": "18",
+      "propertyNumber": "34",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://www.opengis.net/ont/geosparql#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/locn#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.opengis.net/ont/geosparql#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://qudt.org/1.1/vocab/unit#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2015-01-11",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/bag/versions/2015-01-11.n3",
+      "issued": "2015-01-11T20:43:35.789Z",
+      "classNumber": "18",
+      "propertyNumber": "34",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://www.opengis.net/ont/geosparql",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/locn"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.opengis.net/ont/geosparql",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://qudt.org/1.1/vocab/unit#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2018-03-28",
+      "issued": "2018-03-28T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "29",
+      "classNumber": "29",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/bag/versions/2018-03-28.n3",
+      "_id": "5abb59360d8ceb4e0149329e",
+      "relSpecializes": [
+        "http://www.opengis.net/ont/geosparql",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/prov#",
+        "http://www.w3.org/ns/sparql-service-description"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2018-05-02",
+      "issued": "2018-05-02T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "29",
+      "classNumber": "29",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/bag/versions/2018-05-02.n3",
+      "_id": "5b34dd31cd8de63f0afaa72b",
+      "relSpecializes": [
+        "http://www.opengis.net/ont/geosparql",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/prov#",
+        "http://www.w3.org/ns/sparql-service-description"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

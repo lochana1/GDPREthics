@@ -1,0 +1,103 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-01-11T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "56937c21f2fbe51d43acdb85",
+      "name": "Hervé Martin"
+    },
+    {
+      "_id": "56937bfff2fbe51d43acdb79",
+      "name": "Tales Paiva Nogueira"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "A lightweight ontology for representing semantic trajectories and contextual elements in terms of features of interests and episodes.",
+      "lang": "en",
+      "_id": "56938c0261dfb9a05dd2948a"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2015-11-03T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-01-11T11:15:49.197Z",
+  "nsp": "http://purl.org/net/step#",
+  "prefix": "step",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "Lightweight vocabulary to describe trajectory (path) of object in space and time. E.g. trajectory of a runner capturing speed, temperature, direction, etc. The vocabulary is well documented and linked.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2016-01-11T00:00:00.000Z",
+      "_id": "56938c0261dfb9a05dd29489"
+    }
+  ],
+  "tags": [
+    "Geography",
+    "Time"
+  ],
+  "titles": [
+    {
+      "value": "Semantic Trajectory Episodes",
+      "lang": "en",
+      "_id": "56938c0261dfb9a05dd2948b"
+    }
+  ],
+  "uri": "http://purl.org/net/step",
+  "versions": [
+    {
+      "name": "v0.1",
+      "issued": "2015-11-03T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "15",
+      "classNumber": "15",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/step/versions/2015-11-03.n3",
+      "_id": "56938ee5ff8848f96bd05b89",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [
+        "http://www.opengis.net/ont/sf",
+        "http://www.w3.org/2006/time"
+      ],
+      "relExtends": [
+        "http://purl.oclc.org/NET/ssnx/qu/qu",
+        "http://www.opengis.net/ont/sf",
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2006/time"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

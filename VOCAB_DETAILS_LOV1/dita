@@ -1,0 +1,124 @@
+{
+  "__v": 4,
+  "contributorIds": [],
+  "createdInLOVAt": "2015-03-11T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54ff61b12e3e52df4a3cc032",
+      "name": "Colin Maudry"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The DITA RDF ontology translates the semantics of a subset of the vocabulary described in the DITA 1.2 specification in a format that can be understood in the semantic Web of data. By Colin Maudry, licensed under the terms of the Unlicense (public domain).",
+      "lang": "en",
+      "_id": "5788be8f8c6f955d29bf207d"
+    }
+  ],
+  "homepage": "https://github.com/ColinMaudry/dita-rdf",
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "isDefinedBy": "https://raw.githubusercontent.com/ColinMaudry/dita-rdf/master/dita.ttl",
+  "issuedAt": "2013-01-04T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-07-15T00:00:00.000Z",
+  "nsp": "http://purl.org/dita/ns#",
+  "prefix": "dita",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "The source of this vocabulary, the Darwin Information Typing Architecture (DITA) Version 1.2 is defined at http://docs.oasis-open.org/dita/v1.2/spec/DITA1.2-spec.html. The vocabulary is maintained on GitHub, but unfortunately the GitHub repository is not accessible from the namespace URI.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2015-03-11T00:00:00.000Z",
+      "_id": "5788be8f8c6f955d29bf207f"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-07-15T00:00:00.000Z",
+      "_id": "5788be8f8c6f955d29bf207e"
+    }
+  ],
+  "tags": [
+    "RDF"
+  ],
+  "titles": [
+    {
+      "value": "DITA RDF ontology",
+      "lang": "en",
+      "_id": "5788be8f8c6f955d29bf207c"
+    }
+  ],
+  "uri": "http://purl.org/dita/ns#",
+  "versions": [
+    {
+      "name": "v1.2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/dita/versions/2014-08-03.n3",
+      "issued": "2014-08-03T00:00:00.000Z",
+      "classNumber": "38",
+      "propertyNumber": "57",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "V0",
+      "issued": "2013-01-04T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": true,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

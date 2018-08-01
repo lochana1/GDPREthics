@@ -1,0 +1,143 @@
+{
+  "__v": 1,
+  "contributorIds": [],
+  "createdInLOVAt": "2017-07-31T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "597f0ba7780cc2987e56fa9b",
+      "name": "Ministero dei Beni e delle Attività Culturali e il Turismo (MIBACT)"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f5b",
+      "name": "Aldo Gangemi"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f84",
+      "name": "Andrea Nuzzolese"
+    },
+    {
+      "_id": "54b2be048433ca9ccf1c0f9d",
+      "name": "Giorgia Lodi"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f32",
+      "name": "Silvio Peroni"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f01",
+      "name": "Valentina Presutti"
+    },
+    {
+      "_id": "597f0d71780cc2987e56fd1a",
+      "name": "Chiara Veninata"
+    },
+    {
+      "_id": "597f0d9b780cc2987e56fd89",
+      "name": "Annarita Orsini"
+    },
+    {
+      "_id": "597f0dc4780cc2987e56fdfd",
+      "name": "Luigi Asprino"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The ontology aims at modelling the data on cultural institutes or sites such as data regarding the agents that play a specific role on cultural institutes or sites, the sites themselves, the contact points, all multimedia files which describe the cultural institute or site and any other information useful to the public in order to access the institute or site. Moreover, the ontology represents events that can take place in specific cultural institutes or sites.",
+      "lang": "en",
+      "_id": "597f0dc9780cc2987e56fe0e"
+    }
+  ],
+  "homepage": "http://dati.beniculturali.it/lodview/cis/.html",
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2015-01-12T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-07-31T00:00:00.000Z",
+  "nsp": "http://dati.beniculturali.it/cis/",
+  "prefix": "cis",
+  "publisherIds": [
+    {
+      "_id": "597f0ba7780cc2987e56fa9b",
+      "name": "Ministero dei Beni e delle Attività Culturali e il Turismo (MIBACT)"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "This vocabulary describes data on cultural institutes, their agents, multimedia files, events.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2017-07-31T00:00:00.000Z",
+      "_id": "597f0dc9780cc2987e56fe0f"
+    }
+  ],
+  "tags": [
+    "Events",
+    "Government",
+    "Multimedia"
+  ],
+  "titles": [
+    {
+      "value": "Cultural-ON (Cultural ONtology): Cultural Institute/Site and Cultural Event Ontology",
+      "lang": "en",
+      "_id": "597f0dc9780cc2987e56fe0d"
+    },
+    {
+      "value": "Cultural-ON (Cultural ONtology): Ontologia dei Luoghi della Cultura e degli Eventi Culturali",
+      "lang": "it",
+      "_id": "597f0dc9780cc2987e56fe0c"
+    }
+  ],
+  "uri": "http://dati.beniculturali.it/cultural-ON/cultural-ON.owl",
+  "versions": [
+    {
+      "_id": "597f0cd5780cc2987e56fbfc",
+      "classNumber": "56",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/cis/versions/2016-03-30.n3",
+      "instanceNumber": "23",
+      "issued": "2016-03-29T23:00:00.000Z",
+      "name": "v2.0",
+      "propertyNumber": "90",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

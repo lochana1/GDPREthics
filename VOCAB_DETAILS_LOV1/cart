@@ -1,0 +1,85 @@
+{
+  "__v": 4,
+  "contributorIds": [],
+  "createdInLOVAt": "2015-07-07T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "559cf7771928827f4b01dda2",
+      "name": "Diarmuid Ryan"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "Ontology for representation of cartesian co-ordinates",
+      "lang": "en",
+      "_id": "559cf77d1928827f4b01dda6"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2015-07-03T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-07-08T00:00:00.000Z",
+  "nsp": "http://purl.org/net/cartCoord#",
+  "prefix": "cart",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "A small vocabulary for representating cartesian co-ordinates. However the author needs to have better metadata for capturing the modifications and versions.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-08T00:00:00.000Z",
+      "_id": "559cf77d1928827f4b01dda7"
+    }
+  ],
+  "tags": [
+    "Geography",
+    "Geometry"
+  ],
+  "titles": [
+    {
+      "value": "cartCoordOnt",
+      "lang": "en",
+      "_id": "559cf77d1928827f4b01dda5"
+    }
+  ],
+  "uri": "http://purl.org/net/cartCoord#",
+  "versions": [
+    {
+      "name": "v2015.0703",
+      "issued": "2015-07-03T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "5",
+      "classNumber": "2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/cart/versions/2015-07-03.n3",
+      "_id": "559cf6e31928827f4b01dd6d",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2003/01/geo/wgs84_pos"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

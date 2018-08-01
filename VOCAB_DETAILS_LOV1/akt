@@ -1,0 +1,317 @@
+{
+  "__v": 4,
+  "commentDeref": "Problem while dereferencing or parsing the vocabulary",
+  "createdInLOVAt": "2013-05-20T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fe7",
+      "name": "AKT Project"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-acm.82.rdf",
+      "label": "rkb-explorer-acm.82.rdf",
+      "occurrences": "9216553"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-acm.rdf",
+      "label": "rkb-explorer-acm.rdf",
+      "occurrences": "9216553"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-nsf.79.rdf",
+      "label": "rkb-explorer-nsf.79.rdf",
+      "occurrences": "4886116"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-nsf.rdf",
+      "label": "rkb-explorer-nsf.rdf",
+      "occurrences": "4886116"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-rae2001.20.rdf",
+      "label": "rkb-explorer-rae2001.20.rdf",
+      "occurrences": "1896454"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-rae2001.rdf",
+      "label": "rkb-explorer-rae2001.rdf",
+      "occurrences": "1896454"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-epsrc.1.rdf",
+      "label": "rkb-explorer-epsrc.1.rdf",
+      "occurrences": "197190"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-risks.1.rdf",
+      "label": "rkb-explorer-risks.1.rdf",
+      "occurrences": "138541"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-risks.rdf",
+      "label": "rkb-explorer-risks.rdf",
+      "occurrences": "138541"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-irit.1.rdf",
+      "label": "rkb-explorer-irit.1.rdf",
+      "occurrences": "84283"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-unlocode.1.rdf",
+      "label": "rkb-explorer-unlocode.1.rdf",
+      "occurrences": "49204"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-newcastle.0.rdf",
+      "label": "rkb-explorer-newcastle.0.rdf",
+      "occurrences": "31146"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-ieee.0.rdf",
+      "label": "rkb-explorer-ieee.0.rdf",
+      "occurrences": "26829"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-laas.0.rdf",
+      "label": "rkb-explorer-laas.0.rdf",
+      "occurrences": "7501"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-southampton.0.rdf",
+      "label": "rkb-explorer-southampton.0.rdf",
+      "occurrences": "6378"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-southampton.rdf",
+      "label": "rkb-explorer-southampton.rdf",
+      "occurrences": "6378"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-deploy.0.rdf",
+      "label": "rkb-explorer-deploy.0.rdf",
+      "occurrences": "3318"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-deploy.rdf",
+      "label": "rkb-explorer-deploy.rdf",
+      "occurrences": "3318"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-ibm.0.rdf",
+      "label": "rkb-explorer-ibm.0.rdf",
+      "occurrences": "3275"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-ibm.rdf",
+      "label": "rkb-explorer-ibm.rdf",
+      "occurrences": "3275"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-darmstadt.0.rdf",
+      "label": "rkb-explorer-darmstadt.0.rdf",
+      "occurrences": "2251"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-darmstadt.rdf",
+      "label": "rkb-explorer-darmstadt.rdf",
+      "occurrences": "2251"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-pisa.0.rdf",
+      "label": "rkb-explorer-pisa.0.rdf",
+      "occurrences": "2244"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-budapest.0.rdf",
+      "label": "rkb-explorer-budapest.0.rdf",
+      "occurrences": "1856"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-wiki.0.rdf",
+      "label": "rkb-explorer-wiki.0.rdf",
+      "occurrences": "1625"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-curriculum.0.rdf",
+      "label": "rkb-explorer-curriculum.0.rdf",
+      "occurrences": "1416"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-eurecom.0.rdf",
+      "label": "rkb-explorer-eurecom.0.rdf",
+      "occurrences": "1373"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-roma.0.rdf",
+      "label": "rkb-explorer-roma.0.rdf",
+      "occurrences": "1285"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-courseware.0.rdf",
+      "label": "rkb-explorer-courseware.0.rdf",
+      "occurrences": "731"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-digitaleconomy.0.rdf",
+      "label": "rkb-explorer-digitaleconomy.0.rdf",
+      "occurrences": "633"
+    },
+    {
+      "uri": "http://datahub.io/dataset/hellenic-fire-brigade.24.nt",
+      "label": "hellenic-fire-brigade.24.nt",
+      "occurrences": "600"
+    },
+    {
+      "uri": "http://datahub.io/dataset/hellenic-fire-brigade.rdf",
+      "label": "hellenic-fire-brigade.rdf",
+      "occurrences": "600"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-ulm.rdf",
+      "label": "rkb-explorer-ulm.rdf",
+      "occurrences": "533"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-ft.0.rdf",
+      "label": "rkb-explorer-ft.0.rdf",
+      "occurrences": "496"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-deepblue.0.rdf",
+      "label": "rkb-explorer-deepblue.0.rdf",
+      "occurrences": "206"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-italy.0.rdf",
+      "label": "rkb-explorer-italy.0.rdf",
+      "occurrences": "129"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-lisbon.0.rdf",
+      "label": "rkb-explorer-lisbon.0.rdf",
+      "occurrences": "85"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-cordis.rdf",
+      "label": "rkb-explorer-cordis.rdf",
+      "occurrences": "25"
+    },
+    {
+      "uri": "http://datahub.io/dataset/hellenic-police.nt",
+      "label": "hellenic-police.nt",
+      "occurrences": "15"
+    },
+    {
+      "uri": "http://datahub.io/dataset/hellenic-police.0.rdf",
+      "label": "hellenic-police.0.rdf",
+      "occurrences": "1"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The AKT Reference Ontology has been designed to support the AKT-2 demonstrator (\"AKTive Portal\"), and subsequent activities. The ontology, designed by the AKT-2 group and codified by Enrico Motta, extends Version 1.",
+      "lang": "en",
+      "_id": "57f60938812207ab0361cdcd"
+    }
+  ],
+  "homepage": "http://d3e.open.ac.uk/akt/2002/ref-onto.html",
+  "issuedAt": "2003-02-10T00:00:00.000Z",
+  "lastDeref": "2014-05-15T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-10-06T00:00:00.000Z",
+  "nsp": "http://www.aktors.org/ontology/portal#",
+  "prefix": "akt",
+  "reviews": [
+    {
+      "body": "This vocabulary was produced by the AKT project in 2003. The project has been closed years ago, but this vocabulary is reused a lot, and the publication seems quite stable.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-05-20T00:00:00.000Z",
+      "_id": "57f60938812207ab0361cdd1"
+    },
+    {
+      "body": "This vocabulary is off-line, the domain aktors.org is for sale at review time.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-05-15T00:00:00.000Z",
+      "_id": "57f60938812207ab0361cdd0"
+    },
+    {
+      "body": "The domain aktors.org is back online, and the project content restored, with an ontology description page at http://aktors.org/ontology.htm, but the links to ontology files in this page are broken.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-04-16T00:00:00.000Z",
+      "_id": "57f60938812207ab0361cdcf"
+    },
+    {
+      "body": "Difficult to find the ontology in the new web page.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-10-06T00:00:00.000Z",
+      "_id": "57f60938812207ab0361cdce"
+    }
+  ],
+  "tags": [
+    "Society"
+  ],
+  "titles": [
+    {
+      "value": "AKT Reference Ontology",
+      "lang": "en",
+      "_id": "57f60938812207ab0361cdcc"
+    }
+  ],
+  "uri": "http://www.aktors.org/ontology/portal",
+  "versions": [
+    {
+      "name": "v2003-02-10",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/akt/versions/2003-02-10.n3",
+      "issued": "2003-02-10T00:00:00.000Z",
+      "classNumber": "152",
+      "propertyNumber": "122",
+      "instanceNumber": "62",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.aktors.org/ontology/support#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://www.aktors.org/ontology/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.aktors.org/ontology/support#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

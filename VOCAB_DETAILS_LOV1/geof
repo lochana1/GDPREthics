@@ -1,0 +1,104 @@
+{
+  "__v": 2,
+  "commentDeref": "Problem while dereferencing or parsing the vocabulary",
+  "createdInLOVAt": "2013-05-21T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0f9b",
+      "name": "Femke Reitsma"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "This ontology contains geographic feature classes and associated properties including classes and properties for describing the spatial location of the geographic feature.  The classes and properties have been defined based on an ESRI dataset.",
+      "lang": "en",
+      "_id": "573347bab5cce30e4a3b722a"
+    }
+  ],
+  "issuedAt": "2004-02-20T00:00:00.000Z",
+  "lastDeref": "2014-05-21T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-05-11T00:00:00.000Z",
+  "nsp": "http://www.mindswap.org/2003/owl/geo/geoFeatures20040307.owl#",
+  "prefix": "geof",
+  "reviews": [
+    {
+      "body": "This vocabulary is off-line. The domain mindswap.org is currently hosting a placeholder and is for sale.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-05-21T00:00:00.000Z",
+      "_id": "573347bab5cce30e4a3b722e"
+    },
+    {
+      "body": "Developed by the Mindswap project, this vocabulary has not been developed beyond this 0.01 version. Stability unknown, many concepts have been redefined since in other geographical vocabularies.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-05-21T00:00:00.000Z",
+      "_id": "573347bab5cce30e4a3b722d"
+    },
+    {
+      "body": "Kept for the record. This vocabulary is offline for good.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-05-04T00:00:00.000Z",
+      "_id": "573347bab5cce30e4a3b722c"
+    },
+    {
+      "body": "Kept for record.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-05-11T00:00:00.000Z",
+      "_id": "573347bab5cce30e4a3b722b"
+    }
+  ],
+  "tags": [
+    "Geography"
+  ],
+  "titles": [
+    {
+      "value": "Geo Features",
+      "lang": "en",
+      "_id": "573347bab5cce30e4a3b7229"
+    }
+  ],
+  "uri": "http://www.mindswap.org/2003/owl/geo/geoFeatures20040307.owl",
+  "versions": [
+    {
+      "name": "v0.01",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/geof/versions/2004-02-20.n3",
+      "issued": "2004-02-20T00:00:00.000Z",
+      "classNumber": "55",
+      "propertyNumber": "24",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

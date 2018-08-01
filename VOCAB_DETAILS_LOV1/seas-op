@@ -1,0 +1,91 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-12-09T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54ff72862e3e52df4a3cc076",
+      "name": "Maxime Lefrançois"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The SEAS Operating Ontology defines evaluations of operating features of interest.",
+      "lang": "en",
+      "_id": "584ad3db8a0d14e34d5efc3a"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2016-07-24T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-12-09T15:55:49.584Z",
+  "nsp": "https://w3id.org/seas/",
+  "prefix": "seas-op",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "SEAS Operating Ontology defines evaluations of operating features of interest.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-12-09T00:00:00.000Z",
+      "_id": "584ad3db8a0d14e34d5efc39"
+    }
+  ],
+  "tags": [
+    "Industry"
+  ],
+  "titles": [
+    {
+      "value": "The SEAS Failable System ontology",
+      "lang": "en",
+      "_id": "584ad3db8a0d14e34d5efc3b"
+    }
+  ],
+  "uri": "https://w3id.org/seas/OperatingOntology",
+  "versions": [
+    {
+      "_id": "584ad3de8a0d14e34d5efc3d",
+      "classNumber": "5",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/seas-op/versions/2016-07-24.n3",
+      "instanceNumber": "0",
+      "issued": "2016-07-24T00:00:00.000Z",
+      "name": "v1.0",
+      "propertyNumber": "0",
+      "relSpecializes": [],
+      "relImports": [
+        "https://w3id.org/seas/SystemOntology"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

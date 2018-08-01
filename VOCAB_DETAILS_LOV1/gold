@@ -1,0 +1,200 @@
+{
+  "__v": 1,
+  "commentDeref": "Problem while dereferencing or parsing the vocabulary",
+  "createdInLOVAt": "2014-06-05T23:00:00.000Z",
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/glottolog-langdoc",
+      "label": "Glottolog/Langdoc",
+      "occurrences": "1"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The General Ontology for Linguistic Description (GOLD) was created primarily for applications involving descriptive linguistics.",
+      "lang": "en",
+      "_id": "55d736c5e4ac2b1c4c5a52cf"
+    }
+  ],
+  "isDefinedBy": "http://linguistics-ontology.org/gold-2010.owl",
+  "issuedAt": "2005-03-20T00:00:00.000Z",
+  "lastDeref": "2014-06-05T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-08-21T00:00:00.000Z",
+  "nsp": "http://purl.org/linguistics/gold/",
+  "prefix": "gold",
+  "reviews": [
+    {
+      "body": "Access to the purl namespace is broken, but direct acces to http://linguistics-ontology.org/gold-2010.owl is OK.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-06T00:00:00.000Z",
+      "_id": "55d736c5e4ac2b1c4c5a52d1"
+    },
+    {
+      "body": "Annual review - OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-08-21T00:00:00.000Z",
+      "_id": "55d736c5e4ac2b1c4c5a52d0"
+    }
+  ],
+  "tags": [
+    "Vocabularies"
+  ],
+  "titles": [
+    {
+      "value": "General Ontology for Linguistic Description",
+      "lang": "en",
+      "_id": "55d736c5e4ac2b1c4c5a52ce"
+    }
+  ],
+  "uri": "http://purl.org/linguistics/gold",
+  "versions": [
+    {
+      "name": "v2010",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/gold/versions/2010-01-01.n3",
+      "issued": "2010-01-01T00:00:00.000Z",
+      "classNumber": "501",
+      "propertyNumber": "80",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2009",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/gold/versions/2009-01-01.n3",
+      "issued": "2009-01-01T00:00:00.000Z",
+      "classNumber": "502",
+      "propertyNumber": "80",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2008",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/gold/versions/2008-01-01.n3",
+      "issued": "2008-01-01T00:00:00.000Z",
+      "classNumber": "496",
+      "propertyNumber": "80",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.2",
+      "issued": "2005-06-09T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": false
+    },
+    {
+      "name": "v0.1",
+      "issued": "2005-03-20T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": false
+    }
+  ]
+}

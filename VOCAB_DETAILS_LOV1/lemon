@@ -1,0 +1,275 @@
+{
+  "__v": 3,
+  "createdInLOVAt": "2013-08-23T23:00:00.000Z",
+  "descriptions": [
+    {
+      "value": "Lemon: The lexicon model for ontologies is designed to allow  for descriptions of lexical information regarding ontological elements and other RDF resources. Lemon covers mapping of lexical decomposition, phrase structure, syntax,  variation, morphology, and lexicon-ontology mapping.",
+      "lang": "en",
+      "_id": "578635a28c6f955d29be1bc5"
+    }
+  ],
+  "homepage": "http://www.lemon-model.net/",
+  "lastDeref": "2015-01-11T20:52:15.998Z",
+  "lastModifiedInLOVAt": "2016-07-13T00:00:00.000Z",
+  "nsp": "http://lemon-model.net/lemon#",
+  "prefix": "lemon",
+  "reviews": [
+    {
+      "body": "URI changed to http://lemon-model.net/lemon in new version. The previous http://www.monnet-project.eu/lemon# URI is 404.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-05-25T00:00:00.000Z",
+      "_id": "578635a28c6f955d29be1bc9"
+    },
+    {
+      "body": "Added foaf:homepage",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-08-23T00:00:00.000Z",
+      "_id": "578635a28c6f955d29be1bc8"
+    },
+    {
+      "body": "Annual review. Still no metadata in the RDF file. The date of the last version is the date of upload in LOV.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-05-21T00:00:00.000Z",
+      "_id": "578635a28c6f955d29be1bc7"
+    },
+    {
+      "body": "Added a new version with some Russian translations.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-07-13T00:00:00.000Z",
+      "_id": "578635a28c6f955d29be1bc6"
+    }
+  ],
+  "tags": [
+    "Vocabularies"
+  ],
+  "titles": [
+    {
+      "value": "LExicon Model for ONtologies",
+      "lang": "en",
+      "_id": "578635a28c6f955d29be1bc4"
+    }
+  ],
+  "uri": "http://lemon-model.net/lemon",
+  "versions": [
+    {
+      "name": "v2014-05-26",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lemon/versions/2014-05-26.n3",
+      "issued": "2014-05-25T23:00:00.000Z",
+      "classNumber": "30",
+      "propertyNumber": "54",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2012-10-26",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lemon/versions/2012-10-26.n3",
+      "issued": "2012-10-25T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2012-07-19",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lemon/versions/2012-07-19.n3",
+      "issued": "2012-07-18T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2016-07-13",
+      "issued": "2016-07-13T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "54",
+      "classNumber": "30",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lemon/versions/2016-07-13.n3",
+      "_id": "578635738c6f955d29be1ba6",
+      "relSpecializes": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/rus",
+          "label": "Russian",
+          "iso639P3PCode": "rus"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

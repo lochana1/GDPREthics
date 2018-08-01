@@ -1,0 +1,114 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-06-23T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f59",
+      "name": "Jeni Tennison"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Extension of data cube for civil service junior posts",
+      "lang": "en",
+      "_id": "5965f4cf60bd67a35e912a30"
+    }
+  ],
+  "issuedAt": "2010-10-16T00:00:00.000Z",
+  "lastDeref": "2014-06-19T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-07-12T00:00:00.000Z",
+  "nsp": "http://reference.data.gov.uk/def/organogram/",
+  "prefix": "odv",
+  "reviews": [
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-19T00:00:00.000Z",
+      "_id": "5965f4cf60bd67a35e912a34"
+    },
+    {
+      "body": "One of the reference vocabularies published by data.gov.uk, but does not seem to be used in the data, according to LODStats.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-06-23T00:00:00.000Z",
+      "_id": "5965f4cf60bd67a35e912a33"
+    },
+    {
+      "body": "Annual review OK, but need to be dereferenceable with a human readable documentation. The vocabulary reuses three other vocabularies not yet included in LOV.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-05-20T00:00:00.000Z",
+      "_id": "5965f4cf60bd67a35e912a32"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-07-12T00:00:00.000Z",
+      "_id": "5965f4cf60bd67a35e912a31"
+    }
+  ],
+  "tags": [
+    "Methods"
+  ],
+  "titles": [
+    {
+      "value": "Organogram Data Vocabulary",
+      "lang": "en",
+      "_id": "5965f4cf60bd67a35e912a2f"
+    }
+  ],
+  "uri": "http://reference.data.gov.uk/def/organogram",
+  "versions": [
+    {
+      "name": "v2011-06-11",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/odv/versions/2011-06-11.n3",
+      "issued": "2011-06-10T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "11",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/linked-data/cube",
+        "http://reference.data.gov.uk/def/central-government",
+        "http://reference.data.gov.uk/def/civil-service-grade/",
+        "http://reference.data.gov.uk/def/civil-service-job/",
+        "http://reference.data.gov.uk/def/civil-service-profession/",
+        "http://reference.data.gov.uk/def/intervals",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/ns/org#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/linked-data/cube",
+        "http://rdfs.org/ns/void#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-08-20T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f5b",
+      "name": "Aldo Gangemi"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "An ontology for aligning existing linguistic ontologies, and for describing the research objects of NLP.",
+      "lang": "en",
+      "_id": "56a3c60f37d8a8044b254235"
+    }
+  ],
+  "issuedAt": "2009-06-05T00:00:00.000Z",
+  "lastDeref": "2014-08-11T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-01-23T00:00:00.000Z",
+  "nsp": "http://www.ontologydesignpatterns.org/ont/lmm/LMM_L2.owl#",
+  "prefix": "lmm2",
+  "reviews": [
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-08-12T00:00:00.000Z",
+      "_id": "56a3c60f37d8a8044b254238"
+    },
+    {
+      "body": "Yet another ODP extracted from DUL, with no example of usage.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-08-21T00:00:00.000Z",
+      "_id": "56a3c60f37d8a8044b254237"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-23T00:00:00.000Z",
+      "_id": "56a3c60f37d8a8044b254236"
+    }
+  ],
+  "tags": [
+    "Vocabularies"
+  ],
+  "titles": [
+    {
+      "value": "Lexical MetaModel Level 2",
+      "lang": "en",
+      "_id": "56a3c60f37d8a8044b254234"
+    }
+  ],
+  "uri": "http://www.ontologydesignpatterns.org/ont/lmm/LMM_L2.owl",
+  "versions": [
+    {
+      "name": "v1.2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lmm2/versions/2010-02-09.n3",
+      "issued": "2010-02-09T00:00:00.000Z",
+      "classNumber": "21",
+      "propertyNumber": "7",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+        "http://www.ontologydesignpatterns.org/ont/dul/IOLite.owl",
+        "http://www.ontologydesignpatterns.org/ont/lmm/LMM_L1.owl",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://www.ontologydesignpatterns.org/ont/lmm/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+        "http://www.ontologydesignpatterns.org/ont/dul/IOLite.owl",
+        "http://www.ontologydesignpatterns.org/ont/lmm/LMM_L1.owl"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v1.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lmm2/versions/2009-06-05.n3",
+      "issued": "2009-06-04T23:00:00.000Z",
+      "classNumber": "19",
+      "propertyNumber": "6",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+        "http://www.ontologydesignpatterns.org/ont/dul/IOLite.owl",
+        "http://www.ontologydesignpatterns.org/ont/lmm/LMM_L1.owl",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://www.ontologydesignpatterns.org/ont/lmm/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+        "http://www.ontologydesignpatterns.org/ont/dul/IOLite.owl",
+        "http://www.ontologydesignpatterns.org/ont/lmm/LMM_L1.owl"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

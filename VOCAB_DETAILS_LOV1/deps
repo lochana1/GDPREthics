@@ -1,0 +1,92 @@
+{
+  "__v": 3,
+  "contributorIds": [],
+  "createdInLOVAt": "2015-03-23T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0ec9",
+      "name": "Toby Inkster"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "An extension to DOAP for describing a project's requirements",
+      "lang": "en",
+      "_id": "5784e1270183b1e80fc90547"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2013-07-31T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-07-12T00:00:00.000Z",
+  "nsp": "http://ontologi.es/doap-deps#",
+  "prefix": "deps",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "Extension of DOAP to describe a project's technical requirements",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-03-23T00:00:00.000Z",
+      "_id": "5784e1270183b1e80fc90549"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-07-12T00:00:00.000Z",
+      "_id": "5784e1270183b1e80fc90548"
+    }
+  ],
+  "tags": [
+    "Methods"
+  ],
+  "titles": [
+    {
+      "value": "DOAP Dependencies",
+      "lang": "en",
+      "_id": "5784e1270183b1e80fc90546"
+    }
+  ],
+  "uri": "http://ontologi.es/doap-deps#",
+  "versions": [
+    {
+      "name": "v2013-07-31",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/deps/versions/2013-07-31.n3",
+      "issued": "2013-07-31T00:00:00.000Z",
+      "classNumber": "11",
+      "propertyNumber": "20",
+      "instanceNumber": "14",
+      "datatypeNumber": "6",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://usefulinc.com/ns/doap#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

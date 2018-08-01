@@ -1,0 +1,97 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-06-10T23:00:00.000Z",
+  "descriptions": [
+    {
+      "value": "An ontology of UK Parliament",
+      "lang": "en",
+      "_id": "55e01cac54ef107a63465d2e"
+    }
+  ],
+  "issuedAt": "2010-06-17T00:00:00.000Z",
+  "lastDeref": "2014-06-08T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-08-28T00:00:00.000Z",
+  "nsp": "http://reference.data.gov.uk/def/parliament/",
+  "prefix": "parl",
+  "reviews": [
+    {
+      "body": "The response for the URLs in \"seeAlso\" raise a \"410 - Page archived\"",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-06-11T00:00:00.000Z",
+      "_id": "55e01cac54ef107a63465d31"
+    },
+    {
+      "body": "Annual review. No change.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-09T00:00:00.000Z",
+      "_id": "55e01cac54ef107a63465d30"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-08-28T00:00:00.000Z",
+      "_id": "55e01cac54ef107a63465d2f"
+    }
+  ],
+  "tags": [
+    "Government"
+  ],
+  "titles": [
+    {
+      "value": "Parliament Ontology",
+      "lang": "en",
+      "_id": "55e01cac54ef107a63465d2d"
+    }
+  ],
+  "uri": "http://reference.data.gov.uk/def/parliament",
+  "versions": [
+    {
+      "name": "v2010-06-17",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/parl/versions/2010-06-17.n3",
+      "issued": "2010-06-16T23:00:00.000Z",
+      "classNumber": "7",
+      "propertyNumber": "13",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/org#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/ns/org#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://rdfs.org/ns/void#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-06-02T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0ff6",
+      "name": "National Archives of Australia (NAA)"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The AGLS Metadata Terms Namespace provides URIs for the AGLS Metadata Terms Vocabulary in the context of AGLS Metadata Standard, a set of metadata properties and associated usage guidelines to improve the visibility, manageability and interoperability of online information and services. Vocabulary terms are declared using RDF Schema language to support RDF applications. It will be updated according to AGLS Working Group decisions.",
+      "lang": "en",
+      "_id": "586a46447e341093492b8584"
+    }
+  ],
+  "homepage": "http://www.agls.gov.au/documents/aglsterms/",
+  "issuedAt": "2002-04-17T00:00:00.000Z",
+  "lastDeref": "2014-06-03T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-01-02T00:00:00.000Z",
+  "nsp": "http://www.agls.gov.au/agls/terms/",
+  "prefix": "agls",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0ff6",
+      "name": "National Archives of Australia (NAA)"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-03T00:00:00.000Z",
+      "_id": "586a46447e341093492b8588"
+    },
+    {
+      "body": "This vocabulary seems to wrongly assign the class \"SubjectSchema\" to Dublin Core namespace.(e.g dcterms:SubjectSchema). See http://bit.ly/13gsJBP.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2013-06-02T00:00:00.000Z",
+      "_id": "586a46447e341093492b8587"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-06-02T00:00:00.000Z",
+      "_id": "586a46447e341093492b8586"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-01-02T00:00:00.000Z",
+      "_id": "586a46447e341093492b8585"
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "AGLS Metadata Terms",
+      "lang": "en",
+      "_id": "586a46447e341093492b8583"
+    }
+  ],
+  "uri": "http://www.agls.gov.au/agls/terms",
+  "versions": [
+    {
+      "name": "v2010-06-30",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/agls/versions/2010-06-30.n3",
+      "issued": "2010-06-29T23:00:00.000Z",
+      "classNumber": "14",
+      "propertyNumber": "13",
+      "instanceNumber": "15",
+      "datatypeNumber": "5",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.agls.gov.au/agls/1.2/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2002-04-18",
+      "issued": "2002-04-17T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": true
+    }
+  ]
+}

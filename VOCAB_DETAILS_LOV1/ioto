@@ -1,0 +1,114 @@
+{
+  "__v": 3,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-03-08T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "56dff1beaacd7f0864354b96",
+      "name": "Nicolas Seydoux"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "IoT-O is a core domain Internet of Things ontology. It is intended to model horizontal knowledge about IoT systems and applications, and to be extended with vertical, application specific knowledge.\nIt is constituted of different modules : \n - A sensing module, based on W3C's SSN (http://purl.oclc.org/NET/ssnx/ssn)\n - An acting module, based on SAN (http://www.irit.fr/recherches/MELODI/ontologies/SAN)\n - A service module, based on MSM (http://iserve.kmi.open.ac.uk/ns/msm/msm-2014-09-03.rdf) and hRest (http://www.wsmo.org/ns/hrests)\n - A lifecycle module, based on a lifecycle vocabulary (http://vocab.org/lifecycle/schema-20080603.rdf) and an iot-specific extension (http://www.irit.fr/recherches/MELODI/ontologies/IoT-Lifecycle)\n - An energy module, based on powerOnt (ttp://elite.polito.it/ontologies/poweront.owl)\n\nIoT-O developping team also contributes to the oneM2M IoT interoperability standard.",
+      "lang": "en",
+      "_id": "5809c4e03e5586c53d896dbb"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2015-02-20T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-10-21T00:00:00.000Z",
+  "nsp": "http://www.irit.fr/recherches/MELODI/ontologies/IoT-O#",
+  "prefix": "ioto",
+  "publisherIds": [
+    {
+      "_id": "56dff1cdaacd7f0864354ba1",
+      "name": "IRIT"
+    },
+    {
+      "_id": "56dff1e8aacd7f0864354bbe",
+      "name": "LAAS-CNRS"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Yet another vocabulary for IoT. TODO: Need to add links to imported vocabularies not yet included into LOV.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-03-09T00:00:00.000Z",
+      "_id": "5809c4e03e5586c53d896dbc"
+    }
+  ],
+  "tags": [
+    "Services",
+    "IoT"
+  ],
+  "titles": [
+    {
+      "value": "IoT-O",
+      "lang": "en",
+      "_id": "5809c4e03e5586c53d896dba"
+    }
+  ],
+  "uri": "http://www.irit.fr/recherches/MELODI/ontologies/IoT-O",
+  "versions": [
+    {
+      "name": "v2.0",
+      "issued": "2015-02-20T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "14",
+      "classNumber": "9",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ioto/versions/2015-02-20.n3",
+      "_id": "570246303ead96ab0d7ccec5",
+      "relSpecializes": [
+        "http://iserve.kmi.open.ac.uk/ns/msm",
+        "http://www.w3.org/2005/Incubator/ssn/ssnx/ssn",
+        "http://www.loa-cnr.it/ontologies/DUL.owl#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.wsmo.org/ns/wsmo-lite#"
+      ],
+      "relImports": [
+        "http://elite.polito.it/ontologies/",
+        "http://iserve.kmi.open.ac.uk/ns/msm/",
+        "http://purl.oclc.org/NET/ssnx/",
+        "http://www.irit.fr/recherches/MELODI/ontologies/"
+      ],
+      "relGeneralizes": [
+        "http://www.w3.org/2005/Incubator/ssn/ssnx/ssn"
+      ],
+      "relExtends": [
+        "http://iserve.kmi.open.ac.uk/ns/msm",
+        "http://www.w3.org/2005/Incubator/ssn/ssnx/ssn",
+        "http://www.loa-cnr.it/ontologies/DUL.owl#",
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2006/time",
+        "http://www.wsmo.org/ns/wsmo-lite#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://purl.org/vocommons/voaf",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

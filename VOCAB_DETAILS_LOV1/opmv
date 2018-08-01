@@ -1,0 +1,202 @@
+{
+  "__v": 3,
+  "createdInLOVAt": "2013-06-16T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e55",
+      "name": "Jun Zhao"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "OPMV, the Open Provenance Model Vocabulary, provides terms to enable practitioners of data publishing to publish their data responsibly.",
+      "lang": "en",
+      "_id": "5ad0b0633aba5caf50df1490"
+    }
+  ],
+  "isDefinedBy": "http://www.w3.org/2007/08/pyRdfa/extract?uri=http://open-biomed.sourceforge.net/opmv/ns.html",
+  "issuedAt": "2010-04-14T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:52:20.162Z",
+  "lastModifiedInLOVAt": "2018-04-13T00:00:00.000Z",
+  "nsp": "http://purl.org/net/opmv/ns#",
+  "prefix": "opmv",
+  "reviews": [
+    {
+      "body": "Yet another attempt to model provenance. Mostly made irrelevant by more recent and more standard vocabularies such as PROV-O.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-06-17T00:00:00.000Z",
+      "_id": "5ad0b0633aba5caf50df1494"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-16T00:00:00.000Z",
+      "_id": "5ad0b0633aba5caf50df1493"
+    },
+    {
+      "body": "Annual review - OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-15T00:00:00.000Z",
+      "_id": "5ad0b0633aba5caf50df1492"
+    },
+    {
+      "body": "Annual review - OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2018-04-13T00:00:00.000Z",
+      "_id": "5ad0b0633aba5caf50df1491"
+    }
+  ],
+  "tags": [
+    "Quality"
+  ],
+  "titles": [
+    {
+      "value": "Open Provenance Model Vocabulary",
+      "lang": "en",
+      "_id": "5ad0b0633aba5caf50df148f"
+    }
+  ],
+  "uri": "http://purl.org/net/opmv/ns#",
+  "versions": [
+    {
+      "name": "v2010-10-06",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/opmv/versions/2010-10-06.n3",
+      "issued": "2010-10-05T23:00:00.000Z",
+      "classNumber": "3",
+      "propertyNumber": "13",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2006/time#"
+      ],
+      "relEquivalent": [
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/net/provenance/ns#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2010-08-27",
+      "issued": "2010-08-26T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v2010-05-28",
+      "issued": "2010-05-27T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v2010-05-18",
+      "issued": "2010-05-17T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v2010-05-17",
+      "issued": "2010-05-16T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v2010-04-14",
+      "issued": "2010-04-13T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "__v": 5,
+  "createdInLOVAt": "2012-12-04T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0ffe",
+      "name": "The UniProt Consortium"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/geospecies.8.rdf",
+      "label": "geospecies.8.rdf",
+      "occurrences": "20875"
+    },
+    {
+      "uri": "http://datahub.io/dataset/uniref.rdf",
+      "label": "uniref.rdf",
+      "occurrences": "19"
+    },
+    {
+      "uri": "http://datahub.io/dataset/geospecies.0.rdf",
+      "label": "geospecies.0.rdf",
+      "occurrences": "1"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Properties and classes used for protein annotation",
+      "lang": "en",
+      "_id": "578367430183b1e80fc874c0"
+    }
+  ],
+  "issuedAt": "2012-10-02T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:52:31.825Z",
+  "lastModifiedInLOVAt": "2016-07-11T00:00:00.000Z",
+  "nsp": "http://purl.uniprot.org/core/",
+  "prefix": "uniprot",
+  "reviews": [
+    {
+      "body": "Frequent changes are indicated by the LOV-Bot checking this vocabulary on a daily basis, but it's unclear whether they correspond to significant modifications. Neither versioning or history metadata are provided by the source.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-03-21T00:00:00.000Z",
+      "_id": "578367430183b1e80fc874c5"
+    },
+    {
+      "body": "Update of classes and properties. Although it seems different from the information found on the documentation.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2012-12-04T00:00:00.000Z",
+      "_id": "578367430183b1e80fc874c4"
+    },
+    {
+      "body": "Still no metadata. Backup version uploaded.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-03-24T00:00:00.000Z",
+      "_id": "578367430183b1e80fc874c3"
+    },
+    {
+      "body": "Deleted empty versions. Impossible to upload a new backup version, the content negotiation on the namespace leads to http://www.uniprot.org/core/.rdf, which is an empty RDF file.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-03-24T00:00:00.000Z",
+      "_id": "578367430183b1e80fc874c2"
+    },
+    {
+      "body": "Annual review OK.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-07-11T00:00:00.000Z",
+      "_id": "578367430183b1e80fc874c1"
+    }
+  ],
+  "tags": [
+    "Biology"
+  ],
+  "titles": [
+    {
+      "value": "Uniprot Core Ontology",
+      "lang": "en",
+      "_id": "578367430183b1e80fc874bf"
+    }
+  ],
+  "uri": "http://purl.uniprot.org/core/",
+  "versions": [
+    {
+      "classNumber": "159",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/uniprot/versions/2012-10-03.n3",
+      "instanceNumber": "60",
+      "issued": "2012-10-02T23:00:00.000Z",
+      "name": "v2012-10-03",
+      "propertyNumber": "134",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "__v": 1,
+  "commentDeref": "Problem while dereferencing or parsing the vocabulary",
+  "createdInLOVAt": "2013-06-03T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e93",
+      "name": "Peter J. DeVries"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/geospecies",
+      "label": "GeoSpecies Knowledge Base",
+      "occurrences": "42"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "This is a taxonomy of some observation methods. It is incomplete",
+      "lang": "en",
+      "_id": "55de198754ef107a63464b24"
+    }
+  ],
+  "issuedAt": "2009-01-31T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-08-26T00:00:00.000Z",
+  "nsp": "http://rdf.geospecies.org/methods/observationMethod#",
+  "prefix": "obsm",
+  "reviews": [
+    {
+      "body": "This is one of the vocabularies developed by Peter de Vries in the framework of the TaxonConcept project. Unfortunately it has been through various publication issues, and is not very reliable.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-08-26T00:00:00.000Z",
+      "_id": "55de198754ef107a63464b27"
+    },
+    {
+      "body": "Error 404 not found",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-06-04T00:00:00.000Z",
+      "_id": "55de198754ef107a63464b26"
+    },
+    {
+      "body": "Seems definitely offline",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-08-26T00:00:00.000Z",
+      "_id": "55de198754ef107a63464b25"
+    }
+  ],
+  "tags": [
+    "Biology"
+  ],
+  "titles": [
+    {
+      "value": "Observation Method Ontology",
+      "lang": "en",
+      "_id": "55de198754ef107a63464b23"
+    }
+  ],
+  "uri": "http://rdf.geospecies.org/methods/observationMethod.rdf",
+  "versions": [
+    {
+      "name": "v2009-02-15",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/obsm/versions/2009-02-15.n3",
+      "issued": "2009-02-15T00:00:00.000Z",
+      "classNumber": "30",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

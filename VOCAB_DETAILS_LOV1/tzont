@@ -1,0 +1,115 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-05-19T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0f9c",
+      "name": "Feng Pan"
+    },
+    {
+      "_id": "54b2be048433ca9ccf1c0f9e",
+      "name": "Jerry R. Hobbs"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "A vocabulary to describe time zones and their geographical coverage.",
+      "lang": "en",
+      "_id": "578369fc0183b1e80fc875d8"
+    }
+  ],
+  "issuedAt": "2006-12-31T00:00:00.000Z",
+  "lastDeref": "2014-05-15T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-07-11T00:00:00.000Z",
+  "nsp": "http://www.w3.org/2006/timezone#",
+  "prefix": "tzont",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c1003",
+      "name": "W3C"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Annual review OK. No change.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-05-15T00:00:00.000Z",
+      "_id": "578369fc0183b1e80fc875dc"
+    },
+    {
+      "body": "No metadata in the file itself. According to W3C namespace policy, this vocabulary was published in 2006, hence the date in the version history (approximative placeholder). As for other similar W3C vocabularies, the status is unclear.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-05-19T00:00:00.000Z",
+      "_id": "578369fc0183b1e80fc875db"
+    },
+    {
+      "body": "Version history checked.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-04-07T00:00:00.000Z",
+      "_id": "578369fc0183b1e80fc875da"
+    },
+    {
+      "body": "Annual review - OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-07-11T00:00:00.000Z",
+      "_id": "578369fc0183b1e80fc875d9"
+    }
+  ],
+  "tags": [
+    "Time"
+  ],
+  "titles": [
+    {
+      "value": "Time Zone Ontology",
+      "lang": "en",
+      "_id": "578369fc0183b1e80fc875d7"
+    }
+  ],
+  "uri": "http://www.w3.org/2006/timezone",
+  "versions": [
+    {
+      "name": "v1.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/tzont/versions/2006-12-31.n3",
+      "issued": "2006-12-31T00:00:00.000Z",
+      "classNumber": "10",
+      "propertyNumber": "13",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://www.daml.org/2001/09/countries/",
+        "http://www.daml.ri.cmu.edu/ont/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [
+        "http://www.daml.org/2001/09/countries/iso-3166-ont"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

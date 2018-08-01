@@ -1,0 +1,126 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2017-12-14T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0efc",
+      "name": "Laurens De Vocht"
+    },
+    {
+      "_id": "5a32c40bece6c50213e99bd4",
+      "name": "Erik Mannens"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "Person ontology in Dutch",
+      "lang": "en",
+      "_id": "5a32c6fdece6c50213e99ec5"
+    }
+  ],
+  "homepage": "http://data.vlaanderen.be/ns/#Vocabularia",
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2017-03-31T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-12-14T18:47:10.378Z",
+  "nsp": "http://data.vlaanderen.be/ns/persoon#",
+  "prefix": "bperson",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "Dutch version of the person ontology",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-12-14T00:00:00.000Z",
+      "_id": "5a32c6fdece6c50213e99ec4"
+    }
+  ],
+  "tags": [
+    "Society",
+    "People"
+  ],
+  "titles": [
+    {
+      "value": "Person",
+      "lang": "en",
+      "_id": "5a32c6fdece6c50213e99ec7"
+    },
+    {
+      "value": "Persoon",
+      "lang": "nl",
+      "_id": "5a32c6fdece6c50213e99ec6"
+    }
+  ],
+  "uri": "http://data.vlaanderen.be/ns/persoon",
+  "versions": [
+    {
+      "name": "v2017-03-31",
+      "issued": "2017-03-31T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "26",
+      "classNumber": "23",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/bperson/versions/2017-03-31.n3",
+      "_id": "5a32c700ece6c50213e99ec9",
+      "relSpecializes": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/bio/0.1/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/adms",
+        "http://www.w3.org/ns/org#",
+        "http://www.w3.org/ns/person",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2004/02/skos/core",
+        "http://www.w3.org/ns/adms",
+        "http://www.w3.org/ns/locn",
+        "http://www.w3.org/ns/person"
+      ],
+      "relEquivalent": [
+        "http://purl.org/vocab/bio/0.1/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/02pd/rec54#",
+        "http://www.w3.org/2002/07/owl",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

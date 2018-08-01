@@ -1,0 +1,185 @@
+{
+  "__v": 1,
+  "commentDeref": "Problem while dereferencing or parsing the vocabulary",
+  "createdInLOVAt": "2013-08-23T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be018433ca9ccf1c0e4f",
+      "name": "Gregory Todd Williams"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0eca",
+      "name": "Tim Lebo"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/farmers-markets-geographic-data-united-states.0.ttl",
+      "label": "farmers-markets-geographic-data-united-states.0.ttl",
+      "occurrences": "2137"
+    },
+    {
+      "uri": "http://datahub.io/dataset/farmers-markets-geographic-data-united-states.ttl",
+      "label": "farmers-markets-geographic-data-united-states.ttl",
+      "occurrences": "1354"
+    },
+    {
+      "uri": "http://datahub.io/dataset/biographical-directory-of-the-united-states-congress.0.ttl",
+      "label": "biographical-directory-of-the-united-states-congress.0.ttl",
+      "occurrences": "157"
+    },
+    {
+      "uri": "http://datahub.io/dataset/w3c-provenance-incubator-group-vocabulary-mappings.0.ttl",
+      "label": "w3c-provenance-incubator-group-vocabulary-mappings.0.ttl",
+      "occurrences": "151"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-congressional-districts.0.ttl",
+      "label": "instance-hub-us-congressional-districts.0.ttl",
+      "occurrences": "121"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-people.ttl",
+      "label": "instance-hub-people.ttl",
+      "occurrences": "78"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-organizations.0.ttl",
+      "label": "instance-hub-organizations.0.ttl",
+      "occurrences": "77"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-civil-servants.ttl",
+      "label": "instance-hub-us-civil-servants.ttl",
+      "occurrences": "73"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-toxic-chemicals.0.ttl",
+      "label": "instance-hub-us-toxic-chemicals.0.ttl",
+      "occurrences": "73"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-congressional-committees.0.ttl",
+      "label": "instance-hub-us-congressional-committees.0.ttl",
+      "occurrences": "70"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-countries.ttl",
+      "label": "instance-hub-countries.ttl",
+      "occurrences": "66"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-crops.0.ttl",
+      "label": "instance-hub-us-crops.0.ttl",
+      "occurrences": "66"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-states-and-territories.ttl",
+      "label": "instance-hub-us-states-and-territories.ttl",
+      "occurrences": "11"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-federal-agencies.ttl",
+      "label": "instance-hub-us-federal-agencies.ttl",
+      "occurrences": "8"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Ontology used to describe interpretations of tabular literals to produce RDF",
+      "lang": "en",
+      "_id": "568a53034ee7f7176ff10e9b"
+    }
+  ],
+  "isDefinedBy": "http://sparql.tw.rpi.edu/vocab/conversion.ttl",
+  "issuedAt": "2011-02-09T00:00:00.000Z",
+  "lastDeref": "2014-09-30T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-01-04T00:00:00.000Z",
+  "nsp": "http://purl.org/twc/vocab/conversion/",
+  "prefix": "conversion",
+  "reviews": [
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-10-01T00:00:00.000Z",
+      "_id": "568a53034ee7f7176ff10e9e"
+    },
+    {
+      "body": "Vocabulary describing terms used to make a tool converting tabular files (CSV) into RDF at RPI.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2013-08-24T00:00:00.000Z",
+      "_id": "568a53034ee7f7176ff10e9d"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-04T00:00:00.000Z",
+      "_id": "568a53034ee7f7176ff10e9c"
+    }
+  ],
+  "tags": [
+    "RDF"
+  ],
+  "titles": [
+    {
+      "value": "Conversion Ontology",
+      "lang": "en",
+      "_id": "568a53034ee7f7176ff10e9a"
+    }
+  ],
+  "uri": "http://purl.org/twc/vocab/conversion/",
+  "versions": [
+    {
+      "name": "v2013-04-15",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/conversion/versions/2013-04-15.n3",
+      "issued": "2013-04-14T23:00:00.000Z",
+      "classNumber": "71",
+      "propertyNumber": "53",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://inference-web.org/2.0/pml-provenance.owl",
+        "http://purl.org/twc/ontology/cdm.owl#",
+        "http://rdfs.org/ns/void#",
+        "http://usefulinc.com/ns/doap#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2006/03/test-description#",
+        "http://www.w3.org/ns/sparql-service-description#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [
+        "http://rdfs.org/ns/void#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

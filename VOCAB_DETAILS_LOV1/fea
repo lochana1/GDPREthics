@@ -1,0 +1,113 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2014-07-30T23:00:00.000Z",
+  "descriptions": [
+    {
+      "value": "To facilitate efforts to transform the Federal Government to one that is citizen-centered, results-oriented, and market-based, the Office of Management and Budget (OMB) is developing the Federal Enterprise Architecture (FEA), a business-based framework for Governmentwide improvement.",
+      "lang": "en",
+      "_id": "55abcb9c57613119099d7ba2"
+    }
+  ],
+  "issuedAt": "2012-03-17T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-07-19T16:12:50.952Z",
+  "nsp": "http://vocab.data.gov/def/fea#",
+  "prefix": "fea",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fb4",
+      "name": "Federal government of the United States"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "The version date is taken from the HTML documentation. The changing values of dcterms:modified in the RDF files trigger false positive in version history. This issue is under investigation by the vocabulary publisher. See https://github.com/GSA/data.gov/issues/407.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-07-31T00:00:00.000Z",
+      "_id": "55abcb9c57613119099d7ba4"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-19T00:00:00.000Z",
+      "_id": "55abcb9c57613119099d7ba3"
+    }
+  ],
+  "tags": [
+    "Government"
+  ],
+  "titles": [
+    {
+      "value": "Federal Enterprise Architecture Vocabulary",
+      "lang": "en",
+      "_id": "55abcb9c57613119099d7ba1"
+    }
+  ],
+  "uri": "http://vocab.data.gov/def/fea",
+  "versions": [
+    {
+      "name": "v2012-03-17",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/fea/versions/2012-03-17.n3",
+      "issued": "2012-03-17T00:00:00.000Z",
+      "classNumber": "34",
+      "propertyNumber": "15",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v2015.0626",
+      "issued": "2015-06-26T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "15",
+      "classNumber": "34",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/fea/versions/2015-06-26.n3",
+      "_id": "55abcc8257613119099d7c4c",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

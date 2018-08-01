@@ -1,0 +1,95 @@
+{
+  "__v": 3,
+  "createdInLOVAt": "2013-05-21T23:00:00.000Z",
+  "descriptions": [
+    {
+      "value": "Ontologie pour le domaine de la sécurité: application aux agents mobiles",
+      "lang": "fr",
+      "_id": "55489271e83552eb70883989"
+    },
+    {
+      "value": "Ontology for security of mobile agents",
+      "lang": "en",
+      "_id": "55489271e83552eb70883988"
+    }
+  ],
+  "lastDeref": "2015-01-11T20:52:17.474Z",
+  "lastModifiedInLOVAt": "2018-04-19T13:50:37.156Z",
+  "nsp": "http://securitytoolbox.appspot.com/MASO#",
+  "prefix": "maso",
+  "reviews": [
+    {
+      "body": "According to http://securitytoolbox.appspot.com/, this vocabulary was published by Riad Lekhchine in 2009, no more precise reference.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-05-21T00:00:00.000Z",
+      "_id": "55489271e83552eb7088398c"
+    },
+    {
+      "body": "The quality of this vocabulary content is questionable. The elements have no labels. Would need serious review from domain experts.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-05-21T00:00:00.000Z",
+      "_id": "55489271e83552eb7088398b"
+    },
+    {
+      "body": "Annual review. Kept for the record, direct utilisation in the current state of the vocabulary is not recommended.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-05-05T00:00:00.000Z",
+      "_id": "55489271e83552eb7088398a"
+    }
+  ],
+  "tags": [
+    "Security"
+  ],
+  "titles": [
+    {
+      "value": "Sécurité Agents Mobiles",
+      "lang": "fr",
+      "_id": "55489271e83552eb70883987"
+    },
+    {
+      "value": "Mobile Agents Security",
+      "lang": "en",
+      "_id": "55489271e83552eb70883986"
+    }
+  ],
+  "uri": "http://securitytoolbox.appspot.com/MASO",
+  "versions": [
+    {
+      "name": "v2013-05-03",
+      "issued": "2013-05-03T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "36",
+      "propertyNumber": "52",
+      "classNumber": "70",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/maso/versions/2013-05-03.n3",
+      "_id": "5ad89ead2e909b214fc2cbcc",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

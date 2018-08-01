@@ -1,0 +1,119 @@
+{
+  "__v": 2,
+  "contributorIds": [],
+  "createdInLOVAt": "2015-03-24T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f2e",
+      "name": "Silvia Mazzini"
+    },
+    {
+      "_id": "5511cde13d2602017b0eb4d0",
+      "name": "Regesta"
+    },
+    {
+      "_id": "5511cd6a3d2602017b0eb4cd",
+      "name": "Fondazione Centro di Documentazione Ebraica Contemporanea"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The ontology describing the Shoah domain, proposed here in beta version, aims to formally describe concepts and relationships that characterize the process of persecution and deportation of Jews in Italy between 1943 and 1945.",
+      "lang": "en",
+      "_id": "578d05bb8c6f955d29c02c50"
+    },
+    {
+      "value": "L'ontologia sul dominio \"Shoah\", proposta qui in versione beta, ha l'obiettivo di descrivere in maniera formale i concetti e le relazioni che caratterizzano e specificano il processo di persecuzione e deportazione degli ebrei dall'Italia fra il 1943 e il 1945.",
+      "lang": "it",
+      "_id": "578d05bb8c6f955d29c02c4f"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2014-01-01T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-07-18T00:00:00.000Z",
+  "nsp": "http://dati.cdec.it/lod/shoah/",
+  "prefix": "shoah",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "This ontology was built to describe the data base of 8000 victims of nazi and fascist persecution in Italy, gathered by the CDEC Fundation over years of research to identify and check the individual fate of each person.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-03-24T00:00:00.000Z",
+      "_id": "578d05bb8c6f955d29c02c52"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-07-18T00:00:00.000Z",
+      "_id": "578d05bb8c6f955d29c02c51"
+    }
+  ],
+  "tags": [
+    "People"
+  ],
+  "titles": [
+    {
+      "value": "Shoah Vocabulary Specification",
+      "lang": "en",
+      "_id": "578d05bb8c6f955d29c02c4e"
+    }
+  ],
+  "uri": "http://dati.cdec.it/lod/shoah/",
+  "versions": [
+    {
+      "name": "v2014-01-01",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/shoah/versions/2014-01-01.n3",
+      "issued": "2014-01-01T00:00:00.000Z",
+      "classNumber": "9",
+      "propertyNumber": "53",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://purl.org/vocab/bio/0.1/",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

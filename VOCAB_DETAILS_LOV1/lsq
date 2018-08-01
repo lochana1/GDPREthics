@@ -1,0 +1,95 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-05-13T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "5735f053b5cce30e4a3baa56",
+      "name": "Aidan Hogan"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The Linked SPARQL Queries Vocabulary (LSQ(V)), defined using RDF(S) and OWL, provides a machine readable vocabulary to help describe queries in SPARQL logs and their statistics. The vocabulary builds upon the SPIN vocabulary and the Service Description vocabulary.",
+      "lang": "en",
+      "_id": "5735f14fb5cce30e4a3baa60"
+    }
+  ],
+  "homepage": "http://aksw.github.io/LSQ/",
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2015-09-07T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-05-13T15:23:35.972Z",
+  "nsp": "http://lsq.aksw.org/vocab#",
+  "prefix": "lsq",
+  "publisherIds": [
+    {
+      "_id": "5558f84d30f688c94e81f958",
+      "name": "AKSW Research Group - Leipzig University"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "LSQ vocabulary added into LOV. Datasets and the tool at http://aksw.github.io/LSQ/",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-05-13T00:00:00.000Z",
+      "_id": "5735f14fb5cce30e4a3baa5f"
+    }
+  ],
+  "tags": [
+    "Metadata",
+    "Support"
+  ],
+  "titles": [
+    {
+      "value": "The Linked SPARQL Queries Vocabulary (LSQ(V))",
+      "lang": "en",
+      "_id": "5735f14fb5cce30e4a3baa61"
+    }
+  ],
+  "uri": "http://lsq.aksw.org/vocab",
+  "versions": [
+    {
+      "name": "v2015-09-07",
+      "issued": "2015-09-07T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "20",
+      "classNumber": "6",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lsq/versions/2015-09-07.n3",
+      "_id": "5735f151b5cce30e4a3baa62",
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

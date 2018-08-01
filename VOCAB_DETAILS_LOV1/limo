@@ -1,0 +1,113 @@
+{
+  "__v": 1,
+  "commentDeref": "Problem while dereferencing or parsing the vocabulary",
+  "createdInLOVAt": "2013-10-14T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e7d",
+      "name": "Evangelos Kalampokis"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0ec0",
+      "name": "Eythimios Tambouris"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f10",
+      "name": "Areti Karamanou"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f48",
+      "name": "Konstantinos Tarabanis"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "A Vocabulary for Incorporating Predictive Models into the Linked Data Web",
+      "lang": "en",
+      "_id": "55bb656f7459b3975b63c0a0"
+    }
+  ],
+  "issuedAt": "2013-10-15T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-07-31T00:00:00.000Z",
+  "nsp": "http://purl.org/limo-ontology/limo#",
+  "prefix": "limo",
+  "reviews": [
+    {
+      "body": "Simple vocabulary enabling the representation and exchange of predictive models for statistical data. This first release is an unofficial draft.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-10-15T00:00:00.000Z",
+      "_id": "55bb656f7459b3975b63c0a3"
+    },
+    {
+      "body": "Fixed URI and namespace. The vocabulary cannot be retrieved at review time (problem with purl redirection?)",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-10T00:00:00.000Z",
+      "_id": "55bb656f7459b3975b63c0a2"
+    },
+    {
+      "body": "At review time, the vocabulary is 404.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-31T00:00:00.000Z",
+      "_id": "55bb656f7459b3975b63c0a1"
+    }
+  ],
+  "tags": [
+    "Methods"
+  ],
+  "titles": [
+    {
+      "value": "Linked Statistical Models Vocabulary",
+      "lang": "en",
+      "_id": "55bb656f7459b3975b63c09f"
+    }
+  ],
+  "uri": "http://purl.org/limo-ontology/limo/",
+  "versions": [
+    {
+      "name": "v2013-10-15",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/limo/versions/2013-10-15.n3",
+      "issued": "2013-10-14T23:00:00.000Z",
+      "classNumber": "5",
+      "propertyNumber": "21",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/dc/dcmitype#",
+        "http://purl.org/dc/terms#",
+        "http://purl.org/limo-ontology/limo/limo#",
+        "http://purl.org/linked-data/cube#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1#",
+        "http://purl.org/dc/terms#",
+        "http://purl.org/vocab/vann#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

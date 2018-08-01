@@ -1,0 +1,205 @@
+{
+  "__v": 4,
+  "createdInLOVAt": "2013-06-30T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f5e",
+      "name": "Daniel Garijo"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f5f",
+      "name": "Yolanda Gil"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The Ontology for Provenance and Plans (P-Plan) is an extension of the PROV-O ontology [PROV-O] created to represent the plans that guided the execution of scientific processes. P-Plan describes how the plans are composed and their correspondence to provenance records that describe the execution itself.",
+      "lang": "en",
+      "_id": "58171a2bc1b1a26b516f7978"
+    }
+  ],
+  "homepage": "http://www.opmw.org/model/p-plan/",
+  "issuedAt": "2012-11-10T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-10-31T00:00:00.000Z",
+  "nsp": "http://purl.org/net/p-plan#",
+  "prefix": "p-plan",
+  "reviews": [
+    {
+      "body": "Vocabulary inserted temporarily under Science->Methods. It could be included under a new category for scientific workflows and protocols.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-06-30T00:00:00.000Z",
+      "_id": "58171a2bc1b1a26b516f797c"
+    },
+    {
+      "body": "Record updated with the last version",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-05-18T00:00:00.000Z",
+      "_id": "58171a2bc1b1a26b516f797b"
+    },
+    {
+      "body": "Annual review, fixed version history.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-04-20T00:00:00.000Z",
+      "_id": "58171a2bc1b1a26b516f797a"
+    },
+    {
+      "body": "Annual review, no change.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-10-31T00:00:00.000Z",
+      "_id": "58171a2bc1b1a26b516f7979"
+    }
+  ],
+  "tags": [
+    "Methods"
+  ],
+  "titles": [
+    {
+      "value": "The P-PLAN Ontology",
+      "lang": "en",
+      "_id": "58171a2bc1b1a26b516f7977"
+    }
+  ],
+  "uri": "http://purl.org/net/p-plan#",
+  "versions": [
+    {
+      "name": "v1.3",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/p-plan/versions/2014-03-12.n3",
+      "issued": "2014-03-12T00:00:00.000Z",
+      "classNumber": "7",
+      "propertyNumber": "11",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/ns/prov#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/ns/prov#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v1.2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/p-plan/versions/2013-09-17.n3",
+      "issued": "2013-09-16T23:00:00.000Z",
+      "classNumber": "6",
+      "propertyNumber": "9",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/prov#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/ns/prov#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v1.1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/p-plan/versions/2013-05-17.n3",
+      "issued": "2013-05-16T23:00:00.000Z",
+      "classNumber": "6",
+      "propertyNumber": "8",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/prov#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/ns/prov#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v1.0",
+      "issued": "2012-11-10T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": true
+    }
+  ]
+}

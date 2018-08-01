@@ -1,0 +1,87 @@
+{
+  "__v": 1,
+  "contributorIds": [],
+  "createdInLOVAt": "2015-08-14T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0eb6",
+      "name": "Bart van Leeuwen"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "Vocabulary to describe the response to a incident by emergency services.\nThis is NOT intended to describe the incident itself, it describes the response",
+      "lang": "en",
+      "_id": "55da25a88b5f9f281f4c453c"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2014-12-19T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-08-23T00:00:00.000Z",
+  "nsp": "http://vocab.resc.info/incident#",
+  "prefix": "incident",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "A vocabulary  to describe the response to a incident by emergency services, not the incident itself.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-08-14T00:00:00.000Z",
+      "_id": "55da25a88b5f9f281f4c453d"
+    }
+  ],
+  "tags": [
+    "Methods"
+  ],
+  "titles": [
+    {
+      "value": "Vocabulary to describe incident response by emergency services",
+      "lang": "en",
+      "_id": "55da25a88b5f9f281f4c453b"
+    }
+  ],
+  "uri": "http://vocab.resc.info/incident",
+  "versions": [
+    {
+      "name": "v2015-06-22",
+      "issued": "2015-06-22T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "13",
+      "classNumber": "4",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/incident/versions/2015-06-22.n3",
+      "_id": "55cde42be4ac2b1c4c59a4fc",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/adms",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

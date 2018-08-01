@@ -1,0 +1,81 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-12-07T00:00:00.000Z",
+  "creatorIds": [],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "This ontology describes sensors and observations, and related concepts. It does not describe domain concepts, time, locations, etc. as these are intended to be included from other ontologies via OWL imports.",
+      "lang": "en",
+      "_id": "58481b778a0d14e34d5eb3bc"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "lastModifiedInLOVAt": "2016-12-07T14:23:54.899Z",
+  "nsp": "https://www.w3.org/ns/ssn/",
+  "prefix": "w3c-ssn",
+  "publisherIds": [
+    {
+      "_id": "58481ace8a0d14e34d5eb3b3",
+      "name": "W3C/OGC Spatial Data on the Web Working Group"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "New modular version of the SSN ontology independent of DUL still on progress by the W3C SDW WG. Still missing the issue date",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-12-07T00:00:00.000Z",
+      "_id": "58481b778a0d14e34d5eb3bb"
+    }
+  ],
+  "tags": [
+    "IoT",
+    "Environment"
+  ],
+  "titles": [
+    {
+      "value": "Semantic Sensor Network Ontology",
+      "lang": "en",
+      "_id": "58481b778a0d14e34d5eb3bd"
+    }
+  ],
+  "uri": "https://www.w3.org/ns/ssn",
+  "versions": [
+    {
+      "name": "v2016-12-07",
+      "issued": "2016-12-07T14:23:53.428Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "39",
+      "classNumber": "37",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/w3c-ssn/versions/2016-12-07.n3",
+      "_id": "58481b7a8a0d14e34d5eb3be",
+      "relSpecializes": [
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

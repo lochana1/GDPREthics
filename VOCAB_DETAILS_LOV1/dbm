@@ -1,0 +1,93 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-09-09T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0ef4",
+      "name": "Milos Jovanovik"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "An ontology for the Drug Bureau of Macedonia (DBM).",
+      "lang": "en",
+      "_id": "57d27628a3a9d3a63d7e626f"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2014-09-01T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-09-09T08:45:15.722Z",
+  "nsp": "http://purl.org/net/dbm/ontology#",
+  "prefix": "dbm",
+  "publisherIds": [
+    {
+      "_id": "57c3f7d7a3a9d3a63d7aa310",
+      "name": "FINKI"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "An ontology for representing drugs in Macedonia",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-09-09T00:00:00.000Z",
+      "_id": "57d27628a3a9d3a63d7e626e"
+    }
+  ],
+  "tags": [
+    "Health"
+  ],
+  "titles": [
+    {
+      "value": "DBM Ontology",
+      "lang": "en",
+      "_id": "57d27628a3a9d3a63d7e6270"
+    }
+  ],
+  "uri": "http://purl.org/net/dbm/ontology#",
+  "versions": [
+    {
+      "_id": "57d2762aa3a9d3a63d7e6274",
+      "classNumber": "1",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/dbm/versions/2014-09-01.n3",
+      "instanceNumber": "1",
+      "issued": "2014-09-01T00:00:00.000Z",
+      "name": "v1.1",
+      "propertyNumber": "21",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://wifo5-04.informatik.uni-mannheim.de/drugbank/resource/drugbank/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

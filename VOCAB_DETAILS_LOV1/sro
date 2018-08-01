@@ -1,0 +1,103 @@
+{
+  "__v": 2,
+  "commentDeref": "Problem while dereferencing or parsing the vocabulary",
+  "createdInLOVAt": "2013-05-19T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e68",
+      "name": "Tudor Groza"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f53",
+      "name": "Siegfried Handschuh"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The SALT Rhetorical Ontology externalizes the rhetorical and the argumentation captured in the publication's content.",
+      "lang": "en",
+      "_id": "583a04fecd0ed0472763e113"
+    }
+  ],
+  "lastDeref": "2014-05-16T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-11-26T00:00:00.000Z",
+  "nsp": "http://salt.semanticauthoring.org/ontologies/sro#",
+  "prefix": "sro",
+  "reviews": [
+    {
+      "body": "The date in version history is the one of file upload on LOV server. No date whatsoever either in RDF file or documentation.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-05-19T00:00:00.000Z",
+      "_id": "583a04fecd0ed0472763e117"
+    },
+    {
+      "body": "This vocabulary is waiting for a new home, its domain has changed owner.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-05-16T00:00:00.000Z",
+      "_id": "583a04fecd0ed0472763e116"
+    },
+    {
+      "body": "Creators contacted to make a decision as it is still offline.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2015-04-14T00:00:00.000Z",
+      "_id": "583a04fecd0ed0472763e115"
+    },
+    {
+      "body": "The domain name expired on 10/18/2016 and is pending renewal or deletion, so 404",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-11-26T00:00:00.000Z",
+      "_id": "583a04fecd0ed0472763e114"
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "SALT Rhetorical Ontology",
+      "lang": "en",
+      "_id": "583a04fecd0ed0472763e112"
+    }
+  ],
+  "uri": "http://salt.semanticauthoring.org/ontologies/sro",
+  "versions": [
+    {
+      "name": "v2012-07-03",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/sro/versions/2012-07-03.n3",
+      "issued": "2012-07-02T23:00:00.000Z",
+      "classNumber": "38",
+      "propertyNumber": "11",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://salt.semanticauthoring.org/ontologies/sao"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

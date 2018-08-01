@@ -1,0 +1,92 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-04-15T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "57111a8231bafaef0e78a59d",
+      "name": "Raúl García Castro"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "Ontology including the content ontology design pattern for modelling objects with states.",
+      "lang": "en",
+      "_id": "57111afb31bafaef0e78a5cd"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "lastModifiedInLOVAt": "2016-04-15T16:46:53.260Z",
+  "nsp": "http://delicias.dia.fi.upm.es/ontologies/ObjectWithStates.owl#",
+  "prefix": "obws",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "An ontology for objects and state using design patterns. Lack of human readable documentation and when the vocabulary was first published.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-04-15T00:00:00.000Z",
+      "_id": "57111afb31bafaef0e78a5cc"
+    }
+  ],
+  "tags": [
+    "Methods"
+  ],
+  "titles": [
+    {
+      "value": "Object with states ontology",
+      "lang": "en",
+      "_id": "57111afb31bafaef0e78a5ce"
+    }
+  ],
+  "uri": "http://delicias.dia.fi.upm.es/ontologies/ObjectWithStates.owl",
+  "versions": [
+    {
+      "name": "v2016-04-15",
+      "issued": "2016-04-15T16:46:51.940Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "2",
+      "classNumber": "3",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/obws/versions/2016-04-15.n3",
+      "_id": "57111afd31bafaef0e78a5d1",
+      "relSpecializes": [
+        "http://www.ontologydesignpatterns.org/cp/owl/set.owl#",
+        "http://www.ontologydesignpatterns.org/cp/owl/situation.owl",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://www.ontologydesignpatterns.org/schemas/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

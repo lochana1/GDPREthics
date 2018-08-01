@@ -1,0 +1,103 @@
+{
+  "__v": 6,
+  "contributorIds": [
+    {
+      "_id": "5519780ba5bbb2af08c1cca8",
+      "name": "Information Engineering Research Unit (IERU) of University of Alcala"
+    }
+  ],
+  "createdInLOVAt": "2015-03-29T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "551977c9a5bbb2af08c1cca6",
+      "name": "Enayat Rajabi"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "An ontology and vocabulary used for exposing IEEE LOM, a metadata standard for educational contents, as Linked Data. \nIt is intended as a bridge for linkage of educational metadata into Linked Open Data (LOD). In this ontology, we designed a mapping of IEEE LOM elements to RDF based on Linked Data principles.",
+      "lang": "en"
+    }
+  ],
+  "homepage": "http://data.opendiscoveryspace.eu/",
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2014-05-20T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-03-31T00:00:00.000Z",
+  "nsp": "http://data.opendiscoveryspace.eu/lom_ontology_ods.owl#",
+  "prefix": "lom",
+  "publisherIds": [
+    {
+      "_id": "551a50bba5bbb2af08c1cf13",
+      "name": "Open Discovery Space project"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Metadata added by the publisher, following LOV team recommendations :-)",
+      "createdAt": "2015-03-30T00:00:00.000Z",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      }
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "Learning Object Metadata Ontology",
+      "lang": "en"
+    }
+  ],
+  "uri": "http://data.opendiscoveryspace.eu/lom_ontology_ods.owl",
+  "versions": [
+    {
+      "name": "v1.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lom/versions/2015-03-30.n3",
+      "issued": "2015-03-30T00:00:00.000Z",
+      "classNumber": "17",
+      "propertyNumber": "70",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2006/vcard/ns"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

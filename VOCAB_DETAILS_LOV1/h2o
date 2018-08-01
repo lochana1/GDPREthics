@@ -1,0 +1,127 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2014-02-17T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f07",
+      "name": "Simon Cox"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "This ontology establishes classes corresponding to stereotypes used in ISO-conformant models, as used in the rules for conversion of the ISO TC 211 Harmonized Model from the UML to OWL representations",
+      "lang": "en",
+      "_id": "55de157754ef107a63464aea"
+    }
+  ],
+  "issuedAt": "2012-06-04T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:52:14.041Z",
+  "lastModifiedInLOVAt": "2015-08-26T00:00:00.000Z",
+  "nsp": "http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#",
+  "prefix": "h2o",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0feb",
+      "name": "CSIRO"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "This ontology establishes classes corresponding to stereotypes used in ISO-conformant models, with the contribution of ISO/TC 211 Project Team 19150-2.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2014-02-17T00:00:00.000Z",
+      "_id": "55de157754ef107a63464aec"
+    },
+    {
+      "body": "Annual review. Fixed version history.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-08-26T00:00:00.000Z",
+      "_id": "55de157754ef107a63464aeb"
+    }
+  ],
+  "tags": [
+    "Methods"
+  ],
+  "titles": [
+    {
+      "value": "Ontology for conversion of ISO/TC 211",
+      "lang": "en",
+      "_id": "55de157754ef107a63464ae9"
+    }
+  ],
+  "uri": "http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic",
+  "versions": [
+    {
+      "name": "v2014-01-07",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/h2o/versions/2014-01-07.n3",
+      "issued": "2014-01-07T00:00:00.000Z",
+      "classNumber": "2",
+      "propertyNumber": "7",
+      "instanceNumber": "0",
+      "datatypeNumber": "1",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://purl.org/dc/elements/1.1/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v2012-06-04",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/h2o/versions/2012-06-04.n3",
+      "issued": "2012-06-03T23:00:00.000Z",
+      "classNumber": "2",
+      "propertyNumber": "7",
+      "instanceNumber": "0",
+      "datatypeNumber": "1",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://purl.org/dc/elements/1.1/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

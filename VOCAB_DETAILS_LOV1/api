@@ -1,0 +1,169 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-06-02T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f59",
+      "name": "Jeni Tennison"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f69",
+      "name": "Dave Reynolds"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f71",
+      "name": "Leigh Dodds"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/transport-openuplabs.rdf",
+      "label": "transport-openuplabs.rdf",
+      "occurrences": "29"
+    },
+    {
+      "uri": "http://datahub.io/dataset/education-openuplabs.rdf",
+      "label": "education-openuplabs.rdf",
+      "occurrences": "21"
+    },
+    {
+      "uri": "http://datahub.io/dataset/acorn-sat.rdf",
+      "label": "acorn-sat.rdf",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/acorn-sat.ttl",
+      "label": "acorn-sat.ttl",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/environment-agency-bathing-water-quality.rdf",
+      "label": "environment-agency-bathing-water-quality.rdf",
+      "occurrences": "5"
+    },
+    {
+      "uri": "http://datahub.io/dataset/environment-agency-bathing-water-quality.ttl",
+      "label": "environment-agency-bathing-water-quality.ttl",
+      "occurrences": "5"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Configuration vocabulary for the Linked Data API",
+      "lang": "en",
+      "_id": "586ba5297e341093492c4763"
+    }
+  ],
+  "isDefinedBy": "https://raw.githubusercontent.com/UKGovLD/linked-data-api/master/vocab/api.ttl",
+  "issuedAt": "2010-01-04T00:00:00.000Z",
+  "lastDeref": "2014-06-03T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-01-03T00:00:00.000Z",
+  "nsp": "http://purl.org/linked-data/api/vocab#",
+  "prefix": "api",
+  "reviews": [
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-03T00:00:00.000Z",
+      "_id": "586ba5297e341093492c4767"
+    },
+    {
+      "body": "This vocabulary does not provide yet a human readable documentation.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2013-06-02T00:00:00.000Z",
+      "_id": "586ba5297e341093492c4766"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-06-15T00:00:00.000Z",
+      "_id": "586ba5297e341093492c4765"
+    },
+    {
+      "body": "Added the Github link to the vocabulary",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-01-03T00:00:00.000Z",
+      "_id": "586ba5297e341093492c4764"
+    }
+  ],
+  "tags": [
+    "RDF"
+  ],
+  "titles": [
+    {
+      "value": "Linked Data API Vocabulary",
+      "lang": "en",
+      "_id": "586ba5297e341093492c4762"
+    }
+  ],
+  "uri": "http://purl.org/linked-data/api/vocab#",
+  "versions": [
+    {
+      "name": "v2010-02-19",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/api/versions/2010-02-19.n3",
+      "issued": "2010-02-19T00:00:00.000Z",
+      "classNumber": "19",
+      "propertyNumber": "30",
+      "instanceNumber": "10",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2010-01-04",
+      "issued": "2010-01-04T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": true
+    }
+  ]
+}

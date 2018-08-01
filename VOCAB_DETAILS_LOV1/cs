@@ -1,0 +1,141 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-06-04T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f16",
+      "name": "Sam Tunnicliffe"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f70",
+      "name": "Ian Davis"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/lcsh.0.rdf",
+      "label": "lcsh.0.rdf",
+      "occurrences": "5"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "This vocabulary defines a set of terms for describing changes to resource descriptions.",
+      "lang": "en",
+      "_id": "586a4ca57e341093492b8d3b"
+    }
+  ],
+  "isDefinedBy": "http://vocab.org/changeset/schema.rdf",
+  "issuedAt": "2005-12-14T00:00:00.000Z",
+  "lastDeref": "2014-06-04T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-01-02T00:00:00.000Z",
+  "nsp": "http://purl.org/vocab/changeset/schema#",
+  "prefix": "cs",
+  "reviews": [
+    {
+      "body": "This vocabulary is provided in RDF/XML, JSON and Turtle formats.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-06-04T00:00:00.000Z",
+      "_id": "586a4ca57e341093492b8d3f"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-04T00:00:00.000Z",
+      "_id": "586a4ca57e341093492b8d3e"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-06-15T00:00:00.000Z",
+      "_id": "586a4ca57e341093492b8d3d"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-01-02T00:00:00.000Z",
+      "_id": "586a4ca57e341093492b8d3c"
+    }
+  ],
+  "tags": [
+    "Quality"
+  ],
+  "titles": [
+    {
+      "value": "Changeset",
+      "lang": "en",
+      "_id": "586a4ca57e341093492b8d3a"
+    }
+  ],
+  "uri": "http://purl.org/vocab/changeset/schema",
+  "versions": [
+    {
+      "name": "v2009-05-18",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/cs/versions/2009-05-18.n3",
+      "issued": "2009-05-17T23:00:00.000Z",
+      "classNumber": "1",
+      "propertyNumber": "8",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2005-12-14",
+      "issued": "2005-12-14T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": true
+    }
+  ]
+}

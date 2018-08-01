@@ -1,0 +1,183 @@
+{
+  "__v": 3,
+  "createdInLOVAt": "2013-01-23T00:00:00.000Z",
+  "descriptions": [
+    {
+      "value": "El objetivo de este vocabulario es la creación de un esquema que permita definir los contenidos de información relacionada con procesos electorales y sus resultados.  \t\t\tSe identifican ciertas variables en el dominio de las elecciones, que se modelan a través de ciertos tipos de datos y de propiedades relacionadas entre los recursos.",
+      "lang": "es",
+      "_id": "578d05298c6f955d29c02c45"
+    },
+    {
+      "value": "The objective of this vocabulary is to describe the vote process and results.",
+      "lang": "en",
+      "_id": "578d05298c6f955d29c02c44"
+    }
+  ],
+  "issuedAt": "2012-09-13T00:00:00.000Z",
+  "lastDeref": "2014-02-24T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-07-18T00:00:00.000Z",
+  "nsp": "http://purl.org/ctic/sector-publico/elecciones#",
+  "prefix": "elec",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fac",
+      "name": "CTIC Foundation"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Index of all CTIC vocabularies available at http://data.fundacionctic.org/vocab/",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-02-24T00:00:00.000Z",
+      "_id": "578d05298c6f955d29c02c49"
+    },
+    {
+      "body": "New version of the vocabulary with 20 properties now since 17th, January 2013.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2013-01-23T00:00:00.000Z",
+      "_id": "578d05298c6f955d29c02c48"
+    },
+    {
+      "body": "Annual review OK. Fixed version history",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-03-12T00:00:00.000Z",
+      "_id": "578d05298c6f955d29c02c47"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-07-18T00:00:00.000Z",
+      "_id": "578d05298c6f955d29c02c46"
+    }
+  ],
+  "tags": [
+    "Government"
+  ],
+  "titles": [
+    {
+      "value": "Vocabulario de Resultados Electorales",
+      "lang": "es",
+      "_id": "578d05298c6f955d29c02c43"
+    },
+    {
+      "value": "Vocabulary for Vote Results",
+      "lang": "en",
+      "_id": "578d05298c6f955d29c02c42"
+    }
+  ],
+  "uri": "http://purl.org/ctic/sector-publico/elecciones",
+  "versions": [
+    {
+      "classNumber": "6",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/elec/versions/2013-01-17.n3",
+      "instanceNumber": "0",
+      "issued": "2013-01-17T00:00:00.000Z",
+      "name": "v2013-01-17",
+      "propertyNumber": "20",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://aims.fao.org/aos/geopolitical.owl",
+        "http://purl.org/NET/c4dm/event.owl",
+        "http://purl.org/dc/dcmitype/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://open.vocab.org/terms",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "classNumber": "6",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/elec/versions/2012-09-14.n3",
+      "instanceNumber": "0",
+      "issued": "2012-09-14T00:00:00.000Z",
+      "name": "v2012-09-14",
+      "propertyNumber": "15",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://aims.fao.org/aos/geopolitical.owl",
+        "http://purl.org/NET/c4dm/event.owl",
+        "http://purl.org/dc/dcmitype/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://open.vocab.org/terms",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://web.resource.org/cc/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

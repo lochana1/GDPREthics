@@ -2,6 +2,7 @@ package com.comparision;
 
 import javax.swing.*;
 
+import java.awt.*;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import java.io.File;
@@ -62,20 +63,23 @@ public class QueryWindow extends JFrame {
         questionList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
         questionList.setVisibleRowCount(0);
         questionList.setSelectedIndex(0);
+        questionList.setToolTipText("Queries");
 
         JScrollPane scrollPane = new JScrollPane();
         scrollPane.setViewportView(questionList);
-        scrollPane.setBounds(margin, margin, windowWidth - margin * 4 - 100, 200);
+        scrollPane.setBounds(margin, margin, windowWidth - margin * 2, 350);
 
         JButton executeButton = new JButton();
         executeButton.setText("Execute");
-        executeButton.setBounds(670, 100, 100, 50);
+        executeButton.setBounds(350, 400, 100, 40);
 
         JTextArea resultTextArea = new JTextArea();
         resultTextArea.setEditable(false);
         JScrollPane resultPane = new JScrollPane();
         resultPane.setViewportView(resultTextArea);
-        resultPane.setBounds(margin, 200 + margin * 2, windowWidth - margin * 2, windowHeight - 200 - margin * 4);
+        resultPane.setBackground(Color.black);
+        resultTextArea.setBackground(Color.lightGray);
+        resultPane.setBounds(margin, 400 + margin * 2, windowWidth - margin * 2, windowHeight - 400 - margin * 4);
 
         executeButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {

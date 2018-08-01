@@ -1,0 +1,144 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-03-07T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f36",
+      "name": "Holger Knublauch"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/agris.0.rdf",
+      "label": "agris.0.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/agrovoc-skos.0.rdf",
+      "label": "agrovoc-skos.0.rdf",
+      "occurrences": "1"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "An RDF Schema to syntactically represent SPARQL queries (including SPARQL UPDATE) as RDF triples.",
+      "lang": "en",
+      "_id": "57696bf54a73263716312e62"
+    }
+  ],
+  "lastDeref": "2014-03-14T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-06-21T00:00:00.000Z",
+  "nsp": "http://spinrdf.org/sp#",
+  "prefix": "sp",
+  "reviews": [
+    {
+      "body": "Yearly review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-03-14T00:00:00.000Z",
+      "_id": "57696bf54a73263716312e66"
+    },
+    {
+      "body": "Changed prefix (spinsp > sp) after resolution of conflict with osp",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-03-07T00:00:00.000Z",
+      "_id": "57696bf54a73263716312e65"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-03-24T00:00:00.000Z",
+      "_id": "57696bf54a73263716312e64"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-06-21T00:00:00.000Z",
+      "_id": "57696bf54a73263716312e63"
+    }
+  ],
+  "tags": [
+    "RDF"
+  ],
+  "titles": [
+    {
+      "value": "SPIN SPARQL Syntax",
+      "lang": "en",
+      "_id": "57696bf54a73263716312e61"
+    }
+  ],
+  "uri": "http://spinrdf.org/sp",
+  "versions": [
+    {
+      "name": "V.150",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/sp/versions/2013-09-13.n3",
+      "issued": "2013-09-12T23:00:00.000Z",
+      "classNumber": "56",
+      "propertyNumber": "55",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    },
+    {
+      "name": "v1.40",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/sp/versions/2012-07-03.n3",
+      "issued": "2012-07-02T23:00:00.000Z",
+      "classNumber": "52",
+      "propertyNumber": "51",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

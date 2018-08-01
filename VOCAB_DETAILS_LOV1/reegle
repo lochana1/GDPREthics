@@ -1,0 +1,197 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-08-30T23:00:00.000Z",
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/clean-energy-data-reegle.rdf",
+      "label": "clean-energy-data-reegle.rdf",
+      "occurrences": "21"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Vocabulary used to describe clean energy actors, projects and technologies",
+      "lang": "en",
+      "_id": "5accd09b3aba5caf50dbeda8"
+    }
+  ],
+  "issuedAt": "2011-12-20T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2018-04-10T00:00:00.000Z",
+  "nsp": "http://reegle.info/schema#",
+  "prefix": "reegle",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fc4",
+      "name": "Renewable Energy and Energy Efficiency Partnership"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Information for developers LOD publishers can be found at http://data.reegle.info/developers/guide",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-08-31T00:00:00.000Z",
+      "_id": "5accd09b3aba5caf50dbedac"
+    },
+    {
+      "body": "Fixed version history",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-09T00:00:00.000Z",
+      "_id": "5accd09b3aba5caf50dbedab"
+    },
+    {
+      "body": "Annual review - OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-08-01T00:00:00.000Z",
+      "_id": "5accd09b3aba5caf50dbedaa"
+    },
+    {
+      "body": "Annual review - OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2018-04-10T00:00:00.000Z",
+      "_id": "5accd09b3aba5caf50dbeda9"
+    }
+  ],
+  "tags": [
+    "Environment"
+  ],
+  "titles": [
+    {
+      "value": "Renewable Energy and Energy Efficiency",
+      "lang": "en",
+      "_id": "5accd09b3aba5caf50dbeda7"
+    }
+  ],
+  "uri": "http://reegle.info/schema",
+  "versions": [
+    {
+      "name": "v2014-06-10",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/reegle/versions/2014-06-10.n3",
+      "issued": "2014-06-09T23:00:00.000Z",
+      "classNumber": "5",
+      "propertyNumber": "41",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.geonames.org/ontology#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema-datatypes#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v1.1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/reegle/versions/2012-11-17.n3",
+      "issued": "2012-11-17T00:00:00.000Z",
+      "classNumber": "5",
+      "propertyNumber": "35",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.geonames.org/ontology#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema-datatypes#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v1.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/reegle/versions/2012-11-06.n3",
+      "issued": "2012-11-06T00:00:00.000Z",
+      "classNumber": "5",
+      "propertyNumber": "35",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://www.geonames.org/ontology/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.geonames.org/ontology#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

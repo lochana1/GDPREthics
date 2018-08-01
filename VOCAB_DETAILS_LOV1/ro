@@ -1,0 +1,142 @@
+{
+  "__v": 2,
+  "contributorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f5d",
+      "name": "Oscar Corcho"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f5e",
+      "name": "Daniel Garijo"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f41",
+      "name": "Khalid Belhajjame"
+    }
+  ],
+  "createdInLOVAt": "2015-03-10T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f3c",
+      "name": "Stian Soiland-Reyes"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f89",
+      "name": "Sean Bechhofer"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "This ontology shows how AO and ORE ontologies can be used together to define a ResearchObject. This ontology is further customized by the wf4ever ontology.",
+      "lang": "en",
+      "_id": "57ad8bb4b00b4b1452a88adb"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2013-08-20T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-08-12T00:00:00.000Z",
+  "nsp": "http://purl.org/wf4ever/ro#",
+  "prefix": "ro",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "This document is a specification from the wf4ever project. It does not represent the support or consensus of any standards organisation.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-03-10T00:00:00.000Z",
+      "_id": "57ad8bb4b00b4b1452a88add"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-08-12T00:00:00.000Z",
+      "_id": "57ad8bb4b00b4b1452a88adc"
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "The Research Object Ontology",
+      "lang": "en",
+      "_id": "57ad8bb4b00b4b1452a88ada"
+    }
+  ],
+  "uri": "http://purl.org/wf4ever/ro",
+  "versions": [
+    {
+      "name": "v2013-11-30",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ro/versions/2013-11-30.n3",
+      "issued": "2013-11-30T00:00:00.000Z",
+      "classNumber": "7",
+      "propertyNumber": "2",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://purl.org/ao/",
+        "http://www.openarchives.org/ore/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://purl.org/NET/dc_owl2dl/",
+        "http://purl.org/ao/core/",
+        "http://purl.org/wf4ever/",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/ao/",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2013-08-20",
+      "issued": "2013-08-20T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": true,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

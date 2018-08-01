@@ -1,0 +1,108 @@
+{
+  "__v": 2,
+  "contributorIds": [],
+  "createdInLOVAt": "2017-09-12T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "59b80d2a2ab721804e2fc876",
+      "name": "Vera G. Meister"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The ontology is aimed at the support of research groups in the field of Business Modeling and Knowledge Engineering (BMaKE) in their collaborative work for qualitatively analyzing scholarly papers as well as sharing the results of that analyses and judgements.",
+      "lang": "en",
+      "_id": "59b80ffb2ab721804e2fcb72"
+    }
+  ],
+  "homepage": "https://bmake.th-brandenburg.de/spv",
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2017-06-05T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-09-12T16:49:12.733Z",
+  "nsp": "https://bmake.th-brandenburg.de/spv#",
+  "prefix": "spvqa",
+  "publisherIds": [
+    {
+      "_id": "59b80d702ab721804e2fc8bf",
+      "name": "Vera G. Meister"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "No version mention",
+      "agentId": {
+        "_id": "59a58c6f7845e44d19becccc",
+        "name": "Gabriel Kepeklian"
+      },
+      "createdAt": "2017-09-12T00:00:00.000Z",
+      "_id": "59b80ffb2ab721804e2fcb73"
+    }
+  ],
+  "tags": [
+    "Tag",
+    "Vocabularies",
+    "Quality"
+  ],
+  "titles": [
+    {
+      "value": "Scholarly Papers Vocabulary with Focus on Qualtitative Analysis",
+      "lang": "en",
+      "_id": "59b80ffb2ab721804e2fcb71"
+    }
+  ],
+  "uri": "https://bmake.th-brandenburg.de/spv",
+  "versions": [
+    {
+      "name": "v2017-06-05",
+      "issued": "2017-06-05T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "51",
+      "propertyNumber": "2",
+      "classNumber": "9",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/spvqa/versions/2017-06-05.n3",
+      "_id": "59b80e252ab721804e2fc970",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "https://schema.org/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns",
+        "http://www.w3.org/2004/02/skos/core",
+        "https://schema.org/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

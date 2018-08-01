@@ -1,0 +1,96 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2017-01-09T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54ff72862e3e52df4a3cc076",
+      "name": "Maxime Lefrançois"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "This ontology defines common evaluation interpretation concepts for statistics.",
+      "lang": "en",
+      "_id": "5873a4437e34109349366a9e"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2016-07-21T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-01-09T14:55:32.955Z",
+  "nsp": "https://w3id.org/seas/",
+  "prefix": "seas-stats",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "This ontology defines common evaluation interpretation concepts for statistics for the SEAS module",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-01-09T00:00:00.000Z",
+      "_id": "5873a4437e34109349366a9d"
+    }
+  ],
+  "tags": [
+    "Methods",
+    "Industry"
+  ],
+  "titles": [
+    {
+      "value": "The SEAS Statistics ontology.",
+      "lang": "en",
+      "_id": "5873a4437e34109349366a9f"
+    }
+  ],
+  "uri": "https://w3id.org/seas/StatisticsOntology",
+  "versions": [
+    {
+      "_id": "5873a4467e34109349366aaa",
+      "classNumber": "10",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/seas-stats/versions/2016-07-21.n3",
+      "instanceNumber": "0",
+      "issued": "2016-07-21T00:00:00.000Z",
+      "name": "v1.0",
+      "propertyNumber": "1",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "https://w3id.org/seas/SystemOntology"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-12-20T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f02",
+      "name": "Michael Lutz"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f14",
+      "name": "Phil Archer"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f2b",
+      "name": "Andrea Perego"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/greek-legal-entities.45.rdf",
+      "label": "greek-legal-entities.45.rdf",
+      "occurrences": "188062"
+    },
+    {
+      "uri": "http://datahub.io/dataset/greek-legal-entities.48.rdf",
+      "label": "greek-legal-entities.48.rdf",
+      "occurrences": "188062"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The ISA Programme Location Core Vocabulary provides a minimum set of classes and properties for describing any place in terms of its name, address or geometry. The vocabulary is specifically designed to aid the publication of data that is interoperable with EU INSPIRE Directive.",
+      "lang": "en",
+      "_id": "571f36f1b5cce30e4a2f1aa0"
+    }
+  ],
+  "issuedAt": "2013-11-25T00:00:00.000Z",
+  "lastDeref": "2014-12-02T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-04-26T00:00:00.000Z",
+  "nsp": "http://www.w3.org/ns/locn#",
+  "prefix": "locn",
+  "reviews": [
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-12-02T00:00:00.000Z",
+      "_id": "571f36f1b5cce30e4a2f1aa3"
+    },
+    {
+      "body": "First publication of this vocabulary in the W3C namespace.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-12-20T00:00:00.000Z",
+      "_id": "571f36f1b5cce30e4a2f1aa2"
+    },
+    {
+      "body": "New version of the vocabulary since 2015-03-23.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-12-16T00:00:00.000Z",
+      "_id": "571f36f1b5cce30e4a2f1aa1"
+    }
+  ],
+  "tags": [
+    "Geography",
+    "Geometry"
+  ],
+  "titles": [
+    {
+      "value": "ISA Programme Location Core Vocabulary",
+      "lang": "en",
+      "_id": "571f36f1b5cce30e4a2f1a9f"
+    }
+  ],
+  "uri": "http://www.w3.org/ns/locn",
+  "versions": [
+    {
+      "name": "v2013-12-21",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/locn/versions/2013-12-21.n3",
+      "issued": "2013-12-21T00:00:00.000Z",
+      "classNumber": "2",
+      "propertyNumber": "15",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://purl.org/vocommons/voaf",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/02pd/rec54#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns",
+        "http://www.w3.org/2007/05/powder-s",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2013-11-25",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/locn/versions/2013-11-25.n3",
+      "issued": "2013-11-25T00:00:00.000Z",
+      "classNumber": "2",
+      "propertyNumber": "15",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://labs.mondeca.com/vocab/voaf#",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/02pd/rec54#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns",
+        "http://www.w3.org/2007/05/powder-s",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2015-0323",
+      "issued": "2015-03-23T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "15",
+      "classNumber": "2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/locn/versions/2015-03-23.n3",
+      "_id": "5671a1044ee7f7176fe64c1d",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://purl.org/vocommons/voaf",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/02pd/rec54#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns",
+        "http://www.w3.org/2007/05/powder-s",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

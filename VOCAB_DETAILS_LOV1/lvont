@@ -1,0 +1,286 @@
+{
+  "__v": 2,
+  "contributorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e74",
+      "name": "Bernard Vatant"
+    }
+  ],
+  "createdInLOVAt": "2013-05-26T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f80",
+      "name": "Gerard de Melo"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/lexvo.rdf",
+      "label": "lexvo.rdf",
+      "occurrences": "384874"
+    },
+    {
+      "uri": "http://datahub.io/dataset/ietflang.0.rdf",
+      "label": "ietflang.0.rdf",
+      "occurrences": "2"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "An ontology for natural language terms description, including scripts, languages and meanings. The Lexvo.org ontology is still under development and may not be able to address all needs. Please also consider using the Lingvoj Ontology and the GOLD ontology, whereever appropriate.",
+      "lang": "en",
+      "_id": "555df44ffcb9d2f348248665"
+    }
+  ],
+  "homepage": "http://www.lexvo.org/",
+  "issuedAt": "2010-05-14T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-05-21T00:00:00.000Z",
+  "nsp": "http://lexvo.org/ontology#",
+  "prefix": "lvont",
+  "reviews": [
+    {
+      "body": "Updated ontology metadata. Annual review OK",
+      "agentId": {
+        "_id": "54b2be038433ca9ccf1c0f39",
+        "name": "Amélie Gyrard"
+      },
+      "createdAt": "2014-05-26T00:00:00.000Z",
+      "_id": "555df44ffcb9d2f348248668"
+    },
+    {
+      "body": "This vocabulary was developed to describe the lexvo.org terminological data base. It proposes interesting properties to link \"similar\" resources, alternative to the too strong semantics of owl:sameAs, and more generic in scope of application than SKOS mapping properties.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-05-26T00:00:00.000Z",
+      "_id": "555df44ffcb9d2f348248667"
+    },
+    {
+      "body": "Annual review. Fixed version history",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-05-21T00:00:00.000Z",
+      "_id": "555df44ffcb9d2f348248666"
+    }
+  ],
+  "tags": [
+    "Vocabularies"
+  ],
+  "titles": [
+    {
+      "value": "Lexvo.org Ontology",
+      "lang": "en",
+      "_id": "555df44ffcb9d2f348248664"
+    }
+  ],
+  "uri": "http://lexvo.org/ontology",
+  "versions": [
+    {
+      "name": "v0.22",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lvont/versions/2013-05-24.n3",
+      "issued": "2013-05-23T23:00:00.000Z",
+      "classNumber": "6",
+      "propertyNumber": "30",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2008/05/skos-xl#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [
+        "http://psi.oasis-open.org/iso/639/#",
+        "http://purl.org/linguistics/gold/",
+        "http://www.lingvoj.org/ontology#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://lexvo.org/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v0.21",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lvont/versions/2012-10-09.n3",
+      "issued": "2012-10-08T23:00:00.000Z",
+      "classNumber": "6",
+      "propertyNumber": "29",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2008/05/skos-xl#",
+        "http://xmlns.com/foaf/0.1/",
+        "xsd:"
+      ],
+      "relEquivalent": [
+        "http://psi.oasis-open.org/iso/639/#",
+        "http://purl.org/linguistics/gold/",
+        "http://www.lingvoj.org/ontology#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://lexvo.org/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v0.2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lvont/versions/2012-03-01.n3",
+      "issued": "2012-03-01T00:00:00.000Z",
+      "classNumber": "6",
+      "propertyNumber": "29",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2008/05/skos-xl#",
+        "http://xmlns.com/foaf/0.1/",
+        "xsd:"
+      ],
+      "relEquivalent": [
+        "http://psi.oasis-open.org/iso/639/#",
+        "http://purl.org/linguistics/gold/",
+        "http://www.lingvoj.org/ontology#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://lexvo.org/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v0.1",
+      "issued": "2010-05-14T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": true
+    },
+    {
+      "name": "v0.23",
+      "issued": "2014-01-29T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "35",
+      "classNumber": "6",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lvont/versions/2014-01-29.n3",
+      "_id": "555df426fcb9d2f348248662",
+      "relSpecializes": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2008/05/skos-xl",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [
+        "http://purl.org/linguistics/gold",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://lexvo.org/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2004/02/skos/core",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

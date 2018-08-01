@@ -1,0 +1,220 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-05-20T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0ef8",
+      "name": "Eric Vitiello Jr"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f70",
+      "name": "Ian Davis"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/sandrart-net.0.rdf",
+      "label": "sandrart-net.0.rdf",
+      "occurrences": "866"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "A vocabulary for describing relationships between people",
+      "lang": "en",
+      "_id": "583a0a49cd0ed0472763e150"
+    }
+  ],
+  "homepage": "http://vocab.org/relationship/.html",
+  "isDefinedBy": "http://vocab.org/relationship/.rdf",
+  "issuedAt": "2004-02-11T00:00:00.000Z",
+  "lastDeref": "2014-05-18T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-11-26T00:00:00.000Z",
+  "nsp": "http://purl.org/vocab/relationship/",
+  "prefix": "rel",
+  "reviews": [
+    {
+      "body": "This vocabulary declares equivalences with elements of a preliminary version in the namespace http://www.perceive.net/schemas/relationship. This namespace is no more dereferencable, but the version still online at http://www.perceive.net/schemas/20031015/relationship/relationship.rdf.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-05-20T00:00:00.000Z",
+      "_id": "583a0a49cd0ed0472763e154"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-05-18T00:00:00.000Z",
+      "_id": "583a0a49cd0ed0472763e153"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-04-27T00:00:00.000Z",
+      "_id": "583a0a49cd0ed0472763e152"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-11-26T00:00:00.000Z",
+      "_id": "583a0a49cd0ed0472763e151"
+    }
+  ],
+  "tags": [
+    "People"
+  ],
+  "titles": [
+    {
+      "value": "Relationship",
+      "lang": "en",
+      "_id": "583a0a49cd0ed0472763e14f"
+    }
+  ],
+  "uri": "http://purl.org/vocab/relationship/",
+  "versions": [
+    {
+      "name": "v2010-04-19",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/rel/versions/2010-04-19.n3",
+      "issued": "2010-04-19T00:00:00.000Z",
+      "classNumber": "1",
+      "propertyNumber": "34",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [
+        "http://www.perceive.net/schemas/relationship/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://open.vocab.org/terms",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2010-02-09",
+      "issued": "2010-02-09T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": true
+    },
+    {
+      "name": "v2009-05-15",
+      "issued": "2009-05-14T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": true
+    },
+    {
+      "name": "v2005-08-10",
+      "issued": "2005-08-09T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": true
+    },
+    {
+      "name": "v2004-02-11",
+      "issued": "2004-02-11T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": true
+    },
+    {
+      "name": "v2003-10-15",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/rel/versions/2003-10-15.n3",
+      "issued": "2003-10-14T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": true
+    }
+  ]
+}

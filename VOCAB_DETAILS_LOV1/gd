@@ -1,0 +1,98 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2014-07-30T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f56",
+      "name": "George Thomas"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/states.ttl",
+      "label": "states.ttl",
+      "occurrences": "51"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "A RDF Schema that defines concepts and relationships common to all Open Government Data",
+      "lang": "en",
+      "_id": "55abd15a57613119099d7fb2"
+    }
+  ],
+  "homepage": "http://vocab.data.gov/gd.html",
+  "issuedAt": "2011-11-21T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-07-19T00:00:00.000Z",
+  "nsp": "http://reference.data.gov/def/govdata/",
+  "prefix": "gd",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fb4",
+      "name": "Federal government of the United States"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "The version date is taken from the HTML documentation. The changing values of dcterms:modified in the RDF files trigger false positive in version history. This issue is under investigation by the vocabulary publisher. See https://github.com/GSA/data.gov/issues/407.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-07-31T00:00:00.000Z",
+      "_id": "55abd15a57613119099d7fb4"
+    },
+    {
+      "body": "Added homepage as indicated in the machine readable format. However, there is still an issue between the last update field in the HTML file and the RDF files.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-19T00:00:00.000Z",
+      "_id": "55abd15a57613119099d7fb3"
+    }
+  ],
+  "tags": [
+    "Government"
+  ],
+  "titles": [
+    {
+      "value": "Government Data Vocabulary",
+      "lang": "en",
+      "_id": "55abd15a57613119099d7fb1"
+    }
+  ],
+  "uri": "http://vocab.data.gov/gd",
+  "versions": [
+    {
+      "name": "v2011-11-21",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/gd/versions/2011-11-21.n3",
+      "issued": "2011-11-21T00:00:00.000Z",
+      "classNumber": "8",
+      "propertyNumber": "9",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

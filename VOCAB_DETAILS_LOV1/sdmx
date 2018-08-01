@@ -1,0 +1,151 @@
+{
+  "__v": 3,
+  "contributorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e96",
+      "name": "Richard Cyganiak"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f59",
+      "name": "Jeni Tennison"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f69",
+      "name": "Dave Reynolds"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f70",
+      "name": "Ian Davis"
+    }
+  ],
+  "createdInLOVAt": "2013-05-23T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fdc",
+      "name": "SDMX"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/istat-immigration.639.rdf",
+      "label": "istat-immigration.639.rdf",
+      "occurrences": "11"
+    },
+    {
+      "uri": "http://datahub.io/dataset/transparency-linked-data.0.nt",
+      "label": "transparency-linked-data.0.nt",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/bfs-linked-data.rdf",
+      "label": "bfs-linked-data.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/world-bank-linked-data.4.rdf",
+      "label": "world-bank-linked-data.4.rdf",
+      "occurrences": "1"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "This vocabulary extends the data cube vocabulary to support publication of statistical data in RDF, using an information model based on SDMX",
+      "lang": "en",
+      "_id": "5783c5090183b1e80fc8823e"
+    }
+  ],
+  "homepage": "http://publishing-statistical-data.googlecode.com/svn/trunk/specs/src/main/html/index.html",
+  "issuedAt": "2010-02-05T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-07-11T00:00:00.000Z",
+  "nsp": "http://purl.org/linked-data/sdmx#",
+  "prefix": "sdmx",
+  "reviews": [
+    {
+      "body": "SDMX and its specifications for \"dimension\" and \"measure\" are extensively used by statistical linked data.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-05-23T00:00:00.000Z",
+      "_id": "5783c5090183b1e80fc88242"
+    },
+    {
+      "body": "SDMX vocabulary is still growing in reuse in the LOD cloud. See this diagram at http://270a.info/ to have an idea of the \"big picture\"",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2014-05-22T00:00:00.000Z",
+      "_id": "5783c5090183b1e80fc88241"
+    },
+    {
+      "body": "Annual review. Fixed version history",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-05-05T00:00:00.000Z",
+      "_id": "5783c5090183b1e80fc88240"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-07-11T00:00:00.000Z",
+      "_id": "5783c5090183b1e80fc8823f"
+    }
+  ],
+  "tags": [
+    "Methods"
+  ],
+  "titles": [
+    {
+      "value": "SDMX-RDF vocabulary",
+      "lang": "en",
+      "_id": "5783c5090183b1e80fc8823d"
+    }
+  ],
+  "uri": "http://purl.org/linked-data/sdmx",
+  "versions": [
+    {
+      "name": "v0.3",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/sdmx/versions/2010-07-22.n3",
+      "issued": "2010-07-22T00:00:00.000Z",
+      "classNumber": "12",
+      "propertyNumber": "1",
+      "instanceNumber": "1",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/linked-data/cube",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/linked-data/cube"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://dublincore.org/documents/dcmi-terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2012-08-09T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e96",
+      "name": "Richard Cyganiak"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f11",
+      "name": "Chris Bizer"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "This document specifies the D2RQ mapping language. D2RQ is a declarative language to describe mappings between relational database schemata and OWL/RDFS ontologies.",
+      "lang": "en",
+      "_id": "56719ed04ee7f7176fe64bfe"
+    }
+  ],
+  "homepage": "http://d2rq.org/",
+  "isDefinedBy": "http://d2rq.org/terms/d2rq.ttl",
+  "issuedAt": "2004-06-22T00:00:00.000Z",
+  "lastDeref": "2014-11-20T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-12-16T00:00:00.000Z",
+  "nsp": "http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#",
+  "prefix": "d2rq",
+  "reviews": [
+    {
+      "body": "The vocabulary is not accessible from its declared namespace or URI at review time.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-11-20T00:00:00.000Z",
+      "_id": "56719ed04ee7f7176fe64c02"
+    },
+    {
+      "body": "Vocabulary inserted into the LOV ecosystem. History retrieved from release notes at https://github.com/d2rq/d2rq/blob/d871bbdde4e0a7ebd96ca66adc76d918cb7548f3/RELEASE_NOTES.md",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2012-08-10T00:00:00.000Z",
+      "_id": "56719ed04ee7f7176fe64c01"
+    },
+    {
+      "body": "The vocabulary is associated to the tool D2RQ platform for accessing relational databases as RDF graphs, supporting R2RML mapping language.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2013-10-29T00:00:00.000Z",
+      "_id": "56719ed04ee7f7176fe64c00"
+    },
+    {
+      "body": "Annual review OK.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-12-16T00:00:00.000Z",
+      "_id": "56719ed04ee7f7176fe64bff"
+    }
+  ],
+  "tags": [
+    "RDF"
+  ],
+  "titles": [
+    {
+      "value": "D2RQ - Language Specification",
+      "lang": "en",
+      "_id": "56719ed04ee7f7176fe64bfd"
+    }
+  ],
+  "uri": "http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1",
+  "versions": [
+    {
+      "name": "v0.8",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/d2rq/versions/2012-03-12.n3",
+      "issued": "2012-03-12T00:00:00.000Z",
+      "classNumber": "12",
+      "propertyNumber": "68",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://jena.hpl.hp.com/2005/11/Assembler#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://jena.hpl.hp.com/2005/11/Assembler#",
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.7",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/d2rq/versions/2009-08-12.n3",
+      "issued": "2009-08-11T23:00:00.000Z",
+      "classNumber": "11",
+      "propertyNumber": "60",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://jena.hpl.hp.com/2005/11/Assembler#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://jena.hpl.hp.com/2005/11/Assembler#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.6",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/d2rq/versions/2009-02-19.n3",
+      "issued": "2009-02-19T00:00:00.000Z",
+      "classNumber": "11",
+      "propertyNumber": "53",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://jena.hpl.hp.com/2005/11/Assembler#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://jena.hpl.hp.com/2005/11/Assembler#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.51",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/d2rq/versions/2007-10-24.n3",
+      "issued": "2007-10-23T23:00:00.000Z",
+      "classNumber": "11",
+      "propertyNumber": "44",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://jena.hpl.hp.com/2005/11/Assembler#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://jena.hpl.hp.com/2005/11/Assembler#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.5",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/d2rq/versions/2006-10-26.n3",
+      "issued": "2006-10-25T23:00:00.000Z",
+      "classNumber": "11",
+      "propertyNumber": "43",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://jena.hpl.hp.com/2005/11/Assembler#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://jena.hpl.hp.com/2005/11/Assembler#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.4",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/d2rq/versions/2005-10-25.n3",
+      "issued": "2005-10-24T23:00:00.000Z",
+      "classNumber": "9",
+      "propertyNumber": "41",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.3",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/d2rq/versions/2005-04-29.n3",
+      "issued": "2005-04-28T23:00:00.000Z",
+      "classNumber": "9",
+      "propertyNumber": "41",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/d2rq/versions/2004-08-12.n3",
+      "issued": "2004-08-11T23:00:00.000Z",
+      "classNumber": "8",
+      "propertyNumber": "37",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/d2rq/versions/2004-06-22.n3",
+      "issued": "2004-06-21T23:00:00.000Z",
+      "classNumber": "5",
+      "propertyNumber": "21",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

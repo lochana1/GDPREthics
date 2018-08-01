@@ -1,0 +1,95 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2017-12-25T00:00:00.000Z",
+  "creatorIds": [],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "This Agreements Ontology is designed to model 'agreements' which are social contracts that include licenses, laws, contracts, Memoranda of Understanding, standards and definitional metadata. Its purpose is to support data sharing by making explicit the relationships between agreements and data and agreements and Agents (people and organisations). Eventually it will also help with the interplay between different classes of agreements.",
+      "lang": "en",
+      "_id": "5a4141b8b201efd03d3af350"
+    }
+  ],
+  "homepage": "http://promsns.org/def/agr/agr.html",
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2016-09-12T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-12-25T18:23:09.744Z",
+  "nsp": "http://promsns.org/def/agr#",
+  "prefix": "agr",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "agentId": {
+        "_id": "59a58c6f7845e44d19becccc",
+        "name": "Gabriel Kepeklian"
+      },
+      "createdAt": "2017-12-25T00:00:00.000Z",
+      "_id": "5a4141b8b201efd03d3af34f"
+    }
+  ],
+  "tags": [
+    "Government",
+    "Contracts"
+  ],
+  "titles": [
+    {
+      "value": "Agreements ontology",
+      "lang": "en",
+      "_id": "5a4141b8b201efd03d3af351"
+    }
+  ],
+  "uri": "http://promsns.org/def/agr",
+  "versions": [
+    {
+      "name": "v2017-10-09",
+      "issued": "2017-10-09T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "10",
+      "propertyNumber": "9",
+      "classNumber": "4",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/agr/versions/2017-10-09.n3",
+      "_id": "5a4141bcb201efd03d3af357",
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core",
+        "http://www.w3.org/ns/prov#"
+      ],
+      "relImports": [
+        "http://creativecommons.org/",
+        "http://dublincore.org/2012/06/14/",
+        "http://www.w3.org/2004/02/skos/",
+        "http://www.w3.org/ns/",
+        "http://www.w3.org/ns/prov-o#"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/ns/prov#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

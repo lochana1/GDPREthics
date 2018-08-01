@@ -1,0 +1,90 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-06-13T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e95",
+      "name": "Pieter Colpaert"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "This document gives URIs to all terms used within Datex II. the Datex standard was developed for information exchange between traffic management centres, traffic information centres and service providers in Europe",
+      "lang": "en",
+      "_id": "575e6f74a7910dac495e4e27"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2016-05-23T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-06-13T08:31:52.864Z",
+  "nsp": "http://vocab.datex.org/terms#",
+  "prefix": "datex",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "An example mapping of DATEX II to an OWL ontology",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2016-06-13T00:00:00.000Z",
+      "_id": "575e6f74a7910dac495e4e26"
+    }
+  ],
+  "tags": [
+    "Travel",
+    "Services",
+    "Government"
+  ],
+  "titles": [
+    {
+      "value": "Linked Datex II",
+      "lang": "en",
+      "_id": "575e6f74a7910dac495e4e28"
+    }
+  ],
+  "uri": "http://vocab.datex.org/terms#",
+  "versions": [
+    {
+      "name": "v2016-06-13",
+      "issued": "2016-06-13T08:31:49.891Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "1336",
+      "classNumber": "389",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/datex/versions/2016-06-13.n3",
+      "_id": "575e6f78a7910dac495e4e29",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

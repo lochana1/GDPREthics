@@ -1,0 +1,396 @@
+{
+  "__v": 2,
+  "contributorIds": [
+    {
+      "_id": "54b2be018433ca9ccf1c0e44",
+      "name": "Arofan Gregory"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0e96",
+      "name": "Richard Cyganiak"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f59",
+      "name": "Jeni Tennison"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f69",
+      "name": "Dave Reynolds"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f78",
+      "name": "Ian Dickinson"
+    }
+  ],
+  "createdInLOVAt": "2013-05-23T23:00:00.000Z",
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/fao-linked-data.70.rdf",
+      "label": "fao-linked-data.70.rdf",
+      "occurrences": "14393394"
+    },
+    {
+      "uri": "http://datahub.io/dataset/istat-immigration.639.rdf",
+      "label": "istat-immigration.639.rdf",
+      "occurrences": "432211"
+    },
+    {
+      "uri": "http://datahub.io/dataset/odc-population-2005.0.ttl",
+      "label": "odc-population-2005.0.ttl",
+      "occurrences": "68756"
+    },
+    {
+      "uri": "http://datahub.io/dataset/english-index-of-multiple-deprivation-ranking-2010",
+      "label": "English Index of Multiple Deprivation Ranking 2010",
+      "occurrences": "64964"
+    },
+    {
+      "uri": "http://datahub.io/dataset/english-index-of-multiple-deprivation-score-2010.0.ttl",
+      "label": "english-index-of-multiple-deprivation-score-2010.0.ttl",
+      "occurrences": "64964"
+    },
+    {
+      "uri": "http://datahub.io/dataset/odc-imd-rank-2007.0.ttl",
+      "label": "odc-imd-rank-2007.0.ttl",
+      "occurrences": "64964"
+    },
+    {
+      "uri": "http://datahub.io/dataset/scotland-pupil-numbers-and-exam-results-2008",
+      "label": "Scotland pupil numbers and exam results 2008",
+      "occurrences": "22248"
+    },
+    {
+      "uri": "http://datahub.io/dataset/scoreboard.",
+      "label": "scoreboard.",
+      "occurrences": "18020"
+    },
+    {
+      "uri": "http://datahub.io/dataset/transparency-linked-data.9.nt",
+      "label": "transparency-linked-data.9.nt",
+      "occurrences": "7856"
+    },
+    {
+      "uri": "http://datahub.io/dataset/global-hunger-index-2011.rdf",
+      "label": "global-hunger-index-2011.rdf",
+      "occurrences": "5874"
+    },
+    {
+      "uri": "http://datahub.io/dataset/the-eurostat-linked-data.1.rdf",
+      "label": "the-eurostat-linked-data.1.rdf",
+      "occurrences": "5338"
+    },
+    {
+      "uri": "http://datahub.io/dataset/global-hunger-index.0.",
+      "label": "global-hunger-index.0.",
+      "occurrences": "3156"
+    },
+    {
+      "uri": "http://datahub.io/dataset/icane.rdf",
+      "label": "icane.rdf",
+      "occurrences": "367"
+    },
+    {
+      "uri": "http://datahub.io/dataset/world-bank-linked-data.rdf",
+      "label": "world-bank-linked-data.rdf",
+      "occurrences": "251"
+    },
+    {
+      "uri": "http://datahub.io/dataset/transparency-linked-data.0.nt",
+      "label": "transparency-linked-data.0.nt",
+      "occurrences": "69"
+    },
+    {
+      "uri": "http://datahub.io/dataset/the-eurostat-linked-data.rdf",
+      "label": "the-eurostat-linked-data.rdf",
+      "occurrences": "28"
+    },
+    {
+      "uri": "http://datahub.io/dataset/environment-agency-bathing-water-quality.rdf",
+      "label": "environment-agency-bathing-water-quality.rdf",
+      "occurrences": "20"
+    },
+    {
+      "uri": "http://datahub.io/dataset/environment-agency-bathing-water-quality.ttl",
+      "label": "environment-agency-bathing-water-quality.ttl",
+      "occurrences": "20"
+    },
+    {
+      "uri": "http://datahub.io/dataset/uk-gdp-since-1948.0.ttl",
+      "label": "uk-gdp-since-1948.0.ttl",
+      "occurrences": "19"
+    },
+    {
+      "uri": "http://datahub.io/dataset/fao-linked-data.rdf",
+      "label": "fao-linked-data.rdf",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/unodc.rdf",
+      "label": "unodc.rdf",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/ecb-linked-data.rdf",
+      "label": "ecb-linked-data.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/english-index-of-multiple-deprivation-score-2010.ttl",
+      "label": "english-index-of-multiple-deprivation-score-2010.ttl",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/oecd-linked-data.rdf",
+      "label": "oecd-linked-data.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/lichfield-spending.rdf",
+      "label": "lichfield-spending.rdf",
+      "occurrences": "1"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "This vocabulary allows multi-dimensional data, such as statistics, to be published in RDF.",
+      "lang": "en",
+      "_id": "576a58fa4a73263716316bb3"
+    }
+  ],
+  "homepage": "http://www.w3.org/TR/vocab-data-cube/",
+  "issuedAt": "2010-07-12T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-06-22T00:00:00.000Z",
+  "nsp": "http://purl.org/linked-data/cube#",
+  "prefix": "qb",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c1003",
+      "name": "W3C"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-07-30T00:00:00.000Z",
+      "_id": "576a58fa4a73263716316bb8"
+    },
+    {
+      "body": "A fundamental vocabulary for the publication of statistical data, used among others by World Bank and Eurostat linked data.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-05-24T00:00:00.000Z",
+      "_id": "576a58fa4a73263716316bb7"
+    },
+    {
+      "body": "File modified at 2013-07-26 without change of version number.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-07-30T00:00:00.000Z",
+      "_id": "576a58fa4a73263716316bb6"
+    },
+    {
+      "body": "Annual review OK.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-13T00:00:00.000Z",
+      "_id": "576a58fa4a73263716316bb5"
+    },
+    {
+      "body": "Added W3C Rec document as homepage",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-06-22T00:00:00.000Z",
+      "_id": "576a58fa4a73263716316bb4"
+    }
+  ],
+  "tags": [
+    "Methods",
+    "W3C Rec"
+  ],
+  "titles": [
+    {
+      "value": "The data cube vocabulary",
+      "lang": "en",
+      "_id": "576a58fa4a73263716316bb2"
+    }
+  ],
+  "uri": "http://purl.org/linked-data/cube",
+  "versions": [
+    {
+      "name": "v2014-07-31",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/qb/versions/2014-07-31.n3",
+      "issued": "2014-07-30T23:00:00.000Z",
+      "classNumber": "15",
+      "propertyNumber": "21",
+      "instanceNumber": "1",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "relEquivalent": [
+        "http://purl.org/NET/scovo#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/qb/versions/2013-07-26.n3",
+      "issued": "2013-07-25T23:00:00.000Z",
+      "classNumber": "16",
+      "propertyNumber": "21",
+      "instanceNumber": "1",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "relEquivalent": [
+        "http://purl.org/NET/scovo#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/qb/versions/2013-03-02.n3",
+      "issued": "2013-03-02T00:00:00.000Z",
+      "classNumber": "16",
+      "propertyNumber": "21",
+      "instanceNumber": "1",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "relEquivalent": [
+        "http://purl.org/NET/scovo#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/qb/versions/2010-11-27.n3",
+      "issued": "2010-11-27T00:00:00.000Z",
+      "classNumber": "13",
+      "propertyNumber": "19",
+      "instanceNumber": "1",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "relEquivalent": [
+        "http://purl.org/NET/scovo#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "__v": 3,
+  "contributorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e96",
+      "name": "Richard Cyganiak"
+    }
+  ],
+  "createdInLOVAt": "2013-05-26T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0eaa",
+      "name": "Franck Cotton"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Extension de SKOS pour la représentation des nomenclatures",
+      "lang": "fr",
+      "_id": "57696b624a73263716312e4e"
+    },
+    {
+      "value": "An extension of SKOS for representaion of nomenclatures",
+      "lang": "en",
+      "_id": "57696b624a73263716312e4d"
+    }
+  ],
+  "issuedAt": "2012-10-20T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:52:34.385Z",
+  "lastModifiedInLOVAt": "2016-06-21T00:00:00.000Z",
+  "nsp": "http://rdf-vocabulary.ddialliance.org/xkos#",
+  "prefix": "xkos",
+  "reviews": [
+    {
+      "body": "Work in progress. The documentation says \"Unofficial Draft\".",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-05-26T00:00:00.000Z",
+      "_id": "57696b624a73263716312e52"
+    },
+    {
+      "body": "For version 1.0 the declared namespace has been changed to http://rdf-vocabulary.ddialliance.org/xkos#, to be consistent with other DDI vocabularies. The former namespace http://purl.org/linked-data/xkos# still dereferences to the vocabulary.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-05-29T00:00:00.000Z",
+      "_id": "57696b624a73263716312e51"
+    },
+    {
+      "body": "Annual review. Removed false positive 2015 version.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-05-05T00:00:00.000Z",
+      "_id": "57696b624a73263716312e50"
+    },
+    {
+      "body": "Annual review - OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-06-21T00:00:00.000Z",
+      "_id": "57696b624a73263716312e4f"
+    }
+  ],
+  "tags": [
+    "Vocabularies"
+  ],
+  "titles": [
+    {
+      "value": "XKOS",
+      "lang": "en",
+      "_id": "57696b624a73263716312e4c"
+    }
+  ],
+  "uri": "http://rdf-vocabulary.ddialliance.org/xkos",
+  "versions": [
+    {
+      "name": "v1.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/xkos/versions/2014-05-20.n3",
+      "issued": "2014-05-20T00:00:00.000Z",
+      "classNumber": "3",
+      "propertyNumber": "36",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://www.w3.org/2008/05/skos-xl#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/vocab/vann/",
+        "http://purl.org/vocommons/voaf",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v0.9.9.2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/xkos/versions/2012-10-21.n3",
+      "issued": "2012-10-20T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/vocab/vann/",
+        "http://purl.org/vocommons/voaf",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

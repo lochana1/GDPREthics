@@ -1,0 +1,123 @@
+{
+  "__v": 0,
+  "contributorIds": [
+    {
+      "_id": "5a5d1ef2209e748d429f9e0a",
+      "name": "Mauro Saconne"
+    },
+    {
+      "_id": "5a5d1f0b209e748d429f9e14",
+      "name": "Mohamed Ben ellefi"
+    }
+  ],
+  "createdInLOVAt": "2018-01-15T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "5a5d1ed4209e748d429f9e02",
+      "name": "Pierre DRAP"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "Arpenteur ontology is dedicated to photogrammetry, archeology and oceanology communities \n\t in order to perform tasks such as image processing, photogrammetry and modelling.",
+      "lang": "en",
+      "_id": "5a5d1f7d209e748d429f9e36"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2015-05-12T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2018-01-15T21:39:39.553Z",
+  "nsp": "http://www.arpenteur.org/ontology/Arpenteur.owl#",
+  "prefix": "arp",
+  "publisherIds": [
+    {
+      "_id": "5a5d1ed4209e748d429f9e02",
+      "name": "Pierre DRAP"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "A vocabulary focused on photogrammetry, archeology and oceanology",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2018-01-15T00:00:00.000Z",
+      "_id": "5a5d1f7d209e748d429f9e35"
+    }
+  ],
+  "tags": [
+    "Geography",
+    "Geometry"
+  ],
+  "titles": [
+    {
+      "value": "Arpenteur Ontology",
+      "lang": "en",
+      "_id": "5a5d1f7d209e748d429f9e37"
+    }
+  ],
+  "uri": "http://www.arpenteur.org/ontology/Arpenteur.owl",
+  "versions": [
+    {
+      "_id": "5a5d1f80209e748d429f9e3a",
+      "classNumber": "75",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/arp/versions/2018-01-15.n3",
+      "instanceNumber": "0",
+      "issued": "2018-01-15T00:00:00.000Z",
+      "name": "v0.0.13",
+      "propertyNumber": "156",
+      "relSpecializes": [
+        "http://erlangen-crm.org/current/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relImports": [
+        "http://erlangen-crm.org/current/",
+        "http://www.arpenteur.org/ontology/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2012-01-06T00:00:00.000Z",
+  "descriptions": [
+    {
+      "value": "This vocabulary allows to attach an authority to a named graph",
+      "lang": "en",
+      "_id": "569cc838ff8848f96bd16c59"
+    }
+  ],
+  "lastDeref": "2014-11-05T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-01-18T00:00:00.000Z",
+  "nsp": "http://www.w3.org/2004/03/trix/swp-1/",
+  "prefix": "swp",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c1003",
+      "name": "W3C"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Stable, as everything in W3C namespace, but does not seem to have been used either by data or other vocabularies.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-10-10T00:00:00.000Z",
+      "_id": "569cc838ff8848f96bd16c5d"
+    },
+    {
+      "body": "This vocabulary still need to be re-published using recent best practices.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2014-11-05T00:00:00.000Z",
+      "_id": "569cc838ff8848f96bd16c5c"
+    },
+    {
+      "body": "Another vocabulary published around 2004 by the W3C Semantic Web Activity group on Named Graphs, once again without metadata.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2012-01-06T00:00:00.000Z",
+      "_id": "569cc838ff8848f96bd16c5b"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-18T00:00:00.000Z",
+      "_id": "569cc838ff8848f96bd16c5a"
+    }
+  ],
+  "tags": [
+    "RDF"
+  ],
+  "titles": [
+    {
+      "value": "Graph Authority",
+      "lang": "en",
+      "_id": "569cc838ff8848f96bd16c58"
+    }
+  ],
+  "uri": "http://www.w3.org/2004/03/trix/swp-1",
+  "versions": [
+    {
+      "name": "v2004-03-01",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/swp/versions/2004-03-01.n3",
+      "issued": "2004-03-01T00:00:00.000Z",
+      "classNumber": "3",
+      "propertyNumber": "6",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2004/03/trix/rdfg-1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

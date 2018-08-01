@@ -1,0 +1,200 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2012-10-01T23:00:00.000Z",
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-webscience.0.rdf",
+      "label": "rkb-explorer-webscience.0.rdf",
+      "occurrences": "83"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aksworg.rdf",
+      "label": "aksworg.rdf",
+      "occurrences": "63"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aksworg.ttl",
+      "label": "aksworg.ttl",
+      "occurrences": "63"
+    },
+    {
+      "uri": "http://datahub.io/dataset/feedwrapper-lids.rdf",
+      "label": "feedwrapper-lids.rdf",
+      "occurrences": "61"
+    },
+    {
+      "uri": "http://datahub.io/dataset/lod2",
+      "label": "LOD2 Project Website Data",
+      "occurrences": "53"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-webconf.2.rdf",
+      "label": "rkb-explorer-webconf.2.rdf",
+      "occurrences": "15"
+    },
+    {
+      "uri": "http://datahub.io/dataset/linkedmarkmail.rdf",
+      "label": "linkedmarkmail.rdf",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-people.ttl",
+      "label": "instance-hub-people.ttl",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/biographical-directory-of-the-united-states-congress.0.ttl",
+      "label": "biographical-directory-of-the-united-states-congress.0.ttl",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/farmers-markets-geographic-data-united-states.0.ttl",
+      "label": "farmers-markets-geographic-data-united-states.0.ttl",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/farmers-markets-geographic-data-united-states.ttl",
+      "label": "farmers-markets-geographic-data-united-states.ttl",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-organizations.0.ttl",
+      "label": "instance-hub-organizations.0.ttl",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-civil-servants.ttl",
+      "label": "instance-hub-us-civil-servants.ttl",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-congressional-committees.0.ttl",
+      "label": "instance-hub-us-congressional-committees.0.ttl",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-congressional-districts.0.ttl",
+      "label": "instance-hub-us-congressional-districts.0.ttl",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-toxic-chemicals.0.ttl",
+      "label": "instance-hub-us-toxic-chemicals.0.ttl",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/isidore.rdf",
+      "label": "isidore.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/w3c-provenance-incubator-group-vocabulary-mappings.0.ttl",
+      "label": "w3c-provenance-incubator-group-vocabulary-mappings.0.ttl",
+      "occurrences": "1"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "SIOC is an ontology for describing the information in online communities.",
+      "lang": "en",
+      "_id": "5697b70cff8848f96bd12b04"
+    }
+  ],
+  "homepage": "http://rdfs.org/sioc/spec/",
+  "issuedAt": "2005-04-07T00:00:00.000Z",
+  "lastDeref": "2014-11-20T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-01-14T00:00:00.000Z",
+  "nsp": "http://rdfs.org/sioc/ns#",
+  "prefix": "sioc",
+  "reviews": [
+    {
+      "body": "A nice example of a vocabulary tracking the change logs in a period of five years, from 2005-04-07 until 2010-03-25.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2013-10-29T00:00:00.000Z",
+      "_id": "5697b70cff8848f96bd12b08"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-11-20T00:00:00.000Z",
+      "_id": "5697b70cff8848f96bd12b07"
+    },
+    {
+      "body": "Version history available at http://rdfs.org/sioc/spec/#sec-changes",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2012-10-02T00:00:00.000Z",
+      "_id": "5697b70cff8848f96bd12b06"
+    },
+    {
+      "body": "Annual review OK.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-14T00:00:00.000Z",
+      "_id": "5697b70cff8848f96bd12b05"
+    }
+  ],
+  "tags": [
+    "Society"
+  ],
+  "titles": [
+    {
+      "value": "Semantically-Interlinked Online Communities",
+      "lang": "en",
+      "_id": "5697b70cff8848f96bd12b03"
+    }
+  ],
+  "uri": "http://rdfs.org/sioc/ns#",
+  "versions": [
+    {
+      "name": "v1.35",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/sioc/versions/2010-03-25.n3",
+      "issued": "2010-03-25T00:00:00.000Z",
+      "classNumber": "12",
+      "propertyNumber": "79",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2004/03/trix/rdfg-1/",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

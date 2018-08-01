@@ -1,0 +1,139 @@
+{
+  "__v": 0,
+  "contributorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0ea8",
+      "name": "Christoph Lange"
+    },
+    {
+      "_id": "56e69313aacd7f0864390f88",
+      "name": "Sebastian Tramp"
+    },
+    {
+      "_id": "5a69f092696bbe7e0f71a615",
+      "name": "Niklas Petersen"
+    }
+  ],
+  "createdInLOVAt": "2018-01-25T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "5a69f058696bbe7e0f71a604",
+      "name": "Annette Weilandt"
+    },
+    {
+      "_id": "57d905f7812207ab034e4b82",
+      "name": "Martin Brümmer"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "Our goal is to significantly improve the data mobility between all stakeholders by providing a standardized vocabulary using Semantic Web technologies and ontologies. For the open vocabulary covering various mobility aspects we use RDF (Resource Description Framework) - a recommended specification of the World Wide Web Consortium (W3C) and the so-called lingua franca for the integration of data and web. We invite everyone who is interested to join our MobiVoc initiative and to participate in the development of the Open Mobility Vocabulary.",
+      "lang": "en",
+      "_id": "5a69f44e696bbe7e0f71a8cd"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2014-08-05T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2018-01-25T15:15:29.432Z",
+  "nsp": "http://schema.mobivoc.org/",
+  "prefix": "mv",
+  "publisherIds": [
+    {
+      "_id": "56e6939caacd7f0864390f90",
+      "name": "eccenca GmbH"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "A very well documented vocabulary on Transport ranging from Parking management, electric charger to Bicycle station",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2018-01-25T00:00:00.000Z",
+      "_id": "5a69f44e696bbe7e0f71a8cc"
+    }
+  ],
+  "tags": [
+    "Services",
+    "IoT",
+    "Transport"
+  ],
+  "titles": [
+    {
+      "value": "MobiVoc: Open Mobility Vocabulary",
+      "lang": "en",
+      "_id": "5a69f44e696bbe7e0f71a8ce"
+    }
+  ],
+  "uri": "http://schema.mobivoc.org/",
+  "versions": [
+    {
+      "_id": "5a69f451696bbe7e0f71a8cf",
+      "classNumber": "23",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/mv/versions/2018-01-18.n3",
+      "instanceNumber": "61",
+      "issued": "2018-01-18T00:00:00.000Z",
+      "name": "v1.0.0",
+      "propertyNumber": "56",
+      "relSpecializes": [
+        "http://schema.org/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/goodrelations/v1",
+        "http://schema.org/",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [
+        "http://dbpedia.org/resource/",
+        "http://schema.org/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://vocab.deri.ie/void",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns",
+        "http://www.w3.org/2004/02/skos/core",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

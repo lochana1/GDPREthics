@@ -1,0 +1,144 @@
+{
+  "__v": 2,
+  "commentDeref": "Problem while dereferencing or parsing the vocabulary",
+  "contributorIds": [
+    {
+      "_id": "54b2be018433ca9ccf1c0e4b",
+      "name": "Dong Wang"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0e54",
+      "name": "Jens Ortmann"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0e67",
+      "name": "Tomi Kauppinen"
+    }
+  ],
+  "createdInLOVAt": "2013-06-30T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0ea5",
+      "name": "Minu Limbu"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "MOAC, the Management of a Crisis Vocabulary, is a lightweight vocabulary aiming to provide terms to enable practitioners to relate different \"things\" in crisis management activities together as Linked Data. The initial MOAC terms originated from the Inter Agency Standing Committee (IASC), Emergency Shelter Cluster in Haiti, UNOCHA 3W Who What Where Contact Database",
+      "lang": "en",
+      "_id": "5671a29c4ee7f7176fe64c2d"
+    }
+  ],
+  "issuedAt": "2011-05-30T00:00:00.000Z",
+  "lastDeref": "2014-07-20T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-12-16T00:00:00.000Z",
+  "nsp": "http://observedchange.com/moac/ns#",
+  "prefix": "moac",
+  "reviews": [
+    {
+      "body": "One of the too few vocabularies in LOV dedicated to the environment domain.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-07-01T00:00:00.000Z",
+      "_id": "5671a29c4ee7f7176fe64c2f"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2015-12-16T00:00:00.000Z",
+      "_id": "5671a29c4ee7f7176fe64c2e"
+    }
+  ],
+  "tags": [
+    "Environment"
+  ],
+  "titles": [
+    {
+      "value": "Management of a Crisis Vocabulary",
+      "lang": "en",
+      "_id": "5671a29c4ee7f7176fe64c2c"
+    }
+  ],
+  "uri": "http://www.observedchange.com/moac/ns#",
+  "versions": [
+    {
+      "name": "v0.4",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/moac/versions/2012-01-29.n3",
+      "issued": "2012-01-29T00:00:00.000Z",
+      "classNumber": "83",
+      "propertyNumber": "30",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/net/provenance/ns#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.2",
+      "issued": "2011-11-30T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.1",
+      "issued": "2011-05-29T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

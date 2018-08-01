@@ -1,0 +1,146 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-06-17T23:00:00.000Z",
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/fao-geopolitical-ontology.rdf",
+      "label": "fao-geopolitical-ontology.rdf",
+      "occurrences": "23069"
+    },
+    {
+      "uri": "http://datahub.io/dataset/vivo-cu-boulder.rdf",
+      "label": "vivo-cu-boulder.rdf",
+      "occurrences": "367"
+    },
+    {
+      "uri": "http://datahub.io/dataset/ifpri-linked-open-data-global-hunger-index.2.rdf",
+      "label": "ifpri-linked-open-data-global-hunger-index.2.rdf",
+      "occurrences": "3"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "FAO's geopolitical ontology version 1.1 was populated with FAO, UN and internationally recognized data sources.",
+      "lang": "en",
+      "_id": "55bb5efa7459b3975b63c05c"
+    }
+  ],
+  "lastDeref": "2014-06-16T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-07-31T00:00:00.000Z",
+  "nsp": "http://aims.fao.org/aos/geopolitical.owl#",
+  "prefix": "geop",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fb5",
+      "name": "Food and Agriculture Organization"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-17T00:00:00.000Z",
+      "_id": "55bb5efa7459b3975b63c05f"
+    },
+    {
+      "body": "Reasoning problems with Protege4-1 using Pellet as reasoner. There is at least one Literal (with value 401) of type Integer that should be String. Another solution is to change the definition of the affected DataType's range.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-06-18T00:00:00.000Z",
+      "_id": "55bb5efa7459b3975b63c05e"
+    },
+    {
+      "body": "Annual review - OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-31T00:00:00.000Z",
+      "_id": "55bb5efa7459b3975b63c05d"
+    }
+  ],
+  "tags": [
+    "Geography"
+  ],
+  "titles": [
+    {
+      "value": "FAO Geopolitical Ontology",
+      "lang": "en",
+      "_id": "55bb5efa7459b3975b63c05b"
+    }
+  ],
+  "uri": "http://aims.fao.org/aos/geopolitical.owl",
+  "versions": [
+    {
+      "name": "v1.1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/geop/versions/2011-01-18.n3",
+      "issued": "2011-01-18T00:00:00.000Z",
+      "classNumber": "11",
+      "propertyNumber": "98",
+      "instanceNumber": "312",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e02",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ara",
+          "label": "Arabic",
+          "iso639P3PCode": "ara"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e27",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/por",
+          "label": "Portuguese",
+          "iso639P3PCode": "por"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e36",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/zho",
+          "label": "Chinese",
+          "iso639P3PCode": "zho"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

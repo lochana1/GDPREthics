@@ -1,0 +1,120 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2012-10-25T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e57",
+      "name": "Libby Miller"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f58",
+      "name": "Dan Connolly"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "A vocabulary for description of events and calendars",
+      "lang": "en",
+      "_id": "569f96b5ff8848f96bd21336"
+    }
+  ],
+  "homepage": "http://www.w3.org/TR/rdfcal/",
+  "lastDeref": "2015-01-11T20:43:38.747Z",
+  "lastModifiedInLOVAt": "2016-01-20T00:00:00.000Z",
+  "nsp": "http://www.w3.org/2002/12/cal/ical#",
+  "prefix": "cal",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c1003",
+      "name": "W3C"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Seems obsolete and replaced by http://www.w3.org/2002/12/cal/icaltzd, used in the W3C note (2005-09-29) at http://www.w3.org/TR/rdfcal/. But neither vocabulary makes any reference to the other one. http://www.w3.org/2002/12/cal/icaltzd has been removed from LOV because the file contains errors, but this namespace seems nevertheless still used by applications such as Tabulator (source : Masahide Kansaki)",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2012-10-26T00:00:00.000Z",
+      "_id": "569f96b5ff8848f96bd21339"
+    },
+    {
+      "body": "Annual review. Time passes by, and the time and calendar vocabularies are still in statu quo ante. This one is more than 10 yeras old now, and still not much used.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-11-20T00:00:00.000Z",
+      "_id": "569f96b5ff8848f96bd21338"
+    },
+    {
+      "body": "Annual review. No change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-20T00:00:00.000Z",
+      "_id": "569f96b5ff8848f96bd21337"
+    }
+  ],
+  "tags": [
+    "Time"
+  ],
+  "titles": [
+    {
+      "value": "Internet Calendaring and Scheduling Core Object Specification",
+      "lang": "en",
+      "_id": "569f96b5ff8848f96bd21335"
+    }
+  ],
+  "uri": "http://www.w3.org/2002/12/cal/ical",
+  "versions": [
+    {
+      "name": "v1.14",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/cal/versions/2004-04-07.n3",
+      "issued": "2004-04-06T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v2015-01-11",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/cal/versions/2015-01-11.n3",
+      "issued": "2015-01-11T20:43:38.747Z",
+      "classNumber": "14",
+      "propertyNumber": "48",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/12/cal/icalSpec#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

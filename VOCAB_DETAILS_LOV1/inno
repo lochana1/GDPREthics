@@ -1,0 +1,147 @@
+{
+  "__v": 2,
+  "commentDeref": "Problem while dereferencing or parsing the vocabulary",
+  "contributorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e8d",
+      "name": "Mark Birbeck"
+    }
+  ],
+  "createdInLOVAt": "2013-08-29T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f99",
+      "name": "William Greenly"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "One key use case for this ontology is to facilitate the matching of needs and innovations.",
+      "lang": "en",
+      "_id": "55de165654ef107a63464afe"
+    }
+  ],
+  "isDefinedBy": "http://www.lexicater.co.uk/vocabularies/innovation/ns.owl",
+  "issuedAt": "2011-05-08T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-08-26T00:00:00.000Z",
+  "nsp": "http://purl.org/innovation/ns#",
+  "prefix": "inno",
+  "reviews": [
+    {
+      "body": "The OWL file for version 1.0 is not easily available from the namespace, content negotiation to be fixed. Otherwise, a very generic vocabulary that can be useful for innovation in any domain.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-08-30T00:00:00.000Z",
+      "_id": "55de165654ef107a63464b01"
+    },
+    {
+      "body": "Annual review. No change, content negotiation remains to be fixed.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-09T00:00:00.000Z",
+      "_id": "55de165654ef107a63464b00"
+    },
+    {
+      "body": "Annual review. No change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-08-26T00:00:00.000Z",
+      "_id": "55de165654ef107a63464aff"
+    }
+  ],
+  "tags": [
+    "Industry"
+  ],
+  "titles": [
+    {
+      "value": "Ontology for Innovation",
+      "lang": "en",
+      "_id": "55de165654ef107a63464afd"
+    }
+  ],
+  "uri": "http://purl.org/innovation/ns",
+  "versions": [
+    {
+      "name": "v1.0.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/inno/versions/2012-07-22.n3",
+      "issued": "2012-07-22T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": true
+    },
+    {
+      "name": "v0.1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/inno/versions/2011-05-08.n3",
+      "issued": "2011-05-07T23:00:00.000Z",
+      "classNumber": "11",
+      "propertyNumber": "26",
+      "instanceNumber": "5",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.01",
+      "issued": "2011-04-09T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": false
+    }
+  ]
+}

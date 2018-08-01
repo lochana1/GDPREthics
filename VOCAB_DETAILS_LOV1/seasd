@@ -1,0 +1,143 @@
+{
+  "__v": 2,
+  "contributorIds": [
+    {
+      "_id": "59a598487845e44d19becda5",
+      "name": "Antoine Zimmermann"
+    },
+    {
+      "_id": "59a598537845e44d19becda8",
+      "name": "Erkki Siira"
+    },
+    {
+      "_id": "59a5985e7845e44d19becdab",
+      "name": "Takoua Ghariani"
+    },
+    {
+      "_id": "59a5986d7845e44d19becdb1",
+      "name": "Marc Girod-Genet"
+    },
+    {
+      "_id": "59a598777845e44d19becdb8",
+      "name": "Gabriel Santos"
+    },
+    {
+      "_id": "59a598817845e44d19becdb9",
+      "name": "Francisco Silva"
+    },
+    {
+      "_id": "59a5988a7845e44d19becdbb",
+      "name": "Lynda Temal"
+    },
+    {
+      "_id": "59a598927845e44d19becdc1",
+      "name": "Brigida Teixeira"
+    },
+    {
+      "_id": "59a5989c7845e44d19becdc3",
+      "name": "Hannu Järvinen"
+    },
+    {
+      "_id": "59a598ad7845e44d19becdc7",
+      "name": "Jarmo Kalaoja"
+    }
+  ],
+  "createdInLOVAt": "2017-08-29T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54ff72862e3e52df4a3cc076",
+      "name": "Maxime Lefrançois"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The SEAS Device ontology defines `seas:Device` as physical system that are designed to execute one or more procedures that involve the physical world.",
+      "lang": "en",
+      "_id": "59a5a9377845e44d19beda05"
+    }
+  ],
+  "homepage": "https://ci.mines-stetienne.fr/seas/index.html",
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2016-05-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-08-29T00:00:00.000Z",
+  "nsp": "https://w3id.org/seas/",
+  "prefix": "seasd",
+  "publisherIds": [
+    {
+      "_id": "59a59a437845e44d19bece0a",
+      "name": "SEAS (Smart Energy Aware Systems) project"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Insteed \"seas\", we suggest to use the prefix \"seasd\" for unicity. (Gabriel Kepeklian)",
+      "agentId": {
+        "_id": "59a58c6f7845e44d19becccc",
+        "name": "Gabriel Kepeklian"
+      },
+      "createdAt": "2017-08-29T00:00:00.000Z",
+      "_id": "59a5a9377845e44d19beda06"
+    }
+  ],
+  "tags": [
+    "IoT",
+    "Environment",
+    "Industry"
+  ],
+  "titles": [
+    {
+      "value": "The SEAS Device ontology",
+      "lang": "en",
+      "_id": "59a5a9377845e44d19beda04"
+    }
+  ],
+  "uri": "https://w3id.org/seas/DeviceOntology",
+  "versions": [
+    {
+      "name": "v2016-05-10",
+      "issued": "2016-05-10T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "4",
+      "classNumber": "9",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/seasd/versions/2016-05-10.n3",
+      "_id": "59a5a10a7845e44d19bed004",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "https://w3id.org/pep/"
+      ],
+      "relImports": [
+        "https://w3id.org/pep/",
+        "https://w3id.org/seas/DeviceOntology"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

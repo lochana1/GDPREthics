@@ -1,0 +1,122 @@
+{
+  "__v": 0,
+  "contributorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0ef6",
+      "name": "Sören Auer"
+    },
+    {
+      "_id": "588a2b6767d4e8e0568bcc39",
+      "name": "Marta Sabou"
+    }
+  ],
+  "createdInLOVAt": "2017-01-26T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "588a2a5067d4e8e0568bcc27",
+      "name": "Olga Kovalenko"
+    },
+    {
+      "_id": "588a2a6267d4e8e0568bcc28",
+      "name": "Irlan Grangel-Gonzalez"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "A vocabulary to represent the AutomationML Standard - IEC 62714",
+      "lang": "en",
+      "_id": "588a2c0967d4e8e0568bcc49"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2016-03-23T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-01-26T17:05:13.377Z",
+  "nsp": "https://w3id.org/i40/aml#",
+  "prefix": "aml",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "A vocabulary for AutomationML standard",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-01-26T00:00:00.000Z",
+      "_id": "588a2c0967d4e8e0568bcc48"
+    }
+  ],
+  "tags": [
+    "Industry",
+    "Support"
+  ],
+  "titles": [
+    {
+      "value": "AutomationML Ontology",
+      "lang": "en",
+      "_id": "588a2c0967d4e8e0568bcc4a"
+    }
+  ],
+  "uri": "https://w3id.org/i40/aml",
+  "versions": [
+    {
+      "_id": "588a2c0d67d4e8e0568bcc4b",
+      "classNumber": "17",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/aml/versions/2016-03-23.n3",
+      "instanceNumber": "19",
+      "issued": "2016-03-23T00:00:00.000Z",
+      "name": "v0.1",
+      "propertyNumber": "87",
+      "relSpecializes": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.ontologydesignpatterns.org/cp/owl/partof.owl#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/ns/prov#",
+        "http://www.wurvoc.org/vocabularies/om-1.8/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://vocab.deri.ie/void",
+        "http://usefulinc.com/ns/doap#",
+        "http://www.ontologydesignpatterns.org/cp/owl/partof.owl#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

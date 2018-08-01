@@ -1,0 +1,91 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2015-09-13T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e95",
+      "name": "Pieter Colpaert"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "This ontology provides the predicates necessary to describe an arrival of a transit vehicle and its departure at a certain Stop.",
+      "lang": "en",
+      "_id": "55f5c184a71142386b7a398c"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2014-10-31T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-09-13T18:35:44.292Z",
+  "nsp": "http://semweb.mmlab.be/ns/stoptimes#",
+  "prefix": "st",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "A small vocabulary to describe an arrival of a transit vehicle and its departure at a certain Stop",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-09-13T00:00:00.000Z",
+      "_id": "55f5c184a71142386b7a398b"
+    }
+  ],
+  "tags": [
+    "Society",
+    "Travel"
+  ],
+  "titles": [
+    {
+      "value": "The Stop Times ontology",
+      "lang": "en",
+      "_id": "55f5c184a71142386b7a398d"
+    }
+  ],
+  "uri": "http://semweb.mmlab.be/ns/stoptimes#Ontology",
+  "versions": [
+    {
+      "_id": "55f5c187a71142386b7a398f",
+      "classNumber": "3",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/st/versions/2015-09-13.n3",
+      "instanceNumber": "0",
+      "issued": "2015-09-13T00:00:00.000Z",
+      "name": "v2015.0913",
+      "propertyNumber": "4",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

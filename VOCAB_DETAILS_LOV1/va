@@ -1,0 +1,116 @@
+{
+  "__v": 3,
+  "commentDeref": "Problem while dereferencing or parsing the vocabulary",
+  "contributorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f3f",
+      "name": "Michael Granitzer"
+    }
+  ],
+  "createdInLOVAt": "2014-03-25T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e92",
+      "name": "Patrick Hoefler"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f0c",
+      "name": "Belgin Mutlu"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "This vocabulary allows the semantic description of visual analytics applications. It is based on the RDF Data Cube Vocabulary and the Semanticscience Integrated Ontology.",
+      "lang": "en",
+      "_id": "578d04a68c6f955d29c02c37"
+    }
+  ],
+  "isDefinedBy": "http://code.know-center.tugraz.at/static/ontology/visual-analytics.owl",
+  "issuedAt": "2012-10-31T00:00:00.000Z",
+  "lastDeref": "2014-03-25T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-07-18T00:00:00.000Z",
+  "nsp": "http://code-research.eu/ontology/visual-analytics#",
+  "prefix": "va",
+  "reviews": [
+    {
+      "body": "Ontology about visual analytics developed within the CODE project (Commercially Empowered Linked Open Data Ecosystems in Research)",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2014-03-25T00:00:00.000Z",
+      "_id": "578d04a68c6f955d29c02c3a"
+    },
+    {
+      "body": "The vocabulary URI is not dereferencable. File has moved under http://code.know-center.tugraz.at/static/ontology/ on 2014-11-12. No documentation available in this new directory.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-03-25T00:00:00.000Z",
+      "_id": "578d04a68c6f955d29c02c39"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-07-18T00:00:00.000Z",
+      "_id": "578d04a68c6f955d29c02c38"
+    }
+  ],
+  "tags": [
+    "Methods"
+  ],
+  "titles": [
+    {
+      "value": "The Visual Analytics Vocabulary",
+      "lang": "en",
+      "_id": "578d04a68c6f955d29c02c36"
+    }
+  ],
+  "uri": "http://code-research.eu/ontology/visual-analytics",
+  "versions": [
+    {
+      "name": "v0.1.20121122",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/va/versions/2014-03-24.n3",
+      "issued": "2014-03-24T00:00:00.000Z",
+      "classNumber": "21",
+      "propertyNumber": "11",
+      "instanceNumber": "8",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/linked-data/cube#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relEquivalent": [
+        "http://semanticscience.org/ontology/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

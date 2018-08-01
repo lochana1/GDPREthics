@@ -1,0 +1,113 @@
+{
+  "__v": 1,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-04-15T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "5711181231bafaef0e78a4a1",
+      "name": "Thierry Monteil"
+    },
+    {
+      "_id": "5711183131bafaef0e78a4af",
+      "name": "Khalil Drira"
+    },
+    {
+      "_id": "56dff1b5aacd7f0864354b8d",
+      "name": "Nicolas Seydoux"
+    },
+    {
+      "_id": "571117f231bafaef0e78a495",
+      "name": "Nathalie Hernandez"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "This ontology is a specialization of the lifecycle vocabulary (http://purl.org/vocab/lifecycle/schema) meant to be used in the context of IoT. It is used as a module in the IoT core domain ontology IoT-O (www.irit.fr/recherches/MELODI/ontologies/IoT-O). \n\nIoT-Lifecycle adds a specific state definition (ParametrizedState) and a specific transition (Update) that is useful to model actuators.",
+      "lang": "en",
+      "_id": "57111d1931bafaef0e78a6c1"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2015-02-20T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-04-15T16:56:26.733Z",
+  "nsp": "http://purl.org/vocab/lifecycle/schema#",
+  "prefix": "lifecycle",
+  "publisherIds": [
+    {
+      "_id": "56dff1e8aacd7f0864354bbe",
+      "name": "LAAS-CNRS"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Yet another ontology for the MELODY project.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-04-15T00:00:00.000Z",
+      "_id": "57111d1931bafaef0e78a6c2"
+    }
+  ],
+  "tags": [
+    "Services"
+  ],
+  "titles": [
+    {
+      "value": "IoT-Lifecycle",
+      "lang": "en",
+      "_id": "57111d1931bafaef0e78a6c0"
+    }
+  ],
+  "uri": "http://www.irit.fr/recherches/MELODI/ontologies/IoT-Lifecycle",
+  "versions": [
+    {
+      "_id": "57111cfe31bafaef0e78a6b4",
+      "classNumber": "6",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lifecycle/versions/2016-02-26.n3",
+      "instanceNumber": "0",
+      "issued": "2016-02-26T00:00:00.000Z",
+      "name": "v2.0",
+      "propertyNumber": "2",
+      "relSpecializes": [
+        "http://www.loa-cnr.it/ontologies/DUL.owl#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://vocab.org/lifecycle/",
+        "http://www.loa-cnr.it/ontologies/"
+      ],
+      "relGeneralizes": [
+        "http://www.irit.fr/recherches/MELODI/ontologies/IoT-Lifecycle#"
+      ],
+      "relExtends": [
+        "http://www.irit.fr/recherches/MELODI/ontologies/IoT-Lifecycle#"
+      ],
+      "relEquivalent": [
+        "http://www.loa-cnr.it/ontologies/DUL.owl#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://purl.org/vocommons/voaf",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

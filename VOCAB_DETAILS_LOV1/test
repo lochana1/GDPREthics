@@ -1,0 +1,109 @@
+{
+  "__v": 3,
+  "createdInLOVAt": "2013-04-14T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c1001",
+      "name": "W3C QA Working Group"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "This ontology aims at defining the Quality Assurance Framework by collecting the test development  experience of W3C Working Groups and summarizing the work done about tests and metadata.",
+      "lang": "en",
+      "_id": "586ba1cc7e341093492c4742"
+    }
+  ],
+  "homepage": "http://www.w3.org/TR/test-metadata/",
+  "issuedAt": "2004-10-27T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-01-03T00:00:00.000Z",
+  "nsp": "http://www.w3.org/2006/03/test-description#",
+  "prefix": "test",
+  "reviews": [
+    {
+      "body": "Fixed version date, from documentation page. No explicit date in the RDF file, 2004-10-28 found in a comment.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-05-22T00:00:00.000Z",
+      "_id": "586ba1cc7e341093492c4746"
+    },
+    {
+      "body": "This vocabulary was built by the W3C Quality Assurance Working Group. It extends a vocabulary which is not available (http://www.w3.org/2001/tag/fdesc54/webarch#)",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2013-04-14T00:00:00.000Z",
+      "_id": "586ba1cc7e341093492c4745"
+    },
+    {
+      "body": "Annual review. Removed 2014 false positive version.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-05-05T00:00:00.000Z",
+      "_id": "586ba1cc7e341093492c4744"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-01-03T00:00:00.000Z",
+      "_id": "586ba1cc7e341093492c4743"
+    }
+  ],
+  "tags": [
+    "Quality"
+  ],
+  "titles": [
+    {
+      "value": "Test Metadata",
+      "lang": "en",
+      "_id": "586ba1cc7e341093492c4741"
+    }
+  ],
+  "uri": "http://www.w3.org/2006/03/test-description",
+  "versions": [
+    {
+      "name": "v2005-09-14",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/test/versions/2005-09-14.n3",
+      "issued": "2005-09-14T00:00:00.000Z",
+      "classNumber": "4",
+      "propertyNumber": "8",
+      "instanceNumber": "6",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2006/gen/ont#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

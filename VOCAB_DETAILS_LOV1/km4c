@@ -1,0 +1,129 @@
+{
+  "__v": 2,
+  "contributorIds": [],
+  "createdInLOVAt": "2015-08-14T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0edf",
+      "name": "Pierfrancesco Bellini"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0ee0",
+      "name": "Paolo Nesi"
+    },
+    {
+      "_id": "55cdab19e4ac2b1c4c59a2ae",
+      "name": "Nadia Rauch"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "A Knowledge Model to describe a smart city, that interconnect data from infomobility service, Open Data and other source",
+      "lang": "en",
+      "_id": "58171988c1b1a26b516f78fa"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "lastModifiedInLOVAt": "2016-10-31T00:00:00.000Z",
+  "nsp": "http://www.disit.org/km4city/schema#",
+  "prefix": "km4c",
+  "publisherIds": [
+    {
+      "_id": "55cdaaade4ac2b1c4c59a292",
+      "name": "DISIT Lab"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "The Knowledge Model aims at enabling interconnection, storage and the next interrogation of data from many different sources, such as various portals of the Tuscan region (MIIC, Muoversi in Toscana, Osservatorio dei Trasporti), Open Data provided by individual municipalities (mainly Florence).",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2015-08-14T00:00:00.000Z",
+      "_id": "58171988c1b1a26b516f78fc"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-10-31T00:00:00.000Z",
+      "_id": "58171988c1b1a26b516f78fb"
+    }
+  ],
+  "tags": [
+    "Society",
+    "Environment",
+    "Services"
+  ],
+  "titles": [
+    {
+      "value": "km4city, the DISIT Knowledge Model for City and Mobility",
+      "lang": "en",
+      "_id": "58171988c1b1a26b516f78f9"
+    }
+  ],
+  "uri": "http://www.disit.org/km4city/schema",
+  "versions": [
+    {
+      "name": "v1.6.1",
+      "issued": "2015-07-28T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "214",
+      "classNumber": "582",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/km4c/versions/2015-07-28.n3",
+      "_id": "55dc2ce48b5f9f281f4c5a19",
+      "relSpecializes": [
+        "http://schema.org/",
+        "http://www.opengis.net/ont/geosparql",
+        "http://www.pms.ifi.uni-muenchen.de/OTN#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.opengis.net/ont/geosparql",
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2006/time"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

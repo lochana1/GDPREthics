@@ -1,0 +1,84 @@
+{
+  "__v": 1,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-09-09T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "57d277b4a3a9d3a63d7e632f",
+      "name": "CMS"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "A RDF Schema that defines concepts and relationships used for Hospital data.",
+      "lang": "en",
+      "_id": "57d2795ca3a9d3a63d7e63e9"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2015-09-30T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-09-09T00:00:00.000Z",
+  "nsp": "http://health.data.gov/def/hospital/",
+  "prefix": "hosp",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "A RDF Schema that defines concepts and relationships used for Hospital data.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-09-09T00:00:00.000Z",
+      "_id": "57d2795ca3a9d3a63d7e63ea"
+    }
+  ],
+  "tags": [
+    "Health"
+  ],
+  "titles": [
+    {
+      "value": "Hospital Vocabulary",
+      "lang": "en",
+      "_id": "57d2795ca3a9d3a63d7e63e8"
+    }
+  ],
+  "uri": "http://vocab.data.gov/hosp",
+  "versions": [
+    {
+      "name": "v2015-09-30",
+      "issued": "2015-09-30T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "8",
+      "classNumber": "3",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/hosp/versions/2015-09-30.n3",
+      "_id": "57d2794ea3a9d3a63d7e63dd",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

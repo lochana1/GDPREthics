@@ -1,0 +1,128 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2014-08-04T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0ea8",
+      "name": "Christoph Lange"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f6e",
+      "name": "Jeremy Debattista"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Quality metrics can be (in principle) calculated on various forms of data (such as datasets, graphs, set of triples etc...). This vocabulary allow the owner/user of such RDF data to calculate metrics on multiple (and different) resources.",
+      "lang": "en",
+      "_id": "559aaf5e1928827f4b013400"
+    }
+  ],
+  "homepage": "http://butterbur04.iai.uni-bonn.de/ontologies/daq/daq#",
+  "isDefinedBy": "http://butterbur04.iai.uni-bonn.de/ontologies/daq/daq.ttl",
+  "issuedAt": "2014-05-21T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:43:40.204Z",
+  "lastModifiedInLOVAt": "2015-07-06T16:45:20.554Z",
+  "nsp": "http://purl.org/eis/vocab/daq#",
+  "prefix": "daq",
+  "reviews": [
+    {
+      "body": "Vocabulary inserted into the LOV ecosystem. Will be presented at SEMANTiCS 2014.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-08-05T00:00:00.000Z",
+      "_id": "559aaf5e1928827f4b013402"
+    },
+    {
+      "body": "Some changes in the URL of the Github source. There is a new version of the vocabulary  in April, 2015.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-06T00:00:00.000Z",
+      "_id": "559aaf5e1928827f4b013401"
+    }
+  ],
+  "tags": [
+    "Quality"
+  ],
+  "titles": [
+    {
+      "value": "Dataset Quality Vocabulary",
+      "lang": "en",
+      "_id": "559aaf5e1928827f4b0133ff"
+    }
+  ],
+  "uri": "http://purl.org/eis/vocab/daq#",
+  "versions": [
+    {
+      "name": "v2014-05-21",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/daq/versions/2014-05-21.n3",
+      "issued": "2014-05-20T23:00:00.000Z",
+      "classNumber": "4",
+      "propertyNumber": "8",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/linked-data/cube#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/03/trix/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/linked-data/cube#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/linked-data/cube#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v2015.0401",
+      "issued": "2015-04-01T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "10",
+      "classNumber": "5",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/daq/versions/2015-04-01.n3",
+      "_id": "559ab0a01928827f4b01346d",
+      "relSpecializes": [
+        "http://purl.org/linked-data/cube",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/03/trix/rdfg-1/",
+        "http://www.w3.org/ns/prov#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/linked-data/cube",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/linked-data/cube",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

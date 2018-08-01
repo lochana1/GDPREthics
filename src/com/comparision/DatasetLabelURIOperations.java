@@ -92,15 +92,18 @@ public class DatasetLabelURIOperations {
     //    Prepares a map of Datasets and vocabs prefixes present in them
     static void setVocabsPresentInDatasetLabelURI() throws IOException {
 
-        Set<String> vocabinDatasetLabel = new HashSet<>();
+
+        int i = 0;
+        Set<String> vocabinDatasetLabelSet = new HashSet<>();
         for (String ds : Util.DatasetLabelURIList) {
             for(String vocabPrefix: Util.BOWVocabs ){
                      if (checkDatasetlabelInVocabDetails(ds, vocabPrefix)) {
-                            vocabinDatasetLabel.add(vocabPrefix);
+                         vocabinDatasetLabelSet.add(vocabPrefix);
                         }
                     }
-           if (vocabinDatasetLabel.size() > 0)
-                Util.VocabInDatasetLabel.put(ds, vocabinDatasetLabel);
+           if (vocabinDatasetLabelSet.size() > 0)
+                Util.VocabInDatasetLabel.put(ds, vocabinDatasetLabelSet);
+            System.out.println("ALL LABELS & VOCABS one by One:" +i++ +Util.VocabInDatasetLabel.get(ds));
         }
     }
 
@@ -118,8 +121,7 @@ public class DatasetLabelURIOperations {
                 vocabAreainLabel.add(Bow);
 
                 }
-           if (vocabAreainLabel.size() > 0)
-                Util.VocabAreasInDatasetLabel.put(ds, vocabAreainLabel);
+
         }
     }
 
@@ -176,6 +178,8 @@ public class DatasetLabelURIOperations {
 
     static void prepareReport() {
 
+
+        System.out.println("VocabAreasInDatasetLabel: "+ Util.VocabAreasInDatasetLabel);
         for (Map.Entry<String, List<String>> on : Util.GDPRAreasInDatasetLabel.entrySet()) {
             ReportPhase1 rep2 = new ReportPhase1();
 

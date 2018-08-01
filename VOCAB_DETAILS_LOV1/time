@@ -1,0 +1,477 @@
+{
+  "__v": 4,
+  "contributorIds": [
+    {
+      "_id": "598c0e9b88adb93335127342",
+      "name": "Chris Little"
+    }
+  ],
+  "createdInLOVAt": "2013-05-22T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0f9c",
+      "name": "Feng Pan"
+    },
+    {
+      "_id": "54b2be048433ca9ccf1c0f9e",
+      "name": "Jerry R. Hobbs"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f07",
+      "name": "Simon Cox"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/jiscopenbib-bl",
+      "label": "jiscopenbib-bl",
+      "occurrences": "675864"
+    },
+    {
+      "uri": "http://datahub.io/dataset/bibliographica-org-bnb-export.133.nq",
+      "label": "bibliographica-org-bnb-export.133.nq",
+      "occurrences": "67074"
+    },
+    {
+      "uri": "http://datahub.io/dataset/bibliographica-org-bnb-export.131.nq",
+      "label": "bibliographica-org-bnb-export.131.nq",
+      "occurrences": "66703"
+    },
+    {
+      "uri": "http://datahub.io/dataset/bibliographica-org-bnb-export.100.nq",
+      "label": "bibliographica-org-bnb-export.100.nq",
+      "occurrences": "17829"
+    },
+    {
+      "uri": "http://datahub.io/dataset/data-gov-uk-time-intervals.rdf",
+      "label": "data-gov-uk-time-intervals.rdf",
+      "occurrences": "49"
+    },
+    {
+      "uri": "http://datahub.io/dataset/muninn-world-war-i.",
+      "label": "muninn-world-war-i.",
+      "occurrences": "20"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-places.rdf",
+      "label": "southampton-ac-uk-places.rdf",
+      "occurrences": "17"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-places.ttl",
+      "label": "southampton-ac-uk-places.ttl",
+      "occurrences": "17"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-services.rdf",
+      "label": "southampton-ac-uk-services.rdf",
+      "occurrences": "13"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-services.ttl",
+      "label": "southampton-ac-uk-services.ttl",
+      "occurrences": "13"
+    },
+    {
+      "uri": "http://datahub.io/dataset/environment-agency-bathing-water-quality.rdf",
+      "label": "environment-agency-bathing-water-quality.rdf",
+      "occurrences": "10"
+    },
+    {
+      "uri": "http://datahub.io/dataset/environment-agency-bathing-water-quality.ttl",
+      "label": "environment-agency-bathing-water-quality.ttl",
+      "occurrences": "10"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-org.rdf",
+      "label": "southampton-ac-uk-org.rdf",
+      "occurrences": "9"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-org.ttl",
+      "label": "southampton-ac-uk-org.ttl",
+      "occurrences": "9"
+    },
+    {
+      "uri": "http://datahub.io/dataset/data-gov-uk-time-intervals.0.rdf",
+      "label": "data-gov-uk-time-intervals.0.rdf",
+      "occurrences": "8"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-jargon.rdf",
+      "label": "southampton-ac-uk-jargon.rdf",
+      "occurrences": "7"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-apps.rdf",
+      "label": "southampton-ac-uk-apps.rdf",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-apps.ttl",
+      "label": "southampton-ac-uk-apps.ttl",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-room-features.rdf",
+      "label": "southampton-ac-uk-room-features.rdf",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-room-features.ttl",
+      "label": "southampton-ac-uk-room-features.ttl",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-jacs.rdf",
+      "label": "southampton-ac-uk-jacs.rdf",
+      "occurrences": "5"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-jacs.ttl",
+      "label": "southampton-ac-uk-jacs.ttl",
+      "occurrences": "5"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-phonebook.rdf",
+      "label": "southampton-ac-uk-phonebook.rdf",
+      "occurrences": "5"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-phonebook.ttl",
+      "label": "southampton-ac-uk-phonebook.ttl",
+      "occurrences": "5"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-photos.rdf",
+      "label": "southampton-ac-uk-photos.rdf",
+      "occurrences": "5"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-photos.ttl",
+      "label": "southampton-ac-uk-photos.ttl",
+      "occurrences": "5"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-pressinfo.rdf",
+      "label": "southampton-ac-uk-pressinfo.rdf",
+      "occurrences": "5"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-pressinfo.ttl",
+      "label": "southampton-ac-uk-pressinfo.ttl",
+      "occurrences": "5"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-stats.rdf",
+      "label": "southampton-ac-uk-stats.rdf",
+      "occurrences": "5"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-stats.ttl",
+      "label": "southampton-ac-uk-stats.ttl",
+      "occurrences": "5"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-cls-extras.rdf",
+      "label": "southampton-ac-uk-cls-extras.rdf",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-cls-extras.ttl",
+      "label": "southampton-ac-uk-cls-extras.ttl",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-disabledgo.rdf",
+      "label": "southampton-ac-uk-disabledgo.rdf",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-disabledgo.ttl",
+      "label": "southampton-ac-uk-disabledgo.ttl",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-edshare-video.ttl",
+      "label": "southampton-ac-uk-edshare-video.ttl",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-edshare.ttl",
+      "label": "southampton-ac-uk-edshare.ttl",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-eprints.ttl",
+      "label": "southampton-ac-uk-eprints.ttl",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-vending-machines.rdf",
+      "label": "southampton-ac-uk-vending-machines.rdf",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-vending-machines.ttl",
+      "label": "southampton-ac-uk-vending-machines.ttl",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-bus-routes.rdf",
+      "label": "southampton-ac-uk-bus-routes.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-bus-routes.ttl",
+      "label": "southampton-ac-uk-bus-routes.ttl",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-bus-stops.rdf",
+      "label": "southampton-ac-uk-bus-stops.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-bus-stops.ttl",
+      "label": "southampton-ac-uk-bus-stops.ttl",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-catering-points-of-service.rdf",
+      "label": "southampton-ac-uk-catering-points-of-service.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-catering-points-of-service.ttl",
+      "label": "southampton-ac-uk-catering-points-of-service.ttl",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-profile.rdf",
+      "label": "southampton-ac-uk-profile.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-profile.ttl",
+      "label": "southampton-ac-uk-profile.ttl",
+      "occurrences": "2"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "This vocabulary defines temporal entities such as time intervals, their properties and relationships.",
+      "lang": "en",
+      "_id": "598c0ea188adb93335127355"
+    }
+  ],
+  "homepage": "http://www.w3.org/TR/owl-time",
+  "issuedAt": "2006-09-26T00:00:00.000Z",
+  "lastDeref": "2014-05-21T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-08-10T00:00:00.000Z",
+  "nsp": "http://www.w3.org/2006/time#",
+  "prefix": "time",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c1003",
+      "name": "W3C"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "This important vocabulary is much reused, but is unfortunately stuck on the W3C track at \"Working Draft\" stage, and badly needs to move forward.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-05-22T00:00:00.000Z",
+      "_id": "598c0ea188adb9333512735a"
+    },
+    {
+      "body": "Another year has passed, but time has not moved forward ...",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-05-21T00:00:00.000Z",
+      "_id": "598c0ea188adb93335127359"
+    },
+    {
+      "body": "... the more things change, the more they are the same. Why is time so badly ignored by the linked data community? Too complicated?",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-05-01T00:00:00.000Z",
+      "_id": "598c0ea188adb93335127358"
+    },
+    {
+      "body": "A new revised version is on the way at http://w3c.github.io/sdw/time/ by the SDW WG. See https://raw.githubusercontent.com/w3c/sdw/gh-pages/time/rdf/time.ttl",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-07-08T00:00:00.000Z",
+      "_id": "598c0ea188adb93335127357"
+    },
+    {
+      "body": "The new version includes updates in 2016-2017: \n- initial update of OWL-Time - modified to support arbitrary temporal reference systems\n- adjust range of time:timeZone to time:TimeZone, moved up from the tzont ontology.\n- restore time:Year and time:January which were present in the 2006 version of the ontology, but now marked deprecated.\n- intervalIn, intervalDisjoint, monthOfYear added; TemporalUnit subclass of TemporalDuration\n- hasTime, hasXSDDuration added; Number removed; all duration elements changed to xsd:decimal\n- Update of OWL-Time ontology, extended to support general temporal reference systems.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2017-08-09T00:00:00.000Z",
+      "_id": "598c0ea188adb93335127356"
+    }
+  ],
+  "tags": [
+    "Time"
+  ],
+  "titles": [
+    {
+      "value": "Time Ontology",
+      "lang": "en",
+      "_id": "598c0ea188adb93335127354"
+    }
+  ],
+  "uri": "http://www.w3.org/2006/time",
+  "versions": [
+    {
+      "name": "W3C Working Draft",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/time/versions/2006-09-27.n3",
+      "issued": "2006-09-26T23:00:00.000Z",
+      "classNumber": "11",
+      "propertyNumber": "41",
+      "instanceNumber": "14",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2006/timezone#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": null,
+      "isReviewed": true
+    },
+    {
+      "name": "v2017-04-06",
+      "issued": "2017-04-06T00:00:00.000Z",
+      "datatypeNumber": "3",
+      "instanceNumber": "14",
+      "propertyNumber": "58",
+      "classNumber": "23",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/time/versions/2017-04-06.n3",
+      "_id": "598ade5488adb933350f5c41",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e02",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ara",
+          "label": "Arabic",
+          "iso639P3PCode": "ara"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1b",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/jpn",
+          "label": "Japanese",
+          "iso639P3PCode": "jpn"
+        },
+        {
+          "_id": "54fd6b195efee150f4419d23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/kau",
+          "label": "Kanuri",
+          "iso639P3PCode": "kau"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e26",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/pol",
+          "label": "Polish",
+          "iso639P3PCode": "pol"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e27",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/por",
+          "label": "Portuguese",
+          "iso639P3PCode": "por"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/rus",
+          "label": "Russian",
+          "iso639P3PCode": "rus"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e36",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/zho",
+          "label": "Chinese",
+          "iso639P3PCode": "zho"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "__v": 0,
+  "contributorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f5f",
+      "name": "Yolanda Gil"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f5e",
+      "name": "Daniel Garijo"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0e9c",
+      "name": "Varun Ratnakar"
+    }
+  ],
+  "createdInLOVAt": "2016-06-21T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "57692f0b4a73263716311da8",
+      "name": "Julien Emile-Geay"
+    },
+    {
+      "_id": "57692f414a73263716311db4",
+      "name": "Deborah Khider"
+    },
+    {
+      "_id": "57692f674a73263716311dc7",
+      "name": "Nick McKay"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The Linked Earth Ontology aims to provide a common vocabulary for annotating paleoclimatology data",
+      "lang": "en",
+      "_id": "57692ff64a73263716311e05"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2016-06-13T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-06-21T12:16:19.544Z",
+  "nsp": "http://linked.earth/ontology#",
+  "prefix": "earth",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "A well documented vocabulary to describe climate changes and paleoclimatology data",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2016-06-21T00:00:00.000Z",
+      "_id": "57692ff64a73263716311e04"
+    }
+  ],
+  "tags": [
+    "Society",
+    "Environment"
+  ],
+  "titles": [
+    {
+      "value": "The Linked Earth Ontology",
+      "lang": "en",
+      "_id": "57692ff64a73263716311e06"
+    }
+  ],
+  "uri": "http://linked.earth/ontology#",
+  "versions": [
+    {
+      "_id": "57692ffa4a73263716311e08",
+      "classNumber": "45",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/earth/versions/2016-06-13.n3",
+      "instanceNumber": "0",
+      "issued": "2016-06-13T00:00:00.000Z",
+      "name": "v1.0.0",
+      "propertyNumber": "77",
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://schema.org/",
+        "http://www.opengis.net/ont/geosparql",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/01/geo/wgs84_pos"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

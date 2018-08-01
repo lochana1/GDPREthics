@@ -1,0 +1,93 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-05-21T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f3a",
+      "name": "Mike Dean"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Basic properties of a country as defined by ISO 3166 (code and name)",
+      "lang": "en",
+      "_id": "5783b7a50183b1e80fc87d35"
+    }
+  ],
+  "homepage": "http://www.daml.org/ontologies/352",
+  "issuedAt": "2003-05-20T00:00:00.000Z",
+  "lastDeref": "2014-05-21T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-07-11T00:00:00.000Z",
+  "nsp": "http://www.daml.org/2001/09/countries/iso-3166-ont#",
+  "prefix": "coun",
+  "reviews": [
+    {
+      "body": "Very small vocabulary, inserted in LOV just because it's reused by \"tzont\", itself reused by \"time\". As all vocabularies in the daml namespace, it should be considered \"somewhat stable\" and \"maybe safe\" (dixit Jim Hendler on Twitter : https://twitter.com/BVatant/status/336471398497284096)",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-05-21T00:00:00.000Z",
+      "_id": "5783b7a50183b1e80fc87d39"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-05-21T00:00:00.000Z",
+      "_id": "5783b7a50183b1e80fc87d38"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-05-04T00:00:00.000Z",
+      "_id": "5783b7a50183b1e80fc87d37"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-07-11T00:00:00.000Z",
+      "_id": "5783b7a50183b1e80fc87d36"
+    }
+  ],
+  "tags": [
+    "Geography"
+  ],
+  "titles": [
+    {
+      "value": "ISO 3166 Country Codes",
+      "lang": "en",
+      "_id": "5783b7a50183b1e80fc87d34"
+    }
+  ],
+  "uri": "http://www.daml.org/2001/09/countries/iso-3166-ont",
+  "versions": [
+    {
+      "name": "v1.3",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/coun/versions/2003-08-11.n3",
+      "issued": "2003-08-10T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

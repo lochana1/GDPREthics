@@ -1,0 +1,287 @@
+{
+  "__v": 1,
+  "contributorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fec",
+      "name": "E-Artspace Labs"
+    }
+  ],
+  "createdInLOVAt": "2013-07-15T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0ead",
+      "name": "Enrico Fagnoni"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "IT Service Management Ontology (ITSMO) provides the vocabulary for      annotating  resources related to IT Service Management. ITSMO tries to be consistent with 2011 ITIL glossary.",
+      "lang": "en",
+      "_id": "567e6e9d4ee7f7176fea7b76"
+    }
+  ],
+  "homepage": "http://ontology.it/itsmo/v1/itsmo.html",
+  "isDefinedBy": "http://ontology.it/itsmo/v1/itsmo.owl",
+  "issuedAt": "2012-06-01T00:00:00.000Z",
+  "lastDeref": "2014-07-28T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-12-26T00:00:00.000Z",
+  "nsp": "http://ontology.it/itsmo/v1#",
+  "prefix": "itsmo",
+  "reviews": [
+    {
+      "body": "Annual review OK. Changed vocabulary space from \"Society\" to \"API-Protocols\"",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-07-29T00:00:00.000Z",
+      "_id": "567e6e9d4ee7f7176fea7b79"
+    },
+    {
+      "body": "Dates in the timeline correspond to detected changes. The date in the RDF file (2012-10-29) is different. The classification of this vocabulary is not optimal and certainly to be changed.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-07-16T00:00:00.000Z",
+      "_id": "567e6e9d4ee7f7176fea7b78"
+    },
+    {
+      "body": "Annual review OK. No changes.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-12-26T00:00:00.000Z",
+      "_id": "567e6e9d4ee7f7176fea7b77"
+    }
+  ],
+  "tags": [
+    "Services"
+  ],
+  "titles": [
+    {
+      "value": "IT Service Management Ontology",
+      "lang": "en",
+      "_id": "567e6e9d4ee7f7176fea7b75"
+    }
+  ],
+  "uri": "http://ontology.it/itsmo/v1",
+  "versions": [
+    {
+      "name": "v2012-11-04",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/itsmo/versions/2012-11-04.n3",
+      "issued": "2012-11-04T00:00:00.000Z",
+      "classNumber": "42",
+      "propertyNumber": "49",
+      "instanceNumber": "11",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2012-09-26",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/itsmo/versions/2012-09-26.n3",
+      "issued": "2012-09-25T23:00:00.000Z",
+      "classNumber": "42",
+      "propertyNumber": "48",
+      "instanceNumber": "11",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2012-08-31",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/itsmo/versions/2012-08-31.n3",
+      "issued": "2012-08-30T23:00:00.000Z",
+      "classNumber": "38",
+      "propertyNumber": "47",
+      "instanceNumber": "9",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2012-07-20",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/itsmo/versions/2012-07-20.n3",
+      "issued": "2012-07-19T23:00:00.000Z",
+      "classNumber": "36",
+      "propertyNumber": "46",
+      "instanceNumber": "9",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2012-06-01",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/itsmo/versions/2012-06-01.n3",
+      "issued": "2012-05-31T23:00:00.000Z",
+      "classNumber": "36",
+      "propertyNumber": "46",
+      "instanceNumber": "9",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

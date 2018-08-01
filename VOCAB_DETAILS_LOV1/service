@@ -1,0 +1,114 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2014-07-29T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be018433ca9ccf1c0e3e",
+      "name": "Jakob Voß"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "A micro-ontology that defines the general concept of a service.",
+      "lang": "en",
+      "_id": "560659578f7ad2ce3438d587"
+    }
+  ],
+  "homepage": "https://github.com/dini-ag-kim/service-ontology/",
+  "isDefinedBy": "http://dini-ag-kim.github.io/service-ontology/service.ttl",
+  "issuedAt": "2013-11-19T00:00:00.000Z",
+  "lastDeref": "2014-07-29T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-09-26T00:00:00.000Z",
+  "nsp": "http://purl.org/ontology/service#",
+  "prefix": "service",
+  "reviews": [
+    {
+      "body": "A small support ontology, reused by the Document Service Ontology. Version history available on GitHub.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-07-30T00:00:00.000Z",
+      "_id": "560659578f7ad2ce3438d589"
+    },
+    {
+      "body": "Added the homepage of the ontology on Github",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-09-26T00:00:00.000Z",
+      "_id": "560659578f7ad2ce3438d588"
+    }
+  ],
+  "tags": [
+    "Services"
+  ],
+  "titles": [
+    {
+      "value": "The Service Ontology",
+      "lang": "en",
+      "_id": "560659578f7ad2ce3438d586"
+    }
+  ],
+  "uri": "http://purl.org/ontology/service",
+  "versions": [
+    {
+      "name": "v0.2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/service/versions/2013-11-24.n3",
+      "issued": "2013-11-24T00:00:00.000Z",
+      "classNumber": "4",
+      "propertyNumber": "8",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/dcmitype/",
+        "http://purl.org/goodrelations/v1",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.1",
+      "issued": "2013-11-19T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": false
+    }
+  ]
+}

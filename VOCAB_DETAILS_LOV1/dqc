@@ -1,0 +1,110 @@
+{
+  "__v": 1,
+  "contributorIds": [],
+  "createdInLOVAt": "2015-05-17T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f21",
+      "name": "Martin Hepp"
+    },
+    {
+      "_id": "5558755230f688c94e81f39d",
+      "name": "Christian Fuerber"
+    },
+    {
+      "_id": "5558759b30f688c94e81f3a0",
+      "name": "Markus Wischnewski"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "This RDF document contains a library of data quality constraints represented as SPARQL query templates based on the SPARQL Inferencing Framework (SPIN). The data quality constraint templates are especially useful for the identification of data quality problems during data entry and for periodic quality checks during data usage.",
+      "lang": "en",
+      "_id": "586ba7e87e341093492c477c"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2011-03-28T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-01-03T00:00:00.000Z",
+  "nsp": "http://semwebquality.org/ontologies/dq-constraints#",
+  "prefix": "dqc",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "A vocabulary to look at if you want to write constraints in SPARQL and SPIN.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-05-17T00:00:00.000Z",
+      "_id": "586ba7e87e341093492c477e"
+    },
+    {
+      "body": "Annual review - Fixed vocabulary version",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-01-03T00:00:00.000Z",
+      "_id": "586ba7e87e341093492c477d"
+    }
+  ],
+  "tags": [
+    "eBusiness",
+    "Quality"
+  ],
+  "titles": [
+    {
+      "value": "The Data Quality Constraints Library",
+      "lang": "en",
+      "_id": "586ba7e87e341093492c477b"
+    }
+  ],
+  "uri": "http://semwebquality.org/ontologies/dq-constraints",
+  "versions": [
+    {
+      "_id": "5558760d30f688c94e81f3a8",
+      "classNumber": "34",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/dqc/versions/2011-03-28.n3",
+      "instanceNumber": "0",
+      "issued": "2011-03-28T00:00:00.000Z",
+      "name": "v1.1",
+      "propertyNumber": "0",
+      "relSpecializes": [
+        "http://spinrdf.org/spin"
+      ],
+      "relImports": [
+        "http://spinrdf.org/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://spinrdf.org/spin",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

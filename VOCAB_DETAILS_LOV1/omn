@@ -1,0 +1,161 @@
+{
+  "__v": 3,
+  "contributorIds": [
+    {
+      "_id": "5526979d8c18cd9b5c334b16",
+      "name": "Paola Grosso"
+    },
+    {
+      "_id": "552697508c18cd9b5c334add",
+      "name": "Mohamed Morsey"
+    },
+    {
+      "_id": "5527e5a64727af98034d327b",
+      "name": "Yahya Al-Hazmi"
+    }
+  ],
+  "createdInLOVAt": "2015-03-11T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "5500449a2e3e52df4a3cc3e4",
+      "name": "Alexander Willner"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "This ontology defines the most abstract concepts and properties that are needed to semantically manage resource within federated infrastructures",
+      "lang": "en",
+      "_id": "57ad8385b00b4b1452a88644"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2014-11-11T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-08-12T00:00:00.000Z",
+  "nsp": "http://open-multinet.info/ontology/omn#",
+  "prefix": "omn",
+  "publisherIds": [
+    {
+      "_id": "5500454e2e3e52df4a3cc3e7",
+      "name": "Open Multinet"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "An ontology for infrastructure. There's a need to have the URIs for the contributors as well.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-03-11T00:00:00.000Z",
+      "_id": "57ad8385b00b4b1452a88646"
+    },
+    {
+      "body": "Annual review OK.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-08-12T00:00:00.000Z",
+      "_id": "57ad8385b00b4b1452a88645"
+    }
+  ],
+  "tags": [
+    "Services"
+  ],
+  "titles": [
+    {
+      "value": "Open-Multinet Upper Ontology",
+      "lang": "en",
+      "_id": "57ad8385b00b4b1452a88643"
+    }
+  ],
+  "uri": "http://open-multinet.info/ontology/omn",
+  "versions": [
+    {
+      "name": "v2015-03-05",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/omn/versions/2015-03-05.n3",
+      "issued": "2015-03-05T00:00:00.000Z",
+      "classNumber": "10",
+      "propertyNumber": "23",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [
+        "http://www.w3.org/2006/time"
+      ],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2015-04-04",
+      "issued": "2015-04-04T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "23",
+      "classNumber": "10",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/omn/versions/2015-04-04.n3",
+      "_id": "552698fb8c18cd9b5c334c0d",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [
+        "http://www.w3.org/2006/time"
+      ],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

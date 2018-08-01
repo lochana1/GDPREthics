@@ -1,0 +1,104 @@
+{
+  "__v": 1,
+  "contributorIds": [
+    {
+      "_id": "5500093a2e3e52df4a3cc1d3",
+      "name": "Jason Guan-Shuo Mai"
+    }
+  ],
+  "createdInLOVAt": "2015-03-11T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "550007e62e3e52df4a3cc1cd",
+      "name": "Tyng-Ruey Chuang"
+    },
+    {
+      "_id": "5500088f2e3e52df4a3cc1d0",
+      "name": "Andrea Wei-Ching Huang"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "R4R is a light-weight ontology for representing general relationships of resource for publication and reusing. It asserts that a certain reusing context occurred and determined by its two basic relations, namely, isPackagedWith and isCitedBy. The isPackagedWith relation declares the resource is ready to be reused by incorporating License and Provenance information. The Cites relation is an exceptional to isCitedBy which occurs only two related objects cite each other at the same time. Five resource objects including article, data, code, provenance and license are major class concepts to represent in this ontology. \n\nThe namespace for all R4R terms is http://guava.iis.sinica.edu.tw/r4r/",
+      "lang": "en",
+      "_id": "57ad8c03b00b4b1452a88aef"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2014-09-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-08-12T00:00:00.000Z",
+  "nsp": "http://guava.iis.sinica.edu.tw/r4r/",
+  "prefix": "r4r",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "Small vocabulary very well-described, but not reusing W3C Rec vocabularies for Provenance. The authors need to change the namespace time ontology to point at URI: http://www.w3.org/2006/time#",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-03-11T00:00:00.000Z",
+      "_id": "57ad8c03b00b4b1452a88af1"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-08-12T00:00:00.000Z",
+      "_id": "57ad8c03b00b4b1452a88af0"
+    }
+  ],
+  "tags": [
+    "Support",
+    "Quality"
+  ],
+  "titles": [
+    {
+      "value": "Relations for Reusing (R4R) Ontology",
+      "lang": "en",
+      "_id": "57ad8c03b00b4b1452a88aee"
+    }
+  ],
+  "uri": "http://guava.iis.sinica.edu.tw/r4r",
+  "versions": [
+    {
+      "name": "v2015-03-11",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/r4r/versions/2015-03-11.n3",
+      "issued": "2015-03-11T09:43:08.850Z",
+      "classNumber": "7",
+      "propertyNumber": "8",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/TR/owl-time/#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

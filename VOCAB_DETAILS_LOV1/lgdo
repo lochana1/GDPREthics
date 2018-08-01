@@ -1,0 +1,964 @@
+{
+  "__v": 1,
+  "commentDeref": "Problem while dereferencing or parsing the vocabulary",
+  "createdInLOVAt": "2012-02-15T00:00:00.000Z",
+  "descriptions": [
+    {
+      "value": "LinkedGeoData ontology  has been derived from concepts defined by Open Street Map",
+      "lang": "en",
+      "_id": "55a0d6a057613119099c1030"
+    }
+  ],
+  "homepage": "http://linkedgeodata.org/Datasets",
+  "issuedAt": "2011-04-06T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-07-11T00:00:00.000Z",
+  "nsp": "http://linkedgeodata.org/ontology/",
+  "prefix": "lgdo",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fce",
+      "name": "LinkedGeoData.org"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Uploaded version from http://downloads.linkedgeodata.org/releases/2013-08-14/. Unfortunately this ontology is provided as a nt.gz archive. The namepsace is not available at review time, and it's unclear if it points to the current version. Updated figures from the uploaded version.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-19T00:00:00.000Z",
+      "_id": "55a0d6a057613119099c1034"
+    },
+    {
+      "body": "Unfortunately the ontology as a whole has been off-line for months, only the separate elements are dereferenceable. The figures provided here (number of classes and properties) are therefore completely outdated.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-10-11T00:00:00.000Z",
+      "_id": "55a0d6a057613119099c1033"
+    },
+    {
+      "body": "Although this vocabulary does not match usual criteria of admission into LOV it has its place given its specific qualities of crowdsourcing and numerous multilingual labels, and the fact that it is backing a huge dataset.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2012-02-15T00:00:00.000Z",
+      "_id": "55a0d6a057613119099c1032"
+    },
+    {
+      "body": "Annual Review OK. It's still difficult to dereference the ontology from the URI.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-11T00:00:00.000Z",
+      "_id": "55a0d6a057613119099c1031"
+    }
+  ],
+  "tags": [
+    "Geography"
+  ],
+  "titles": [
+    {
+      "value": "LinkedGeoData ontology",
+      "lang": "en",
+      "_id": "55a0d6a057613119099c102f"
+    }
+  ],
+  "uri": "http://linkedgeodata.org/ontology",
+  "versions": [
+    {
+      "name": "v2014-07-26",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lgdo/versions/2014-07-26.n3",
+      "issued": "2014-07-26T00:00:00.000Z",
+      "classNumber": "1200",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://linkedgeodata.org/meta/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e02",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ara",
+          "label": "Arabic",
+          "iso639P3PCode": "ara"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e03",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/bel",
+          "label": "Belarusian",
+          "iso639P3PCode": "bel"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e04",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ben",
+          "label": "Bengali",
+          "iso639P3PCode": "ben"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e07",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/cat",
+          "label": "Catalan",
+          "iso639P3PCode": "cat"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e08",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ces",
+          "label": "Czech",
+          "iso639P3PCode": "ces"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e09",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/dan",
+          "label": "Danish",
+          "iso639P3PCode": "dan"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0b",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ell",
+          "label": "Greek",
+          "iso639P3PCode": "ell"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/est",
+          "label": "Estonian",
+          "iso639P3PCode": "est"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0e",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eus",
+          "label": "Basque",
+          "iso639P3PCode": "eus"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e10",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fin",
+          "label": "Finnish",
+          "iso639P3PCode": "fin"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e13",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/glg",
+          "label": "Galician",
+          "iso639P3PCode": "glg"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e14",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/heb",
+          "label": "Hebrew",
+          "iso639P3PCode": "heb"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e16",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/hrv",
+          "label": "Croatian",
+          "iso639P3PCode": "hrv"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e17",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/hun",
+          "label": "Hungarian",
+          "iso639P3PCode": "hun"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e19",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/isl",
+          "label": "Icelandic",
+          "iso639P3PCode": "isl"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1b",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/jpn",
+          "label": "Japanese",
+          "iso639P3PCode": "jpn"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/kat",
+          "label": "Georgian",
+          "iso639P3PCode": "kat"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/kor",
+          "label": "Korean",
+          "iso639P3PCode": "kor"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1f",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/lit",
+          "label": "Lithuanian",
+          "iso639P3PCode": "lit"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1e",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/lav",
+          "label": "Latvian",
+          "iso639P3PCode": "lav"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e20",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/mkd",
+          "label": "Macedonian",
+          "iso639P3PCode": "mkd"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e22",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/msa",
+          "label": "Malay",
+          "iso639P3PCode": "msa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e24",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nor",
+          "label": "Norwegian",
+          "iso639P3PCode": "nor"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e26",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/pol",
+          "label": "Polish",
+          "iso639P3PCode": "pol"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e27",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/por",
+          "label": "Portuguese",
+          "iso639P3PCode": "por"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/rus",
+          "label": "Russian",
+          "iso639P3PCode": "rus"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2b",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/slk",
+          "label": "Slovak",
+          "iso639P3PCode": "slk"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/slv",
+          "label": "Slovenian",
+          "iso639P3PCode": "slv"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2e",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/sqi",
+          "label": "Albanian",
+          "iso639P3PCode": "sqi"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2f",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/srp",
+          "label": "Serbian",
+          "iso639P3PCode": "srp"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e30",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/swe",
+          "label": "Swedish",
+          "iso639P3PCode": "swe"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e32",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/tur",
+          "label": "Turkish",
+          "iso639P3PCode": "tur"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e33",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ukr",
+          "label": "Ukrainian",
+          "iso639P3PCode": "ukr"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e35",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/vie",
+          "label": "Vietnamese",
+          "iso639P3PCode": "vie"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e36",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/zho",
+          "label": "Chinese",
+          "iso639P3PCode": "zho"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2014-06-20",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lgdo/versions/2014-06-20.n3",
+      "issued": "2014-06-20T00:00:00.000Z",
+      "classNumber": "1200",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://linkedgeodata.org/meta/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e02",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ara",
+          "label": "Arabic",
+          "iso639P3PCode": "ara"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e03",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/bel",
+          "label": "Belarusian",
+          "iso639P3PCode": "bel"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e04",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ben",
+          "label": "Bengali",
+          "iso639P3PCode": "ben"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e07",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/cat",
+          "label": "Catalan",
+          "iso639P3PCode": "cat"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e08",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ces",
+          "label": "Czech",
+          "iso639P3PCode": "ces"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e09",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/dan",
+          "label": "Danish",
+          "iso639P3PCode": "dan"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0b",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ell",
+          "label": "Greek",
+          "iso639P3PCode": "ell"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/est",
+          "label": "Estonian",
+          "iso639P3PCode": "est"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0e",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eus",
+          "label": "Basque",
+          "iso639P3PCode": "eus"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e10",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fin",
+          "label": "Finnish",
+          "iso639P3PCode": "fin"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e13",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/glg",
+          "label": "Galician",
+          "iso639P3PCode": "glg"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e14",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/heb",
+          "label": "Hebrew",
+          "iso639P3PCode": "heb"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e16",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/hrv",
+          "label": "Croatian",
+          "iso639P3PCode": "hrv"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e17",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/hun",
+          "label": "Hungarian",
+          "iso639P3PCode": "hun"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e19",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/isl",
+          "label": "Icelandic",
+          "iso639P3PCode": "isl"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1b",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/jpn",
+          "label": "Japanese",
+          "iso639P3PCode": "jpn"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/kat",
+          "label": "Georgian",
+          "iso639P3PCode": "kat"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/kor",
+          "label": "Korean",
+          "iso639P3PCode": "kor"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1f",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/lit",
+          "label": "Lithuanian",
+          "iso639P3PCode": "lit"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1e",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/lav",
+          "label": "Latvian",
+          "iso639P3PCode": "lav"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e20",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/mkd",
+          "label": "Macedonian",
+          "iso639P3PCode": "mkd"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e22",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/msa",
+          "label": "Malay",
+          "iso639P3PCode": "msa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e24",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nor",
+          "label": "Norwegian",
+          "iso639P3PCode": "nor"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e26",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/pol",
+          "label": "Polish",
+          "iso639P3PCode": "pol"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e27",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/por",
+          "label": "Portuguese",
+          "iso639P3PCode": "por"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/rus",
+          "label": "Russian",
+          "iso639P3PCode": "rus"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2b",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/slk",
+          "label": "Slovak",
+          "iso639P3PCode": "slk"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/slv",
+          "label": "Slovenian",
+          "iso639P3PCode": "slv"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2e",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/sqi",
+          "label": "Albanian",
+          "iso639P3PCode": "sqi"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2f",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/srp",
+          "label": "Serbian",
+          "iso639P3PCode": "srp"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e30",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/swe",
+          "label": "Swedish",
+          "iso639P3PCode": "swe"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e32",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/tur",
+          "label": "Turkish",
+          "iso639P3PCode": "tur"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e33",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ukr",
+          "label": "Ukrainian",
+          "iso639P3PCode": "ukr"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e35",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/vie",
+          "label": "Vietnamese",
+          "iso639P3PCode": "vie"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e36",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/zho",
+          "label": "Chinese",
+          "iso639P3PCode": "zho"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2013-08-14",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lgdo/versions/2013-08-14.n3",
+      "issued": "2013-08-14T00:00:00.000Z",
+      "classNumber": "1200",
+      "propertyNumber": "221",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://geovocab.org/spatial",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://linkedgeodata.org/meta/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e02",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ara",
+          "label": "Arabic",
+          "iso639P3PCode": "ara"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e03",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/bel",
+          "label": "Belarusian",
+          "iso639P3PCode": "bel"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e04",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ben",
+          "label": "Bengali",
+          "iso639P3PCode": "ben"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e07",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/cat",
+          "label": "Catalan",
+          "iso639P3PCode": "cat"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e08",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ces",
+          "label": "Czech",
+          "iso639P3PCode": "ces"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e09",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/dan",
+          "label": "Danish",
+          "iso639P3PCode": "dan"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0b",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ell",
+          "label": "Greek",
+          "iso639P3PCode": "ell"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/est",
+          "label": "Estonian",
+          "iso639P3PCode": "est"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0e",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eus",
+          "label": "Basque",
+          "iso639P3PCode": "eus"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e10",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fin",
+          "label": "Finnish",
+          "iso639P3PCode": "fin"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e13",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/glg",
+          "label": "Galician",
+          "iso639P3PCode": "glg"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e14",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/heb",
+          "label": "Hebrew",
+          "iso639P3PCode": "heb"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e16",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/hrv",
+          "label": "Croatian",
+          "iso639P3PCode": "hrv"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e17",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/hun",
+          "label": "Hungarian",
+          "iso639P3PCode": "hun"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e19",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/isl",
+          "label": "Icelandic",
+          "iso639P3PCode": "isl"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1b",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/jpn",
+          "label": "Japanese",
+          "iso639P3PCode": "jpn"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/kat",
+          "label": "Georgian",
+          "iso639P3PCode": "kat"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/kor",
+          "label": "Korean",
+          "iso639P3PCode": "kor"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1f",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/lit",
+          "label": "Lithuanian",
+          "iso639P3PCode": "lit"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1e",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/lav",
+          "label": "Latvian",
+          "iso639P3PCode": "lav"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e20",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/mkd",
+          "label": "Macedonian",
+          "iso639P3PCode": "mkd"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e22",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/msa",
+          "label": "Malay",
+          "iso639P3PCode": "msa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e24",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nor",
+          "label": "Norwegian",
+          "iso639P3PCode": "nor"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e26",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/pol",
+          "label": "Polish",
+          "iso639P3PCode": "pol"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e27",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/por",
+          "label": "Portuguese",
+          "iso639P3PCode": "por"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/rus",
+          "label": "Russian",
+          "iso639P3PCode": "rus"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2b",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/slk",
+          "label": "Slovak",
+          "iso639P3PCode": "slk"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/slv",
+          "label": "Slovenian",
+          "iso639P3PCode": "slv"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2e",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/sqi",
+          "label": "Albanian",
+          "iso639P3PCode": "sqi"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2f",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/srp",
+          "label": "Serbian",
+          "iso639P3PCode": "srp"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e30",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/swe",
+          "label": "Swedish",
+          "iso639P3PCode": "swe"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e32",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/tur",
+          "label": "Turkish",
+          "iso639P3PCode": "tur"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e33",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ukr",
+          "label": "Ukrainian",
+          "iso639P3PCode": "ukr"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e35",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/vie",
+          "label": "Vietnamese",
+          "iso639P3PCode": "vie"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e36",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/zho",
+          "label": "Chinese",
+          "iso639P3PCode": "zho"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2011-04-06",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lgdo/versions/2011-04-06.n3",
+      "issued": "2011-04-06T00:00:00.000Z",
+      "classNumber": "1293",
+      "propertyNumber": "1669",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e02",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ara",
+          "label": "Arabic",
+          "iso639P3PCode": "ara"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1b",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/jpn",
+          "label": "Japanese",
+          "iso639P3PCode": "jpn"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/rus",
+          "label": "Russian",
+          "iso639P3PCode": "rus"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

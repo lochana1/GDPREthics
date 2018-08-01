@@ -1,0 +1,95 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-07-15T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fde",
+      "name": "TopQuadrant"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Creative Commons Ontology, extending RDF file at http://creativecommons.org/schema.rdf",
+      "lang": "en",
+      "_id": "55f848006185ddbd5f7a029f"
+    }
+  ],
+  "lastDeref": "2014-07-28T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-09-15T00:00:00.000Z",
+  "nsp": "http://www.oegov.org/core/owl/cc#",
+  "prefix": "oecc",
+  "reviews": [
+    {
+      "body": "Annual review, no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-07-29T00:00:00.000Z",
+      "_id": "55f848006185ddbd5f7a02a2"
+    },
+    {
+      "body": "A small extension of Creative Commons basic vocabulary, introducing the notion of \"Attributed Source\".",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-07-16T00:00:00.000Z",
+      "_id": "55f848006185ddbd5f7a02a1"
+    },
+    {
+      "body": "Annual review, no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2015-09-15T00:00:00.000Z",
+      "_id": "55f848006185ddbd5f7a02a0"
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "Extended Creative Commons Ontology",
+      "lang": "en",
+      "_id": "55f848006185ddbd5f7a029e"
+    }
+  ],
+  "uri": "http://www.oegov.org/core/owl/cc",
+  "versions": [
+    {
+      "name": "v2009-08-20",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/oecc/versions/2009-08-20.n3",
+      "issued": "2009-08-19T23:00:00.000Z",
+      "classNumber": "1",
+      "propertyNumber": "6",
+      "instanceNumber": "1",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [
+        "http://creativecommons.org/",
+        "http://purl.org/dc/elements/1.1/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

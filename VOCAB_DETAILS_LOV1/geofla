@@ -1,0 +1,245 @@
+{
+  "__v": 1,
+  "contributorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e74",
+      "name": "Bernard Vatant"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0ec4",
+      "name": "Bénédicte Bucher"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f7b",
+      "name": "Raphaël Troncy"
+    }
+  ],
+  "createdInLOVAt": "2014-07-30T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e7e",
+      "name": "Ghislain Atemezing"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0ec5",
+      "name": "Nathalie Abadie"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Ontologie décrivant le découpage administratif de la France métropolitaine, des départements d'outre mer, ou de la collectivité départementale de Mayotte, représentée comme une hiérarchie de classes OWL",
+      "lang": "fr",
+      "_id": "561c03bd42fc695f7e672565"
+    },
+    {
+      "value": "An ontology describing the administrative divisions in France.",
+      "lang": "en",
+      "_id": "561c03bd42fc695f7e672564"
+    }
+  ],
+  "isDefinedBy": "http://data.ign.fr/def/geofla",
+  "issuedAt": "2013-06-11T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:52:11.708Z",
+  "lastModifiedInLOVAt": "2015-10-12T00:00:00.000Z",
+  "nsp": "http://data.ign.fr/def/geofla#",
+  "prefix": "geofla",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fcb",
+      "name": "Institut National de l'Information Géographique et Forestière"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "A vocabulary for French Administrative Units, published by IGN-France. This vocabulary is also an output of the French project Datalift. Note a small typo of the URI used to reference topo vocabulary. TODO: s/topo: <http://data.ign.fr/def/bdtopo#>/topo: <http://data.ign.fr/def/topo#>",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2014-07-31T00:00:00.000Z",
+      "_id": "561c03bd42fc695f7e672568"
+    },
+    {
+      "body": "Updated version history and links",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-09-11T00:00:00.000Z",
+      "_id": "561c03bd42fc695f7e672567"
+    },
+    {
+      "body": "Annual review OK.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-10-12T00:00:00.000Z",
+      "_id": "561c03bd42fc695f7e672566"
+    }
+  ],
+  "tags": [
+    "Geography"
+  ],
+  "titles": [
+    {
+      "value": "Ontologie des unités administratives de l'IGN",
+      "lang": "fr",
+      "_id": "561c03bd42fc695f7e672563"
+    },
+    {
+      "value": "Ontology of administrative units at IGN-France",
+      "lang": "en",
+      "_id": "561c03bd42fc695f7e672562"
+    }
+  ],
+  "uri": "http://data.ign.fr/def/geofla",
+  "versions": [
+    {
+      "name": "v1.0-2014-08-22",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/geofla/versions/2014-08-22.n3",
+      "issued": "2014-08-21T23:00:00.000Z",
+      "classNumber": "8",
+      "propertyNumber": "16",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://data.ign.fr/def/topo#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://data.ign.fr/def/geometrie#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [
+        "http://rdf.insee.fr/def/geo#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v1.0-2014-07-31",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/geofla/versions/2014-07-31.n3",
+      "issued": "2014-07-30T23:00:00.000Z",
+      "classNumber": "8",
+      "propertyNumber": "16",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://data.ign.fr/def/bdtopo#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://data.ign.fr/def/geometrie#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [
+        "http://rdf.insee.fr/def/geo#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2015-01-11",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/geofla/versions/2015-01-11.n3",
+      "issued": "2015-01-11T20:52:11.708Z",
+      "classNumber": "8",
+      "propertyNumber": "16",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://data.ign.fr/def/topo",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://data.ign.fr/def/geometrie",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [
+        "http://rdf.insee.fr/def/geo"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "__v": 5,
+  "contributorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fa4",
+      "name": "Centro Algorithmi"
+    },
+    {
+      "_id": "54b2be048433ca9ccf1c0fed",
+      "name": "Educação, Informação e Tecnologia para Autogestão"
+    },
+    {
+      "_id": "54b2be048433ca9ccf1c0ff1",
+      "name": "Haverford College"
+    },
+    {
+      "_id": "54b2be048433ca9ccf1c0ff4",
+      "name": "Instituto Superior de Contabilidade e Administração do Porto"
+    }
+  ],
+  "createdInLOVAt": "2014-09-01T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e8c",
+      "name": "Mariana Curado Malta"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Un vocabulario para la Economia Social y Solidária (ESS). Este vocabulario es concebido para ser conjugado con los esquemas de metadados/vocabularios/ontologias: dcterms, good relations, foaf, vcard, organization e schema.org - esto esta definido em el Perfil de Aplicación Dublin Core de la ESS. Vocabulario desarollado por el grupo ESSGlobal de la Red Intercontinental para la promoción de Economia Social y Solidaria (RIPESS).",
+      "lang": "es",
+      "_id": "5549338bb6189eea2262b0cd"
+    },
+    {
+      "value": "A vocabulary for the Social and Solidarity Economy (SSE). This vocabulary is designed to be used in combination with the metadata schemes/vocabularies/ontologies: dcterms, good relations, foaf, vcard, organization and schema.org - this is defined in the Dublin Core Application Profile of the SSE. Developed by the ESSGlobal group of the Intercontinental Network for Promoting the Social and Solidarity Economy (RIPESS) Organisation.",
+      "lang": "en",
+      "_id": "5549338bb6189eea2262b0cc"
+    },
+    {
+      "value": "Un vocabolario per l'Economia Sociale e Solidale (ESS). Questo vocabolario è stato progettato per essere utilizzato in combinazione con gli schemi di metadati/vocabolari/ontologie: dcterms, good relations, foaf, vcard, organization e schema.org - questo è definito nel profilo d'applicazione Dublin Core del ESS. Vocabolario Sviluppato dal gruppo ESSGlobal de la Reti intercontinentali per la Promozione della Economia Sociale e Solidale (RIPESS).",
+      "lang": "it",
+      "_id": "5549338bb6189eea2262b0cb"
+    },
+    {
+      "value": "Um vocabulário para a Economia Social e Solidária (ESS). Este vocabulário é concebido para ser combinado em conjunto com os esquemas de metadados/vocabulários/ontologias: dcterms, good relations, foaf, vcard, organization e schema.org - isto está definido no Perfil de Aplicação Dublin Core da ESS. Vocabulário desenvolvido pelo grupo ESSGlobal da Rede Intercontinental para a Promoção da Economia Social e Solidária (RIPESS).",
+      "lang": "pt",
+      "_id": "5549338bb6189eea2262b0ca"
+    },
+    {
+      "value": "Un vocabulaire pour l'Économie Sociale et Solidaire (ESS). Ce vocabulaire est conçu pour être combiné avec les schémas de métadonnées/vocabulaires/ontologies: dcterms, good relations, foaf, vcard, organisation et schema.org - qui est défini dans le profil d'application Dublin Core de l'ESS. Vocabulaire développé par le groupe ESSGlobal du Réseau Intercontinental de Promotion de l'Economie Sociale et Solidaire (RIPESS).",
+      "lang": "fr",
+      "_id": "5549338bb6189eea2262b0c9"
+    }
+  ],
+  "issuedAt": "2014-07-15T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:52:10.342Z",
+  "lastModifiedInLOVAt": "2015-05-05T21:19:02.598Z",
+  "nsp": "http://purl.org/essglobal/vocab/",
+  "prefix": "essglobal",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0ffb",
+      "name": "Intercontinental Network For The Promotion Of Social Solidarity Economy"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Version 1.0 updated with corrections of minor bugs. Preliminary version deleted from LOV records.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-09-01T00:00:00.000Z",
+      "_id": "5549338bb6189eea2262b0cf"
+    },
+    {
+      "body": "New version 1.1 has removed the version number from the URI and namespace",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-05-05T00:00:00.000Z",
+      "_id": "5549338bb6189eea2262b0ce"
+    }
+  ],
+  "tags": [
+    "Society"
+  ],
+  "titles": [
+    {
+      "value": "ESSGlobal Vocabulary",
+      "lang": "en",
+      "_id": "5549338bb6189eea2262b0c8"
+    }
+  ],
+  "uri": "http://purl.org/essglobal/vocab/",
+  "versions": [
+    {
+      "name": "v1.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/essglobal/versions/2014-01-09.n3",
+      "issued": "2014-01-09T00:00:00.000Z",
+      "classNumber": "14",
+      "propertyNumber": "28",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/goodrelations/v1#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://www.w3.org/ns/org#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [
+        "http://purl.org/goodrelations/v1#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e27",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/por",
+          "label": "Portuguese",
+          "iso639P3PCode": "por"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v1.1",
+      "issued": "2015-05-04T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "29",
+      "classNumber": "15",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/essglobal/versions/2015-05-04.n3",
+      "_id": "554933c6b6189eea2262b124",
+      "relSpecializes": [
+        "http://purl.org/goodrelations/v1",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core",
+        "http://www.w3.org/ns/org#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [
+        "http://purl.org/goodrelations/v1"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e27",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/por",
+          "label": "Portuguese",
+          "iso639P3PCode": "por"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

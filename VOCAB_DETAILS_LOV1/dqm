@@ -1,0 +1,112 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-06-24T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f1a",
+      "name": "Christian Fürber"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f21",
+      "name": "Martin Hepp"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The Data Quality Management Vocabulary - An Ontology for Data Requirements Management, Data Quality Monitoring, Data Quality Assessment, and Data Cleansing",
+      "lang": "en",
+      "_id": "55a6349e57613119099c3517"
+    }
+  ],
+  "homepage": "http://purl.org/dqm-vocabulary",
+  "issuedAt": "2011-10-09T00:00:00.000Z",
+  "lastDeref": "2014-06-23T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-07-15T00:00:00.000Z",
+  "nsp": "http://purl.org/dqm-vocabulary/v1/dqm#",
+  "prefix": "dqm",
+  "reviews": [
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-24T00:00:00.000Z",
+      "_id": "55a6349e57613119099c351a"
+    },
+    {
+      "body": "This very technical vocabulary does not seem to be used by any dataset so far (according to LODStats). Could be used to assess quality of datasets in CKAN for example, but it's unclear how the very accurate information it's meant to describe could be captured.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-06-25T00:00:00.000Z",
+      "_id": "55a6349e57613119099c3519"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-15T00:00:00.000Z",
+      "_id": "55a6349e57613119099c3518"
+    }
+  ],
+  "tags": [
+    "Quality"
+  ],
+  "titles": [
+    {
+      "value": "The Data Quality Management Vocabulary",
+      "lang": "en",
+      "_id": "55a6349e57613119099c3516"
+    }
+  ],
+  "uri": "http://purl.org/dqm-vocabulary/v1/dqm",
+  "versions": [
+    {
+      "name": "v1.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/dqm/versions/2011-10-09.n3",
+      "issued": "2011-10-08T23:00:00.000Z",
+      "classNumber": "66",
+      "propertyNumber": "96",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

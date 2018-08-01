@@ -1,0 +1,476 @@
+{
+  "__v": 3,
+  "createdInLOVAt": "2013-06-17T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e55",
+      "name": "Jun Zhao"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0e5e",
+      "name": "Olaf Hartig"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/statistics-data-gov-uk.1.nt",
+      "label": "statistics-data-gov-uk.1.nt",
+      "occurrences": "567"
+    },
+    {
+      "uri": "http://datahub.io/dataset/dcs-sheffield.0.rdf",
+      "label": "dcs-sheffield.0.rdf",
+      "occurrences": "75"
+    },
+    {
+      "uri": "http://datahub.io/dataset/agris.0.rdf",
+      "label": "agris.0.rdf",
+      "occurrences": "16"
+    },
+    {
+      "uri": "http://datahub.io/dataset/agrovoc-skos.0.rdf",
+      "label": "agrovoc-skos.0.rdf",
+      "occurrences": "16"
+    },
+    {
+      "uri": "http://datahub.io/dataset/data-gov-uk-time-intervals.rdf",
+      "label": "data-gov-uk-time-intervals.rdf",
+      "occurrences": "10"
+    },
+    {
+      "uri": "http://datahub.io/dataset/farmers-markets-geographic-data-united-states.ttl",
+      "label": "farmers-markets-geographic-data-united-states.ttl",
+      "occurrences": "7"
+    },
+    {
+      "uri": "http://datahub.io/dataset/fu-berlin-eurostat.rdf",
+      "label": "fu-berlin-eurostat.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-countries.ttl",
+      "label": "instance-hub-countries.ttl",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-organizations.0.ttl",
+      "label": "instance-hub-organizations.0.ttl",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-people.ttl",
+      "label": "instance-hub-people.ttl",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-civil-servants.ttl",
+      "label": "instance-hub-us-civil-servants.ttl",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-congressional-committees.0.ttl",
+      "label": "instance-hub-us-congressional-committees.0.ttl",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-congressional-districts.0.ttl",
+      "label": "instance-hub-us-congressional-districts.0.ttl",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-crops.0.ttl",
+      "label": "instance-hub-us-crops.0.ttl",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/w3c-provenance-incubator-group-vocabulary-mappings.0.ttl",
+      "label": "w3c-provenance-incubator-group-vocabulary-mappings.0.ttl",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/open-data-euskadi.0.rdf",
+      "label": "open-data-euskadi.0.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/open-data-euskadi.rdf",
+      "label": "open-data-euskadi.rdf",
+      "occurrences": "1"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The Provenance Vocabulary Core Ontology provides the main classes and properties required to describe provenance of data on the Web.",
+      "lang": "en",
+      "_id": "5ad0afe43aba5caf50df13f5"
+    }
+  ],
+  "issuedAt": "2009-08-25T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:52:22.270Z",
+  "lastModifiedInLOVAt": "2018-04-13T00:00:00.000Z",
+  "nsp": "http://purl.org/net/provenance/ns#",
+  "prefix": "prv",
+  "reviews": [
+    {
+      "body": "Prefix changed to \"prv\", in order to reserve \"prov\" to the W3C standard vocabulary on provenance.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-06-18T00:00:00.000Z",
+      "_id": "5ad0afe43aba5caf50df13f9"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-17T00:00:00.000Z",
+      "_id": "5ad0afe43aba5caf50df13f8"
+    },
+    {
+      "body": "Annual review - OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-15T00:00:00.000Z",
+      "_id": "5ad0afe43aba5caf50df13f7"
+    },
+    {
+      "body": "Annual review - OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2018-04-13T00:00:00.000Z",
+      "_id": "5ad0afe43aba5caf50df13f6"
+    }
+  ],
+  "tags": [
+    "Quality"
+  ],
+  "titles": [
+    {
+      "value": "Provenance Vocabulary Core Ontology",
+      "lang": "en",
+      "_id": "5ad0afe43aba5caf50df13f4"
+    }
+  ],
+  "uri": "http://purl.org/net/provenance/ns#",
+  "versions": [
+    {
+      "name": "v0.6",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/prv/versions/2012-03-14.n3",
+      "issued": "2012-03-14T00:00:00.000Z",
+      "classNumber": "15",
+      "propertyNumber": "18",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://www.ontologydesignpatterns.org/cp/owl/informationrealization.owl#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/prov#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [
+        "http://sw.nokia.com/WebArch-1/",
+        "http://www.ontologydesignpatterns.org/ont/web/irw.owl#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relExtends": [
+        "http://www.ontologydesignpatterns.org/ont/web/irw.owl#"
+      ],
+      "relEquivalent": [
+        "http://www.w3.org/ns/prov#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.51",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/prv/versions/2011-01-25.n3",
+      "issued": "2011-01-25T00:00:00.000Z",
+      "classNumber": "13",
+      "propertyNumber": "18",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://sw.nokia.com/WebArch-1/",
+        "http://www.ontologydesignpatterns.org/cp/owl/informationrealization.owl#",
+        "http://www.ontologydesignpatterns.org/ont/web/irw.owl#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [
+        "http://sw.nokia.com/WebArch-1/",
+        "http://www.ontologydesignpatterns.org/ont/web/irw.owl#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relExtends": [
+        "http://www.ontologydesignpatterns.org/ont/web/irw.owl#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.5",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/prv/versions/2010-07-10.n3",
+      "issued": "2010-07-09T23:00:00.000Z",
+      "classNumber": "13",
+      "propertyNumber": "18",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://sw.nokia.com/WebArch-1/",
+        "http://www.ontologydesignpatterns.org/cp/owl/informationrealization.owl#",
+        "http://www.ontologydesignpatterns.org/ont/web/irw.owl#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [
+        "http://sw.nokia.com/WebArch-1/",
+        "http://www.ontologydesignpatterns.org/ont/web/irw.owl#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relExtends": [
+        "http://www.ontologydesignpatterns.org/ont/web/irw.owl#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.4",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/prv/versions/2010-04-04.n3",
+      "issued": "2010-04-03T23:00:00.000Z",
+      "classNumber": "13",
+      "propertyNumber": "18",
+      "instanceNumber": "1",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://sw.nokia.com/WebArch-1/",
+        "http://www.ontologydesignpatterns.org/ont/web/irw.owl#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [
+        "http://sw.nokia.com/WebArch-1/",
+        "http://www.ontologydesignpatterns.org/ont/web/irw.owl#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.3",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/prv/versions/2009-11-28.n3",
+      "issued": "2009-11-28T00:00:00.000Z",
+      "classNumber": "13",
+      "propertyNumber": "17",
+      "instanceNumber": "1",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://sw.nokia.com/WebArch-1/",
+        "http://www.ontologydesignpatterns.org/ont/web/irw.owl#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [
+        "http://sw.nokia.com/WebArch-1/",
+        "http://www.ontologydesignpatterns.org/ont/web/irw.owl#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/prv/versions/2009-10-07.n3",
+      "issued": "2009-10-06T23:00:00.000Z",
+      "classNumber": "12",
+      "propertyNumber": "14",
+      "instanceNumber": "1",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://sw.nokia.com/WebArch-1/",
+        "http://www.ontologydesignpatterns.org/ont/web/irw.owl#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [
+        "http://sw.nokia.com/WebArch-1/",
+        "http://www.ontologydesignpatterns.org/ont/web/irw.owl#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/prv/versions/2009-08-25.n3",
+      "issued": "2009-08-24T23:00:00.000Z",
+      "classNumber": "12",
+      "propertyNumber": "14",
+      "instanceNumber": "1",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://sw.nokia.com/WebArch-1/",
+        "http://www.ontologydesignpatterns.org/ont/web/irw.owl#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [
+        "http://sw.nokia.com/WebArch-1/",
+        "http://www.ontologydesignpatterns.org/ont/web/irw.owl#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

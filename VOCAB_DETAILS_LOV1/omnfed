@@ -1,0 +1,116 @@
+{
+  "__v": 4,
+  "contributorIds": [
+    {
+      "_id": "552697508c18cd9b5c334add",
+      "name": "Mohamed Morsey"
+    },
+    {
+      "_id": "5526979d8c18cd9b5c334b16",
+      "name": "Paola Grosso"
+    },
+    {
+      "_id": "5527e5a64727af98034d327b",
+      "name": "Yahya Al-Hazmi"
+    }
+  ],
+  "createdInLOVAt": "2015-04-09T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "5500449a2e3e52df4a3cc3e4",
+      "name": "Alexander Willner"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "This ontology defines concepts related to federation of internet infrastructures.",
+      "lang": "en",
+      "_id": "5527e61e4727af98034d32a2"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2014-11-11T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-04-10T00:00:00.000Z",
+  "nsp": "http://open-multinet.info/ontology/omn-federation#",
+  "prefix": "omnfed",
+  "publisherIds": [
+    {
+      "_id": "5500454e2e3e52df4a3cc3e7",
+      "name": "Open Multinet"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "From the OpenMulinet project description \"We are approaching the era of the multinet. Instead of the one internet, we will have a multitude of parallel networks, customized by you to include anything and anyone you wish.\"",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-04-09T00:00:00.000Z",
+      "_id": "5527e61e4727af98034d32a3"
+    }
+  ],
+  "tags": [
+    "Society",
+    "Industry"
+  ],
+  "titles": [
+    {
+      "value": "Open-Multinet Upper Federation Ontology",
+      "lang": "en",
+      "_id": "5527e61e4727af98034d32a1"
+    }
+  ],
+  "uri": "http://open-multinet.info/ontology/omn-federation",
+  "versions": [
+    {
+      "_id": "552691702e37705a2c253486",
+      "classNumber": "3",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/omnfed/versions/2015-04-04.n3",
+      "instanceNumber": "0",
+      "issued": "2015-04-04T00:00:00.000Z",
+      "name": "v2015-04-04",
+      "propertyNumber": "4",
+      "relSpecializes": [
+        "http://open-multinet.info/ontology/omn",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [
+        "http://open-multinet.info/ontology/omn"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

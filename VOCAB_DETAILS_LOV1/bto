@@ -1,0 +1,136 @@
+{
+  "__v": 2,
+  "contributorIds": [
+    {
+      "_id": "54ff72862e3e52df4a3cc076",
+      "name": "Maxime Lefrançois"
+    }
+  ],
+  "createdInLOVAt": "2018-02-19T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "5a8af28356188aad6c1106bf",
+      "name": "Mads Holten Rasmussen"
+    },
+    {
+      "_id": "5a8af2af56188aad6c1106f1",
+      "name": "Pieter Pauwels"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "A simple ontology describing the topology of a building",
+      "lang": "en",
+      "_id": "5a8af597f6d9fbcf413dbdfe"
+    }
+  ],
+  "homepage": "https://www.researchgate.net/publication/320631574_Recent_changes_in_the_Building_Topology_Ontology",
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2017-10-27T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2018-02-19T00:00:00.000Z",
+  "nsp": "https://w3id.org/bot#",
+  "prefix": "bto",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "A simple ontology defining the core concepts of a building. The authors translate the BOT ontology in almost 5 languages. Paper describing the ontology at https://doi.org/10.24928/JC3-2017/0153",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2018-02-19T00:00:00.000Z",
+      "_id": "5a8af597f6d9fbcf413dbdff"
+    }
+  ],
+  "tags": [
+    "Industry"
+  ],
+  "titles": [
+    {
+      "value": "BOT: Building Topology Ontology",
+      "lang": "en",
+      "_id": "5a8af597f6d9fbcf413dbdfd"
+    }
+  ],
+  "uri": "https://w3id.org/bot",
+  "versions": [
+    {
+      "name": "0.2.0",
+      "issued": "2017-10-27T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "10",
+      "classNumber": "7",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/bto/versions/2017-10-27.n3",
+      "_id": "5a8af4f4f6d9fbcf413dbcd3",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e09",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/dan",
+          "label": "Danish",
+          "iso639P3PCode": "dan"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        },
+        {
+          "_id": "54fd6b1a5efee150f4419d50",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/sme",
+          "label": "Northern Sami",
+          "iso639P3PCode": "sme"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

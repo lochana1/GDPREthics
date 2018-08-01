@@ -1,0 +1,141 @@
+{
+  "__v": 0,
+  "contributorIds": [
+    {
+      "_id": "555a6ab830f688c94e820170",
+      "name": "Julio Cesar Duarte"
+    },
+    {
+      "_id": "555a69cb30f688c94e820165",
+      "name": "Ricardo Usbeck"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f64",
+      "name": "Jens Lehmann"
+    },
+    {
+      "_id": "555a6a8c30f688c94e82016e",
+      "name": "Maria Claudia Cavalcanti Reis"
+    },
+    {
+      "_id": "555a6a0030f688c94e820167",
+      "name": "Diego Moussallem"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f87",
+      "name": "Sebastian Hellmann"
+    },
+    {
+      "_id": "555a6a2930f688c94e820169",
+      "name": "Markus Ackermann"
+    }
+  ],
+  "createdInLOVAt": "2015-05-18T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "555a694930f688c94e820160",
+      "name": "Diego Esteves"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "MEX e um vocabulario modelado para facilitar a interoperabilidade entre resultados de experimentos de aprendizado de maquinas publicados na Web. A camada mex-perf e o 3o. nivel na abordagem MEX para representar performances de algoritmos de aprendizado de maquinas",
+      "lang": "pt",
+      "_id": "555a6e0230f688c94e82019f"
+    },
+    {
+      "value": "MEX is an RDF vocabulary designed to facilitate interoperability between published machine learning experiments results on the Web. The mex-perf layer is the 3rd level of the MEX for representing the machine learning algorithm's performances.",
+      "lang": "en",
+      "_id": "555a6e0230f688c94e82019e"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2014-02-02T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-05-18T22:56:28.956Z",
+  "nsp": "http://mex.aksw.org/mex-perf#",
+  "prefix": "mexperf",
+  "publisherIds": [
+    {
+      "_id": "5558f84d30f688c94e81f958",
+      "name": "AKSW Research Group - Leipzig University"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Added to LOV the third vocabulary of the MEX family.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-05-19T00:00:00.000Z",
+      "_id": "555a6e0130f688c94e82019d"
+    }
+  ],
+  "tags": [
+    "Methods"
+  ],
+  "titles": [
+    {
+      "value": "MEX Performance Ontology",
+      "lang": "en",
+      "_id": "555a6e0230f688c94e8201a0"
+    }
+  ],
+  "uri": "http://mex.aksw.org/mex-perf",
+  "versions": [
+    {
+      "_id": "555a6e0530f688c94e8201a1",
+      "classNumber": "10",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/mexperf/versions/2014-04-05.n3",
+      "instanceNumber": "0",
+      "issued": "2014-04-05T00:00:00.000Z",
+      "name": "v1.0.0",
+      "propertyNumber": "55",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/prov#"
+      ],
+      "relImports": [
+        "http://usefulinc.com/ns/doap#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/prov#"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e27",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/por",
+          "label": "Portuguese",
+          "iso639P3PCode": "por"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

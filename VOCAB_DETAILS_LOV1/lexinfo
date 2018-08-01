@@ -1,0 +1,440 @@
+{
+  "__v": 2,
+  "contributorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0edc",
+      "name": "Philipp Cimiano"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0ef2",
+      "name": "Paul Buitelaar"
+    }
+  ],
+  "createdInLOVAt": "2012-07-31T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0ea4",
+      "name": "John P. McCrae"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/parole-simple-ont.15.ttl",
+      "label": "parole-simple-ont.15.ttl",
+      "occurrences": "41807"
+    },
+    {
+      "uri": "http://datahub.io/dataset/parole-simple-ont.30.rdf",
+      "label": "parole-simple-ont.30.rdf",
+      "occurrences": "41807"
+    },
+    {
+      "uri": "http://datahub.io/dataset/parole-simple-ont.15.rdf",
+      "label": "parole-simple-ont.15.rdf",
+      "occurrences": "16224"
+    },
+    {
+      "uri": "http://datahub.io/dataset/parole-simple-ont.7.ttl",
+      "label": "parole-simple-ont.7.ttl",
+      "occurrences": "16224"
+    },
+    {
+      "uri": "http://datahub.io/dataset/lexinfo.rdf",
+      "label": "lexinfo.rdf",
+      "occurrences": "455"
+    },
+    {
+      "uri": "http://datahub.io/dataset/parole-simple-ont.0.rdf",
+      "label": "parole-simple-ont.0.rdf",
+      "occurrences": "6"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Version 2.0 of LexInfo Ontology, based on Lemon",
+      "lang": "en",
+      "_id": "57861e058c6f955d29be10ad"
+    },
+    {
+      "value": "Онтология типов, значений и свойств, используемых совместно с онтологией lemon, частично является производной от ISOcat",
+      "lang": "ru",
+      "_id": "57861e058c6f955d29be10ac"
+    }
+  ],
+  "issuedAt": "2010-11-22T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:52:16.603Z",
+  "lastModifiedInLOVAt": "2016-07-13T00:00:00.000Z",
+  "nsp": "http://www.lexinfo.net/ontology/2.0/lexinfo#",
+  "prefix": "lexinfo",
+  "publisherIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0ea4",
+      "name": "John P. McCrae"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Deleted false positive versions. Removed link to lmf.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-11-27T00:00:00.000Z",
+      "_id": "57861e058c6f955d29be10b3"
+    },
+    {
+      "body": "Versions up to 1.0 are based on lmf, version 2.0 is based on lemon. History and dates of v2.0 to be reviewed when available. Version 1.0. was cloned for a while at http://vocab.deri.ie/lexinfo, but this clone is now off-line.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2012-08-01T00:00:00.000Z",
+      "_id": "57861e058c6f955d29be10b2"
+    },
+    {
+      "body": "Updated version history, link to lemon ontology, and contributors. Last version has complete metadata.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-12T00:00:00.000Z",
+      "_id": "57861e058c6f955d29be10b1"
+    },
+    {
+      "body": "Clearly missing a human readable documentation to have a quick view on the classes and properties.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2013-10-29T00:00:00.000Z",
+      "_id": "57861e058c6f955d29be10b0"
+    },
+    {
+      "body": "Annual review - no updates from last year review",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-18T00:00:00.000Z",
+      "_id": "57861e058c6f955d29be10af"
+    },
+    {
+      "body": "Russian labels added with this new version based on the work of Evgeny Cherkashin",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-07-13T00:00:00.000Z",
+      "_id": "57861e058c6f955d29be10ae"
+    }
+  ],
+  "tags": [
+    "Vocabularies"
+  ],
+  "titles": [
+    {
+      "value": "LexInfo Ontology",
+      "lang": "en",
+      "_id": "57861e058c6f955d29be10ab"
+    }
+  ],
+  "uri": "http://www.lexinfo.net/ontology/2.0/lexinfo",
+  "versions": [
+    {
+      "name": "v2.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lexinfo/versions/2014-06-14.n3",
+      "issued": "2014-06-13T23:00:00.000Z",
+      "classNumber": "183",
+      "propertyNumber": "142",
+      "instanceNumber": "272",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://lemon-model.net/lemon",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://lemon-model.net/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/#",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.isocat.org/ns/dcr.rdf#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lexinfo/versions/2012-07-19.n3",
+      "issued": "2012-07-18T23:00:00.000Z",
+      "classNumber": "182",
+      "propertyNumber": "132",
+      "instanceNumber": "271",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.monnet-project.eu/lemon#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://www.monnet-project.eu/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/description#",
+        "http://www.isocat.org/ns/dcr.rdf#",
+        "http://www.monnet-project.eu/lemon#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v1.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lexinfo/versions/2010-03-18.n3",
+      "issued": "2010-03-18T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [
+        "http://www.lexinfo.net/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": null,
+      "isReviewed": false
+    },
+    {
+      "name": "v2010-03-08",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lexinfo/versions/2010-03-08.n3",
+      "issued": "2010-03-08T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [
+        "http://www.lexinfo.net/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": null,
+      "isReviewed": false
+    },
+    {
+      "name": "v2009-11-13",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lexinfo/versions/2009-11-13.n3",
+      "issued": "2009-11-13T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [
+        "http://lexonto.ontoware.org/",
+        "http://owlodm.ontoware.org/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": null,
+      "isReviewed": false
+    },
+    {
+      "name": "v2015-01-11",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lexinfo/versions/2015-01-11.n3",
+      "issued": "2015-01-11T20:52:16.603Z",
+      "classNumber": "183",
+      "propertyNumber": "142",
+      "instanceNumber": "274",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://lemon-model.net/lemon",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://lemon-model.net/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/#",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.isocat.org/ns/dcr.rdf#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2016-07-13",
+      "issued": "2016-07-13T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "274",
+      "propertyNumber": "144",
+      "classNumber": "184",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lexinfo/versions/2016-07-13.n3",
+      "_id": "57861d5f8c6f955d29be108e",
+      "relSpecializes": [
+        "http://lemon-model.net/lemon",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://lemon-model.net/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/#",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.isocat.org/ns/dcr.rdf#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/rus",
+          "label": "Russian",
+          "iso639P3PCode": "rus"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

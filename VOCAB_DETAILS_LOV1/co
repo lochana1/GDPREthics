@@ -1,0 +1,287 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-06-12T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e6f",
+      "name": "Mats Skillingstad"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0e9e",
+      "name": "Yves Raimond"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f34",
+      "name": "Bob Ferris"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The Counter Ontology specification provides basic concepts and properties for describing a general counter concept and some important sub counters",
+      "lang": "en",
+      "_id": "55d728ebe4ac2b1c4c5a5066"
+    }
+  ],
+  "issuedAt": "2010-07-09T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:43:39.298Z",
+  "lastModifiedInLOVAt": "2015-08-21T00:00:00.000Z",
+  "nsp": "http://purl.org/ontology/co/core#",
+  "prefix": "co",
+  "reviews": [
+    {
+      "body": "A small vocabulary developed to be used with the Play Back Ontology, but generic enough to be used in any context needing counters.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-06-13T00:00:00.000Z",
+      "_id": "55d728ebe4ac2b1c4c5a5069"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-12T00:00:00.000Z",
+      "_id": "55d728ebe4ac2b1c4c5a5068"
+    },
+    {
+      "body": "Fixed history version.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-08-21T00:00:00.000Z",
+      "_id": "55d728ebe4ac2b1c4c5a5067"
+    }
+  ],
+  "tags": [
+    "Methods"
+  ],
+  "titles": [
+    {
+      "value": "Counter Ontology",
+      "lang": "en",
+      "_id": "55d728ebe4ac2b1c4c5a5065"
+    }
+  ],
+  "uri": "http://purl.org/ontology/co/core#",
+  "versions": [
+    {
+      "name": "v0.81",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/co/versions/2010-09-13.n3",
+      "issued": "2010-09-12T23:00:00.000Z",
+      "classNumber": "2",
+      "propertyNumber": "6",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/NET/c4dm/event.owl",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [
+        "http://purl.org/NET/c4dm/",
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/2003/06/sw-vocab-status/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/NET/c4dm/event.owl",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.8",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/co/versions/2010-08-04.n3",
+      "issued": "2010-08-03T23:00:00.000Z",
+      "classNumber": "2",
+      "propertyNumber": "8",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/NET/c4dm/event.owl",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [
+        "http://purl.org/NET/c4dm/",
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/2003/06/sw-vocab-status/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/NET/c4dm/event.owl",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.7",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/co/versions/2010-07-24.n3",
+      "issued": "2010-07-23T23:00:00.000Z",
+      "classNumber": "2",
+      "propertyNumber": "7",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/NET/c4dm/event.owl",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [
+        "http://purl.org/NET/c4dm/",
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/2003/06/sw-vocab-status/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/NET/c4dm/event.owl",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.61",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/co/versions/2010-07-20.n3",
+      "issued": "2010-07-19T23:00:00.000Z",
+      "classNumber": "2",
+      "propertyNumber": "5",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/NET/c4dm/event.owl",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [
+        "http://purl.org/NET/c4dm/",
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/2003/06/sw-vocab-status/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/NET/c4dm/event.owl",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.6",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/co/versions/2010-07-09.n3",
+      "issued": "2010-07-08T23:00:00.000Z",
+      "classNumber": "2",
+      "propertyNumber": "5",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/NET/c4dm/event.owl",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [
+        "http://purl.org/NET/c4dm/",
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/2003/06/sw-vocab-status/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/NET/c4dm/event.owl",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

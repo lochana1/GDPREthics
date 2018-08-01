@@ -1,0 +1,164 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2014-06-18T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0eef",
+      "name": "Markus Lanthaler"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "A lightweight vocabulary for hypermedia-driven Web APIs",
+      "lang": "en",
+      "_id": "5acccfa03aba5caf50dbec42"
+    }
+  ],
+  "homepage": "http://www.w3.org/ns/hydra/spec/latest/core/",
+  "issuedAt": "2014-05-16T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:52:14.301Z",
+  "lastModifiedInLOVAt": "2018-04-10T00:00:00.000Z",
+  "nsp": "http://www.w3.org/ns/hydra/core#",
+  "prefix": "hydra",
+  "publisherIds": [
+    {
+      "_id": "55a0db1157613119099c1055",
+      "name": "Hydra W3C Community Group"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Hydra is a lightweight vocabulary to create hypermedia-driven Web APIs. By specifying a number of concepts commonly used in Web APIs it enables the creation of generic API clients.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2014-06-19T00:00:00.000Z",
+      "_id": "5acccfa03aba5caf50dbec45"
+    },
+    {
+      "body": "Annual review done! This is the first vocabulary entirely described in JSON-LD",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-11T00:00:00.000Z",
+      "_id": "5acccfa03aba5caf50dbec44"
+    },
+    {
+      "body": "Annual review - OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2018-04-10T00:00:00.000Z",
+      "_id": "5acccfa03aba5caf50dbec43"
+    }
+  ],
+  "tags": [
+    "RDF"
+  ],
+  "titles": [
+    {
+      "value": "The Hydra Core Vocabulary",
+      "lang": "en",
+      "_id": "5acccfa03aba5caf50dbec41"
+    }
+  ],
+  "uri": "http://www.w3.org/ns/hydra/core",
+  "versions": [
+    {
+      "name": "v2014-06-20",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/hydra/versions/2014-06-20.n3",
+      "issued": "2014-06-19T23:00:00.000Z",
+      "classNumber": "16",
+      "propertyNumber": "29",
+      "instanceNumber": "31",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v2014-05-16",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/hydra/versions/2014-05-16.n3",
+      "issued": "2014-05-15T23:00:00.000Z",
+      "classNumber": "16",
+      "propertyNumber": "29",
+      "instanceNumber": "31",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v2015-01-11",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/hydra/versions/2015-01-11.n3",
+      "issued": "2015-01-11T20:52:14.301Z",
+      "classNumber": "18",
+      "propertyNumber": "30",
+      "instanceNumber": "33",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "__v": 1,
+  "contributorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0ed0",
+      "name": "Yannis Tzitzikas"
+    }
+  ],
+  "createdInLOVAt": "2015-03-25T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0ecd",
+      "name": "Pavlos Fafalios"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The Open NEE Model defines an extension of the Open Annotation Data Model (http://www.openannotation.org/spec/core) that allows describing in RDF the result of a Named Entity Extraction (NEE) process, enabling thereby an application to run advanced (SPARQL) queries over the annotated data. The model also exploits the Open NEE Configuration Model (http://www.ics.forth.gr/isl/oncm) for relating the output of a NEE process with an applied configuration (serving provenance information to the output of the entire NEE process).",
+      "lang": "en",
+      "_id": "5731e778b5cce30e4a3b56d4"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2015-02-04T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-05-10T00:00:00.000Z",
+  "nsp": "http://www.ics.forth.gr/isl/oae/core#",
+  "prefix": "oae",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "Relies on Open Annotation and Open NEE Configuration Model. As the latter, lacks time metadata and versIon history.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-03-25T00:00:00.000Z",
+      "_id": "5731e778b5cce30e4a3b56d6"
+    },
+    {
+      "body": "Annual review OK.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2016-05-10T00:00:00.000Z",
+      "_id": "5731e778b5cce30e4a3b56d5"
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "Open NEE Model",
+      "lang": "en",
+      "_id": "5731e778b5cce30e4a3b56d3"
+    }
+  ],
+  "uri": "http://www.ics.forth.gr/isl/oae/core",
+  "versions": [
+    {
+      "name": "v2015-03-25",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/oae/versions/2015-03-25.n3",
+      "issued": "2015-03-25T20:05:16.167Z",
+      "classNumber": "1",
+      "propertyNumber": "8",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/oa#"
+      ],
+      "relImports": [
+        "http://www.ics.forth.gr/isl/oncm/",
+        "http://www.w3.org/ns/oa#"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.ics.forth.gr/isl/oncm/core",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/oa#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

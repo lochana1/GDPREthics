@@ -1,0 +1,483 @@
+{
+  "__v": 2,
+  "contributorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e78",
+      "name": "Dan Brickley"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f62",
+      "name": "Tim Berners-Lee"
+    }
+  ],
+  "createdInLOVAt": "2013-06-04T23:00:00.000Z",
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/eprtr.",
+      "label": "eprtr.",
+      "occurrences": "329835"
+    },
+    {
+      "uri": "http://datahub.io/dataset/nuts-geovocab.7.ttl",
+      "label": "nuts-geovocab.7.ttl",
+      "occurrences": "142418"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eprtr.97.",
+      "label": "eprtr.97.",
+      "occurrences": "94384"
+    },
+    {
+      "uri": "http://datahub.io/dataset/odc-lsoa.0.ttl",
+      "label": "odc-lsoa.0.ttl",
+      "occurrences": "68756"
+    },
+    {
+      "uri": "http://datahub.io/dataset/zaragoza-turismo.rdf",
+      "label": "zaragoza-turismo.rdf",
+      "occurrences": "21602"
+    },
+    {
+      "uri": "http://datahub.io/dataset/scotland-statistical-geography",
+      "label": "Scotland statistical geography",
+      "occurrences": "15480"
+    },
+    {
+      "uri": "http://datahub.io/dataset/farmers-markets-geographic-data-united-states.ttl",
+      "label": "farmers-markets-geographic-data-united-states.ttl",
+      "occurrences": "14446"
+    },
+    {
+      "uri": "http://datahub.io/dataset/wals",
+      "label": "World Atlas of Language Structuctures (WALS) Online",
+      "occurrences": "5356"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-bus-stops.rdf",
+      "label": "southampton-ac-uk-bus-stops.rdf",
+      "occurrences": "3888"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-bus-stops.ttl",
+      "label": "southampton-ac-uk-bus-stops.ttl",
+      "occurrences": "3888"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-eprints-ecs.ttl",
+      "label": "southampton-ac-uk-eprints-ecs.ttl",
+      "occurrences": "2128"
+    },
+    {
+      "uri": "http://datahub.io/dataset/greek-legal-entities.0.rdf",
+      "label": "greek-legal-entities.0.rdf",
+      "occurrences": "2060"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-webconf.2.rdf",
+      "label": "rkb-explorer-webconf.2.rdf",
+      "occurrences": "1082"
+    },
+    {
+      "uri": "http://datahub.io/dataset/public-record-office-victoria-semantic-wiki.0.rdf",
+      "label": "public-record-office-victoria-semantic-wiki.0.rdf",
+      "occurrences": "847"
+    },
+    {
+      "uri": "http://datahub.io/dataset/patents-data-gov-uk.1.nt",
+      "label": "patents-data-gov-uk.1.nt",
+      "occurrences": "780"
+    },
+    {
+      "uri": "http://datahub.io/dataset/hellenic-fire-brigade.24.nt",
+      "label": "hellenic-fire-brigade.24.nt",
+      "occurrences": "602"
+    },
+    {
+      "uri": "http://datahub.io/dataset/hellenic-fire-brigade.rdf",
+      "label": "hellenic-fire-brigade.rdf",
+      "occurrences": "602"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-places.rdf",
+      "label": "southampton-ac-uk-places.rdf",
+      "occurrences": "560"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-places.ttl",
+      "label": "southampton-ac-uk-places.ttl",
+      "occurrences": "560"
+    },
+    {
+      "uri": "http://datahub.io/dataset/klappstuhlclub.0.ttl",
+      "label": "klappstuhlclub.0.ttl",
+      "occurrences": "500"
+    },
+    {
+      "uri": "http://datahub.io/dataset/business-data-gov-uk.nt",
+      "label": "business-data-gov-uk.nt",
+      "occurrences": "456"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-congressional-districts.0.ttl",
+      "label": "instance-hub-us-congressional-districts.0.ttl",
+      "occurrences": "432"
+    },
+    {
+      "uri": "http://datahub.io/dataset/cablegate.5.rdf",
+      "label": "cablegate.5.rdf",
+      "occurrences": "128"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eu-institutions.0.ttl",
+      "label": "eu-institutions.0.ttl",
+      "occurrences": "104"
+    },
+    {
+      "uri": "http://datahub.io/dataset/geospecies.8.rdf",
+      "label": "geospecies.8.rdf",
+      "occurrences": "104"
+    },
+    {
+      "uri": "http://datahub.io/dataset/glastonbury-2011.1.rdf",
+      "label": "glastonbury-2011.1.rdf",
+      "occurrences": "60"
+    },
+    {
+      "uri": "http://datahub.io/dataset/hellenic-police.nt",
+      "label": "hellenic-police.nt",
+      "occurrences": "30"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-eprints.ttl",
+      "label": "southampton-ac-uk-eprints.ttl",
+      "occurrences": "25"
+    },
+    {
+      "uri": "http://datahub.io/dataset/linked-open-data-of-ecology.rdf",
+      "label": "linked-open-data-of-ecology.rdf",
+      "occurrences": "8"
+    },
+    {
+      "uri": "http://datahub.io/dataset/farmers-markets-geographic-data-united-states.0.ttl",
+      "label": "farmers-markets-geographic-data-united-states.0.ttl",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/colinda",
+      "label": "COLINDA - Conference Linked Data",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/krystian-pietruszka.",
+      "label": "krystian-pietruszka.",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-profile.rdf",
+      "label": "southampton-ac-uk-profile.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-profile.ttl",
+      "label": "southampton-ac-uk-profile.ttl",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aksworg.rdf",
+      "label": "aksworg.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aksworg.ttl",
+      "label": "aksworg.ttl",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/dbpedia-fr.rdf",
+      "label": "dbpedia-fr.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/glottolog-langdoc",
+      "label": "Glottolog/Langdoc",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/hellenic-police.0.rdf",
+      "label": "hellenic-police.0.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/norwegian-geo-divisions.ttl",
+      "label": "norwegian-geo-divisions.ttl",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/pleiades.ttl",
+      "label": "pleiades.ttl",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rdfize-lastfm.ttl",
+      "label": "rdfize-lastfm.ttl",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-services.rdf",
+      "label": "southampton-ac-uk-services.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-services.ttl",
+      "label": "southampton-ac-uk-services.ttl",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/transport-openuplabs.rdf",
+      "label": "transport-openuplabs.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/uk-postcodes.rdf",
+      "label": "uk-postcodes.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/wals.0.rdf",
+      "label": "wals.0.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/wold.0.rdf",
+      "label": "wold.0.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/kdata.ttl",
+      "label": "kdata.ttl",
+      "occurrences": "1"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "A vocabulary for representing latitude, longitude and   altitude information in the WGS84 geodetic reference datum.",
+      "lang": "en",
+      "_id": "57696ba14a73263716312e54"
+    }
+  ],
+  "homepage": "http://www.w3.org/2003/01/geo/",
+  "issuedAt": "2003-01-10T00:00:00.000Z",
+  "lastDeref": "2014-06-04T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-06-21T00:00:00.000Z",
+  "nsp": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+  "prefix": "geo",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c1003",
+      "name": "W3C"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-04T00:00:00.000Z",
+      "_id": "57696ba14a73263716312e58"
+    },
+    {
+      "body": "Pretty basic but very much used in linked data, and reused in many vocabularies. While being published in the W3C namespace and wearing the signature of Sir Tim Berners-Lee himself, this vocabulary has no official status whatsoever. It's, like FOAF, a good exemple of de facto standard.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-06-04T00:00:00.000Z",
+      "_id": "57696ba14a73263716312e57"
+    },
+    {
+      "body": "Annual review -  no change. Website added.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2015-05-05T00:00:00.000Z",
+      "_id": "57696ba14a73263716312e56"
+    },
+    {
+      "body": "Annual review - no changes.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-06-21T00:00:00.000Z",
+      "_id": "57696ba14a73263716312e55"
+    }
+  ],
+  "tags": [
+    "Geography"
+  ],
+  "titles": [
+    {
+      "value": "WGS84 Geo Positioning",
+      "lang": "en",
+      "_id": "57696ba14a73263716312e53"
+    }
+  ],
+  "uri": "http://www.w3.org/2003/01/geo/wgs84_pos",
+  "versions": [
+    {
+      "name": "v1.22",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/geo/versions/2009-04-20.n3",
+      "issued": "2009-04-19T23:00:00.000Z",
+      "classNumber": "2",
+      "propertyNumber": "5",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v1.18",
+      "issued": "2006-02-01T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v1.17",
+      "issued": "2004-02-06T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v1.14",
+      "issued": "2003-04-18T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v1.13",
+      "issued": "2003-02-19T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v1.12",
+      "issued": "2003-01-12T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v1.10",
+      "issued": "2003-01-11T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v1.1",
+      "issued": "2003-01-10T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

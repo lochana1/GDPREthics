@@ -1,0 +1,112 @@
+{
+  "__v": 2,
+  "commentDeref": "Problem while dereferencing or parsing the vocabulary",
+  "createdInLOVAt": "2014-06-13T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be018433ca9ccf1c0e4e",
+      "name": "K Faith Lawrence"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0e5c",
+      "name": "Mischa M Tuffield"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f0e",
+      "name": "Michael O. Jewell"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "OntoMedia (Ontology for Media) Date Component has been designed to describe the different ways of marking time in media.",
+      "lang": "en",
+      "_id": "58eb8132abe2639e2c3ac8c2"
+    }
+  ],
+  "isDefinedBy": "https://code.google.com/p/contextus/source/browse/trunk/ontomedia/misc/date.owl",
+  "issuedAt": "2005-05-11T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-04-10T00:00:00.000Z",
+  "nsp": "http://contextus.net/ontology/ontomedia/misc/date#",
+  "prefix": "date",
+  "reviews": [
+    {
+      "body": "Yet another vocabulary in OntoMedia family. Like other ones, the namespace URI is 404, the vocabulary is maintained on Google Code.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-14T00:00:00.000Z",
+      "_id": "58eb8132abe2639e2c3ac8c5"
+    },
+    {
+      "body": "As of today for annual review, the URI is 404.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-15T00:00:00.000Z",
+      "_id": "58eb8132abe2639e2c3ac8c4"
+    },
+    {
+      "body": "Vocabulary still 404 in review.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-04-10T00:00:00.000Z",
+      "_id": "58eb8132abe2639e2c3ac8c3"
+    }
+  ],
+  "tags": [
+    "Time"
+  ],
+  "titles": [
+    {
+      "value": "OntoMedia Date Part Representation",
+      "lang": "en",
+      "_id": "58eb8132abe2639e2c3ac8c1"
+    }
+  ],
+  "uri": "http://contextus.net/ontology/ontomedia/misc/date#",
+  "versions": [
+    {
+      "name": "v0.21",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/date/versions/2005-05-11.n3",
+      "issued": "2005-05-10T23:00:00.000Z",
+      "classNumber": "13",
+      "propertyNumber": "8",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://contextus.net/ontology/ontomedia/ext/common/trait#",
+        "http://contextus.net/ontology/ontomedia/ext/detail/know#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://contextus.net/ontology/ontomedia/core/expression#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

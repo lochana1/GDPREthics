@@ -1,0 +1,272 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-06-02T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e7e",
+      "name": "Ghislain Atemezing"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f7b",
+      "name": "Raphaël Troncy"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Vocabulaire décrivant la répartition des points de contact du réseau postal en France métropolitaine, Guadeloupe, Guyane, La Réunion, Martinique, Mayotte, Monaco, Monte-Carlo et Saint-Pierre et Miquelon",
+      "lang": "fr",
+      "_id": "5783c0c20183b1e80fc87fb9"
+    },
+    {
+      "value": "This vocabulary describes the contact points of the postal agencies network in France.",
+      "lang": "en",
+      "_id": "5783c0c20183b1e80fc87fb8"
+    }
+  ],
+  "issuedAt": "2012-09-27T00:00:00.000Z",
+  "lastDeref": "2014-05-20T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-07-11T00:00:00.000Z",
+  "nsp": "http://data.lirmm.fr/ontologies/poste#",
+  "prefix": "poste",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fab",
+      "name": "EURECOM"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Minor changes in last versions, without change of version number.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-05-18T00:00:00.000Z",
+      "_id": "5783c0c20183b1e80fc87fbd"
+    },
+    {
+      "body": "New version checked, removing foaf:inbox to direct URI for the creators, and adding the publisher information.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2013-06-02T00:00:00.000Z",
+      "_id": "5783c0c20183b1e80fc87fbc"
+    },
+    {
+      "body": "Annual review. Added English title and description.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-04-21T00:00:00.000Z",
+      "_id": "5783c0c20183b1e80fc87fbb"
+    },
+    {
+      "body": "The vocabulary is 503 at the time of reviewing.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-07-11T00:00:00.000Z",
+      "_id": "5783c0c20183b1e80fc87fba"
+    }
+  ],
+  "tags": [
+    "Society"
+  ],
+  "titles": [
+    {
+      "value": "Ontologie de la Poste",
+      "lang": "fr",
+      "_id": "5783c0c20183b1e80fc87fb7"
+    },
+    {
+      "value": "\"La Poste\" Ontology",
+      "lang": "en",
+      "_id": "5783c0c20183b1e80fc87fb6"
+    }
+  ],
+  "uri": "http://data.lirmm.fr/ontologies/poste",
+  "versions": [
+    {
+      "name": "v2014-05-21",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/poste/versions/2014-05-21.n3",
+      "issued": "2014-05-20T23:00:00.000Z",
+      "classNumber": "4",
+      "propertyNumber": "8",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/ns/adms#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v0.2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/poste/versions/2014-03-12.n3",
+      "issued": "2014-03-12T00:00:00.000Z",
+      "classNumber": "4",
+      "propertyNumber": "8",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/ns/adms#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v0.2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/poste/versions/2013-06-03.n3",
+      "issued": "2013-06-02T23:00:00.000Z",
+      "classNumber": "4",
+      "propertyNumber": "8",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/ns/adms#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v0.2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/poste/versions/2013-05-27.n3",
+      "issued": "2013-05-26T23:00:00.000Z",
+      "classNumber": "4",
+      "propertyNumber": "8",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/ns/adms#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v0.1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/poste/versions/2013-05-02.n3",
+      "issued": "2013-05-01T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

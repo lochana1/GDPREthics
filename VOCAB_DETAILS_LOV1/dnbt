@@ -1,0 +1,112 @@
+{
+  "__v": 3,
+  "contributorIds": [],
+  "createdInLOVAt": "2017-12-01T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "5a2165a0c669ed0f3c9eb457",
+      "name": "Lars G. Svensson"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The DNB RDF Vocabulary (dnb:) is a collection of classes, properties and datatypes used within the DNB's linked data service.It complements the GND Ontology (gndo:) which is specifically geared towards authority data from the Integrated Authority File (GND), whereas this vocabulary is more general-purpose.",
+      "lang": "en",
+      "_id": "5a21713ec669ed0f3c9ec4fc"
+    },
+    {
+      "value": "Das DNB RDF-Vokabular (dnb:) ist eine Sammlung von Klassen, Properties und Datentypen, die im Rahmen des LinkedData-Dienstes der DNB verwendung finden. Es ist ein Komplement zur GND-Ontologie (gndo:), die besonders für die Representation der Daten aus der Gemeinsamen Normdatei (GND) konstruiert wurde. Das DNB-Vokabular dagegen hat einen allgemeineren Scope.",
+      "lang": "de",
+      "_id": "5a21713ec669ed0f3c9ec4fb"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2016-05-12T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2018-04-19T13:33:10.042Z",
+  "nsp": "http://d-nb.info/standards/elementset/dnb#",
+  "prefix": "dnbt",
+  "publisherIds": [
+    {
+      "_id": "5a21668bc669ed0f3c9eb5a1",
+      "name": "Deutsche Nationalbibliothek (DNB)"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Small vocabulary used within the Deutsche Nationalbibliothek (DNB) for the description of Integrated Authority File.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2017-12-01T00:00:00.000Z",
+      "_id": "5a21713ec669ed0f3c9ec4fd"
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "DNB Metadata Terms",
+      "lang": "en",
+      "_id": "5a21713ec669ed0f3c9ec4fa"
+    }
+  ],
+  "uri": "http://d-nb.info/standards/elementset/dnb",
+  "versions": [
+    {
+      "name": "v2017-09-12",
+      "issued": "2017-09-12T00:00:00.000Z",
+      "datatypeNumber": "2",
+      "instanceNumber": "0",
+      "propertyNumber": "4",
+      "classNumber": "2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/dnbt/versions/2017-09-12.n3",
+      "_id": "5ad89a962e909b214fc2ca56",
+      "relSpecializes": [
+        "http://purl.org/dc/terms/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [
+        "http://d-nb.info/gnd/10140798-1",
+        "http://d-nb.info/gnd/124903959",
+        "http://open.vocab.org/terms"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

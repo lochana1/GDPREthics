@@ -1,0 +1,96 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-12-09T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54ff72862e3e52df4a3cc076",
+      "name": "Maxime Lefrançois"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The System Ontology defines Systems, Connections between systems, and Connection Points at which systems may be connected. This ontology is then specialized for multiple domains. For example:\n\n- In electric energy: \n    - power systems consume, produce, store, and exchange electricity;\n    - power connections are where electricity flows between systems;\n    - power connection points are plugs, sockets, or power busses.\n- In the electricity market:\n    - players and markets are systems;\n    - connections are contracts or transactions between two players, or between a player and a market;\n    - connection points include offers and bids.",
+      "lang": "en",
+      "_id": "584ad1518a0d14e34d5efbeb"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2016-06-06T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-12-09T15:44:20.786Z",
+  "nsp": "https://w3id.org/seas/",
+  "prefix": "seas-sys",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "System Ontology module for the SEAS ontology",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-12-09T00:00:00.000Z",
+      "_id": "584ad1518a0d14e34d5efbea"
+    }
+  ],
+  "tags": [
+    "Industry"
+  ],
+  "titles": [
+    {
+      "value": "The SEAS System ontology",
+      "lang": "en",
+      "_id": "584ad1518a0d14e34d5efbec"
+    }
+  ],
+  "uri": "https://w3id.org/seas/SystemOntology",
+  "versions": [
+    {
+      "name": "v2016-12-09",
+      "issued": "2016-12-09T15:44:19.402Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "9",
+      "classNumber": "8",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/seas-sys/versions/2016-12-09.n3",
+      "_id": "584ad1548a0d14e34d5efbed",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "https://w3id.org/pep/",
+        "https://w3id.org/seas/SystemOntology"
+      ],
+      "relGeneralizes": [
+        "https://w3id.org/pep/"
+      ],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

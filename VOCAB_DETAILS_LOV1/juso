@@ -1,0 +1,138 @@
+{
+  "__v": 1,
+  "contributorIds": [],
+  "createdInLOVAt": "2015-10-06T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f8d",
+      "name": "James G. Kim"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "Juso Ontology is a Web vocabulary for describing geographical addresses and features.",
+      "lang": "en",
+      "_id": "5613a12442fc695f7e64c70d"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2015-10-02T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2018-04-19T13:44:31.021Z",
+  "nsp": "http://rdfs.co/juso/",
+  "prefix": "juso",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "A vocabulary for the description of geographical features. Well linked to existing vocabularies. Describes as well political area.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2015-10-06T00:00:00.000Z",
+      "_id": "5613a12442fc695f7e64c70c"
+    }
+  ],
+  "tags": [
+    "Geography",
+    "Geometry"
+  ],
+  "titles": [
+    {
+      "value": "Juso Ontology",
+      "lang": "en",
+      "_id": "5613a12442fc695f7e64c70e"
+    }
+  ],
+  "uri": "http://rdfs.co/juso/",
+  "versions": [
+    {
+      "name": "v0.1",
+      "issued": "2015-10-02T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "22",
+      "classNumber": "29",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/juso/versions/2015-10-02.n3",
+      "_id": "5ad89d3f2e909b214fc2cb5e",
+      "relSpecializes": [
+        "http://dbpedia.org/ontology/",
+        "http://geovocab.org/geometry",
+        "http://linkedgeodata.org/ontology",
+        "http://ontology.eil.utoronto.ca/icontact.owl",
+        "http://purl.org/dc/terms/",
+        "http://schema.org/",
+        "http://www.geonames.org/ontology",
+        "http://www.opengis.net/ont/geosparql",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos",
+        "http://www.w3.org/2004/02/skos/core",
+        "http://www.w3.org/ns/locn"
+      ],
+      "relImports": [],
+      "relGeneralizes": [
+        "http://linkedgeodata.org/ontology",
+        "http://purl.org/dc/terms/",
+        "http://schema.org/",
+        "http://www.w3.org/2003/01/geo/wgs84_pos",
+        "http://www.w3.org/2006/vcard/ns"
+      ],
+      "relExtends": [
+        "http://geovocab.org/spatial",
+        "http://www.opengis.net/ont/geosparql",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [
+        "http://dbpedia.org/ontology/",
+        "http://geovocab.org/geometry",
+        "http://geovocab.org/spatial",
+        "http://linkedgeodata.org/ontology",
+        "http://ontology.eil.utoronto.ca/icontact.owl",
+        "http://schema.org/",
+        "http://www.geonames.org/ontology",
+        "http://www.opengis.net/ont/geosparql",
+        "http://www.w3.org/2003/01/geo/wgs84_pos",
+        "http://www.w3.org/ns/locn"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns",
+        "http://www.w3.org/2004/02/skos/core",
+        "http://www.w3.org/ns/adms"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1b",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/jpn",
+          "label": "Japanese",
+          "iso639P3PCode": "jpn"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/kor",
+          "label": "Korean",
+          "iso639P3PCode": "kor"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

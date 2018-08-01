@@ -1,0 +1,119 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2017-12-14T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "5a3280d9ece6c50213e94081",
+      "name": "Camille Bernard"
+    },
+    {
+      "_id": "5a328101ece6c50213e940af",
+      "name": "Marlène Villanova-Olivier"
+    },
+    {
+      "_id": "5a328117ece6c50213e940cb",
+      "name": "Hy Dao"
+    },
+    {
+      "_id": "5a3280b2ece6c50213e9405b",
+      "name": "Jérôme Gensel"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The TSN-Change ontology aims at describing changes that occured from one version of a Territorial Statistical Nomenclature (TSN) (i.e., partition of the territory) and its subsequent (e.g., change in territorial units boundaries to reflect an administrative reorganisation).",
+      "lang": "en",
+      "_id": "5a3284e9ece6c50213e94505"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2017-01-31T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-12-14T14:04:55.553Z",
+  "nsp": "http://purl.org/net/tsnchange#",
+  "prefix": "tsnc",
+  "publisherIds": [
+    {
+      "_id": "5a32802fece6c50213e93fd5",
+      "name": "Steamer"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "The TSN change vocabulary extends the TSN vocabulary to reflect changes in territorial units boundaries",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2017-12-14T00:00:00.000Z",
+      "_id": "5a3284e9ece6c50213e94504"
+    }
+  ],
+  "tags": [
+    "Geography",
+    "Geometry",
+    "Government",
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "Territorial Statistical Nomenclature Change Ontology",
+      "lang": "en",
+      "_id": "5a3284e9ece6c50213e94506"
+    }
+  ],
+  "uri": "http://purl.org/net/tsnchange#",
+  "versions": [
+    {
+      "_id": "5a3284ecece6c50213e94509",
+      "classNumber": "38",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/tsnc/versions/2017-05-15.n3",
+      "instanceNumber": "0",
+      "issued": "2017-05-15T00:00:00.000Z",
+      "name": "v2.0",
+      "propertyNumber": "27",
+      "relSpecializes": [
+        "http://linkedearth.org/change/ns#",
+        "http://purl.org/pav/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/net/tsn#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relEquivalent": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

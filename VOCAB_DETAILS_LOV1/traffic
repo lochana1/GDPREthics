@@ -1,0 +1,123 @@
+{
+  "__v": 5,
+  "createdInLOVAt": "2014-04-15T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0ee3",
+      "name": "Alberto Córdoba Izaguirre"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0ee4",
+      "name": "José Javier Astrain Escola"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0ee5",
+      "name": "Jesús Villadangos Alonso"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "An ontology that describes the management of the traffic in a straight road with two lanes, both in the same direction.",
+      "lang": "en",
+      "_id": "5783c5a60183b1e80fc88297"
+    }
+  ],
+  "homepage": "http://here.com/traffic",
+  "issuedAt": "2012-01-21T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-07-11T00:00:00.000Z",
+  "nsp": "http://www.sensormeasurement.appspot.com/ont/transport/traffic#",
+  "prefix": "traffic",
+  "reviews": [
+    {
+      "body": "Rules described: change line, decelerate, accelerate, maintain distance with car in front, maintain speed",
+      "agentId": {
+        "_id": "54b2be038433ca9ccf1c0f39",
+        "name": "Amélie Gyrard"
+      },
+      "createdAt": "2014-04-15T00:00:00.000Z",
+      "_id": "5783c5a60183b1e80fc8829b"
+    },
+    {
+      "body": "Cleaned version history and LOV-Bot reviews",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-03-31T00:00:00.000Z",
+      "_id": "5783c5a60183b1e80fc8829a"
+    },
+    {
+      "body": "Interchange the namespace and URI",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-04-24T00:00:00.000Z",
+      "_id": "5783c5a60183b1e80fc88299"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-07-11T00:00:00.000Z",
+      "_id": "5783c5a60183b1e80fc88298"
+    }
+  ],
+  "tags": [
+    "Industry"
+  ],
+  "titles": [
+    {
+      "value": "Road Traffic Management",
+      "lang": "en",
+      "_id": "5783c5a60183b1e80fc88296"
+    }
+  ],
+  "uri": "http://www.sensormeasurement.appspot.com/ont/transport/traffic",
+  "versions": [
+    {
+      "classNumber": "21",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/traffic/versions/2014-05-16.n3",
+      "instanceNumber": "4",
+      "issued": "2014-05-15T23:00:00.000Z",
+      "name": "v2014-05-16",
+      "propertyNumber": "22",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2014-06-09T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be018433ca9ccf1c0e4e",
+      "name": "K Faith Lawrence"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0e5c",
+      "name": "Mischa M Tuffield"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f0e",
+      "name": "Michael O. Jewell"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The OntoMedia Space representation denotes areas of landscape. Expands on the AKT location ontology",
+      "lang": "en",
+      "_id": "55bcb0137459b3975b63cae6"
+    }
+  ],
+  "isDefinedBy": "https://contextus.googlecode.com/svn/trunk/ontomedia/core/space.owl",
+  "issuedAt": "2005-05-11T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-08-01T00:00:00.000Z",
+  "nsp": "http://contextus.net/ontology/ontomedia/core/space#",
+  "prefix": "osr",
+  "reviews": [
+    {
+      "body": "Fixed version history. This vocabulary is no more available from its namespace, but maintained at google code.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-10T00:00:00.000Z",
+      "_id": "55bcb0137459b3975b63cae8"
+    },
+    {
+      "body": "No good dereferenceable mechanism of the URI",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-08-01T00:00:00.000Z",
+      "_id": "55bcb0137459b3975b63cae7"
+    }
+  ],
+  "tags": [
+    "Geography"
+  ],
+  "titles": [
+    {
+      "value": "OntoMedia Space Representation",
+      "lang": "en",
+      "_id": "55bcb0137459b3975b63cae5"
+    }
+  ],
+  "uri": "http://contextus.net/ontology/ontomedia/core/space#",
+  "versions": [
+    {
+      "name": "v2014-06-19",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/osr/versions/2014-06-19.n3",
+      "issued": "2014-06-18T23:00:00.000Z",
+      "classNumber": "57",
+      "propertyNumber": "7",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://contextus.net/ontology/ontomedia/core/expression#",
+        "http://contextus.net/ontology/ontomedia/misc/AKTlocation#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://contextus.net/ontology/ontomedia/core/expression#"
+      ],
+      "relEquivalent": [
+        "http://contextus.net/ontology/ontomedia/misc/AKTlocation#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/osr/versions/2013-09-19.n3",
+      "issued": "2013-09-18T23:00:00.000Z",
+      "classNumber": "57",
+      "propertyNumber": "7",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://contextus.net/ontology/ontomedia/core/expression#",
+        "http://contextus.net/ontology/ontomedia/misc/AKTlocation#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://contextus.net/ontology/ontomedia/core/expression#"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://contextus.net/ontology/ontomedia/core/expression#"
+      ],
+      "relEquivalent": [
+        "http://contextus.net/ontology/ontomedia/misc/AKTlocation#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

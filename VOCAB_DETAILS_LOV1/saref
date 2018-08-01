@@ -1,0 +1,105 @@
+{
+  "__v": 2,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-06-15T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "57612224a7910dac495f07c5",
+      "name": "Laura Daniele"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The Smart Appliances REFerence (SAREF) ontology is a shared model of consensus that facilitates the matching of existing assets (standards/protocols/datamodels/etc.) in the smart appliances domain. The SAREF ontology provides building blocks that allow separation and recombination of different parts of the ontology depending on specific needs.",
+      "lang": "en",
+      "_id": "5809c4ba3e5586c53d896d93"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "isDefinedBy": "http://ontology.tno.nl/saref.owl",
+  "issuedAt": "2015-01-04T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-10-21T00:00:00.000Z",
+  "nsp": "https://w3id.org/saref#",
+  "prefix": "saref",
+  "publisherIds": [
+    {
+      "_id": "57612638a7910dac495f08ac",
+      "name": "TNO"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "A reference ontology for smart appliances developed with the support of the European Commission. SAREF provides modular building blocks to represent devices in the smart home environment, such as lists of functions, commands and states that can be combined to create complex functionality in a single device.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-06-15T00:00:00.000Z",
+      "_id": "5809c4ba3e5586c53d896d94"
+    }
+  ],
+  "tags": [
+    "Services",
+    "Industry",
+    "IoT"
+  ],
+  "titles": [
+    {
+      "value": "SAREF: the Smart Appliances REFerence ontology",
+      "lang": "en",
+      "_id": "5809c4ba3e5586c53d896d92"
+    }
+  ],
+  "uri": "https://w3id.org/saref",
+  "versions": [
+    {
+      "_id": "576125bba7910dac495f0877",
+      "classNumber": "110",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/saref/versions/2015-04-01.n3",
+      "instanceNumber": "73",
+      "issued": "2015-04-01T00:00:00.000Z",
+      "name": "v1.0",
+      "propertyNumber": "42",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/01/geo/wgs84_pos",
+        "http://www.wurvoc.org/vocabularies/om-1.8/"
+      ],
+      "relImports": [
+        "http://www.w3.org/2006/"
+      ],
+      "relGeneralizes": [
+        "http://www.w3.org/2006/time"
+      ],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

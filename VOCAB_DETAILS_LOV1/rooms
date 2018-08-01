@@ -1,0 +1,96 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2017-04-14T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e96",
+      "name": "Richard Cyganiak"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "A simple vocabulary for describing the rooms in a building.",
+      "lang": "en",
+      "_id": "58f0f3976961d74e13504a7d"
+    }
+  ],
+  "homepage": "http://vocab.deri.ie/rooms.html",
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2010-04-15T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-04-14T16:07:23.187Z",
+  "nsp": "http://vocab.deri.ie/rooms#",
+  "prefix": "rooms",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0faa",
+      "name": "Digital Enterprise Research Institute (DERI)"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Rooms ontology to describe rooms in a building. We are curious to see the adoption of this vocabulary",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-04-14T00:00:00.000Z",
+      "_id": "58f0f3976961d74e13504a7c"
+    }
+  ],
+  "tags": [
+    "Environment",
+    "Geography"
+  ],
+  "titles": [
+    {
+      "value": "Buildings and Rooms Vocabulary",
+      "lang": "en",
+      "_id": "58f0f3976961d74e13504a7e"
+    }
+  ],
+  "uri": "http://vocab.deri.ie/rooms",
+  "versions": [
+    {
+      "name": "v2012-10-02",
+      "issued": "2012-10-02T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "2",
+      "classNumber": "6",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/rooms/versions/2012-10-02.n3",
+      "_id": "58f0f39a6961d74e13504a84",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/ns/adms",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

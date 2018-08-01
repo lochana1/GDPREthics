@@ -1,0 +1,224 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-08-29T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e93",
+      "name": "Peter J. DeVries"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "This is the initial vocabulary for mapping the various taxon classes on the Linked Open Data Cloud",
+      "lang": "en",
+      "_id": "569172ffb7cea413588f96f0"
+    }
+  ],
+  "issuedAt": "2012-05-27T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:52:29.798Z",
+  "lastModifiedInLOVAt": "2016-01-09T00:00:00.000Z",
+  "nsp": "http://purl.org/biodiversity/taxon/",
+  "prefix": "taxon",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fd1",
+      "name": "TaxonConcept Knowledge Base Project"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "This vocabulary is part of the Taxon Concept project, providing a very pragmatic approach to linked data about living species and their various classifications.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-08-30T00:00:00.000Z",
+      "_id": "569172ffb7cea413588f96f3"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-10-09T00:00:00.000Z",
+      "_id": "569172ffb7cea413588f96f2"
+    },
+    {
+      "body": "Fixed version history",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-09T00:00:00.000Z",
+      "_id": "569172ffb7cea413588f96f1"
+    }
+  ],
+  "tags": [
+    "Biology"
+  ],
+  "titles": [
+    {
+      "value": "TaxonMap Ontology",
+      "lang": "en",
+      "_id": "569172ffb7cea413588f96ef"
+    }
+  ],
+  "uri": "http://purl.org/biodiversity/taxon/",
+  "versions": [
+    {
+      "name": "v0.18",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/taxon/versions/2013-03-18.n3",
+      "issued": "2013-03-18T00:00:00.000Z",
+      "classNumber": "48",
+      "propertyNumber": "24",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://dbpedia.org/ontology/",
+        "http://purl.uniprot.org/core/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.17",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/taxon/versions/2013-03-16.n3",
+      "issued": "2013-03-16T00:00:00.000Z",
+      "classNumber": "48",
+      "propertyNumber": "24",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://dbpedia.org/ontology/",
+        "http://purl.uniprot.org/core/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.16",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/taxon/versions/2013-02-01.n3",
+      "issued": "2013-02-01T00:00:00.000Z",
+      "classNumber": "48",
+      "propertyNumber": "24",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://dbpedia.org/ontology/",
+        "http://purl.uniprot.org/core/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.15",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/taxon/versions/2012-09-10.n3",
+      "issued": "2012-09-09T23:00:00.000Z",
+      "classNumber": "47",
+      "propertyNumber": "23",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://dbpedia.org/ontology/",
+        "http://purl.uniprot.org/core/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

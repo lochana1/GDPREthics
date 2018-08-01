@@ -1,0 +1,126 @@
+{
+  "__v": 4,
+  "createdInLOVAt": "2013-08-22T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f14",
+      "name": "Phil Archer"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f2b",
+      "name": "Andrea Perego"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f38",
+      "name": "Makx Dekkers"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "RADion, and the higher level vocabularies that build upon it, are intended as a model that facilitates federation and co-operation. It is not the primary intention that repository owners redesign or convert their current systems and data to conform to RADion, but rather that it acts as a common layer among repositories that want to exchange data.",
+      "lang": "en",
+      "_id": "59dcdf302febc4a21c3166e7"
+    }
+  ],
+  "lastDeref": "2015-01-11T20:52:22.640Z",
+  "lastModifiedInLOVAt": "2018-04-19T13:53:48.273Z",
+  "nsp": "http://www.w3.org/ns/radion#",
+  "prefix": "radion",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fb2",
+      "name": "The European Commission"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "RADion could be useful for describing assets in repositories, quite similar to the ADMS vocabulary. It handles versioning by using xhv:next and xhv:prev properties (xhv:http://www.w3.org/1999/xhtml/vocab#)",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2013-08-23T00:00:00.000Z",
+      "_id": "59dcdf302febc4a21c3166eb"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-08-25T00:00:00.000Z",
+      "_id": "59dcdf302febc4a21c3166ea"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-31T00:00:00.000Z",
+      "_id": "59dcdf302febc4a21c3166e9"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-10-10T00:00:00.000Z",
+      "_id": "59dcdf302febc4a21c3166e8"
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "Repository Asset Distribution",
+      "lang": "en",
+      "_id": "59dcdf302febc4a21c3166e6"
+    }
+  ],
+  "uri": "http://www.w3.org/ns/radion#",
+  "versions": [
+    {
+      "name": "v1.2",
+      "issued": "2012-10-11T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "5",
+      "classNumber": "3",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/radion/versions/2012-10-11.n3",
+      "_id": "5ad89f6c2e909b214fc2cd5f",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/1999/xhtml/vocab",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2007/05/powder-s",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2014-06-16T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f36",
+      "name": "Holger Knublauch"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "An RDF Schema that can be used to attach constraints and rules to RDFS classes, and to encapsulate reusable SPARQL queries into functions and templates.",
+      "lang": "en",
+      "_id": "568a56af4ee7f7176ff10ec5"
+    }
+  ],
+  "homepage": "http://spinrdf.org/spin.html",
+  "issuedAt": "2011-02-22T00:00:00.000Z",
+  "lastDeref": "2014-09-01T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-01-04T00:00:00.000Z",
+  "nsp": "http://spinrdf.org/spin#",
+  "prefix": "spin",
+  "reviews": [
+    {
+      "body": "Fixed version dates, and added link to documentation. SPIN is a W3C Member Submission 22 February 2011, updated 18 June, 2013.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-17T00:00:00.000Z",
+      "_id": "568a56af4ee7f7176ff10ec8"
+    },
+    {
+      "body": "Record updated with new version.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-09-02T00:00:00.000Z",
+      "_id": "568a56af4ee7f7176ff10ec7"
+    },
+    {
+      "body": "SPIN has an updated candidate submission on 07 November, 2014.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-04T00:00:00.000Z",
+      "_id": "568a56af4ee7f7176ff10ec6"
+    }
+  ],
+  "tags": [
+    "RDF"
+  ],
+  "titles": [
+    {
+      "value": "SPIN Inferencing Vocabulary",
+      "lang": "en",
+      "_id": "568a56af4ee7f7176ff10ec4"
+    }
+  ],
+  "uri": "http://spinrdf.org/spin",
+  "versions": [
+    {
+      "name": "v1.3.2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/spin/versions/2014-08-28.n3",
+      "issued": "2014-08-27T23:00:00.000Z",
+      "classNumber": "27",
+      "propertyNumber": "31",
+      "instanceNumber": "16",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://spinrdf.org/sp",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [
+        "http://spinrdf.org/"
+      ],
+      "relGeneralizes": [
+        "http://spinrdf.org/sp"
+      ],
+      "relExtends": [
+        "http://spinrdf.org/sp",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://spinrdf.org/sp",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v1.3.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/spin/versions/2013-06-19.n3",
+      "issued": "2013-06-18T23:00:00.000Z",
+      "classNumber": "23",
+      "propertyNumber": "26",
+      "instanceNumber": "9",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://spinrdf.org/sp",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [
+        "http://spinrdf.org/"
+      ],
+      "relGeneralizes": [
+        "http://spinrdf.org/sp"
+      ],
+      "relExtends": [
+        "http://spinrdf.org/sp",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://spinrdf.org/sp",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v1.2.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/spin/versions/2011-02-22.n3",
+      "issued": "2011-02-22T00:00:00.000Z",
+      "classNumber": "21",
+      "propertyNumber": "22",
+      "instanceNumber": "9",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://spinrdf.org/sp",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [
+        "http://spinrdf.org/"
+      ],
+      "relGeneralizes": [
+        "http://spinrdf.org/sp"
+      ],
+      "relExtends": [
+        "http://spinrdf.org/sp",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://spinrdf.org/sp",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "__v": 2,
+  "contributorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e85",
+      "name": "John Breslin"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0e9b",
+      "name": "Uldis Bojars"
+    }
+  ],
+  "createdInLOVAt": "2013-04-14T23:00:00.000Z",
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/klappstuhlclub.0.ttl",
+      "label": "klappstuhlclub.0.ttl",
+      "occurrences": "274"
+    },
+    {
+      "uri": "http://datahub.io/dataset/lod2",
+      "label": "LOD2 Project Website Data",
+      "occurrences": "40"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aksworg.rdf",
+      "label": "aksworg.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aksworg.ttl",
+      "label": "aksworg.ttl",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/linkedmarkmail.rdf",
+      "label": "linkedmarkmail.rdf",
+      "occurrences": "1"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Extends the SIOC Core Ontology (Semantically-Interlinked Online Communities) by defining subclasses and subproperties of SIOC terms.",
+      "lang": "en",
+      "_id": "578d00ed8c6f955d29c02b7f"
+    }
+  ],
+  "homepage": "http://rdfs.org/sioc/spec/#sec-modules",
+  "issuedAt": "2010-03-25T00:00:00.000Z",
+  "lastDeref": "2014-04-09T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-07-18T00:00:00.000Z",
+  "nsp": "http://rdfs.org/sioc/types#",
+  "prefix": "tsioc",
+  "reviews": [
+    {
+      "body": "This ontology references a version of SKOS in the Last Call Edition (see: http://www.w3.org/TR/2008/WD-skos-reference-20080829/skos.html#). So, we are not sure if the stable version of SKOS breaks the current implementation.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2013-04-14T00:00:00.000Z",
+      "_id": "578d00ed8c6f955d29c02b83"
+    },
+    {
+      "body": "Annual review. No evolution, no correction of the SKOS namespace.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-04-09T00:00:00.000Z",
+      "_id": "578d00ed8c6f955d29c02b82"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-03-25T00:00:00.000Z",
+      "_id": "578d00ed8c6f955d29c02b81"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-07-18T00:00:00.000Z",
+      "_id": "578d00ed8c6f955d29c02b80"
+    }
+  ],
+  "tags": [
+    "Society"
+  ],
+  "titles": [
+    {
+      "value": "SIOC Types Ontology Module",
+      "lang": "en",
+      "_id": "578d00ed8c6f955d29c02b7e"
+    }
+  ],
+  "uri": "http://rdfs.org/sioc/types#",
+  "versions": [
+    {
+      "name": "v2010-03-25",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/tsioc/versions/2010-03-25.n3",
+      "issued": "2010-03-25T00:00:00.000Z",
+      "classNumber": "38",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://rdfs.org/sioc/ns#",
+        "http://www.w3.org/2008/05/skos#"
+      ],
+      "relImports": [
+        "http://rdfs.org/sioc/ns#"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

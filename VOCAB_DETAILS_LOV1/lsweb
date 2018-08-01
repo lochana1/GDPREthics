@@ -1,0 +1,101 @@
+{
+  "__v": 1,
+  "contributorIds": [],
+  "createdInLOVAt": "2015-10-12T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "561b8c5942fc695f7e6722b2",
+      "name": "Natalia Villanueva-Rosales"
+    },
+    {
+      "_id": "561b8ea942fc695f7e6722bd",
+      "name": "Nicholas del Rio"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The ELSEWeb Data ontology provides simple classes for describing datasets. This project provides foundational support for the ELSEWeb project(http://elseweb.cybershare.utep.edu/).\nwebsite: http://elseweb.cybershare.utep.edu/ontologies\nemail: nvillanuevarosales@utep.edu",
+      "lang": "en",
+      "_id": "561b8f5542fc695f7e6722c9"
+    }
+  ],
+  "homepage": "http://elseweb.cybershare.utep.edu/ontologies",
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2014-05-01T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-10-12T00:00:00.000Z",
+  "nsp": "http://ontology.cybershare.utep.edu/ELSEWeb/elseweb-data.owl#",
+  "prefix": "lsweb",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "An ontology for describing datasets within the ELSEWeb project. Many other ontologies are available at http://elseweb.cybershare.utep.edu/ontologies",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-10-12T00:00:00.000Z",
+      "_id": "561b8f5542fc695f7e6722ca"
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "ELSEWeb Data Ontology",
+      "lang": "en",
+      "_id": "561b8f5542fc695f7e6722c8"
+    }
+  ],
+  "uri": "http://ontology.cybershare.utep.edu/ELSEWeb/elseweb-data.owl",
+  "versions": [
+    {
+      "name": "v2015-09-24",
+      "issued": "2015-09-24T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "5",
+      "propertyNumber": "33",
+      "classNumber": "39",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lsweb/versions/2015-09-24.n3",
+      "_id": "561b8ed642fc695f7e6722c3",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://protege.stanford.edu/plugins/owl/protege#",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://semanticscience.org/ontology/sio.owl",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

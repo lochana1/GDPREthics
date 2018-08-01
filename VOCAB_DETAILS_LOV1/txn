@@ -1,0 +1,526 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-05-19T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e93",
+      "name": "Peter J. DeVries"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/taxonconcept.0.rdf",
+      "label": "taxonconcept.0.rdf",
+      "occurrences": "36"
+    },
+    {
+      "uri": "http://datahub.io/dataset/geospecies.8.rdf",
+      "label": "geospecies.8.rdf",
+      "occurrences": "1"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "This ontology and the related TaxonConcept data set mints identifiers that are tied to a specific species concept which can have several names and classifications.",
+      "lang": "en",
+      "_id": "57ad8717b00b4b1452a8889f"
+    }
+  ],
+  "lastDeref": "2014-04-17T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-08-12T00:00:00.000Z",
+  "nsp": "http://lod.taxonconcept.org/ontology/txn.owl#",
+  "prefix": "txn",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fd1",
+      "name": "TaxonConcept Knowledge Base Project"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-04-17T00:00:00.000Z",
+      "_id": "57ad8717b00b4b1452a888a3"
+    },
+    {
+      "body": "This vocabulary has an active policy of reusing as many as possible LOV vocabularies. The domain covered (living species and their observation) links biological taxonomy to geography (where the species are observed), people (making the observation), and methods. The approach should be usefully portable to other science domains. The version history has to be completed.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-05-19T00:00:00.000Z",
+      "_id": "57ad8717b00b4b1452a888a2"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-03-28T00:00:00.000Z",
+      "_id": "57ad8717b00b4b1452a888a1"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-08-12T00:00:00.000Z",
+      "_id": "57ad8717b00b4b1452a888a0"
+    }
+  ],
+  "tags": [
+    "Biology"
+  ],
+  "titles": [
+    {
+      "value": "TaxonConcept Ontology",
+      "lang": "en",
+      "_id": "57ad8717b00b4b1452a8889e"
+    }
+  ],
+  "uri": "http://lod.taxonconcept.org/ontology/txn.owl",
+  "versions": [
+    {
+      "name": "v0.976",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/txn/versions/2013-05-20.n3",
+      "issued": "2013-05-19T23:00:00.000Z",
+      "classNumber": "81",
+      "propertyNumber": "180",
+      "instanceNumber": "36",
+      "datatypeNumber": "0",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://purl.org/NET/c4dm/event.owl#",
+        "http://purl.org/biodiversity/taxon/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://www.w3.org/2006/time#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/ontology/bibo/",
+        "http://purl.uniprot.org/core/",
+        "http://www.geonames.org/ontology#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [
+        "http://dbpedia.org/ontology/",
+        "http://purl.org/NET/biol/ns#",
+        "http://purl.org/ontology/wo/",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v0.97",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/txn/versions/2012-09-20.n3",
+      "issued": "2012-09-19T23:00:00.000Z",
+      "classNumber": "78",
+      "propertyNumber": "180",
+      "instanceNumber": "36",
+      "datatypeNumber": "0",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://purl.org/NET/c4dm/event.owl#",
+        "http://purl.org/biodiversity/taxon/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://www.w3.org/2006/time#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [
+        "http://lod.taxonconcept.org/ontology/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/ontology/bibo/",
+        "http://purl.uniprot.org/core/",
+        "http://www.geonames.org/ontology#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [
+        "http://dbpedia.org/ontology/",
+        "http://purl.org/NET/biol/ns#",
+        "http://purl.org/ontology/wo/",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v0.96",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/txn/versions/2012-09-10.n3",
+      "issued": "2012-09-09T23:00:00.000Z",
+      "classNumber": "78",
+      "propertyNumber": "178",
+      "instanceNumber": "36",
+      "datatypeNumber": "0",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://purl.org/NET/c4dm/event.owl#",
+        "http://purl.org/biodiversity/taxon/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://www.w3.org/2006/time#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [
+        "http://lod.taxonconcept.org/ontology/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/ontology/bibo/",
+        "http://purl.uniprot.org/core/",
+        "http://www.geonames.org/ontology#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [
+        "http://dbpedia.org/ontology/",
+        "http://purl.org/NET/biol/ns#",
+        "http://purl.org/ontology/wo/",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v0.94",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/txn/versions/2012-08-30.n3",
+      "issued": "2012-08-29T23:00:00.000Z",
+      "classNumber": "78",
+      "propertyNumber": "168",
+      "instanceNumber": "36",
+      "datatypeNumber": "0",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://purl.org/NET/c4dm/event.owl#",
+        "http://purl.org/biodiversity/taxon/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://www.w3.org/2006/time#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [
+        "http://lod.taxonconcept.org/ontology/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/ontology/bibo/",
+        "http://purl.uniprot.org/core/",
+        "http://www.geonames.org/ontology#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [
+        "http://dbpedia.org/ontology/",
+        "http://purl.org/NET/biol/ns#",
+        "http://purl.org/ontology/wo/",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v0.92",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/txn/versions/2012-07-22.n3",
+      "issued": "2012-07-21T23:00:00.000Z",
+      "classNumber": "75",
+      "propertyNumber": "167",
+      "instanceNumber": "36",
+      "datatypeNumber": "0",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://purl.org/NET/c4dm/event.owl#",
+        "http://purl.org/biodiversity/taxon/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://www.w3.org/2006/time#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [
+        "http://lod.taxonconcept.org/ontology/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/ontology/bibo/",
+        "http://purl.uniprot.org/core/",
+        "http://www.geonames.org/ontology#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [
+        "http://dbpedia.org/ontology/",
+        "http://purl.org/NET/biol/ns#",
+        "http://purl.org/ontology/wo/",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v0.91",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/txn/versions/2012-07-10.n3",
+      "issued": "2012-07-09T23:00:00.000Z",
+      "classNumber": "75",
+      "propertyNumber": "166",
+      "instanceNumber": "36",
+      "datatypeNumber": "0",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://purl.org/NET/c4dm/event.owl#",
+        "http://purl.org/biodiversity/taxon/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://www.w3.org/2006/time#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [
+        "http://lod.taxonconcept.org/ontology/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/ontology/bibo/",
+        "http://purl.uniprot.org/core/",
+        "http://www.geonames.org/ontology#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [
+        "http://dbpedia.org/ontology/",
+        "http://purl.org/NET/biol/ns#",
+        "http://purl.org/ontology/wo/",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v0.89",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/txn/versions/2012-07-05.n3",
+      "issued": "2012-07-04T23:00:00.000Z",
+      "classNumber": "74",
+      "propertyNumber": "171",
+      "instanceNumber": "36",
+      "datatypeNumber": "0",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://purl.org/NET/c4dm/event.owl#",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://www.w3.org/2006/time#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [
+        "http://lod.taxonconcept.org/ontology/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/ontology/bibo/",
+        "http://purl.uniprot.org/core/",
+        "http://www.geonames.org/ontology#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [
+        "http://dbpedia.org/ontology/",
+        "http://purl.org/NET/biol/ns#",
+        "http://purl.org/ontology/wo/",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v0.88",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/txn/versions/2012-05-25.n3",
+      "issued": "2012-05-24T23:00:00.000Z",
+      "classNumber": "74",
+      "propertyNumber": "169",
+      "instanceNumber": "36",
+      "datatypeNumber": "0",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://purl.org/NET/c4dm/event.owl#",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://www.w3.org/2006/time#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [
+        "http://lod.taxonconcept.org/ontology/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/ontology/bibo/",
+        "http://purl.uniprot.org/core/",
+        "http://www.geonames.org/ontology#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [
+        "http://dbpedia.org/ontology/",
+        "http://purl.org/NET/biol/ns#",
+        "http://purl.org/ontology/wo/",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

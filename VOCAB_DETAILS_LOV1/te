@@ -1,0 +1,91 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-08-28T23:00:00.000Z",
+  "descriptions": [
+    {
+      "value": "An entry sub-ontology of time (OWL-Time).",
+      "lang": "en",
+      "_id": "5697b642ff8848f96bd12af6"
+    }
+  ],
+  "lastDeref": "2015-01-11T20:52:29.944Z",
+  "lastModifiedInLOVAt": "2016-01-14T00:00:00.000Z",
+  "nsp": "http://www.w3.org/2006/time-entry#",
+  "prefix": "te",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c1003",
+      "name": "W3C"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "No metadata in the file. Date of LOV version timeline is the one of record creation.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-10-06T00:00:00.000Z",
+      "_id": "5697b642ff8848f96bd12af9"
+    },
+    {
+      "body": "the entry sub-ontology of time (http://www.w3.org/TR/owl-time/#ref-9)",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-08-29T00:00:00.000Z",
+      "_id": "5697b642ff8848f96bd12af8"
+    },
+    {
+      "body": "Fixed version history. No change in the vocabulary.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-14T00:00:00.000Z",
+      "_id": "5697b642ff8848f96bd12af7"
+    }
+  ],
+  "tags": [
+    "Time"
+  ],
+  "titles": [
+    {
+      "value": "Time Entry",
+      "lang": "en",
+      "_id": "5697b642ff8848f96bd12af5"
+    }
+  ],
+  "uri": "http://www.w3.org/2006/time-entry",
+  "versions": [
+    {
+      "name": "v2012-08-31",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/te/versions/2012-08-31.n3",
+      "issued": "2012-08-30T23:00:00.000Z",
+      "classNumber": "16",
+      "propertyNumber": "48",
+      "instanceNumber": "7",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2006/timezone#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

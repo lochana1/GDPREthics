@@ -1,0 +1,92 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2017-08-23T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "58481ace8a0d14e34d5eb3b3",
+      "name": "W3C/OGC Spatial Data on the Web Working Group"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "This ontology describes sensors, actuators and observations, and related concepts. It does not describe domain concepts, time, locations, etc. these are intended to be included from other ontologies via OWL imports.",
+      "lang": "en",
+      "_id": "599d826edaf8c9570d02a6a5"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2017-04-17T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-08-23T13:27:37.766Z",
+  "nsp": "http://www.w3.org/ns/ssn/",
+  "prefix": "ssno",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "New version of ssn ontology published by W3C/OGC working group",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-08-23T00:00:00.000Z",
+      "_id": "599d826edaf8c9570d02a6a4"
+    }
+  ],
+  "tags": [
+    "IoT"
+  ],
+  "titles": [
+    {
+      "value": "Semantic Sensor Network Ontology",
+      "lang": "en",
+      "_id": "599d826edaf8c9570d02a6a6"
+    }
+  ],
+  "uri": "http://www.w3.org/ns/ssn/",
+  "versions": [
+    {
+      "name": "v2017-04-17",
+      "issued": "2017-04-17T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "15",
+      "classNumber": "6",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ssno/versions/2017-04-17.n3",
+      "_id": "599d8270daf8c9570d02a6ad",
+      "relSpecializes": [],
+      "relImports": [
+        "http://www.w3.org/ns/sosa/"
+      ],
+      "relGeneralizes": [
+        "http://www.w3.org/ns/sosa/"
+      ],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

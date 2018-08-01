@@ -1,0 +1,98 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-07-24T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0eca",
+      "name": "Tim Lebo"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "An attempt to represent how universal/accepted/popular a URI is",
+      "lang": "en",
+      "_id": "59a69b227845e44d19bfa2d1"
+    }
+  ],
+  "isDefinedBy": "https://raw.github.com/timrdf/csv2rdf4lod-automation/master/doc/ontology/cdm.owl#",
+  "issuedAt": "2011-09-23T00:00:00.000Z",
+  "lastDeref": "2014-07-28T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-08-30T00:00:00.000Z",
+  "nsp": "http://purl.org/twc/ontology/cdm.owl#",
+  "prefix": "cdm",
+  "reviews": [
+    {
+      "body": "A very small vocabulary, borderline for insertion in LOV, added because it's reused by 'conversion', but which looks more like a joke than anything else. The two properties are not defined in the vocabulary declared namespace.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-07-25T00:00:00.000Z",
+      "_id": "59a69b227845e44d19bfa2d5"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-07-29T00:00:00.000Z",
+      "_id": "59a69b227845e44d19bfa2d4"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-21T00:00:00.000Z",
+      "_id": "59a69b227845e44d19bfa2d3"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-08-30T00:00:00.000Z",
+      "_id": "59a69b227845e44d19bfa2d2"
+    }
+  ],
+  "tags": [
+    "RDF"
+  ],
+  "titles": [
+    {
+      "value": "Conceptual Depth and Momentum",
+      "lang": "en",
+      "_id": "59a69b227845e44d19bfa2d0"
+    }
+  ],
+  "uri": "http://purl.org/twc/ontology/cdm.owl#",
+  "versions": [
+    {
+      "name": "v2011-09-23",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/cdm/versions/2011-09-23.n3",
+      "issued": "2011-09-22T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2014-09-04T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e8a",
+      "name": "Maarten Steen"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "A Profile of the IEC Common Information Model for Smart Grids, developed by the Cerise-SG project.",
+      "lang": "en",
+      "_id": "569cd063ff8848f96bd16d2b"
+    }
+  ],
+  "isDefinedBy": "http://ns.cerise-project.nl/energy/def/cim-smartgrid.owl",
+  "lastDeref": "2015-01-11T20:52:29.113Z",
+  "lastModifiedInLOVAt": "2016-01-18T00:00:00.000Z",
+  "nsp": "http://ns.cerise-project.nl/energy/def/cim-smartgrid#",
+  "prefix": "smg",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fea",
+      "name": "CERISE-SG"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "This vocabulary was submitted to the Vocabulary Carnival at SEMANTiCS 2014.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-09-05T00:00:00.000Z",
+      "_id": "569cd063ff8848f96bd16d2d"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-18T00:00:00.000Z",
+      "_id": "569cd063ff8848f96bd16d2c"
+    }
+  ],
+  "tags": [
+    "Industry"
+  ],
+  "titles": [
+    {
+      "value": "CERISE CIM Profile for Smart Grids",
+      "lang": "en",
+      "_id": "569cd063ff8848f96bd16d2a"
+    }
+  ],
+  "uri": "http://ns.cerise-project.nl/energy/def/cim-smartgrid",
+  "versions": [
+    {
+      "name": "v2014-05-22",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/smg/versions/2014-05-22.n3",
+      "issued": "2014-05-21T23:00:00.000Z",
+      "classNumber": "35",
+      "propertyNumber": "105",
+      "instanceNumber": "49",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://langdale.com.au/2005/UML#",
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

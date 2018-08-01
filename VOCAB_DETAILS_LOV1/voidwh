@@ -1,0 +1,167 @@
+{
+  "__v": 1,
+  "contributorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0ecd",
+      "name": "Pavlos Fafalios"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0ece",
+      "name": "Yannis Marketakis"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0ed0",
+      "name": "Yannis Tzitzikas"
+    }
+  ],
+  "createdInLOVAt": "2014-07-01T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0ecd",
+      "name": "Pavlos Fafalios"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0ece",
+      "name": "Yannis Marketakis"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0ecf",
+      "name": "Michalis Mountantonakis"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0ed0",
+      "name": "Yannis Tzitzikas"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "An extension of W3C VoID that is able to represent these metrics for expressing the Connectivity Metrics of a Semantic Warehouse.",
+      "lang": "en",
+      "_id": "5696a42dff8848f96bd11d55"
+    }
+  ],
+  "issuedAt": "2014-05-21T00:00:00.000Z",
+  "lastDeref": "2014-07-18T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-01-13T00:00:00.000Z",
+  "nsp": "http://www.ics.forth.gr/isl/VoIDWarehouse/VoID_Extension_Schema.owl",
+  "prefix": "voidwh",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0ff2",
+      "name": "FORTH-ICS"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Void extension for connectivity metrics of a semantic warehouse.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2014-07-02T00:00:00.000Z",
+      "_id": "5696a42dff8848f96bd11d57"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2016-01-13T00:00:00.000Z",
+      "_id": "5696a42dff8848f96bd11d56"
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "Void Warehouse Ontology",
+      "lang": "en",
+      "_id": "5696a42dff8848f96bd11d54"
+    }
+  ],
+  "uri": "http://www.ics.forth.gr/isl/VoIDWarehouse/VoID_Extension_Schema.owl",
+  "versions": [
+    {
+      "name": "v1.01",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/voidwh/versions/2014-07-19.n3",
+      "issued": "2014-07-18T23:00:00.000Z",
+      "classNumber": "5",
+      "propertyNumber": "6",
+      "instanceNumber": "22",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/dcmitype/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/dc/terms/",
+        "http://vocab.deri.ie/void",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+        "http://www.w3.org/ns/adms#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v1.00",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/voidwh/versions/2014-05-21.n3",
+      "issued": "2014-05-20T23:00:00.000Z",
+      "classNumber": "5",
+      "propertyNumber": "6",
+      "instanceNumber": "22",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/dcmitype/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/dc/terms/",
+        "http://vocab.deri.ie/void",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+        "http://www.w3.org/ns/adms#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

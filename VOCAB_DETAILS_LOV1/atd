@@ -1,0 +1,97 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2018-04-19T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "5ad88fd18a83280532867a74",
+      "name": "Richard M. Keller"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "Defines concepts related to airport status, including weather, forecasts, and airport operations",
+      "lang": "en",
+      "_id": "5ad894ad1d2f4eee4d656fce"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "isDefinedBy": "https://data.nasa.gov/ontologies/atmonto/data.ttl",
+  "lastModifiedInLOVAt": "2018-04-19T13:08:34.281Z",
+  "nsp": "https://data.nasa.gov/ontologies/atmonto/data#",
+  "prefix": "atd",
+  "publisherIds": [
+    {
+      "_id": "5ad890ff61786a9648240bd6",
+      "name": "NASA"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Another NASA vocabulary for the description of Air Traffic related data such as MeteorologicalCondition, CloudLayerProfile, AirportData or SurfaceWindCondition",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2018-04-19T00:00:00.000Z",
+      "_id": "5ad894ad1d2f4eee4d656fcd"
+    }
+  ],
+  "tags": [
+    "IoT",
+    "Transport"
+  ],
+  "titles": [
+    {
+      "value": "Air Traffic Data",
+      "lang": "en",
+      "_id": "5ad894ad1d2f4eee4d656fcf"
+    }
+  ],
+  "uri": "https://data.nasa.gov/ontologies/atmonto/data#",
+  "versions": [
+    {
+      "name": "v1.0",
+      "issued": "2018-03-28T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "6",
+      "propertyNumber": "72",
+      "classNumber": "21",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/atd/versions/2018-03-28.n3",
+      "_id": "5ad894d20946b4a14e455b99",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "https://data.nasa.gov/ontologies/atmonto/ATM#",
+        "https://data.nasa.gov/ontologies/atmonto/general#"
+      ],
+      "relImports": [
+        "https://data.nasa.gov/ontologies/atmonto/"
+      ],
+      "relGeneralizes": [
+        "https://data.nasa.gov/ontologies/atmonto/ATM#",
+        "https://data.nasa.gov/ontologies/atmonto/NAS#"
+      ],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema",
+        "https://data.nasa.gov/ontologies/atmonto/NAS#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

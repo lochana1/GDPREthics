@@ -1,0 +1,516 @@
+{
+  "__v": 4,
+  "createdInLOVAt": "2013-06-03T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e55",
+      "name": "Jun Zhao"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0e96",
+      "name": "Richard Cyganiak"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f09",
+      "name": "Michael Hausenblas"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f49",
+      "name": "Keith Alexander"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/farmers-markets-geographic-data-united-states.ttl",
+      "label": "farmers-markets-geographic-data-united-states.ttl",
+      "occurrences": "7249"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-congressional-districts.0.ttl",
+      "label": "instance-hub-us-congressional-districts.0.ttl",
+      "occurrences": "1130"
+    },
+    {
+      "uri": "http://datahub.io/dataset/statistics-data-gov-uk.1.nt",
+      "label": "statistics-data-gov-uk.1.nt",
+      "occurrences": "631"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-civil-servants.ttl",
+      "label": "instance-hub-us-civil-servants.ttl",
+      "occurrences": "556"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-countries.ttl",
+      "label": "instance-hub-countries.ttl",
+      "occurrences": "214"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-people.ttl",
+      "label": "instance-hub-people.ttl",
+      "occurrences": "142"
+    },
+    {
+      "uri": "http://datahub.io/dataset/fao-linked-data.rdf",
+      "label": "fao-linked-data.rdf",
+      "occurrences": "141"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-toxic-chemicals.0.ttl",
+      "label": "instance-hub-us-toxic-chemicals.0.ttl",
+      "occurrences": "112"
+    },
+    {
+      "uri": "http://datahub.io/dataset/w3c-provenance-incubator-group-vocabulary-mappings.0.ttl",
+      "label": "w3c-provenance-incubator-group-vocabulary-mappings.0.ttl",
+      "occurrences": "111"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-federal-agencies.ttl",
+      "label": "instance-hub-us-federal-agencies.ttl",
+      "occurrences": "102"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-crops.0.ttl",
+      "label": "instance-hub-us-crops.0.ttl",
+      "occurrences": "85"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-organizations.0.ttl",
+      "label": "instance-hub-organizations.0.ttl",
+      "occurrences": "71"
+    },
+    {
+      "uri": "http://datahub.io/dataset/geospecies.8.rdf",
+      "label": "geospecies.8.rdf",
+      "occurrences": "65"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-states-and-territories.ttl",
+      "label": "instance-hub-us-states-and-territories.ttl",
+      "occurrences": "56"
+    },
+    {
+      "uri": "http://datahub.io/dataset/ecb-linked-data.rdf",
+      "label": "ecb-linked-data.rdf",
+      "occurrences": "50"
+    },
+    {
+      "uri": "http://datahub.io/dataset/oecd-linked-data.rdf",
+      "label": "oecd-linked-data.rdf",
+      "occurrences": "40"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-congressional-committees.0.ttl",
+      "label": "instance-hub-us-congressional-committees.0.ttl",
+      "occurrences": "33"
+    },
+    {
+      "uri": "http://datahub.io/dataset/transparency-linked-data.rdf",
+      "label": "transparency-linked-data.rdf",
+      "occurrences": "33"
+    },
+    {
+      "uri": "http://datahub.io/dataset/biographical-directory-of-the-united-states-congress.0.ttl",
+      "label": "biographical-directory-of-the-united-states-congress.0.ttl",
+      "occurrences": "28"
+    },
+    {
+      "uri": "http://datahub.io/dataset/farmers-markets-geographic-data-united-states.0.ttl",
+      "label": "farmers-markets-geographic-data-united-states.0.ttl",
+      "occurrences": "28"
+    },
+    {
+      "uri": "http://datahub.io/dataset/npg-graphs.0.rdf",
+      "label": "npg-graphs.0.rdf",
+      "occurrences": "25"
+    },
+    {
+      "uri": "http://datahub.io/dataset/open-data-euskadi.0.rdf",
+      "label": "open-data-euskadi.0.rdf",
+      "occurrences": "21"
+    },
+    {
+      "uri": "http://datahub.io/dataset/open-data-euskadi.rdf",
+      "label": "open-data-euskadi.rdf",
+      "occurrences": "21"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aksworg.rdf",
+      "label": "aksworg.rdf",
+      "occurrences": "18"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aksworg.ttl",
+      "label": "aksworg.ttl",
+      "occurrences": "18"
+    },
+    {
+      "uri": "http://datahub.io/dataset/reference-data-gov-uk.0.rdf",
+      "label": "reference-data-gov-uk.0.rdf",
+      "occurrences": "16"
+    },
+    {
+      "uri": "http://datahub.io/dataset/iso-3166-2-data.0.rdf",
+      "label": "iso-3166-2-data.0.rdf",
+      "occurrences": "11"
+    },
+    {
+      "uri": "http://datahub.io/dataset/worldcat.",
+      "label": "worldcat.",
+      "occurrences": "9"
+    },
+    {
+      "uri": "http://datahub.io/dataset/worldcat.nt",
+      "label": "worldcat.nt",
+      "occurrences": "9"
+    },
+    {
+      "uri": "http://datahub.io/dataset/cablegate.5.rdf",
+      "label": "cablegate.5.rdf",
+      "occurrences": "8"
+    },
+    {
+      "uri": "http://datahub.io/dataset/bioimages.rdf",
+      "label": "bioimages.rdf",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-places.rdf",
+      "label": "southampton-ac-uk-places.rdf",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-places.ttl",
+      "label": "southampton-ac-uk-places.ttl",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/nhs-jargon.0.rdf",
+      "label": "nhs-jargon.0.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-apps.rdf",
+      "label": "southampton-ac-uk-apps.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-apps.ttl",
+      "label": "southampton-ac-uk-apps.ttl",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-eprints.ttl",
+      "label": "southampton-ac-uk-eprints.ttl",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-jacs.rdf",
+      "label": "southampton-ac-uk-jacs.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-jacs.ttl",
+      "label": "southampton-ac-uk-jacs.ttl",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-org.rdf",
+      "label": "southampton-ac-uk-org.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-org.ttl",
+      "label": "southampton-ac-uk-org.ttl",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-phonebook.rdf",
+      "label": "southampton-ac-uk-phonebook.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-phonebook.ttl",
+      "label": "southampton-ac-uk-phonebook.ttl",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-photos.rdf",
+      "label": "southampton-ac-uk-photos.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-photos.ttl",
+      "label": "southampton-ac-uk-photos.ttl",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-profile.rdf",
+      "label": "southampton-ac-uk-profile.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-profile.ttl",
+      "label": "southampton-ac-uk-profile.ttl",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-room-features.rdf",
+      "label": "southampton-ac-uk-room-features.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-room-features.ttl",
+      "label": "southampton-ac-uk-room-features.ttl",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-cls-extras.rdf",
+      "label": "southampton-ac-uk-cls-extras.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-cls-extras.ttl",
+      "label": "southampton-ac-uk-cls-extras.ttl",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-disabledgo.rdf",
+      "label": "southampton-ac-uk-disabledgo.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-disabledgo.ttl",
+      "label": "southampton-ac-uk-disabledgo.ttl",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-edshare-video.ttl",
+      "label": "southampton-ac-uk-edshare-video.ttl",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-edshare.ttl",
+      "label": "southampton-ac-uk-edshare.ttl",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-jargon.rdf",
+      "label": "southampton-ac-uk-jargon.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-pressinfo.rdf",
+      "label": "southampton-ac-uk-pressinfo.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-pressinfo.ttl",
+      "label": "southampton-ac-uk-pressinfo.ttl",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-services.rdf",
+      "label": "southampton-ac-uk-services.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-services.ttl",
+      "label": "southampton-ac-uk-services.ttl",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-stats.rdf",
+      "label": "southampton-ac-uk-stats.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-stats.ttl",
+      "label": "southampton-ac-uk-stats.ttl",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-vending-machines.rdf",
+      "label": "southampton-ac-uk-vending-machines.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-vending-machines.ttl",
+      "label": "southampton-ac-uk-vending-machines.ttl",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/bio2rdf-affymetrix",
+      "label": "Bio2RDF - Affymetrix",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/bio2rdf-goa",
+      "label": "Bio2RDF - GOA",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/data-gov-uk-time-intervals.rdf",
+      "label": "data-gov-uk-time-intervals.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/fu-berlin-eurostat.rdf",
+      "label": "fu-berlin-eurostat.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/glottolog-langdoc",
+      "label": "Glottolog/Langdoc",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/glottolog.rdf",
+      "label": "glottolog.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/norwegian-geo-divisions.ttl",
+      "label": "norwegian-geo-divisions.ttl",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-cordis.rdf",
+      "label": "rkb-explorer-cordis.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-catering-points-of-service.rdf",
+      "label": "southampton-ac-uk-catering-points-of-service.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-catering-points-of-service.ttl",
+      "label": "southampton-ac-uk-catering-points-of-service.ttl",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/wals.0.rdf",
+      "label": "wals.0.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/wold.0.rdf",
+      "label": "wold.0.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/wold.rdf",
+      "label": "wold.rdf",
+      "occurrences": "1"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The Vocabulary of Interlinked Datasets (VoID) is an RDF Schema vocabulary for expressing metadata about RDF datasets.",
+      "lang": "en",
+      "_id": "58e63961f6baaa6b1ab42999"
+    }
+  ],
+  "homepage": "http://www.w3.org/TR/void/",
+  "issuedAt": "2010-01-26T00:00:00.000Z",
+  "lastDeref": "2014-06-04T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-04-06T00:00:00.000Z",
+  "nsp": "http://rdfs.org/ns/void#",
+  "prefix": "void",
+  "reviews": [
+    {
+      "body": "It is important to understand the relationship beween VoID and DCAT: In short, VoID is for data in RDF format, while DCAT is neutral with regards to format. (See the introduction section of DCAT vocabulary: http://www.w3.org/TR/vocab-dcat/)",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2013-06-03T00:00:00.000Z",
+      "_id": "58e63961f6baaa6b1ab4299e"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-04T00:00:00.000Z",
+      "_id": "58e63961f6baaa6b1ab4299d"
+    },
+    {
+      "body": "VoID is specified by a W3C Interest Group Note at http://www.w3.org/TR/void/, which is stable, including the namespace http://rdfs.org/ns/void#. This namespace used to redirect to http://vocab.deri.ie/void, which is declaring itself as the vocabulary URI in the RDF file. Unfortunately both URI and namespace are offline at the moment, future of vocab.deri.ie being unknown.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-05-04T00:00:00.000Z",
+      "_id": "58e63961f6baaa6b1ab4299c"
+    },
+    {
+      "body": "http://rdfs.org/ns/void# does not seem to be working",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2015-07-02T00:00:00.000Z",
+      "_id": "58e63961f6baaa6b1ab4299b"
+    },
+    {
+      "body": "No changes.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-04-06T00:00:00.000Z",
+      "_id": "58e63961f6baaa6b1ab4299a"
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "Vocabulary of Interlinked Datasets",
+      "lang": "en",
+      "_id": "58e63961f6baaa6b1ab42998"
+    }
+  ],
+  "uri": "http://vocab.deri.ie/void",
+  "versions": [
+    {
+      "name": "v2011-03-06",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/void/versions/2011-03-06.n3",
+      "issued": "2011-03-06T00:00:00.000Z",
+      "classNumber": "4",
+      "propertyNumber": "27",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

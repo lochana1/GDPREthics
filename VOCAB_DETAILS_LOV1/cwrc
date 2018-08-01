@@ -1,0 +1,255 @@
+{
+  "__v": 2,
+  "contributorIds": [],
+  "createdInLOVAt": "2017-06-21T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "594a83958f40482b5d90c1cc",
+      "name": "Colin Faulkner"
+    },
+    {
+      "_id": "594a83a08f40482b5d90c1f2",
+      "name": "Kim Martin"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0ec3",
+      "name": "Robert Warren"
+    },
+    {
+      "_id": "594a83c58f40482b5d90c26c",
+      "name": "Abigel Lemak"
+    },
+    {
+      "_id": "594a83d48f40482b5d90c29d",
+      "name": "Jade Penancier"
+    },
+    {
+      "_id": "594a83e58f40482b5d90c2d8",
+      "name": "Alliyya Mo"
+    },
+    {
+      "_id": "594a85c991b367211b350caa",
+      "name": "Susan Brown"
+    },
+    {
+      "_id": "594a85f491b367211b350d2f",
+      "name": "John Simpson"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "L'Ontologie CWRC est l'ontologie du Collaboratoire scientifique des écrits du Canada.",
+      "lang": "fr",
+      "_id": "594a863d91b367211b350e20"
+    },
+    {
+      "value": "The CWRC Ontology is the ontology of the Canadian Writing Research Collaboratory.",
+      "lang": "en",
+      "_id": "594a863d91b367211b350e1f"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2017-03-18T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-06-21T00:00:00.000Z",
+  "nsp": "http://sparql.cwrc.ca/ontologies/cwrc#",
+  "prefix": "cwrc",
+  "publisherIds": [
+    {
+      "_id": "594a84138f40482b5d90c36c",
+      "name": "CWRC - The Canadian Writing Research Collaboratory"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Vocabulary related to the writers, writing, contextual event, and culture. Very well interlinked and in French and English",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2017-06-21T00:00:00.000Z",
+      "_id": "594a863d91b367211b350e21"
+    }
+  ],
+  "tags": [
+    "Society",
+    "People"
+  ],
+  "titles": [
+    {
+      "value": "L'Ontologie CWRC",
+      "lang": "fr",
+      "_id": "594a863d91b367211b350e1e"
+    },
+    {
+      "value": "The CWRC Ontology",
+      "lang": "en",
+      "_id": "594a863d91b367211b350e1d"
+    }
+  ],
+  "uri": "http://sparql.cwrc.ca/ontologies/cwrc",
+  "versions": [
+    {
+      "name": "0.99",
+      "issued": "2017-03-18T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "0",
+      "classNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/cwrc/versions/2017-03-18.n3",
+      "_id": "594a850891b367211b350a7f",
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://id.loc.gov/vocabulary/relators",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://vocab.deri.ie/void",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns",
+        "http://www.w3.org/2004/02/skos/core",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e36",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/zho",
+          "label": "Chinese",
+          "iso639P3PCode": "zho"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v0.99.3",
+      "issued": "2017-06-10T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "306",
+      "propertyNumber": "28",
+      "classNumber": "61",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/cwrc/versions/2017-06-10.n3",
+      "_id": "594a856991b367211b350b84",
+      "relSpecializes": [
+        "http://dbpedia.org/resource/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/ns/prov#"
+      ],
+      "relEquivalent": [
+        "http://dbpedia.org/ontology/",
+        "http://dbpedia.org/resource/",
+        "http://en.wikipedia.org/wiki/",
+        "http://erlangen-crm.org/current/",
+        "http://geovocab.org/spatial",
+        "http://homosaurus.org/terms/",
+        "http://id.loc.gov/vocabulary/iso639-1/",
+        "http://linkedevents.org/ontology/",
+        "http://orcid.org/0000-0002-0267-7344",
+        "http://rdf.muninn-project.org/ww1/2011/11/11/Person/",
+        "http://schema.org/",
+        "http://www.geonames.org/ontology",
+        "http://www.opengis.net/ont/geosparql"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://id.loc.gov/vocabulary/relators",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://vocab.deri.ie/void",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns",
+        "http://www.w3.org/2004/02/skos/core",
+        "http://www.w3.org/ns/prov#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e36",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/zho",
+          "label": "Chinese",
+          "iso639P3PCode": "zho"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2014-09-03T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f07",
+      "name": "Simon Cox"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "An OWL representation of parts of the Geographic Metadata model described in ISO 19115:2003 with Corrigendum 2006 - DQ Package",
+      "lang": "en",
+      "_id": "568a55274ee7f7176ff10eb7"
+    }
+  ],
+  "issuedAt": "2012-05-18T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-01-04T00:00:00.000Z",
+  "nsp": "http://def.seegrid.csiro.au/isotc211/iso19115/2003/dataquality#",
+  "prefix": "dq",
+  "reviews": [
+    {
+      "body": "The 2014 versions correspond to changes detected in the file but without change in the metadata.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-09-04T00:00:00.000Z",
+      "_id": "568a55274ee7f7176ff10eb9"
+    },
+    {
+      "body": "This vocabulary imports other external vocabularies not yet included into LOV.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-04T00:00:00.000Z",
+      "_id": "568a55274ee7f7176ff10eb8"
+    }
+  ],
+  "tags": [
+    "Quality"
+  ],
+  "titles": [
+    {
+      "value": "OWL representation of ISO 19115 (Geographic Information - Metadata - Data quality package)",
+      "lang": "en",
+      "_id": "568a55274ee7f7176ff10eb6"
+    }
+  ],
+  "uri": "http://def.seegrid.csiro.au/isotc211/iso19115/2003/dataquality",
+  "versions": [
+    {
+      "name": "v2014-08-28",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/dq/versions/2014-08-28.n3",
+      "issued": "2014-08-27T23:00:00.000Z",
+      "classNumber": "27",
+      "propertyNumber": "21",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "relImports": [
+        "http://def.seegrid.csiro.au/isotc211/iso19103/2005/",
+        "http://def.seegrid.csiro.au/isotc211/iso19115/2003/code/",
+        "http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://def.seegrid.csiro.au/isotc211/iso19115/2003/citation#",
+        "http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#",
+        "http://def.seegrid.csiro.au/isotc211/iso19115/2003/lineage#",
+        "http://def.seegrid.csiro.au/isotc211/iso19115/2003/metadata#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v2014-06-06",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/dq/versions/2014-06-06.n3",
+      "issued": "2014-06-05T23:00:00.000Z",
+      "classNumber": "27",
+      "propertyNumber": "21",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://def.seegrid.csiro.au/isotc211/iso19103/2005/",
+        "http://def.seegrid.csiro.au/isotc211/iso19115/2003/code/",
+        "http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://def.seegrid.csiro.au/isotc211/iso19115/2003/citation#",
+        "http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#",
+        "http://def.seegrid.csiro.au/isotc211/iso19115/2003/lineage#",
+        "http://def.seegrid.csiro.au/isotc211/iso19115/2003/metadata#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v2012-10-26",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/dq/versions/2012-10-26.n3",
+      "issued": "2012-10-25T23:00:00.000Z",
+      "classNumber": "27",
+      "propertyNumber": "21",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://def.seegrid.csiro.au/isotc211/iso19103/2005/",
+        "http://def.seegrid.csiro.au/isotc211/iso19115/2003/",
+        "http://def.seegrid.csiro.au/isotc211/iso19115/2003/code/",
+        "http://def.seegrid.csiro.au/isotc211/iso19150/2012/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://def.seegrid.csiro.au/isotc211/iso19115/2003/citation#",
+        "http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#",
+        "http://def.seegrid.csiro.au/isotc211/iso19115/2003/lineage#",
+        "http://def.seegrid.csiro.au/isotc211/iso19115/2003/metadata#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://def.seegrid.csiro.au/isotc211/iso19150/2012/hm2owl#",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://spinrdf.org/spin#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

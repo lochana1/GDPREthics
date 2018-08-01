@@ -1,0 +1,1676 @@
+{
+  "__v": 2,
+  "contributorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e8c",
+      "name": "Mariana Curado Malta"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0e8e",
+      "name": "María Poveda-Villalón"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0e97",
+      "name": "Ronald Poell"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f57",
+      "name": "Masahide Kanzaki"
+    }
+  ],
+  "createdInLOVAt": "2013-02-01T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e74",
+      "name": "Bernard Vatant"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/lingvoj.rdf",
+      "label": "lingvoj.rdf",
+      "occurrences": "522"
+    },
+    {
+      "uri": "http://datahub.io/dataset/lingvoj.0.rdf",
+      "label": "lingvoj.0.rdf",
+      "occurrences": "510"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "An ontology for using languages as resources",
+      "lang": "en",
+      "_id": "569501eaff8848f96bd0ff8a"
+    }
+  ],
+  "homepage": "http://www.lingvoj.org",
+  "issuedAt": "2007-09-17T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:52:16.849Z",
+  "lastModifiedInLOVAt": "2016-01-12T00:00:00.000Z",
+  "nsp": "http://www.lingvoj.org/ontology#",
+  "prefix": "lingvo",
+  "reviews": [
+    {
+      "body": "Dutch translations added thanks to Ronald Poell.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-12-20T00:00:00.000Z",
+      "_id": "569501eaff8848f96bd0ff90"
+    },
+    {
+      "body": "The html publication was relying on Parrot, but this service has some issues. No html documentation for now, only the Turtle file.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-11-24T00:00:00.000Z",
+      "_id": "569501eaff8848f96bd0ff8f"
+    },
+    {
+      "body": "New version with spanish translations, thanks to María Poveda-Villalón for her contribution. More translations to come, contributors welcome!",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-12-19T00:00:00.000Z",
+      "_id": "569501eaff8848f96bd0ff8e"
+    },
+    {
+      "body": "Versions from 2.0 are richer, but not compatible with previous versions. Deprecated properties are listed.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-02-01T00:00:00.000Z",
+      "_id": "569501eaff8848f96bd0ff8d"
+    },
+    {
+      "body": "New version with Portuguese and Japanese translations",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-08-11T00:00:00.000Z",
+      "_id": "569501eaff8848f96bd0ff8c"
+    },
+    {
+      "body": "Annual review OK. New namespace since 2015-06-12",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-12T00:00:00.000Z",
+      "_id": "569501eaff8848f96bd0ff8b"
+    }
+  ],
+  "tags": [
+    "Vocabularies"
+  ],
+  "titles": [
+    {
+      "value": "The Lingvoj Ontology",
+      "lang": "en",
+      "_id": "569501eaff8848f96bd0ff89"
+    }
+  ],
+  "uri": "http://www.lingvoj.org/ontology",
+  "versions": [
+    {
+      "name": "v2.33",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lingvo/versions/2014-08-11.n3",
+      "issued": "2014-08-10T23:00:00.000Z",
+      "classNumber": "3",
+      "propertyNumber": "44",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://linkedevents.org/ontology/",
+        "http://purl.org/dc/terms/",
+        "http://www.loc.gov/mads/rdf/v1#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://schema.org/",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [
+        "http://d-nb.info/standards/elementset/gnd#",
+        "http://purl.org/linguistics/gold",
+        "http://schema.org/",
+        "http://www.ontotext.com/proton/protontop#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://lexvo.org/ontology",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.lingvoj.org/olca",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e10",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fin",
+          "label": "Finnish",
+          "iso639P3PCode": "fin"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1b",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/jpn",
+          "label": "Japanese",
+          "iso639P3PCode": "jpn"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e24",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nor",
+          "label": "Norwegian",
+          "iso639P3PCode": "nor"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e26",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/pol",
+          "label": "Polish",
+          "iso639P3PCode": "pol"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e27",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/por",
+          "label": "Portuguese",
+          "iso639P3PCode": "por"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/rus",
+          "label": "Russian",
+          "iso639P3PCode": "rus"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e30",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/swe",
+          "label": "Swedish",
+          "iso639P3PCode": "swe"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e32",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/tur",
+          "label": "Turkish",
+          "iso639P3PCode": "tur"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e36",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/zho",
+          "label": "Chinese",
+          "iso639P3PCode": "zho"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2.32",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lingvo/versions/2014-03-20.n3",
+      "issued": "2014-03-20T00:00:00.000Z",
+      "classNumber": "3",
+      "propertyNumber": "44",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://linkedevents.org/ontology/",
+        "http://purl.org/dc/terms/",
+        "http://www.loc.gov/mads/rdf/v1#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://schema.org/",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [
+        "http://d-nb.info/standards/elementset/gnd#",
+        "http://purl.org/linguistics/gold",
+        "http://schema.org/",
+        "http://www.ontotext.com/proton/protontop#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://lexvo.org/ontology",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.lingvoj.org/olca",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e10",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fin",
+          "label": "Finnish",
+          "iso639P3PCode": "fin"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1b",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/jpn",
+          "label": "Japanese",
+          "iso639P3PCode": "jpn"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e24",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nor",
+          "label": "Norwegian",
+          "iso639P3PCode": "nor"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e26",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/pol",
+          "label": "Polish",
+          "iso639P3PCode": "pol"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e27",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/por",
+          "label": "Portuguese",
+          "iso639P3PCode": "por"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/rus",
+          "label": "Russian",
+          "iso639P3PCode": "rus"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e30",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/swe",
+          "label": "Swedish",
+          "iso639P3PCode": "swe"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e32",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/tur",
+          "label": "Turkish",
+          "iso639P3PCode": "tur"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e36",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/zho",
+          "label": "Chinese",
+          "iso639P3PCode": "zho"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2.31",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lingvo/versions/2014-01-20.n3",
+      "issued": "2014-01-20T00:00:00.000Z",
+      "classNumber": "3",
+      "propertyNumber": "44",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://linkedevents.org/ontology/",
+        "http://purl.org/dc/terms/",
+        "http://www.loc.gov/mads/rdf/v1#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://schema.org/",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [
+        "http://d-nb.info/standards/elementset/gnd#",
+        "http://purl.org/linguistics/gold",
+        "http://schema.org/",
+        "http://www.ontotext.com/proton/protontop#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://lexvo.org/ontology",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.lingvoj.org/olca",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e10",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fin",
+          "label": "Finnish",
+          "iso639P3PCode": "fin"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1b",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/jpn",
+          "label": "Japanese",
+          "iso639P3PCode": "jpn"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e24",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nor",
+          "label": "Norwegian",
+          "iso639P3PCode": "nor"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e26",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/pol",
+          "label": "Polish",
+          "iso639P3PCode": "pol"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e27",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/por",
+          "label": "Portuguese",
+          "iso639P3PCode": "por"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/rus",
+          "label": "Russian",
+          "iso639P3PCode": "rus"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e30",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/swe",
+          "label": "Swedish",
+          "iso639P3PCode": "swe"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e32",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/tur",
+          "label": "Turkish",
+          "iso639P3PCode": "tur"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e36",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/zho",
+          "label": "Chinese",
+          "iso639P3PCode": "zho"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2.3",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lingvo/versions/2014-01-17.n3",
+      "issued": "2014-01-17T00:00:00.000Z",
+      "classNumber": "3",
+      "propertyNumber": "43",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://linkedevents.org/ontology/",
+        "http://purl.org/dc/terms/",
+        "http://www.loc.gov/mads/rdf/v1#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://schema.org/",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [
+        "http://d-nb.info/standards/elementset/gnd#",
+        "http://linguistics-ontology.org/gold/",
+        "http://schema.org/",
+        "http://www.ontotext.com/proton/protontop#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://lexvo.org/ontology",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.lingvoj.org/olca",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e10",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fin",
+          "label": "Finnish",
+          "iso639P3PCode": "fin"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1b",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/jpn",
+          "label": "Japanese",
+          "iso639P3PCode": "jpn"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e24",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nor",
+          "label": "Norwegian",
+          "iso639P3PCode": "nor"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e26",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/pol",
+          "label": "Polish",
+          "iso639P3PCode": "pol"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e27",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/por",
+          "label": "Portuguese",
+          "iso639P3PCode": "por"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/rus",
+          "label": "Russian",
+          "iso639P3PCode": "rus"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e30",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/swe",
+          "label": "Swedish",
+          "iso639P3PCode": "swe"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e32",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/tur",
+          "label": "Turkish",
+          "iso639P3PCode": "tur"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e36",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/zho",
+          "label": "Chinese",
+          "iso639P3PCode": "zho"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2.21",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lingvo/versions/2013-12-20.n3",
+      "issued": "2013-12-20T00:00:00.000Z",
+      "classNumber": "2",
+      "propertyNumber": "38",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://linkedevents.org/ontology/",
+        "http://purl.org/dc/terms/",
+        "http://www.loc.gov/mads/rdf/v1#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [
+        "http://d-nb.info/standards/elementset/gnd#",
+        "http://linguistics-ontology.org/gold/",
+        "http://schema.org/",
+        "http://www.ontotext.com/proton/protontop#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://lexvo.org/ontology",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.lingvoj.org/olca",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e10",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fin",
+          "label": "Finnish",
+          "iso639P3PCode": "fin"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1b",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/jpn",
+          "label": "Japanese",
+          "iso639P3PCode": "jpn"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e24",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nor",
+          "label": "Norwegian",
+          "iso639P3PCode": "nor"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e26",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/pol",
+          "label": "Polish",
+          "iso639P3PCode": "pol"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e27",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/por",
+          "label": "Portuguese",
+          "iso639P3PCode": "por"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/rus",
+          "label": "Russian",
+          "iso639P3PCode": "rus"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e30",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/swe",
+          "label": "Swedish",
+          "iso639P3PCode": "swe"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e32",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/tur",
+          "label": "Turkish",
+          "iso639P3PCode": "tur"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e36",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/zho",
+          "label": "Chinese",
+          "iso639P3PCode": "zho"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2.2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lingvo/versions/2013-12-19.n3",
+      "issued": "2013-12-19T00:00:00.000Z",
+      "classNumber": "2",
+      "propertyNumber": "37",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://linkedevents.org/ontology/",
+        "http://purl.org/dc/terms/",
+        "http://www.loc.gov/mads/rdf/v1#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [
+        "http://d-nb.info/standards/elementset/gnd#",
+        "http://linguistics-ontology.org/gold/",
+        "http://schema.org/",
+        "http://www.ontotext.com/proton/protontop#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://lexvo.org/ontology",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.lingvoj.org/olca",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e10",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fin",
+          "label": "Finnish",
+          "iso639P3PCode": "fin"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1b",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/jpn",
+          "label": "Japanese",
+          "iso639P3PCode": "jpn"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e24",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nor",
+          "label": "Norwegian",
+          "iso639P3PCode": "nor"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e26",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/pol",
+          "label": "Polish",
+          "iso639P3PCode": "pol"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e27",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/por",
+          "label": "Portuguese",
+          "iso639P3PCode": "por"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/rus",
+          "label": "Russian",
+          "iso639P3PCode": "rus"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e30",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/swe",
+          "label": "Swedish",
+          "iso639P3PCode": "swe"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e32",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/tur",
+          "label": "Turkish",
+          "iso639P3PCode": "tur"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e36",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/zho",
+          "label": "Chinese",
+          "iso639P3PCode": "zho"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2.11",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lingvo/versions/2013-04-18.n3",
+      "issued": "2013-04-17T23:00:00.000Z",
+      "classNumber": "2",
+      "propertyNumber": "37",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://linkedevents.org/ontology/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.lingvoj.org/olca",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e10",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fin",
+          "label": "Finnish",
+          "iso639P3PCode": "fin"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1b",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/jpn",
+          "label": "Japanese",
+          "iso639P3PCode": "jpn"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e24",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nor",
+          "label": "Norwegian",
+          "iso639P3PCode": "nor"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e26",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/pol",
+          "label": "Polish",
+          "iso639P3PCode": "pol"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e27",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/por",
+          "label": "Portuguese",
+          "iso639P3PCode": "por"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/rus",
+          "label": "Russian",
+          "iso639P3PCode": "rus"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e30",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/swe",
+          "label": "Swedish",
+          "iso639P3PCode": "swe"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e32",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/tur",
+          "label": "Turkish",
+          "iso639P3PCode": "tur"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e36",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/zho",
+          "label": "Chinese",
+          "iso639P3PCode": "zho"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2.1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lingvo/versions/2013-03-20.n3",
+      "issued": "2013-03-20T00:00:00.000Z",
+      "classNumber": "2",
+      "propertyNumber": "37",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://linkedevents.org/ontology/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.lingvoj.org/olca",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e10",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fin",
+          "label": "Finnish",
+          "iso639P3PCode": "fin"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1b",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/jpn",
+          "label": "Japanese",
+          "iso639P3PCode": "jpn"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e24",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nor",
+          "label": "Norwegian",
+          "iso639P3PCode": "nor"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e26",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/pol",
+          "label": "Polish",
+          "iso639P3PCode": "pol"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e27",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/por",
+          "label": "Portuguese",
+          "iso639P3PCode": "por"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/rus",
+          "label": "Russian",
+          "iso639P3PCode": "rus"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e30",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/swe",
+          "label": "Swedish",
+          "iso639P3PCode": "swe"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e32",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/tur",
+          "label": "Turkish",
+          "iso639P3PCode": "tur"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e36",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/zho",
+          "label": "Chinese",
+          "iso639P3PCode": "zho"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lingvo/versions/2013-02-01.n3",
+      "issued": "2013-02-01T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": true
+    },
+    {
+      "name": "v1.3",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lingvo/versions/2009-04-06.n3",
+      "issued": "2009-04-05T23:00:00.000Z",
+      "classNumber": "2",
+      "propertyNumber": "21",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/dc/terms/",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [
+        "http://downlode.org/rdf/iso-639/schema#",
+        "http://psi.oasis-open.org/iso/639/#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e10",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fin",
+          "label": "Finnish",
+          "iso639P3PCode": "fin"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1b",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/jpn",
+          "label": "Japanese",
+          "iso639P3PCode": "jpn"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e24",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nor",
+          "label": "Norwegian",
+          "iso639P3PCode": "nor"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e26",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/pol",
+          "label": "Polish",
+          "iso639P3PCode": "pol"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e27",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/por",
+          "label": "Portuguese",
+          "iso639P3PCode": "por"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/rus",
+          "label": "Russian",
+          "iso639P3PCode": "rus"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e30",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/swe",
+          "label": "Swedish",
+          "iso639P3PCode": "swe"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e32",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/tur",
+          "label": "Turkish",
+          "iso639P3PCode": "tur"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e36",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/zho",
+          "label": "Chinese",
+          "iso639P3PCode": "zho"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v1.2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lingvo/versions/2008-01-28.n3",
+      "issued": "2008-01-28T00:00:00.000Z",
+      "classNumber": "2",
+      "propertyNumber": "20",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [
+        "http://downlode.org/rdf/iso-639/schema#",
+        "http://psi.oasis-open.org/iso/639/#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e10",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fin",
+          "label": "Finnish",
+          "iso639P3PCode": "fin"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1b",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/jpn",
+          "label": "Japanese",
+          "iso639P3PCode": "jpn"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e24",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nor",
+          "label": "Norwegian",
+          "iso639P3PCode": "nor"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e26",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/pol",
+          "label": "Polish",
+          "iso639P3PCode": "pol"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e27",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/por",
+          "label": "Portuguese",
+          "iso639P3PCode": "por"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/rus",
+          "label": "Russian",
+          "iso639P3PCode": "rus"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e30",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/swe",
+          "label": "Swedish",
+          "iso639P3PCode": "swe"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e32",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/tur",
+          "label": "Turkish",
+          "iso639P3PCode": "tur"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e36",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/zho",
+          "label": "Chinese",
+          "iso639P3PCode": "zho"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v1.1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lingvo/versions/2007-10-30.n3",
+      "issued": "2007-10-30T00:00:00.000Z",
+      "classNumber": "2",
+      "propertyNumber": "20",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [
+        "http://downlode.org/rdf/iso-639/schema#",
+        "http://psi.oasis-open.org/iso/639/#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e10",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fin",
+          "label": "Finnish",
+          "iso639P3PCode": "fin"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1b",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/jpn",
+          "label": "Japanese",
+          "iso639P3PCode": "jpn"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e24",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nor",
+          "label": "Norwegian",
+          "iso639P3PCode": "nor"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e26",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/pol",
+          "label": "Polish",
+          "iso639P3PCode": "pol"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e27",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/por",
+          "label": "Portuguese",
+          "iso639P3PCode": "por"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/rus",
+          "label": "Russian",
+          "iso639P3PCode": "rus"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e30",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/swe",
+          "label": "Swedish",
+          "iso639P3PCode": "swe"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e32",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/tur",
+          "label": "Turkish",
+          "iso639P3PCode": "tur"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e36",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/zho",
+          "label": "Chinese",
+          "iso639P3PCode": "zho"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v1.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lingvo/versions/2007-09-17.n3",
+      "issued": "2007-09-16T23:00:00.000Z",
+      "classNumber": "1",
+      "propertyNumber": "13",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [
+        "http://downlode.org/rdf/iso-639/schema#",
+        "http://psi.oasis-open.org/iso/639/#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e10",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fin",
+          "label": "Finnish",
+          "iso639P3PCode": "fin"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1b",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/jpn",
+          "label": "Japanese",
+          "iso639P3PCode": "jpn"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e24",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nor",
+          "label": "Norwegian",
+          "iso639P3PCode": "nor"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e26",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/pol",
+          "label": "Polish",
+          "iso639P3PCode": "pol"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e27",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/por",
+          "label": "Portuguese",
+          "iso639P3PCode": "por"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/rus",
+          "label": "Russian",
+          "iso639P3PCode": "rus"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e30",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/swe",
+          "label": "Swedish",
+          "iso639P3PCode": "swe"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e32",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/tur",
+          "label": "Turkish",
+          "iso639P3PCode": "tur"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e36",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/zho",
+          "label": "Chinese",
+          "iso639P3PCode": "zho"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

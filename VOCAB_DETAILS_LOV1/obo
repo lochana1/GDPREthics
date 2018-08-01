@@ -1,0 +1,96 @@
+{
+  "__v": 1,
+  "contributorIds": [],
+  "createdInLOVAt": "2015-08-01T00:00:00.000Z",
+  "creatorIds": [],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The Ontology for Biomedical Investigations (OBI) is build in a collaborative, international effort and will serve as a resource for annotating biomedical investigations, including the study design, protocols and instrumentation used, the data generated and the types of analysis performed on the data. This ontology arose from the Functional Genomics Investigation Ontology (FuGO) and will contain both terms that are common to all biomedical investigations, including functional genomics investigations and those that are more domain specific.",
+      "lang": "en",
+      "_id": "55bcfc357459b3975b63cd83"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2009-07-31T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-08-01T00:00:00.000Z",
+  "nsp": "http://purl.obolibrary.org/obo/",
+  "prefix": "obo",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "This vocabulary contains a list of contributors who are advisors for the project, from the IFOMIS group, Saarbruecken and from the Co-ODE group in Manchester",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-08-01T00:00:00.000Z",
+      "_id": "55bcfc357459b3975b63cd84"
+    }
+  ],
+  "tags": [
+    "Biology",
+    "Health"
+  ],
+  "titles": [
+    {
+      "value": "Ontology for Biomedical Investigation",
+      "lang": "en",
+      "_id": "55bcfc357459b3975b63cd82"
+    }
+  ],
+  "uri": "http://purl.obolibrary.org/obo/obi.owl",
+  "versions": [
+    {
+      "_id": "55bcb5bd7459b3975b63cb23",
+      "classNumber": "2853",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/obo/versions/2015-04-13.n3",
+      "instanceNumber": "140",
+      "issued": "2015-04-13T00:00:00.000Z",
+      "name": "v2015.0413",
+      "propertyNumber": "132",
+      "relSpecializes": [
+        "http://www.geneontology.org/formats/oboInOwl#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relImports": [],
+      "relGeneralizes": [
+        "http://www.geneontology.org/formats/oboInOwl#"
+      ],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [
+        "http://www.geneontology.org/formats/oboInOwl#"
+      ],
+      "relMetadata": [
+        "http://protege.stanford.edu/plugins/owl/protege#",
+        "http://purl.org/dc/elements/1.1/",
+        "http://usefulinc.com/ns/doap#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

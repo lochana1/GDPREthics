@@ -1,0 +1,185 @@
+{
+  "__v": 3,
+  "contributorIds": [],
+  "createdInLOVAt": "2017-12-04T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "5a251cd93d405e60384ec026",
+      "name": "Martin Böhmer"
+    },
+    {
+      "_id": "5a251d3d3d405e60384ec08c",
+      "name": "Agatha Dabrowski"
+    },
+    {
+      "_id": "5abb61b50d8ceb4e01493dee",
+      "name": "Erik Thordsen"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The Data Knowledge Vocabulary allows for a comprehensive description of data assets and enterprise data management. It covers a business data dictionary, data quality management, data governance, the technical infrastructure and many other aspects of enterprise data management. The vocabulary represents a linked data implementation of the Data Knowledge Model which resulted from extensive applied research.",
+      "lang": "en",
+      "_id": "5abb62460d8ceb4e01493ec4"
+    },
+    {
+      "value": "Das Data-Knowledge-Vokabular erlaubt die verständliche Beschreibung von Datengütern und dem Datenmanagement in Unternehmen. Es deckt Bereiche der Geschäftsdatendefinition, des Datenqualitätsmanagement, der Daten-Governance, der technischen Infrastruktur und viele weitere Aspekte des Datenmanagements in Unternehmen ab. Das Vokabular repräsentiert eine Linked-Data-Implementierung des Datenwissen-Modells, welches ein Resultat umfassender angewandter Forschung ist.",
+      "lang": "de",
+      "_id": "5abb62460d8ceb4e01493ec3"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2017-11-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2018-03-28T00:00:00.000Z",
+  "nsp": "http://www.data-knowledge.org/dk/",
+  "prefix": "dk",
+  "publisherIds": [
+    {
+      "_id": "588e484567d4e8e0568c996b",
+      "name": "Fraunhofer-Gesellschaft"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "A vocabulary for Business Process description",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2017-12-04T00:00:00.000Z",
+      "_id": "5abb62460d8ceb4e01493ec5"
+    }
+  ],
+  "tags": [
+    "Vocabularies",
+    "Industry",
+    "Methods",
+    "eBusiness"
+  ],
+  "titles": [
+    {
+      "value": "The Data Knowledge Vocabulary",
+      "lang": "en",
+      "_id": "5abb62460d8ceb4e01493ec2"
+    },
+    {
+      "value": "Das Data-Knowledge-Vokabular",
+      "lang": "de",
+      "_id": "5abb62460d8ceb4e01493ec1"
+    }
+  ],
+  "uri": "http://www.data-knowledge.org/dk/",
+  "versions": [
+    {
+      "_id": "5a251e323d405e60384ec1b6",
+      "classNumber": "37",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/dk/versions/2017-11-10.n3",
+      "instanceNumber": "0",
+      "issued": "2017-11-10T00:00:00.000Z",
+      "name": "v1.0",
+      "propertyNumber": "29",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2006/vcard/ns",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [
+        "http://purl.org/dqm-vocabulary/v1/dqm",
+        "http://purl.org/wai#",
+        "http://www.w3.org/2006/vcard/ns",
+        "http://www.w3.org/ns/dqv",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://purl.org/vocommons/voaf",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v1.1",
+      "issued": "2018-02-14T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "3",
+      "propertyNumber": "34",
+      "classNumber": "48",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/dk/versions/2018-02-14.n3",
+      "_id": "5abb5ee10d8ceb4e014938ee",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2006/vcard/ns",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relEquivalent": [
+        "http://purl.org/dqm-vocabulary/v1/dqm",
+        "http://purl.org/linked-data/cube",
+        "http://purl.org/wai#",
+        "http://www.w3.org/2006/vcard/ns",
+        "http://www.w3.org/ns/dqv",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://purl.org/vocommons/voaf",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

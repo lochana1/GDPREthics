@@ -1,0 +1,97 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-05-27T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c1000",
+      "name": "GRDDL WG"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Gleaning Resource Descriptions from Dialects of Languages Vocabulary",
+      "lang": "en",
+      "_id": "555d0aaf30f688c94e823644"
+    }
+  ],
+  "lastDeref": "2014-05-27T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-05-20T00:00:00.000Z",
+  "nsp": "http://www.w3.org/2003/g/data-view#",
+  "prefix": "grddl",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c1003",
+      "name": "W3C"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "It would be nice to provide a way to download the RDF code from the website so that potential users can inspect it.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-05-27T00:00:00.000Z",
+      "_id": "555d0aaf30f688c94e823647"
+    },
+    {
+      "body": "GRDDL is a W3C Recommandation (2007-09-11) and should therefore be stable.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-05-27T00:00:00.000Z",
+      "_id": "555d0aaf30f688c94e823646"
+    },
+    {
+      "body": "Annual review. No change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-05-21T00:00:00.000Z",
+      "_id": "555d0aaf30f688c94e823645"
+    }
+  ],
+  "tags": [
+    "Vocabularies"
+  ],
+  "titles": [
+    {
+      "value": "Gleaning Resource Descriptions from Dialects of Languages Vocabulary",
+      "lang": "en",
+      "_id": "555d0aaf30f688c94e823643"
+    }
+  ],
+  "uri": "http://www.w3.org/2003/g/data-view",
+  "versions": [
+    {
+      "name": "v2007-10-31",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/grddl/versions/2007-10-31.n3",
+      "issued": "2007-10-31T00:00:00.000Z",
+      "classNumber": "5",
+      "propertyNumber": "6",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://usefulinc.com/ns/doap#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

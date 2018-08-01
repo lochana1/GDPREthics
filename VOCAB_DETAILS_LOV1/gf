@@ -1,0 +1,100 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2014-02-28T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f07",
+      "name": "Simon Cox"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "An OWL representation of part of the General Feature Model described in ISO 19109 and the General Feature Instance model described in Annex C of ISO 19156:2011.",
+      "lang": "en",
+      "_id": "55a0fc2157613119099c1157"
+    }
+  ],
+  "issuedAt": "2010-10-27T00:00:00.000Z",
+  "lastDeref": "2014-07-29T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-07-11T00:00:00.000Z",
+  "nsp": "http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#",
+  "prefix": "gf",
+  "reviews": [
+    {
+      "body": "This vocabulary consists of only one class, and imports four different vocabularies.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2014-02-28T00:00:00.000Z",
+      "_id": "55a0fc2157613119099c115a"
+    },
+    {
+      "body": "Prior version URI in the RDF file is 404.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-07-30T00:00:00.000Z",
+      "_id": "55a0fc2157613119099c1159"
+    },
+    {
+      "body": "Annual review OK.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-11T00:00:00.000Z",
+      "_id": "55a0fc2157613119099c1158"
+    }
+  ],
+  "tags": [
+    "Geography"
+  ],
+  "titles": [
+    {
+      "value": "OWL representation of ISO 19109 (General Feature Model)",
+      "lang": "en",
+      "_id": "55a0fc2157613119099c1156"
+    }
+  ],
+  "uri": "http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature",
+  "versions": [
+    {
+      "name": "v2013-11-14",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/gf/versions/2013-11-14.n3",
+      "issued": "2013-11-14T00:00:00.000Z",
+      "classNumber": "1",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [
+        "http://def.seegrid.csiro.au/isotc211/iso19103/2005/",
+        "http://def.seegrid.csiro.au/isotc211/iso19107/2003/",
+        "http://def.seegrid.csiro.au/isotc211/iso19108/2002/",
+        "http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [
+        "http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry",
+        "http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal"
+      ],
+      "relMetadata": [
+        "http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

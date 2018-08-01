@@ -1,0 +1,126 @@
+{
+  "__v": 1,
+  "commentDeref": "Problem while dereferencing or parsing the vocabulary",
+  "createdInLOVAt": "2013-06-24T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e67",
+      "name": "Tomi Kauppinen"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f6c",
+      "name": "Carsten Keßler"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "LSC, the Linked Science Core Vocabulary, is a lightweight vocabulary providing terms to enable publishers and researchers to relate things in science to time, space, and themes.",
+      "lang": "en",
+      "_id": "55e0609ca71142386b776211"
+    }
+  ],
+  "issuedAt": "2011-05-26T00:00:00.000Z",
+  "lastDeref": "2014-06-23T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-08-28T00:00:00.000Z",
+  "nsp": "http://linkedscience.org/lsc/ns#",
+  "prefix": "lsc",
+  "reviews": [
+    {
+      "body": "A small generic vocabulary for description of scientific research concepts, such as hypotheses, methods, results and publications. Most of those concepts seem already described in other vocabularies, and maybe too generic for efficient direct use. Could be extended and specialized for specific domains.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-06-25T00:00:00.000Z",
+      "_id": "55e0609ca71142386b776214"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-24T00:00:00.000Z",
+      "_id": "55e0609ca71142386b776213"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-08-28T00:00:00.000Z",
+      "_id": "55e0609ca71142386b776212"
+    }
+  ],
+  "tags": [
+    "Methods"
+  ],
+  "titles": [
+    {
+      "value": "Linked Science Core Vocabulary",
+      "lang": "en",
+      "_id": "55e0609ca71142386b776210"
+    }
+  ],
+  "uri": "http://linkedscience.org/lsc/ns#",
+  "versions": [
+    {
+      "name": "v2011-11-29",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/lsc/versions/2011-11-29.n3",
+      "issued": "2011-11-29T00:00:00.000Z",
+      "classNumber": "8",
+      "propertyNumber": "17",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "dct:",
+        "http://purl.org/ontology/bibo/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://observedchange.com/tisc/ns#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/net/provenance/ns#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2011-05-26",
+      "issued": "2011-05-25T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": false
+    }
+  ]
+}

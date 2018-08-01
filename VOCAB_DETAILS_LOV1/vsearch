@@ -1,0 +1,107 @@
+{
+  "__v": 3,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-06-03T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "5751ae852ef0568831d2c6f2",
+      "name": "ioannis Stavrakantonakis"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The vSearch vocabulary facilitates the querying and retrieval of vocabulary terms from a vocabularies directory. It can be used to map keywords with mapped result terms accompanied with a ranking value.",
+      "lang": "en",
+      "_id": "5a2515123d405e60384eb2bd"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2016-01-16T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-12-04T09:28:59.188Z",
+  "nsp": "http://purl.org/vsearch/",
+  "prefix": "vsearch",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "Vocabulary to describe a search and its results",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2016-06-03T00:00:00.000Z",
+      "_id": "5a2515123d405e60384eb2bf"
+    },
+    {
+      "body": "Vocabulary URI has changed from http://vocab.sti2.at/vsearch/ to the purl URI http://purl.org/vsearch",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2017-12-01T00:00:00.000Z",
+      "_id": "5a2515123d405e60384eb2be"
+    }
+  ],
+  "tags": [
+    "Vocabularies"
+  ],
+  "titles": [
+    {
+      "value": "vSearch Vocabulary",
+      "lang": "en",
+      "_id": "5a2515123d405e60384eb2bc"
+    }
+  ],
+  "uri": "http://purl.org/vsearch/",
+  "versions": [
+    {
+      "name": "v0.1",
+      "issued": "2016-01-16T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "7",
+      "classNumber": "2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/vsearch/versions/2016-01-16.n3",
+      "_id": "5a25154e3d405e60384eb32f",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/",
+        "http://vocab.sti2.at/vrank",
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relEquivalent": [
+        "http://vocab.sti2.at/vsearch/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

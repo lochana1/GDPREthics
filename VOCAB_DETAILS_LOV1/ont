@@ -1,0 +1,115 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-05-27T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f57",
+      "name": "Masahide Kanzaki"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Vocabulary to define some annotation properties as subproperties of common Dublin Core terms",
+      "lang": "en",
+      "_id": "5548f6d23d2356850c58948c"
+    }
+  ],
+  "issuedAt": "2007-10-07T00:00:00.000Z",
+  "lastDeref": "2014-05-27T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-05-05T00:00:00.000Z",
+  "nsp": "http://purl.org/net/ns/ontology-annot#",
+  "prefix": "ont",
+  "reviews": [
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-05-27T00:00:00.000Z",
+      "_id": "5548f6d23d2356850c58948f"
+    },
+    {
+      "body": "This vocabulary is used by others in order to keep them in OWL-DL.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-05-27T00:00:00.000Z",
+      "_id": "5548f6d23d2356850c58948e"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2015-05-05T00:00:00.000Z",
+      "_id": "5548f6d23d2356850c58948d"
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "Ontology annotation DLiser vocabulary",
+      "lang": "en",
+      "_id": "5548f6d23d2356850c58948b"
+    }
+  ],
+  "uri": "http://purl.org/net/ns/ontology-annot",
+  "versions": [
+    {
+      "name": "v0.12",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ont/versions/2007-11-07.n3",
+      "issued": "2007-11-07T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "8",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e1b",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/jpn",
+          "label": "Japanese",
+          "iso639P3PCode": "jpn"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.10",
+      "issued": "2007-10-07T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": false
+    }
+  ]
+}

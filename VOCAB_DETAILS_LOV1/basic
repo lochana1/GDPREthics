@@ -1,0 +1,213 @@
+{
+  "__v": 4,
+  "createdInLOVAt": "2014-02-17T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f07",
+      "name": "Simon Cox"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "An OWL representation of (some of) the basic types described in ISO 19103:2005, required as primitives in other ontologies based on ISO 19100 series standards",
+      "lang": "en",
+      "_id": "57f68251812207ab0362348f"
+    }
+  ],
+  "issuedAt": "2011-01-01T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-10-06T00:00:00.000Z",
+  "nsp": "http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#",
+  "prefix": "basic",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0feb",
+      "name": "CSIRO"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "An OWL representation of (some of) the basic types described in ISO 19103:2005, required as primitives in other ontologies based on ISO 19100 series standards, made available by CSIRO.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2014-02-17T00:00:00.000Z",
+      "_id": "57f68251812207ab03623493"
+    },
+    {
+      "body": "Added versions and timeline",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-05-18T00:00:00.000Z",
+      "_id": "57f68251812207ab03623492"
+    },
+    {
+      "body": "Fixed version history, deleted false positive",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-04-03T00:00:00.000Z",
+      "_id": "57f68251812207ab03623491"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-10-06T00:00:00.000Z",
+      "_id": "57f68251812207ab03623490"
+    }
+  ],
+  "tags": [
+    "Methods"
+  ],
+  "titles": [
+    {
+      "value": "OWL representation of ISO 19103 (Basic types package)",
+      "lang": "en",
+      "_id": "57f68251812207ab0362348e"
+    }
+  ],
+  "uri": "http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic",
+  "versions": [
+    {
+      "name": "v2012-06-06",
+      "issued": "2012-06-06T00:00:00.000Z",
+      "datatypeNumber": "3",
+      "instanceNumber": "0",
+      "propertyNumber": "5",
+      "classNumber": "17",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/basic/versions/2012-06-06.n3",
+      "_id": "551eee95ecd2bf5962d766b0",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relImports": [
+        "http://def.seegrid.csiro.au/isotc211/iso19150/2012/",
+        "http://purl.org/dc/elements/1.1/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://spinrdf.org/spin",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2012-07-24",
+      "issued": "2012-07-24T00:00:00.000Z",
+      "datatypeNumber": "7",
+      "instanceNumber": "0",
+      "propertyNumber": "5",
+      "classNumber": "21",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/basic/versions/2012-07-24.n3",
+      "_id": "551eeee6ecd2bf5962d766b5",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://purl.org/dc/elements/1.1/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://spinrdf.org/spin",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2013-11-14",
+      "issued": "2013-11-14T00:00:00.000Z",
+      "datatypeNumber": "9",
+      "instanceNumber": "0",
+      "propertyNumber": "5",
+      "classNumber": "25",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/basic/versions/2013-11-14.n3",
+      "_id": "551eef02ecd2bf5962d766b7",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://purl.org/dc/elements/1.1/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

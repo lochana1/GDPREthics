@@ -1,0 +1,165 @@
+{
+  "__v": 3,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-06-08T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f39",
+      "name": "Amélie Gyrard"
+    },
+    {
+      "_id": "57580aa92ef0568831d506c8",
+      "name": "Elsaleh Tarek"
+    },
+    {
+      "_id": "57580ad72ef0568831d506da",
+      "name": "Rachit Agarwal"
+    },
+    {
+      "_id": "57580af42ef0568831d506dc",
+      "name": "David Gomez"
+    },
+    {
+      "_id": "57580b112ef0568831d506e3",
+      "name": "Luis Sanchez"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "M3 lite taxonomy is designed for the FIESTA-IOT H2020 EU project. We refactor, clean and simplify the M3 ontology designed by Eurecom (Amelie Gyrard). M3 ontology lite is currently aligned with the quantity taxonomy used by several testbeds: SmartSantander (Spain), University of Surrey (United Kingdom), KETI (Korea) and Com4Innov (France).",
+      "lang": "en",
+      "_id": "59b147832ab721804e285a66"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "isDefinedBy": "http://sensormeasurement.appspot.com/ont/m3/m3-lite.owl",
+  "issuedAt": "2015-07-02T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-09-07T00:00:00.000Z",
+  "nsp": "http://purl.org/iot/vocab/m3-lite#",
+  "prefix": "m3lite",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "The Machine-to-Machine Measurement (M3) lite taxonomy is designed for the FIESTA-IOT H2020 EU project to enables semantically annotating heterogeneous IoT.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-06-08T00:00:00.000Z",
+      "_id": "59b147832ab721804e285a68"
+    },
+    {
+      "body": "New version v3.0 added",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-09-07T00:00:00.000Z",
+      "_id": "59b147832ab721804e285a67"
+    }
+  ],
+  "tags": [
+    "Services",
+    "IoT"
+  ],
+  "titles": [
+    {
+      "value": "The Machine-to-Machine Measurement (M3) Lite Ontology",
+      "lang": "en",
+      "_id": "59b147832ab721804e285a65"
+    }
+  ],
+  "uri": "http://purl.org/iot/vocab/m3-lite#",
+  "versions": [
+    {
+      "_id": "5757ef912ef0568831d4fe1f",
+      "classNumber": "378",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/m3lite/versions/2016-04-25.n3",
+      "instanceNumber": "0",
+      "issued": "2016-04-25T00:00:00.000Z",
+      "name": "v0.6",
+      "propertyNumber": "1",
+      "relSpecializes": [
+        "http://data.qudt.org/qudt/owl/1.0.0/unit.owl#",
+        "http://purl.oclc.org/NET/UNIS/fiware/iot-lite#",
+        "http://www.w3.org/2005/Incubator/ssn/ssnx/ssn",
+        "http://purl.org/NET/ssnx/qu/qu#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [
+        "http://data.qudt.org/qudt/owl/1.0.0/unit.owl#"
+      ],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://lod.taxonconcept.org/ontology/txn.owl",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v3.0",
+      "issued": "2017-07-29T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "5",
+      "classNumber": "421",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/m3lite/versions/2017-07-29.n3",
+      "_id": "59b147632ab721804e285a40",
+      "relSpecializes": [
+        "http://purl.oclc.org/NET/UNIS/fiware/iot-lite#",
+        "http://www.w3.org/2005/Incubator/ssn/ssnx/ssn",
+        "http://purl.org/NET/ssnx/qu/qu#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/NET/ssnx/qu/qu#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

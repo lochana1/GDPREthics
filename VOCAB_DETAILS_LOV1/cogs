@@ -1,0 +1,208 @@
+{
+  "__v": 3,
+  "createdInLOVAt": "2013-08-30T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0eca",
+      "name": "Tim Lebo"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f85",
+      "name": "Benedikt Kämpgen"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0ed4",
+      "name": "André Freitas"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Vocabulary for describing ETL and data transformation activities.",
+      "lang": "en",
+      "_id": "5783657f0183b1e80fc8742c"
+    }
+  ],
+  "homepage": "http://vocab.deri.ie/cogs.html",
+  "issuedAt": "2013-02-25T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-07-11T00:00:00.000Z",
+  "nsp": "http://vocab.deri.ie/cogs#",
+  "prefix": "cogs",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0faa",
+      "name": "Digital Enterprise Research Institute (DERI)"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "foaf:homepage added.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-08-30T00:00:00.000Z",
+      "_id": "5783657f0183b1e80fc87430"
+    },
+    {
+      "body": "Record updated with last version",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-05-15T00:00:00.000Z",
+      "_id": "5783657f0183b1e80fc8742f"
+    },
+    {
+      "body": "DERI is no more a distinct entity. Vocabularies under vocab.deri.ie are not likely to evolve, and have been offline for a while, then restored.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-04-16T00:00:00.000Z",
+      "_id": "5783657f0183b1e80fc8742e"
+    },
+    {
+      "body": "Annual review OK.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-07-11T00:00:00.000Z",
+      "_id": "5783657f0183b1e80fc8742d"
+    }
+  ],
+  "tags": [
+    "RDF"
+  ],
+  "titles": [
+    {
+      "value": "COGS Vocabulary",
+      "lang": "en",
+      "_id": "5783657f0183b1e80fc8742b"
+    }
+  ],
+  "uri": "http://vocab.deri.ie/cogs",
+  "versions": [
+    {
+      "name": "v2014-03-10",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/cogs/versions/2014-03-10.n3",
+      "issued": "2014-03-10T00:00:00.000Z",
+      "classNumber": "146",
+      "propertyNumber": "7",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/adms#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    },
+    {
+      "name": "v2013-12-08",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/cogs/versions/2013-12-08.n3",
+      "issued": "2013-12-08T00:00:00.000Z",
+      "classNumber": "151",
+      "propertyNumber": "8",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/adms#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    },
+    {
+      "name": "v2013-11-25",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/cogs/versions/2013-11-25.n3",
+      "issued": "2013-11-25T00:00:00.000Z",
+      "classNumber": "148",
+      "propertyNumber": "8",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/adms#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    },
+    {
+      "name": "v2013-02-25",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/cogs/versions/2013-02-25.n3",
+      "issued": "2013-02-25T00:00:00.000Z",
+      "classNumber": "148",
+      "propertyNumber": "5",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/adms#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

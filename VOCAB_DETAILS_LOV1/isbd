@@ -1,0 +1,102 @@
+{
+  "__v": 1,
+  "contributorIds": [],
+  "createdInLOVAt": "2015-03-29T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f2c",
+      "name": "Gordon Dunsire"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "This is a registration of classes and properties from International Standard Bibliographic Description (ISBD), consolidated edition, published by De Gruyter Saur in July 2011 (ISBN 978-3-11-026379-4).",
+      "lang": "en"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2010-06-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-03-29T00:00:00.000Z",
+  "nsp": "http://iflastandards.info/ns/isbd/elements/",
+  "prefix": "isbd",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fd3",
+      "name": "Metadata Management Associates"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "ISBD is an IFLA standard. More details at http://www.ifla.org/publications/international-standard-bibliographic-description. Full version history available at http://metadataregistry.org/schemahistory/list/schema_id/25.html",
+      "createdAt": "2015-03-29T00:00:00.000Z",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      }
+    }
+  ],
+  "tags": [
+    "Metadata",
+    "Catalogs"
+  ],
+  "titles": [
+    {
+      "value": "ISBD elements",
+      "lang": "en"
+    }
+  ],
+  "uri": "http://iflastandards.info/ns/isbd/elements/",
+  "versions": [
+    {
+      "name": "v2015-03-11",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/isbd/versions/2015-03-11.n3",
+      "issued": "2015-03-11T00:00:00.000Z",
+      "classNumber": "27",
+      "propertyNumber": "163",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://iflastandards.info/ns/fr/frbr/frbrer/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://metadataregistry.org/uri/profile/RegAp/",
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2004/02/skos/core",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

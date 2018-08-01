@@ -1,0 +1,205 @@
+{
+  "__v": 1,
+  "contributorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f39",
+      "name": "Amélie Gyrard"
+    }
+  ],
+  "createdInLOVAt": "2013-06-09T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0f9f",
+      "name": "Anya Kim"
+    },
+    {
+      "_id": "54b2be048433ca9ccf1c0fa0",
+      "name": "Jim Luo"
+    },
+    {
+      "_id": "54b2be048433ca9ccf1c0fa1",
+      "name": "Myong Kang"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "An ontology describing cryptographic algorithms",
+      "lang": "en",
+      "_id": "569170d2b7cea413588f95eb"
+    }
+  ],
+  "issuedAt": "2005-08-31T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:43:34.793Z",
+  "lastModifiedInLOVAt": "2016-01-09T00:00:00.000Z",
+  "nsp": "http://securitytoolbox.appspot.com/securityAlgorithms#",
+  "prefix": "algo",
+  "reviews": [
+    {
+      "body": "This vocabulary is re-published in the framework of the STAC project (Security Toolbox: Attacks & Countermeasures). Previous version was buggy and removed from LOV records.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-01-24T00:00:00.000Z",
+      "_id": "569170d2b7cea413588f95ef"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-12-16T00:00:00.000Z",
+      "_id": "569170d2b7cea413588f95ee"
+    },
+    {
+      "body": "A small support vocabulary for STAC.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-06-10T00:00:00.000Z",
+      "_id": "569170d2b7cea413588f95ed"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-09T00:00:00.000Z",
+      "_id": "569170d2b7cea413588f95ec"
+    }
+  ],
+  "tags": [
+    "Security"
+  ],
+  "titles": [
+    {
+      "value": "Algorithms Ontology",
+      "lang": "en",
+      "_id": "569170d2b7cea413588f95ea"
+    }
+  ],
+  "uri": "http://securitytoolbox.appspot.com/securityAlgorithms#",
+  "versions": [
+    {
+      "name": "v0.2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/algo/versions/2014-01-24.n3",
+      "issued": "2014-01-24T00:00:00.000Z",
+      "classNumber": "11",
+      "propertyNumber": "4",
+      "instanceNumber": "23",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://securitytoolbox.appspot.com/securityAssurance.owl#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.1",
+      "issued": "2013-05-02T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": false
+    },
+    {
+      "name": "v0.0",
+      "issued": "2005-08-30T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": false
+    },
+    {
+      "name": "v2015-01-11",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/algo/versions/2015-01-11.n3",
+      "issued": "2015-01-11T20:43:34.793Z",
+      "classNumber": "11",
+      "propertyNumber": "4",
+      "instanceNumber": "23",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://securitytoolbox.appspot.com/securityAssurance.owl#",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-08-10T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "57aaf1a8b00b4b1452a7f4ea",
+      "name": "Elisabeth Metais"
+    },
+    {
+      "_id": "57aaf1fdb00b4b1452a7f4f4",
+      "name": "Fayçal Hamdi"
+    },
+    {
+      "_id": "57aaf25ab00b4b1452a7f4f9",
+      "name": "Noura Herradi"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "A Multilingual and Multicultural Ontology Representing Family Relationships.",
+      "lang": "en",
+      "_id": "57aaf2abb00b4b1452a7f504"
+    },
+    {
+      "value": "Un vocabulaire multilingue et multiculturel pour représenter les relations familiale.",
+      "lang": "fr",
+      "_id": "57aaf2abb00b4b1452a7f503"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2015-02-14T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-08-10T09:24:52.973Z",
+  "nsp": "http://cedric.cnam.fr/isid/ontologies/PersonLink.owl#",
+  "prefix": "plink",
+  "publisherIds": [
+    {
+      "_id": "57aaf174b00b4b1452a7f4e7",
+      "name": "CNAM"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "An ontology to represent family relationships",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-08-10T00:00:00.000Z",
+      "_id": "57aaf2abb00b4b1452a7f502"
+    }
+  ],
+  "tags": [
+    "People"
+  ],
+  "titles": [
+    {
+      "value": "PersonLink Ontology",
+      "lang": "en",
+      "_id": "57aaf2abb00b4b1452a7f505"
+    }
+  ],
+  "uri": "http://cedric.cnam.fr/isid/ontologies/PersonLink.owl",
+  "versions": [
+    {
+      "_id": "57aaf2b0b00b4b1452a7f506",
+      "classNumber": "3",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/plink/versions/2015-02-14.n3",
+      "instanceNumber": "0",
+      "issued": "2015-02-14T00:00:00.000Z",
+      "name": "v1.0",
+      "propertyNumber": "103",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [
+        "http://purl.org/vocab/relationship/",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e02",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ara",
+          "label": "Arabic",
+          "iso639P3PCode": "ara"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

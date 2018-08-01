@@ -1,0 +1,114 @@
+{
+  "__v": 0,
+  "contributorIds": [
+    {
+      "_id": "59a598777845e44d19becdb8",
+      "name": "Gabriel Santos"
+    },
+    {
+      "_id": "59a598817845e44d19becdb9",
+      "name": "Francisco Silva"
+    },
+    {
+      "_id": "59a598927845e44d19becdc1",
+      "name": "Brigida Teixeira"
+    }
+  ],
+  "createdInLOVAt": "2017-08-30T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54ff72862e3e52df4a3cc076",
+      "name": "Maxime Lefrançois"
+    },
+    {
+      "_id": "58415e926002ada739d0265a",
+      "name": "Jarmo Kalaoja"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The SEAS Building ontology describes a taxonomy of buildings, building spaces, and rooms.\n\nSome categorizations are based on the energy efficiency related to their insulation etc., although the actual values for classes depend the country specific regulations and geographical locations.\n\nOther categorizations are based on occupancy and activities. There is no single accepted categorization available. This taxonomy uses some types selected from:\n\n- International building occupancy based categories (USA)\n- The Classification of Types of Constructions (EU)\n- Finnish building categorization VTJ2000 (Finland)\n- Wikipedia category page for Rooms: https://en.wikipedia.org/wiki/Category:Rooms",
+      "lang": "en",
+      "_id": "59a696887845e44d19bf9b3c"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2016-01-26T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-08-30T10:42:36.329Z",
+  "nsp": "https://w3id.org/seas/",
+  "prefix": "seasbo",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "An ontology for building, rooms and types of constructions according to SEAS project",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-08-30T00:00:00.000Z",
+      "_id": "59a696887845e44d19bf9b3b"
+    }
+  ],
+  "tags": [
+    "Society",
+    "Environment"
+  ],
+  "titles": [
+    {
+      "value": "The SEAS Building Ontology",
+      "lang": "en",
+      "_id": "59a696887845e44d19bf9b3d"
+    }
+  ],
+  "uri": "https://w3id.org/seas/BuildingOntology",
+  "versions": [
+    {
+      "_id": "59a6968b7845e44d19bf9b3e",
+      "classNumber": "65",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/seasbo/versions/2016-01-26.n3",
+      "instanceNumber": "0",
+      "issued": "2016-01-26T00:00:00.000Z",
+      "name": "v1.0",
+      "propertyNumber": "0",
+      "relSpecializes": [],
+      "relImports": [
+        "https://w3id.org/seas/SystemOntology"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e10",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fin",
+          "label": "Finnish",
+          "iso639P3PCode": "fin"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

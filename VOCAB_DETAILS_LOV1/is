@@ -1,0 +1,145 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-06-11T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f34",
+      "name": "Bob Ferris"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The Information Service Ontology specification provides basic concepts and properties for describing different information services, e.g. Wikipedia, MusicBrainz, Freebase",
+      "lang": "en",
+      "_id": "55e0591c419d00687563ad6e"
+    }
+  ],
+  "issuedAt": "2010-07-12T00:00:00.000Z",
+  "lastDeref": "2014-06-11T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-08-28T00:00:00.000Z",
+  "nsp": "http://purl.org/ontology/is/core#",
+  "prefix": "is",
+  "reviews": [
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-12T00:00:00.000Z",
+      "_id": "55e0591c419d00687563ad71"
+    },
+    {
+      "body": "Vocabulary available both in RDF/XML and N3 formats. Provides human-readable documentation including change log.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-06-12T00:00:00.000Z",
+      "_id": "55e0591c419d00687563ad70"
+    },
+    {
+      "body": "Annual review - OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-08-28T00:00:00.000Z",
+      "_id": "55e0591c419d00687563ad6f"
+    }
+  ],
+  "tags": [
+    "Services"
+  ],
+  "titles": [
+    {
+      "value": "Info Service Ontology",
+      "lang": "en",
+      "_id": "55e0591c419d00687563ad6d"
+    }
+  ],
+  "uri": "http://purl.org/ontology/is/core#",
+  "versions": [
+    {
+      "name": "v0.7",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/is/versions/2010-07-31.n3",
+      "issued": "2010-07-30T23:00:00.000Z",
+      "classNumber": "4",
+      "propertyNumber": "5",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2003/06/sw-vocab-status/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.6",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/is/versions/2010-07-12.n3",
+      "issued": "2010-07-11T23:00:00.000Z",
+      "classNumber": "4",
+      "propertyNumber": "5",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2003/06/sw-vocab-status/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

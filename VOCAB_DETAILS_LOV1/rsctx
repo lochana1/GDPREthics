@@ -1,0 +1,134 @@
+{
+  "__v": 3,
+  "contributorIds": [
+    {
+      "_id": "58eca6c4abe2639e2c3bf5d9",
+      "name": "leksandra Karpus"
+    },
+    {
+      "_id": "58eca6f9abe2639e2c3bf62a",
+      "name": "Krzysztof Goczyla"
+    }
+  ],
+  "createdInLOVAt": "2017-04-11T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "58eca4e4abe2639e2c3bf423",
+      "name": "Iacopo Vagliano"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "This ontology represent context which may be interesting in providing recommendations to users.",
+      "lang": "en",
+      "_id": "58eca6fcabe2639e2c3bf630"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "isDefinedBy": "http://softeng.polito.it/rsctx/rsctx.rdf",
+  "issuedAt": "2016-05-04T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2018-04-19T13:32:12.868Z",
+  "nsp": "http://softeng.polito.it/rsctx#",
+  "prefix": "rsctx",
+  "publisherIds": [
+    {
+      "_id": "58eca485abe2639e2c3bf3d5",
+      "name": "Polytechnic University of Turin"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "RSCtx extends PRISSMA in order to represent the main contextual information which are relevant when recommending resources to users.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-04-11T00:00:00.000Z",
+      "_id": "58eca6fcabe2639e2c3bf631"
+    }
+  ],
+  "tags": [
+    "Services",
+    "API"
+  ],
+  "titles": [
+    {
+      "value": "Recommender System Context",
+      "lang": "en",
+      "_id": "58eca6fcabe2639e2c3bf62f"
+    }
+  ],
+  "uri": "http://softeng.polito.it/rsctx",
+  "versions": [
+    {
+      "name": "v1.2",
+      "issued": "2017-01-17T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "91",
+      "propertyNumber": "63",
+      "classNumber": "39",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/rsctx/versions/2017-01-17.n3",
+      "_id": "5ad89a5c2e909b214fc2ca0d",
+      "relSpecializes": [
+        "http://ns.inria.fr/emoca",
+        "http://ns.inria.fr/prissma/v2#",
+        "http://purl.org/ontology/ao/core#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2006/time",
+        "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/WeatherOntology.owl#"
+      ],
+      "relImports": [
+        "http://gumo.org/2.0/",
+        "http://ns.inria.fr/",
+        "http://ns.inria.fr/prissma/v2#",
+        "http://rdfs.co/juso/0.1.2",
+        "http://vocab.deri.ie/",
+        "http://www.ontologydesignpatterns.org/ont/dul/",
+        "http://www.w3.org/2006/",
+        "http://www.w3.org/2007/uwa/context/",
+        "http://xmlns.com/foaf/0.1/",
+        "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://ns.inria.fr/prissma/v2#",
+        "http://rdfs.co/juso/",
+        "http://softeng.polito.it/rsctx/",
+        "http://vocab.deri.ie/rooms",
+        "http://www.w3.org/2001/XMLSchema",
+        "https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/WeatherOntology.owl#"
+      ],
+      "relEquivalent": [
+        "http://gumo.org/2.0/#",
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

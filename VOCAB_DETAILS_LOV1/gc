@@ -1,0 +1,100 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-06-09T23:00:00.000Z",
+  "descriptions": [
+    {
+      "value": "The Government Core Ontology establishes a foundation for all oegov ontologies.",
+      "lang": "en",
+      "_id": "55d733fbe4ac2b1c4c5a5251"
+    }
+  ],
+  "lastDeref": "2014-06-05T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-08-21T00:00:00.000Z",
+  "nsp": "http://www.oegov.org/core/owl/gc#",
+  "prefix": "gc",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fde",
+      "name": "TopQuadrant"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-06T00:00:00.000Z",
+      "_id": "55d733fbe4ac2b1c4c5a5254"
+    },
+    {
+      "body": "N3 version http://www.oegov.org/core/owl/gc.n3",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-06-10T00:00:00.000Z",
+      "_id": "55d733fbe4ac2b1c4c5a5253"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-08-21T00:00:00.000Z",
+      "_id": "55d733fbe4ac2b1c4c5a5252"
+    }
+  ],
+  "tags": [
+    "Government"
+  ],
+  "titles": [
+    {
+      "value": "oeGOV Government Core Ontology",
+      "lang": "en",
+      "_id": "55d733fbe4ac2b1c4c5a5250"
+    }
+  ],
+  "uri": "http://www.oegov.org/core/owl/gc",
+  "versions": [
+    {
+      "name": "v2009-08-24",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/gc/versions/2009-08-24.n3",
+      "issued": "2009-08-23T23:00:00.000Z",
+      "classNumber": "17",
+      "propertyNumber": "36",
+      "instanceNumber": "17",
+      "datatypeNumber": "1",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [
+        "http://creativecommons.org/",
+        "http://purl.org/dc/elements/1.1/",
+        "http://spinrdf.org/",
+        "http://www.oegov.org/core/owl/"
+      ],
+      "relGeneralizes": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

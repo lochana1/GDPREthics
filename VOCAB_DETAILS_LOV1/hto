@@ -1,0 +1,131 @@
+{
+  "__v": 5,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-01-22T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "56a233337167907852a78f1a",
+      "name": "Victor Charpenay"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The Haystack Tagging Ontology is an OWL ontology for Project Haystack, a domain vocabulary for Building Automation Systems.",
+      "lang": "en",
+      "_id": "58099f8b3e5586c53d896498"
+    }
+  ],
+  "homepage": "http://project-haystack.org/",
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "isDefinedBy": "https://raw.githubusercontent.com/vcharpenay/hto/master/hto.ttl",
+  "issuedAt": "2015-10-19T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-10-21T00:00:00.000Z",
+  "nsp": "http://vcharpenay.github.io/hto/hto.xml#",
+  "prefix": "hto",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "An ontology for supporting automation from Siemens. Lack of documentation. TODO: Solve content negotiation issue at https://github.com/vcharpenay/hto/issues/1",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-22T00:00:00.000Z",
+      "_id": "58099f8b3e5586c53d89649b"
+    },
+    {
+      "body": "Changed URI to http://vcharpenay.github.io/hto/hto.xml to solve content negotiation issue. Removed homepage link.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-29T00:00:00.000Z",
+      "_id": "58099f8b3e5586c53d89649a"
+    },
+    {
+      "body": "Added a new version v.0.2, changed the namespace and removed the old isDefinedBy property in LOV metadata",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-10-21T00:00:00.000Z",
+      "_id": "58099f8b3e5586c53d896499"
+    }
+  ],
+  "tags": [
+    "Industry"
+  ],
+  "titles": [
+    {
+      "value": "Haystack Tagging Ontology",
+      "lang": "en",
+      "_id": "58099f8b3e5586c53d896497"
+    }
+  ],
+  "uri": "http://vcharpenay.github.io/hto/hto.xml",
+  "versions": [
+    {
+      "name": "v2016-01-29",
+      "issued": "2016-01-29T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "0",
+      "classNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/hto/versions/2016-01-29.n3",
+      "_id": "56ab8e6098f0192c57e8ce6b",
+      "relSpecializes": [],
+      "relImports": [
+        "http://purl.oclc.org/NET/ssnx/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    },
+    {
+      "name": "v0.2",
+      "issued": "2016-10-20T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "0",
+      "classNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/hto/versions/2016-10-20.n3",
+      "_id": "58099ef93e5586c53d896492",
+      "relSpecializes": [],
+      "relImports": [
+        "http://purl.oclc.org/NET/ssnx/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

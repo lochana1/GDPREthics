@@ -1,0 +1,105 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-06-04T23:00:00.000Z",
+  "descriptions": [
+    {
+      "value": "Web Of Trust (wot) RDF vocabulary, described using W3C RDF Schema and the Web Ontology Language.",
+      "lang": "en",
+      "_id": "59dce24f2febc4a21c3169fd"
+    }
+  ],
+  "isDefinedBy": "http://xmlns.com/wot/0.1/index.rdf",
+  "issuedAt": "2004-02-23T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-10-10T00:00:00.000Z",
+  "nsp": "http://xmlns.com/wot/0.1/",
+  "prefix": "wot",
+  "reviews": [
+    {
+      "body": "A precursor of various provenance and security vocabularies, with a focus on encryption and signature. Hosted in the DNS xmlns.com, currently owned by the FOAF Project (Dan Brickley). The RDFS file is linked from the html page, but no content negotiation is set up.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-06-05T00:00:00.000Z",
+      "_id": "59dce24f2febc4a21c316a01"
+    },
+    {
+      "body": "Like a few early RDF vocabularies, this one is explicitly importing RDFS and OWL. This is not considered a good practice anymore.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-07-16T00:00:00.000Z",
+      "_id": "59dce24f2febc4a21c316a00"
+    },
+    {
+      "body": "Annual review done!",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-19T00:00:00.000Z",
+      "_id": "59dce24f2febc4a21c3169ff"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-10-10T00:00:00.000Z",
+      "_id": "59dce24f2febc4a21c3169fe"
+    }
+  ],
+  "tags": [
+    "Quality",
+    "Security"
+  ],
+  "titles": [
+    {
+      "value": "Web Of Trust",
+      "lang": "en",
+      "_id": "59dce24f2febc4a21c3169fc"
+    }
+  ],
+  "uri": "http://xmlns.com/wot/0.1/",
+  "versions": [
+    {
+      "name": "v2004-02-23",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/wot/versions/2004-02-23.n3",
+      "issued": "2004-02-23T00:00:00.000Z",
+      "classNumber": "5",
+      "propertyNumber": "13",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/12/cal/ical",
+        "http://xmlns.com/foaf/0.1/",
+        "http://xmlns.com/wordnet/1.6/"
+      ],
+      "relImports": [
+        "http://www.w3.org/2000/01/",
+        "http://www.w3.org/2002/07/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

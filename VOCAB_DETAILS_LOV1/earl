@@ -1,0 +1,273 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-08-25T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c1002",
+      "name": "W3C Evaluation and Repair Tools Working Group"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "EARL is a vocabulary, the terms of which are defined across a set of specifications and technical notes, and that is used to describe test results. The primary motivation for developing this vocabulary is to facilitate the exchange of test results between Web accessibility evaluation tools in a vendor-neutral and platform-independent format. It also provides reusable terms for generic quality assurance and validation purposes.",
+      "lang": "en",
+      "_id": "568be9814ee7f7176ff12518"
+    }
+  ],
+  "homepage": "http://www.w3.org/TR/EARL10/",
+  "issuedAt": "2001-04-23T00:00:00.000Z",
+  "lastDeref": "2014-10-05T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-01-05T00:00:00.000Z",
+  "nsp": "http://www.w3.org/ns/earl#",
+  "prefix": "earl",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c1003",
+      "name": "W3C"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "This vocabulary seems to be stuck at W3C Working Draft stage since 2011.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-08-26T00:00:00.000Z",
+      "_id": "568be9814ee7f7176ff1251a"
+    },
+    {
+      "body": "Annual review - no change. Still no metadata. Wrong reference to foaf",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2016-01-05T00:00:00.000Z",
+      "_id": "568be9814ee7f7176ff12519"
+    }
+  ],
+  "tags": [
+    "Quality"
+  ],
+  "titles": [
+    {
+      "value": "Evaluation and Report Language",
+      "lang": "en",
+      "_id": "568be9814ee7f7176ff12517"
+    }
+  ],
+  "uri": "http://www.w3.org/ns/earl",
+  "versions": [
+    {
+      "name": "v2009-10-29",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/earl/versions/2009-10-29.n3",
+      "issued": "2009-10-29T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2009-04-28",
+      "issued": "2009-04-27T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": [],
+      "isReviewed": true
+    },
+    {
+      "name": "v2007-03-23",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/earl/versions/2007-03-23.n3",
+      "issued": "2007-03-23T00:00:00.000Z",
+      "classNumber": "13",
+      "propertyNumber": "12",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2006-09-27",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/earl/versions/2006-09-27.n3",
+      "issued": "2006-09-26T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2005-09-09",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/earl/versions/2005-09-09.n3",
+      "issued": "2005-09-08T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v0.95",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/earl/versions/2001-05-26.n3",
+      "issued": "2001-05-25T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": [],
+      "isReviewed": true
+    },
+    {
+      "name": "v0.9",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/earl/versions/2001-04-23.n3",
+      "issued": "2001-04-22T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2011-05-10",
+      "issued": "2011-05-10T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "10",
+      "propertyNumber": "9",
+      "classNumber": "15",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/earl/versions/2011-05-10.n3",
+      "_id": "568be90e4ee7f7176ff12513",
+      "relSpecializes": [
+        "http://usefulinc.com/ns/doap#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/spec/#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2009/pointers#",
+        "http://www.w3.org/ns/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

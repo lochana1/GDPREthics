@@ -1,0 +1,148 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-03-07T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0ef5",
+      "name": "François Scharffe"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f4f",
+      "name": "Félix Averlant"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Ontologie d'une organisation publique, plus particulièrement d'un tribunal, d'une organisation internationale ou d'un pays.",
+      "lang": "fr",
+      "_id": "57ad8fd9b00b4b1452a88d22"
+    },
+    {
+      "value": "Ontology for public services and organizations",
+      "lang": "en",
+      "_id": "57ad8fd9b00b4b1452a88d21"
+    }
+  ],
+  "issuedAt": "2011-09-17T00:00:00.000Z",
+  "lastDeref": "2014-03-14T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-08-12T00:00:00.000Z",
+  "nsp": "http://data.lirmm.fr/ontologies/osp#",
+  "prefix": "osp",
+  "reviews": [
+    {
+      "body": "Changed URI and namespace to avoid prefix conflict (sp > osp)",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-03-07T00:00:00.000Z",
+      "_id": "57ad8fd9b00b4b1452a88d26"
+    },
+    {
+      "body": "This vocabulary looks like a good draft, deserving improvement of labels and descriptions, and better linking to related vocabularies.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-03-14T00:00:00.000Z",
+      "_id": "57ad8fd9b00b4b1452a88d25"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-03-23T00:00:00.000Z",
+      "_id": "57ad8fd9b00b4b1452a88d24"
+    },
+    {
+      "body": "Unavailable at the time of review. We have contacted the creators",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-08-12T00:00:00.000Z",
+      "_id": "57ad8fd9b00b4b1452a88d23"
+    }
+  ],
+  "tags": [
+    "Society"
+  ],
+  "titles": [
+    {
+      "value": "Ontologie du Service Public",
+      "lang": "fr",
+      "_id": "57ad8fd9b00b4b1452a88d20"
+    },
+    {
+      "value": "French Public Services Ontology",
+      "lang": "en",
+      "_id": "57ad8fd9b00b4b1452a88d1f"
+    }
+  ],
+  "uri": "http://data.lirmm.fr/ontologies/osp",
+  "versions": [
+    {
+      "name": "v2013-03-07",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/osp/versions/2013-03-07.n3",
+      "issued": "2013-03-07T00:00:00.000Z",
+      "classNumber": "16",
+      "propertyNumber": "33",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/ns/adms#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    },
+    {
+      "name": "v2012-02-13",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/osp/versions/2012-02-13.n3",
+      "issued": "2012-02-13T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

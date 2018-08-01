@@ -1,0 +1,1693 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-06-03T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e57",
+      "name": "Libby Miller"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0e78",
+      "name": "Dan Brickley"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/bibliographica-org-bnb-export.131.nq",
+      "label": "bibliographica-org-bnb-export.131.nq",
+      "occurrences": "7564093"
+    },
+    {
+      "uri": "http://datahub.io/dataset/bibliographica-org-bnb-export.133.nq",
+      "label": "bibliographica-org-bnb-export.133.nq",
+      "occurrences": "7334650"
+    },
+    {
+      "uri": "http://datahub.io/dataset/bibliographica-org-bnb-export.100.nq",
+      "label": "bibliographica-org-bnb-export.100.nq",
+      "occurrences": "5858792"
+    },
+    {
+      "uri": "http://datahub.io/dataset/b3kat.249.rdf",
+      "label": "b3kat.249.rdf",
+      "occurrences": "5044301"
+    },
+    {
+      "uri": "http://datahub.io/dataset/b3kat.241.rdf",
+      "label": "b3kat.241.rdf",
+      "occurrences": "4814525"
+    },
+    {
+      "uri": "http://datahub.io/dataset/radatana.nt",
+      "label": "radatana.nt",
+      "occurrences": "2882065"
+    },
+    {
+      "uri": "http://datahub.io/dataset/sweto-dblp.rdf",
+      "label": "sweto-dblp.rdf",
+      "occurrences": "1251283"
+    },
+    {
+      "uri": "http://datahub.io/dataset/yovisto.ttl",
+      "label": "yovisto.ttl",
+      "occurrences": "1023605"
+    },
+    {
+      "uri": "http://datahub.io/dataset/ookaboo-rdf-dump.79.nt",
+      "label": "ookaboo-rdf-dump.79.nt",
+      "occurrences": "937482"
+    },
+    {
+      "uri": "http://datahub.io/dataset/ookaboo-rdf-dump.81.nt",
+      "label": "ookaboo-rdf-dump.81.nt",
+      "occurrences": "937481"
+    },
+    {
+      "uri": "http://datahub.io/dataset/ookaboo-rdf-dump.82.nt",
+      "label": "ookaboo-rdf-dump.82.nt",
+      "occurrences": "937479"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-eprints.ttl",
+      "label": "southampton-ac-uk-eprints.ttl",
+      "occurrences": "920888"
+    },
+    {
+      "uri": "http://datahub.io/dataset/europeana-lod.22.nt",
+      "label": "europeana-lod.22.nt",
+      "occurrences": "498375"
+    },
+    {
+      "uri": "http://datahub.io/dataset/europeana-lod.18.nt",
+      "label": "europeana-lod.18.nt",
+      "occurrences": "291678"
+    },
+    {
+      "uri": "http://datahub.io/dataset/sec-rdfabout.ttl",
+      "label": "sec-rdfabout.ttl",
+      "occurrences": "262104"
+    },
+    {
+      "uri": "http://datahub.io/dataset/dnb-gemeinsame-normdatei.",
+      "label": "dnb-gemeinsame-normdatei.",
+      "occurrences": "253379"
+    },
+    {
+      "uri": "http://datahub.io/dataset/geospecies.8.rdf",
+      "label": "geospecies.8.rdf",
+      "occurrences": "249934"
+    },
+    {
+      "uri": "http://datahub.io/dataset/europeana-lod.8.nt",
+      "label": "europeana-lod.8.nt",
+      "occurrences": "223215"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-eprints-ecs.ttl",
+      "label": "southampton-ac-uk-eprints-ecs.ttl",
+      "occurrences": "145813"
+    },
+    {
+      "uri": "http://datahub.io/dataset/educationalprograms",
+      "label": "educationalprograms",
+      "occurrences": "117412"
+    },
+    {
+      "uri": "http://datahub.io/dataset/world-bank-linked-data.4.rdf",
+      "label": "world-bank-linked-data.4.rdf",
+      "occurrences": "107301"
+    },
+    {
+      "uri": "http://datahub.io/dataset/hellenic-fire-brigade.24.nt",
+      "label": "hellenic-fire-brigade.24.nt",
+      "occurrences": "103483"
+    },
+    {
+      "uri": "http://datahub.io/dataset/hellenic-fire-brigade.rdf",
+      "label": "hellenic-fire-brigade.rdf",
+      "occurrences": "103483"
+    },
+    {
+      "uri": "http://datahub.io/dataset/europeana-lod.3.nt",
+      "label": "europeana-lod.3.nt",
+      "occurrences": "76077"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-webconf.2.rdf",
+      "label": "rkb-explorer-webconf.2.rdf",
+      "occurrences": "64383"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eprtr.97.",
+      "label": "eprtr.97.",
+      "occurrences": "48564"
+    },
+    {
+      "uri": "http://datahub.io/dataset/euscreen.64.nt",
+      "label": "euscreen.64.nt",
+      "occurrences": "41627"
+    },
+    {
+      "uri": "http://datahub.io/dataset/europeana-lod.2.nt",
+      "label": "europeana-lod.2.nt",
+      "occurrences": "40523"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-phonebook.rdf",
+      "label": "southampton-ac-uk-phonebook.rdf",
+      "occurrences": "26370"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-phonebook.ttl",
+      "label": "southampton-ac-uk-phonebook.ttl",
+      "occurrences": "26370"
+    },
+    {
+      "uri": "http://datahub.io/dataset/sandrart-net.0.rdf",
+      "label": "sandrart-net.0.rdf",
+      "occurrences": "25288"
+    },
+    {
+      "uri": "http://datahub.io/dataset/europeana-lod.1.nt",
+      "label": "europeana-lod.1.nt",
+      "occurrences": "21190"
+    },
+    {
+      "uri": "http://datahub.io/dataset/dbtune-john-peel-sessions.rdf",
+      "label": "dbtune-john-peel-sessions.rdf",
+      "occurrences": "18948"
+    },
+    {
+      "uri": "http://datahub.io/dataset/hedatuz.16.rdf",
+      "label": "hedatuz.16.rdf",
+      "occurrences": "9022"
+    },
+    {
+      "uri": "http://datahub.io/dataset/productontology.0.rdf",
+      "label": "productontology.0.rdf",
+      "occurrences": "8004"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-edshare.ttl",
+      "label": "southampton-ac-uk-edshare.ttl",
+      "occurrences": "7315"
+    },
+    {
+      "uri": "http://datahub.io/dataset/semanticweb-org.7.rdf",
+      "label": "semanticweb-org.7.rdf",
+      "occurrences": "6016"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eunis.rdf",
+      "label": "eunis.rdf",
+      "occurrences": "5559"
+    },
+    {
+      "uri": "http://datahub.io/dataset/nytimes-linked-open-data.14.rdf",
+      "label": "nytimes-linked-open-data.14.rdf",
+      "occurrences": "4979"
+    },
+    {
+      "uri": "http://datahub.io/dataset/dcs-sheffield.0.rdf",
+      "label": "dcs-sheffield.0.rdf",
+      "occurrences": "4710"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-pressinfo.rdf",
+      "label": "southampton-ac-uk-pressinfo.rdf",
+      "occurrences": "3815"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-pressinfo.ttl",
+      "label": "southampton-ac-uk-pressinfo.ttl",
+      "occurrences": "3815"
+    },
+    {
+      "uri": "http://datahub.io/dataset/glastonbury-2011.1.rdf",
+      "label": "glastonbury-2011.1.rdf",
+      "occurrences": "3517"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-jisc.0.rdf",
+      "label": "rkb-explorer-jisc.0.rdf",
+      "occurrences": "3487"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-jisc.rdf",
+      "label": "rkb-explorer-jisc.rdf",
+      "occurrences": "3487"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-photos.rdf",
+      "label": "southampton-ac-uk-photos.rdf",
+      "occurrences": "3378"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-photos.ttl",
+      "label": "southampton-ac-uk-photos.ttl",
+      "occurrences": "3378"
+    },
+    {
+      "uri": "http://datahub.io/dataset/totl-xkcd.1.",
+      "label": "totl-xkcd.1.",
+      "occurrences": "3204"
+    },
+    {
+      "uri": "http://datahub.io/dataset/temple-ov-thee-lemur-datasets.0.rdf",
+      "label": "temple-ov-thee-lemur-datasets.0.rdf",
+      "occurrences": "3112"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-bus-stops.rdf",
+      "label": "southampton-ac-uk-bus-stops.rdf",
+      "occurrences": "3073"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-bus-stops.ttl",
+      "label": "southampton-ac-uk-bus-stops.ttl",
+      "occurrences": "3073"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-digitaleconomy.0.rdf",
+      "label": "rkb-explorer-digitaleconomy.0.rdf",
+      "occurrences": "2532"
+    },
+    {
+      "uri": "http://datahub.io/dataset/cablegate.5.rdf",
+      "label": "cablegate.5.rdf",
+      "occurrences": "2091"
+    },
+    {
+      "uri": "http://datahub.io/dataset/public-record-office-victoria-semantic-wiki.0.rdf",
+      "label": "public-record-office-victoria-semantic-wiki.0.rdf",
+      "occurrences": "2033"
+    },
+    {
+      "uri": "http://datahub.io/dataset/patents-data-gov-uk.1.nt",
+      "label": "patents-data-gov-uk.1.nt",
+      "occurrences": "1797"
+    },
+    {
+      "uri": "http://datahub.io/dataset/dcs-sheffield.rdf",
+      "label": "dcs-sheffield.rdf",
+      "occurrences": "1608"
+    },
+    {
+      "uri": "http://datahub.io/dataset/prefix-cc.rdf",
+      "label": "prefix-cc.rdf",
+      "occurrences": "1186"
+    },
+    {
+      "uri": "http://datahub.io/dataset/ontos-news-portal.rdf",
+      "label": "ontos-news-portal.rdf",
+      "occurrences": "1162"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aksworg.rdf",
+      "label": "aksworg.rdf",
+      "occurrences": "1086"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aksworg.ttl",
+      "label": "aksworg.ttl",
+      "occurrences": "1086"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-civil-servants.ttl",
+      "label": "instance-hub-us-civil-servants.ttl",
+      "occurrences": "1081"
+    },
+    {
+      "uri": "http://datahub.io/dataset/movies-argentina.0.rdf",
+      "label": "movies-argentina.0.rdf",
+      "occurrences": "1055"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-edshare-video.ttl",
+      "label": "southampton-ac-uk-edshare-video.ttl",
+      "occurrences": "932"
+    },
+    {
+      "uri": "http://datahub.io/dataset/europeana-lod.0.nt",
+      "label": "europeana-lod.0.nt",
+      "occurrences": "915"
+    },
+    {
+      "uri": "http://datahub.io/dataset/zaragoza-turismo.rdf",
+      "label": "zaragoza-turismo.rdf",
+      "occurrences": "602"
+    },
+    {
+      "uri": "http://datahub.io/dataset/asn-us.15.rdf",
+      "label": "asn-us.15.rdf",
+      "occurrences": "577"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eagle-i-harvard.ttl",
+      "label": "eagle-i-harvard.ttl",
+      "occurrences": "573"
+    },
+    {
+      "uri": "http://datahub.io/dataset/lexvo.rdf",
+      "label": "lexvo.rdf",
+      "occurrences": "436"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-webscience.0.rdf",
+      "label": "rkb-explorer-webscience.0.rdf",
+      "occurrences": "423"
+    },
+    {
+      "uri": "http://datahub.io/dataset/business-data-gov-uk.nt",
+      "label": "business-data-gov-uk.nt",
+      "occurrences": "373"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-people.ttl",
+      "label": "instance-hub-people.ttl",
+      "occurrences": "371"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-federal-agencies.ttl",
+      "label": "instance-hub-us-federal-agencies.ttl",
+      "occurrences": "371"
+    },
+    {
+      "uri": "http://datahub.io/dataset/finnish-municipalities.0.ttl",
+      "label": "finnish-municipalities.0.ttl",
+      "occurrences": "336"
+    },
+    {
+      "uri": "http://datahub.io/dataset/linked-edgar.rdf",
+      "label": "linked-edgar.rdf",
+      "occurrences": "334"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-cls-extras.rdf",
+      "label": "southampton-ac-uk-cls-extras.rdf",
+      "occurrences": "272"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-cls-extras.ttl",
+      "label": "southampton-ac-uk-cls-extras.ttl",
+      "occurrences": "272"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eagle-i-ohsu.ttl",
+      "label": "eagle-i-ohsu.ttl",
+      "occurrences": "252"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eagle-i-dartmouth.ttl",
+      "label": "eagle-i-dartmouth.ttl",
+      "occurrences": "225"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-countries.ttl",
+      "label": "instance-hub-countries.ttl",
+      "occurrences": "202"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eagle-i-vanderbilt.ttl",
+      "label": "eagle-i-vanderbilt.ttl",
+      "occurrences": "182"
+    },
+    {
+      "uri": "http://datahub.io/dataset/lod2",
+      "label": "LOD2 Project Website Data",
+      "occurrences": "165"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eagle-i-upr.ttl",
+      "label": "eagle-i-upr.ttl",
+      "occurrences": "147"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eagle-i-hawaii.ttl",
+      "label": "eagle-i-hawaii.ttl",
+      "occurrences": "146"
+    },
+    {
+      "uri": "http://datahub.io/dataset/idreffr.rdf",
+      "label": "idreffr.rdf",
+      "occurrences": "128"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-organizations.0.ttl",
+      "label": "instance-hub-organizations.0.ttl",
+      "occurrences": "111"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eu-institutions.0.ttl",
+      "label": "eu-institutions.0.ttl",
+      "occurrences": "104"
+    },
+    {
+      "uri": "http://datahub.io/dataset/hellenic-police.nt",
+      "label": "hellenic-police.nt",
+      "occurrences": "103"
+    },
+    {
+      "uri": "http://datahub.io/dataset/dbtune-artists-last-fm.rdf",
+      "label": "dbtune-artists-last-fm.rdf",
+      "occurrences": "101"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-toxic-chemicals.0.ttl",
+      "label": "instance-hub-us-toxic-chemicals.0.ttl",
+      "occurrences": "101"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eagle-i-ccny-cuny.ttl",
+      "label": "eagle-i-ccny-cuny.ttl",
+      "occurrences": "88"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eagle-i-montana.2.ttl",
+      "label": "eagle-i-montana.2.ttl",
+      "occurrences": "81"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-apps.rdf",
+      "label": "southampton-ac-uk-apps.rdf",
+      "occurrences": "79"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-apps.ttl",
+      "label": "southampton-ac-uk-apps.ttl",
+      "occurrences": "79"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-bus-routes.rdf",
+      "label": "southampton-ac-uk-bus-routes.rdf",
+      "occurrences": "77"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-bus-routes.ttl",
+      "label": "southampton-ac-uk-bus-routes.ttl",
+      "occurrences": "77"
+    },
+    {
+      "uri": "http://datahub.io/dataset/w3c-provenance-incubator-group-vocabulary-mappings.0.ttl",
+      "label": "w3c-provenance-incubator-group-vocabulary-mappings.0.ttl",
+      "occurrences": "73"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-org.rdf",
+      "label": "southampton-ac-uk-org.rdf",
+      "occurrences": "72"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-org.ttl",
+      "label": "southampton-ac-uk-org.ttl",
+      "occurrences": "72"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-services.rdf",
+      "label": "southampton-ac-uk-services.rdf",
+      "occurrences": "63"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-services.ttl",
+      "label": "southampton-ac-uk-services.ttl",
+      "occurrences": "63"
+    },
+    {
+      "uri": "http://datahub.io/dataset/lcsh.62.rdf",
+      "label": "lcsh.62.rdf",
+      "occurrences": "60"
+    },
+    {
+      "uri": "http://datahub.io/dataset/lcsh.nt",
+      "label": "lcsh.nt",
+      "occurrences": "60"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-places.rdf",
+      "label": "southampton-ac-uk-places.rdf",
+      "occurrences": "58"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-places.ttl",
+      "label": "southampton-ac-uk-places.ttl",
+      "occurrences": "58"
+    },
+    {
+      "uri": "http://datahub.io/dataset/data-bnf-fr.rdf",
+      "label": "data-bnf-fr.rdf",
+      "occurrences": "56"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-states-and-territories.ttl",
+      "label": "instance-hub-us-states-and-territories.ttl",
+      "occurrences": "56"
+    },
+    {
+      "uri": "http://datahub.io/dataset/krystian-pietruszka.",
+      "label": "krystian-pietruszka.",
+      "occurrences": "53"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eagle-i-alaska.1.ttl",
+      "label": "eagle-i-alaska.1.ttl",
+      "occurrences": "52"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-jargon.rdf",
+      "label": "southampton-ac-uk-jargon.rdf",
+      "occurrences": "47"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eagle-i-msm.0.ttl",
+      "label": "eagle-i-msm.0.ttl",
+      "occurrences": "43"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eagle-i-utsa.ttl",
+      "label": "eagle-i-utsa.ttl",
+      "occurrences": "41"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eagle-i-jsu.1.ttl",
+      "label": "eagle-i-jsu.1.ttl",
+      "occurrences": "36"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eagle-i-cdrewu.0.ttl",
+      "label": "eagle-i-cdrewu.0.ttl",
+      "occurrences": "30"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eagle-i-xula.ttl",
+      "label": "eagle-i-xula.ttl",
+      "occurrences": "29"
+    },
+    {
+      "uri": "http://datahub.io/dataset/npg-contributors.rdf",
+      "label": "npg-contributors.rdf",
+      "occurrences": "25"
+    },
+    {
+      "uri": "http://datahub.io/dataset/biographical-directory-of-the-united-states-congress.0.ttl",
+      "label": "biographical-directory-of-the-united-states-congress.0.ttl",
+      "occurrences": "24"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-congressional-committees.0.ttl",
+      "label": "instance-hub-us-congressional-committees.0.ttl",
+      "occurrences": "24"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eagle-i-utep.0.ttl",
+      "label": "eagle-i-utep.0.ttl",
+      "occurrences": "22"
+    },
+    {
+      "uri": "http://datahub.io/dataset/msc.5.rdf",
+      "label": "msc.5.rdf",
+      "occurrences": "21"
+    },
+    {
+      "uri": "http://datahub.io/dataset/geospecies.0.rdf",
+      "label": "geospecies.0.rdf",
+      "occurrences": "19"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eagle-i-howard.0.ttl",
+      "label": "eagle-i-howard.0.ttl",
+      "occurrences": "18"
+    },
+    {
+      "uri": "http://datahub.io/dataset/debian-package-tracking-system.0.",
+      "label": "debian-package-tracking-system.0.",
+      "occurrences": "17"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eagle-i-famu.0.ttl",
+      "label": "eagle-i-famu.0.ttl",
+      "occurrences": "17"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-congressional-districts.0.ttl",
+      "label": "instance-hub-us-congressional-districts.0.ttl",
+      "occurrences": "17"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rdfize-lastfm.ttl",
+      "label": "rdfize-lastfm.ttl",
+      "occurrences": "17"
+    },
+    {
+      "uri": "http://datahub.io/dataset/openlylocal.rdf",
+      "label": "openlylocal.rdf",
+      "occurrences": "16"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-webconf.rdf",
+      "label": "rkb-explorer-webconf.rdf",
+      "occurrences": "16"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-profile.rdf",
+      "label": "southampton-ac-uk-profile.rdf",
+      "occurrences": "16"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-profile.ttl",
+      "label": "southampton-ac-uk-profile.ttl",
+      "occurrences": "16"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eagle-i-meharry.ttl",
+      "label": "eagle-i-meharry.ttl",
+      "occurrences": "14"
+    },
+    {
+      "uri": "http://datahub.io/dataset/farmers-markets-geographic-data-united-states.ttl",
+      "label": "farmers-markets-geographic-data-united-states.ttl",
+      "occurrences": "14"
+    },
+    {
+      "uri": "http://datahub.io/dataset/open-data-euskadi.0.rdf",
+      "label": "open-data-euskadi.0.rdf",
+      "occurrences": "14"
+    },
+    {
+      "uri": "http://datahub.io/dataset/open-data-euskadi.rdf",
+      "label": "open-data-euskadi.rdf",
+      "occurrences": "14"
+    },
+    {
+      "uri": "http://datahub.io/dataset/statistics-data-gov-uk.1.nt",
+      "label": "statistics-data-gov-uk.1.nt",
+      "occurrences": "14"
+    },
+    {
+      "uri": "http://datahub.io/dataset/uk-legislation-api.0.rdf",
+      "label": "uk-legislation-api.0.rdf",
+      "occurrences": "14"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eagle-i-uccaribe.0.ttl",
+      "label": "eagle-i-uccaribe.0.ttl",
+      "occurrences": "13"
+    },
+    {
+      "uri": "http://datahub.io/dataset/farmers-markets-geographic-data-united-states.0.ttl",
+      "label": "farmers-markets-geographic-data-united-states.0.ttl",
+      "occurrences": "13"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eagle-i-tsu.0.ttl",
+      "label": "eagle-i-tsu.0.ttl",
+      "occurrences": "12"
+    },
+    {
+      "uri": "http://datahub.io/dataset/open-election-data-project.rdf",
+      "label": "open-election-data-project.rdf",
+      "occurrences": "11"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-crops.0.ttl",
+      "label": "instance-hub-us-crops.0.ttl",
+      "occurrences": "10"
+    },
+    {
+      "uri": "http://datahub.io/dataset/linked-crunchbase.rdf",
+      "label": "linked-crunchbase.rdf",
+      "occurrences": "10"
+    },
+    {
+      "uri": "http://datahub.io/dataset/opencorporates.rdf",
+      "label": "opencorporates.rdf",
+      "occurrences": "10"
+    },
+    {
+      "uri": "http://datahub.io/dataset/agris.0.rdf",
+      "label": "agris.0.rdf",
+      "occurrences": "9"
+    },
+    {
+      "uri": "http://datahub.io/dataset/brazilian-politicians.rdf",
+      "label": "brazilian-politicians.rdf",
+      "occurrences": "9"
+    },
+    {
+      "uri": "http://datahub.io/dataset/data-gov-uk-time-intervals.rdf",
+      "label": "data-gov-uk-time-intervals.rdf",
+      "occurrences": "9"
+    },
+    {
+      "uri": "http://datahub.io/dataset/national-diet-library-authorities.0.rdf",
+      "label": "national-diet-library-authorities.0.rdf",
+      "occurrences": "9"
+    },
+    {
+      "uri": "http://datahub.io/dataset/national-diet-library-subject-headings.rdf",
+      "label": "national-diet-library-subject-headings.rdf",
+      "occurrences": "9"
+    },
+    {
+      "uri": "http://datahub.io/dataset/dbpedia-fr.rdf",
+      "label": "dbpedia-fr.rdf",
+      "occurrences": "8"
+    },
+    {
+      "uri": "http://datahub.io/dataset/morelab.rdf",
+      "label": "morelab.rdf",
+      "occurrences": "8"
+    },
+    {
+      "uri": "http://datahub.io/dataset/dbpedia-el.0.rdf",
+      "label": "dbpedia-el.0.rdf",
+      "occurrences": "7"
+    },
+    {
+      "uri": "http://datahub.io/dataset/dbpedia-el.0.ttl",
+      "label": "dbpedia-el.0.ttl",
+      "occurrences": "7"
+    },
+    {
+      "uri": "http://datahub.io/dataset/hellenic-police.0.rdf",
+      "label": "hellenic-police.0.rdf",
+      "occurrences": "7"
+    },
+    {
+      "uri": "http://datahub.io/dataset/psh-subject-headings.0.rdf",
+      "label": "psh-subject-headings.0.rdf",
+      "occurrences": "7"
+    },
+    {
+      "uri": "http://datahub.io/dataset/sudocfr.rdf",
+      "label": "sudocfr.rdf",
+      "occurrences": "7"
+    },
+    {
+      "uri": "http://datahub.io/dataset/transparency-linked-data.0.nt",
+      "label": "transparency-linked-data.0.nt",
+      "occurrences": "7"
+    },
+    {
+      "uri": "http://datahub.io/dataset/transparency-linked-data.rdf",
+      "label": "transparency-linked-data.rdf",
+      "occurrences": "7"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-bolton.rdf",
+      "label": "aspire-bolton.rdf",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-bournemouth.rdf",
+      "label": "aspire-bournemouth.rdf",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-brunel.rdf",
+      "label": "aspire-brunel.rdf",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-derby.rdf",
+      "label": "aspire-derby.rdf",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-harper-adams.rdf",
+      "label": "aspire-harper-adams.rdf",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-hope.rdf",
+      "label": "aspire-hope.rdf",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-keele.rdf",
+      "label": "aspire-keele.rdf",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-manchester.rdf",
+      "label": "aspire-manchester.rdf",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-mmu.rdf",
+      "label": "aspire-mmu.rdf",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-ntu.rdf",
+      "label": "aspire-ntu.rdf",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-plymouth.rdf",
+      "label": "aspire-plymouth.rdf",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-portsmouth.rdf",
+      "label": "aspire-portsmouth.rdf",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-qmul.rdf",
+      "label": "aspire-qmul.rdf",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-roehampton.rdf",
+      "label": "aspire-roehampton.rdf",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-st-andrews.rdf",
+      "label": "aspire-st-andrews.rdf",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-sussex.rdf",
+      "label": "aspire-sussex.rdf",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-ucl.rdf",
+      "label": "aspire-ucl.rdf",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aspire-uclan.rdf",
+      "label": "aspire-uclan.rdf",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/bfs-linked-data.rdf",
+      "label": "bfs-linked-data.rdf",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eagle-i-ccny-cuny.0.ttl",
+      "label": "eagle-i-ccny-cuny.0.ttl",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eagle-i-psm.0.ttl",
+      "label": "eagle-i-psm.0.ttl",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/ecb-linked-data.rdf",
+      "label": "ecb-linked-data.rdf",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/event-media.0.",
+      "label": "event-media.0.",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/fao-linked-data.rdf",
+      "label": "fao-linked-data.rdf",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/kdata.ttl",
+      "label": "kdata.ttl",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/oecd-linked-data.rdf",
+      "label": "oecd-linked-data.rdf",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rdfohloh.rdf",
+      "label": "rdfohloh.rdf",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/swedish-open-cultural-heritage.0.rdf",
+      "label": "swedish-open-cultural-heritage.0.rdf",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/linked-edgar.0.rdf",
+      "label": "linked-edgar.0.rdf",
+      "occurrences": "5"
+    },
+    {
+      "uri": "http://datahub.io/dataset/linked-open-data-of-ecology.rdf",
+      "label": "linked-open-data-of-ecology.rdf",
+      "occurrences": "5"
+    },
+    {
+      "uri": "http://datahub.io/dataset/bioimages.rdf",
+      "label": "bioimages.rdf",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/dbpedia-eu.0.rdf",
+      "label": "dbpedia-eu.0.rdf",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/dbpedia-lite.rdf",
+      "label": "dbpedia-lite.rdf",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/dbpedia-nl.rdf",
+      "label": "dbpedia-nl.rdf",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/dbpedia-nl.ttl",
+      "label": "dbpedia-nl.ttl",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eagle-i-cau.0.ttl",
+      "label": "eagle-i-cau.0.ttl",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eagle-i-hunter-cuny.0.ttl",
+      "label": "eagle-i-hunter-cuny.0.ttl",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/isidore.rdf",
+      "label": "isidore.rdf",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/jisc-cetis-directory.rdf",
+      "label": "jisc-cetis-directory.rdf",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/lak-dataset.rdf",
+      "label": "lak-dataset.rdf",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/libver.rdf",
+      "label": "libver.rdf",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/sparql-endpoint-status.rdf",
+      "label": "sparql-endpoint-status.rdf",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/taxonconcept.0.rdf",
+      "label": "taxonconcept.0.rdf",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/vivo-cu-boulder.0.",
+      "label": "vivo-cu-boulder.0.",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/agrovoc-skos.0.rdf",
+      "label": "agrovoc-skos.0.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/bbc-music.0.rdf",
+      "label": "bbc-music.0.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/facebook-lids.0.rdf",
+      "label": "facebook-lids.0.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/fu-berlin-eurostat.rdf",
+      "label": "fu-berlin-eurostat.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/loc.rdf",
+      "label": "loc.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/open-energy-info-wiki.0.rdf",
+      "label": "open-energy-info-wiki.0.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rdf-book-mashup.rdf",
+      "label": "rdf-book-mashup.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/worldcat.",
+      "label": "worldcat.",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/worldcat.nt",
+      "label": "worldcat.nt",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/b3kat.0.ttl",
+      "label": "b3kat.0.ttl",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/datos-bne-es.117.nt",
+      "label": "datos-bne-es.117.nt",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eagle-i-hunter-cuny.0.rdf",
+      "label": "eagle-i-hunter-cuny.0.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eagle-i-meharry.0.rdf",
+      "label": "eagle-i-meharry.0.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eagle-i-utsa.0.rdf",
+      "label": "eagle-i-utsa.0.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/education-openuplabs.rdf",
+      "label": "education-openuplabs.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/glottolog.rdf",
+      "label": "glottolog.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/iso-3166-2-data.0.rdf",
+      "label": "iso-3166-2-data.0.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/iso-3166-2-data.rdf",
+      "label": "iso-3166-2-data.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/istat-immigration.639.rdf",
+      "label": "istat-immigration.639.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/legislation-openuplabs.0.rdf",
+      "label": "legislation-openuplabs.0.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/linked-user-feedback.0.rdf",
+      "label": "linked-user-feedback.0.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/linkedmarkmail.rdf",
+      "label": "linkedmarkmail.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/lobi.ttl",
+      "label": "lobi.ttl",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/radatana.0.rdf",
+      "label": "radatana.0.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/sztaki-lod.rdf",
+      "label": "sztaki-lod.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/transport-openuplabs.rdf",
+      "label": "transport-openuplabs.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/vivo-cu-boulder.",
+      "label": "vivo-cu-boulder.",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/asn-us.0.rdf",
+      "label": "asn-us.0.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/asn-us.0.ttl",
+      "label": "asn-us.0.ttl",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/bible-ontology.rdf",
+      "label": "bible-ontology.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/bioportal-sio.rdf",
+      "label": "bioportal-sio.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/clean-energy-data-reegle.rdf",
+      "label": "clean-energy-data-reegle.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/cpa-2008.rdf",
+      "label": "cpa-2008.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/cpc-2008.rdf",
+      "label": "cpc-2008.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/cpv-2003.rdf",
+      "label": "cpv-2003.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/cpv-2008.rdf",
+      "label": "cpv-2008.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/ctic-public-dataset.rdf",
+      "label": "ctic-public-dataset.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/euscreen.0.rdf",
+      "label": "euscreen.0.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/hedatuz.0.rdf",
+      "label": "hedatuz.0.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/icane.rdf",
+      "label": "icane.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/isic-v4.rdf",
+      "label": "isic-v4.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/naics-2012.rdf",
+      "label": "naics-2012.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/npg-terms.0.rdf",
+      "label": "npg-terms.0.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/organic-edunet.0.rdf",
+      "label": "organic-edunet.0.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/pscs-catalogue.rdf",
+      "label": "pscs-catalogue.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/sitc-v4.rdf",
+      "label": "sitc-v4.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/temple-ov-thee-lemur-datasets.rdf",
+      "label": "temple-ov-thee-lemur-datasets.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/yovisto.rdf",
+      "label": "yovisto.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/zhishi-me.rdf",
+      "label": "zhishi-me.rdf",
+      "occurrences": "1"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "FOAF is a project devoted to linking people and information using the Web. Regardless of whether information is in people's heads, in physical or digital documents, or in the form of factual data, it can be linked.",
+      "lang": "en",
+      "_id": "56719dba4ee7f7176fe64beb"
+    }
+  ],
+  "homepage": "http://www.foaf-project.org/",
+  "lastDeref": "2014-12-16T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-12-16T00:00:00.000Z",
+  "nsp": "http://xmlns.com/foaf/0.1/",
+  "prefix": "foaf",
+  "publisherIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e78",
+      "name": "Dan Brickley"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "From the specification : \"FOAF has been evolving gradually since its creation in mid-2000. There is now a stable core of classes and properties that will not be changed, beyond modest adjustments to their documentation to track implementation feedback and emerging best practices.\"",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-06-04T00:00:00.000Z",
+      "_id": "56719dba4ee7f7176fe64bef"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-12-16T00:00:00.000Z",
+      "_id": "56719dba4ee7f7176fe64bee"
+    },
+    {
+      "body": "Looking forward for v1.0 :)",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-01-15T00:00:00.000Z",
+      "_id": "56719dba4ee7f7176fe64bed"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-12-16T00:00:00.000Z",
+      "_id": "56719dba4ee7f7176fe64bec"
+    }
+  ],
+  "tags": [
+    "People"
+  ],
+  "titles": [
+    {
+      "value": "Friend of a Friend vocabulary",
+      "lang": "en",
+      "_id": "56719dba4ee7f7176fe64bea"
+    }
+  ],
+  "uri": "http://xmlns.com/foaf/0.1/",
+  "versions": [
+    {
+      "name": "v0.99",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/foaf/versions/2014-01-14.n3",
+      "issued": "2014-01-14T00:00:00.000Z",
+      "classNumber": "13",
+      "propertyNumber": "62",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/01/geo/wgs84_pos"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/01/geo/wgs84_pos",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "relEquivalent": [
+        "http://purl.org/dc/terms/",
+        "http://schema.org/",
+        "http://www.w3.org/2000/10/swap/pim/contact"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.98",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/foaf/versions/2010-08-09.n3",
+      "issued": "2010-08-08T23:00:00.000Z",
+      "classNumber": "13",
+      "propertyNumber": "62",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2000/10/swap/pim/contact",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/01/geo/wgs84_pos"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/01/geo/wgs84_pos",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "relEquivalent": [
+        "http://purl.org/dc/terms/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.97",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/foaf/versions/2010-01-01.n3",
+      "issued": "2010-01-01T00:00:00.000Z",
+      "classNumber": "12",
+      "propertyNumber": "58",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2000/10/swap/pim/contact",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/01/geo/wgs84_pos"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/01/geo/wgs84_pos"
+      ],
+      "relEquivalent": [
+        "http://purl.org/dc/terms/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.96",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/foaf/versions/2009-12-15.n3",
+      "issued": "2009-12-15T00:00:00.000Z",
+      "classNumber": "12",
+      "propertyNumber": "58",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2000/10/swap/pim/contact",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/01/geo/wgs84_pos"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/01/geo/wgs84_pos"
+      ],
+      "relEquivalent": [
+        "http://purl.org/dc/terms/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.91",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/foaf/versions/2007-10-02.n3",
+      "issued": "2007-10-01T23:00:00.000Z",
+      "classNumber": "12",
+      "propertyNumber": "54",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2000/10/swap/pim/contact",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/01/geo/wgs84_pos",
+        "http://xmlns.com/wordnet/1.6/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/01/geo/wgs84_pos"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns",
+        "http://xmlns.com/wot/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.9",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/foaf/versions/2007-05-24.n3",
+      "issued": "2007-05-23T23:00:00.000Z",
+      "classNumber": "12",
+      "propertyNumber": "53",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2000/10/swap/pim/contact",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/01/geo/wgs84_pos",
+        "http://xmlns.com/wordnet/1.6/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/01/geo/wgs84_pos"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns",
+        "http://xmlns.com/wot/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v2007-01-14",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/foaf/versions/2007-01-14.n3",
+      "issued": "2007-01-14T00:00:00.000Z",
+      "classNumber": "12",
+      "propertyNumber": "53",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2000/10/swap/pim/contact",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/01/geo/wgs84_pos",
+        "http://xmlns.com/wordnet/1.6/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/01/geo/wgs84_pos"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns",
+        "http://xmlns.com/wot/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v2005-06-03",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/foaf/versions/2005-06-03.n3",
+      "issued": "2005-06-02T23:00:00.000Z",
+      "classNumber": "12",
+      "propertyNumber": "53",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2000/10/swap/pim/contact",
+        "http://www.w3.org/2003/01/geo/wgs84_pos",
+        "http://xmlns.com/wordnet/1.6/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns",
+        "http://xmlns.com/wot/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v2005-05-19",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/foaf/versions/2005-05-19.n3",
+      "issued": "2005-05-18T23:00:00.000Z",
+      "classNumber": "12",
+      "propertyNumber": "52",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2000/10/swap/pim/contact",
+        "http://www.w3.org/2003/01/geo/wgs84_pos",
+        "http://xmlns.com/wordnet/1.6/"
+      ],
+      "relImports": [
+        "http://www.w3.org/2000/01/",
+        "http://www.w3.org/2002/07/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns",
+        "http://xmlns.com/wot/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v2005-04-03",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/foaf/versions/2005-04-03.n3",
+      "issued": "2005-04-02T23:00:00.000Z",
+      "classNumber": "12",
+      "propertyNumber": "51",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2000/10/swap/pim/contact",
+        "http://www.w3.org/2003/01/geo/wgs84_pos",
+        "http://xmlns.com/wordnet/1.6/"
+      ],
+      "relImports": [
+        "http://www.w3.org/2000/01/",
+        "http://www.w3.org/2002/07/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns",
+        "http://xmlns.com/wot/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

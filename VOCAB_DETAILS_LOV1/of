@@ -1,0 +1,147 @@
+{
+  "__v": 3,
+  "createdInLOVAt": "2014-08-17T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "55abd4b157613119099d8223",
+      "name": "Christian Mayr"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Ontology for Open Fridge project",
+      "lang": "en",
+      "_id": "5809c64b3e5586c53d896f4d"
+    }
+  ],
+  "issuedAt": "2012-12-30T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:52:19.626Z",
+  "lastModifiedInLOVAt": "2016-10-21T00:00:00.000Z",
+  "nsp": "http://owlrep.eu01.aws.af.cm/fridge#",
+  "prefix": "of",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0ff8",
+      "name": "OpenFridge Project"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Added to LOV at the occasion of the Leipzig Vocabulary Carnival. http://www.semantics.cc/vocarnival. This vocabulary relies on DUL, schema.org and GoodRelations using advanced OWL constructions.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-08-18T00:00:00.000Z",
+      "_id": "5809c64b3e5586c53d896f50"
+    },
+    {
+      "body": "Added the creator's URI in this review",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-19T00:00:00.000Z",
+      "_id": "5809c64b3e5586c53d896f4f"
+    },
+    {
+      "body": "Fixed the creator's URI",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-10-22T00:00:00.000Z",
+      "_id": "5809c64b3e5586c53d896f4e"
+    }
+  ],
+  "tags": [
+    "Industry",
+    "IoT"
+  ],
+  "titles": [
+    {
+      "value": "Open Fridge vocabulary",
+      "lang": "en",
+      "_id": "5809c64b3e5586c53d896f4c"
+    }
+  ],
+  "uri": "http://owlrep.eu01.aws.af.cm/fridge",
+  "versions": [
+    {
+      "name": "v0.6",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/of/versions/2012-12-30.n3",
+      "issued": "2012-12-30T00:00:00.000Z",
+      "classNumber": "5",
+      "propertyNumber": "11",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.oclc.org/NET/ssnx/ssn#",
+        "http://schema.org/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [
+        "http://purl.oclc.org/NET/ssnx/",
+        "http://purl.org/opdm/refrigerator#",
+        "http://schema.org/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.oclc.org/NET/ssnx/ssn#",
+        "http://purl.org/goodrelations/v1#",
+        "http://purl.org/opdm/refrigerator#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v2015-01-11",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/of/versions/2015-01-11.n3",
+      "issued": "2015-01-11T20:52:19.626Z",
+      "classNumber": "5",
+      "propertyNumber": "11",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2005/Incubator/ssn/ssnx/ssn",
+        "http://schema.org/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relImports": [
+        "http://purl.oclc.org/NET/ssnx/",
+        "http://purl.org/opdm/refrigerator#",
+        "http://schema.org/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2005/Incubator/ssn/ssnx/ssn",
+        "http://purl.org/goodrelations/v1",
+        "http://purl.org/opdm/refrigerator#",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

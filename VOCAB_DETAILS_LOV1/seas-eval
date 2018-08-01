@@ -1,0 +1,97 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-12-25T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54ff72862e3e52df4a3cc076",
+      "name": "Maxime Lefrançois"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The Evaluation ontology describes evaluation of [`seas:Property`ies](https://w3id.org/seas/Property). There may be:\n\n- direct evaluations, or\n- qualified evaluations.",
+      "lang": "en",
+      "_id": "585f95207e34109349246cbf"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2016-06-08T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-12-25T09:46:44.312Z",
+  "nsp": "https://w3id.org/seas/",
+  "prefix": "seas-eval",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "Evaluation ontology part of the SEAS vocabulary",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-12-25T00:00:00.000Z",
+      "_id": "585f95207e34109349246cbe"
+    }
+  ],
+  "tags": [
+    "Methods",
+    "Support"
+  ],
+  "titles": [
+    {
+      "value": "The SEAS Evaluation ontology",
+      "lang": "en",
+      "_id": "585f95207e34109349246cc0"
+    }
+  ],
+  "uri": "https://w3id.org/seas/EvaluationOntology",
+  "versions": [
+    {
+      "_id": "585f95237e34109349246cc2",
+      "classNumber": "2",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/seas-eval/versions/2016-09-21.n3",
+      "instanceNumber": "0",
+      "issued": "2016-09-21T00:00:00.000Z",
+      "name": "v1.0",
+      "propertyNumber": "7",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "https://w3id.org/seas/SystemOntology"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2003/01/geo/wgs84_pos",
+        "http://www.w3.org/2006/time"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

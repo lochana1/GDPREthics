@@ -1,0 +1,107 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-02-22T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f19",
+      "name": "Owen Sacco"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "TAO is a light-weight vocabulary to describe asserted user’s subjective trust values.",
+      "lang": "en",
+      "_id": "57ad868bb00b4b1452a88831"
+    }
+  ],
+  "homepage": "http://vocab.deri.ie/tao.html",
+  "issuedAt": "2013-02-18T00:00:00.000Z",
+  "lastDeref": "2014-02-24T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-08-12T00:00:00.000Z",
+  "nsp": "http://vocab.deri.ie/tao#",
+  "prefix": "tao",
+  "reviews": [
+    {
+      "body": "Annual review : no modification since last year.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-02-24T00:00:00.000Z",
+      "_id": "57ad868bb00b4b1452a88835"
+    },
+    {
+      "body": "Inserted in LOV. TAO is still under development.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2013-02-22T00:00:00.000Z",
+      "_id": "57ad868bb00b4b1452a88834"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-03-13T00:00:00.000Z",
+      "_id": "57ad868bb00b4b1452a88833"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-08-12T00:00:00.000Z",
+      "_id": "57ad868bb00b4b1452a88832"
+    }
+  ],
+  "tags": [
+    "Quality"
+  ],
+  "titles": [
+    {
+      "value": "Trust Assertion Ontology",
+      "lang": "en",
+      "_id": "57ad868bb00b4b1452a88830"
+    }
+  ],
+  "uri": "http://vocab.deri.ie/tao",
+  "versions": [
+    {
+      "name": "v2013-02-22",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/tao/versions/2013-02-22.n3",
+      "issued": "2013-02-22T00:00:00.000Z",
+      "classNumber": "3",
+      "propertyNumber": "18",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/adms#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

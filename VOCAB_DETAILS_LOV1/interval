@@ -1,0 +1,135 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-06-09T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f7a",
+      "name": "Stuart Williams"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/data-gov-uk-time-intervals.rdf",
+      "label": "data-gov-uk-time-intervals.rdf",
+      "occurrences": "101"
+    },
+    {
+      "uri": "http://datahub.io/dataset/data-gov-uk-time-intervals.0.rdf",
+      "label": "data-gov-uk-time-intervals.0.rdf",
+      "occurrences": "37"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "An ontology for time intervals",
+      "lang": "en",
+      "_id": "55a3b48d57613119099c22ac"
+    }
+  ],
+  "lastDeref": "2014-07-28T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-07-13T00:00:00.000Z",
+  "nsp": "http://reference.data.gov.uk/def/intervals/",
+  "prefix": "interval",
+  "reviews": [
+    {
+      "body": "Annual review - not sure where the version date is coming from. It's not in the RDF data, and there is no documentation page.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-07-29T00:00:00.000Z",
+      "_id": "55a3b48d57613119099c22b0"
+    },
+    {
+      "body": "Provides elements of description of usual intervals of time : day of the week, month etc.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-06-10T00:00:00.000Z",
+      "_id": "55a3b48d57613119099c22af"
+    },
+    {
+      "body": "There is no HTML documentation available from the vocabulary URI.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-07-26T00:00:00.000Z",
+      "_id": "55a3b48d57613119099c22ae"
+    },
+    {
+      "body": "This vocabulary would be very useful if the author provides more metadata and a human readable documentations",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-13T00:00:00.000Z",
+      "_id": "55a3b48d57613119099c22ad"
+    }
+  ],
+  "tags": [
+    "Time"
+  ],
+  "titles": [
+    {
+      "value": "Intervals Ontology",
+      "lang": "en",
+      "_id": "55a3b48d57613119099c22ab"
+    }
+  ],
+  "uri": "http://reference.data.gov.uk/def/intervals",
+  "versions": [
+    {
+      "name": "v2010-03-08",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/interval/versions/2010-03-08.n3",
+      "issued": "2010-03-08T00:00:00.000Z",
+      "classNumber": "38",
+      "propertyNumber": "35",
+      "instanceNumber": "21",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/NET/scovo#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2006/time#"
+      ],
+      "relImports": [
+        "http://purl.org/NET/c4dm/",
+        "http://purl.org/NET/",
+        "http://purl.org/dc/dcam/",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2004/02/skos/",
+        "http://www.w3.org/2006/",
+        "http://www.w3.org/2008/05/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2006/time#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://www.w3.org/2006/time#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

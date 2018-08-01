@@ -1,0 +1,1002 @@
+{
+  "__v": 6,
+  "createdInLOVAt": "2013-08-30T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fd9",
+      "name": "The Muninn Project"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0ec3",
+      "name": "Robert Warren"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/muninn-world-war-i.",
+      "label": "muninn-world-war-i.",
+      "occurrences": "580"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The Muninn Military Ontology marks up information about military people, organizations and events.",
+      "lang": "en",
+      "_id": "5b4dcc5d71ff30fe3b9f7fad"
+    }
+  ],
+  "issuedAt": "2012-05-29T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:52:18.215Z",
+  "lastModifiedInLOVAt": "2018-07-17T11:02:28.282Z",
+  "nsp": "http://rdf.muninn-project.org/ontologies/military#",
+  "prefix": "mil",
+  "reviews": [
+    {
+      "body": "Warning: This ontology may contains some logical inconsistencies. It is fit to record information but reasoners may find logical errors in large knowledge bases (excerpt from the HTML documentation)",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-08-31T00:00:00.000Z",
+      "_id": "5b4dcc5d71ff30fe3b9f7fb1"
+    },
+    {
+      "body": "Annual review. Updated version history",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-11-04T00:00:00.000Z",
+      "_id": "5b4dcc5d71ff30fe3b9f7fb0"
+    },
+    {
+      "body": "Annual review. Updated version history",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-12T00:00:00.000Z",
+      "_id": "5b4dcc5d71ff30fe3b9f7faf"
+    },
+    {
+      "body": "Annual review ok",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2018-07-17T00:00:00.000Z",
+      "_id": "5b4dcc5d71ff30fe3b9f7fae"
+    }
+  ],
+  "tags": [
+    "Society"
+  ],
+  "titles": [
+    {
+      "value": "Military Ontology Specification",
+      "lang": "en",
+      "_id": "5b4dcc5d71ff30fe3b9f7fac"
+    }
+  ],
+  "uri": "http://rdf.muninn-project.org/ontologies/military",
+  "versions": [
+    {
+      "name": "v0.7",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/mil/versions/2014-10-31.n3",
+      "issued": "2014-10-31T00:00:00.000Z",
+      "classNumber": "138",
+      "propertyNumber": "14",
+      "instanceNumber": "620",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://dbpedia.org/ontology/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://xmlns.com/foaf/spec/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2006/time#",
+        "http://www.w3.org/ns/org#",
+        "http://xmlns.com/foaf/spec/"
+      ],
+      "relEquivalent": [
+        "http://dbpedia.org/resource/%C3%87orbac%C4%B1",
+        "http://dbpedia.org/resource/Able_seaman_%28rank%29",
+        "http://dbpedia.org/resource/",
+        "http://dbpedia.org/resource/Admiral_of_the_Fleet_%28Russia%29",
+        "http://dbpedia.org/resource/Agha_%28Ottoman_Empire%29",
+        "http://dbpedia.org/resource/Ala_(Roman_cavalry_unit)",
+        "http://dbpedia.org/resource/Army_General_%28Russia%29",
+        "http://dbpedia.org/resource/Bombardier_%28rank%29",
+        "http://dbpedia.org/resource/Buffer_%28navy%29",
+        "http://dbpedia.org/resource/Captain_%28OF-2%29",
+        "http://dbpedia.org/resource/Captain_%28naval%29",
+        "http://dbpedia.org/resource/Captain_(OF-2)",
+        "http://dbpedia.org/resource/Captain_(naval)",
+        "http://dbpedia.org/resource/Chor%C4%85%C5%BC",
+        "http://dbpedia.org/resource/Combat_%28military_rank%29",
+        "http://dbpedia.org/resource/Commandant_%28rank%29",
+        "http://dbpedia.org/resource/Commandant_(rank)",
+        "http://dbpedia.org/resource/Commodore_(rank)",
+        "http://dbpedia.org/resource/Company_(military_unit)",
+        "http://dbpedia.org/resource/Conductor_%28Army%29",
+        "http://dbpedia.org/resource/Detachment_(military)",
+        "http://dbpedia.org/resource/Division_(military)",
+        "http://dbpedia.org/resource/Driver_%28rank%29",
+        "http://dbpedia.org/resource/Drum_major_%28rank%29",
+        "http://dbpedia.org/resource/Ensign_(rank)",
+        "http://dbpedia.org/resource/Ferik_%28rank%29",
+        "http://dbpedia.org/resource/Flight_(military_unit)",
+        "http://dbpedia.org/resource/Front_(military)",
+        "http://dbpedia.org/resource/Front_(military_formation)",
+        "http://dbpedia.org/resource/Group_(military_aviation_unit)",
+        "http://dbpedia.org/resource/Hasa_%28Korean_military%29",
+        "http://dbpedia.org/resource/Hipparchus_%28cavalry_officer%29",
+        "http://dbpedia.org/resource/Kola%C4%9Fas%C4%B1",
+        "http://dbpedia.org/resource/Lieutenant_(navy)",
+        "http://dbpedia.org/resource/M%C3%BC%C5%9F",
+        "http://dbpedia.org/resource/Ordinary_seaman_%28rating%29",
+        "http://dbpedia.org/resource/Private_%28rank%29",
+        "http://dbpedia.org/resource/Private_(rank)",
+        "http://dbpedia.org/resource/Section_(military_unit)",
+        "http://dbpedia.org/resource/Squadron_(army)",
+        "http://dbpedia.org/resource/Squadron_(aviation)",
+        "http://dbpedia.org/resource/Squadron_(naval)",
+        "http://dbpedia.org/resource/Stabskapit%C3%A4",
+        "http://dbpedia.org/resource/Suba%C5%9F",
+        "http://dbpedia.org/resource/Theater_(warfare)",
+        "http://dbpedia.org/resource/Trooper_%28rank%29",
+        "http://dbpedia.org/resource/V%C3%A4%C3%A4",
+        "http://dbpedia.org/resource/Warrant_officer_%28United_Kingdom%29",
+        "http://dbpedia.org/resource/Wing_(military_aviation_unit)",
+        "http://dbpedia.org/resource/Wing_commander_%28rank%29",
+        "http://dbpedia.org/resource/Wing_commander_(rank)",
+        "http://schema.onki.fi/agent-schema#",
+        "http://www.w3.org/ns/org#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/vocab/vann/",
+        "http://rdf.muninn-project.org/ontologies/muninn#",
+        "http://rdfs.org/ns/void#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://www.w3.org/ns/org#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e07",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/cat",
+          "label": "Catalan",
+          "iso639P3PCode": "cat"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e08",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ces",
+          "label": "Czech",
+          "iso639P3PCode": "ces"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e10",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fin",
+          "label": "Finnish",
+          "iso639P3PCode": "fin"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e15",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/hin",
+          "label": "Hindi",
+          "iso639P3PCode": "hin"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e17",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/hun",
+          "label": "Hungarian",
+          "iso639P3PCode": "hun"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e24",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nor",
+          "label": "Norwegian",
+          "iso639P3PCode": "nor"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e26",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/pol",
+          "label": "Polish",
+          "iso639P3PCode": "pol"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e27",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/por",
+          "label": "Portuguese",
+          "iso639P3PCode": "por"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/rus",
+          "label": "Russian",
+          "iso639P3PCode": "rus"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e30",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/swe",
+          "label": "Swedish",
+          "iso639P3PCode": "swe"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e35",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/vie",
+          "label": "Vietnamese",
+          "iso639P3PCode": "vie"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.3",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/mil/versions/2014-10-12.n3",
+      "issued": "2014-10-11T23:00:00.000Z",
+      "classNumber": "137",
+      "propertyNumber": "8",
+      "instanceNumber": "572",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://dbpedia.org/ontology/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/spec/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2006/time#"
+      ],
+      "relEquivalent": [
+        "http://dbpedia.org/resource/%C3%87orbac%C4%B1",
+        "http://dbpedia.org/resource/Able_seaman_%28rank%29",
+        "http://dbpedia.org/resource/",
+        "http://dbpedia.org/resource/Admiral_of_the_Fleet_%28Russia%29",
+        "http://dbpedia.org/resource/Agha_%28Ottoman_Empire%29",
+        "http://dbpedia.org/resource/Ala_(Roman_cavalry_unit)",
+        "http://dbpedia.org/resource/Army_General_%28Russia%29",
+        "http://dbpedia.org/resource/Bombardier_%28rank%29",
+        "http://dbpedia.org/resource/Buffer_%28navy%29",
+        "http://dbpedia.org/resource/Captain_%28OF-2%29",
+        "http://dbpedia.org/resource/Captain_%28naval%29",
+        "http://dbpedia.org/resource/Captain_(OF-2)",
+        "http://dbpedia.org/resource/Captain_(naval)",
+        "http://dbpedia.org/resource/Chor%C4%85%C5%BC",
+        "http://dbpedia.org/resource/Combat_%28military_rank%29",
+        "http://dbpedia.org/resource/Commandant_%28rank%29",
+        "http://dbpedia.org/resource/Commandant_(rank)",
+        "http://dbpedia.org/resource/Commodore_(rank)",
+        "http://dbpedia.org/resource/Company_(military_unit)",
+        "http://dbpedia.org/resource/Conductor_%28Army%29",
+        "http://dbpedia.org/resource/Detachment_(military)",
+        "http://dbpedia.org/resource/Division_(military)",
+        "http://dbpedia.org/resource/Driver_%28rank%29",
+        "http://dbpedia.org/resource/Drum_major_%28rank%29",
+        "http://dbpedia.org/resource/Ensign_(rank)",
+        "http://dbpedia.org/resource/Ferik_%28rank%29",
+        "http://dbpedia.org/resource/Flight_(military_unit)",
+        "http://dbpedia.org/resource/Front_(military)",
+        "http://dbpedia.org/resource/Front_(military_formation)",
+        "http://dbpedia.org/resource/Group_(military_aviation_unit)",
+        "http://dbpedia.org/resource/Hasa_%28Korean_military%29",
+        "http://dbpedia.org/resource/Hipparchus_%28cavalry_officer%29",
+        "http://dbpedia.org/resource/Kola%C4%9Fas%C4%B1",
+        "http://dbpedia.org/resource/Lieutenant_(navy)",
+        "http://dbpedia.org/resource/M%C3%BC%C5%9F",
+        "http://dbpedia.org/resource/Ordinary_seaman_%28rating%29",
+        "http://dbpedia.org/resource/Private_%28rank%29",
+        "http://dbpedia.org/resource/Private_(rank)",
+        "http://dbpedia.org/resource/Section_(military_unit)",
+        "http://dbpedia.org/resource/Squadron_(army)",
+        "http://dbpedia.org/resource/Squadron_(aviation)",
+        "http://dbpedia.org/resource/Squadron_(naval)",
+        "http://dbpedia.org/resource/Stabskapit%C3%A4",
+        "http://dbpedia.org/resource/Suba%C5%9F",
+        "http://dbpedia.org/resource/Theater_(warfare)",
+        "http://dbpedia.org/resource/Trooper_%28rank%29",
+        "http://dbpedia.org/resource/V%C3%A4%C3%A4",
+        "http://dbpedia.org/resource/Warrant_officer_%28United_Kingdom%29",
+        "http://dbpedia.org/resource/Wing_(military_aviation_unit)",
+        "http://dbpedia.org/resource/Wing_commander_%28rank%29",
+        "http://dbpedia.org/resource/Wing_commander_(rank)"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/vocab/vann/",
+        "http://rdfs.org/ns/void#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://www.w3.org/ns/org#",
+        "http://xmlns.com/foaf/spec/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e07",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/cat",
+          "label": "Catalan",
+          "iso639P3PCode": "cat"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e08",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ces",
+          "label": "Czech",
+          "iso639P3PCode": "ces"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e10",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fin",
+          "label": "Finnish",
+          "iso639P3PCode": "fin"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e15",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/hin",
+          "label": "Hindi",
+          "iso639P3PCode": "hin"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e17",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/hun",
+          "label": "Hungarian",
+          "iso639P3PCode": "hun"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e24",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nor",
+          "label": "Norwegian",
+          "iso639P3PCode": "nor"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e26",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/pol",
+          "label": "Polish",
+          "iso639P3PCode": "pol"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e27",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/por",
+          "label": "Portuguese",
+          "iso639P3PCode": "por"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/rus",
+          "label": "Russian",
+          "iso639P3PCode": "rus"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e30",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/swe",
+          "label": "Swedish",
+          "iso639P3PCode": "swe"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e35",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/vie",
+          "label": "Vietnamese",
+          "iso639P3PCode": "vie"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/mil/versions/2012-06-20.n3",
+      "issued": "2012-06-19T23:00:00.000Z",
+      "classNumber": "128",
+      "propertyNumber": "7",
+      "instanceNumber": "570",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "foaf:",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "org:"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "mil:",
+        "time:"
+      ],
+      "relEquivalent": [
+        "dbpedia:%C3%87orbac%C4%B1",
+        "dbpedia:Able_seaman_%28rank%29",
+        "dbpedia:",
+        "dbpedia:Admiral_of_the_Fleet_%28Russia%29",
+        "dbpedia:Agha_%28Ottoman_Empire%29",
+        "dbpedia:Army_General_%28Russia%29",
+        "dbpedia:Bombardier_%28rank%29",
+        "dbpedia:Buffer_%28navy%29",
+        "dbpedia:Captain_%28OF-2%29",
+        "dbpedia:Captain_%28naval%29",
+        "dbpedia:Captain_(OF-2)",
+        "dbpedia:Captain_(naval)",
+        "dbpedia:Chor%C4%85%C5%BC",
+        "dbpedia:Combat_%28military_rank%29",
+        "dbpedia:Commandant_%28rank%29",
+        "dbpedia:Commandant_(rank)",
+        "dbpedia:Commodore_(rank)",
+        "dbpedia:Conductor_%28Army%29",
+        "dbpedia:Driver_%28rank%29",
+        "dbpedia:Drum_major_%28rank%29",
+        "dbpedia:Ensign_(rank)",
+        "dbpedia:Ferik_%28rank%29",
+        "dbpedia:Flight_(military_unit)",
+        "dbpedia:Front_(military)",
+        "dbpedia:Front_(military_formation)",
+        "dbpedia:Group_(military_aviation_unit)",
+        "dbpedia:Hasa_%28Korean_military%29",
+        "dbpedia:Hipparchus_%28cavalry_officer%29",
+        "dbpedia:Kola%C4%9Fas%C4%B1",
+        "dbpedia:Lieutenant_(navy)",
+        "dbpedia:M%C3%BC%C5%9F",
+        "dbpedia:Ordinary_seaman_%28rating%29",
+        "dbpedia:Private_%28rank%29",
+        "dbpedia:Private_(rank)",
+        "dbpedia:Squadron_(aviation)",
+        "dbpedia:Squadron_(naval)",
+        "dbpedia:Stabskapit%C3%A4",
+        "dbpedia:Suba%C5%9F",
+        "dbpedia:Trooper_%28rank%29",
+        "dbpedia:V%C3%A4%C3%A4",
+        "dbpedia:Warrant_officer_%28United_Kingdom%29",
+        "dbpedia:Wing_(military_aviation_unit)",
+        "dbpedia:Wing_commander_%28rank%29",
+        "dbpedia:Wing_commander_(rank)"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://rdf.muninn-project.org/ontologies/organization#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://xmlns.com/foaf/spec/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e07",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/cat",
+          "label": "Catalan",
+          "iso639P3PCode": "cat"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e08",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ces",
+          "label": "Czech",
+          "iso639P3PCode": "ces"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e10",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fin",
+          "label": "Finnish",
+          "iso639P3PCode": "fin"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e15",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/hin",
+          "label": "Hindi",
+          "iso639P3PCode": "hin"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e17",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/hun",
+          "label": "Hungarian",
+          "iso639P3PCode": "hun"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e24",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nor",
+          "label": "Norwegian",
+          "iso639P3PCode": "nor"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e26",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/pol",
+          "label": "Polish",
+          "iso639P3PCode": "pol"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e27",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/por",
+          "label": "Portuguese",
+          "iso639P3PCode": "por"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/rus",
+          "label": "Russian",
+          "iso639P3PCode": "rus"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e30",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/swe",
+          "label": "Swedish",
+          "iso639P3PCode": "swe"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e35",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/vie",
+          "label": "Vietnamese",
+          "iso639P3PCode": "vie"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/mil/versions/2012-05-29.n3",
+      "issued": "2012-05-28T23:00:00.000Z",
+      "classNumber": "119",
+      "propertyNumber": "7",
+      "instanceNumber": "565",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "foaf:",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "org:"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "mil:",
+        "time:"
+      ],
+      "relEquivalent": [
+        "dbpedia:%C3%87orbac%C4%B1",
+        "dbpedia:Able_seaman_%28rank%29",
+        "dbpedia:",
+        "dbpedia:Admiral_of_the_Fleet_%28Russia%29",
+        "dbpedia:Agha_%28Ottoman_Empire%29",
+        "dbpedia:Army_General_%28Russia%29",
+        "dbpedia:Bombardier_%28rank%29",
+        "dbpedia:Buffer_%28navy%29",
+        "dbpedia:Captain_%28OF-2%29",
+        "dbpedia:Captain_%28naval%29",
+        "dbpedia:Captain_(OF-2)",
+        "dbpedia:Captain_(naval)",
+        "dbpedia:Chor%C4%85%C5%BC",
+        "dbpedia:Combat_%28military_rank%29",
+        "dbpedia:Commandant_%28rank%29",
+        "dbpedia:Commandant_(rank)",
+        "dbpedia:Commodore_(rank)",
+        "dbpedia:Conductor_%28Army%29",
+        "dbpedia:Driver_%28rank%29",
+        "dbpedia:Drum_major_%28rank%29",
+        "dbpedia:Ensign_(rank)",
+        "dbpedia:Ferik_%28rank%29",
+        "dbpedia:Hasa_%28Korean_military%29",
+        "dbpedia:Hipparchus_%28cavalry_officer%29",
+        "dbpedia:Kola%C4%9Fas%C4%B1",
+        "dbpedia:Lieutenant_(navy)",
+        "dbpedia:M%C3%BC%C5%9F",
+        "dbpedia:Ordinary_seaman_%28rating%29",
+        "dbpedia:Private_%28rank%29",
+        "dbpedia:Private_(rank)",
+        "dbpedia:Stabskapit%C3%A4",
+        "dbpedia:Suba%C5%9F",
+        "dbpedia:Trooper_%28rank%29",
+        "dbpedia:V%C3%A4%C3%A4",
+        "dbpedia:Warrant_officer_%28United_Kingdom%29",
+        "dbpedia:Wing_commander_%28rank%29",
+        "dbpedia:Wing_commander_(rank)"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://rdf.muninn-project.org/ontologies/organization#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://xmlns.com/foaf/spec/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e10",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fin",
+          "label": "Finnish",
+          "iso639P3PCode": "fin"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e24",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nor",
+          "label": "Norwegian",
+          "iso639P3PCode": "nor"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e26",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/pol",
+          "label": "Polish",
+          "iso639P3PCode": "pol"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e27",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/por",
+          "label": "Portuguese",
+          "iso639P3PCode": "por"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/rus",
+          "label": "Russian",
+          "iso639P3PCode": "rus"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e30",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/swe",
+          "label": "Swedish",
+          "iso639P3PCode": "swe"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v1.1",
+      "issued": "2015-07-05T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "668",
+      "propertyNumber": "18",
+      "classNumber": "142",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/mil/versions/2015-07-05.n3",
+      "_id": "5ad8a2482e909b214fc2cf5c",
+      "relSpecializes": [
+        "http://dbpedia.org/ontology/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core",
+        "http://xmlns.com/foaf/spec/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2006/time",
+        "http://www.w3.org/ns/org#",
+        "http://xmlns.com/foaf/spec/"
+      ],
+      "relEquivalent": [
+        "http://dbpedia.org/resource/%C3%87orbac%C4%B1",
+        "http://dbpedia.org/resource/Able_seaman_%28rank%29",
+        "http://dbpedia.org/resource/",
+        "http://dbpedia.org/resource/Admiral_of_the_Fleet_%28Russia%29",
+        "http://dbpedia.org/resource/Agha_%28Ottoman_Empire%29",
+        "http://dbpedia.org/resource/Army_General_%28Russia%29",
+        "http://dbpedia.org/resource/Bombardier_%28rank%29",
+        "http://dbpedia.org/resource/Buffer_%28navy%29",
+        "http://dbpedia.org/resource/Captain_%28OF-2%29",
+        "http://dbpedia.org/resource/Captain_%28naval%29",
+        "http://dbpedia.org/resource/Captain_(OF-2)",
+        "http://dbpedia.org/resource/Captain_(naval)",
+        "http://dbpedia.org/resource/Chor%C4%85%C5%BC",
+        "http://dbpedia.org/resource/Combat_%28military_rank%29",
+        "http://dbpedia.org/resource/Commandant_%28rank%29",
+        "http://dbpedia.org/resource/Commandant_(rank)",
+        "http://dbpedia.org/resource/Commodore_(rank)",
+        "http://dbpedia.org/resource/Company_(military_unit)",
+        "http://dbpedia.org/resource/Conductor_%28Army%29",
+        "http://dbpedia.org/resource/Detachment_(military)",
+        "http://dbpedia.org/resource/Division_(military)",
+        "http://dbpedia.org/resource/Driver_%28rank%29",
+        "http://dbpedia.org/resource/Drum_major_%28rank%29",
+        "http://dbpedia.org/resource/Ensign_(rank)",
+        "http://dbpedia.org/resource/Ferik_%28rank%29",
+        "http://dbpedia.org/resource/Flight_(military_unit)",
+        "http://dbpedia.org/resource/Front_(military)",
+        "http://dbpedia.org/resource/Front_(military_formation)",
+        "http://dbpedia.org/resource/Group_(military_aviation_unit)",
+        "http://dbpedia.org/resource/Hasa_%28Korean_military%29",
+        "http://dbpedia.org/resource/Hipparchus_%28cavalry_officer%29",
+        "http://dbpedia.org/resource/Kola%C4%9Fas%C4%B1",
+        "http://dbpedia.org/resource/Lieutenant_(navy)",
+        "http://dbpedia.org/resource/M%C3%BC%C5%9F",
+        "http://dbpedia.org/resource/Ordinary_seaman_%28rating%29",
+        "http://dbpedia.org/resource/Private_%28rank%29",
+        "http://dbpedia.org/resource/Private_(rank)",
+        "http://dbpedia.org/resource/Section_(military_unit)",
+        "http://dbpedia.org/resource/Squadron_(army)",
+        "http://dbpedia.org/resource/Squadron_(aviation)",
+        "http://dbpedia.org/resource/Squadron_(naval)",
+        "http://dbpedia.org/resource/Stabskapit%C3%A4",
+        "http://dbpedia.org/resource/Suba%C5%9F",
+        "http://dbpedia.org/resource/Theater_(warfare)",
+        "http://dbpedia.org/resource/Trooper_%28rank%29",
+        "http://dbpedia.org/resource/V%C3%A4%C3%A4",
+        "http://dbpedia.org/resource/Warrant_officer_%28United_Kingdom%29",
+        "http://dbpedia.org/resource/Wing_(military_aviation_unit)",
+        "http://dbpedia.org/resource/Wing_commander_%28rank%29",
+        "http://dbpedia.org/resource/Wing_commander_(rank)",
+        "http://ldf.fi/ww1lod/schema#",
+        "http://schema.onki.fi/agent-schema#",
+        "http://www.w3.org/ns/org#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://rdf.muninn-project.org/ontologies/muninn#",
+        "http://vocab.deri.ie/void",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns",
+        "http://www.w3.org/2004/02/skos/core",
+        "http://www.w3.org/ns/org#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e07",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/cat",
+          "label": "Catalan",
+          "iso639P3PCode": "cat"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e08",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ces",
+          "label": "Czech",
+          "iso639P3PCode": "ces"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e10",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fin",
+          "label": "Finnish",
+          "iso639P3PCode": "fin"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e15",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/hin",
+          "label": "Hindi",
+          "iso639P3PCode": "hin"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e17",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/hun",
+          "label": "Hungarian",
+          "iso639P3PCode": "hun"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        },
+        {
+          "_id": "54fd6b195efee150f4419d2e",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/lat",
+          "label": "Latin",
+          "iso639P3PCode": "lat"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e24",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nor",
+          "label": "Norwegian",
+          "iso639P3PCode": "nor"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e26",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/pol",
+          "label": "Polish",
+          "iso639P3PCode": "pol"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e27",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/por",
+          "label": "Portuguese",
+          "iso639P3PCode": "por"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/rus",
+          "label": "Russian",
+          "iso639P3PCode": "rus"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e30",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/swe",
+          "label": "Swedish",
+          "iso639P3PCode": "swe"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e35",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/vie",
+          "label": "Vietnamese",
+          "iso639P3PCode": "vie"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

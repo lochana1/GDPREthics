@@ -1,0 +1,407 @@
+{
+  "__v": 2,
+  "contributorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e72",
+      "name": "Alexandre Passant"
+    }
+  ],
+  "createdInLOVAt": "2013-06-23T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f70",
+      "name": "Ian Davis"
+    },
+    {
+      "_id": "555c37a230f688c94e821ff8",
+      "name": "David Galbraith"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/bibliographica-org-bnb-export.133.nq",
+      "label": "bibliographica-org-bnb-export.133.nq",
+      "occurrences": "243702"
+    },
+    {
+      "uri": "http://datahub.io/dataset/bibliographica-org-bnb-export.131.nq",
+      "label": "bibliographica-org-bnb-export.131.nq",
+      "occurrences": "198666"
+    },
+    {
+      "uri": "http://datahub.io/dataset/bibliographica-org-bnb-export.100.nq",
+      "label": "bibliographica-org-bnb-export.100.nq",
+      "occurrences": "125394"
+    },
+    {
+      "uri": "http://datahub.io/dataset/krystian-pietruszka.",
+      "label": "krystian-pietruszka.",
+      "occurrences": "7"
+    },
+    {
+      "uri": "http://datahub.io/dataset/idreffr.rdf",
+      "label": "idreffr.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/brazilian-politicians.rdf",
+      "label": "brazilian-politicians.rdf",
+      "occurrences": "2"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "A vocabulary for describing biographical information about people, both living and dead.",
+      "lang": "en",
+      "_id": "586a4a1a7e341093492b8af5"
+    }
+  ],
+  "homepage": "http://vocab.org/bio/0.1/.html",
+  "issuedAt": "2003-03-07T00:00:00.000Z",
+  "lastDeref": "2014-06-19T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-01-02T00:00:00.000Z",
+  "nsp": "http://purl.org/vocab/bio/0.1/",
+  "prefix": "bio",
+  "reviews": [
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-19T00:00:00.000Z",
+      "_id": "586a4a1a7e341093492b8af9"
+    },
+    {
+      "body": "Date of last revision has not been updated in the general metadata of RDF files ((2010-05-10 instead of 2011-06-14) but OTOH every vocabulary term has its own revision history, a good practice which is not that frequent in vocabularies.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-06-23T00:00:00.000Z",
+      "_id": "586a4a1a7e341093492b8af8"
+    },
+    {
+      "body": "Annual report checked. Added a new contributor and creator when looking at the changes note in the file.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-05-20T00:00:00.000Z",
+      "_id": "586a4a1a7e341093492b8af7"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-01-02T00:00:00.000Z",
+      "_id": "586a4a1a7e341093492b8af6"
+    }
+  ],
+  "tags": [
+    "People"
+  ],
+  "titles": [
+    {
+      "value": "BIO: A vocabulary for biographical information",
+      "lang": "en",
+      "_id": "586a4a1a7e341093492b8af4"
+    }
+  ],
+  "uri": "http://purl.org/vocab/bio/0.1/",
+  "versions": [
+    {
+      "name": "v2011-06-14",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/bio/versions/2011-06-14.n3",
+      "issued": "2011-06-13T23:00:00.000Z",
+      "classNumber": "42",
+      "propertyNumber": "33",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://linkedevents.org/ontology/",
+        "http://purl.org/NET/c4dm/event.owl",
+        "http://purl.org/dc/dcmitype/",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/vocab/relationship/",
+        "http://sw.opencyc.org/2009/04/07/concept/en/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2006/time#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [
+        "http://purl.org/ontology/mo/",
+        "http://purl.org/vocab/relationship/",
+        "http://sw.opencyc.org/2009/04/07/concept/en/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://open.vocab.org/terms",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/net/vocab/2004/03/label",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2010-04-20",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/bio/versions/2010-04-20.n3",
+      "issued": "2010-04-19T23:00:00.000Z",
+      "classNumber": "38",
+      "propertyNumber": "28",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://linkedevents.org/ontology/",
+        "http://purl.org/NET/c4dm/event.owl",
+        "http://purl.org/dc/dcmitype/",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/vocab/relationship/",
+        "http://sw.opencyc.org/2009/04/07/concept/en/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2006/time#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [
+        "http://purl.org/vocab/relationship/",
+        "http://sw.opencyc.org/2009/04/07/concept/en/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://open.vocab.org/terms",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/net/vocab/2004/03/label",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2009-05-19",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/bio/versions/2009-05-19.n3",
+      "issued": "2009-05-18T23:00:00.000Z",
+      "classNumber": "4",
+      "propertyNumber": "5",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2005-04-01",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/bio/versions/2005-04-01.n3",
+      "issued": "2005-03-31T23:00:00.000Z",
+      "classNumber": "4",
+      "propertyNumber": "5",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2004-03-05",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/bio/versions/2004-03-05.n3",
+      "issued": "2004-03-05T00:00:00.000Z",
+      "classNumber": "4",
+      "propertyNumber": "5",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://www.w3.org/2000/01/",
+        "http://www.w3.org/2002/07/",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2003-07-28",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/bio/versions/2003-07-28.n3",
+      "issued": "2003-07-27T23:00:00.000Z",
+      "classNumber": "4",
+      "propertyNumber": "5",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://www.w3.org/2000/01/",
+        "http://www.w3.org/2002/07/",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": null,
+      "isReviewed": false
+    },
+    {
+      "name": "v2003-03-14",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/bio/versions/2003-03-14.n3",
+      "issued": "2003-03-14T00:00:00.000Z",
+      "classNumber": "4",
+      "propertyNumber": "4",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://www.w3.org/2000/01/",
+        "http://www.w3.org/2002/07/",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": null,
+      "isReviewed": false
+    }
+  ]
+}

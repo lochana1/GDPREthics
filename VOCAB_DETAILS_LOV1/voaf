@@ -1,0 +1,367 @@
+{
+  "__v": 7,
+  "contributorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e58",
+      "name": "Lise Rozat"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0e94",
+      "name": "Pierre-Yves Vandenbussche"
+    }
+  ],
+  "createdInLOVAt": "2013-05-23T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e74",
+      "name": "Bernard Vatant"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/sparql-endpoint-status.rdf",
+      "label": "sparql-endpoint-status.rdf",
+      "occurrences": "10"
+    },
+    {
+      "uri": "http://datahub.io/dataset/clean-energy-data-reegle.0.rdf",
+      "label": "clean-energy-data-reegle.0.rdf",
+      "occurrences": "1"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "A vocabulary to describe linked data vocabularies and their relations",
+      "lang": "en",
+      "_id": "577f5d160183b1e80fc7208a"
+    },
+    {
+      "value": "Un vocabulaire de description des vocabulaires RDF et de leurs relations mutuelles",
+      "lang": "fr",
+      "_id": "577f5d160183b1e80fc72089"
+    }
+  ],
+  "homepage": "http://purl.org/vocommons/voaf/index.html",
+  "issuedAt": "2011-03-11T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:52:34.001Z",
+  "lastModifiedInLOVAt": "2016-07-08T00:00:00.000Z",
+  "nsp": "http://purl.org/vocommons/voaf#",
+  "prefix": "voaf",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fe4",
+      "name": "OKFN"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "This vocabulary is mainly used so far by the LOV dataset. It provides the expressivity for LOV specific layer of metadata, such as links between vocabularies.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-05-23T00:00:00.000Z",
+      "_id": "577f5d160183b1e80fc7208d"
+    },
+    {
+      "body": "Annual review. Fixed version history",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-05-05T00:00:00.000Z",
+      "_id": "577f5d160183b1e80fc7208c"
+    },
+    {
+      "body": "Annual review. No changes.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-07-08T00:00:00.000Z",
+      "_id": "577f5d160183b1e80fc7208b"
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "Vocabulary of a Friend",
+      "lang": "en",
+      "_id": "577f5d160183b1e80fc72088"
+    }
+  ],
+  "uri": "http://purl.org/vocommons/voaf",
+  "versions": [
+    {
+      "name": "v2.3",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/voaf/versions/2013-05-24.n3",
+      "issued": "2013-05-23T23:00:00.000Z",
+      "classNumber": "3",
+      "propertyNumber": "21",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/frbr/core",
+        "http://rdfs.org/ns/void#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://rdfs.org/ns/void#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2002/12/cal/ical#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/frbr/core",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2.2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/voaf/versions/2013-04-24.n3",
+      "issued": "2013-04-23T23:00:00.000Z",
+      "classNumber": "2",
+      "propertyNumber": "16",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/frbr/core",
+        "http://rdfs.org/ns/void#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://rdfs.org/ns/void#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2002/12/cal/ical#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/frbr/core",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2.1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/voaf/versions/2012-10-15.n3",
+      "issued": "2012-10-14T23:00:00.000Z",
+      "classNumber": "2",
+      "propertyNumber": "14",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/frbr/core",
+        "http://rdfs.org/ns/void#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://rdfs.org/ns/void#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2002/12/cal/ical#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/frbr/core",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/voaf/versions/2012-07-03.n3",
+      "issued": "2012-07-02T23:00:00.000Z",
+      "classNumber": "2",
+      "propertyNumber": "14",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/frbr/core",
+        "http://rdfs.org/ns/void#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://rdfs.org/ns/void#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2002/12/cal/ical#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/frbr/core",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v1.1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/voaf/versions/2011-11-16.n3",
+      "issued": "2011-11-16T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://labs.mondeca.com/vocab/voaf#",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v1.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/voaf/versions/2011-03-11.n3",
+      "issued": "2011-03-11T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://labs.mondeca.com/vocab/voaf#",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

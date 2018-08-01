@@ -1,0 +1,97 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-01-21T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "56a0baceff8848f96bd2c99f",
+      "name": "Gregg Kellogg"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "This document describes the RDFS vocabulary description used in the Metadata Vocabulary for Tabular Data along with the default JSON-LD Context.",
+      "lang": "en",
+      "_id": "56a0bb4eff8848f96bd2ca05"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2015-12-17T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-01-21T11:05:24.447Z",
+  "nsp": "http://www.w3.org/ns/csvw#",
+  "prefix": "csvw",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c1003",
+      "name": "W3C"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Vocabulary terms used in CSVW (CSV on the Web) recommendation to describe rows, columns, cells, etc.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2016-01-21T00:00:00.000Z",
+      "_id": "56a0bb4eff8848f96bd2ca04"
+    }
+  ],
+  "tags": [
+    "W3C Rec",
+    "Vocabularies"
+  ],
+  "titles": [
+    {
+      "value": "CSV on the Web Vocabulary",
+      "lang": "en",
+      "_id": "56a0bb4eff8848f96bd2ca06"
+    }
+  ],
+  "uri": "http://www.w3.org/ns/csvw#",
+  "versions": [
+    {
+      "name": "v2015-12-17",
+      "issued": "2015-12-17T00:00:00.000Z",
+      "datatypeNumber": "2",
+      "instanceNumber": "3",
+      "propertyNumber": "62",
+      "classNumber": "15",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/csvw/versions/2015-12-17.n3",
+      "_id": "56a0bb51ff8848f96bd2ca07",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

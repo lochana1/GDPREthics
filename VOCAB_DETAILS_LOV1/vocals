@@ -1,0 +1,143 @@
+{
+  "__v": 2,
+  "contributorIds": [],
+  "createdInLOVAt": "2018-02-25T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "59104b113ad3996127f91a54",
+      "name": "Jean-Paul Calbimonte"
+    },
+    {
+      "_id": "5a92dd9a67d9427a394cad74",
+      "name": "Riccardo Tommasini"
+    },
+    {
+      "_id": "5a92ddc767d9427a394cad8b",
+      "name": "Yehia Abo Sedira"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "This ontology aims to model RDF streams, their metadata, and access endpoints for publishing and consuming these streams",
+      "lang": "en",
+      "_id": "5ae77bd03b60c4c82ec0ef0b"
+    },
+    {
+      "value": "Esta ontología has sido diseñada para representar Streams de datos en RDF, así como los endpoints a través de los cuales se puede acceder a los datos de estos streams y los meta datos correspondientes.",
+      "lang": "es",
+      "_id": "5ae77bd03b60c4c82ec0ef0a"
+    },
+    {
+      "value": "Cette ontologie a été conçue pour representer des données et meta-données de streams RDF, ainsi que leurs points d'accès.",
+      "lang": "fr",
+      "_id": "5ae77bd03b60c4c82ec0ef09"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2017-12-01T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2018-04-30T00:00:00.000Z",
+  "nsp": "http://w3id.org/rsp/vocals#",
+  "prefix": "vocals",
+  "publisherIds": [
+    {
+      "_id": "59104b8b3ad3996127f91ac3",
+      "name": "Applied Intelligent Systems Lab"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Added to LOV",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2018-02-25T00:00:00.000Z",
+      "_id": "5ae77bd03b60c4c82ec0ef0d"
+    },
+    {
+      "body": "Added a version history of the vocabulary.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2018-04-30T00:00:00.000Z",
+      "_id": "5ae77bd03b60c4c82ec0ef0c"
+    }
+  ],
+  "tags": [
+    "IoT"
+  ],
+  "titles": [
+    {
+      "value": "VoCaLS: A Vocabulary and Catalog for Linked Streams",
+      "lang": "en",
+      "_id": "5ae77bd03b60c4c82ec0ef08"
+    },
+    {
+      "value": "VoCaLS: ontologie de representation de données et metadonnées de streams",
+      "lang": "fr",
+      "_id": "5ae77bd03b60c4c82ec0ef07"
+    }
+  ],
+  "uri": "http://w3id.org/rsp/vocals#",
+  "versions": [
+    {
+      "name": "0.1.1",
+      "issued": "2017-12-10T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "3",
+      "classNumber": "6",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/vocals/versions/2017-12-10.n3",
+      "_id": "5ae77b2e3b60c4c82ec0ede5",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/dcat",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [
+        "http://www.w3.org/ns/dcat"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

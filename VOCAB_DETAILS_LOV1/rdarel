@@ -1,0 +1,106 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2014-10-07T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fd3",
+      "name": "Metadata Management Associates"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/datos-bne-es.117.nt",
+      "label": "datos-bne-es.117.nt",
+      "occurrences": "18401"
+    },
+    {
+      "uri": "http://datahub.io/dataset/data-bnf-fr.rdf",
+      "label": "data-bnf-fr.rdf",
+      "occurrences": "80"
+    },
+    {
+      "uri": "http://datahub.io/dataset/sudocfr.rdf",
+      "label": "sudocfr.rdf",
+      "occurrences": "1"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "A vocabulary defining a large variety of specific relationships between the various levels of the FRBR pile.",
+      "lang": "en",
+      "_id": "56a6992137d8a8044b26676e"
+    }
+  ],
+  "issuedAt": "2009-01-19T00:00:00.000Z",
+  "lastDeref": "2014-10-07T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-01-25T00:00:00.000Z",
+  "nsp": "http://rdvocab.info/RDARelationshipsWEMI/",
+  "prefix": "rdarel",
+  "reviews": [
+    {
+      "body": "DEPRECATED. All provisional vocabularies in the http://rdvocab.info domain are replaced by stable vocabularies  at http://www.rdaregistry.info/Elements/.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-10-08T00:00:00.000Z",
+      "_id": "56a6992137d8a8044b266770"
+    },
+    {
+      "body": "Annual review - No change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-25T00:00:00.000Z",
+      "_id": "56a6992137d8a8044b26676f"
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "RDA Relationships for Works, Expressions, Manifestations, Items",
+      "lang": "en",
+      "_id": "56a6992137d8a8044b26676d"
+    }
+  ],
+  "uri": "http://rdvocab.info/RDARelationshipsWEMI",
+  "versions": [
+    {
+      "name": "v2012-03-09",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/rdarel/versions/2012-03-09.n3",
+      "issued": "2012-03-09T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "513",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://example.org/uri/schema/FRBRentitiesRDA/",
+        "http://rdvocab.info/uri/schema/FRBRentitiesRDA/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://metadataregistry.org/uri/profile/RegAp/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

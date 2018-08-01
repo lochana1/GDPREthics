@@ -1,0 +1,221 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2014-02-28T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f07",
+      "name": "Simon Cox"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "An OWL representation of part of the model for Temporal objects and reference systems from ISO 19108:2002 Geographic Information - Temporal Schema",
+      "lang": "en",
+      "_id": "59dcdf6f2febc4a21c316715"
+    }
+  ],
+  "issuedAt": "2011-01-01T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-10-10T00:00:00.000Z",
+  "nsp": "http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#",
+  "prefix": "tm",
+  "reviews": [
+    {
+      "body": "This vocabulary is provisional, pending finalization of ISO 19150-2, and hosted by CSIRO.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2014-02-28T00:00:00.000Z",
+      "_id": "59dcdf6f2febc4a21c316719"
+    },
+    {
+      "body": "Updated version history",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-08-12T00:00:00.000Z",
+      "_id": "59dcdf6f2febc4a21c316718"
+    },
+    {
+      "body": "Annual review - OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-19T00:00:00.000Z",
+      "_id": "59dcdf6f2febc4a21c316717"
+    },
+    {
+      "body": "Annual review - OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-10-10T00:00:00.000Z",
+      "_id": "59dcdf6f2febc4a21c316716"
+    }
+  ],
+  "tags": [
+    "Time"
+  ],
+  "titles": [
+    {
+      "value": "A vocabulary for temporal objects in Geographic Information",
+      "lang": "en",
+      "_id": "59dcdf6f2febc4a21c316714"
+    }
+  ],
+  "uri": "http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal",
+  "versions": [
+    {
+      "name": "v2014-08-13",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/tm/versions/2014-08-13.n3",
+      "issued": "2014-08-13T00:00:00.000Z",
+      "classNumber": "23",
+      "propertyNumber": "23",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "relImports": [
+        "http://def.seegrid.csiro.au/isotc211/iso19103/2005/",
+        "http://def.seegrid.csiro.au/isotc211/iso19115/2003/",
+        "http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": null,
+      "isReviewed": true
+    },
+    {
+      "name": "v2013-11-13",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/tm/versions/2013-11-13.n3",
+      "issued": "2013-11-13T00:00:00.000Z",
+      "classNumber": "23",
+      "propertyNumber": "23",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "relImports": [
+        "http://def.seegrid.csiro.au/isotc211/iso19103/2005/",
+        "http://def.seegrid.csiro.au/isotc211/iso19115/2003/",
+        "http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": null,
+      "isReviewed": false
+    },
+    {
+      "name": "v2012-10-26",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/tm/versions/2012-10-26.n3",
+      "issued": "2012-10-26T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [
+        "http://def.seegrid.csiro.au/isotc211/iso19103/2005/",
+        "http://def.seegrid.csiro.au/isotc211/iso19109/2005/",
+        "http://def.seegrid.csiro.au/isotc211/iso19115/2003/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://spinrdf.org/spin#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2012-07-24",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/tm/versions/2012-07-24.n3",
+      "issued": "2012-07-24T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [
+        "http://def.seegrid.csiro.au/isotc211/iso19103/2005/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://spinrdf.org/spin#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

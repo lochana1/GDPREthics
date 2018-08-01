@@ -1,0 +1,121 @@
+{
+  "__v": 3,
+  "createdInLOVAt": "2013-06-30T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e9c",
+      "name": "Varun Ratnakar"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f5e",
+      "name": "Daniel Garijo"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f5f",
+      "name": "Yolanda Gil"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Wf-invoc is a simple profile of the P-plan ontology to describe how workflow steps are invoked within a workflow execution.",
+      "lang": "en",
+      "_id": "586a48517e341093492b887d"
+    }
+  ],
+  "homepage": "http://www.opmw.org/model/wf-invocation/",
+  "issuedAt": "2013-05-16T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-01-02T00:00:00.000Z",
+  "nsp": "http://purl.org/net/wf-invocation#",
+  "prefix": "wf-invoc",
+  "reviews": [
+    {
+      "body": "Vocabulary inserted temporarily under Science->Methods. It could be included under a new category for scientific workflows and protocols.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-06-30T00:00:00.000Z",
+      "_id": "586a48517e341093492b8881"
+    },
+    {
+      "body": "Fixed version history",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-05-22T00:00:00.000Z",
+      "_id": "586a48517e341093492b8880"
+    },
+    {
+      "body": "Annual review. Deleted false positive 2014 version.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-05-04T00:00:00.000Z",
+      "_id": "586a48517e341093492b887f"
+    },
+    {
+      "body": "Annual review - No change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-01-02T00:00:00.000Z",
+      "_id": "586a48517e341093492b887e"
+    }
+  ],
+  "tags": [
+    "Methods"
+  ],
+  "titles": [
+    {
+      "value": "Workflow Invocation Ontology",
+      "lang": "en",
+      "_id": "586a48517e341093492b887c"
+    }
+  ],
+  "uri": "http://purl.org/net/wf-invocation",
+  "versions": [
+    {
+      "name": "v1.1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/wf-invoc/versions/2013-05-17.n3",
+      "issued": "2013-05-17T00:00:00.000Z",
+      "classNumber": "2",
+      "propertyNumber": "4",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/net/p-plan#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://purl.org/net/p-plan#"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

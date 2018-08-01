@@ -1,0 +1,95 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2014-10-07T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fd3",
+      "name": "Metadata Management Associates"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/datos-bne-es.117.nt",
+      "label": "datos-bne-es.117.nt",
+      "occurrences": "1043531"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The second group of metadata elements defined by RDA",
+      "lang": "en",
+      "_id": "56a5231537d8a8044b25e064"
+    }
+  ],
+  "issuedAt": "2009-06-17T00:00:00.000Z",
+  "lastDeref": "2014-10-07T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-01-24T00:00:00.000Z",
+  "nsp": "http://rdvocab.info/ElementsGr2/",
+  "prefix": "rdag2",
+  "reviews": [
+    {
+      "body": "DEPRECATED. All provisional vocabularies in the http://rdvocab.info domain are replaced by stable vocabularies  at http://www.rdaregistry.info/Elements/.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-10-08T00:00:00.000Z",
+      "_id": "56a5231537d8a8044b25e066"
+    },
+    {
+      "body": "Annual review - No changes",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-24T00:00:00.000Z",
+      "_id": "56a5231537d8a8044b25e065"
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "RDA Group 2 Elements",
+      "lang": "en",
+      "_id": "56a5231537d8a8044b25e063"
+    }
+  ],
+  "uri": "http://rdvocab.info/ElementsGr2",
+  "versions": [
+    {
+      "name": "v2011-10-13",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/rdag2/versions/2011-10-13.n3",
+      "issued": "2011-10-12T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "63",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://rdvocab.info/uri/schema/FRBRentitiesRDA/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://metadataregistry.org/uri/profile/RegAp/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

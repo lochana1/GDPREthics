@@ -1,0 +1,106 @@
+{
+  "__v": 2,
+  "contributorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fac",
+      "name": "CTIC Foundation"
+    },
+    {
+      "_id": "54b2be018433ca9ccf1c0e4a",
+      "name": "Diego Berrueta"
+    },
+    {
+      "_id": "54b2be018433ca9ccf1c0e4d",
+      "name": "Emilio Rubiera"
+    }
+  ],
+  "createdInLOVAt": "2013-08-30T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e59",
+      "name": "Luis Polo"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "WAI vocabulary aims to extend the FOAF specification through introducing the concepts of roles and profiles. In society, people are more than just persons, they can be musicians, presidents of government, firemen, football players or car drivers in a traffic jam.",
+      "lang": "en",
+      "_id": "568bea2b4ee7f7176ff1253f"
+    }
+  ],
+  "homepage": "http://vocab.ctic.es/wai/wai.html",
+  "issuedAt": "2010-10-11T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:52:34.191Z",
+  "lastModifiedInLOVAt": "2016-01-05T00:00:00.000Z",
+  "nsp": "http://purl.org/wai#",
+  "prefix": "wai",
+  "reviews": [
+    {
+      "body": "Good example of how to use OWL property chains",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-08-31T00:00:00.000Z",
+      "_id": "568bea2b4ee7f7176ff12541"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2016-01-05T00:00:00.000Z",
+      "_id": "568bea2b4ee7f7176ff12540"
+    }
+  ],
+  "tags": [
+    "People"
+  ],
+  "titles": [
+    {
+      "value": "Roles and Profiles Ontology",
+      "lang": "en",
+      "_id": "568bea2b4ee7f7176ff1253e"
+    }
+  ],
+  "uri": "http://purl.org/wai#",
+  "versions": [
+    {
+      "name": "v2010-10-11",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/wai/versions/2010-10-11.n3",
+      "issued": "2010-10-11T00:00:00.000Z",
+      "classNumber": "3",
+      "propertyNumber": "8",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-06-21T23:00:00.000Z",
+  "descriptions": [
+    {
+      "value": "Representing Content in RDF as defined by http://www.w3.org/TR/Content-in-RDF/",
+      "lang": "en",
+      "_id": "55d7288be4ac2b1c4c5a504c"
+    }
+  ],
+  "homepage": "http://www.w3.org/TR/Content-in-RDF10/",
+  "issuedAt": "2008-09-08T00:00:00.000Z",
+  "lastDeref": "2014-06-17T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-08-21T00:00:00.000Z",
+  "nsp": "http://www.w3.org/2011/content#",
+  "prefix": "cnt",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c1003",
+      "name": "W3C"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "The 10 May 2011 Working Draft of Representing Content in RDF 1.0 by the Evaluation and Repair Tools Working Group (ERT WG).",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2013-06-22T00:00:00.000Z",
+      "_id": "55d7288be4ac2b1c4c5a504f"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-18T00:00:00.000Z",
+      "_id": "55d7288be4ac2b1c4c5a504e"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-08-21T00:00:00.000Z",
+      "_id": "55d7288be4ac2b1c4c5a504d"
+    }
+  ],
+  "tags": [
+    "RDF"
+  ],
+  "titles": [
+    {
+      "value": "Representing Content in RDF",
+      "lang": "en",
+      "_id": "55d7288be4ac2b1c4c5a504b"
+    }
+  ],
+  "uri": "http://www.w3.org/2011/content",
+  "versions": [
+    {
+      "name": "Working Draft 2011-05-10",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/cnt/versions/2011-05-10.n3",
+      "issued": "2011-05-09T23:00:00.000Z",
+      "classNumber": "5",
+      "propertyNumber": "13",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://purl.org/dc/terms/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "Working Draft 2009-10-29",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/cnt/versions/2009-10-29.n3",
+      "issued": "2009-10-29T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "Working Draft 2008-09-08",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/cnt/versions/2008-09-08.n3",
+      "issued": "2008-09-07T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "__v": 1,
+  "contributorIds": [
+    {
+      "_id": "54b2be018433ca9ccf1c0e45",
+      "name": "Carlos Tejo Alonso"
+    }
+  ],
+  "createdInLOVAt": "2013-09-01T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e74",
+      "name": "Bernard Vatant"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "A vocabulary defining annotations enabling loose coupling between classes and properties in ontologies. Those annotations define with some accuracy the expected use of properties, in particular across vocabularies, without the formal constraints entailed by the use of OWL or RDFS constructions",
+      "lang": "en",
+      "_id": "56ae4f7998f0192c57ea0287"
+    }
+  ],
+  "issuedAt": "2013-02-07T00:00:00.000Z",
+  "lastDeref": "2014-11-24T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-01-31T00:00:00.000Z",
+  "nsp": "http://www.lingvoj.org/olca#",
+  "prefix": "olca",
+  "reviews": [
+    {
+      "body": "Blog post about olca: http://bvatant.blogspot.com.es/2013/02/schemaorg-and-ontology-loose-coupling.html",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-09-02T00:00:00.000Z",
+      "_id": "56ae4f7998f0192c57ea028a"
+    },
+    {
+      "body": "The html publication was relying on Parrot, but this service has some issues. No html documentation for now, only the Turtle file.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-11-24T00:00:00.000Z",
+      "_id": "56ae4f7998f0192c57ea0289"
+    },
+    {
+      "body": "Dereferencing issue with the new namespace.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-31T00:00:00.000Z",
+      "_id": "56ae4f7998f0192c57ea0288"
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "Ontology Loose Coupling Annotation",
+      "lang": "en",
+      "_id": "56ae4f7998f0192c57ea0286"
+    }
+  ],
+  "uri": "http://www.lingvoj.org/olca",
+  "versions": [
+    {
+      "name": "v1.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/olca/versions/2013-02-07.n3",
+      "issued": "2013-02-07T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "5",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

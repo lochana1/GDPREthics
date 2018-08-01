@@ -1,0 +1,98 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2015-10-19T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0eec",
+      "name": "Georgios Meditskos"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "OWL pattern for describing activity models as abstract dependencies among classes.",
+      "lang": "en",
+      "_id": "5624b6a942fc695f7e69522b"
+    }
+  ],
+  "homepage": "http://www.demcare.eu/ontologies/ctxdesc.html",
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2015-09-17T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-10-19T09:25:07.775Z",
+  "nsp": "http://www.demcare.eu/ontologies/contextdescriptor.owl#",
+  "prefix": "ctxdesc",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "The ontology provides abilities to annotate complex (high-level) activity classes with low-level observations for complex activity recognition.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-10-19T00:00:00.000Z",
+      "_id": "5624b6a942fc695f7e69522a"
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "Context Descriptor Pattern",
+      "lang": "en",
+      "_id": "5624b6a942fc695f7e69522c"
+    }
+  ],
+  "uri": "http://www.demcare.eu/ontologies/contextdescriptor.owl",
+  "versions": [
+    {
+      "_id": "5624b6ab42fc695f7e69522d",
+      "classNumber": "1",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ctxdesc/versions/2015-09-17.n3",
+      "instanceNumber": "0",
+      "issued": "2015-09-17T00:00:00.000Z",
+      "name": "v1.0",
+      "propertyNumber": "4",
+      "relSpecializes": [
+        "http://www.loa-cnr.it/ontologies/DUL.owl#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://www.loa-cnr.it/ontologies/",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

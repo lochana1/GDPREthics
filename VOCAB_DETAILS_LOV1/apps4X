@@ -1,0 +1,131 @@
+{
+  "__v": 3,
+  "createdInLOVAt": "2014-06-15T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e7e",
+      "name": "Ghislain Atemezing"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0e95",
+      "name": "Pieter Colpaert"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f27",
+      "name": "Anastasia Dimou"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "apps4X is an RDF vocabulary defined to facilitate the description of Open-Data-based Co-creation events",
+      "lang": "en",
+      "_id": "5731b4eeb5cce30e4a3b5289"
+    }
+  ],
+  "issuedAt": "2013-05-09T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-05-10T00:00:00.000Z",
+  "nsp": "http://semweb.mmlab.be/ns/apps4X#",
+  "prefix": "apps4X",
+  "reviews": [
+    {
+      "body": "A vocabulary for Apps for X contests and their results.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2014-06-15T00:00:00.000Z",
+      "_id": "5731b4eeb5cce30e4a3b528c"
+    },
+    {
+      "body": "Checked version history and BOT reviews",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-04-02T00:00:00.000Z",
+      "_id": "5731b4eeb5cce30e4a3b528b"
+    },
+    {
+      "body": "Annual review - no changes",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-05-10T00:00:00.000Z",
+      "_id": "5731b4eeb5cce30e4a3b528a"
+    }
+  ],
+  "tags": [
+    "RDF"
+  ],
+  "titles": [
+    {
+      "value": "The vocabulary for Co-creation Events based on Open Data",
+      "lang": "en",
+      "_id": "5731b4eeb5cce30e4a3b5288"
+    }
+  ],
+  "uri": "http://semweb.mmlab.be/ns/apps4X",
+  "versions": [
+    {
+      "classNumber": "4",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/apps4X/versions/2014-06-19.n3",
+      "instanceNumber": "0",
+      "issued": "2014-06-18T23:00:00.000Z",
+      "name": "v2014-06-19",
+      "propertyNumber": "16",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://linkedevents.org/ontology/",
+        "http://schema.org/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://linkedevents.org/ontology/",
+        "http://schema.org/",
+        "http://semweb.mmlab.be/ns/odapps#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v0",
+      "issued": "2013-05-10T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": true,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

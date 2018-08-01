@@ -1,0 +1,96 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2014-05-22T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e80",
+      "name": "Ivan Herman"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "This document describes the RDFa Vocabulary for Term and Prefix Assignment. The Vocabulary is used to modify RDFa 1.1 processing behavior",
+      "lang": "en",
+      "_id": "5783c5580183b1e80fc88266"
+    }
+  ],
+  "issuedAt": "2013-01-18T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-07-11T00:00:00.000Z",
+  "nsp": "http://www.w3.org/ns/rdfa#",
+  "prefix": "rdfa",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c1003",
+      "name": "W3C"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "A technical vocabulary to support RDFa implementations.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-05-22T00:00:00.000Z",
+      "_id": "5783c5580183b1e80fc88269"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-05-06T00:00:00.000Z",
+      "_id": "5783c5580183b1e80fc88268"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-07-11T00:00:00.000Z",
+      "_id": "5783c5580183b1e80fc88267"
+    }
+  ],
+  "tags": [
+    "RDF"
+  ],
+  "titles": [
+    {
+      "value": "RDFa Vocabulary for Term and Prefix Assignment, and for Processor Graph Reporting",
+      "lang": "en",
+      "_id": "5783c5580183b1e80fc88265"
+    }
+  ],
+  "uri": "http://www.w3.org/ns/rdfa#",
+  "versions": [
+    {
+      "name": "v2013-03-11",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/rdfa/versions/2013-03-11.n3",
+      "issued": "2013-03-11T00:00:00.000Z",
+      "classNumber": "13",
+      "propertyNumber": "7",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

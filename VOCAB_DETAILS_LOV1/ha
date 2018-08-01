@@ -1,0 +1,92 @@
+{
+  "__v": 3,
+  "createdInLOVAt": "2014-05-11T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f6f",
+      "name": "Konlakorn Wongpatikseree"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "An ontology to detect activity in a smart home",
+      "lang": "en",
+      "_id": "552b9a4b039260ce46e256fd"
+    }
+  ],
+  "issuedAt": "2014-04-02T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-04-13T10:35:15.355Z",
+  "nsp": "http://sensormeasurement.appspot.com/ont/home/homeActivity#",
+  "prefix": "ha",
+  "reviews": [
+    {
+      "body": "13 rules to deduce activities in a smart home defined as owl restrictions such as sweeping the floor, scrubbing the floor, making a coffee, cooking, eating or drinking, sleeping, working on a computer, taking a bath, watching tv, reading a book, sitting on the toilet, lying down relaxing, wash dishes.",
+      "agentId": {
+        "_id": "54b2be038433ca9ccf1c0f39",
+        "name": "Amélie Gyrard"
+      },
+      "createdAt": "2014-05-11T00:00:00.000Z",
+      "_id": "552b9a4b039260ce46e256ff"
+    },
+    {
+      "body": "Annual review OK. Checked version history. Simplified prefix from \"homeActivity\" to \"ha\"",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-04-13T00:00:00.000Z",
+      "_id": "552b9a4b039260ce46e256fe"
+    }
+  ],
+  "tags": [
+    "Environment"
+  ],
+  "titles": [
+    {
+      "value": "Home Activity",
+      "lang": "en",
+      "_id": "552b9a4b039260ce46e256fc"
+    }
+  ],
+  "uri": "http://sensormeasurement.appspot.com/ont/home/homeActivity#",
+  "versions": [
+    {
+      "name": "v0.1",
+      "issued": "2014-05-12T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "49",
+      "classNumber": "88",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ha/versions/2014-05-12.n3",
+      "_id": "552b9be3364f04dc7b13792b",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

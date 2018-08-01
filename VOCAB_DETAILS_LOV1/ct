@@ -1,0 +1,114 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-08-21T23:00:00.000Z",
+  "descriptions": [
+    {
+      "value": "Defines types of connectivity used in communication and bearer services accessible in certain connectivity.",
+      "lang": "en",
+      "_id": "55bb59c67459b3975b63c029"
+    }
+  ],
+  "homepage": "http://www.tele.pw.edu.pl/~sims-onto/",
+  "issuedAt": "2006-10-24T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:43:39.808Z",
+  "lastModifiedInLOVAt": "2015-07-31T00:00:00.000Z",
+  "nsp": "http://www.tele.pw.edu.pl/~sims-onto/ConnectivityType.owl#",
+  "prefix": "ct",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0ffc",
+      "name": "Institute of Telecommunications, Nowowiejska"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Other vocabularies in the same namespace to be reviewed. This vocabulary is not linked to/from any other in LOV so far.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-08-25T00:00:00.000Z",
+      "_id": "55bb59c67459b3975b63c02c"
+    },
+    {
+      "body": "One of 12 ontologies developed in 2006-2007 by SIMS Telecommunications, all documented at http://www.tele.pw.edu.pl/~sims-onto/",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-08-22T00:00:00.000Z",
+      "_id": "55bb59c67459b3975b63c02b"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-31T00:00:00.000Z",
+      "_id": "55bb59c67459b3975b63c02a"
+    }
+  ],
+  "tags": [
+    "Security"
+  ],
+  "titles": [
+    {
+      "value": "Connectivity types",
+      "lang": "en",
+      "_id": "55bb59c67459b3975b63c028"
+    }
+  ],
+  "uri": "http://www.tele.pw.edu.pl/~sims-onto/ConnectivityType.owl",
+  "versions": [
+    {
+      "name": "v1.4",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ct/versions/2007-08-23.n3",
+      "issued": "2007-08-22T23:00:00.000Z",
+      "classNumber": "13",
+      "propertyNumber": "4",
+      "instanceNumber": "30",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.tele.pw.edu.pl/~sims-onto/TelecomEntity.owl#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [
+        "http://www.tele.pw.edu.pl/~sims-onto/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.tele.pw.edu.pl/~sims-onto/TelecomEntity.owl#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v1.0",
+      "issued": "2006-10-23T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

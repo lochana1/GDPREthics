@@ -1,0 +1,189 @@
+{
+  "__v": 1,
+  "commentDeref": "Problem while dereferencing or parsing the vocabulary",
+  "createdInLOVAt": "2013-01-09T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f14",
+      "name": "Phil Archer"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f2b",
+      "name": "Andrea Perego"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/greek-legal-entities.48.rdf",
+      "label": "greek-legal-entities.48.rdf",
+      "occurrences": "84873"
+    },
+    {
+      "uri": "http://datahub.io/dataset/opencorporates.rdf",
+      "label": "opencorporates.rdf",
+      "occurrences": "5"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Le vocabulaire des organisations enregistrées est un profil de l'ontologie des organisations pour décrire les organisations ayant acquis un statut légal au travers d'un processus d'inscription formel, typiquement dans un registre national ou régional.",
+      "lang": "fr",
+      "_id": "569ccfb0ff8848f96bd16d05"
+    },
+    {
+      "value": "The Registered Organization Vocabulary is a profile of the Organization Ontology for describing organizations that have gained legal entity status through a formal registration process, typically in a national or regional register.",
+      "lang": "en",
+      "_id": "569ccfb0ff8848f96bd16d04"
+    }
+  ],
+  "homepage": "http://www.w3.org/2011/gld/",
+  "isDefinedBy": "http://www.w3.org/TR/vocab-regorg/",
+  "issuedAt": "2012-07-03T00:00:00.000Z",
+  "lastDeref": "2014-12-16T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-01-18T00:00:00.000Z",
+  "nsp": "http://www.w3.org/ns/regorg#",
+  "prefix": "rov",
+  "reviews": [
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-12-16T00:00:00.000Z",
+      "_id": "569ccfb0ff8848f96bd16d0a"
+    },
+    {
+      "body": "RegOrg is different from the Org vocabulary, but they are related. See http://www.w3.org/TR/vocab-regorg/#relOrg for the relationship with the Org vocabulary.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2013-01-09T00:00:00.000Z",
+      "_id": "569ccfb0ff8848f96bd16d09"
+    },
+    {
+      "body": "Added english + french description",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0ec8",
+        "name": "Thomas Francart"
+      },
+      "createdAt": "2013-08-24T00:00:00.000Z",
+      "_id": "569ccfb0ff8848f96bd16d08"
+    },
+    {
+      "body": "Vocabulary URI set to http://www.w3.org/ns/regorg",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-01-02T00:00:00.000Z",
+      "_id": "569ccfb0ff8848f96bd16d07"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-18T00:00:00.000Z",
+      "_id": "569ccfb0ff8848f96bd16d06"
+    }
+  ],
+  "tags": [
+    "Society"
+  ],
+  "titles": [
+    {
+      "value": "Registered Organization Vocabulary",
+      "lang": "en",
+      "_id": "569ccfb0ff8848f96bd16d03"
+    }
+  ],
+  "uri": "http://www.w3.org/ns/regorg",
+  "versions": [
+    {
+      "name": "v2013-12-21",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/rov/versions/2013-12-21.n3",
+      "issued": "2013-12-21T00:00:00.000Z",
+      "classNumber": "1",
+      "propertyNumber": "6",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/adms",
+        "http://www.w3.org/ns/org#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://purl.org/vocommons/voaf",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2007/05/powder-s",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2013-01-08",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/rov/versions/2013-01-08.n3",
+      "issued": "2013-01-08T00:00:00.000Z",
+      "classNumber": "1",
+      "propertyNumber": "6",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/adms",
+        "http://www.w3.org/ns/org#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2007/05/powder-s",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

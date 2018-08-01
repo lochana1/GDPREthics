@@ -1,0 +1,96 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-06-15T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "57612224a7910dac495f07c5",
+      "name": "Laura Daniele"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "This is the extension of SAREF for the EEBus and Energy@Home project. The documentation of SAREF4EE is available at http://ontology.tno.nl/SAREF4EE_Documentation_v0.1.pdf. SAREF4EE represents 1) The configuration information exchanged in the use case 'Remote Network Management' according to the EEBus Technical Report, Protocol Specification- Remote Network Management, version 1.0.0.2, 2015-09-19; 2) The scheduling information about power sequences exchanged in the use cases Appliance scheduling through CEM and remote start' and 'Automatic cycle rescheduling', according to the message structures described in General Message Structures, version 0.1.1, 2015-10-07; 3) The monitor and control information exchanged in the use case 'Communicate appliance status and info on manually planned cycles', according to the monitoring and control part of the Energy@Home Data Model, version 1.0; and 4) the event-based data exchanged in the use case 'Demand Response', according to General Message Structures, version 0.1.1, 2015-10-07.",
+      "lang": "en",
+      "_id": "57612b92a7910dac495f0b08"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "isDefinedBy": "http://ontology.tno.nl/saref4ee.owl",
+  "issuedAt": "2015-09-04T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-06-15T10:19:28.246Z",
+  "nsp": "https://w3id.org/saref4ee#",
+  "prefix": "s4ee",
+  "publisherIds": [
+    {
+      "_id": "57612638a7910dac495f08ac",
+      "name": "TNO"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "An extension of SAREF to enable interoperability between EEBus and Energy@Home devices in demand response use cases, in which customers can offer flexibility to the Smart Grid to manage their smart home devices by means of a Customer Energy Manager (CEM). The publisher should fix the conneg issue with https://w3id.org",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-06-15T00:00:00.000Z",
+      "_id": "57612b92a7910dac495f0b07"
+    }
+  ],
+  "tags": [
+    "Services",
+    "Environment"
+  ],
+  "titles": [
+    {
+      "value": "SAREF4EE: the EEbus/Energy@home extension of SAREF",
+      "lang": "en",
+      "_id": "57612b92a7910dac495f0b09"
+    }
+  ],
+  "uri": "https://w3id.org/saref4ee",
+  "versions": [
+    {
+      "_id": "57612b95a7910dac495f0b0a",
+      "classNumber": "115",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/s4ee/versions/2015-09-04.n3",
+      "instanceNumber": "73",
+      "issued": "2015-09-04T00:00:00.000Z",
+      "name": "v1.0",
+      "propertyNumber": "82",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2006/time",
+        "https://w3id.org/saref"
+      ],
+      "relImports": [
+        "https://w3id.org/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2006/time"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

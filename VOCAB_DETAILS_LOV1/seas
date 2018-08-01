@@ -1,0 +1,155 @@
+{
+  "__v": 4,
+  "contributorIds": [
+    {
+      "_id": "58415e926002ada739d0265a",
+      "name": "Jarmo Kalaoja"
+    }
+  ],
+  "createdInLOVAt": "2015-03-10T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54ff72862e3e52df4a3cc076",
+      "name": "Maxime Lefrançois"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "This vocabulary is version v0.1 of the ITEA2 Smart Energy Aware Systems project vocabulary. It enables the description of electricity measurements of a site using the Data Cube W3C vocabulary.",
+      "lang": "en",
+      "_id": "584ad2bb8a0d14e34d5efc19"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2015-01-24T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-12-09T00:00:00.000Z",
+  "nsp": "https://w3id.org/seas/",
+  "prefix": "seas",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "Content, structure and publication of this vocabulary are following LOV good practices. A comment in the Turtle file says \"we follow the linked vocabulary best practices\", and that's true!",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-03-10T00:00:00.000Z",
+      "_id": "584ad2bb8a0d14e34d5efc1c"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-08-12T00:00:00.000Z",
+      "_id": "584ad2bb8a0d14e34d5efc1b"
+    },
+    {
+      "body": "Changed URI from old namespace to new one in w3id. This vocabulary import different other modules in the same namespace at https://w3id.org/seas/.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-12-09T00:00:00.000Z",
+      "_id": "584ad2bb8a0d14e34d5efc1a"
+    }
+  ],
+  "tags": [
+    "Industry"
+  ],
+  "titles": [
+    {
+      "value": "SEAS ontology",
+      "lang": "en",
+      "_id": "584ad2bb8a0d14e34d5efc18"
+    }
+  ],
+  "uri": "https://w3id.org/seas/",
+  "versions": [
+    {
+      "name": "v0.1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/seas/versions/2015-01-24.n3",
+      "issued": "2015-01-24T00:00:00.000Z",
+      "classNumber": "9",
+      "propertyNumber": "20",
+      "instanceNumber": "2",
+      "datatypeNumber": "0",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://purl.org/linked-data/cube",
+        "http://qudt.org/schema/qudt",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/linked-data/cube",
+        "http://qudt.org/schema/qudt",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://qudt.org/schema/qudt",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v1.0",
+      "issued": "2016-05-25T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "0",
+      "classNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/seas/versions/2016-05-25.n3",
+      "_id": "584ad2428a0d14e34d5efc0b",
+      "relSpecializes": [],
+      "relImports": [
+        "https://w3id.org/seas/SystemOntology"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

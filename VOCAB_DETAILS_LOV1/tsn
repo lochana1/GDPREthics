@@ -1,0 +1,122 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2017-12-14T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "5a3280b2ece6c50213e9405b",
+      "name": "Jérôme Gensel"
+    },
+    {
+      "_id": "5a3280d9ece6c50213e94081",
+      "name": "Camille Bernard"
+    },
+    {
+      "_id": "5a328101ece6c50213e940af",
+      "name": "Marlène Villanova-Olivier"
+    },
+    {
+      "_id": "5a328117ece6c50213e940cb",
+      "name": "Hy Dao"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "This RDF ontology allows describing any Territorial Statistical Nomenclature (TSN) (i.e., partition of the territory) used as a support to socio-economic data (statistical data that describe territory in terms of population, unemployement rate, transport access, etc.).",
+      "lang": "en",
+      "_id": "5a328179ece6c50213e9412f"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2017-01-31T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-12-14T13:51:01.103Z",
+  "nsp": "http://purl.org/net/tsn#",
+  "prefix": "tsn",
+  "publisherIds": [
+    {
+      "_id": "5a32802fece6c50213e93fd5",
+      "name": "Steamer"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Vocabulary for the description of territory's partition",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2017-12-14T00:00:00.000Z",
+      "_id": "5a328179ece6c50213e9412e"
+    }
+  ],
+  "tags": [
+    "Geography",
+    "Geometry",
+    "Government"
+  ],
+  "titles": [
+    {
+      "value": "Territorial Statistical Nomenclature Ontology",
+      "lang": "en",
+      "_id": "5a328179ece6c50213e94130"
+    }
+  ],
+  "uri": "http://purl.org/net/tsn#",
+  "versions": [
+    {
+      "_id": "5a32817cece6c50213e94135",
+      "classNumber": "11",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/tsn/versions/2017-01-31.n3",
+      "instanceNumber": "0",
+      "issued": "2017-01-31T00:00:00.000Z",
+      "name": "v1.0",
+      "propertyNumber": "20",
+      "relSpecializes": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/pav/",
+        "http://www.opengis.net/ont/geosparql",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/dc/terms/",
+        "http://www.opengis.net/ont/geosparql",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "https://www.w3.org/2006/time#"
+      ],
+      "relEquivalent": [
+        "http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#",
+        "http://www.opengis.net/ont/geosparql"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

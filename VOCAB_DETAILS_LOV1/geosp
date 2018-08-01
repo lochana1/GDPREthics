@@ -1,0 +1,172 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-06-03T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e93",
+      "name": "Peter J. DeVries"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/geospecies.8.rdf",
+      "label": "geospecies.8.rdf",
+      "occurrences": "1060592"
+    },
+    {
+      "uri": "http://datahub.io/dataset/geospecies",
+      "label": "GeoSpecies Knowledge Base",
+      "occurrences": "408"
+    },
+    {
+      "uri": "http://datahub.io/dataset/geospecies.0.rdf",
+      "label": "geospecies.0.rdf",
+      "occurrences": "56"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The GeoSpecies Ontology is used to describe geographical distribution of living species.",
+      "lang": "en",
+      "_id": "55ae8357cff711cc3f2b194a"
+    }
+  ],
+  "isDefinedBy": "http://rdf.geospecies.org/ont/geospecies.owl",
+  "issuedAt": "2011-03-30T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:52:12.709Z",
+  "lastModifiedInLOVAt": "2015-07-21T00:00:00.000Z",
+  "nsp": "http://rdf.geospecies.org/ont/geospecies#",
+  "prefix": "geosp",
+  "reviews": [
+    {
+      "body": "Content negotiation issue on the namespace, but the OWL file is available.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-06-04T00:00:00.000Z",
+      "_id": "55ae8357cff711cc3f2b194d"
+    },
+    {
+      "body": "Annual review OK. Content negotiation seems to be fixed.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-04T00:00:00.000Z",
+      "_id": "55ae8357cff711cc3f2b194c"
+    },
+    {
+      "body": "Some problem with content negotiation.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-21T00:00:00.000Z",
+      "_id": "55ae8357cff711cc3f2b194b"
+    }
+  ],
+  "tags": [
+    "Environment"
+  ],
+  "titles": [
+    {
+      "value": "GeoSpecies Ontology",
+      "lang": "en",
+      "_id": "55ae8357cff711cc3f2b1949"
+    }
+  ],
+  "uri": "http://rdf.geospecies.org/ont/geospecies",
+  "versions": [
+    {
+      "name": "v2012-10-02",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/geosp/versions/2012-10-02.n3",
+      "issued": "2012-10-01T23:00:00.000Z",
+      "classNumber": "67",
+      "propertyNumber": "111",
+      "instanceNumber": "203",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/NET/c4dm/event.owl",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/ontology/bibo/",
+        "http://www.geonames.org/ontology#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [
+        "http://rdf.geospecies.org/methods/observationMethod.rdf"
+      ],
+      "relExtends": [
+        "http://dbpedia.org/property/",
+        "http://www.geonames.org/ontology#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [
+        "http://lod.taxonconcept.org/ontology/txn.owl",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://usefulinc.com/ns/doap#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v2011-03-30",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/geosp/versions/2011-03-30.n3",
+      "issued": "2011-03-29T23:00:00.000Z",
+      "classNumber": "67",
+      "propertyNumber": "111",
+      "instanceNumber": "203",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/NET/c4dm/event.owl",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/ontology/bibo/",
+        "http://www.geonames.org/ontology#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [
+        "http://rdf.geospecies.org/methods/observationMethod.rdf"
+      ],
+      "relExtends": [
+        "http://dbpedia.org/property/",
+        "http://www.geonames.org/ontology#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [
+        "http://lod.taxonconcept.org/ontology/txn.owl",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://usefulinc.com/ns/doap#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

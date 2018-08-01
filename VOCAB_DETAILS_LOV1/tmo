@@ -1,0 +1,152 @@
+{
+  "__v": 4,
+  "createdInLOVAt": "2013-05-19T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "55312a3a00421f5f6ed69a05",
+      "name": "M. Scott Marshall"
+    },
+    {
+      "_id": "55312a8c00421f5f6ed69a08",
+      "name": "Julia Kozlovsky"
+    },
+    {
+      "_id": "55312afa00421f5f6ed69a0b",
+      "name": "Joanne Luciano"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f90",
+      "name": "Michel Dumontier"
+    },
+    {
+      "_id": "5534db6b92fbe6e5228e6fce",
+      "name": "Colin Batchelor"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The Translational Medicine Ontology (TMO) is a high-level, patient-centric ontology that extends existing domain ontologies to integrate data across aspects of drug discovery and clinical practice. The ontology has been developed by participants in the World Wide Web Consortium's Semantic Web for Health Care and Life Sciences Interest Group",
+      "lang": "en",
+      "_id": "57f74b8b812207ab0362dd0d"
+    }
+  ],
+  "lastDeref": "2014-05-18T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-10-07T00:00:00.000Z",
+  "nsp": "http://www.w3.org/2001/sw/hcls/ns/transmed/",
+  "prefix": "tmo",
+  "publisherIds": [
+    {
+      "_id": "55312c4a00421f5f6ed69a12",
+      "name": "W3C Semantic Web Health Care and Life Sciences Interest Group"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Classes and properties are not declared under the declared xmlns http://www.w3.org/2001/sw/hcls/ns/transmed/tmo#, but directly under http://www.w3.org/2001/sw/hcls/ns/transmed/. The later is therefore taken here as the \"actual\" vocabulary namespace and URI. Both URI are de-referencable to the same RDF file anyway.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-05-19T00:00:00.000Z",
+      "_id": "57f74b8b812207ab0362dd12"
+    },
+    {
+      "body": "This vocabulary relies on a few other, very specific OBO vocabularies, which have not been included in LOV.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-05-20T00:00:00.000Z",
+      "_id": "57f74b8b812207ab0362dd11"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-05-18T00:00:00.000Z",
+      "_id": "57f74b8b812207ab0362dd10"
+    },
+    {
+      "body": "Added creators and publishers. This vocabulary is maintained on Google Code, which is closing soon. Editors contacted to know where it will be moved to.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-04-17T00:00:00.000Z",
+      "_id": "57f74b8b812207ab0362dd0f"
+    },
+    {
+      "body": "Offline as of this annual review time",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-10-07T00:00:00.000Z",
+      "_id": "57f74b8b812207ab0362dd0e"
+    }
+  ],
+  "tags": [
+    "Health"
+  ],
+  "titles": [
+    {
+      "value": "Translational Medicine Ontology",
+      "lang": "en",
+      "_id": "57f74b8b812207ab0362dd0c"
+    }
+  ],
+  "uri": "http://www.w3.org/2001/sw/hcls/ns/transmed/",
+  "versions": [
+    {
+      "name": "v1.02",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/tmo/versions/2012-07-03.n3",
+      "issued": "2012-07-02T23:00:00.000Z",
+      "classNumber": "204",
+      "propertyNumber": "8",
+      "instanceNumber": "15",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.obolibrary.org/obo/",
+        "http://www.ifomis.org/bfo/1.1/snap#",
+        "http://www.ifomis.org/bfo/1.1/span#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://translationalmedicineontology.googlecode.com/svn/trunk/ontology/"
+      ],
+      "relGeneralizes": [
+        "http://purl.obolibrary.org/obo/"
+      ],
+      "relExtends": [
+        "http://purl.obolibrary.org/obo/"
+      ],
+      "relEquivalent": [
+        "http://purl.obolibrary.org/obo/"
+      ],
+      "relDisjunc": [
+        "http://purl.obolibrary.org/obo/"
+      ],
+      "relMetadata": [
+        "http://purl.obolibrary.org/obo/",
+        "http://purl.org/dc/elements/1.1/",
+        "http://spinrdf.org/spin",
+        "http://www.geneontology.org/formats/oboInOwl#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

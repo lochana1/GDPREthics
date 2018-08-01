@@ -1,0 +1,71 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-08-29T23:00:00.000Z",
+  "descriptions": [
+    {
+      "value": "A set of annotation properties to be used for ontology design patterns",
+      "lang": "en",
+      "_id": "568beccf4ee7f7176ff12596"
+    }
+  ],
+  "issuedAt": "2009-06-02T00:00:00.000Z",
+  "lastDeref": "2014-10-08T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-01-05T00:00:00.000Z",
+  "nsp": "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#",
+  "prefix": "cpa",
+  "reviews": [
+    {
+      "body": "Reused almost exclusively by all vocabularies in the http://ontologydesignpatterns namespace, not much linked to the rest of the LOV ecosystem.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-08-30T00:00:00.000Z",
+      "_id": "568beccf4ee7f7176ff12598"
+    },
+    {
+      "body": "Annual review OK. No metadata in the RDF file and no language tags. Date of the version is the file last modified date in the directory http://www.ontologydesignpatterns.org/schemas/",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2016-01-05T00:00:00.000Z",
+      "_id": "568beccf4ee7f7176ff12597"
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "Content Pattern Annotations",
+      "lang": "en",
+      "_id": "568beccf4ee7f7176ff12595"
+    }
+  ],
+  "uri": "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl",
+  "versions": [
+    {
+      "name": "v2009-06-02",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/cpa/versions/2009-06-02.n3",
+      "issued": "2009-06-01T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "11",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

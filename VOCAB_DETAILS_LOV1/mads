@@ -1,0 +1,201 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-07-01T23:00:00.000Z",
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/worldcat.nt",
+      "label": "worldcat.nt",
+      "occurrences": "5093133"
+    },
+    {
+      "uri": "http://datahub.io/dataset/datos-bne-es.117.nt",
+      "label": "datos-bne-es.117.nt",
+      "occurrences": "1036811"
+    },
+    {
+      "uri": "http://datahub.io/dataset/lcsh.0.rdf",
+      "label": "lcsh.0.rdf",
+      "occurrences": "16"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "MADS/RDF (Metadata Authority Description Schema in RDF) is a knowledge organization system (KOS) designed for use with controlled values for names (personal, corporate, geographic, etc.), thesauri, taxonomies, subject heading systems, and other controlled value lists",
+      "lang": "en",
+      "_id": "567e70384ee7f7176fea7b82"
+    }
+  ],
+  "homepage": "http://www.loc.gov/standards/mads/rdf/",
+  "isDefinedBy": "http://www.loc.gov/standards/mads/rdf/v1.rdf",
+  "issuedAt": "2010-11-19T00:00:00.000Z",
+  "lastDeref": "2014-07-27T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-12-26T00:00:00.000Z",
+  "nsp": "http://www.loc.gov/mads/rdf/v1#",
+  "prefix": "mads",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fbb",
+      "name": "Library of Congress"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "A significant work has been done by the Library of Congress on this vocabulary, in particular regarding its articulation with SKOS and SKOS-XL. It is one of the formats used by id.loc.gov publications such as LSCH. See for example http://id.loc.gov/authorities/subjects",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-07-02T00:00:00.000Z",
+      "_id": "567e70384ee7f7176fea7b85"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-07-28T00:00:00.000Z",
+      "_id": "567e70384ee7f7176fea7b84"
+    },
+    {
+      "body": "Added a new version of the vocabulary based on the updated version in the HTML view. There is no indication of such information in the machine readable version, so very hard to track.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-12-26T00:00:00.000Z",
+      "_id": "567e70384ee7f7176fea7b83"
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "Metadata Authority Description Schema",
+      "lang": "en",
+      "_id": "567e70384ee7f7176fea7b81"
+    }
+  ],
+  "uri": "http://www.loc.gov/mads/rdf/v1",
+  "versions": [
+    {
+      "name": "v2012-05-10",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/mads/versions/2012-05-10.n3",
+      "issued": "2012-05-09T23:00:00.000Z",
+      "classNumber": "58",
+      "propertyNumber": "73",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://www.w3.org/2008/05/skos-xl#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2011-03-28",
+      "issued": "2011-03-27T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": false
+    },
+    {
+      "name": "v2010-11-19",
+      "issued": "2010-11-19T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": false
+    },
+    {
+      "name": "v2015-1028",
+      "issued": "2015-10-28T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "93",
+      "classNumber": "58",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/mads/versions/2015-10-28.n3",
+      "_id": "567e6fb54ee7f7176fea7b80",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2004/02/skos/core",
+        "http://www.w3.org/2008/05/skos-xl",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

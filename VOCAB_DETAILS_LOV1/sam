@@ -1,0 +1,245 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2014-02-28T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f07",
+      "name": "Simon Cox"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "An OWL representation of the Sampling Features Schema described in clauses 8-10 of ISO 19156:2011 Geographic Information - Observations and Measurements.",
+      "lang": "en",
+      "_id": "55d737b0e4ac2b1c4c5a52f7"
+    }
+  ],
+  "homepage": "http://www.essepuntato.it/lode/owlapi/http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling",
+  "issuedAt": "2012-01-19T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-08-21T00:00:00.000Z",
+  "nsp": "http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#",
+  "prefix": "sam",
+  "reviews": [
+    {
+      "body": "The URI stem http://def.seegrid.csiro.au/isotc211/ is temporary. The vocabulary is expected to be ultimately published in the domain http://def.isotc211.org/",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2014-02-28T00:00:00.000Z",
+      "_id": "55d737b0e4ac2b1c4c5a52fa"
+    },
+    {
+      "body": "Fixed version history and links.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-18T00:00:00.000Z",
+      "_id": "55d737b0e4ac2b1c4c5a52f9"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-08-21T00:00:00.000Z",
+      "_id": "55d737b0e4ac2b1c4c5a52f8"
+    }
+  ],
+  "tags": [
+    "Methods"
+  ],
+  "titles": [
+    {
+      "value": "The Sampling Features Schema Vocabulary",
+      "lang": "en",
+      "_id": "55d737b0e4ac2b1c4c5a52f6"
+    }
+  ],
+  "uri": "http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling",
+  "versions": [
+    {
+      "name": "v2014-08-28",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/sam/versions/2014-08-28.n3",
+      "issued": "2014-08-27T23:00:00.000Z",
+      "classNumber": "13",
+      "propertyNumber": "22",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic",
+        "http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [
+        "http://def.seegrid.csiro.au/isotc211/iso19103/2005/",
+        "http://def.seegrid.csiro.au/isotc211/iso19107/2003/",
+        "http://def.seegrid.csiro.au/isotc211/iso19108/2002/",
+        "http://def.seegrid.csiro.au/isotc211/iso19115/2003/",
+        "http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/",
+        "http://def.seegrid.csiro.au/isotc211/iso19156/2011/"
+      ],
+      "relGeneralizes": [
+        "http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry",
+        "http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent",
+        "http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation"
+      ],
+      "relExtends": [
+        "http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry",
+        "http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal",
+        "http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature",
+        "http://def.seegrid.csiro.au/isotc211/iso19115/2003/dataquality",
+        "http://def.seegrid.csiro.au/isotc211/iso19115/2003/lineage",
+        "http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relEquivalent": [
+        "http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation"
+      ],
+      "relDisjunc": [
+        "http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation"
+      ],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2013-11-14",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/sam/versions/2013-11-14.n3",
+      "issued": "2013-11-14T00:00:00.000Z",
+      "classNumber": "13",
+      "propertyNumber": "22",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic",
+        "http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [
+        "http://def.seegrid.csiro.au/isotc211/iso19103/2005/",
+        "http://def.seegrid.csiro.au/isotc211/iso19107/2003/",
+        "http://def.seegrid.csiro.au/isotc211/iso19108/2002/",
+        "http://def.seegrid.csiro.au/isotc211/iso19115/2003/",
+        "http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/",
+        "http://def.seegrid.csiro.au/isotc211/iso19156/2011/"
+      ],
+      "relGeneralizes": [
+        "http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry",
+        "http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent",
+        "http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation"
+      ],
+      "relExtends": [
+        "http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry",
+        "http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal",
+        "http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature",
+        "http://def.seegrid.csiro.au/isotc211/iso19115/2003/dataquality",
+        "http://def.seegrid.csiro.au/isotc211/iso19115/2003/lineage",
+        "http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relEquivalent": [
+        "http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation"
+      ],
+      "relDisjunc": [
+        "http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation"
+      ],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2012-07-24",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/sam/versions/2012-07-24.n3",
+      "issued": "2012-07-23T23:00:00.000Z",
+      "classNumber": "13",
+      "propertyNumber": "22",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic",
+        "http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature",
+        "http://def.seegrid.csiro.au/isotc211/iso19150/2012/hm2owl#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [
+        "http://def.seegrid.csiro.au/isotc211/iso19156/2011/"
+      ],
+      "relGeneralizes": [
+        "http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation"
+      ],
+      "relExtends": [
+        "http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry",
+        "http://def.seegrid.csiro.au/isotc211/iso19108/2006/temporal#",
+        "http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature",
+        "http://def.seegrid.csiro.au/isotc211/iso19115/2003/dataquality",
+        "http://def.seegrid.csiro.au/isotc211/iso19115/2003/lineage",
+        "http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relEquivalent": [
+        "http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation"
+      ],
+      "relDisjunc": [
+        "http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation"
+      ],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://spinrdf.org/spin#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

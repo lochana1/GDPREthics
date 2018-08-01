@@ -1,0 +1,186 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-07-04T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fdb",
+      "name": "RENDER Project"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The Knowledge Diversity Ontology aims at providing a vocabulary that describes different dimensions of knowledge diversity of the Web. To support the representation of diversity information, the conceptual model of the Knowledge Diversity Ontology includes concepts and relations that were identified and modelled by focusing on real world scenarios in context of customer feedback, news, and Wikipedia opinion mining as well as content and sentiment analysis.",
+      "lang": "en",
+      "_id": "55e05790419d00687563ad50"
+    }
+  ],
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-08-28T00:00:00.000Z",
+  "nsp": "http://kdo.render-project.eu/kdo#",
+  "prefix": "kdo",
+  "reviews": [
+    {
+      "body": "Annual review - Fixed version history",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-06T00:00:00.000Z",
+      "_id": "55e05790419d00687563ad53"
+    },
+    {
+      "body": "Comment in the RDF file reads : \"This ontology is currently under development in context with the RENDER project.\" The documentation page for the ontology at http://kdo.render-project.eu says \"has been developed\". It's unclear if the source of this documentation is the file available at the namespace, and if it is a final deliverable of the project, due to end in september 2013.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-07-05T00:00:00.000Z",
+      "_id": "55e05790419d00687563ad52"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-08-28T00:00:00.000Z",
+      "_id": "55e05790419d00687563ad51"
+    }
+  ],
+  "tags": [
+    "Quality"
+  ],
+  "titles": [
+    {
+      "value": "The Knowledge Diversity Ontology",
+      "lang": "en",
+      "_id": "55e05790419d00687563ad4f"
+    }
+  ],
+  "uri": "http://kdo.render-project.eu/kdo#",
+  "versions": [
+    {
+      "name": "v2014-06-07",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/kdo/versions/2014-06-07.n3",
+      "issued": "2014-06-06T23:00:00.000Z",
+      "classNumber": "7",
+      "propertyNumber": "9",
+      "instanceNumber": "3",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://rdfs.org/sioc/ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://rdfs.org/sioc/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://rdfs.org/sioc/ns#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2.2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/kdo/versions/2012-10-03.n3",
+      "issued": "2012-10-02T23:00:00.000Z",
+      "classNumber": "7",
+      "propertyNumber": "9",
+      "instanceNumber": "3",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://rdfs.org/sioc/ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://rdfs.org/sioc/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://rdfs.org/sioc/ns#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2.1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/kdo/versions/2012-05-15.n3",
+      "issued": "2012-05-14T23:00:00.000Z",
+      "classNumber": "7",
+      "propertyNumber": "8",
+      "instanceNumber": "3",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://rdfs.org/sioc/ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://rdfs.org/sioc/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://rdfs.org/sioc/ns#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

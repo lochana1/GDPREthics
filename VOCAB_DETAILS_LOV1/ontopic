@@ -1,0 +1,148 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-06-10T23:00:00.000Z",
+  "descriptions": [
+    {
+      "value": "An ontology of topics as used in thesauri, subject directories, etc.",
+      "lang": "en",
+      "_id": "55bb60e07459b3975b63c07a"
+    }
+  ],
+  "lastDeref": "2014-06-08T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-07-31T00:00:00.000Z",
+  "nsp": "http://www.ontologydesignpatterns.org/ont/dul/ontopic.owl#",
+  "prefix": "ontopic",
+  "reviews": [
+    {
+      "body": "This is an attempt to provide an ontology for the concepts (or topics) in a thesaurus or other KOS. Based on DOLCE concepts, it's certainly more expressive and standing on less shaky ontological foundations than SKOS, but nevertheless far less popular (no visible use in the LOD cloud)",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-06-11T00:00:00.000Z",
+      "_id": "55bb60e07459b3975b63c07d"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-09T00:00:00.000Z",
+      "_id": "55bb60e07459b3975b63c07c"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-31T00:00:00.000Z",
+      "_id": "55bb60e07459b3975b63c07b"
+    }
+  ],
+  "tags": [
+    "Vocabularies"
+  ],
+  "titles": [
+    {
+      "value": "Ontopic Ontology",
+      "lang": "en",
+      "_id": "55bb60e07459b3975b63c079"
+    }
+  ],
+  "uri": "http://www.ontologydesignpatterns.org/ont/dul/ontopic.owl",
+  "versions": [
+    {
+      "name": "v1.5",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ontopic/versions/2010-02-05.n3",
+      "issued": "2010-02-05T00:00:00.000Z",
+      "classNumber": "7",
+      "propertyNumber": "13",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+        "http://www.ontologydesignpatterns.org/ont/dul/IOLite.owl",
+        "http://www.ontologydesignpatterns.org/ont/lmm/LMM_L1.owl#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://www.ontologydesignpatterns.org/ont/lmm/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+        "http://www.ontologydesignpatterns.org/ont/lmm/LMM_L1.owl#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v1.4",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ontopic/versions/2009-06-05.n3",
+      "issued": "2009-06-04T23:00:00.000Z",
+      "classNumber": "7",
+      "propertyNumber": "13",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+        "http://www.ontologydesignpatterns.org/ont/dul/IOLite.owl",
+        "http://www.ontologydesignpatterns.org/ont/lmm/LMM_L1.owl#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://www.ontologydesignpatterns.org/ont/lmm/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-05-21T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0faa",
+      "name": "Digital Enterprise Research Institute (DERI)"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The aim of the Semantic Web Portal Ontology is to serve as the conceptual backbone for community portals driven by Semantic Web technologies.",
+      "lang": "en",
+      "_id": "586ba1657e341093492c473a"
+    }
+  ],
+  "issuedAt": "2004-10-19T00:00:00.000Z",
+  "lastDeref": "2014-05-21T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-01-03T00:00:00.000Z",
+  "nsp": "http://sw-portal.deri.org/ontologies/swportal#",
+  "prefix": "swpo",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0faa",
+      "name": "Digital Enterprise Research Institute (DERI)"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Quite similar in scope and intention to AKT Portal ontology.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-05-21T00:00:00.000Z",
+      "_id": "586ba1657e341093492c473e"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-05-21T00:00:00.000Z",
+      "_id": "586ba1657e341093492c473d"
+    },
+    {
+      "body": "Annual review - stable.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-05-04T00:00:00.000Z",
+      "_id": "586ba1657e341093492c473c"
+    },
+    {
+      "body": "Not available during this annual review.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-01-03T00:00:00.000Z",
+      "_id": "586ba1657e341093492c473b"
+    }
+  ],
+  "tags": [
+    "Society"
+  ],
+  "titles": [
+    {
+      "value": "Semantic Web Portal Ontology",
+      "lang": "en",
+      "_id": "586ba1657e341093492c4739"
+    }
+  ],
+  "uri": "http://sw-portal.deri.org/ontologies/swportal",
+  "versions": [
+    {
+      "name": "v2004-10-20",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/swpo/versions/2004-10-20.n3",
+      "issued": "2004-10-19T23:00:00.000Z",
+      "classNumber": "57",
+      "propertyNumber": "69",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [
+        "http://purl.org/dc/elements/1.1/"
+      ],
+      "relGeneralizes": [
+        "http://purl.org/rss/1.0",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relExtends": [
+        "http://purl.org/rss/1.0",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.wsmo.org/ontologies/dateTime#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [
+        "http://purl.org/rss/1.0"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

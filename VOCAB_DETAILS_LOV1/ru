@@ -1,0 +1,98 @@
+{
+  "__v": 2,
+  "commentDeref": "Problem while dereferencing or parsing the vocabulary",
+  "createdInLOVAt": "2013-06-04T23:00:00.000Z",
+  "descriptions": [
+    {
+      "value": "Draft for a recommendation for metadata on Representational Units (RU) which appear in ontologies. It is so far harmonized for implementation through owl annotation properties.",
+      "lang": "en",
+      "_id": "59dce1ee2febc4a21c3169a8"
+    }
+  ],
+  "lastDeref": "2014-06-04T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-10-10T00:00:00.000Z",
+  "nsp": "http://purl.org/imbi/ru-meta.owl#",
+  "prefix": "ru",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fd7",
+      "name": "OBI COnsortium"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-05T00:00:00.000Z",
+      "_id": "59dce1ee2febc4a21c3169ac"
+    },
+    {
+      "body": "This draft seems to be reused only by BIOTOP ontology.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-06-05T00:00:00.000Z",
+      "_id": "59dce1ee2febc4a21c3169ab"
+    },
+    {
+      "body": "Problem with Purl redirection at the time of annual review",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-08-01T00:00:00.000Z",
+      "_id": "59dce1ee2febc4a21c3169aa"
+    },
+    {
+      "body": "Issue in dereferencing the ontology",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-10-10T00:00:00.000Z",
+      "_id": "59dce1ee2febc4a21c3169a9"
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "Representational Units Metadata Ontology",
+      "lang": "en",
+      "_id": "59dce1ee2febc4a21c3169a7"
+    }
+  ],
+  "uri": "http://purl.org/imbi/ru-meta.owl",
+  "versions": [
+    {
+      "name": "v0.1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ru/versions/2009-04-08.n3",
+      "issued": "2009-04-07T23:00:00.000Z",
+      "classNumber": "3",
+      "propertyNumber": "45",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

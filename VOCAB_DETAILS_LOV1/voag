@@ -1,0 +1,151 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-05-19T23:00:00.000Z",
+  "descriptions": [
+    {
+      "value": "VOAG is intended to specify licensing, attribution, provenance and governance of an ontology.",
+      "lang": "en",
+      "_id": "5696a56cff8848f96bd11d77"
+    }
+  ],
+  "issuedAt": "2011-01-31T00:00:00.000Z",
+  "lastDeref": "2014-07-14T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-01-13T00:00:00.000Z",
+  "nsp": "http://voag.linkedmodel.org/voag#",
+  "prefix": "voag",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fde",
+      "name": "TopQuadrant"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Two imported vocabularies, \"vaem-xina\" and \"vaem-xics\", are 404.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-05-20T00:00:00.000Z",
+      "_id": "5696a56cff8848f96bd11d7a"
+    },
+    {
+      "body": "Annual review - no change in status of imported vocabularies. The two versions have the same \"revision number\" value.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-07-15T00:00:00.000Z",
+      "_id": "5696a56cff8848f96bd11d79"
+    },
+    {
+      "body": "Annual review: error 404",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2016-01-13T00:00:00.000Z",
+      "_id": "5696a56cff8848f96bd11d78"
+    }
+  ],
+  "tags": [
+    "Quality"
+  ],
+  "titles": [
+    {
+      "value": "Vocabulary Of Attribution and Governance",
+      "lang": "en",
+      "_id": "5696a56cff8848f96bd11d76"
+    }
+  ],
+  "uri": "http://voag.linkedmodel.org/schema/voag",
+  "versions": [
+    {
+      "name": "v1.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/voag/versions/2012-11-01.n3",
+      "issued": "2012-11-01T00:00:00.000Z",
+      "classNumber": "60",
+      "propertyNumber": "106",
+      "instanceNumber": "76",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://rdfs.org/ns/void#",
+        "http://www.linkedmodel.org/schema/dtype#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/ns/prov#"
+      ],
+      "relImports": [
+        "http://rdfs.org/ns/",
+        "http://www.linkedmodel.org/1.2/schema/",
+        "http://www.linkedmodel.org/schema/",
+        "http://www.w3.org/ns/20120724/"
+      ],
+      "relGeneralizes": [
+        "http://rdfs.org/ns/void#",
+        "http://www.linkedmodel.org/schema/vaem#"
+      ],
+      "relExtends": [
+        "http://www.linkedmodel.org/schema/vaem#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.linkedmodel.org/schema/dtype#",
+        "http://www.linkedmodel.org/schema/vaem#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v1.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/voag/versions/2011-06-12.n3",
+      "issued": "2011-06-11T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [
+        "http://rdfs.org/ns/",
+        "http://www.linkedmodel.org/schema/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://voag.linkedmodel.org/schema/voag#",
+        "http://www.linkedmodel.org/schema/vaem#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

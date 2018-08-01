@@ -1,0 +1,175 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2014-06-16T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e95",
+      "name": "Pieter Colpaert"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0ef3",
+      "name": "Steven Verstockt"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0efc",
+      "name": "Laurens De Vocht"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f27",
+      "name": "Anastasia Dimou"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "A vocabulary to describe opening hours using calendars (recommended: iCal, RDFCal or schema.org) published on the Web.",
+      "lang": "en",
+      "_id": "55abcede57613119099d7de7"
+    }
+  ],
+  "homepage": "https://github.com/pietercolpaert/openinghoursontology",
+  "issuedAt": "2013-12-05T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-07-19T16:24:43.059Z",
+  "nsp": "http://semweb.mmlab.be/ns/oh#",
+  "prefix": "oh",
+  "reviews": [
+    {
+      "body": "A small vocabulary for structuring opening hours on the web based on the calendar. More details can be found at openinghours.io.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2014-06-17T00:00:00.000Z",
+      "_id": "55abcede57613119099d7de9"
+    },
+    {
+      "body": "Annual review - OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-19T00:00:00.000Z",
+      "_id": "55abcede57613119099d7de8"
+    }
+  ],
+  "tags": [
+    "Time"
+  ],
+  "titles": [
+    {
+      "value": "The Opening Hours vocabulary",
+      "lang": "en",
+      "_id": "55abcede57613119099d7de6"
+    }
+  ],
+  "uri": "http://semweb.mmlab.be/ns/oh",
+  "versions": [
+    {
+      "name": "v2014-06-19",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/oh/versions/2014-06-19.n3",
+      "issued": "2014-06-18T23:00:00.000Z",
+      "classNumber": "3",
+      "propertyNumber": "3",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2014.0616",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/oh/versions/2014-06-16.n3",
+      "issued": "2014-06-15T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2015.0522",
+      "issued": "2015-05-22T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "4",
+      "classNumber": "3",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/oh/versions/2015-05-22.n3",
+      "_id": "55abcf4b57613119099d7e25",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

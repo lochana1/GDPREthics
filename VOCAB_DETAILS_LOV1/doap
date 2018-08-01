@@ -1,0 +1,262 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-05-23T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e7b",
+      "name": "Edd Dumbill"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/aksworg.rdf",
+      "label": "aksworg.rdf",
+      "occurrences": "230"
+    },
+    {
+      "uri": "http://datahub.io/dataset/aksworg.ttl",
+      "label": "aksworg.ttl",
+      "occurrences": "230"
+    },
+    {
+      "uri": "http://datahub.io/dataset/farmers-markets-geographic-data-united-states.0.ttl",
+      "label": "farmers-markets-geographic-data-united-states.0.ttl",
+      "occurrences": "35"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-congressional-districts.0.ttl",
+      "label": "instance-hub-us-congressional-districts.0.ttl",
+      "occurrences": "35"
+    },
+    {
+      "uri": "http://datahub.io/dataset/lod2",
+      "label": "LOD2 Project Website Data",
+      "occurrences": "34"
+    },
+    {
+      "uri": "http://datahub.io/dataset/biographical-directory-of-the-united-states-congress.0.ttl",
+      "label": "biographical-directory-of-the-united-states-congress.0.ttl",
+      "occurrences": "33"
+    },
+    {
+      "uri": "http://datahub.io/dataset/farmers-markets-geographic-data-united-states.ttl",
+      "label": "farmers-markets-geographic-data-united-states.ttl",
+      "occurrences": "33"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-countries.ttl",
+      "label": "instance-hub-countries.ttl",
+      "occurrences": "33"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-organizations.0.ttl",
+      "label": "instance-hub-organizations.0.ttl",
+      "occurrences": "33"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-people.ttl",
+      "label": "instance-hub-people.ttl",
+      "occurrences": "33"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-civil-servants.ttl",
+      "label": "instance-hub-us-civil-servants.ttl",
+      "occurrences": "33"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-congressional-committees.0.ttl",
+      "label": "instance-hub-us-congressional-committees.0.ttl",
+      "occurrences": "33"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-crops.0.ttl",
+      "label": "instance-hub-us-crops.0.ttl",
+      "occurrences": "33"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-toxic-chemicals.0.ttl",
+      "label": "instance-hub-us-toxic-chemicals.0.ttl",
+      "occurrences": "33"
+    },
+    {
+      "uri": "http://datahub.io/dataset/w3c-provenance-incubator-group-vocabulary-mappings.0.ttl",
+      "label": "w3c-provenance-incubator-group-vocabulary-mappings.0.ttl",
+      "occurrences": "33"
+    },
+    {
+      "uri": "http://datahub.io/dataset/debian-package-tracking-system.0.",
+      "label": "debian-package-tracking-system.0.",
+      "occurrences": "22"
+    },
+    {
+      "uri": "http://datahub.io/dataset/education-openuplabs.rdf",
+      "label": "education-openuplabs.rdf",
+      "occurrences": "11"
+    },
+    {
+      "uri": "http://datahub.io/dataset/transport-openuplabs.rdf",
+      "label": "transport-openuplabs.rdf",
+      "occurrences": "11"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rdfohloh.rdf",
+      "label": "rdfohloh.rdf",
+      "occurrences": "9"
+    },
+    {
+      "uri": "http://datahub.io/dataset/data-gov-uk-time-intervals.rdf",
+      "label": "data-gov-uk-time-intervals.rdf",
+      "occurrences": "8"
+    },
+    {
+      "uri": "http://datahub.io/dataset/vulnerapedia.5.rdf",
+      "label": "vulnerapedia.5.rdf",
+      "occurrences": "5"
+    },
+    {
+      "uri": "http://datahub.io/dataset/geospecies",
+      "label": "GeoSpecies Knowledge Base",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/geospecies.8.rdf",
+      "label": "geospecies.8.rdf",
+      "occurrences": "1"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The Description of a Project (DOAP) vocabulary, described using W3C RDF Schema and the Web Ontology Language.",
+      "lang": "en",
+      "_id": "57d2ceb7a3a9d3a63d7e8b49"
+    }
+  ],
+  "homepage": "https://github.com/edumbill/doap/wiki",
+  "isDefinedBy": "https://github.com/edumbill/doap/blob/master/schema/doap.rdf",
+  "lastDeref": "2014-05-26T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-09-09T00:00:00.000Z",
+  "nsp": "http://usefulinc.com/ns/doap#",
+  "prefix": "doap",
+  "reviews": [
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be038433ca9ccf1c0f39",
+        "name": "Amélie Gyrard"
+      },
+      "createdAt": "2014-05-26T00:00:00.000Z",
+      "_id": "57d2ceb7a3a9d3a63d7e8b4d"
+    },
+    {
+      "body": "First issued in 2004, the code was moved to GitHub in january 2012, but the publication kept in its previous namespace. Too bad there is no backlink to the GitHub repository in the RDF file.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-05-23T00:00:00.000Z",
+      "_id": "57d2ceb7a3a9d3a63d7e8b4c"
+    },
+    {
+      "body": "The vocabulary namespace is 404. It should redirect to the GitHub version.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-03-11T00:00:00.000Z",
+      "_id": "57d2ceb7a3a9d3a63d7e8b4b"
+    },
+    {
+      "body": "Annual review - OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-09-09T00:00:00.000Z",
+      "_id": "57d2ceb7a3a9d3a63d7e8b4a"
+    }
+  ],
+  "tags": [
+    "Society"
+  ],
+  "titles": [
+    {
+      "value": "Description of a Project vocabulary",
+      "lang": "en",
+      "_id": "57d2ceb7a3a9d3a63d7e8b48"
+    }
+  ],
+  "uri": "http://usefulinc.com/ns/doap#",
+  "versions": [
+    {
+      "name": "v2012-01-04",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/doap/versions/2012-01-04.n3",
+      "issued": "2012-01-04T00:00:00.000Z",
+      "classNumber": "12",
+      "propertyNumber": "37",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/",
+        "http://xmlns.com/wordnet/1.6/"
+      ],
+      "relImports": [
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e08",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ces",
+          "label": "Czech",
+          "iso639P3PCode": "ces"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1b",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/jpn",
+          "label": "Japanese",
+          "iso639P3PCode": "jpn"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

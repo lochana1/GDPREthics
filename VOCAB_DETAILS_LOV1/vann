@@ -1,0 +1,220 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-06-03T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f70",
+      "name": "Ian Davis"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/prefix-cc.rdf",
+      "label": "prefix-cc.rdf",
+      "occurrences": "2370"
+    },
+    {
+      "uri": "http://datahub.io/dataset/farmers-markets-geographic-data-united-states.0.ttl",
+      "label": "farmers-markets-geographic-data-united-states.0.ttl",
+      "occurrences": "168"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-congressional-districts.0.ttl",
+      "label": "instance-hub-us-congressional-districts.0.ttl",
+      "occurrences": "154"
+    },
+    {
+      "uri": "http://datahub.io/dataset/biographical-directory-of-the-united-states-congress.0.ttl",
+      "label": "biographical-directory-of-the-united-states-congress.0.ttl",
+      "occurrences": "106"
+    },
+    {
+      "uri": "http://datahub.io/dataset/w3c-provenance-incubator-group-vocabulary-mappings.0.ttl",
+      "label": "w3c-provenance-incubator-group-vocabulary-mappings.0.ttl",
+      "occurrences": "96"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-countries.ttl",
+      "label": "instance-hub-countries.ttl",
+      "occurrences": "94"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-organizations.0.ttl",
+      "label": "instance-hub-organizations.0.ttl",
+      "occurrences": "92"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-congressional-committees.0.ttl",
+      "label": "instance-hub-us-congressional-committees.0.ttl",
+      "occurrences": "92"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-toxic-chemicals.0.ttl",
+      "label": "instance-hub-us-toxic-chemicals.0.ttl",
+      "occurrences": "92"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-people.ttl",
+      "label": "instance-hub-people.ttl",
+      "occurrences": "90"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-civil-servants.ttl",
+      "label": "instance-hub-us-civil-servants.ttl",
+      "occurrences": "88"
+    },
+    {
+      "uri": "http://datahub.io/dataset/farmers-markets-geographic-data-united-states.ttl",
+      "label": "farmers-markets-geographic-data-united-states.ttl",
+      "occurrences": "84"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-crops.0.ttl",
+      "label": "instance-hub-us-crops.0.ttl",
+      "occurrences": "58"
+    },
+    {
+      "uri": "http://datahub.io/dataset/clean-energy-data-reegle.0.rdf",
+      "label": "clean-energy-data-reegle.0.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/event-media.0.",
+      "label": "event-media.0.",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/sparql-endpoint-status.rdf",
+      "label": "sparql-endpoint-status.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/taxonconcept.0.rdf",
+      "label": "taxonconcept.0.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/vivo-university-of-florida.rdf",
+      "label": "vivo-university-of-florida.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/bioportal-sio.rdf",
+      "label": "bioportal-sio.rdf",
+      "occurrences": "1"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "A vocabulary for annotating descriptions of vocabularies with examples and usage notes.",
+      "lang": "en",
+      "_id": "584fb3598a0d14e34d5f69fc"
+    }
+  ],
+  "issuedAt": "2004-03-05T00:00:00.000Z",
+  "lastDeref": "2014-06-03T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-12-13T00:00:00.000Z",
+  "nsp": "http://purl.org/vocab/vann/",
+  "prefix": "vann",
+  "reviews": [
+    {
+      "body": "A useful vocabulary to add metadata to other vocabularies or ontologies, using only few properties, without any class.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2013-06-03T00:00:00.000Z",
+      "_id": "584fb3598a0d14e34d5f6a00"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-03T00:00:00.000Z",
+      "_id": "584fb3598a0d14e34d5f69ff"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-06-02T00:00:00.000Z",
+      "_id": "584fb3598a0d14e34d5f69fe"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-12-13T00:00:00.000Z",
+      "_id": "584fb3598a0d14e34d5f69fd"
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "VANN: A vocabulary for annotating vocabulary descriptions",
+      "lang": "en",
+      "_id": "584fb3598a0d14e34d5f69fb"
+    }
+  ],
+  "uri": "http://purl.org/vocab/vann/",
+  "versions": [
+    {
+      "name": "v2010-06-07",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/vann/versions/2010-06-07.n3",
+      "issued": "2010-06-06T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "6",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2004-03-05",
+      "issued": "2004-03-05T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": true
+    }
+  ]
+}

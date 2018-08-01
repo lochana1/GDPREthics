@@ -1,0 +1,108 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-09-01T23:00:00.000Z",
+  "descriptions": [
+    {
+      "value": "The ontology of agent relationships, AgRelOn, defines relations of persons to other persons and to organisations",
+      "lang": "en",
+      "_id": "568beac84ee7f7176ff1256b"
+    }
+  ],
+  "lastDeref": "2015-01-11T20:43:33.751Z",
+  "lastModifiedInLOVAt": "2016-01-05T00:00:00.000Z",
+  "nsp": "http://d-nb.info/standards/elementset/agrelon.owl#",
+  "prefix": "agrelon",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fe1",
+      "name": "Deutsche Nationalbibliothek"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Defines a rich variety of specific relationships, which are modeled as classes. This modeling option allows representation of n-ary relationships and subsumption of relationship types. The counterpart is no link with other, simpler vocabularies in the same field (such as foaf or org)",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-09-02T00:00:00.000Z",
+      "_id": "568beac84ee7f7176ff1256d"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2016-01-05T00:00:00.000Z",
+      "_id": "568beac84ee7f7176ff1256c"
+    }
+  ],
+  "tags": [
+    "People"
+  ],
+  "titles": [
+    {
+      "value": "Agent Relationship Ontology",
+      "lang": "en",
+      "_id": "568beac84ee7f7176ff1256a"
+    }
+  ],
+  "uri": "http://d-nb.info/standards/elementset/agrelon.owl#",
+  "versions": [
+    {
+      "classNumber": "48",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/agrelon/versions/2011-06-30.n3",
+      "instanceNumber": "0",
+      "issued": "2011-06-30T00:00:00.000Z",
+      "name": "v0.9",
+      "propertyNumber": "83",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

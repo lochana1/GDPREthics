@@ -1,0 +1,114 @@
+{
+  "__v": 1,
+  "commentDeref": "Problem while dereferencing or parsing the vocabulary",
+  "createdInLOVAt": "2014-08-17T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fd5",
+      "name": "OPDM project"
+    },
+    {
+      "_id": "54b2be048433ca9ccf1c0ffd",
+      "name": "E-Business and Web Science Research Group"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Vocabulary to describe fridges and freezers",
+      "lang": "en",
+      "_id": "56a51f8937d8a8044b25de6c"
+    }
+  ],
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-01-24T00:00:00.000Z",
+  "nsp": "http://purl.org/opdm/refrigerator#",
+  "prefix": "ofrd",
+  "reviews": [
+    {
+      "body": "No date in the metadata, the version date is the one of addition to LOV.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-08-18T00:00:00.000Z",
+      "_id": "56a51f8937d8a8044b25de6e"
+    },
+    {
+      "body": "Annual review - No changes",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-24T00:00:00.000Z",
+      "_id": "56a51f8937d8a8044b25de6d"
+    }
+  ],
+  "tags": [
+    "Industry"
+  ],
+  "titles": [
+    {
+      "value": "Fridge and Freezer Vocabulary",
+      "lang": "en",
+      "_id": "56a51f8937d8a8044b25de6b"
+    }
+  ],
+  "uri": "http://purl.org/opdm/refrigerator#",
+  "versions": [
+    {
+      "name": "v2014-08-18",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ofrd/versions/2014-08-18.n3",
+      "issued": "2014-08-17T23:00:00.000Z",
+      "classNumber": "8",
+      "propertyNumber": "30",
+      "instanceNumber": "24",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/goodrelations/v1",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://purl.org/goodrelations/",
+        "http://purl.org/opdm/utility#"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/goodrelations/v1",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/opdm/utility#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

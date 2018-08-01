@@ -1,0 +1,106 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2014-10-07T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fd3",
+      "name": "Metadata Management Associates"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "This group of RDA elements defines preferred and variant names for concepts, places and events",
+      "lang": "en",
+      "_id": "56a64ddc37d8a8044b264307"
+    }
+  ],
+  "issuedAt": "2009-06-23T00:00:00.000Z",
+  "lastDeref": "2014-10-07T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-01-25T00:00:00.000Z",
+  "nsp": "http://rdvocab.info/ElementsGr3/",
+  "prefix": "rdag3",
+  "reviews": [
+    {
+      "body": "DEPRECATED. All provisional vocabularies in the http://rdvocab.info domain are replaced by stable vocabularies  at http://www.rdaregistry.info/Elements/.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-10-08T00:00:00.000Z",
+      "_id": "56a64ddc37d8a8044b264309"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-25T00:00:00.000Z",
+      "_id": "56a64ddc37d8a8044b264308"
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "RDA Group 3 Elements",
+      "lang": "en",
+      "_id": "56a64ddc37d8a8044b264306"
+    }
+  ],
+  "uri": "http://rdvocab.info/ElementsGr3",
+  "versions": [
+    {
+      "name": "v2011-08-01",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/rdag3/versions/2011-08-01.n3",
+      "issued": "2011-07-31T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "19",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://rdvocab.info/uri/schema/FRBRentitiesRDA/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://metadataregistry.org/uri/profile/RegAp/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2009-06-23",
+      "issued": "2009-06-22T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": false
+    }
+  ]
+}

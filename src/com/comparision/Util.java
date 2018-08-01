@@ -21,7 +21,7 @@ public class Util {
     //Contains a map of DatasetOntology Name and List of vocabs Areas present in the Ontology
     static Map<String, List<String>> OntRep = new HashMap<>();
 
-  //Contains a map of DatasetOntology Name and List of vocabs prefixes present in the Ontology
+   //Contains a map of DatasetOntology Name and List of vocabs prefixes present in the Ontology
     static Map<String, List<String>> OntVocabPrefixes = new HashMap<>();
 
     //Contains a map of vocab prefix and associated Vocab Area todo same as BOW_Vocabs
@@ -34,6 +34,8 @@ public class Util {
     static Map<String, List<String>> GdprInVocab = new HashMap<>();
 
     static Map<String, Set<String>> VocabInDatasetLabel = new HashMap<>();
+
+    //Contains a map of Dataset Label & Vocab areas
     static Map<String, Set<String>> VocabAreasInDatasetLabel = new HashMap<>();
     static Map<String, List<String>> GDPRAreasInDatasetLabel = new HashMap<>();
 

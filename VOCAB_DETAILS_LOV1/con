@@ -1,0 +1,190 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-06-17T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f62",
+      "name": "Tim Berners-Lee"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/farmers-markets-geographic-data-united-states.ttl",
+      "label": "farmers-markets-geographic-data-united-states.ttl",
+      "occurrences": "21678"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-civil-servants.ttl",
+      "label": "instance-hub-us-civil-servants.ttl",
+      "occurrences": "544"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-congressional-districts.0.ttl",
+      "label": "instance-hub-us-congressional-districts.0.ttl",
+      "occurrences": "445"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-countries.ttl",
+      "label": "instance-hub-countries.ttl",
+      "occurrences": "203"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-people.ttl",
+      "label": "instance-hub-people.ttl",
+      "occurrences": "128"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-federal-agencies.ttl",
+      "label": "instance-hub-us-federal-agencies.ttl",
+      "occurrences": "102"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-toxic-chemicals.0.ttl",
+      "label": "instance-hub-us-toxic-chemicals.0.ttl",
+      "occurrences": "98"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-organizations.0.ttl",
+      "label": "instance-hub-organizations.0.ttl",
+      "occurrences": "58"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-states-and-territories.ttl",
+      "label": "instance-hub-us-states-and-territories.ttl",
+      "occurrences": "56"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-congressional-committees.0.ttl",
+      "label": "instance-hub-us-congressional-committees.0.ttl",
+      "occurrences": "20"
+    },
+    {
+      "uri": "http://datahub.io/dataset/farmers-markets-geographic-data-united-states.0.ttl",
+      "label": "farmers-markets-geographic-data-united-states.0.ttl",
+      "occurrences": "15"
+    },
+    {
+      "uri": "http://datahub.io/dataset/biographical-directory-of-the-united-states-congress.0.ttl",
+      "label": "biographical-directory-of-the-united-states-congress.0.ttl",
+      "occurrences": "13"
+    },
+    {
+      "uri": "http://datahub.io/dataset/instance-hub-us-crops.0.ttl",
+      "label": "instance-hub-us-crops.0.ttl",
+      "occurrences": "9"
+    },
+    {
+      "uri": "http://datahub.io/dataset/w3c-provenance-incubator-group-vocabulary-mappings.0.ttl",
+      "label": "w3c-provenance-incubator-group-vocabulary-mappings.0.ttl",
+      "occurrences": "9"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-profile.rdf",
+      "label": "southampton-ac-uk-profile.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-profile.ttl",
+      "label": "southampton-ac-uk-profile.ttl",
+      "occurrences": "1"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Utility concepts for everyday life",
+      "lang": "en",
+      "_id": "55d7299ae4ac2b1c4c5a508b"
+    }
+  ],
+  "lastDeref": "2014-06-16T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-08-21T00:00:00.000Z",
+  "nsp": "http://www.w3.org/2000/10/swap/pim/contact#",
+  "prefix": "con",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c1003",
+      "name": "W3C"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "No HTML found.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-06-18T00:00:00.000Z",
+      "_id": "55d7299ae4ac2b1c4c5a508e"
+    },
+    {
+      "body": "Yet another legacy vocabulary standing (forever?) on W3C shelves, which despite its famous signature, has neither official status, documentation nor version history.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-17T00:00:00.000Z",
+      "_id": "55d7299ae4ac2b1c4c5a508d"
+    },
+    {
+      "body": "Annual review OK. Not sure this vocabulary will evolve.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-08-21T00:00:00.000Z",
+      "_id": "55d7299ae4ac2b1c4c5a508c"
+    }
+  ],
+  "tags": [
+    "People"
+  ],
+  "titles": [
+    {
+      "value": "Contact",
+      "lang": "en",
+      "_id": "55d7299ae4ac2b1c4c5a508a"
+    }
+  ],
+  "uri": "http://www.w3.org/2000/10/swap/pim/contact",
+  "versions": [
+    {
+      "name": "v1.18",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/con/versions/2011-02-01.n3",
+      "issued": "2011-02-01T00:00:00.000Z",
+      "classNumber": "16",
+      "propertyNumber": "48",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

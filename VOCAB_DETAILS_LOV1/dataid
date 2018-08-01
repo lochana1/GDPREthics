@@ -1,0 +1,110 @@
+{
+  "__v": 0,
+  "contributorIds": [
+    {
+      "_id": "57d905f7812207ab034e4b82",
+      "name": "Martin Brümmer"
+    }
+  ],
+  "createdInLOVAt": "2016-09-14T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "57d905d0812207ab034e4b63",
+      "name": "Markus Freudenberg"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "DBpedia Data ID is an ontology with the goal of describing LOD datasets via RDF files in a uniform way. Established vocabularies like DCAT, VoID, Prov-O and SPARQL Service Description are used for maximum compatibility.",
+      "lang": "en",
+      "_id": "57d906bb812207ab034e4c17"
+    }
+  ],
+  "homepage": "http://wiki.dbpedia.org/projects/dbpedia-dataid",
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "lastModifiedInLOVAt": "2016-09-14T08:14:40.399Z",
+  "nsp": "http://dataid.dbpedia.org/ns/core#",
+  "prefix": "dataid",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "A nice vocabulary submitted during the Vocarnival 2016. Its goal is to extensively describes datasets and their different manifestations in a uniform way, as well as relations to agents like persons or organisations, in regard to their rights and responsibilities.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-09-14T00:00:00.000Z",
+      "_id": "57d906bb812207ab034e4c16"
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "DataID",
+      "lang": "en",
+      "_id": "57d906bb812207ab034e4c18"
+    }
+  ],
+  "uri": "http://dataid.dbpedia.org/ns/core#",
+  "versions": [
+    {
+      "_id": "57d906be812207ab034e4c1a",
+      "classNumber": "19",
+      "datatypeNumber": "2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/dataid/versions/2016-09-14.n3",
+      "instanceNumber": "23",
+      "issued": "2016-09-14T00:00:00.000Z",
+      "name": "v2.0",
+      "propertyNumber": "27",
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://vocab.deri.ie/void",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/dcat",
+        "http://www.w3.org/ns/prov#",
+        "http://www.w3.org/ns/sparql-service-description",
+        "http://www.w3.org/ns/wsdl-rdf#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [
+        "http://vocab.deri.ie/",
+        "http://www.w3.org/ns/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/ns/dcat",
+        "http://www.w3.org/ns/prov#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "__v": 1,
+  "contributorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f62",
+      "name": "Tim Berners-Lee"
+    }
+  ],
+  "createdInLOVAt": "2013-04-14T23:00:00.000Z",
+  "descriptions": [
+    {
+      "value": "An historical ontology used by the cwm command-line tool back in the very early days of the semantic web (~ 2000- 2003 ?)",
+      "lang": "en",
+      "_id": "56916ba5b7cea413588f9323"
+    },
+    {
+      "value": "Une ontologie \"historique\" utilisée par l'outil en ligne de commande cwm, au temps des balbutiements du web sémantique (~ 2000 - 2003 ?)",
+      "lang": "fr",
+      "_id": "56916ba5b7cea413588f9322"
+    }
+  ],
+  "homepage": "http://www.w3.org/2000/10/swap/doc/CwmBuiltins",
+  "issuedAt": "2000-10-01T00:00:00.000Z",
+  "lastDeref": "2014-09-30T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-01-09T00:00:00.000Z",
+  "nsp": "http://www.w3.org/2000/10/swap/log#",
+  "prefix": "log",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c1003",
+      "name": "W3C"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "This vocabulary defined in W3C namespace has absolutely no metadata, not even a title (the one put here is out of my hat, not sure it makes sense) or description. Put here for the record because it is linked from and to other W3C vocabularies.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-04-15T00:00:00.000Z",
+      "_id": "56916ba5b7cea413588f9327"
+    },
+    {
+      "body": "Found some information (including a title : \"Logic\") on the \"Semantic Web Application Platform\" project page. (note that this project used other ontologies too, listed at http://www.w3.org/2000/10/swap/doc/CwmBuiltins). Advice : don't try to reuse unless you are a (semantic) web historian.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0ec8",
+        "name": "Thomas Francart"
+      },
+      "createdAt": "2013-08-24T00:00:00.000Z",
+      "_id": "56916ba5b7cea413588f9326"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-10-01T00:00:00.000Z",
+      "_id": "56916ba5b7cea413588f9325"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-09T00:00:00.000Z",
+      "_id": "56916ba5b7cea413588f9324"
+    }
+  ],
+  "tags": [
+    "RDF"
+  ],
+  "titles": [
+    {
+      "value": "SWAP Logic Ontology",
+      "lang": "en",
+      "_id": "56916ba5b7cea413588f9321"
+    }
+  ],
+  "uri": "http://www.w3.org/2000/10/swap/log",
+  "versions": [
+    {
+      "name": "v1.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/log/versions/2000-10-01.n3",
+      "issued": "2000-09-30T23:00:00.000Z",
+      "classNumber": "7",
+      "propertyNumber": "20",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/10/swap/pim/doc#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

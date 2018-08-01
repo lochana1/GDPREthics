@@ -1,0 +1,94 @@
+{
+  "__v": 1,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-10-24T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54ff72862e3e52df4a3cc076",
+      "name": "Maxime Lefrançois"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The process execution ontology is a proposal for a simple extension of both the [W3C Semantic Sensor Network](https://www.w3.org/TR/vocab-ssn/) and the [Semantic Actuator Network](https://www.irit.fr/recherches/MELODI/ontologies/SAN.owl) ontology cores.",
+      "lang": "en",
+      "_id": "59a6847f7845e44d19bf8ffd"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2016-07-01T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-08-30T00:00:00.000Z",
+  "nsp": "https://w3id.org/pep/",
+  "prefix": "pep",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "This vocabulary  exposes the process executors on the Web in a RESTful way at https://w3id.org/pep/platform.html",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-10-24T00:00:00.000Z",
+      "_id": "59a6847f7845e44d19bf8ffe"
+    }
+  ],
+  "tags": [
+    "Industry",
+    "Services",
+    "Methods"
+  ],
+  "titles": [
+    {
+      "value": "Process Execution ontology.",
+      "lang": "en",
+      "_id": "59a6847f7845e44d19bf8ffc"
+    }
+  ],
+  "uri": "https://w3id.org/pep/",
+  "versions": [
+    {
+      "_id": "580e17d97ada884367888853",
+      "classNumber": "4",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/pep/versions/2016-07-01.n3",
+      "instanceNumber": "0",
+      "issued": "2016-07-01T00:00:00.000Z",
+      "name": "v1.1",
+      "propertyNumber": "10",
+      "relSpecializes": [
+        "http://www.w3.org/2005/Incubator/ssn/ssnx/ssn",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

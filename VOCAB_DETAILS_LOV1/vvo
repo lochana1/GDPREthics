@@ -1,0 +1,122 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-06-16T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f21",
+      "name": "Martin Hepp"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "A vocabulary for describing Volkswagen-specific features of automobiles and their components",
+      "lang": "en",
+      "_id": "59a697e77845e44d19bf9b46"
+    }
+  ],
+  "homepage": "http://purl.org/vvo/ns.html",
+  "isDefinedBy": "http://www.volkswagen.co.uk/vocabularies/vvo/ns",
+  "issuedAt": "2010-10-12T00:00:00.000Z",
+  "lastDeref": "2014-06-12T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-08-30T00:00:00.000Z",
+  "nsp": "http://purl.org/vvo/ns#",
+  "prefix": "vvo",
+  "reviews": [
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-13T00:00:00.000Z",
+      "_id": "59a697e77845e44d19bf9b4a"
+    },
+    {
+      "body": "Content negotiation issue on the namespace, but the RDF file is linked from the HTML page.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-06-17T00:00:00.000Z",
+      "_id": "59a697e77845e44d19bf9b49"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-08-21T00:00:00.000Z",
+      "_id": "59a697e77845e44d19bf9b48"
+    },
+    {
+      "body": "Added the creator name and link to eBusiness tag",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-08-30T00:00:00.000Z",
+      "_id": "59a697e77845e44d19bf9b47"
+    }
+  ],
+  "tags": [
+    "Industry",
+    "eBusiness"
+  ],
+  "titles": [
+    {
+      "value": "Volkswagen Vehicles Ontology",
+      "lang": "en",
+      "_id": "59a697e77845e44d19bf9b45"
+    }
+  ],
+  "uri": "http://purl.org/vvo/ns#",
+  "versions": [
+    {
+      "name": "v1.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/vvo/versions/2010-10-12.n3",
+      "issued": "2010-10-11T23:00:00.000Z",
+      "classNumber": "16",
+      "propertyNumber": "45",
+      "instanceNumber": "16",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/coo/ns#",
+        "http://purl.org/goodrelations/v1",
+        "http://purl.org/vso/ns",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://purl.org/goodrelations/",
+        "http://purl.org/vso/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/coo/ns/#",
+        "http://purl.org/goodrelations/v1",
+        "http://purl.org/vso/ns",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

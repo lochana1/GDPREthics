@@ -1,0 +1,107 @@
+{
+  "__v": 1,
+  "contributorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e79",
+      "name": "Dimitris Kontokosta"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f36",
+      "name": "Holger Knublauch"
+    }
+  ],
+  "createdInLOVAt": "2018-04-10T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "5acccc893aba5caf50dbe867",
+      "name": "RDF Data Shapes Working Group"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "This vocabulary defines terms used in SHACL, the W3C Shapes Constraint Language.",
+      "lang": "en",
+      "_id": "5accce153aba5caf50dbea62"
+    }
+  ],
+  "homepage": "https://www.w3.org/TR/shacl/",
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2017-07-20T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2018-04-10T00:00:00.000Z",
+  "nsp": "http://www.w3.org/ns/shacl#",
+  "prefix": "sh",
+  "publisherIds": [
+    {
+      "_id": "5acccc893aba5caf50dbe867",
+      "name": "RDF Data Shapes Working Group"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Users were waiting for this REC for almost 15 years! SHACL is finally out!  However, the bad news is that W3C folks need to learn best practices on adding minimal metadata in their vocabularies to make them more findable and reusable. (cf. Bernard Vatant)",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2018-04-10T00:00:00.000Z",
+      "_id": "5accce153aba5caf50dbea63"
+    }
+  ],
+  "tags": [
+    "W3C Rec",
+    "Quality"
+  ],
+  "titles": [
+    {
+      "value": "W3C Shapes Constraint Language (SHACL) Vocabulary",
+      "lang": "en",
+      "_id": "5accce153aba5caf50dbea61"
+    }
+  ],
+  "uri": "http://www.w3.org/ns/shacl#",
+  "versions": [
+    {
+      "name": "v2017-07-20",
+      "issued": "2017-07-20T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "79",
+      "propertyNumber": "101",
+      "classNumber": "40",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/sh/versions/2017-07-20.n3",
+      "_id": "5acccdba3aba5caf50dbe9e8",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-04-15T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0ead",
+      "name": "Enrico Fagnoni"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "KEES (Knowledge Exchange Engine Schema ) ontology describes a knowledge base configuration in terms of ABox and TBox statements together with their accrual and reasoning policies.  This vocabulary is designed to drive automatic data ingestion in a graph database according KEES  and Linked (Open) Data principles.",
+      "lang": "en",
+      "_id": "5710e08a31bafaef0e789575"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2016-02-04T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-04-15T12:38:37.568Z",
+  "nsp": "http://linkeddata.center/kees/v1#",
+  "prefix": "kees",
+  "publisherIds": [
+    {
+      "_id": "5710e05b31bafaef0e789566",
+      "name": "LinkedData.Center"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "An ontology used to describe the main services for Linkeddata.center. For a practical use  of KEES ontology see  http://linkeddata.center/help/devop/kees-profile article.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-04-15T00:00:00.000Z",
+      "_id": "5710e08a31bafaef0e789574"
+    }
+  ],
+  "tags": [
+    "Services",
+    "Industry"
+  ],
+  "titles": [
+    {
+      "value": "KEES Ontology",
+      "lang": "en",
+      "_id": "5710e08a31bafaef0e789576"
+    }
+  ],
+  "uri": "http://linkeddata.center/kees/v1",
+  "versions": [
+    {
+      "_id": "5710e08c31bafaef0e789579",
+      "classNumber": "56",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/kees/versions/2016-02-04.n3",
+      "instanceNumber": "0",
+      "issued": "2016-02-04T00:00:00.000Z",
+      "name": "v1.1.19",
+      "propertyNumber": "52",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

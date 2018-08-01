@@ -1,0 +1,258 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-06-04T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f00",
+      "name": "Knud Möller"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f1e",
+      "name": "Tom Heath"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f89",
+      "name": "Sean Bechhofer"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-webconf.2.rdf",
+      "label": "rkb-explorer-webconf.2.rdf",
+      "occurrences": "20683"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-webconf.rdf",
+      "label": "rkb-explorer-webconf.rdf",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/lak-dataset.rdf",
+      "label": "lak-dataset.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/rkb-explorer-webscience.0.rdf",
+      "label": "rkb-explorer-webscience.0.rdf",
+      "occurrences": "1"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The Semantic Web Conference ontology (SWC) is an ontology for describing academic conferences",
+      "lang": "en",
+      "_id": "55a0da1b57613119099c104a"
+    }
+  ],
+  "homepage": "http://data.semanticweb.org/ns/swc/swc_2009-05-09.html",
+  "issuedAt": "2007-05-31T00:00:00.000Z",
+  "lastDeref": "2014-06-04T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-07-11T00:00:00.000Z",
+  "nsp": "http://data.semanticweb.org/ns/swc/ontology#",
+  "prefix": "swc",
+  "reviews": [
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-05T00:00:00.000Z",
+      "_id": "55a0da1b57613119099c104d"
+    },
+    {
+      "body": "This vocabulary is the fruit of the \"eat our own dog food\" principle, which has been derided by some, showing it as a proof that the Semantic Web tools and community were good only at auto-reference exercices, and useless in \"real life\". Which was not completely wrong at some point, but is now part of history.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-06-05T00:00:00.000Z",
+      "_id": "55a0da1b57613119099c104c"
+    },
+    {
+      "body": "Annual review OK!",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-11T00:00:00.000Z",
+      "_id": "55a0da1b57613119099c104b"
+    }
+  ],
+  "tags": [
+    "Society",
+    "Academy"
+  ],
+  "titles": [
+    {
+      "value": "Semantic Web Conference Ontology",
+      "lang": "en",
+      "_id": "55a0da1b57613119099c1049"
+    }
+  ],
+  "uri": "http://data.semanticweb.org/ns/swc/ontology",
+  "versions": [
+    {
+      "name": "v2009-05-11",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/swc/versions/2009-05-11.n3",
+      "issued": "2009-05-11T00:00:00.000Z",
+      "classNumber": "88",
+      "propertyNumber": "33",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://swrc.ontoware.org/ontology#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/12/cal/ical#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "http://xmlns.com/foaf/0.1/",
+        "http://xmlns.com/wordnet/1.6/"
+      ],
+      "relImports": [
+        "http://data.semanticweb.org/ns/swc/"
+      ],
+      "relGeneralizes": [
+        "http://swrc.ontoware.org/ontology#"
+      ],
+      "relExtends": [
+        "http://swrc.ontoware.org/ontology#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2002/12/cal/ical#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "http://xmlns.com/foaf/0.1/",
+        "http://xmlns.com/wordnet/1.6/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://data.semanticweb.org/ns/misc#",
+        "http://purl.org/dc/terms/",
+        "http://rdfs.org/sioc/ns#",
+        "http://usefulinc.com/ns/doap#",
+        "http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    },
+    {
+      "name": "v2009-03-02",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/swc/versions/2009-03-02.n3",
+      "issued": "2009-03-02T00:00:00.000Z",
+      "classNumber": "87",
+      "propertyNumber": "33",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://swrc.ontoware.org/ontology#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/12/cal/ical#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "http://xmlns.com/foaf/0.1/",
+        "http://xmlns.com/wordnet/1.6/"
+      ],
+      "relImports": [
+        "http://data.semanticweb.org/ns/swc/"
+      ],
+      "relGeneralizes": [
+        "http://swrc.ontoware.org/ontology#"
+      ],
+      "relExtends": [
+        "http://swrc.ontoware.org/ontology#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2002/12/cal/ical#",
+        "http://xmlns.com/foaf/0.1/",
+        "http://xmlns.com/wordnet/1.6/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://data.semanticweb.org/ns/misc#",
+        "http://purl.org/dc/terms/",
+        "http://rdfs.org/sioc/ns#",
+        "http://usefulinc.com/ns/doap#",
+        "http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v2009-02-27",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/swc/versions/2009-02-27.n3",
+      "issued": "2009-02-27T00:00:00.000Z",
+      "classNumber": "86",
+      "propertyNumber": "35",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://swrc.ontoware.org/ontology#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/12/cal/ical#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "http://xmlns.com/foaf/0.1/",
+        "http://xmlns.com/wordnet/1.6/"
+      ],
+      "relImports": [
+        "http://data.semanticweb.org/ns/swc/"
+      ],
+      "relGeneralizes": [
+        "http://swrc.ontoware.org/ontology#"
+      ],
+      "relExtends": [
+        "http://swrc.ontoware.org/ontology#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2002/12/cal/ical#",
+        "http://xmlns.com/foaf/0.1/",
+        "http://xmlns.com/wordnet/1.6/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://data.semanticweb.org/ns/misc#",
+        "http://purl.org/dc/terms/",
+        "http://usefulinc.com/ns/doap#",
+        "http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v2007-05-31",
+      "issued": "2007-05-30T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

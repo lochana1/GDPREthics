@@ -1,0 +1,102 @@
+{
+  "__v": 0,
+  "contributorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0ef4",
+      "name": "Milos Jovanovik"
+    }
+  ],
+  "createdInLOVAt": "2016-09-09T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "57d27a0ea3a9d3a63d7e6450",
+      "name": "Goran Petkovski"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "Transport Administration Ontology (TAO) for describing data from Swedish Transport Administration Web site.",
+      "lang": "en",
+      "_id": "57d27a5da3a9d3a63d7e647e"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2015-06-17T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-09-09T09:01:35.985Z",
+  "nsp": "http://linkeddata.finki.ukim.mk/lod/ontology/tao#",
+  "prefix": "trao",
+  "publisherIds": [
+    {
+      "_id": "57c3f7d7a3a9d3a63d7aa310",
+      "name": "FINKI"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "A transport administration ontology for Swedish use case",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-09-09T00:00:00.000Z",
+      "_id": "57d27a5da3a9d3a63d7e647d"
+    }
+  ],
+  "tags": [
+    "Services",
+    "Travel",
+    "Transport"
+  ],
+  "titles": [
+    {
+      "value": "Transport Administration Ontology",
+      "lang": "en",
+      "_id": "57d27a5da3a9d3a63d7e647f"
+    }
+  ],
+  "uri": "http://linkeddata.finki.ukim.mk/lod/ontology/tao#",
+  "versions": [
+    {
+      "name": "v2015-06-17",
+      "issued": "2015-06-17T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "1",
+      "propertyNumber": "23",
+      "classNumber": "8",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/trao/versions/2015-06-17.n3",
+      "_id": "57d27a60a3a9d3a63d7e6481",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/ontology/places/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2003/01/geo/wgs84_pos",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

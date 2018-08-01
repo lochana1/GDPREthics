@@ -1,0 +1,93 @@
+{
+  "__v": 1,
+  "contributorIds": [
+    {
+      "_id": "5abb58870d8ceb4e01493263",
+      "name": "Erwin Folmer"
+    }
+  ],
+  "createdInLOVAt": "2018-03-29T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "5abcb819c7ef5ec931501141",
+      "name": "Kadaster Data Platform"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "Basisregistratie Kadaster (BRK) vocabulaire",
+      "lang": "nl",
+      "_id": "5abcc633c7ef5ec931502710"
+    },
+    {
+      "value": "Vocabulary for the Dutch key register of the cadastre (BRK)",
+      "lang": "en",
+      "_id": "5abcc633c7ef5ec93150270f"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "lastModifiedInLOVAt": "2018-03-29T00:00:00.000Z",
+  "nsp": "http://brk.basisregistraties.overheid.nl/def/brk#",
+  "prefix": "brk",
+  "publisherIds": [
+    {
+      "_id": "5abcc050c7ef5ec931501e4f",
+      "name": "Basisregistratie Kadaster (BRK)"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Dutch national vocabulary for the description of cadastre data",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2018-03-29T00:00:00.000Z",
+      "_id": "5abcc633c7ef5ec931502711"
+    }
+  ],
+  "tags": [
+    "Environment",
+    "Geography"
+  ],
+  "titles": [
+    {
+      "value": "Key Register Cadastre (BRK) vocabulary",
+      "lang": "en",
+      "_id": "5abcc633c7ef5ec93150270e"
+    }
+  ],
+  "uri": "http://brk.basisregistraties.overheid.nl/def/brk",
+  "versions": [
+    {
+      "name": "v2018-03-29",
+      "issued": "2018-03-29T10:32:38.857Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "10",
+      "classNumber": "2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/brk/versions/2018-03-29.n3",
+      "_id": "5abcc0c8c7ef5ec931501f35",
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

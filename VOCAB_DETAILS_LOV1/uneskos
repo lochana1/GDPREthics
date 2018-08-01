@@ -1,0 +1,96 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2015-10-04T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "5610eedcbbf00b4b0783cebf",
+      "name": "Juan-Antonio Pastor-Sánchez"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "An RDF vocabulary for extending some SKOS and ISO-THES functions in order to improve the linked data consumption of SKOS datasets",
+      "lang": "en",
+      "_id": "5610f0b4bbf00b4b0783cecd"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2014-05-23T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-10-04T09:27:58.007Z",
+  "nsp": "http://purl.org/umu/uneskos#",
+  "prefix": "uneskos",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "A small extension of SKOS vocabulary.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-10-04T00:00:00.000Z",
+      "_id": "5610f0b4bbf00b4b0783cecc"
+    }
+  ],
+  "tags": [
+    "RDF"
+  ],
+  "titles": [
+    {
+      "value": "UNESKOS Vocabulary",
+      "lang": "en",
+      "_id": "5610f0b4bbf00b4b0783cece"
+    }
+  ],
+  "uri": "http://purl.org/umu/uneskos",
+  "versions": [
+    {
+      "_id": "5610f0b7bbf00b4b0783cecf",
+      "classNumber": "0",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/uneskos/versions/2015-09-10.n3",
+      "instanceNumber": "0",
+      "issued": "2015-09-10T00:00:00.000Z",
+      "name": "v2015.0910",
+      "propertyNumber": "5",
+      "relSpecializes": [
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "relImports": [
+        "http://purl.org/iso25964/",
+        "http://www.w3.org/2004/02/skos/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/iso25964/skos-thes",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

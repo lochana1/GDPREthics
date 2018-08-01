@@ -1,0 +1,145 @@
+{
+  "__v": 2,
+  "contributorIds": [],
+  "createdInLOVAt": "2015-04-08T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "55258ae400191ee77225b905",
+      "name": "Marco Balduini"
+    },
+    {
+      "_id": "55258b6c00191ee77225b9aa",
+      "name": "Emanuele Della Valle"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "FraPPE is a vocabulary to enable Visual Analytics operations on geo-spatial time varying data. By enabling Visual Analytics instruments FraPPE ease the capture, correlation and comparison operations on geo-spatial data from different sources evolving over time",
+      "lang": "en",
+      "_id": "55258c6800191ee77225bade"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2015-04-07T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-05-05T21:29:24.597Z",
+  "nsp": "http://streamreasoning.org/ontologies/frappe#",
+  "prefix": "frappe",
+  "publisherIds": [
+    {
+      "_id": "55258ba700191ee77225b9f1",
+      "name": "StreamReasoning Project"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Added to LOV. An initial version developed in the framework of the StreamReasoning project. See http://streamreasoning.org/",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-04-08T00:00:00.000Z",
+      "_id": "55258c6800191ee77225badf"
+    }
+  ],
+  "tags": [
+    "Geography",
+    "Multimedia"
+  ],
+  "titles": [
+    {
+      "value": "FraPPE: Frame, Pixel, Place, Event vocabulary",
+      "lang": "en",
+      "_id": "55258c6800191ee77225badd"
+    }
+  ],
+  "uri": "http://streamreasoning.org/ontologies/frappe#",
+  "versions": [
+    {
+      "name": "v0.1",
+      "issued": "2015-04-07T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "11",
+      "classNumber": "9",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/frappe/versions/2015-04-07.n3",
+      "_id": "55252c8f49956a831fa562eb",
+      "relSpecializes": [
+        "http://www.opengis.net/ont/geosparql",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/ns/prov#"
+      ],
+      "relImports": [
+        "http://purl.org/NET/c4dm/",
+        "http://www.opengis.net/ont/",
+        "http://www.w3.org/2006/",
+        "http://www.w3.org/ns/prov#"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/NET/c4dm/event.owl",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2006/time"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    },
+    {
+      "name": "v0.2",
+      "issued": "2015-04-28T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "11",
+      "classNumber": "9",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/frappe/versions/2015-04-28.n3",
+      "_id": "5549363406727390262f837d",
+      "relSpecializes": [
+        "http://www.opengis.net/ont/geosparql",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/ns/prov#"
+      ],
+      "relImports": [
+        "http://purl.org/NET/c4dm/",
+        "http://www.opengis.net/ont/",
+        "http://www.w3.org/2006/",
+        "http://www.w3.org/ns/prov#"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/NET/c4dm/event.owl",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2006/time"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

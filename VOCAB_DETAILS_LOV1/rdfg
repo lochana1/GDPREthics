@@ -1,0 +1,110 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2012-01-06T00:00:00.000Z",
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/agris.0.rdf",
+      "label": "agris.0.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/agrovoc-skos.0.rdf",
+      "label": "agrovoc-skos.0.rdf",
+      "occurrences": "2"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Properties allowing statement of intensional equivalence between RDF graphs",
+      "lang": "en",
+      "_id": "561e530942fc695f7e67719e"
+    }
+  ],
+  "homepage": "http://www.w3.org/2004/03/trix/",
+  "issuedAt": "2004-12-31T00:00:00.000Z",
+  "lastDeref": "2014-11-05T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-10-14T00:00:00.000Z",
+  "nsp": "http://www.w3.org/2004/03/trix/rdfg-1/",
+  "prefix": "rdfg",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c1003",
+      "name": "W3C"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "The vocabulary still need to be published using recent best practices.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2014-11-05T00:00:00.000Z",
+      "_id": "561e530942fc695f7e6771a2"
+    },
+    {
+      "body": "Will be as stable as any other vocabulary in W3C namespace. Reused by 6 other vocabularies. Added provisional date at end of 2004.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-10-09T00:00:00.000Z",
+      "_id": "561e530942fc695f7e6771a1"
+    },
+    {
+      "body": "This very small vocabulary was developed around 2004 in the W3C Semantic Web Activity by a group dedicated to named Graphs. Unfortunately the vocabulary file itself contains no metadata.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2012-01-06T00:00:00.000Z",
+      "_id": "561e530942fc695f7e6771a0"
+    },
+    {
+      "body": "Annual review- No changes",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-10-14T00:00:00.000Z",
+      "_id": "561e530942fc695f7e67719f"
+    }
+  ],
+  "tags": [
+    "RDF"
+  ],
+  "titles": [
+    {
+      "value": "Graph",
+      "lang": "en",
+      "_id": "561e530942fc695f7e67719d"
+    }
+  ],
+  "uri": "http://www.w3.org/2004/03/trix/rdfg-1/",
+  "versions": [
+    {
+      "name": "v2004-12-31",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/rdfg/versions/2004-12-31.n3",
+      "issued": "2004-12-31T00:00:00.000Z",
+      "classNumber": "1",
+      "propertyNumber": "2",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

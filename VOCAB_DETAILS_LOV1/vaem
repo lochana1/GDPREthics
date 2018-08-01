@@ -1,0 +1,277 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-06-23T23:00:00.000Z",
+  "descriptions": [
+    {
+      "value": "The purpose of VAEM is to provide, by import, a foundation for commonly needed resources when building an ontology.",
+      "lang": "en",
+      "_id": "591c84cc6eb19eef1936dbb9"
+    }
+  ],
+  "homepage": "http://linkedmodel.org/doc/vaem/1.2/",
+  "issuedAt": "2011-04-20T00:00:00.000Z",
+  "lastDeref": "2015-01-10T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-05-17T00:00:00.000Z",
+  "nsp": "http://www.linkedmodel.org/schema/vaem#",
+  "prefix": "vaem",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fde",
+      "name": "TopQuadrant"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Reviewed version history. Last version has significative change but keeps the same version number.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-07-28T00:00:00.000Z",
+      "_id": "591c84cc6eb19eef1936dbbd"
+    },
+    {
+      "body": "Yet another metadata vocabulary. The elements of VAEM are to be used to annotate owl:Ontology elements. Somehow redundant with similar vocabularies such as VOAF, Dublin Core, ADMS, PROV etc.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-06-24T00:00:00.000Z",
+      "_id": "591c84cc6eb19eef1936dbbc"
+    },
+    {
+      "body": "Annual review - OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-19T00:00:00.000Z",
+      "_id": "591c84cc6eb19eef1936dbbb"
+    },
+    {
+      "body": "Annual review - OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-05-17T00:00:00.000Z",
+      "_id": "591c84cc6eb19eef1936dbba"
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "Vocabulary for Attaching Essential Metadata",
+      "lang": "en",
+      "_id": "591c84cc6eb19eef1936dbb8"
+    }
+  ],
+  "uri": "http://www.linkedmodel.org/schema/vaem",
+  "versions": [
+    {
+      "name": "v2014-08-11",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/vaem/versions/2014-08-11.n3",
+      "issued": "2014-08-10T23:00:00.000Z",
+      "classNumber": "8",
+      "propertyNumber": "40",
+      "instanceNumber": "18",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/vaem/versions/2014-07-28.n3",
+      "issued": "2014-07-27T23:00:00.000Z",
+      "classNumber": "10",
+      "propertyNumber": "41",
+      "instanceNumber": "18",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/vaem/versions/2014-06-28.n3",
+      "issued": "2014-06-27T23:00:00.000Z",
+      "classNumber": "10",
+      "propertyNumber": "37",
+      "instanceNumber": "14",
+      "datatypeNumber": "2",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v1.21",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/vaem/versions/2013-08-28.n3",
+      "issued": "2013-08-27T23:00:00.000Z",
+      "classNumber": "6",
+      "propertyNumber": "23",
+      "instanceNumber": "13",
+      "datatypeNumber": "2",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v1.2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/vaem/versions/2011-06-29.n3",
+      "issued": "2011-06-28T23:00:00.000Z",
+      "classNumber": "10",
+      "propertyNumber": "26",
+      "instanceNumber": "12",
+      "datatypeNumber": "3",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://voag.linkedmodel.org/schema/voag#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v1.0",
+      "issued": "2011-04-19T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": null,
+      "isReviewed": false
+    }
+  ]
+}

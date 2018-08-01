@@ -1,0 +1,102 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-02-01T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f07",
+      "name": "Simon Cox"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "An OWL representation of the Observation Schema described in clauses 7-8 of ISO 19156:2011 Geographic Information - Observations and Measurements / OGC Abstract Specification - Topic 20.",
+      "lang": "en",
+      "_id": "56af7dfd98f0192c57ea9899"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2015-03-06T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-02-01T15:47:42.193Z",
+  "nsp": "http://def.seegrid.csiro.au/ontology/om/om-lite#",
+  "prefix": "oml",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "This ontology uses SKOS properties to track the updates and versions.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-02-01T00:00:00.000Z",
+      "_id": "56af7dfd98f0192c57ea9898"
+    }
+  ],
+  "tags": [
+    "Geography"
+  ],
+  "titles": [
+    {
+      "value": "OWL for Observations",
+      "lang": "en",
+      "_id": "56af7dfd98f0192c57ea989a"
+    }
+  ],
+  "uri": "http://def.seegrid.csiro.au/ontology/om/om-lite",
+  "versions": [
+    {
+      "name": "v2016-01-20",
+      "issued": "2016-01-20T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "16",
+      "classNumber": "16",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/oml/versions/2016-01-20.n3",
+      "_id": "56af7e0098f0192c57ea98a2",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relImports": [
+        "http://purl.org/dc/elements/1.1/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

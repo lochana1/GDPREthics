@@ -1,0 +1,179 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-06-02T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fe3",
+      "name": "Ordnance Survey"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-profile.rdf",
+      "label": "southampton-ac-uk-profile.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-profile.ttl",
+      "label": "southampton-ac-uk-profile.ttl",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/uk-postcodes.rdf",
+      "label": "uk-postcodes.rdf",
+      "occurrences": "1"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "An ontology describing the postcode geography in Great Britain.",
+      "lang": "en",
+      "_id": "5a418d96b201efd03d3b77d1"
+    }
+  ],
+  "isDefinedBy": "http://www.ordnancesurvey.co.uk/oswebsite/ontology/postcode.owl",
+  "issuedAt": "2013-06-02T00:00:00.000Z",
+  "lastDeref": "2014-06-03T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-12-25T00:00:00.000Z",
+  "nsp": "http://data.ordnancesurvey.co.uk/ontology/postcode/",
+  "prefix": "postcode",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fe3",
+      "name": "Ordnance Survey"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-03T00:00:00.000Z",
+      "_id": "5a418d96b201efd03d3b77d5"
+    },
+    {
+      "body": "This vocabulary is developed to support the Ordnance Survey linked data publication. Quite specific to United Kingdom geography.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-06-02T00:00:00.000Z",
+      "_id": "5a418d96b201efd03d3b77d4"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-06-15T00:00:00.000Z",
+      "_id": "5a418d96b201efd03d3b77d3"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-12-26T00:00:00.000Z",
+      "_id": "5a418d96b201efd03d3b77d2"
+    }
+  ],
+  "tags": [
+    "Geography"
+  ],
+  "titles": [
+    {
+      "value": "Postcode Ontology",
+      "lang": "en",
+      "_id": "5a418d96b201efd03d3b77d0"
+    }
+  ],
+  "uri": "http://data.ordnancesurvey.co.uk/ontology/postcode/",
+  "versions": [
+    {
+      "name": "v2013-09-04",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/postcode/versions/2013-09-04.n3",
+      "issued": "2013-09-03T23:00:00.000Z",
+      "classNumber": "6",
+      "propertyNumber": "11",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "relImports": [
+        "http://data.ordnancesurvey.co.uk/ontology/admingeo/",
+        "http://www.w3.org/2004/02/skos/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://data.ordnancesurvey.co.uk/ontology/admingeo/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2013-06-03",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/postcode/versions/2013-06-03.n3",
+      "issued": "2013-06-02T23:00:00.000Z",
+      "classNumber": "5",
+      "propertyNumber": "8",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [
+        "http://data.ordnancesurvey.co.uk/ontology/admingeo/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://data.ordnancesurvey.co.uk/ontology/admingeo/",
+        "http://data.ordnancesurvey.co.uk/ontology/place/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

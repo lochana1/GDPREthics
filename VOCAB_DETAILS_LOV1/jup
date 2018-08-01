@@ -1,0 +1,197 @@
+{
+  "__v": 3,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-02-18T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "56c5976e2ba77c902f475597",
+      "name": "Petr Hazuza"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "Slovnik prisupnosti budov vznikl v ramci projektu Mapy bez barier, ktery realizuje Nadace Charty 77 - Konto Bariery. Vychazi z Metodiky kategorizace pristupnosti objektu, je vsak doplnen i o entity vyplyvajici z pozadavku projektu. Tento slovnik je i tematem diplomove prace Ontologie pristupnosti budov. Projekt je spolufinancovan z prostredku Evropske unie, Evropskeho fondu pro regionalni rozvoj.",
+      "lang": "cs",
+      "_id": "57d2a8f2a3a9d3a63d7e79fe"
+    },
+    {
+      "value": "The vocabulary of building accessibility was created within the project Maps without Barriers realized under Charta 77 Foundation – Barriers Account. It is based on the Object Accessibility Categorization Methodology, however, it is completed with entities arising from the needs of the project. This vocabulary is also part of a diploma thesis entitled Ontology of Building Accessibility. The project is co-financed from resources provided by the European Union and European Regional Development Fund.",
+      "lang": "en",
+      "_id": "57d2a8f2a3a9d3a63d7e79fd"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2016-02-18T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-09-09T00:00:00.000Z",
+  "nsp": "http://w3id.org/charta77/jup/",
+  "prefix": "jup",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "A very well linked vocabulary describing furnitures and building area for accessibility",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2016-09-09T00:00:00.000Z",
+      "_id": "57d2a8f2a3a9d3a63d7e79ff"
+    }
+  ],
+  "tags": [
+    "Society"
+  ],
+  "titles": [
+    {
+      "value": "Ontology of Building Accessibility",
+      "lang": "en",
+      "_id": "57d2a8f2a3a9d3a63d7e79fc"
+    },
+    {
+      "value": "Slovnik pristupnosti budov",
+      "lang": "cs",
+      "_id": "57d2a8f2a3a9d3a63d7e79fb"
+    }
+  ],
+  "uri": "http://w3id.org/charta77/jup",
+  "versions": [
+    {
+      "_id": "56c5980e2ba77c902f4755d7",
+      "classNumber": "85",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/jup/versions/2016-02-18.n3",
+      "instanceNumber": "135",
+      "issued": "2016-02-18T00:00:00.000Z",
+      "name": "v1.0",
+      "propertyNumber": "199",
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/dc/terms/",
+        "http://ruian.linked.opendata.cz/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2004/02/skos/core",
+        "http://www.w3.org/ns/"
+      ],
+      "relEquivalent": [
+        "http://dbpedia.org/ontology/",
+        "http://dbpedia.org/resource/",
+        "http://dbpedia.org/resource/Tap_(valve)",
+        "http://linkedgeodata.org/ontology",
+        "http://purl.org/dc/terms/",
+        "http://rdfs.org/sioc/ns#",
+        "http://schema.org/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/ns/regorg",
+        "http://xmlns.com/foaf/0.1/",
+        "https://www.wikidata.org/entity/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e08",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ces",
+          "label": "Czech",
+          "iso639P3PCode": "ces"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v2.0",
+      "issued": "2016-07-14T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "206",
+      "propertyNumber": "240",
+      "classNumber": "92",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/jup/versions/2016-07-14.n3",
+      "_id": "57d2a8ada3a9d3a63d7e79df",
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/ns/org#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/dc/terms/",
+        "http://ruian.linked.opendata.cz/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2004/02/skos/core",
+        "http://www.w3.org/ns/"
+      ],
+      "relEquivalent": [
+        "http://dbpedia.org/ontology/",
+        "http://dbpedia.org/resource/",
+        "http://dbpedia.org/resource/Tap_(valve)",
+        "http://linkedgeodata.org/ontology",
+        "http://purl.org/dc/terms/",
+        "http://rdfs.org/sioc/ns#",
+        "http://schema.org/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/ns/org#",
+        "http://www.w3.org/ns/regorg",
+        "http://xmlns.com/foaf/0.1/",
+        "https://www.wikidata.org/entity/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e08",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ces",
+          "label": "Czech",
+          "iso639P3PCode": "ces"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

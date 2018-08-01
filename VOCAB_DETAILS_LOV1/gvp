@@ -1,0 +1,150 @@
+{
+  "__v": 3,
+  "createdInLOVAt": "2014-08-31T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fc1",
+      "name": "Ontotext"
+    },
+    {
+      "_id": "54b2be048433ca9ccf1c0ff0",
+      "name": "Getty Research Institute"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The GVP Ontology defines classes, properties and values (skos:Concepts) used in GVP LOD. It is complete regarding AAT and TGN (as of version 2.0), and will be extended in time with more elements needed for the other GVP vocabularies (ULAN, CONA).",
+      "lang": "en",
+      "_id": "554791ee13b634da681d2100"
+    }
+  ],
+  "issuedAt": "2014-02-15T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:52:13.901Z",
+  "lastModifiedInLOVAt": "2015-05-04T00:00:00.000Z",
+  "nsp": "http://vocab.getty.edu/ontology#",
+  "prefix": "gvp",
+  "reviews": [
+    {
+      "body": "A very rich vocabulary leveraging core LOV components such as SKOS, Dublin Core, BIBO, FOAF, and iso-thes, the OWL expression of ISO 25964. It is used by Getty publication of its great thesauri resources AAT and TGN, and more in the pipe. Great job.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-08-31T00:00:00.000Z",
+      "_id": "554791ee13b634da681d2102"
+    },
+    {
+      "body": "Record updated with new version. See also https://plus.google.com/u/0/115593825497938381443/posts/azcdojYpmmS",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-05-04T00:00:00.000Z",
+      "_id": "554791ee13b634da681d2101"
+    }
+  ],
+  "tags": [
+    "Vocabularies"
+  ],
+  "titles": [
+    {
+      "value": "Getty Vocabulary Program ontology",
+      "lang": "en",
+      "_id": "554791ee13b634da681d20ff"
+    }
+  ],
+  "uri": "http://vocab.getty.edu/ontology",
+  "versions": [
+    {
+      "name": "v2.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/gvp/versions/2014-08-19.n3",
+      "issued": "2014-08-19T00:00:00.000Z",
+      "classNumber": "10",
+      "propertyNumber": "177",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/iso25964/skos-thes",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "relImports": [
+        "http://purl.org/iso25964/",
+        "http://www.w3.org/2004/02/skos/",
+        "http://www.w3.org/2008/05/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/ontology/bibo/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://www.w3.org/2008/05/skos-xl#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.ontotext.com/proton/protontop#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    },
+    {
+      "name": "v3.0",
+      "issued": "2015-03-25T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "314",
+      "classNumber": "14",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/gvp/versions/2015-03-25.n3",
+      "_id": "5547913413b634da681d1ff8",
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/iso25964/skos-thes",
+        "http://purl.org/vocab/bio/0.1/",
+        "http://schema.org/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "relImports": [
+        "http://purl.org/iso25964/",
+        "http://www.w3.org/2004/02/skos/",
+        "http://www.w3.org/2008/05/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/ontology/bibo/",
+        "http://purl.org/vocab/bio/0.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2004/02/skos/core",
+        "http://www.w3.org/2008/05/skos-xl",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.ontotext.com/proton/protontop",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

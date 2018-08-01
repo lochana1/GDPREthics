@@ -5,5 +5,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX base: <http://www.gdpr-ethics/linked-datasets#>
 
 
-SELECT ?Datasets
-WHERE { ?Datasets  base:hasPersonalData 	?"true"^^xsd:boolean }
+SELECT ?Dataset
+WHERE {
+{ 	SELECT ?Dataset  WHERE { ?Dataset 	base:hasPersonalData 	?"true"^^xsd:boolean.  }  GROUP BY ?Dataset	}
+{	SELECT ?Dataset  WHERE { ?Dataset 	base:hasEmbryoRelatedVocab 	?"true"^^xsd:boolean.  }  GROUP BY ?Dataset	}
+}

@@ -1,0 +1,101 @@
+{
+  "__v": 1,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-09-09T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "57d2a362a3a9d3a63d7e7781",
+      "name": "Bernadette Farias Lóscio"
+    },
+    {
+      "_id": "57d2a3d2a3a9d3a63d7e77b7",
+      "name": "Eric G. Stephan"
+    },
+    {
+      "_id": "57d2a412a3a9d3a63d7e77d7",
+      "name": "Eric G. Stephan"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The Dataset Usage Vocabulary (DUV) is used to describe consumer experiences, citations, and feedback about datasets from the human perspective.",
+      "lang": "en",
+      "_id": "57d2a4a7a3a9d3a63d7e7824"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2015-12-17T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-09-09T12:02:13.626Z",
+  "nsp": "http://www.w3.org/ns/duv#",
+  "prefix": "duv",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c1003",
+      "name": "W3C"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Small vocabulary for the description of dataset usage",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2016-09-09T00:00:00.000Z",
+      "_id": "57d2a4a7a3a9d3a63d7e7825"
+    }
+  ],
+  "tags": [
+    "People",
+    "Society"
+  ],
+  "titles": [
+    {
+      "value": "Dataset Usage Vocabulary",
+      "lang": "en",
+      "_id": "57d2a4a7a3a9d3a63d7e7823"
+    }
+  ],
+  "uri": "http://www.w3.org/ns/duv",
+  "versions": [
+    {
+      "name": "v2016-08-30",
+      "issued": "2016-08-30T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "6",
+      "classNumber": "4",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/duv/versions/2016-08-30.n3",
+      "_id": "57d2a48ca3a9d3a63d7e7815",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

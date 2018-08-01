@@ -1,0 +1,101 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-08-30T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0ec9",
+      "name": "Toby Inkster"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "This is a specialist botanical variant of the Biological Taxonomy Vocabulary.",
+      "lang": "en",
+      "_id": "56a6998b37d8a8044b26678b"
+    }
+  ],
+  "lastDeref": "2014-10-08T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-01-25T00:00:00.000Z",
+  "nsp": "http://purl.org/NET/biol/botany#",
+  "prefix": "botany",
+  "reviews": [
+    {
+      "body": "1-class vocabulary, it mainly defines properties.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-08-31T00:00:00.000Z",
+      "_id": "56a6998b37d8a8044b26678e"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-10-09T00:00:00.000Z",
+      "_id": "56a6998b37d8a8044b26678d"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-25T00:00:00.000Z",
+      "_id": "56a6998b37d8a8044b26678c"
+    }
+  ],
+  "tags": [
+    "Biology"
+  ],
+  "titles": [
+    {
+      "value": "Biological Taxonomy Vocabulary 0.2 (Botany)",
+      "lang": "en",
+      "_id": "56a6998b37d8a8044b26678a"
+    }
+  ],
+  "uri": "http://purl.org/NET/biol/botany#",
+  "versions": [
+    {
+      "name": "v2009-03-18",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/botany/versions/2009-03-18.n3",
+      "issued": "2009-03-18T00:00:00.000Z",
+      "classNumber": "1",
+      "propertyNumber": "110",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/NET/biol/ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/NET/biol/ns#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

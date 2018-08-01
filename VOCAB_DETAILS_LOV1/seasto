@@ -1,0 +1,101 @@
+{
+  "__v": 0,
+  "contributorIds": [
+    {
+      "_id": "58415e926002ada739d0265a",
+      "name": "Jarmo Kalaoja"
+    }
+  ],
+  "createdInLOVAt": "2017-08-30T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54ff72862e3e52df4a3cc076",
+      "name": "Maxime Lefrançois"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The Seas Trading Ontology defines concepts and relations to describe ownership, trading, bilateral contracts and market licenses:\n\n- players own systems and trade commodities, which have a price;\n- bilateral electricity contracts are connections between electricity traders at which they exchange\nelectricity;\n- electricity markets are connections between electricity traders at which they exchange electricity,\nusing a market license;\n- electricity markets can be cleared, and balanced;\n- evaluations can have a traded volume validity context",
+      "lang": "en",
+      "_id": "59a687c27845e44d19bf910e"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2016-11-15T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-08-30T09:39:40.695Z",
+  "nsp": "https://w3id.org/seas/",
+  "prefix": "seasto",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "The Seas Trading Ontology part of the SEAS project",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-08-30T00:00:00.000Z",
+      "_id": "59a687c27845e44d19bf910d"
+    }
+  ],
+  "tags": [
+    "Environment",
+    "Industry",
+    "Services"
+  ],
+  "titles": [
+    {
+      "value": "The SEAS Trading ontology",
+      "lang": "en",
+      "_id": "59a687c27845e44d19bf910f"
+    }
+  ],
+  "uri": "https://w3id.org/seas/TradingOntology",
+  "versions": [
+    {
+      "_id": "59a687c67845e44d19bf9111",
+      "classNumber": "26",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/seasto/versions/2016-11-15.n3",
+      "instanceNumber": "0",
+      "issued": "2016-11-15T00:00:00.000Z",
+      "name": "v1.1",
+      "propertyNumber": "16",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "https://w3id.org/pep/"
+      ],
+      "relImports": [
+        "https://w3id.org/pep/",
+        "https://w3id.org/seas/SystemOntology"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

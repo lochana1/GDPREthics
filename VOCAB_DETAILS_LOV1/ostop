@@ -1,0 +1,95 @@
+{
+  "__v": 1,
+  "commentDeref": "Problem while dereferencing or parsing the vocabulary",
+  "createdInLOVAt": "2013-05-29T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be018433ca9ccf1c0e46",
+      "name": "Cathy Dolbear"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The general purpose of this ontology is to provide a library of high level concepts that are used by the other modules within the whole OS Topographic ontology.  The ontology also describes the relationships  and instances common to more than one module.",
+      "lang": "en",
+      "_id": "555e07c0fcb9d2f3482486ed"
+    }
+  ],
+  "lastDeref": "2014-05-29T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-05-21T00:00:00.000Z",
+  "nsp": "http://www.ordnancesurvey.co.uk/ontology/Topography/v0.1/Topography.owl#",
+  "prefix": "ostop",
+  "reviews": [
+    {
+      "body": "This vocabulary is no more available nor used at Ordnance Survey. The URI is 404, and it's not listed in the current OS ontologies page. See http://data.ordnancesurvey.co.uk/ontology/",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-05-29T00:00:00.000Z",
+      "_id": "555e07c0fcb9d2f3482486f0"
+    },
+    {
+      "body": "This vocabulary present problems with Triple Checker http://goo.gl/khH1p",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-05-29T00:00:00.000Z",
+      "_id": "555e07c0fcb9d2f3482486ef"
+    },
+    {
+      "body": "This vocabulary is offline, and kept for the record in LOV.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-05-21T00:00:00.000Z",
+      "_id": "555e07c0fcb9d2f3482486ee"
+    }
+  ],
+  "tags": [
+    "Geography"
+  ],
+  "titles": [
+    {
+      "value": "Ordnance Survey Topography Ontology",
+      "lang": "en",
+      "_id": "555e07c0fcb9d2f3482486ec"
+    }
+  ],
+  "uri": "http://www.ordnancesurvey.co.uk/ontology/Topography/v0.1/Topography.owl",
+  "versions": [
+    {
+      "name": "v0.1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ostop/versions/2008-02-24.n3",
+      "issued": "2008-02-24T00:00:00.000Z",
+      "classNumber": "13",
+      "propertyNumber": "6",
+      "instanceNumber": "5",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [
+        "http://www.ordnancesurvey.co.uk/ontology/MereologicalRelations/v0.2/",
+        "http://www.ordnancesurvey.co.uk/ontology/Rabbit/v1.0/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.ordnancesurvey.co.uk/ontology/Rabbit/v1.0/Rabbit.owl#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

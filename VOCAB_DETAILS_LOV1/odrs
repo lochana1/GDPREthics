@@ -1,0 +1,139 @@
+{
+  "__v": 2,
+  "commentDeref": "Problem while dereferencing or parsing the vocabulary",
+  "createdInLOVAt": "2013-07-04T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f71",
+      "name": "Leigh Dodds"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "A vocabulary that supports the publication of Open Data by providing the means to capture machine-readable \"rights statements\", e.g. the licensing information, copyright notices and attribution requirements that are associated with the publication and re-use of a dataset.",
+      "lang": "en",
+      "_id": "55dc2f268b5f9f281f4c5a2e"
+    }
+  ],
+  "isDefinedBy": "http://schema.theodi.org/odrs/index.ttl",
+  "issuedAt": "2013-05-31T00:00:00.000Z",
+  "lastDeref": "2014-07-27T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-08-25T00:00:00.000Z",
+  "nsp": "http://schema.theodi.org/odrs#",
+  "prefix": "odrs",
+  "reviews": [
+    {
+      "body": "A very preliminary draft, feedback welcome by the author.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-07-05T00:00:00.000Z",
+      "_id": "55dc2f268b5f9f281f4c5a30"
+    },
+    {
+      "body": "Hosted on Github, no direct dereferentiation. Use the isDefinedBy value instead",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2015-08-25T00:00:00.000Z",
+      "_id": "55dc2f268b5f9f281f4c5a2f"
+    }
+  ],
+  "tags": [
+    "Quality"
+  ],
+  "titles": [
+    {
+      "value": "Open Data Rights Statement Vocabulary",
+      "lang": "en",
+      "_id": "55dc2f268b5f9f281f4c5a2d"
+    }
+  ],
+  "uri": "http://schema.theodi.org/odrs",
+  "versions": [
+    {
+      "name": "v0.1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/odrs/versions/2013-07-29.n3",
+      "issued": "2013-07-28T23:00:00.000Z",
+      "classNumber": "2",
+      "propertyNumber": "15",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v0.1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/odrs/versions/2013-06-17.n3",
+      "issued": "2013-06-16T23:00:00.000Z",
+      "classNumber": "2",
+      "propertyNumber": "8",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

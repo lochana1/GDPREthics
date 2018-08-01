@@ -1,0 +1,709 @@
+{
+  "__v": 4,
+  "createdInLOVAt": "2013-05-23T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e74",
+      "name": "Bernard Vatant"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/b3kat.249.rdf",
+      "label": "b3kat.249.rdf",
+      "occurrences": "102620"
+    },
+    {
+      "uri": "http://datahub.io/dataset/b3kat.241.rdf",
+      "label": "b3kat.241.rdf",
+      "occurrences": "19873"
+    },
+    {
+      "uri": "http://datahub.io/dataset/italian-public-schools-linkedopendata-it.70.rdf",
+      "label": "italian-public-schools-linkedopendata-it.70.rdf",
+      "occurrences": "13806"
+    },
+    {
+      "uri": "http://datahub.io/dataset/greek-legal-entities.0.rdf",
+      "label": "greek-legal-entities.0.rdf",
+      "occurrences": "10407"
+    },
+    {
+      "uri": "http://datahub.io/dataset/iso-3166-2-data.0.rdf",
+      "label": "iso-3166-2-data.0.rdf",
+      "occurrences": "3746"
+    },
+    {
+      "uri": "http://datahub.io/dataset/sandrart-net.0.rdf",
+      "label": "sandrart-net.0.rdf",
+      "occurrences": "2231"
+    },
+    {
+      "uri": "http://datahub.io/dataset/telegraphis.0.rdf",
+      "label": "telegraphis.0.rdf",
+      "occurrences": "984"
+    },
+    {
+      "uri": "http://datahub.io/dataset/geonames-semantic-web.0.rdf",
+      "label": "geonames-semantic-web.0.rdf",
+      "occurrences": "680"
+    },
+    {
+      "uri": "http://datahub.io/dataset/norwegian-geo-divisions.0.ttl",
+      "label": "norwegian-geo-divisions.0.ttl",
+      "occurrences": "520"
+    },
+    {
+      "uri": "http://datahub.io/dataset/geospecies.8.rdf",
+      "label": "geospecies.8.rdf",
+      "occurrences": "39"
+    },
+    {
+      "uri": "http://datahub.io/dataset/telegraphis.rdf",
+      "label": "telegraphis.rdf",
+      "occurrences": "28"
+    },
+    {
+      "uri": "http://datahub.io/dataset/norwegian-geo-divisions.ttl",
+      "label": "norwegian-geo-divisions.ttl",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/colinda",
+      "label": "COLINDA - Conference Linked Data",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/iso-3166-2-data.rdf",
+      "label": "iso-3166-2-data.rdf",
+      "occurrences": "1"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The Geonames ontology provides elements of description for geographical features defined in the geonames.org data base",
+      "lang": "en",
+      "_id": "5ab111675177bf4719391566"
+    }
+  ],
+  "homepage": "http://www.geonames.org/ontology/documentation.html",
+  "issuedAt": "2006-10-13T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:52:13.244Z",
+  "lastModifiedInLOVAt": "2018-03-20T00:00:00.000Z",
+  "nsp": "http://www.geonames.org/ontology#",
+  "prefix": "gn",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fb6",
+      "name": "Geonames.org"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Annual review OK. The ontology is quite stable now, although I would not build it that way if I have to start it now from scratch. This vocabulary is too much driven by the Geonames data base structure.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-04-10T00:00:00.000Z",
+      "_id": "5ab111675177bf471939156b"
+    },
+    {
+      "body": "Good example of vocabulary handling versioning information both in the RDF file and the documentation.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2013-05-23T00:00:00.000Z",
+      "_id": "5ab111675177bf471939156a"
+    },
+    {
+      "body": "Annual review OK. Deleted false positive version.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-03-25T00:00:00.000Z",
+      "_id": "5ab111675177bf4719391569"
+    },
+    {
+      "body": "Annual review OK.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-06-22T00:00:00.000Z",
+      "_id": "5ab111675177bf4719391568"
+    },
+    {
+      "body": "Annual review OK.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2018-03-20T00:00:00.000Z",
+      "_id": "5ab111675177bf4719391567"
+    }
+  ],
+  "tags": [
+    "Geography"
+  ],
+  "titles": [
+    {
+      "value": "The Geonames ontology",
+      "lang": "en",
+      "_id": "5ab111675177bf4719391565"
+    }
+  ],
+  "uri": "http://www.geonames.org/ontology",
+  "versions": [
+    {
+      "classNumber": "7",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/gn/versions/2012-10-29.n3",
+      "instanceNumber": "699",
+      "issued": "2012-10-29T00:00:00.000Z",
+      "name": "v3.1",
+      "propertyNumber": "26",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://schema.org/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [
+        "http://geovocab.org/spatial",
+        "http://www.mindswap.org/2003/owl/geo/geoFeatures20040307.owl#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://www.w3.org/ns/adms#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e30",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/swe",
+          "label": "Swedish",
+          "iso639P3PCode": "swe"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e24",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nor",
+          "label": "Norwegian",
+          "iso639P3PCode": "nor"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e06",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/bul",
+          "label": "Bulgarian",
+          "iso639P3PCode": "bul"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/rus",
+          "label": "Russian",
+          "iso639P3PCode": "rus"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "classNumber": "6",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/gn/versions/2012-02-14.n3",
+      "instanceNumber": "689",
+      "issued": "2012-02-14T00:00:00.000Z",
+      "name": "v3.01",
+      "propertyNumber": "25",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://schema.org/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e30",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/swe",
+          "label": "Swedish",
+          "iso639P3PCode": "swe"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e24",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nor",
+          "label": "Norwegian",
+          "iso639P3PCode": "nor"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e06",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/bul",
+          "label": "Bulgarian",
+          "iso639P3PCode": "bul"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/rus",
+          "label": "Russian",
+          "iso639P3PCode": "rus"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "classNumber": "6",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/gn/versions/2010-10-05.n3",
+      "instanceNumber": "680",
+      "issued": "2010-10-05T00:00:00.000Z",
+      "name": "v2.21",
+      "propertyNumber": "23",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "classNumber": "8",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/gn/versions/2010-09-22.n3",
+      "instanceNumber": "680",
+      "issued": "2010-09-22T00:00:00.000Z",
+      "name": "v2.2",
+      "propertyNumber": "25",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "classNumber": "6",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/gn/versions/2010-05-10.n3",
+      "instanceNumber": "680",
+      "issued": "2010-05-10T00:00:00.000Z",
+      "name": "v2.1",
+      "propertyNumber": "17",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "classNumber": "7",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/gn/versions/2007-04-02.n3",
+      "instanceNumber": "654",
+      "issued": "2007-04-02T00:00:00.000Z",
+      "name": "v2.0",
+      "propertyNumber": "18",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "relEquivalent": [
+        "http://www.eionet.europa.eu/gemet/concept/1001",
+        "http://www.eionet.europa.eu/gemet/concept/10142",
+        "http://www.eionet.europa.eu/gemet/concept/10143",
+        "http://www.eionet.europa.eu/gemet/concept/10148",
+        "http://www.eionet.europa.eu/gemet/concept/10201",
+        "http://www.eionet.europa.eu/gemet/concept/11232",
+        "http://www.eionet.europa.eu/gemet/concept/1126",
+        "http://www.eionet.europa.eu/gemet/concept/11975",
+        "http://www.eionet.europa.eu/gemet/concept/12161",
+        "http://www.eionet.europa.eu/gemet/concept/12390",
+        "http://www.eionet.europa.eu/gemet/concept/13301",
+        "http://www.eionet.europa.eu/gemet/concept/1410",
+        "http://www.eionet.europa.eu/gemet/concept/14194",
+        "http://www.eionet.europa.eu/gemet/concept/14919",
+        "http://www.eionet.europa.eu/gemet/concept/1507",
+        "http://www.eionet.europa.eu/gemet/concept/1512",
+        "http://www.eionet.europa.eu/gemet/concept/1807",
+        "http://www.eionet.europa.eu/gemet/concept/1955",
+        "http://www.eionet.europa.eu/gemet/concept/2052",
+        "http://www.eionet.europa.eu/gemet/concept/2103",
+        "http://www.eionet.europa.eu/gemet/concept/2276",
+        "http://www.eionet.europa.eu/gemet/concept/267",
+        "http://www.eionet.europa.eu/gemet/concept/2974",
+        "http://www.eionet.europa.eu/gemet/concept/3130",
+        "http://www.eionet.europa.eu/gemet/concept/3435",
+        "http://www.eionet.europa.eu/gemet/concept/3733",
+        "http://www.eionet.europa.eu/gemet/concept/3800",
+        "http://www.eionet.europa.eu/gemet/concept/3966",
+        "http://www.eionet.europa.eu/gemet/concept/3977",
+        "http://www.eionet.europa.eu/gemet/concept/3999",
+        "http://www.eionet.europa.eu/gemet/concept/4073",
+        "http://www.eionet.europa.eu/gemet/concept/4213",
+        "http://www.eionet.europa.eu/gemet/concept/4507",
+        "http://www.eionet.europa.eu/gemet/concept/4514",
+        "http://www.eionet.europa.eu/gemet/concept/4589",
+        "http://www.eionet.europa.eu/gemet/concept/4594",
+        "http://www.eionet.europa.eu/gemet/concept/4999",
+        "http://www.eionet.europa.eu/gemet/concept/5025",
+        "http://www.eionet.europa.eu/gemet/concept/5058",
+        "http://www.eionet.europa.eu/gemet/concept/5110",
+        "http://www.eionet.europa.eu/gemet/concept/517",
+        "http://www.eionet.europa.eu/gemet/concept/5360",
+        "http://www.eionet.europa.eu/gemet/concept/5401",
+        "http://www.eionet.europa.eu/gemet/concept/5444",
+        "http://www.eionet.europa.eu/gemet/concept/5545",
+        "http://www.eionet.europa.eu/gemet/concept/5789",
+        "http://www.eionet.europa.eu/gemet/concept/5792",
+        "http://www.eionet.europa.eu/gemet/concept/5836",
+        "http://www.eionet.europa.eu/gemet/concept/5840",
+        "http://www.eionet.europa.eu/gemet/concept/6365",
+        "http://www.eionet.europa.eu/gemet/concept/6507",
+        "http://www.eionet.europa.eu/gemet/concept/6561",
+        "http://www.eionet.europa.eu/gemet/concept/7",
+        "http://www.eionet.europa.eu/gemet/concept/7059",
+        "http://www.eionet.europa.eu/gemet/concept/7272",
+        "http://www.eionet.europa.eu/gemet/concept/7298",
+        "http://www.eionet.europa.eu/gemet/concept/7396",
+        "http://www.eionet.europa.eu/gemet/concept/7465",
+        "http://www.eionet.europa.eu/gemet/concept/749",
+        "http://www.eionet.europa.eu/gemet/concept/7495",
+        "http://www.eionet.europa.eu/gemet/concept/751",
+        "http://www.eionet.europa.eu/gemet/concept/7742",
+        "http://www.eionet.europa.eu/gemet/concept/7933",
+        "http://www.eionet.europa.eu/gemet/concept/8031",
+        "http://www.eionet.europa.eu/gemet/concept/8037",
+        "http://www.eionet.europa.eu/gemet/concept/8286",
+        "http://www.eionet.europa.eu/gemet/concept/8401",
+        "http://www.eionet.europa.eu/gemet/concept/8704",
+        "http://www.eionet.europa.eu/gemet/concept/8707",
+        "http://www.eionet.europa.eu/gemet/concept/8887",
+        "http://www.eionet.europa.eu/gemet/concept/9004",
+        "http://www.eionet.europa.eu/gemet/concept/9023",
+        "http://www.eionet.europa.eu/gemet/concept/9161",
+        "http://www.eionet.europa.eu/gemet/concept/9257",
+        "http://www.eionet.europa.eu/gemet/concept/9290",
+        "http://www.eionet.europa.eu/gemet/concept/9297",
+        "http://www.eionet.europa.eu/gemet/concept/9331"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "classNumber": "7",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/gn/versions/2006-10-30.n3",
+      "instanceNumber": "654",
+      "issued": "2006-10-30T00:00:00.000Z",
+      "name": "v1.23",
+      "propertyNumber": "15",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "classNumber": "7",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/gn/versions/2006-10-25.n3",
+      "instanceNumber": "654",
+      "issued": "2006-10-25T00:00:00.000Z",
+      "name": "v1.22",
+      "propertyNumber": "15",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "classNumber": "7",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/gn/versions/2006-10-23.n3",
+      "instanceNumber": "654",
+      "issued": "2006-10-23T00:00:00.000Z",
+      "name": "v1.21",
+      "propertyNumber": "15",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "classNumber": "7",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/gn/versions/2006-10-19.n3",
+      "instanceNumber": "654",
+      "issued": "2006-10-19T00:00:00.000Z",
+      "name": "v1.2",
+      "propertyNumber": "13",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "classNumber": "4",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/gn/versions/2006-10-05.n3",
+      "instanceNumber": "9",
+      "issued": "2006-10-05T00:00:00.000Z",
+      "name": "v1.0",
+      "propertyNumber": "8",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

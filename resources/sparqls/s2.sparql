@@ -6,4 +6,4 @@ PREFIX base: <http://www.gdpr-ethics/linked-datasets#>
 
 
 SELECT ?Datasets
-WHERE { ?Datasets  base:hasPersonalData 	?"true"^^xsd:boolean }
+WHERE { ?Datasets  base:hasEmbryoRelatedVocab    ?"true"^^xsd:boolean }

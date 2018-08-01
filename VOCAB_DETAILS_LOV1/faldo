@@ -1,0 +1,89 @@
+{
+  "__v": 1,
+  "contributorIds": [],
+  "createdInLOVAt": "2017-12-04T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "5a251b4b3d405e60384ebdde",
+      "name": "Jerven Bolleman"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "Used to describe a location that consists of a number of Regions but where the order is not known. e.g. the oddly named order() keyword in a INSDC file.",
+      "lang": "en",
+      "_id": "5a251b4e3d405e60384ebde7"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2012-09-07T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-12-04T00:00:00.000Z",
+  "nsp": "http://biohackathon.org/resource/faldo#",
+  "prefix": "faldo",
+  "publisherIds": [
+    {
+      "_id": "5a2519913d405e60384ebab6",
+      "name": "Biohackathon"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Vocabulary used to describe a location that consists of a number of unsorted regions",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2017-12-04T00:00:00.000Z",
+      "_id": "5a251b4e3d405e60384ebde8"
+    }
+  ],
+  "tags": [
+    "Geography"
+  ],
+  "titles": [
+    {
+      "value": "Feature Annotation Location Description Ontology",
+      "lang": "en",
+      "_id": "5a251b4e3d405e60384ebde6"
+    }
+  ],
+  "uri": "http://biohackathon.org/resource/faldo",
+  "versions": [
+    {
+      "_id": "5a251ac33d405e60384ebd2f",
+      "classNumber": "16",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/faldo/versions/2012-09-07.n3",
+      "instanceNumber": "0",
+      "issued": "2012-09-07T00:00:00.000Z",
+      "name": "v2012-2013",
+      "propertyNumber": "9",
+      "relSpecializes": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://spinrdf.org/spin",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

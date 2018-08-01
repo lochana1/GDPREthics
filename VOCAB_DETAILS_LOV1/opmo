@@ -1,0 +1,187 @@
+{
+  "__v": 1,
+  "contributorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e55",
+      "name": "Jun Zhao"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0ede",
+      "name": "Jeff Pan"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0eea",
+      "name": "Simon Miles"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f0e",
+      "name": "Michael O. Jewell"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f13",
+      "name": "Paul Groth"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f1b",
+      "name": "Joe Futrelle"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f1d",
+      "name": "Paolo Missier"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f5c",
+      "name": "Li Ding"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f5e",
+      "name": "Daniel Garijo"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f76",
+      "name": "Luc Moreau"
+    }
+  ],
+  "createdInLOVAt": "2013-07-25T23:00:00.000Z",
+  "descriptions": [
+    {
+      "value": "The Open Provenance Model is a model of provenance that is designed to meet the following requirements: (1) To allow provenance information to be exchanged between systems, by means of a compatibility layer based on a shared provenance model. (2) To allow developers to build and share tools that operate on such a provenance model. (3) To define provenance in a precise, technology-agnostic manner. (4) To support a digital representation of provenance for any 'thing', whether produced by computer systems or not. (5) To allow multiple levels of description to coexist. (6) To define a core set of rules that identify the valid inferences that can be made on provenance representation.",
+      "lang": "en",
+      "_id": "5693f592ff8848f96bd09141"
+    }
+  ],
+  "isDefinedBy": "http://openprovenance.org/model/opmo-20101012.owl",
+  "issuedAt": "2010-10-12T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:52:20.012Z",
+  "lastModifiedInLOVAt": "2016-01-11T00:00:00.000Z",
+  "nsp": "http://openprovenance.org/model/opmo#",
+  "prefix": "opmo",
+  "reviews": [
+    {
+      "body": "This vocabulary extends OPMV with more expressivity, and a focus on inference capacities.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-07-26T00:00:00.000Z",
+      "_id": "5693f592ff8848f96bd09144"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-07-30T00:00:00.000Z",
+      "_id": "5693f592ff8848f96bd09143"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2016-01-11T00:00:00.000Z",
+      "_id": "5693f592ff8848f96bd09142"
+    }
+  ],
+  "tags": [
+    "Quality"
+  ],
+  "titles": [
+    {
+      "value": "Open Provenance Model",
+      "lang": "en",
+      "_id": "5693f592ff8848f96bd09140"
+    }
+  ],
+  "uri": "http://openprovenance.org/model/opmo",
+  "versions": [
+    {
+      "name": "v2010-10-13",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/opmo/versions/2010-10-13.n3",
+      "issued": "2010-10-12T23:00:00.000Z",
+      "classNumber": "17",
+      "propertyNumber": "47",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://purl.org/net/opmv/"
+      ],
+      "relGeneralizes": [
+        "http://purl.org/net/opmv/ns#"
+      ],
+      "relExtends": [
+        "http://purl.org/net/opmv/ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://rdfs.org/ns/void#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2015-01-11",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/opmo/versions/2015-01-11.n3",
+      "issued": "2015-01-11T20:52:20.012Z",
+      "classNumber": "17",
+      "propertyNumber": "47",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://purl.org/net/opmv/"
+      ],
+      "relGeneralizes": [
+        "http://purl.org/net/opmv/ns#"
+      ],
+      "relExtends": [
+        "http://purl.org/net/opmv/ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://vocab.deri.ie/void",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

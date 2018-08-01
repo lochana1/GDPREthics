@@ -1,0 +1,96 @@
+{
+  "__v": 0,
+  "contributorIds": [
+    {
+      "_id": "57c3f81ba3a9d3a63d7aa332",
+      "name": "Bojan Najdenov"
+    }
+  ],
+  "createdInLOVAt": "2016-08-29T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0ef4",
+      "name": "Milos Jovanovik"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "An ontology for describing brand-name drugs.",
+      "lang": "en",
+      "_id": "57c3f854a3a9d3a63d7aa353"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2014-04-01T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-08-29T08:55:53.091Z",
+  "nsp": "http://purl.org/net/hifm/ontology#",
+  "prefix": "hifm",
+  "publisherIds": [
+    {
+      "_id": "57c3f7d7a3a9d3a63d7aa310",
+      "name": "FINKI"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "An ontology for naming drugs.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-08-29T00:00:00.000Z",
+      "_id": "57c3f854a3a9d3a63d7aa352"
+    }
+  ],
+  "tags": [
+    "Health",
+    "Biology"
+  ],
+  "titles": [
+    {
+      "value": "HIFM Ontology",
+      "lang": "en",
+      "_id": "57c3f854a3a9d3a63d7aa354"
+    }
+  ],
+  "uri": "http://purl.org/net/hifm/ontology#",
+  "versions": [
+    {
+      "name": "v2014-04-01",
+      "issued": "2014-04-01T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "9",
+      "classNumber": "1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/hifm/versions/2014-04-01.n3",
+      "_id": "57c3f856a3a9d3a63d7aa356",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

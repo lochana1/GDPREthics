@@ -1,0 +1,219 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2012-01-18T00:00:00.000Z",
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/geospecies.8.rdf",
+      "label": "geospecies.8.rdf",
+      "occurrences": "159272"
+    },
+    {
+      "uri": "http://datahub.io/dataset/nytimes-linked-open-data.14.rdf",
+      "label": "nytimes-linked-open-data.14.rdf",
+      "occurrences": "14937"
+    },
+    {
+      "uri": "http://datahub.io/dataset/asn-us.15.rdf",
+      "label": "asn-us.15.rdf",
+      "occurrences": "1731"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-edshare.ttl",
+      "label": "southampton-ac-uk-edshare.ttl",
+      "occurrences": "1259"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-eprints.ttl",
+      "label": "southampton-ac-uk-eprints.ttl",
+      "occurrences": "326"
+    },
+    {
+      "uri": "http://datahub.io/dataset/southampton-ac-uk-eprints-ecs.ttl",
+      "label": "southampton-ac-uk-eprints-ecs.ttl",
+      "occurrences": "283"
+    },
+    {
+      "uri": "http://datahub.io/dataset/dewey",
+      "label": "dewey",
+      "occurrences": "66"
+    },
+    {
+      "uri": "http://datahub.io/dataset/geospecies.0.rdf",
+      "label": "geospecies.0.rdf",
+      "occurrences": "8"
+    },
+    {
+      "uri": "http://datahub.io/dataset/psh-subject-headings.0.rdf",
+      "label": "psh-subject-headings.0.rdf",
+      "occurrences": "6"
+    },
+    {
+      "uri": "http://datahub.io/dataset/glastonbury-2011.1.rdf",
+      "label": "glastonbury-2011.1.rdf",
+      "occurrences": "5"
+    },
+    {
+      "uri": "http://datahub.io/dataset/norwegian-geo-divisions.0.ttl",
+      "label": "norwegian-geo-divisions.0.ttl",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/worldcat.",
+      "label": "worldcat.",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/worldcat.nt",
+      "label": "worldcat.nt",
+      "occurrences": "4"
+    },
+    {
+      "uri": "http://datahub.io/dataset/asn-us.0.rdf",
+      "label": "asn-us.0.rdf",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/asn-us.0.ttl",
+      "label": "asn-us.0.ttl",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/totl-xkcd.1.",
+      "label": "totl-xkcd.1.",
+      "occurrences": "3"
+    },
+    {
+      "uri": "http://datahub.io/dataset/eurostat-rdf.0.rdf",
+      "label": "eurostat-rdf.0.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/temple-ov-thee-lemur-datasets.rdf",
+      "label": "temple-ov-thee-lemur-datasets.rdf",
+      "occurrences": "2"
+    },
+    {
+      "uri": "http://datahub.io/dataset/bioportal-sio.rdf",
+      "label": "bioportal-sio.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/clean-energy-data-reegle.0.rdf",
+      "label": "clean-energy-data-reegle.0.rdf",
+      "occurrences": "1"
+    },
+    {
+      "uri": "http://datahub.io/dataset/sparql-endpoint-status.rdf",
+      "label": "sparql-endpoint-status.rdf",
+      "occurrences": "1"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The Creative Commons Rights Expression Language (CC REL) lets you describe copyright licenses in RDF",
+      "lang": "en",
+      "_id": "569171f5b7cea413588f9683"
+    }
+  ],
+  "isDefinedBy": "http://creativecommons.org/schema.rdf",
+  "lastDeref": "2014-11-05T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-01-09T00:00:00.000Z",
+  "nsp": "http://creativecommons.org/ns#",
+  "prefix": "cc",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fb0",
+      "name": "Creative Commons"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Annual review OK.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2014-11-05T00:00:00.000Z",
+      "_id": "569171f5b7cea413588f9687"
+    },
+    {
+      "body": "This vocabulary is still referenced by many other vocabularies through its historical URI http://web.resource.org/cc/. This URI is redirected, but should not be used anymore.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2012-01-18T00:00:00.000Z",
+      "_id": "569171f5b7cea413588f9686"
+    },
+    {
+      "body": "A de facto standard for representation of rights. Used so far in the metadata of less than 10% of the LOV vocabularies, showing that most vocabulary publishers have no clear license or rights policy on their publication.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-10-10T00:00:00.000Z",
+      "_id": "569171f5b7cea413588f9685"
+    },
+    {
+      "body": "Annual review OK.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-09T00:00:00.000Z",
+      "_id": "569171f5b7cea413588f9684"
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "Creative Commons Rights Expression Language",
+      "lang": "en",
+      "_id": "569171f5b7cea413588f9682"
+    }
+  ],
+  "uri": "http://creativecommons.org/ns",
+  "versions": [
+    {
+      "name": "v2008-03-03",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/cc/versions/2008-03-03.n3",
+      "issued": "2008-03-03T00:00:00.000Z",
+      "classNumber": "6",
+      "propertyNumber": "11",
+      "instanceNumber": "12",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema-datatypes#"
+      ],
+      "relEquivalent": [
+        "http://web.resource.org/cc/",
+        "http://www.w3.org/1999/xhtml/vocab#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

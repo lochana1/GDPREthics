@@ -1,0 +1,255 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-09-30T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be018433ca9ccf1c0e3c",
+      "name": "Thomas Bosch"
+    },
+    {
+      "_id": "54b2be018433ca9ccf1c0e44",
+      "name": "Arofan Gregory"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0e96",
+      "name": "Richard Cyganiak"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0eaa",
+      "name": "Franck Cotton"
+    },
+    {
+      "_id": "54b2be048433ca9ccf1c0fef",
+      "name": "GESIS"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "A metadata vocabulary for documenting research and survey data",
+      "lang": "en",
+      "_id": "586ba6417e341093492c476d"
+    }
+  ],
+  "homepage": "http://rdf-vocabulary.ddialliance.org/discovery.html",
+  "issuedAt": "2012-10-18T00:00:00.000Z",
+  "lastDeref": "2014-05-18T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-01-03T00:00:00.000Z",
+  "nsp": "http://rdf-vocabulary.ddialliance.org/discovery#",
+  "prefix": "disco",
+  "reviews": [
+    {
+      "body": "Documentation updated on 2014-05-16, but the RDF files are dated 2013-09-30 with no version number change.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-05-18T00:00:00.000Z",
+      "_id": "586ba6417e341093492c4771"
+    },
+    {
+      "body": "This vocabulary is work in progress, current status is \"unofficial draft\". Dates not the same in html documentation (2013-09-23) and RDF file (2013-07-05).",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-09-30T00:00:00.000Z",
+      "_id": "586ba6417e341093492c4770"
+    },
+    {
+      "body": "Documentation is marked as \"Unofficial Draft 26 March 2015\", but the RDF file is still dated 2013-09-30 (in the metadata)",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-04-21T00:00:00.000Z",
+      "_id": "586ba6417e341093492c476f"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-01-03T00:00:00.000Z",
+      "_id": "586ba6417e341093492c476e"
+    }
+  ],
+  "tags": [
+    "Methods"
+  ],
+  "titles": [
+    {
+      "value": "DDI-RDF Discovery Vocabulary",
+      "lang": "en",
+      "_id": "586ba6417e341093492c476c"
+    }
+  ],
+  "uri": "http://rdf-vocabulary.ddialliance.org/discovery",
+  "versions": [
+    {
+      "name": "v0.6",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/disco/versions/2013-09-30.n3",
+      "issued": "2013-09-29T23:00:00.000Z",
+      "classNumber": "16",
+      "propertyNumber": "40",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://www.w3.org/ns/dcat#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/linked-data/cube",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v0.6",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/disco/versions/2013-07-05.n3",
+      "issued": "2013-07-04T23:00:00.000Z",
+      "classNumber": "14",
+      "propertyNumber": "42",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://www.w3.org/ns/dcat#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/linked-data/cube",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v0.5",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/disco/versions/2012-10-19.n3",
+      "issued": "2012-10-18T23:00:00.000Z",
+      "classNumber": "15",
+      "propertyNumber": "56",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://www.w3.org/ns/dcat#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/linked-data/cube",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://xmlns.com/foaf/spec/#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-08-28T23:00:00.000Z",
+  "descriptions": [
+    {
+      "value": "El objetivo de este vocabulario es la creación de un esquema que permita definir los contenidos de la información relacionada con la oferta de empleo público.  \t\t\tSe identifican ciertas variables en el dominio de la oferta de empleo público, que se modelan a través de ciertos tipos de datos y de propiedades relacionadas entre los recursos.",
+      "lang": "es",
+      "_id": "56a6abce37d8a8044b2670ce"
+    },
+    {
+      "value": "This is a vocabulary for modeling jobs offer in Spain.",
+      "lang": "en",
+      "_id": "56a6abce37d8a8044b2670cd"
+    }
+  ],
+  "issuedAt": "2010-10-01T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:52:10.147Z",
+  "lastModifiedInLOVAt": "2016-01-25T00:00:00.000Z",
+  "nsp": "http://purl.org/ctic/empleo/oferta#",
+  "prefix": "emp",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fac",
+      "name": "CTIC Foundation"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "\"en\" language tags replaced by \"es\" when needed.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-09-03T00:00:00.000Z",
+      "_id": "56a6abce37d8a8044b2670d2"
+    },
+    {
+      "body": "Vocabulary for describing job offers.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-08-29T00:00:00.000Z",
+      "_id": "56a6abce37d8a8044b2670d1"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-11-04T00:00:00.000Z",
+      "_id": "56a6abce37d8a8044b2670d0"
+    },
+    {
+      "body": "Fixed version history.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-26T00:00:00.000Z",
+      "_id": "56a6abce37d8a8044b2670cf"
+    }
+  ],
+  "tags": [
+    "Society"
+  ],
+  "titles": [
+    {
+      "value": "Vocabulario de Ofertas de Empleo",
+      "lang": "es",
+      "_id": "56a6abce37d8a8044b2670cc"
+    },
+    {
+      "value": "A vocabulary for jobs",
+      "lang": "en",
+      "_id": "56a6abce37d8a8044b2670cb"
+    }
+  ],
+  "uri": "http://purl.org/ctic/empleo/oferta",
+  "versions": [
+    {
+      "name": "v2013-09-03",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/emp/versions/2013-09-03.n3",
+      "issued": "2013-09-02T23:00:00.000Z",
+      "classNumber": "3",
+      "propertyNumber": "28",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2006/03/wn/wn20/instances/",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2013-05-29",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/emp/versions/2013-05-29.n3",
+      "issued": "2013-05-28T23:00:00.000Z",
+      "classNumber": "3",
+      "propertyNumber": "28",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2006/03/wn/wn20/instances/",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2012-09-01",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/emp/versions/2012-09-01.n3",
+      "issued": "2012-08-31T23:00:00.000Z",
+      "classNumber": "3",
+      "propertyNumber": "28",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "foaf:",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "wn20:"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2010-10-01",
+      "issued": "2010-09-30T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

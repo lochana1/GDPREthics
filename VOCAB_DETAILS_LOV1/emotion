@@ -1,0 +1,165 @@
+{
+  "__v": 1,
+  "commentDeref": "Problem while dereferencing or parsing the vocabulary",
+  "contributorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e7e",
+      "name": "Ghislain Atemezing"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f65",
+      "name": "Fabien Gandon"
+    }
+  ],
+  "createdInLOVAt": "2013-11-22T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fc0",
+      "name": "INRIA"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0ea0",
+      "name": "Peter Sander"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0ee7",
+      "name": "Franck Berthelon"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "EmOCA is used to contextualize dimensionnal emotion and to categorize it for human readability.",
+      "lang": "en",
+      "_id": "5691702fb7cea413588f958d"
+    }
+  ],
+  "homepage": "http://ns.inria.fr/emoca/",
+  "issuedAt": "2013-08-30T00:00:00.000Z",
+  "lastDeref": "2014-12-16T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-01-09T00:00:00.000Z",
+  "nsp": "http://ns.inria.fr/emoca#",
+  "prefix": "emotion",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fc0",
+      "name": "INRIA"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "New version is re-using FOAF",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-01-17T00:00:00.000Z",
+      "_id": "5691702fb7cea413588f9591"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-12-16T00:00:00.000Z",
+      "_id": "5691702fb7cea413588f9590"
+    },
+    {
+      "body": "A vocabulary for emotion, which does not reuse any other existing vocabulary.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2013-11-22T00:00:00.000Z",
+      "_id": "5691702fb7cea413588f958f"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-09T00:00:00.000Z",
+      "_id": "5691702fb7cea413588f958e"
+    }
+  ],
+  "tags": [
+    "People"
+  ],
+  "titles": [
+    {
+      "value": "Emotion Ontology for Context Awareness",
+      "lang": "en",
+      "_id": "5691702fb7cea413588f958c"
+    }
+  ],
+  "uri": "http://ns.inria.fr/emoca",
+  "versions": [
+    {
+      "name": "v2013-11-26",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/emotion/versions/2013-11-26.n3",
+      "issued": "2013-11-26T00:00:00.000Z",
+      "classNumber": "16",
+      "propertyNumber": "9",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://purl.org/vocommons/voaf#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2013-11-22",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/emotion/versions/2013-11-22.n3",
+      "issued": "2013-11-22T00:00:00.000Z",
+      "classNumber": "16",
+      "propertyNumber": "9",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": null,
+      "isReviewed": false
+    }
+  ]
+}

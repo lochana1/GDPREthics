@@ -312,7 +312,7 @@ public class CreateOntology {
         hasSocietyRelatedVocab.setRange(XSD.xboolean);
         hasSocietyRelatedVocab.addSuperProperty(containsVocab);
 
-        hasTimeRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasCellsRelatedVocab");
+        hasTimeRelatedVocab = ontModel.createDatatypeProperty(NAMESPACE + "hasTimeRelatedVocab");
         hasTimeRelatedVocab.setDomain(Vocabs);
         hasTimeRelatedVocab.setRange(XSD.xboolean);
         hasTimeRelatedVocab.addSuperProperty(containsVocab);

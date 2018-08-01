@@ -1,0 +1,109 @@
+{
+  "__v": 0,
+  "contributorIds": [],
+  "createdInLOVAt": "2016-11-08T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "58219c4a37e8a6d933be9bc1",
+      "name": "Sergio José Rodríguez Méndez"
+    },
+    {
+      "_id": "58219c9637e8a6d933be9bfe",
+      "name": "John K. Zao"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The BCI ontology specifies a foundational metadata model set for real-world multimodal Brain Computing Interface (BCI) data capture activities. The ontology defines a minimalist and simple abstract metadata foundational model for real-world BCI applications that monitors human activity in any scenario. BCI multimodal domain applications are encouraged to extend and use this ontology in their implementations.",
+      "lang": "en",
+      "_id": "58219de637e8a6d933be9d03"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2014-03-27T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-11-08T09:43:07.195Z",
+  "nsp": "https://w3id.org/BCI-ontology#",
+  "prefix": "bci",
+  "publisherIds": [
+    {
+      "_id": "58219d0537e8a6d933be9c52",
+      "name": "Pervasive Embedded Technology Laboratory (PET Lab)"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Well documented vocabulary for the description of Human brain activity.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2016-11-08T00:00:00.000Z",
+      "_id": "58219de637e8a6d933be9d02"
+    }
+  ],
+  "tags": [
+    "IoT"
+  ],
+  "titles": [
+    {
+      "value": "Brain Computing Interface (BCI) Ontology",
+      "lang": "en",
+      "_id": "58219de637e8a6d933be9d04"
+    }
+  ],
+  "uri": "https://w3id.org/BCI-ontology",
+  "versions": [
+    {
+      "_id": "58219df537e8a6d933be9d0f",
+      "classNumber": "53",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/bci/versions/2016-10-13.n3",
+      "instanceNumber": "0",
+      "issued": "2016-10-13T00:00:00.000Z",
+      "name": "v1.0.0",
+      "propertyNumber": "90",
+      "relSpecializes": [
+        "http://dbpedia.org/ontology/",
+        "http://www.w3.org/2005/Incubator/ssn/ssnx/ssn",
+        "http://www.loa-cnr.it/ontologies/DUL.owl#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://dbpedia.org/ontology/",
+        "http://purl.oclc.org/NET/ssnx/",
+        "http://www.ontologydesignpatterns.org/ont/dul/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2005/Incubator/ssn/ssnx/ssn",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://open.vocab.org/terms",
+        "http://purl.org/dc/dcmitype/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2004/02/skos/core",
+        "http://www.w3.org/2007/05/powder-s",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

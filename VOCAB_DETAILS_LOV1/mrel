@@ -1,0 +1,286 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2012-09-25T23:00:00.000Z",
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/b3kat.241.rdf",
+      "label": "b3kat.241.rdf",
+      "occurrences": "7117"
+    },
+    {
+      "uri": "http://datahub.io/dataset/b3kat.249.rdf",
+      "label": "b3kat.249.rdf",
+      "occurrences": "5136"
+    },
+    {
+      "uri": "http://datahub.io/dataset/idreffr.rdf",
+      "label": "idreffr.rdf",
+      "occurrences": "117"
+    },
+    {
+      "uri": "http://datahub.io/dataset/deutsche-nationalbibliografie-dnb.",
+      "label": "deutsche-nationalbibliografie-dnb.",
+      "occurrences": "1"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "MARC relators are defined as both RDF properties and SKOS concepts",
+      "lang": "en",
+      "_id": "56a3c44437d8a8044b254131"
+    }
+  ],
+  "issuedAt": "2012-07-03T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:52:18.605Z",
+  "lastModifiedInLOVAt": "2016-01-23T00:00:00.000Z",
+  "nsp": "http://id.loc.gov/vocabulary/relators/",
+  "prefix": "mrel",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fbb",
+      "name": "Library of Congress"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Quite similar to the RDA Roles vocabulary, with whom it shares more than 100 properies with the same label in the same context. Unfortunately those vocabularies are not linked.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-08-26T00:00:00.000Z",
+      "_id": "56a3c44437d8a8044b254135"
+    },
+    {
+      "body": "Updated version history",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-07-30T00:00:00.000Z",
+      "_id": "56a3c44437d8a8044b254134"
+    },
+    {
+      "body": "One would think that LoC, as the largest library in the world, would add minimal metadata to their vocabularies. This is unfortunately not the case. No history of this vocabulary is available.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2012-09-26T00:00:00.000Z",
+      "_id": "56a3c44437d8a8044b254133"
+    },
+    {
+      "body": "Fixed version history.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-23T00:00:00.000Z",
+      "_id": "56a3c44437d8a8044b254132"
+    }
+  ],
+  "tags": [
+    "Vocabularies"
+  ],
+  "titles": [
+    {
+      "value": "MARC Code List for Relators",
+      "lang": "en",
+      "_id": "56a3c44437d8a8044b254130"
+    }
+  ],
+  "uri": "http://id.loc.gov/vocabulary/relators",
+  "versions": [
+    {
+      "name": "v2014-06-03",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/mrel/versions/2014-06-03.n3",
+      "issued": "2014-06-02T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "270",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/elements/1.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.loc.gov/mads/rdf/v1#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2014-05-31",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/mrel/versions/2014-05-31.n3",
+      "issued": "2014-05-30T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2014-02-16",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/mrel/versions/2014-02-16.n3",
+      "issued": "2014-02-16T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "270",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/elements/1.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.loc.gov/mads/rdf/v1#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2013-06-01",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/mrel/versions/2013-06-01.n3",
+      "issued": "2013-05-31T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "263",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/elements/1.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.loc.gov/mads/rdf/v1#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2013-03-17",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/mrel/versions/2013-03-17.n3",
+      "issued": "2013-03-17T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "221",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/elements/1.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.loc.gov/mads/rdf/v1#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2012-07-03",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/mrel/versions/2012-07-03.n3",
+      "issued": "2012-07-02T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "221",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/elements/1.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.loc.gov/mads/rdf/v1#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

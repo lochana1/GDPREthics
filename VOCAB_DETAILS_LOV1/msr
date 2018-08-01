@@ -1,0 +1,105 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-06-04T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be018433ca9ccf1c0e52",
+      "name": "Ian Jacobi"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/telegraphis.rdf",
+      "label": "telegraphis.rdf",
+      "occurrences": "21"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The Measurement Ontology is an ontology in which measurements may be rendered",
+      "lang": "en",
+      "_id": "557f47ab1d5237e823d24ee1"
+    }
+  ],
+  "lastDeref": "2014-06-04T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-06-15T00:00:00.000Z",
+  "nsp": "http://www.telegraphis.net/ontology/measurement/measurement#",
+  "prefix": "msr",
+  "reviews": [
+    {
+      "body": "No HTML nor human readable documentation found.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-06-04T00:00:00.000Z",
+      "_id": "557f47ab1d5237e823d24ee4"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-04T00:00:00.000Z",
+      "_id": "557f47ab1d5237e823d24ee3"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-06-15T00:00:00.000Z",
+      "_id": "557f47ab1d5237e823d24ee2"
+    }
+  ],
+  "tags": [
+    "Methods"
+  ],
+  "titles": [
+    {
+      "value": "Measurement Ontology",
+      "lang": "en",
+      "_id": "557f47ab1d5237e823d24ee0"
+    }
+  ],
+  "uri": "http://www.telegraphis.net/ontology/measurement/measurement#",
+  "versions": [
+    {
+      "name": "v2009-06-06",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/msr/versions/2009-06-06.n3",
+      "issued": "2009-06-05T23:00:00.000Z",
+      "classNumber": "7",
+      "propertyNumber": "5",
+      "instanceNumber": "3",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://vocab.deri.ie/scovo",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

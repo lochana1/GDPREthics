@@ -1,0 +1,135 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-06-24T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fbf",
+      "name": "National Diet Library"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/national-diet-library-authorities.0.rdf",
+      "label": "national-diet-library-authorities.0.rdf",
+      "occurrences": "69956"
+    },
+    {
+      "uri": "http://datahub.io/dataset/national-diet-library-subject-headings.rdf",
+      "label": "national-diet-library-subject-headings.rdf",
+      "occurrences": "69650"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "RDF Schema declaration for Japan NDL Metadata Terms",
+      "lang": "en",
+      "_id": "55d72c64e4ac2b1c4c5a5119"
+    }
+  ],
+  "issuedAt": "2010-06-21T00:00:00.000Z",
+  "lastDeref": "2014-06-23T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-08-21T00:00:00.000Z",
+  "nsp": "http://ndl.go.jp/dcndl/terms/",
+  "prefix": "dcndl",
+  "reviews": [
+    {
+      "body": "Built as an extension and Japanese translation of Dublin Core elements, this vocabulary is published by the National Diet Library (Japan National Library) and used in the publication of its catalog records. See http://iss.ndl.go.jp/.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-06-25T00:00:00.000Z",
+      "_id": "55d72c64e4ac2b1c4c5a511c"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-24T00:00:00.000Z",
+      "_id": "55d72c64e4ac2b1c4c5a511b"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-08-21T00:00:00.000Z",
+      "_id": "55d72c64e4ac2b1c4c5a511a"
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "NDL Metadata Terms",
+      "lang": "en",
+      "_id": "55d72c64e4ac2b1c4c5a5118"
+    }
+  ],
+  "uri": "http://ndl.go.jp/dcndl/terms/",
+  "versions": [
+    {
+      "name": "v2011-12-01",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/dcndl/versions/2011-12-01.n3",
+      "issued": "2011-12-01T00:00:00.000Z",
+      "classNumber": "47",
+      "propertyNumber": "77",
+      "instanceNumber": "0",
+      "datatypeNumber": "44",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/dcmitype/",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v2010-06-21",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/dcndl/versions/2010-06-21.n3",
+      "issued": "2010-06-20T23:00:00.000Z",
+      "classNumber": "41",
+      "propertyNumber": "66",
+      "instanceNumber": "0",
+      "datatypeNumber": "41",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

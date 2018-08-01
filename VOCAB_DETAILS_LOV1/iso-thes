@@ -1,0 +1,159 @@
+{
+  "__v": 2,
+  "contributorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f46",
+      "name": "Marcia Zeng"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f79",
+      "name": "Vladimir Alexiev"
+    }
+  ],
+  "createdInLOVAt": "2014-08-25T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e73",
+      "name": "Antoine Isaac"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f8f",
+      "name": "Johan De Smedt"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "This vocabulary aims at providing interoperability between SKOS and ISO 25964 ‐ 1:2011, the new standard for thesauri",
+      "lang": "en",
+      "_id": "56a63acf37d8a8044b263a2c"
+    }
+  ],
+  "issuedAt": "2013-10-04T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:52:15.509Z",
+  "lastModifiedInLOVAt": "2016-01-25T00:00:00.000Z",
+  "nsp": "http://purl.org/iso25964/skos-thes#",
+  "prefix": "iso-thes",
+  "reviews": [
+    {
+      "body": "This vocabulary is the result of a long and patient collaboration between SKOS and ISO 25964 working groups. It is still work in progress. Contributors Douglas S. Tudhope, Jutta Lindenthal, Leonard Will, and Stella Dextre Clarke.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-08-26T00:00:00.000Z",
+      "_id": "56a63acf37d8a8044b263a2e"
+    },
+    {
+      "body": "Added a new version.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-25T00:00:00.000Z",
+      "_id": "56a63acf37d8a8044b263a2d"
+    }
+  ],
+  "tags": [
+    "Vocabularies"
+  ],
+  "titles": [
+    {
+      "value": "ISO 25964 SKOS extension",
+      "lang": "en",
+      "_id": "56a63acf37d8a8044b263a2b"
+    }
+  ],
+  "uri": "http://purl.org/iso25964/skos-thes",
+  "versions": [
+    {
+      "name": "v2013-12-09",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/iso-thes/versions/2013-12-09.n3",
+      "issued": "2013-12-09T00:00:00.000Z",
+      "classNumber": "6",
+      "propertyNumber": "16",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://www.w3.org/2008/05/skos-xl#"
+      ],
+      "relImports": [
+        "http://www.w3.org/2004/02/skos/",
+        "http://www.w3.org/2008/05/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocommons/voaf#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2015-03-17",
+      "issued": "2015-03-17T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "16",
+      "classNumber": "6",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/iso-thes/versions/2015-03-17.n3",
+      "_id": "56a63ab537d8a8044b263a23",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core",
+        "http://www.w3.org/2008/05/skos-xl"
+      ],
+      "relImports": [
+        "http://www.w3.org/2004/02/skos/",
+        "http://www.w3.org/2008/05/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocommons/voaf",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

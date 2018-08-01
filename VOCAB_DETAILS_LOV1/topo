@@ -1,0 +1,138 @@
+{
+  "__v": 4,
+  "contributorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0e7e",
+      "name": "Ghislain Atemezing"
+    }
+  ],
+  "createdInLOVAt": "2014-07-29T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0ec5",
+      "name": "Nathalie Abadie"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "Ontologie décrivant les éléments du territoire et ses infrastructures. Elle repend l'essentiel du vocabulaire de la BDTOPO(IGN) et vise à couvrir l'ensemble des entités topographiques et administratives du territoire national. Les thèmes couverts sont: le réseau routier, le réseau ferroviaire, le réseau de transport d'énergie, le réseau hydrographique, les bâtiments, la végétation arborée, l'orographie, les communes, les points d'activité ou d'intérêt.",
+      "lang": "fr",
+      "_id": "58ec8846abe2639e2c3bd872"
+    },
+    {
+      "value": "This ontology reuses the legacy schema of BDTOPO(IGN) and aims at covering the topographic entities and administrative boundaries of the French national territory. The themes covered are: railway, transport, roads, energy, hydrography, POI, communes, etc.",
+      "lang": "en",
+      "_id": "58ec8846abe2639e2c3bd871"
+    }
+  ],
+  "isDefinedBy": "http://data.ign.fr/def/topo",
+  "issuedAt": "2014-04-16T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:52:30.704Z",
+  "lastModifiedInLOVAt": "2017-04-11T00:00:00.000Z",
+  "nsp": "http://data.ign.fr/def/topo#",
+  "prefix": "topo",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fcb",
+      "name": "Institut National de l'Information Géographique et Forestière"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "A vocabulary model for describing spatial objects of the French territory maintained in IGN-France in BDTOPO database. See also the description of entities at http://professionnels.ign.fr/bdtopo.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2014-07-30T00:00:00.000Z",
+      "_id": "58ec8846abe2639e2c3bd875"
+    },
+    {
+      "body": "Annual review - OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-15T00:00:00.000Z",
+      "_id": "58ec8846abe2639e2c3bd874"
+    },
+    {
+      "body": "Annual review - OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-04-11T00:00:00.000Z",
+      "_id": "58ec8846abe2639e2c3bd873"
+    }
+  ],
+  "tags": [
+    "Geography"
+  ],
+  "titles": [
+    {
+      "value": "Ontologie des éléments du territoire et de ses infrastructures de l'IGN",
+      "lang": "fr",
+      "_id": "58ec8846abe2639e2c3bd870"
+    },
+    {
+      "value": "An ontology for describing territory elements an infrastructure at French Mapping Agency.",
+      "lang": "en",
+      "_id": "58ec8846abe2639e2c3bd86f"
+    }
+  ],
+  "uri": "http://data.ign.fr/def/topo",
+  "versions": [
+    {
+      "name": "v1.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/topo/versions/2014-04-12.n3",
+      "issued": "2014-04-12T00:00:00.000Z",
+      "classNumber": "47",
+      "propertyNumber": "52",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://www.w3.org/ns/prov#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://data.ign.fr/def/geofla",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://www.w3.org/ns/prov#"
+      ],
+      "relEquivalent": [
+        "http://www.geonames.org/ontology#"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

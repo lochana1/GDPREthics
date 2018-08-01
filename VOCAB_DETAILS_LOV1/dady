@@ -1,0 +1,92 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-06-09T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f09",
+      "name": "Michael Hausenblas"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "A vocabulary that allows for coarse-grained descriptions of the data-source dynamics as well as the discovery of change notification mechanism(s).",
+      "lang": "en",
+      "_id": "55d72b39e4ac2b1c4c5a50d8"
+    }
+  ],
+  "issuedAt": "2010-01-27T00:00:00.000Z",
+  "lastDeref": "2014-06-05T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-08-21T00:00:00.000Z",
+  "nsp": "http://purl.org/NET/dady#",
+  "prefix": "dady",
+  "reviews": [
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-06-06T00:00:00.000Z",
+      "_id": "55d72b39e4ac2b1c4c5a50db"
+    },
+    {
+      "body": "Formats provided: turtle and RDF/XML",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-06-10T00:00:00.000Z",
+      "_id": "55d72b39e4ac2b1c4c5a50da"
+    },
+    {
+      "body": "Looking for datasets using this vocabulary and how its related to dataset versioning",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-08-21T00:00:00.000Z",
+      "_id": "55d72b39e4ac2b1c4c5a50d9"
+    }
+  ],
+  "tags": [
+    "RDF"
+  ],
+  "titles": [
+    {
+      "value": "Dataset Dynamics (dady) vocabulary",
+      "lang": "en",
+      "_id": "55d72b39e4ac2b1c4c5a50d7"
+    }
+  ],
+  "uri": "http://vocab.deri.ie/dady",
+  "versions": [
+    {
+      "name": "v2010-01-27",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/dady/versions/2010-01-27.n3",
+      "issued": "2010-01-27T00:00:00.000Z",
+      "classNumber": "13",
+      "propertyNumber": "3",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

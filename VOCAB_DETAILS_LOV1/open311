@@ -1,0 +1,83 @@
+{
+  "__v": 2,
+  "contributorIds": [],
+  "createdInLOVAt": "2015-04-16T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "552d4247e1c83cc50c4cd271",
+      "name": "Mark S. Fox"
+    },
+    {
+      "_id": "552fb12ad945656b49788654",
+      "name": "Soroosh Nalchigar"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "Open 311 Ontology\n\nThis ontology generalizes the concepts that appear in 311 open data files published by several cities (Toronto, New York, Chicago, Vancouver) across North America.  It provides a generis representation of 311 data that other cities can map their data onto and be used as a means of achieving interoperability.",
+      "lang": "en",
+      "_id": "5ad0b0803aba5caf50df14a2"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2014-08-03T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2018-04-13T00:00:00.000Z",
+  "nsp": "http://ontology.eil.utoronto.ca/open311#",
+  "prefix": "open311",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "Yet another vocabulary for smart cities application.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-04-16T00:00:00.000Z",
+      "_id": "5ad0b0803aba5caf50df14a4"
+    },
+    {
+      "body": "Annual review - OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2018-04-13T00:00:00.000Z",
+      "_id": "5ad0b0803aba5caf50df14a3"
+    }
+  ],
+  "tags": [
+    "Society",
+    "Events"
+  ],
+  "titles": [
+    {
+      "value": "Open 311 Ontology: An Ontology for publishing a city's non-emergency events.",
+      "lang": "en",
+      "_id": "5ad0b0803aba5caf50df14a1"
+    }
+  ],
+  "uri": "http://ontology.eil.utoronto.ca/open311.owl",
+  "versions": [
+    {
+      "name": "v1.1",
+      "issued": "2014-08-03T00:00:00.000Z",
+      "_id": "552fb27e7ef1bbaf4e0bb40c",
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

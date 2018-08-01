@@ -1,0 +1,123 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-08-21T23:00:00.000Z",
+  "descriptions": [
+    {
+      "value": "A vocabulary to express information about people and their relations with Organizations, Companies, etc.",
+      "lang": "en",
+      "_id": "5accd0503aba5caf50dbed17"
+    },
+    {
+      "value": "Un vocabulario para expresar información acerca de personas, y sus relaciones con organizaciones y empresas",
+      "lang": "es",
+      "_id": "5accd0503aba5caf50dbed16"
+    }
+  ],
+  "homepage": "http://dev.poderopedia.com/documentation/index",
+  "lastDeref": "2014-08-21T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2018-04-10T00:00:00.000Z",
+  "nsp": "http://dev.poderopedia.com/vocab/",
+  "prefix": "poder",
+  "reviews": [
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-08-22T00:00:00.000Z",
+      "_id": "5accd0503aba5caf50dbed1b"
+    },
+    {
+      "body": "The vocabulary URI and namespace have been moved. Poderopedia is a collaborative data base of public people and organizations in Chile, and dedicated to citizen information.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-08-22T00:00:00.000Z",
+      "_id": "5accd0503aba5caf50dbed1a"
+    },
+    {
+      "body": "Annual review - OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-31T00:00:00.000Z",
+      "_id": "5accd0503aba5caf50dbed19"
+    },
+    {
+      "body": "Annual review - OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2018-04-10T00:00:00.000Z",
+      "_id": "5accd0503aba5caf50dbed18"
+    }
+  ],
+  "tags": [
+    "People"
+  ],
+  "titles": [
+    {
+      "value": "Poder Vocabulary",
+      "lang": "en",
+      "_id": "5accd0503aba5caf50dbed15"
+    }
+  ],
+  "uri": "http://dev.poderopedia.com/vocab/schema",
+  "versions": [
+    {
+      "name": "v0.8",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/poder/versions/2012-05-17.n3",
+      "issued": "2012-05-16T23:00:00.000Z",
+      "classNumber": "49",
+      "propertyNumber": "60",
+      "instanceNumber": "2",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/bio/0.1/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "http://www.w3.org/2004/02/skos/core#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [
+        "http://purl.org/vocab/bio/0.1/"
+      ],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e2d",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/spa",
+          "label": "Spanish",
+          "iso639P3PCode": "spa"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

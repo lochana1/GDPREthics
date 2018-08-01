@@ -1,0 +1,261 @@
+{
+  "__v": 3,
+  "commentDeref": "Problem while dereferencing or parsing the vocabulary",
+  "createdInLOVAt": "2013-08-23T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fba",
+      "name": "Camera dei Deputati"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/camera-deputati-linked-data.178.rdf",
+      "label": "camera-deputati-linked-data.178.rdf",
+      "occurrences": "1910342"
+    },
+    {
+      "uri": "http://datahub.io/dataset/camera-deputati-linked-data.3.rdf",
+      "label": "camera-deputati-linked-data.3.rdf",
+      "occurrences": "853907"
+    },
+    {
+      "uri": "http://datahub.io/dataset/camera-deputati-linked-data.17.rdf",
+      "label": "camera-deputati-linked-data.17.rdf",
+      "occurrences": "643607"
+    },
+    {
+      "uri": "http://datahub.io/dataset/camera-deputati-linked-data.1.rdf",
+      "label": "camera-deputati-linked-data.1.rdf",
+      "occurrences": "243991"
+    },
+    {
+      "uri": "http://datahub.io/dataset/camera-deputati-linked-data.0.rdf",
+      "label": "camera-deputati-linked-data.0.rdf",
+      "occurrences": "43613"
+    },
+    {
+      "uri": "http://datahub.io/dataset/camera-deputati-linked-data.rdf",
+      "label": "camera-deputati-linked-data.rdf",
+      "occurrences": "58"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "L'ontologia Camera dei deputati è stata creata per descrivere tutte le risorse (persone, eventi, documenti) sia storiche che correnti, connesse alla Camera e alla sua attività",
+      "lang": "it",
+      "_id": "55352f246313f1cd32a4b14e"
+    },
+    {
+      "value": "Ontology of the Chamber of Deputies of the Italian Parliament.",
+      "lang": "en",
+      "_id": "55352f246313f1cd32a4b14d"
+    }
+  ],
+  "homepage": "http://dati.camera.it/ocd/reference_document/",
+  "isDefinedBy": "http://dati.camera.it/ocd/classi.rdf",
+  "issuedAt": "2011-12-20T00:00:00.000Z",
+  "lastDeref": "2014-05-18T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-07-02T17:22:09.207Z",
+  "nsp": "http://dati.camera.it/ocd/",
+  "prefix": "ocd",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fba",
+      "name": "Camera dei Deputati"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "HTML documentation is not retrieved from the ontology URI by content negotiation.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-08-23T00:00:00.000Z",
+      "_id": "55352f246313f1cd32a4b151"
+    },
+    {
+      "body": "Updated history. New class and property added in the last version, without change of version number.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-05-18T00:00:00.000Z",
+      "_id": "55352f246313f1cd32a4b150"
+    },
+    {
+      "body": "Calling the namespace URI triggers a 500 error. Added direct link to the RDF file. Fixed version history.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-04-20T00:00:00.000Z",
+      "_id": "55352f246313f1cd32a4b14f"
+    }
+  ],
+  "tags": [
+    "Government"
+  ],
+  "titles": [
+    {
+      "value": "Ontologia Camera dei Deputati",
+      "lang": "it",
+      "_id": "55352f246313f1cd32a4b14c"
+    },
+    {
+      "value": "Ontology of Italian Deputy Chamber",
+      "lang": "en",
+      "_id": "55352f246313f1cd32a4b14b"
+    }
+  ],
+  "uri": "http://dati.camera.it/ocd/",
+  "versions": [
+    {
+      "name": "v1.2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ocd/versions/2013-05-02.n3",
+      "issued": "2013-05-02T00:00:00.000Z",
+      "classNumber": "67",
+      "propertyNumber": "87",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.geonames.org/ontology#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2004/02/skos/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "relEquivalent": [
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v1.2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ocd/versions/2012-10-15.n3",
+      "issued": "2012-10-15T00:00:00.000Z",
+      "classNumber": "67",
+      "propertyNumber": "87",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.geonames.org/ontology#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2004/02/skos/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "relEquivalent": [
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v1.1",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/ocd/versions/2012-04-26.n3",
+      "issued": "2012-04-26T00:00:00.000Z",
+      "classNumber": "56",
+      "propertyNumber": "64",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.camera.it/168",
+        "http://www.geonames.org/ontology#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2008/05/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://ocd.intra.camera.it/theca.rdf/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e1a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/ita",
+          "label": "Italian",
+          "iso639P3PCode": "ita"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

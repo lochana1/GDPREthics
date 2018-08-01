@@ -1,0 +1,101 @@
+{
+  "__v": 0,
+  "contributorIds": [
+    {
+      "_id": "5a254c283d405e60384f2c90",
+      "name": "Rob Brennan"
+    }
+  ],
+  "createdInLOVAt": "2017-12-04T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "5a254c0b3d405e60384f2c69",
+      "name": "Judie Attard"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The Data Value Vocabulary (DaVe) is an extensible core vocabulary that allows user to use custom data value dimensions and metrics to characterise data value in a specific context. This flexibility allows for the comprehensive modelling of data value. As a data value model, DaVe allows users to monitor data value as it occurs within a data exploitation or value creation process (data value chain)",
+      "lang": "en",
+      "_id": "5a254c923d405e60384f2d28"
+    }
+  ],
+  "homepage": "http://theme-e.adaptcentre.ie/dave/",
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "lastModifiedInLOVAt": "2017-12-04T13:29:16.456Z",
+  "nsp": "http://theme-e.adaptcentre.ie/dave#",
+  "prefix": "dave",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "Vocabulary for the description of measurements, value and units",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2017-12-04T00:00:00.000Z",
+      "_id": "5a254c923d405e60384f2d27"
+    }
+  ],
+  "tags": [
+    "General & Upper",
+    "Geometry",
+    "IoT"
+  ],
+  "titles": [
+    {
+      "value": "Data Value Vocabulary (DaVe)",
+      "lang": "en",
+      "_id": "5a254c923d405e60384f2d29"
+    }
+  ],
+  "uri": "http://theme-e.adaptcentre.ie/dave/dave.ttl",
+  "versions": [
+    {
+      "name": "v2017-11-30",
+      "issued": "2017-11-30T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "9",
+      "classNumber": "7",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/dave/versions/2017-11-30.n3",
+      "_id": "5a254c943d405e60384f2d2d",
+      "relSpecializes": [
+        "http://purl.org/linked-data/cube",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://purl.org/linked-data/sdmx/2009/dimension",
+        "http://www.w3.org/ns/dcat"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

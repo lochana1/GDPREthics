@@ -1,0 +1,119 @@
+{
+  "__v": 1,
+  "contributorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f51",
+      "name": "Harry Halpin"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f5b",
+      "name": "Aldo Gangemi"
+    }
+  ],
+  "createdInLOVAt": "2013-06-03T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be038433ca9ccf1c0f01",
+      "name": "Valentina Presutti"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/farmers-markets-geographic-data-united-states.ttl",
+      "label": "farmers-markets-geographic-data-united-states.ttl",
+      "occurrences": "2"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "This ontology is an evolution of IRE ontology. It describes identification of resources on the Web, through the definition of relationships between resources and their representations on the Web. The requirement is to describe what can be identified by URIs and how this is handled e.g. in form of HTTP requests and reponds.",
+      "lang": "en",
+      "_id": "55de1a0754ef107a63464b2c"
+    }
+  ],
+  "lastDeref": "2014-06-08T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2015-08-26T00:00:00.000Z",
+  "nsp": "http://www.ontologydesignpatterns.org/ont/web/irw.owl#",
+  "prefix": "irw",
+  "reviews": [
+    {
+      "body": "Version date is the one of the file at http://ontologydesignpatterns.org/ont/web/. No date or version history in the metadata.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-06-11T00:00:00.000Z",
+      "_id": "55de1a0754ef107a63464b2f"
+    },
+    {
+      "body": "Human readable information at http://ontologydesignpatterns.org/wiki/Ontology:Identity_of_Resources_on_the_Web although not really complete.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e8e",
+        "name": "María Poveda-Villalón"
+      },
+      "createdAt": "2013-06-04T00:00:00.000Z",
+      "_id": "55de1a0754ef107a63464b2e"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-08-26T00:00:00.000Z",
+      "_id": "55de1a0754ef107a63464b2d"
+    }
+  ],
+  "tags": [
+    "Quality"
+  ],
+  "titles": [
+    {
+      "value": "The Identity of Resources on the Web ontology",
+      "lang": "en",
+      "_id": "55de1a0754ef107a63464b2b"
+    }
+  ],
+  "uri": "http://www.ontologydesignpatterns.org/ont/web/irw.owl",
+  "versions": [
+    {
+      "name": "v2009-03-09",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/irw/versions/2009-03-09.n3",
+      "issued": "2009-03-09T00:00:00.000Z",
+      "classNumber": "13",
+      "propertyNumber": "18",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.ontologydesignpatterns.org/cp/owl/informationrealization.owl",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [
+        "http://www.ontologydesignpatterns.org/cp/owl/"
+      ],
+      "relGeneralizes": [
+        "http://www.ontologydesignpatterns.org/cp/owl/informationrealization.owl"
+      ],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relEquivalent": [
+        "http://www.ontologydesignpatterns.org/cp/owl/informationrealization.owl"
+      ],
+      "relDisjunc": [
+        "http://www.ontologydesignpatterns.org/cp/owl/informationrealization.owl",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "__v": 1,
+  "contributorIds": [
+    {
+      "_id": "5abb58870d8ceb4e01493263",
+      "name": "Erwin Folmer"
+    }
+  ],
+  "createdInLOVAt": "2018-06-28T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "5abcb819c7ef5ec931501141",
+      "name": "Kadaster Data Platform"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "Ontologie voor datasets van het CBS",
+      "lang": "nl",
+      "_id": "5b34dc5ccd8de63f0afaa606"
+    },
+    {
+      "value": "Vocabulary for datasets from the Netherlands' National Statistics Office",
+      "lang": "en",
+      "_id": "5b34dc5ccd8de63f0afaa605"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2018-05-02T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2018-06-28T13:03:30.450Z",
+  "nsp": "http://betalinkeddata.cbs.nl/def/cbs#",
+  "prefix": "cbs",
+  "publisherIds": [
+    {
+      "_id": "5b34dbcdcd8de63f0afaa54c",
+      "name": "Centraal Bureau voor de Statistiek"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Netherlands national statistics office ontology including definition of region geometry",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2018-06-28T00:00:00.000Z",
+      "_id": "5b34dc5ccd8de63f0afaa604"
+    }
+  ],
+  "tags": [
+    "Geography",
+    "Government"
+  ],
+  "titles": [
+    {
+      "value": "De Centraal Bureau voor de Statistiek (CBS) ontologie",
+      "lang": "nl",
+      "_id": "5b34dc5ccd8de63f0afaa608"
+    },
+    {
+      "value": "Netherlands' National Statistics Office (CBS) ontology",
+      "lang": "en",
+      "_id": "5b34dc5ccd8de63f0afaa607"
+    }
+  ],
+  "uri": "http://betalinkeddata.cbs.nl/def/cbs",
+  "versions": [
+    {
+      "name": "v2018-05-02",
+      "issued": "2018-05-02T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "2",
+      "classNumber": "5",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/cbs/versions/2018-05-02.n3",
+      "_id": "5b34dca2cd8de63f0afaa66d",
+      "relSpecializes": [
+        "http://www.opengis.net/ont/geosparql",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [
+        "http://purl.org/linked-data/cube",
+        "http://www.opengis.net/ont/geosparql"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2004/02/skos/core"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://vocab.deri.ie/void",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e23",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/nld",
+          "label": "Dutch",
+          "iso639P3PCode": "nld"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

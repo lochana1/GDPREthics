@@ -1,0 +1,98 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-08-21T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0ed3",
+      "name": "Lorea Lorenzo Uribarren"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "A lightweight ontology to structure e- brainstorming sessions",
+      "lang": "en",
+      "_id": "569f766fff8848f96bd20378"
+    }
+  ],
+  "issuedAt": "2011-03-25T00:00:00.000Z",
+  "lastDeref": "2014-08-24T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-01-20T00:00:00.000Z",
+  "nsp": "http://vocab.deri.ie/br#",
+  "prefix": "br",
+  "reviews": [
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-08-25T00:00:00.000Z",
+      "_id": "569f766fff8848f96bd2037b"
+    },
+    {
+      "body": "Interesting vocabulary, but with very poor documentation, not even definitions of terms.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-08-22T00:00:00.000Z",
+      "_id": "569f766fff8848f96bd2037a"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-20T00:00:00.000Z",
+      "_id": "569f766fff8848f96bd20379"
+    }
+  ],
+  "tags": [
+    "Society"
+  ],
+  "titles": [
+    {
+      "value": "Brainstorm Ontology",
+      "lang": "en",
+      "_id": "569f766fff8848f96bd20377"
+    }
+  ],
+  "uri": "http://vocab.deri.ie/br",
+  "versions": [
+    {
+      "name": "2011-07-09",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/br/versions/2011-07-09.n3",
+      "issued": "2011-07-08T23:00:00.000Z",
+      "classNumber": "9",
+      "propertyNumber": "16",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/adms#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    }
+  ]
+}

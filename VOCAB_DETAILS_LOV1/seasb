@@ -1,0 +1,145 @@
+{
+  "__v": 4,
+  "contributorIds": [
+    {
+      "_id": "59a598487845e44d19becda5",
+      "name": "Antoine Zimmermann"
+    },
+    {
+      "_id": "59a598537845e44d19becda8",
+      "name": "Erkki Siira"
+    },
+    {
+      "_id": "59a5985e7845e44d19becdab",
+      "name": "Takoua Ghariani"
+    },
+    {
+      "_id": "59a5986d7845e44d19becdb1",
+      "name": "Marc Girod-Genet"
+    },
+    {
+      "_id": "59a598777845e44d19becdb8",
+      "name": "Gabriel Santos"
+    },
+    {
+      "_id": "59a598817845e44d19becdb9",
+      "name": "Francisco Silva"
+    },
+    {
+      "_id": "59a5988a7845e44d19becdbb",
+      "name": "Lynda Temal"
+    },
+    {
+      "_id": "59a598927845e44d19becdc1",
+      "name": "Brigida Teixeira"
+    },
+    {
+      "_id": "59a5989c7845e44d19becdc3",
+      "name": "Hannu Järvinen"
+    },
+    {
+      "_id": "59a598ad7845e44d19becdc7",
+      "name": "Jarmo Kalaoja"
+    }
+  ],
+  "createdInLOVAt": "2017-08-29T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54ff72862e3e52df4a3cc076",
+      "name": "Maxime Lefrançois"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "This ontology defines batteries and their state of charge ratio property.",
+      "lang": "en",
+      "_id": "59a67dff7845e44d19bf8a68"
+    }
+  ],
+  "homepage": "https://ci.mines-stetienne.fr/seas/index.html",
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2016-10-30T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-08-30T08:58:52.851Z",
+  "nsp": "https://w3id.org/seas/",
+  "prefix": "seasb",
+  "publisherIds": [
+    {
+      "_id": "59a59a437845e44d19bece0a",
+      "name": "SEAS (Smart Energy Aware Systems) project"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Instead \"seas\", we suggest to use the prefix \"seasb\" for unicity in LOV.",
+      "agentId": {
+        "_id": "59a58c6f7845e44d19becccc",
+        "name": "Gabriel Kepeklian"
+      },
+      "createdAt": "2017-08-29T00:00:00.000Z",
+      "_id": "59a67dff7845e44d19bf8a6a"
+    },
+    {
+      "body": "This is another module of the SEAS ontology developed within the SEAS project at https://itea3.org/project/seas.html",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-08-30T00:00:00.000Z",
+      "_id": "59a67dff7845e44d19bf8a69"
+    }
+  ],
+  "tags": [
+    "IoT",
+    "Environment",
+    "Industry"
+  ],
+  "titles": [
+    {
+      "value": "The SEAS Battery ontology.",
+      "lang": "en",
+      "_id": "59a67dff7845e44d19bf8a67"
+    }
+  ],
+  "uri": "https://w3id.org/seas/BatteryOntology",
+  "versions": [
+    {
+      "_id": "59a5a4437845e44d19bed3bb",
+      "classNumber": "0",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/seasb/versions/2016-10-30.n3",
+      "instanceNumber": "0",
+      "issued": "2016-10-30T00:00:00.000Z",
+      "name": "v1.0",
+      "propertyNumber": "7",
+      "relSpecializes": [],
+      "relImports": [
+        "https://w3id.org/seas/SystemOntology"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

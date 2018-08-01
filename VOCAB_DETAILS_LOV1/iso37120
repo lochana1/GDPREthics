@@ -1,0 +1,126 @@
+{
+  "__v": 1,
+  "contributorIds": [],
+  "createdInLOVAt": "2015-04-14T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "552d4247e1c83cc50c4cd271",
+      "name": "Mark S. Fox"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "ISO 37120 – Sustainable Development and Resilience of Communities – Indicators for City Services and Quality of Life (under TC268)\n\nhttp://ontology.eil.utoronto.ca/ISO37120.html\n\nThis OWL file defines a class for each indicator defined in the ISO 37120 standard.  Names for each indicator are provided.  Text definitions are provided only for Economy, Education and Energy indicators, due to copyright restrictions imposed by ISO.  This file is meant to provide a single URI for each indicator.\n\nAn ontology for representing an indicator's supporting data plus meta information such as provenance, validity and trust can be found in:\nhttp://ontology.eil.utoronto.ca/GCI/Foundation/GCI-Foundation.owl\n\nDocumentation of the ontology can be found in:\nhttp://eil.utoronto.ca/smartcities/papers/GCI-Foundation-Ontology.pdf",
+      "lang": "en",
+      "_id": "5817292fc1b1a26b516f8560"
+    }
+  ],
+  "homepage": "http://ontology.eil.utoronto.ca/ISO37120.html",
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2015-04-13T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-10-31T00:00:00.000Z",
+  "nsp": "http://ontology.eil.utoronto.ca/ISO37120.owl#",
+  "prefix": "iso37120",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "This vocabulary reuses many other vocabularies for the Smart Cities domain. The documentation of the ontology can be found in the following paper:\nhttp://eil.utoronto.ca/smartcities/papers/GCI-Foundation-Ontology.pdf",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-04-14T00:00:00.000Z",
+      "_id": "5817292fc1b1a26b516f8562"
+    },
+    {
+      "body": "Added a new version of the vocabulary.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-10-31T00:00:00.000Z",
+      "_id": "5817292fc1b1a26b516f8561"
+    }
+  ],
+  "tags": [
+    "General & Upper",
+    "Society"
+  ],
+  "titles": [
+    {
+      "value": "ISO 37120 indicator URIs",
+      "lang": "en",
+      "_id": "5817292fc1b1a26b516f855f"
+    }
+  ],
+  "uri": "http://ontology.eil.utoronto.ca/ISO37120.owl",
+  "versions": [
+    {
+      "name": "2015.0413",
+      "issued": "2015-04-13T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "0",
+      "classNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/iso37120/versions/2015-04-13.n3",
+      "_id": "552d49960ab1b2204d48733e",
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    },
+    {
+      "name": "v1.2",
+      "issued": "2016-08-12T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "2",
+      "classNumber": "118",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/iso37120/versions/2016-08-12.n3",
+      "_id": "58172907c1b1a26b516f853e",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/ns/adms"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

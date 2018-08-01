@@ -1,0 +1,101 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2014-09-04T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0eec",
+      "name": "Georgios Meditskos"
+    },
+    {
+      "_id": "54b2be028433ca9ccf1c0eed",
+      "name": "Ioannis Kompatsiaris"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The ontology has been developed in the framework of the Dem@Care project for representing the experimentation protocol towards diagnostic support and assessment of Dementia in a controlled environment. The aim of the protocol is to provide a brief overview of their health status of the participants during consultation (cognition, behaviours and function), and to correlate the system (sensor) data with the data collected using typical dementia care assessment tools.",
+      "lang": "en",
+      "_id": "56ae4d4f98f0192c57ea0262"
+    }
+  ],
+  "homepage": "http://www.demcare.eu/ontologies/demlab.html",
+  "issuedAt": "2014-09-02T00:00:00.000Z",
+  "lastDeref": "2015-01-11T20:43:41.464Z",
+  "lastModifiedInLOVAt": "2016-01-31T00:00:00.000Z",
+  "nsp": "http://www.demcare.eu/ontologies/demlab.owl#",
+  "prefix": "demlab",
+  "reviews": [
+    {
+      "body": "This vocabulary has beeb developed for the very specific domain of dementia assessment. It uses advanced OWL constructions.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-09-05T00:00:00.000Z",
+      "_id": "56ae4d4f98f0192c57ea0264"
+    },
+    {
+      "body": "Fixed version history during the annual review.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-31T00:00:00.000Z",
+      "_id": "56ae4d4f98f0192c57ea0263"
+    }
+  ],
+  "tags": [
+    "Health"
+  ],
+  "titles": [
+    {
+      "value": "Dem@Care Lab Ontology for Dementia Assessment",
+      "lang": "en",
+      "_id": "56ae4d4f98f0192c57ea0261"
+    }
+  ],
+  "uri": "http://www.demcare.eu/ontologies/demlab.owl",
+  "versions": [
+    {
+      "name": "v1.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/demlab/versions/2014-09-02.n3",
+      "issued": "2014-09-01T23:00:00.000Z",
+      "classNumber": "54",
+      "propertyNumber": "40",
+      "instanceNumber": "6",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [
+        "http://www.w3.org/2006/",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

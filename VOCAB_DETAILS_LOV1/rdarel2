@@ -1,0 +1,151 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-04-18T23:00:00.000Z",
+  "descriptions": [
+    {
+      "value": "RDA Relationships for Persons, Corporate Bodies, Families",
+      "lang": "en",
+      "_id": "57ad8c2bb00b4b1452a88afc"
+    }
+  ],
+  "issuedAt": "2009-10-11T00:00:00.000Z",
+  "lastDeref": "2014-04-10T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-08-12T00:00:00.000Z",
+  "nsp": "http://metadataregistry.org/uri/schema/RDARelationshipsGR2/",
+  "prefix": "rdarel2",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fd3",
+      "name": "Metadata Management Associates"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "This version of the vocabulary is still under review, and will be moved under http://rdvocab.info/. Meanwhile its use is not recommended. It also reuses http://metadataregistry.org/uri/profile/RegAp/, which is currently 404 but should also be available under http://rdvocab.info/ at some point.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-04-18T00:00:00.000Z",
+      "_id": "57ad8c2bb00b4b1452a88b00"
+    },
+    {
+      "body": "Annual review. No change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-04-10T00:00:00.000Z",
+      "_id": "57ad8c2bb00b4b1452a88aff"
+    },
+    {
+      "body": "Annual review; No change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-03-27T00:00:00.000Z",
+      "_id": "57ad8c2bb00b4b1452a88afe"
+    },
+    {
+      "body": "Annual review - OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-08-12T00:00:00.000Z",
+      "_id": "57ad8c2bb00b4b1452a88afd"
+    }
+  ],
+  "tags": [
+    "People"
+  ],
+  "titles": [
+    {
+      "value": "RDA Relationships GR2",
+      "lang": "en",
+      "_id": "57ad8c2bb00b4b1452a88afb"
+    }
+  ],
+  "uri": "http://metadataregistry.org/uri/schema/RDARelationshipsGR2",
+  "versions": [
+    {
+      "name": "v2013-04-15",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/rdarel2/versions/2013-04-15.n3",
+      "issued": "2013-04-14T23:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "36",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://rdvocab.info/uri/schema/FRBRentitiesRDA/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://metadataregistry.org/uri/profile/RegAp/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "V2011-02-04",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/rdarel2/versions/2011-02-04.n3",
+      "issued": "2011-02-04T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "36",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://rdvocab.info/uri/schema/FRBRentitiesRDA/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://metadataregistry.org/uri/profile/RegAp/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0a",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/deu",
+          "label": "German",
+          "iso639P3PCode": "deu"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

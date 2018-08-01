@@ -1,0 +1,109 @@
+{
+  "__v": 0,
+  "contributorIds": [
+    {
+      "_id": "56e69369aacd7f0864390f8e",
+      "name": "Marvin Frommhold"
+    }
+  ],
+  "createdInLOVAt": "2016-03-14T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "56e69313aacd7f0864390f88",
+      "name": "Sebastian Tramp"
+    },
+    {
+      "_id": "56e69342aacd7f0864390f8c",
+      "name": "Rubén Navarro Piris"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "A vocabulary & data model for describing RDF changes and revisions. It defines the Commit & Revision classes together with their expected properties.",
+      "lang": "en",
+      "_id": "56e69473aacd7f0864390f99"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2014-12-15T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-03-14T10:37:42.090Z",
+  "nsp": "https://vocab.eccenca.com/revision/",
+  "prefix": "eccrev",
+  "publisherIds": [
+    {
+      "_id": "56e6939caacd7f0864390f90",
+      "name": "eccenca GmbH"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "This vocabulary could be useful for tracking changes in RDF dataset. It's only missing a human readable documentation.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-03-14T00:00:00.000Z",
+      "_id": "56e69473aacd7f0864390f98"
+    }
+  ],
+  "tags": [
+    "RDF"
+  ],
+  "titles": [
+    {
+      "value": "RDF changes and revisions vocabulary",
+      "lang": "en",
+      "_id": "56e69473aacd7f0864390f9a"
+    }
+  ],
+  "uri": "https://vocab.eccenca.com/revision/",
+  "versions": [
+    {
+      "name": "v2016-03-14",
+      "issued": "2016-03-14T10:37:40.715Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "9",
+      "classNumber": "4",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/eccrev/versions/2016-03-14.n3",
+      "_id": "56e69476aacd7f0864390f9b",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/ns/prov#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://vocab.deri.ie/void",
+        "http://usefulinc.com/ns/doap#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

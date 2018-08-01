@@ -1,0 +1,105 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2013-10-10T23:00:00.000Z",
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/bio2rdf-goa",
+      "label": "Bio2RDF - GOA",
+      "occurrences": "2"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "The goal of the BioPAX group is to develop a common exchange format for biological pathway data.  More information is available at http://www.biopax.org. This ontology is freely available under the LGPL license",
+      "lang": "en",
+      "_id": "56a6abfb37d8a8044b2670ee"
+    }
+  ],
+  "issuedAt": "2010-07-20T00:00:00.000Z",
+  "lastDeref": "2014-11-05T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-01-25T00:00:00.000Z",
+  "nsp": "http://www.biopax.org/release/biopax-level3.owl#",
+  "prefix": "biopax",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fe9",
+      "name": "BioPAX.org"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "This ontology is largely used by systems in the BioPax community, and is likely to be stable and maintained by its publisher. It has not been so far reused by other LOV vocabularies or LOD data outside its initial scope, but could be.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-10-11T00:00:00.000Z",
+      "_id": "56a6abfb37d8a8044b2670f1"
+    },
+    {
+      "body": "Annual review OK. However, some evidence of datasets using this vocabulary and published on the Web could be useful.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2014-11-05T00:00:00.000Z",
+      "_id": "56a6abfb37d8a8044b2670f0"
+    },
+    {
+      "body": "Annual review OK.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-26T00:00:00.000Z",
+      "_id": "56a6abfb37d8a8044b2670ef"
+    }
+  ],
+  "tags": [
+    "Biology"
+  ],
+  "titles": [
+    {
+      "value": "BioPAX Level 3 ontology",
+      "lang": "en",
+      "_id": "56a6abfb37d8a8044b2670ed"
+    }
+  ],
+  "uri": "http://www.biopax.org/release/biopax-level3.owl",
+  "versions": [
+    {
+      "name": "v1.0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/biopax/versions/2010-07-20.n3",
+      "issued": "2010-07-19T23:00:00.000Z",
+      "classNumber": "68",
+      "propertyNumber": "96",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}

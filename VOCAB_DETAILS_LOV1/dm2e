@@ -1,0 +1,116 @@
+{
+  "__v": 6,
+  "contributorIds": [],
+  "createdInLOVAt": "2015-03-24T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "551194e6ca73f7f51f1aa884",
+      "name": "Steffen Hennicke"
+    },
+    {
+      "_id": "54b2be038433ca9ccf1c0f35",
+      "name": "Julia Iwanowa"
+    },
+    {
+      "_id": "5511949cca73f7f51f1aa87f",
+      "name": "Evelyn Dröge"
+    },
+    {
+      "_id": "551195dbca73f7f51f1aa8af",
+      "name": "Konstantin Baierer"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The DM2E model is a specialisation of the Europeana Data Model (EDM) and can be used for the description of manuscripts in the cultural heritage domain.",
+      "lang": "en",
+      "_id": "578d036d8c6f955d29c02ba0"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2015-01-20T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-07-18T00:00:00.000Z",
+  "nsp": "http://onto.dm2e.eu/schemas/dm2e/",
+  "prefix": "dm2e",
+  "publisherIds": [
+    {
+      "_id": "551196baca73f7f51f1aa8bc",
+      "name": "Institut für Bibliotheks- und Informationswissenschaft (IBI)"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "A good simple example of vocabulary reusing best practices",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-03-24T00:00:00.000Z",
+      "_id": "578d036d8c6f955d29c02ba2"
+    },
+    {
+      "body": "Annual review - OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-07-18T00:00:00.000Z",
+      "_id": "578d036d8c6f955d29c02ba1"
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "DM2E model",
+      "lang": "en",
+      "_id": "578d036d8c6f955d29c02b9f"
+    }
+  ],
+  "uri": "http://onto.dm2e.eu/schemas/dm2e",
+  "versions": [
+    {
+      "name": "v2015-01-20",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/dm2e/versions/2015-01-20.n3",
+      "issued": "2015-01-20T00:00:00.000Z",
+      "classNumber": "11",
+      "propertyNumber": "34",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

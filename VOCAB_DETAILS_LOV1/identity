@@ -1,0 +1,98 @@
+{
+  "__v": 4,
+  "createdInLOVAt": "2014-04-02T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be028433ca9ccf1c0ee1",
+      "name": "Johann Vincent"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "v.2.0 based on P3P1.0 Specification http://www.w3.org/TR/P3P/",
+      "lang": "en",
+      "_id": "56d2d48c85099278261131df"
+    }
+  ],
+  "isDefinedBy": "http://www.ecole.ensicaen.fr/~vincentj/owl/id.owl",
+  "lastDeref": "2015-01-11T20:52:14.702Z",
+  "lastModifiedInLOVAt": "2016-02-28T11:08:27.323Z",
+  "nsp": "http://www.identity.org/ontologies/identity.owl#",
+  "prefix": "identity",
+  "reviews": [
+    {
+      "body": "Security for mobile phones and uses interesting concepts such as EncryptAlgo, IrisRecognition, Login",
+      "agentId": {
+        "_id": "54b2be038433ca9ccf1c0f39",
+        "name": "Amélie Gyrard"
+      },
+      "createdAt": "2014-04-02T00:00:00.000Z",
+      "_id": "56d2d48c85099278261131e1"
+    },
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-04-03T00:00:00.000Z",
+      "_id": "56d2d48c85099278261131e0"
+    }
+  ],
+  "tags": [
+    "Security"
+  ],
+  "titles": [
+    {
+      "value": "Ontology of digital identity.",
+      "lang": "en",
+      "_id": "56d2d48c85099278261131de"
+    }
+  ],
+  "uri": "http://www.identity.org/ontologies/identity.owl",
+  "versions": [
+    {
+      "name": "v2014-04-03",
+      "issued": "2014-04-03T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "3",
+      "propertyNumber": "96",
+      "classNumber": "64",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/identity/versions/2014-04-03.n3",
+      "_id": "56d2d51baacd7f08642f4362",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        },
+        {
+          "_id": "54b2be018433ca9ccf1c0e11",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/fra",
+          "label": "French",
+          "iso639P3PCode": "fra"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

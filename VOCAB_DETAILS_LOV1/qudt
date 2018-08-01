@@ -1,0 +1,158 @@
+{
+  "__v": 2,
+  "createdInLOVAt": "2013-07-28T23:00:00.000Z",
+  "descriptions": [
+    {
+      "value": "The QUDT, or 'Quantity, Unit, Dimension and Type' collection of ontologies define the base classes properties, and restrictions used for modeling physical quantities, units of measure, and their dimensions in various measurement systems.",
+      "lang": "en",
+      "_id": "5875541d7e3410934939d7a4"
+    }
+  ],
+  "homepage": "http://www.linkedmodel.org/doc/qudt/1.1/index.html",
+  "issuedAt": "2011-01-06T00:00:00.000Z",
+  "lastDeref": "2014-07-29T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-01-10T21:52:28.055Z",
+  "nsp": "http://qudt.org/schema/qudt#",
+  "prefix": "qudt",
+  "publisherIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fde",
+      "name": "TopQuadrant"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Annual review OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-07-30T00:00:00.000Z",
+      "_id": "5875541d7e3410934939d7a8"
+    },
+    {
+      "body": "Identified as http://qudt.org/1.1/schema/qudt in the documentation, leading to a different file with the same content. Namespace policy to be clarified.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2013-07-29T00:00:00.000Z",
+      "_id": "5875541d7e3410934939d7a7"
+    },
+    {
+      "body": "Annual review - OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2015-07-15T00:00:00.000Z",
+      "_id": "5875541d7e3410934939d7a6"
+    },
+    {
+      "body": "Annual review- added v.2, with homepage http://qudt.org/doc/2016/DOC_SCHEMA-QUDT-v2.0.html",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-01-10T00:00:00.000Z",
+      "_id": "5875541d7e3410934939d7a5"
+    }
+  ],
+  "tags": [
+    "Methods"
+  ],
+  "titles": [
+    {
+      "value": "Quantities, Units, Dimensions and Types",
+      "lang": "en",
+      "_id": "5875541d7e3410934939d7a3"
+    }
+  ],
+  "uri": "http://qudt.org/schema/qudt",
+  "versions": [
+    {
+      "name": "v2011-06-01",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/qudt/versions/2011-06-01.n3",
+      "issued": "2011-05-31T23:00:00.000Z",
+      "classNumber": "178",
+      "propertyNumber": "62",
+      "instanceNumber": "0",
+      "datatypeNumber": "3",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://www.linkedmodel.org/schema/dtype#",
+        "http://www.linkedmodel.org/schema/vaem#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema#",
+        "http://www.w3.org/2002/07/owl#"
+      ],
+      "relImports": [
+        "http://www.linkedmodel.org/schema/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2001/XMLSchema#"
+      ],
+      "relEquivalent": [
+        "http://dbpedia.org/resource/",
+        "http://dbpedia.org/resource/Category:"
+      ],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://voag.linkedmodel.org/schema/voag#",
+        "http://www.linkedmodel.org/schema/vaem#",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v2011-01-06",
+      "issued": "2011-01-06T00:00:00.000Z",
+      "classNumber": "0",
+      "propertyNumber": "0",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [],
+      "languageIds": [],
+      "isReviewed": false
+    },
+    {
+      "name": "v2.0",
+      "issued": "2016-10-09T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "0",
+      "classNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/qudt/versions/2016-10-09.n3",
+      "_id": "5875579c7e3410934939d808",
+      "relSpecializes": [],
+      "relImports": [
+        "http://www.linkedmodel.org/schema/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://www.linkedmodel.org/schema/vaem",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

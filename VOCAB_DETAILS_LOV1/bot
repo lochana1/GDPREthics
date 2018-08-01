@@ -1,0 +1,113 @@
+{
+  "__v": 1,
+  "contributorIds": [],
+  "createdInLOVAt": "2017-06-19T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "5947875d8f40482b5d8dfe3c",
+      "name": "Irene Celino"
+    },
+    {
+      "_id": "594787d08f40482b5d8dfe60",
+      "name": "Marco Comerio"
+    },
+    {
+      "_id": "594789798f40482b5d8dff00",
+      "name": "Paolo Cappello"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "A vocabulary to describe data sources in a way they can be easily reused and accessed by chatbots.",
+      "lang": "en",
+      "_id": "5947897b8f40482b5d8dff04"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2017-04-01T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-06-19T00:00:00.000Z",
+  "nsp": "http://swa.cefriel.it/ontologies/botdcat-ap#",
+  "prefix": "bot",
+  "publisherIds": [
+    {
+      "_id": "594786f38f40482b5d8dfe16",
+      "name": "Cefriel"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Small vocabulary for simple description of datasets easily understandable by agents",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2017-06-19T00:00:00.000Z",
+      "_id": "5947897b8f40482b5d8dff05"
+    }
+  ],
+  "tags": [
+    "Catalogs",
+    "Services"
+  ],
+  "titles": [
+    {
+      "value": "BotDCAT-AP - Data Catalogue vocabulary Application Profile for chatbots",
+      "lang": "en",
+      "_id": "5947897b8f40482b5d8dff03"
+    }
+  ],
+  "uri": "http://swa.cefriel.it/ontologies/botdcat-ap",
+  "versions": [
+    {
+      "_id": "594789208f40482b5d8dfee4",
+      "classNumber": "2",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/bot/versions/2017-04-01.n3",
+      "instanceNumber": "0",
+      "issued": "2017-04-01T00:00:00.000Z",
+      "name": "v1.0",
+      "propertyNumber": "8",
+      "relSpecializes": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "relImports": [
+        "https://joinup.ec.europa.eu/site/core_vocabularies/registry/dcat-ap/",
+        "https://www.w3.org/ns/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2004/02/skos/core",
+        "http://www.w3.org/ns/dcat"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://creativecommons.org/ns",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

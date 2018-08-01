@@ -1,0 +1,93 @@
+{
+  "__v": 1,
+  "contributorIds": [
+    {
+      "_id": "5abb58870d8ceb4e01493263",
+      "name": "Erwin Folmer"
+    }
+  ],
+  "createdInLOVAt": "2018-03-29T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "5abcb819c7ef5ec931501141",
+      "name": "Kadaster Data Platform"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "Basisregistratie Topografie (BRT) vocabulaire",
+      "lang": "nl",
+      "_id": "5abcc60ac7ef5ec9315026dd"
+    },
+    {
+      "value": "Vocabulary for the Dutch key register of topography (BRT)",
+      "lang": "en",
+      "_id": "5abcc60ac7ef5ec9315026dc"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "lastModifiedInLOVAt": "2018-03-29T00:00:00.000Z",
+  "nsp": "http://brt.basisregistraties.overheid.nl/def/top10nl#",
+  "prefix": "brt",
+  "publisherIds": [
+    {
+      "_id": "5abcba67c7ef5ec9315013f7",
+      "name": "Basisregistratie Topografie (BRT)"
+    }
+  ],
+  "reviews": [
+    {
+      "body": "Dutch National vocabulary for topography data",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e94",
+        "name": "Pierre-Yves Vandenbussche"
+      },
+      "createdAt": "2018-03-29T00:00:00.000Z",
+      "_id": "5abcc60ac7ef5ec9315026de"
+    }
+  ],
+  "tags": [
+    "Geography",
+    "Environment"
+  ],
+  "titles": [
+    {
+      "value": "Key Register Topography (BRT) vocabulary",
+      "lang": "en",
+      "_id": "5abcc60ac7ef5ec9315026db"
+    }
+  ],
+  "uri": "http://brt.basisregistraties.overheid.nl/def/top10nl",
+  "versions": [
+    {
+      "name": "v2018-03-29",
+      "issued": "2018-03-29T10:08:00.817Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "78",
+      "classNumber": "325",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/brt/versions/2018-03-29.n3",
+      "_id": "5abcbb02c7ef5ec9315014b4",
+      "relSpecializes": [],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/terms/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

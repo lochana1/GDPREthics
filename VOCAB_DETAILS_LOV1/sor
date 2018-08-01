@@ -1,0 +1,98 @@
+{
+  "__v": 2,
+  "contributorIds": [],
+  "createdInLOVAt": "2015-05-19T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "555b9e2e30f688c94e820a30",
+      "name": "F. Javier Calzada-Prado"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "The Social Relationships ONtology (SORON) attempts to describe the different types of social relationships in society (both objective and subjective). Current version focuses on inter-personal 1:1 relationships (except family relationships). Other types of relationships may be covered in later versions. It complements FOAF and RELATIONSHIP ontologies.",
+      "lang": "en",
+      "_id": "586ba8e47e341093492c47a9"
+    }
+  ],
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2015-05-12T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2017-01-03T00:00:00.000Z",
+  "nsp": "http://purl.org/net/soron/",
+  "prefix": "sor",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "This vocabulary is a very first version likely to evolve. Lacks language tags in labels and comments, and would do with multilingual lones.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-05-19T00:00:00.000Z",
+      "_id": "586ba8e47e341093492c47ab"
+    },
+    {
+      "body": "Annual review - no change",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2017-01-03T00:00:00.000Z",
+      "_id": "586ba8e47e341093492c47aa"
+    }
+  ],
+  "tags": [
+    "People"
+  ],
+  "titles": [
+    {
+      "value": "SORON: Social Relationships ONtology",
+      "lang": "en",
+      "_id": "586ba8e47e341093492c47a8"
+    }
+  ],
+  "uri": "http://purl.org/net/soron",
+  "versions": [
+    {
+      "_id": "555b99bc30f688c94e8209b2",
+      "classNumber": "0",
+      "datatypeNumber": "0",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/sor/versions/2015-05-12.n3",
+      "instanceNumber": "0",
+      "issued": "2015-05-12T00:00:00.000Z",
+      "name": "v0.1",
+      "propertyNumber": "68",
+      "relSpecializes": [
+        "http://www.w3.org/2002/07/owl",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [
+        "http://purl.org/vocab/relationship/",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl"
+      ],
+      "languageIds": [],
+      "isReviewed": true
+    }
+  ]
+}

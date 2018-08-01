@@ -1,0 +1,165 @@
+{
+  "__v": 2,
+  "contributorIds": [],
+  "createdInLOVAt": "2015-03-11T00:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "5500be68fb2530cc219dd418",
+      "name": "Sean Petiya"
+    }
+  ],
+  "datasets": [],
+  "descriptions": [
+    {
+      "value": "A metadata vocabulary for describing comic books and comic book collections.",
+      "lang": "en",
+      "_id": "57ad87cfb00b4b1452a888b8"
+    }
+  ],
+  "homepage": "https://github.com/comicmeta/ComicBookOntology",
+  "incomRelDisjunc": [],
+  "incomRelEquivalent": [],
+  "incomRelExtends": [],
+  "incomRelGeneralizes": [],
+  "incomRelImports": [],
+  "incomRelMetadata": [],
+  "incomRelSpecializes": [],
+  "issuedAt": "2014-03-21T00:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-08-12T08:26:27.855Z",
+  "nsp": "http://comicmeta.org/cbo/",
+  "prefix": "cbo",
+  "publisherIds": [],
+  "reviews": [
+    {
+      "body": "A very cool vocabulary. Presented as a work in progress, it has already enough expressivity to meet the requirements of most comics collector. Good and clear documentation.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2015-03-11T00:00:00.000Z",
+      "_id": "57ad87cfb00b4b1452a888ba"
+    },
+    {
+      "body": "Added link to Github resource and new version 0.14.1",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-08-12T00:00:00.000Z",
+      "_id": "57ad87cfb00b4b1452a888b9"
+    }
+  ],
+  "tags": [
+    "Image",
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "Comic Book Ontology",
+      "lang": "en",
+      "_id": "57ad87cfb00b4b1452a888b7"
+    }
+  ],
+  "uri": "http://comicmeta.org/cbo/",
+  "versions": [
+    {
+      "name": "v0.13.2",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/cbo/versions/2015-03-11.n3",
+      "issued": "2015-03-11T00:00:00.000Z",
+      "classNumber": "56",
+      "propertyNumber": "128",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": true,
+      "relSpecializes": [
+        "http://purl.org/dc/dcmitype/",
+        "http://purl.org/dc/terms/",
+        "http://schema.org/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://comicmeta.org/",
+        "http://purl.org/dc/dcmitype/",
+        "http://purl.org/dc/terms/",
+        "http://schema.org/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2002/07/owl",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    },
+    {
+      "name": "v0.14.1",
+      "issued": "2015-12-05T00:00:00.000Z",
+      "datatypeNumber": "0",
+      "instanceNumber": "0",
+      "propertyNumber": "127",
+      "classNumber": "56",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/cbo/versions/2015-12-05.n3",
+      "_id": "57ad8833b00b4b1452a888c6",
+      "relSpecializes": [
+        "http://purl.org/dc/dcmitype/",
+        "http://purl.org/dc/terms/",
+        "http://schema.org/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://comicmeta.org/",
+        "http://purl.org/dc/dcmitype/",
+        "http://purl.org/dc/terms/",
+        "http://schema.org/",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2001/XMLSchema",
+        "http://www.w3.org/2002/07/owl",
+        "http://xmlns.com/foaf/0.1/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://purl.org/dc/elements/1.1/",
+        "http://purl.org/dc/terms/",
+        "http://purl.org/vocab/vann/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2002/07/owl",
+        "http://www.w3.org/2003/06/sw-vocab-status/ns"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": true
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "__v": 1,
+  "createdInLOVAt": "2014-10-07T23:00:00.000Z",
+  "creatorIds": [
+    {
+      "_id": "54b2be048433ca9ccf1c0fd3",
+      "name": "Metadata Management Associates"
+    }
+  ],
+  "datasets": [
+    {
+      "uri": "http://datahub.io/dataset/b3kat.249.rdf",
+      "label": "b3kat.249.rdf",
+      "occurrences": "139972"
+    },
+    {
+      "uri": "http://datahub.io/dataset/b3kat.241.rdf",
+      "label": "b3kat.241.rdf",
+      "occurrences": "25249"
+    },
+    {
+      "uri": "http://datahub.io/dataset/sudocfr.rdf",
+      "label": "sudocfr.rdf",
+      "occurrences": "1"
+    }
+  ],
+  "descriptions": [
+    {
+      "value": "This is the provisional registration of the RDA Group 1 Element Vocabulary, managed by the DCMI/RDA Task Group.",
+      "lang": "en",
+      "_id": "56a6536637d8a8044b264551"
+    }
+  ],
+  "issuedAt": "2008-04-13T00:00:00.000Z",
+  "lastDeref": "2014-10-07T23:00:00.000Z",
+  "lastModifiedInLOVAt": "2016-01-25T00:00:00.000Z",
+  "nsp": "http://rdvocab.info/Elements/",
+  "prefix": "rdag1",
+  "reviews": [
+    {
+      "body": "DEPRECATED. All provisional vocabularies in the http://rdvocab.info domain are replaced by stable vocabularies  at http://www.rdaregistry.info/Elements/.",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e74",
+        "name": "Bernard Vatant"
+      },
+      "createdAt": "2014-10-08T00:00:00.000Z",
+      "_id": "56a6536637d8a8044b264553"
+    },
+    {
+      "body": "Annual review - OK",
+      "agentId": {
+        "_id": "54b2be028433ca9ccf1c0e7e",
+        "name": "Ghislain Atemezing"
+      },
+      "createdAt": "2016-01-25T00:00:00.000Z",
+      "_id": "56a6536637d8a8044b264552"
+    }
+  ],
+  "tags": [
+    "Metadata"
+  ],
+  "titles": [
+    {
+      "value": "RDA Group 1 Elements",
+      "lang": "en",
+      "_id": "56a6536637d8a8044b264550"
+    }
+  ],
+  "uri": "http://rdvocab.info/Elements",
+  "versions": [
+    {
+      "name": "v2012-08-30",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/rdag1/versions/2012-08-30.n3",
+      "issued": "2012-08-29T23:00:00.000Z",
+      "classNumber": "11",
+      "propertyNumber": "459",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://rdvocab.info/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://rdvocab.info/uri/schema/FRBRentitiesRDA/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://metadataregistry.org/uri/profile/RegAp/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    },
+    {
+      "name": "v2012-04-09",
+      "fileURL": "https://lov.linkeddata.es/dataset/lov/vocabs/rdag1/versions/2012-04-09.n3",
+      "issued": "2012-04-08T23:00:00.000Z",
+      "classNumber": "11",
+      "propertyNumber": "459",
+      "instanceNumber": "0",
+      "datatypeNumber": "0",
+      "reviewed": false,
+      "relSpecializes": [
+        "http://rdvocab.info/",
+        "http://www.w3.org/2000/01/rdf-schema#"
+      ],
+      "relImports": [],
+      "relGeneralizes": [],
+      "relExtends": [
+        "http://rdvocab.info/uri/schema/FRBRentitiesRDA/"
+      ],
+      "relEquivalent": [],
+      "relDisjunc": [],
+      "relMetadata": [
+        "http://metadataregistry.org/uri/profile/RegAp/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://www.w3.org/2000/01/rdf-schema#",
+        "http://www.w3.org/2004/02/skos/core#"
+      ],
+      "languageIds": [
+        {
+          "_id": "54b2be018433ca9ccf1c0e0c",
+          "uri": "http://id.loc.gov/vocabulary/iso639-2/eng",
+          "label": "English",
+          "iso639P3PCode": "eng"
+        }
+      ],
+      "isReviewed": false
+    }
+  ]
+}
