@@ -5,5 +5,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX base: <http://www.gdpr-ethics/linked-datasets#>
 
 
-SELECT ?Datasets
-WHERE { ?Datasets  base:hasEmbryoRelatedVocab    ?"true"^^xsd:boolean }
+SELECT ?Dataset
+WHERE {
+ 	?Dataset 	base:hasEmbryoRelatedVocab 	?"true"^^xsd:boolean  .
+	OPTIONAL { ?Dataset 	base:hasPersonalData 	?"true"^^xsd:boolean  }
+
+}

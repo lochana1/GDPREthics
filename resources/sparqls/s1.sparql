@@ -7,6 +7,9 @@ PREFIX base: <http://www.gdpr-ethics/linked-datasets#>
 
 SELECT ?Dataset
 WHERE {
-{ 	SELECT ?Dataset  WHERE { ?Dataset 	base:hasPersonalData 	?"true"^^xsd:boolean.  }  GROUP BY ?Dataset	}
-{	SELECT ?Dataset  WHERE { ?Dataset 	base:hasEmbryoRelatedVocab 	?"true"^^xsd:boolean.  }  GROUP BY ?Dataset	}
+ 	?Dataset 	base:hasEmbryoRelatedVocab 	?"true"^^xsd:boolean  .
+ 	?Dataset 	base:hasCellsRelatedVocab 	?"true"^^xsd:boolean  .
+	OPTIONAL { ?Dataset 	base:hasPersonalData 	?"true"^^xsd:boolean  }
+
+
 }
