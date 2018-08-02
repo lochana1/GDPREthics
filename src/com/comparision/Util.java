@@ -60,7 +60,7 @@ public class Util {
     static final String DatasetLabelURIFile = "Temp/DATASET_LABELS/";
     static final String resource = "Temp/";
 
-
+    // Vocab string and the data property
     static Map<String,DatatypeProperty> AllVocabsProperty = new HashMap<>();
     static Map<String,DatatypeProperty> GdprPrinciple = new HashMap<>();
     static Map<String,DatatypeProperty> GdprActivity = new HashMap<>();
