@@ -56,6 +56,7 @@ public class Util {
     static final String ONTOLOGY_PATH = "Temp/PHASE2_OUTPUT/gdpr-ethics.rdf";
     static final String VOCAB_DETAILS_LOV = "Temp/VOCAB_DETAILS_LOV/";
     static final Path REPORT_PATH = Paths.get("Temp/PHASE1_OUTPUT/report.txt");
+    static final Path EVALUATION_PATH = Paths.get("Temp/PHASE1_OUTPUT/evaluation.txt");
     static final String VOCAB_DETAILS_FROM_LOV = "https://lov.linkeddata.es/dataset/lov/api/v2/vocabulary/info?vocab=";
     static final String DatasetLabelURIFile = "Temp/DATASET_LABELS/";
     static final String resource = "Temp/";
@@ -67,6 +68,7 @@ public class Util {
     static Map<String,DatatypeProperty> GdprData = new HashMap<>();
 
     static List<ReportPhase1> report = new ArrayList<>();
+    static List<ReportPhase1> EvalReport = new ArrayList<>();
 
     static DatatypeProperty hasLFTprinciple;
     static DatatypeProperty hasAccuracyprinciple;

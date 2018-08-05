@@ -14,8 +14,9 @@ public class Main {
     public static void main(String[] args ) throws IOException {
         long start = System.currentTimeMillis();
         DatasetOntologyOperations.datasetOntologyOperations();
-//        DatasetLabelURIOperations.datasetLabelURIOperations();
+        DatasetLabelURIOperations.datasetLabelURIOperations();
         PrepareReportPhase1.preparePHASE1Report();
+        Evaluation.evluateOntologyDatasets();
         CreateOntology.createOntology();
 
         QueryWindow window = new QueryWindow();

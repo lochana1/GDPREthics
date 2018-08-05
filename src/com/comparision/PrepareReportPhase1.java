@@ -22,6 +22,7 @@ public class PrepareReportPhase1 {
         }
         catch(Exception e){
             System.out.println("There has been an errror encountered while preparing the report.\nException: "+e);
+            e.printStackTrace();
             }
 
 

@@ -8,9 +8,9 @@ import java.util.*;
 
 public class SearchingDatasetOntology {
 
-
+    public static List<String> foundVocabsAreas = new ArrayList<>();
     static void checkInOntology(String ontologyName){
-        List<String> foundVocabsAreas = new ArrayList<>();
+
         List<String> foundVocabsPrefixes = new ArrayList<>();
         List<String> foundVocabsTerms = new ArrayList<>();
 
