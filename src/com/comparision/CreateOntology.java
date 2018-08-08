@@ -115,7 +115,7 @@ public class CreateOntology {
         GdprAreas.addSuperClass(Dataset);
         Vocabs.addSuperClass(Dataset);
         Vocabs.addDisjointWith(GdprAreas);
-//        Vocabs.addRDFType(Dataset);
+        Vocabs.addRDFType(Dataset);
 
 
         /*************************** GDPRArea Principles  ***************************/
@@ -123,13 +123,13 @@ public class CreateOntology {
         DatatypeProperty containsGdprPrinciples = ontModel.createDatatypeProperty(NAMESPACE + "containsGDPRPrinciples");
         containsGdprPrinciples.setDomain(GdprPrinciple);
         containsGdprPrinciples.setRange(XSD.xboolean);
-        containsGdprPrinciples.addLabel("hasLawfulnessFairness&containsGDPRPrinciples", null);
+        containsGdprPrinciples.addLabel("hasLawfulnessFairness-containsGDPRPrinciples", null);
 
-        hasLFTprinciple = ontModel.createDatatypeProperty(NAMESPACE + "hasLawfulnessFairness&Transparencyprinciple");
+        hasLFTprinciple = ontModel.createDatatypeProperty(NAMESPACE + "hasLawfulnessFairness-Transparencyprinciple");
         hasLFTprinciple.setDomain(GdprPrinciple);
         hasLFTprinciple.setRange(XSD.xboolean);
         hasLFTprinciple.addSuperProperty(containsGdprPrinciples);
-        hasLFTprinciple.addLabel("hasLawfulnessFairness&Transparencyprinciple", null);
+        hasLFTprinciple.addLabel("hasLawfulnessFairness-Transparencyprinciple", null);
 
         hasAccuracyprinciple = ontModel.createDatatypeProperty(NAMESPACE + "hasAccuracyprinciple");
         hasAccuracyprinciple.setDomain(GdprPrinciple);
@@ -137,7 +137,7 @@ public class CreateOntology {
         hasAccuracyprinciple.addSuperProperty(containsGdprPrinciples);
         hasAccuracyprinciple.addLabel("hasAccuracyprinciple", null);
 
-        hasICprinciple = ontModel.createDatatypeProperty(NAMESPACE + "hasIntegrity&Confidentialityprinciple");
+        hasICprinciple = ontModel.createDatatypeProperty(NAMESPACE + "hasIntegrity-Confidentialityprinciple");
         hasICprinciple.setDomain(GdprPrinciple);
         hasICprinciple.setRange(XSD.xboolean);
         hasICprinciple.addSuperProperty(containsGdprPrinciples);
@@ -504,10 +504,12 @@ public class CreateOntology {
 //            System.out.println("VOCAB BUILDING: " +r.getFoundVocabsAreas());
 //            System.out.println("AllVocabsProperty " + AllVocabsProperty);
             for (String v : r.getFoundVocabsAreas()) {
+                String vocabArea = v.substring(0,v.length()-4);  // used with evaluation
 
-
-                if (AllVocabsProperty.containsKey(v)) {
-                    OntDataset.addLiteral(AllVocabsProperty.get(v), true);
+                if (Util.AllVocabsProperty.containsKey(vocabArea)) {
+//                if (Util.AllVocabsProperty.containsKey(v)) {
+                    OntDataset.addLiteral(AllVocabsProperty.get(vocabArea), true);
+//                    OntDataset.addLiteral(AllVocabsProperty.get(v), true);
                     OntDataset.addLiteral(containsVocab, true);
                 }
             }

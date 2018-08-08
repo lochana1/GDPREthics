@@ -16,8 +16,8 @@ public class Evaluation {
     public static void evluateOntologyDatasets() throws IOException {
 //    public static void main(String [] args) throws IOException {
         getOntologyListFromFIle();
+//        System.out.println("evalList:"+ Util.EvalReport );
         writeToFile();
-
     }
 
 
@@ -26,29 +26,26 @@ public class Evaluation {
     Iterate thru the List of the Ontology Files
      */
     private static void getOntologyListFromFIle() throws IOException {
-        ReportPhase1 eval = new ReportPhase1();
-        eval.setDesc("Evaluation for Dataset Ontology");
-        for(Map.Entry<String,List<String>> entry : Util.Onts.entrySet())
-        {    System.out.println("Name:"+entry.getKey());
 
+
+        for(Map.Entry<String,List<String>> entry : Util.Onts.entrySet()){
+//            System.out.println("Name:"+entry.getKey());
+            ReportPhase1 eval = new ReportPhase1();
+            eval.setDesc("Evaluation for Dataset Ontology");
             eval.setName(entry.getKey());
             List<String> foundvocabs = getListOfVocabInOntology(entry.getKey(),entry.getValue());
-            System.out.println("Vocabs:"+foundvocabs);
             eval.setFoundVocabs(foundvocabs);
             List<String> vocabAreas = getVocabAreasInOntology(foundvocabs);
-            System.out.println("Vocab Areas:"+vocabAreas);
             eval.setFoundVocabsAreas(vocabAreas);
             List<String> foundgdprAreas = getGDPRAreasInOntology(entry.getKey(), vocabAreas);
-            System.out.println("GDPR Areas :"+foundgdprAreas);
 
             eval.setFoundGdprAreas(foundgdprAreas);
 //
             Util.EvalReport.add(eval);
-            System.out.println("Name:"+entry.getKey());
-            System.out.println("Vocabs:"+foundvocabs);
-            System.out.println("Vocab Areas:"+getVocabAreasInOntology(foundvocabs));
-            System.out.println("GDPR Areas :"+foundgdprAreas);
+
+
         }
+//        System.out.println("evalList:"+ Util.EvalReport );
 
     }
 
@@ -106,13 +103,13 @@ public class Evaluation {
 
     private static List<String> getGDPRAreasInOntology(String ontName, List<String> vocabAreas){
         List<String> gdprAreasInOnt = new ArrayList<>();
-        System.out.println("Vocab Areas for GDPR:" + vocabAreas);
+//        System.out.println("Vocab Areas for GDPR:" + vocabAreas);
         for(String v : vocabAreas){
             String temp = v.substring(0,v.length()-4);
             if(GDPRAreasInVocab.getGdprAreasInVocabs(temp).size()>=0)
                 gdprAreasInOnt.addAll(GDPRAreasInVocab.getGdprAreasInVocabs(temp));
         }
-        System.out.println("GDPR Areas found:" + gdprAreasInOnt);
+//        System.out.println("GDPR Areas found:" + gdprAreasInOnt);
         return gdprAreasInOnt;
     }
 

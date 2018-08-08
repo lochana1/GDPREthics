@@ -23,7 +23,7 @@ public class DatasetLabelURIOperations {
 //        getAllVocabPrefixesFromBagOfWords();
 //        The below mentioned function needs to be called only once
 //            getAllvocabDetails();
-
+//        setVocabsPresentInDatasetLabelURI();
         setVocabsAreasPresentInDatasetLabelURI();
         setGDPRAreasInDatasetLabelURI();
         prepareReport();
@@ -103,7 +103,7 @@ public class DatasetLabelURIOperations {
                     }
            if (vocabinDatasetLabelSet.size() > 0)
                 Util.VocabInDatasetLabel.put(ds, vocabinDatasetLabelSet);
-            System.out.println("ALL LABELS & VOCABS one by One:" +i++ +Util.VocabInDatasetLabel.get(ds));
+            System.out.println(ds + "vocab prefixes" +Util.VocabInDatasetLabel.get(ds));
         }
     }
 
@@ -121,8 +121,10 @@ public class DatasetLabelURIOperations {
                 vocabAreainLabel.add(Bow);
 
                 }
+            System.out.println(ds + "Vocab Areas"+vocabAreainLabel);
 
         }
+
     }
 
 
@@ -200,6 +202,9 @@ public class DatasetLabelURIOperations {
             //       Adding the corresponding GDPR Areas
             rep2.setFoundGdprAreas(getGDPRAreasInDatasetLabelURI(on.getKey()));
             Util.report.add(rep2);
+            System.out.println("Report: indi"+rep2);
+//            System.out.println("Report: full"+Util.report);
+            System.out.println("GDPR AREAS in Label:"+Util.GDPRAreasInDatasetLabel);
 
         }
 

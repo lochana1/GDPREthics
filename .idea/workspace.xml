@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f864219-8d53-4880-b2f7-c4939f177884" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/comparision/Evaluation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/CreateOntology.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/CreateOntology.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/SearchingDatasetOntology.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/SearchingDatasetOntology.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DetectEthicalConcerns/com/comparision/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sparqls/s1.sparql" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sparqls/s1.sparql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sparqls/s2.sparql" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sparqls/s2.sparql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/comparision/CreateOntology.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/CreateOntology.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/comparision/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/comparision/PrepareReportPhase1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/PrepareReportPhase1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/comparision/SearchingDatasetOntology.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/SearchingDatasetOntology.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/comparision/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/comparision/DatasetLabelURIOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/DatasetLabelURIOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/comparision/Evaluation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/Evaluation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,22 +17,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/DetectEthicalConcerns$Main.ic" NAME="Main Coverage Results" MODIFIED="1533628299798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.comparision.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/comparision/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateOntology.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CreateOntology.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/comparision/CreateOntology.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="92" column="29" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
+            <state relative-caret-position="164">
+              <caret line="511" selection-start-line="511" selection-end-line="511" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,49 +36,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gdpr-ethics.rdf" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Temp/PHASE2_OUTPUT/gdpr-ethics.rdf">
+      <file leaf-file-name="Vocab_Gene.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Gene.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="DatasetLabelURIOperations.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/comparision/DatasetLabelURIOperations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="64" column="34" lean-forward="true" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
+            <state relative-caret-position="516">
+              <caret line="123" selection-start-line="123" selection-end-line="123" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="report.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Temp/PHASE1_OUTPUT/report.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="67" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="evaluation.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Temp/PHASE1_OUTPUT/evaluation.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QueryHub.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/comparision/QueryHub.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SetGDPRPropertyList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/comparision/SetGDPRPropertyList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-            </state>
-          </provider>
+      <file leaf-file-name="3_omim.schema.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/3_omim.schema.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -102,11 +67,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>areas</find>
-      <find>Util.</find>
-      <find>oFile</find>
-      <find>List</find>
-      <find>Writing to</find>
       <find>print</find>
       <find>Time</find>
       <find>hasTimeRelatedVocab</find>
@@ -130,8 +90,13 @@
       <find>Dataset</find>
       <find>Date</find>
       <find>dataset</find>
-      <find>label</find>
       <find>addSuperClass</find>
+      <find>label</find>
+      <find>one by</find>
+      <find>eval</find>
+      <find>vocabareas</find>
+      <find>&amp;</find>
+      <find>vocabs</find>
     </findStrings>
     <replaceStrings>
       <replace>Vocabs</replace>
@@ -154,6 +119,7 @@
       <replace>hasCellsRelatedVocab</replace>
       <replace>vocabinDatasetLabelSet</replace>
       <replace>Val</replace>
+      <replace>-</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -162,8 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Services.txt" />
-        <option value="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Sexual.txt" />
         <option value="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Society.txt" />
         <option value="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Time.txt" />
         <option value="$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Tissue.txt" />
@@ -190,28 +154,30 @@
         <option value="$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Age_Areas.txt" />
         <option value="$PROJECT_DIR$/Temp/AllGDPRProperties" />
         <option value="$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Cell_Areas.txt" />
-        <option value="$PROJECT_DIR$/resources/sparqls/s1.sparql" />
-        <option value="$PROJECT_DIR$/resources/sparqls/s2.sparql" />
-        <option value="$PROJECT_DIR$/resources/sparqls/s3.sparql" />
         <option value="$PROJECT_DIR$/resources/sparqls/s4.sparql" />
-        <option value="$PROJECT_DIR$/resources/sparqls/s5.sparql" />
-        <option value="$PROJECT_DIR$/resources/sparqls/s6.sparql" />
         <option value="$PROJECT_DIR$/resources/sparqls/s7.sparql" />
-        <option value="$PROJECT_DIR$/resources/sparqls/s8.sparql" />
-        <option value="$PROJECT_DIR$/resources/sparqls/s9.sparql" />
-        <option value="$PROJECT_DIR$/resources/sparqls/s10.sparql" />
-        <option value="$PROJECT_DIR$/resources/sparqls/s11.sparql" />
         <option value="$PROJECT_DIR$/resources/sparqls/s12.sparql" />
-        <option value="$PROJECT_DIR$/resources/sparqls/s13.sparql" />
         <option value="$PROJECT_DIR$/resources/sparqls/s14.sparql" />
-        <option value="$PROJECT_DIR$/Temp/DATASET_LABELS" />
         <option value="$PROJECT_DIR$/src/com/comparision/Util.java" />
         <option value="$PROJECT_DIR$/src/com/comparision/SearchingDatasetOntology.java" />
         <option value="$PROJECT_DIR$/src/com/comparision/PrepareReportPhase1.java" />
         <option value="$PROJECT_DIR$/src/com/comparision/Main.java" />
         <option value="$PROJECT_DIR$/src/com/comparision/OntologyAddData.java" />
         <option value="$PROJECT_DIR$/Temp/PHASE1_OUTPUT/evaluation.txt" />
+        <option value="$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_People_Areas.txt" />
         <option value="$PROJECT_DIR$/src/com/comparision/Evaluation.java" />
+        <option value="$PROJECT_DIR$/src/com/comparision/DatasetLabelURIOperations.java" />
+        <option value="$PROJECT_DIR$/resources/sparqls/s5.sparql" />
+        <option value="$PROJECT_DIR$/resources/sparqls/s1.sparql" />
+        <option value="$PROJECT_DIR$/resources/sparqls/s2.sparql" />
+        <option value="$PROJECT_DIR$/resources/sparqls/s3.sparql" />
+        <option value="$PROJECT_DIR$/resources/sparqls/s6.sparql" />
+        <option value="$PROJECT_DIR$/resources/sparqls/s8.sparql" />
+        <option value="$PROJECT_DIR$/resources/sparqls/s10.sparql" />
+        <option value="$PROJECT_DIR$/resources/sparqls/s11.sparql" />
+        <option value="$PROJECT_DIR$/resources/sparqls/s13.sparql" />
+        <option value="$PROJECT_DIR$/resources/sparqls/s9.sparql" />
+        <option value="$PROJECT_DIR$/Temp/DATASET_LABELS" />
         <option value="$PROJECT_DIR$/src/com/comparision/CreateOntology.java" />
       </list>
     </option>
@@ -225,9 +191,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="18" />
+    <option name="y" value="44" />
+    <option name="width" value="1281" />
+    <option name="height" value="1373" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -237,8 +205,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -256,40 +223,12 @@
               <item name="DetectEthicalConcerns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DetectEthicalConcerns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DetectEthicalConcerns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="comparision" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DetectEthicalConcerns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DetectEthicalConcerns" type="462c0819:PsiDirectoryNode" />
-              <item name="Temp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DetectEthicalConcerns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DetectEthicalConcerns" type="462c0819:PsiDirectoryNode" />
-              <item name="Temp" type="462c0819:PsiDirectoryNode" />
-              <item name="DATASET_ONTOLOGY" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DetectEthicalConcerns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DetectEthicalConcerns" type="462c0819:PsiDirectoryNode" />
-              <item name="Temp" type="462c0819:PsiDirectoryNode" />
-              <item name="PHASE1_OUTPUT" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DetectEthicalConcerns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DetectEthicalConcerns" type="462c0819:PsiDirectoryNode" />
-              <item name="Temp" type="462c0819:PsiDirectoryNode" />
-              <item name="PHASE2_OUTPUT" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,19 +243,19 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Temp/DATASET_ONTOLOGY" />
-      <recent name="$PROJECT_DIR$/Temp/GDPR_TAGS" />
-      <recent name="$PROJECT_DIR$/Temp/BAG_OF_WORDS" />
-      <recent name="$PROJECT_DIR$/resources/sparqls" />
-      <recent name="$PROJECT_DIR$/resources/questions" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Temp/bg2" />
       <recent name="$PROJECT_DIR$/VOCAB_DETAILS_LOV1" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/resources" />
       <recent name="$PROJECT_DIR$/Temp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Temp/DATASET_ONTOLOGY" />
+      <recent name="$PROJECT_DIR$/Temp/Datasets" />
+      <recent name="$PROJECT_DIR$/Temp/GDPR_TAGS" />
+      <recent name="$PROJECT_DIR$/Temp/BAG_OF_WORDS" />
+      <recent name="$PROJECT_DIR$/resources/sparqls" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -472,12 +411,13 @@
       <workItem from="1532697251571" duration="7771000" />
       <workItem from="1533119969858" duration="28548000" />
       <workItem from="1533229078398" duration="13329000" />
-      <workItem from="1533416494908" duration="3529000" />
+      <workItem from="1533416494908" duration="4391000" />
+      <workItem from="1533494289527" duration="21245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175841000" />
+    <option name="totallyTimeSpent" value="197948000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -489,8 +429,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
-    <editor active="true" />
+    <frame x="18" y="44" width="1281" height="1373" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.13412817" />
@@ -501,55 +440,56 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50039715" side_tool="true" weight="0.39865872" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.20670392" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32935917" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.11251863" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2364597" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3297568" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.14083457" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11993646" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8641851" visible="true" weight="0.259887" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32668328" />
+      <window_info id="Structure" order="1" sideWeight="0.13581489" side_tool="true" visible="true" weight="0.259887" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960285" weight="0.05860349" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960285" weight="0.366617" />
       <window_info anchor="bottom" id="Dependency Viewer" order="11" weight="0.5798005" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32668328" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Dependency Viewer" order="12" weight="0.5798005" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" weight="0.3466334" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32668328" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21316166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.13412817" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32935917" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32668328" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960285" weight="0.366617" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.23770492" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039715" side_tool="true" weight="0.39865872" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32935917" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32668328" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32668328" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
@@ -564,217 +504,87 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/comparision/DatasetLabelURIOperations.java</url>
-          <line>105</line>
+          <url>file://$PROJECT_DIR$/src/com/comparision/CreateOntology.java</url>
+          <line>550</line>
           <properties />
-          <option name="timeStamp" value="23" />
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="24" />
+      <option name="time" value="36" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/2_Breast_cell_line_ontology.txt" />
-    <entry file="file://$PROJECT_DIR$/Temp/VOCAB_DETAILS_LOV/geo">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="25" column="49" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Gene.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/DATASET_LABELS">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/AllGDPRProperties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/8_disgenet_void.txt" />
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/DatasetLabelURIOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="142" column="17" selection-start-line="142" selection-start-column="17" selection-end-line="142" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/DatasetOntologyOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="43" column="57" lean-forward="true" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/DataFromDatasetOntology.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="576" selection-start-line="576" selection-end-line="576" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/OntologyAddData.java" />
-    <entry file="file://$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Time.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="4" selection-start-line="3" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/ReportPhase1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
-          <folding>
-            <element signature="e#1064#1065#0" expanded="true" />
-            <element signature="e#1110#1111#0" expanded="true" />
-            <element signature="e#1268#1269#0" expanded="true" />
-            <element signature="e#1324#1325#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/SearchingDatasetOntology.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Vocabularies_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Tissue_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Society_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Time_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Services_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Security_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_RDF_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Quality_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_People_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Methods_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Metadata_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_IoT_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Industry_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Health_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Government_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Geography_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Gene_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Environment_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Embryo_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Drugs_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Child_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Cell_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Biology_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/GDPR_TAGS/Vocab_Age_Areas.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/GDPRAreasInVocab.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="33" column="48" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/1_biopax-level3.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/Evaluation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="109" column="35" selection-start-line="109" selection-start-column="35" selection-end-line="109" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/Evaluation/AllVocabs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/PrepareReportPhase1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/comparision/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/questions/1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/questions/2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/questions/3.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/questions/4.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/questions/5.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/questions/6.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/questions/7.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/questions/8.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/questions/9.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/questions/10.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="49" lean-forward="true" selection-start-column="49" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/questions/11.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/questions/13.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/questions/14.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/5_IxnO.obo_v1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/questions/12.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparision/SetPrefixesAndVocabBow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -785,41 +595,231 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/comparision/QueryHub.java">
+    <entry file="file://$PROJECT_DIR$/src/com/comparision/SetVocabPropertyList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="420">
+          <caret line="28" column="69" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/Datasets/1_biopax-level3.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/6_IXNO.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/7_orphanet.schema.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/9_Physio-chemical-owlapi.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/10_human-dev-anat-staged.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/12_Gnoss_Personal_rdf.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/11_Human_dev_anatomy_embryo">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/2_Breast_cell_line_ontology.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/8_disgenet_void.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/PHASE1_OUTPUT/report.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Temp/PHASE1_OUTPUT/evaluation.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/PHASE1_OUTPUT/report.txt">
+    <entry file="file://$PROJECT_DIR$/resources/sparqls/s1.sparql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="67" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="67" />
+        <state>
+          <caret selection-end-line="14" />
+          <folding>
+            <element signature="e#0#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sparqls/s2.sparql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sparqls/s3.sparql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sparqls/s4.sparql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sparqls/s5.sparql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="15" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sparqls/s6.sparql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sparqls/s7.sparql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="13" />
+          <folding>
+            <element signature="e#0#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sparqls/s8.sparql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sparqls/s9.sparql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sparqls/s10.sparql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sparqls/s11.sparql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="17" />
+          <folding>
+            <element signature="e#0#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sparqls/s12.sparql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sparqls/s13.sparql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sparqls/s14.sparql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="13" />
+          <folding>
+            <element signature="e#0#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparision/ReportPhase1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+          <folding>
+            <element signature="e#1159#1160#0" expanded="true" />
+            <element signature="e#1198#1199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/1_biopax-level3.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/DATASET_LABELS">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/3_omim.schema.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/BAG_OF_WORDS/Vocab_Gene.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/comparision/DatasetLabelURIOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/comparision/CreateOntology.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="92" column="29" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
+        <state relative-caret-position="164">
+          <caret line="511" selection-start-line="511" selection-end-line="511" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/PHASE2_OUTPUT/gdpr-ethics.rdf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="64" column="34" lean-forward="true" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
         </state>
       </provider>
     </entry>

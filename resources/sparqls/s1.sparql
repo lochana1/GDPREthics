@@ -7,9 +7,8 @@ SELECT ?Dataset
 WHERE {
 
  	?Val    rdf:a    ?"true"^^xsd:boolean   .
- 	?Dataset 	base:hasEmbryoRelatedVocab 	?Val  .
- 	?Dataset 	base:hasCellsRelatedVocab 	?Val  .
-	OPTIONAL { ?Dataset 	base:hasPersonalData 	?Val  }
-
+ 	{   ?Dataset 	base:hasEmbryoRelatedVocab 	?Val  .}
+UNION
+ 	{   ?Dataset 	base:hasCellsRelatedVocab 	?Val  .}
 
 }
