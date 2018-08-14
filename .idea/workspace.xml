@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3f864219-8d53-4880-b2f7-c4939f177884" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sparqls/s1.sparql" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sparqls/s1.sparql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sparqls/s2.sparql" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sparqls/s2.sparql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/comparision/CreateOntology.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/CreateOntology.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/comparision/DatasetLabelURIOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/DatasetLabelURIOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/comparision/Evaluation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/comparision/Evaluation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +23,8 @@
       <file leaf-file-name="CreateOntology.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/comparision/CreateOntology.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="511" selection-start-line="511" selection-end-line="511" />
+            <state relative-caret-position="455">
+              <caret line="517" column="34" lean-forward="true" selection-start-line="517" selection-start-column="34" selection-end-line="517" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,7 +40,7 @@
       <file leaf-file-name="DatasetLabelURIOperations.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/comparision/DatasetLabelURIOperations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
+            <state relative-caret-position="1770">
               <caret line="123" selection-start-line="123" selection-end-line="123" />
             </state>
           </provider>
@@ -206,6 +202,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,7 +224,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -412,12 +408,13 @@
       <workItem from="1533119969858" duration="28548000" />
       <workItem from="1533229078398" duration="13329000" />
       <workItem from="1533416494908" duration="4391000" />
-      <workItem from="1533494289527" duration="21245000" />
+      <workItem from="1533494289527" duration="21900000" />
+      <workItem from="1534240675757" duration="288000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197948000" />
+    <option name="totallyTimeSpent" value="198891000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -430,6 +427,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="18" y="44" width="1281" height="1373" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.13412817" />
@@ -440,55 +438,55 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50039715" side_tool="true" weight="0.39865872" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.20670392" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32935917" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3297568" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.14083457" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.20670392" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.14046289" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8641851" visible="true" weight="0.259887" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8631791" visible="true" weight="0.2639225" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32668328" />
-      <window_info id="Structure" order="1" sideWeight="0.13581489" side_tool="true" visible="true" weight="0.259887" />
+      <window_info id="Structure" order="1" sideWeight="0.13682093" side_tool="true" visible="true" weight="0.2639225" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960285" weight="0.05860349" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960285" weight="0.05860349" />
       <window_info anchor="bottom" id="Dependency Viewer" order="11" weight="0.5798005" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3297568" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32668328" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Dependency Viewer" order="12" weight="0.5798005" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32668328" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" weight="0.3466334" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32935917" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21316166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.13412817" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32935917" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" weight="0.3466334" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960285" weight="0.366617" />
+      <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.23770492" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039715" side_tool="true" weight="0.39865872" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960285" weight="0.366617" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="12" weight="0.5798005" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039715" side_tool="true" weight="0.39865872" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32668328" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32668328" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info id="Favorites" order="6" side_tool="true" />
@@ -502,14 +500,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/comparision/CreateOntology.java</url>
-          <line>550</line>
-          <properties />
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -571,9 +561,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/5_IxnO.obo_v1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/5_IxnO.obo_v1.txt" />
     <entry file="file://$PROJECT_DIR$/resources/questions/12.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -605,30 +593,14 @@
     <entry file="file://$PROJECT_DIR$/Temp/Datasets/1_biopax-level3.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/6_IXNO.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/7_orphanet.schema.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/9_Physio-chemical-owlapi.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/10_human-dev-anat-staged.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/12_Gnoss_Personal_rdf.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/11_Human_dev_anatomy_embryo">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/2_Breast_cell_line_ontology.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/8_disgenet_void.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/6_IXNO.txt" />
+    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/7_orphanet.schema.txt" />
+    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/9_Physio-chemical-owlapi.txt" />
+    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/10_human-dev-anat-staged.txt" />
+    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/12_Gnoss_Personal_rdf.txt" />
+    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/11_Human_dev_anatomy_embryo" />
+    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/2_Breast_cell_line_ontology.txt" />
+    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/8_disgenet_void.txt" />
     <entry file="file://$PROJECT_DIR$/Temp/PHASE1_OUTPUT/report.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -647,9 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="14" />
-          <folding>
-            <element signature="e#0#160#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -657,9 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" lean-forward="true" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#160#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -667,9 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#160#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -677,9 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#160#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -687,9 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="15" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#160#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -697,9 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#160#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -707,9 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="13" />
-          <folding>
-            <element signature="e#0#160#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -717,9 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#160#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -727,9 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#160#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -737,9 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#160#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -747,9 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="17" />
-          <folding>
-            <element signature="e#0#160#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -757,9 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#160#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -767,9 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#160#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -777,9 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="13" />
-          <folding>
-            <element signature="e#0#160#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -794,9 +724,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/1_biopax-level3.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/DATASET_ONTOLOGY/1_biopax-level3.txt" />
     <entry file="file://$PROJECT_DIR$/Temp/DATASET_LABELS">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -808,15 +736,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/comparision/DatasetLabelURIOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
+        <state relative-caret-position="1770">
           <caret line="123" selection-start-line="123" selection-end-line="123" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/comparision/CreateOntology.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="511" selection-start-line="511" selection-end-line="511" />
+        <state relative-caret-position="455">
+          <caret line="517" column="34" lean-forward="true" selection-start-line="517" selection-start-column="34" selection-end-line="517" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

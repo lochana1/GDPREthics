@@ -496,7 +496,8 @@ public class CreateOntology {
             }
 
 
-            /*************************** Adding Values to Vocab properties  ***************************/
+
+            /*************************** Adding Values to Vocab properties- Non-Evaluation  ***************************/
 
             //            Individual aVocab;
             //            aVocab = Vocabs.createIndividual();
@@ -504,12 +505,12 @@ public class CreateOntology {
 //            System.out.println("VOCAB BUILDING: " +r.getFoundVocabsAreas());
 //            System.out.println("AllVocabsProperty " + AllVocabsProperty);
             for (String v : r.getFoundVocabsAreas()) {
-                String vocabArea = v.substring(0,v.length()-4);  // used with evaluation
+//                String vocabArea = v.substring(0,v.length()-4);  // used with evaluation
 
-                if (Util.AllVocabsProperty.containsKey(vocabArea)) {
-//                if (Util.AllVocabsProperty.containsKey(v)) {
-                    OntDataset.addLiteral(AllVocabsProperty.get(vocabArea), true);
-//                    OntDataset.addLiteral(AllVocabsProperty.get(v), true);
+//                if (Util.AllVocabsProperty.containsKey(vocabArea)) {
+                if (Util.AllVocabsProperty.containsKey(v)) {
+//                    OntDataset.addLiteral(AllVocabsProperty.get(vocabArea), true);
+                    OntDataset.addLiteral(AllVocabsProperty.get(v), true);
                     OntDataset.addLiteral(containsVocab, true);
                 }
             }
@@ -518,86 +519,28 @@ public class CreateOntology {
 
         }
         System.out.println("\n\n\nOntology has been created now. Please check PHASE2_OUTPUT folder for the gdpr-ethics.rdf file");
+        System.out.println("\n This is the NORMAL SECTION. Try Creating Ontology in Evaluation mode Other results");
         System.out.println("Time Taken: " + (System.currentTimeMillis() - start) + "ms");
 
 
-    }
 
 
 
-        /*
-         *  The following section has been created for Evaluation purpose
-         */
-
-
-        /*************************** Adding Data to the Newly created Ontology  ***************************/
-
-//        System.out.println("\n\n\nWriting to the Knowledge Base......for Evaluation");
-//        long start = System.currentTimeMillis();
 //
-//
-//        for (ReportPhase1 r: EvalReport) {
-//
-//
-//            /*************************** Adding Values classes & Subclasses  ***************************/
-//            Individual OntDataset;
-//            OntDataset = Dataset.createIndividual(NAMESPACE + r.getName());
-//
-//
-//
-//            /*************************** Adding Values to GDPR Area properties  ***************************/
-//
-//            //            Individual anArea;
-//            //            anArea = GdprAreas.createIndividual();
-//
-//            boolean gp=false,ga=false,gd=false;
-//
-//
-//            for (String g : r.getFoundGdprAreas()) {
-//
-//                if (Util.GdprPrinciple.containsKey(g)) {
-//                    OntDataset.addLiteral(Util.GdprPrinciple.get(g), true);
-//                    OntDataset.addLiteral(containsGdprPrinciples, true);
-//                    gp = true;
-//                }
-//
-//                if (Util.GdprActivity.containsKey(g)) {
-//                    OntDataset.addLiteral(Util.GdprActivity.get(g), true);
-//                    OntDataset.addLiteral(containsGDPRactivities, true);
-//                    ga = true;
-//                }
-//
-//                if (Util.GdprData.containsKey(g)) {
-//                    OntDataset.addLiteral(Util.GdprData.get(g), true);
-//                    OntDataset.addLiteral(containsGDPRData, true);
-//                    gd = true;
-//                }
-//
-//
-//                if(gp)
-//                    OntDataset.addOntClass(GdprPrinciple);
-//                if(ga)
-//                    OntDataset.addOntClass(GdprActivity);
-//                if(gd)
-//                    OntDataset.addOntClass(GdprData);
-//
-//            }
-//
-//
-//            /*************************** Adding Values to Vocab properties  ***************************/
+//        /*************************** Adding Values to Vocab properties- Evaluation  ***************************/
 //
 //            //            Individual aVocab;
 //            //            aVocab = Vocabs.createIndividual();
 //            SetVocabPropertyList.setVocabPropertyList();
-//            System.out.println("VOCAB BUILDING: " +r.getFoundVocabsAreas());
-//            System.out.println("GDPR Areas: " +r.getFoundGdprAreas());
+////            System.out.println("VOCAB BUILDING: " +r.getFoundVocabsAreas());
 ////            System.out.println("AllVocabsProperty " + AllVocabsProperty);
 //            for (String v : r.getFoundVocabsAreas()) {
+//                String vocabArea = v.substring(0,v.length()-4);  // used with evaluation
 //
-//
-//
-//                if (AllVocabsProperty.containsKey(v)) {
-//                    OntDataset.addLiteral(AllVocabsProperty.get(v), true);
+//                if (Util.AllVocabsProperty.containsKey(vocabArea)) {
+////                if (Util.AllVocabsProperty.containsKey(v)) {
+//                    OntDataset.addLiteral(AllVocabsProperty.get(vocabArea), true);
+////                    OntDataset.addLiteral(AllVocabsProperty.get(v), true);
 //                    OntDataset.addLiteral(containsVocab, true);
 //                }
 //            }
@@ -605,9 +548,19 @@ public class CreateOntology {
 //            writeToFile(ontModel);
 //
 //        }
-//        System.out.println("\n\n\nOntology has been created now for Evaluation. Please check PHASE2_OUTPUT folder for the gdpr-ethics.rdf file");
-//        System.out.println("Time Taken: "+(System.currentTimeMillis()- start)+"ms");
-//    }
+//        System.out.println("\n\n\nOntology has been created now. Please check PHASE2_OUTPUT folder for the gdpr-ethics.rdf file");
+//        System.out.println("\n This is the EVALUATIONK SECTION. Try Creating Ontology in Normal mode for non- evaluation mode");
+//        System.out.println("Time Taken: " + (System.currentTimeMillis() - start) + "ms");
+
+
+
+
+
+
+    }
+
+
+
 
 
     public static void writeToFile(OntModel ontModel) {
